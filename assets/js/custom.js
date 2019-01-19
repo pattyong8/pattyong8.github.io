@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	"use strict";
 
-    
+
 
         /*==================================
 
@@ -25,9 +25,9 @@ $(document).ready(function(){
 6. Smooth Scroll spy
 7. Animation support
 ======================================*/
-    
 
-    // 1. Scroll To Top 
+
+    // 1. Scroll To Top
 
 		$(window).on('scroll',function () {
 
@@ -56,7 +56,7 @@ $(document).ready(function(){
 		});
 
     // 2. range js
-        
+
         $( "#slider-range" ).slider({
             range: true,
             min: 0,
@@ -68,10 +68,10 @@ $(document).ready(function(){
         });
         $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
         " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-        
-        
+
+
         // Quantity Buttons Shop
-    
+
         $(".qtyplus").on("click", function(){
         var b = $(this).parents(".quantity-form").find("input.qty"),
                 c = parseInt(b.val(), 10) + 1,
@@ -86,11 +86,11 @@ $(document).ready(function(){
         });
 
 
-    // 3.Countdown timer 
-        
+    // 3.Countdown timer
+
         function makeTimer() {
 
-                var endTime = new Date("March 7, 2018 12:00:00 PDT");            
+                var endTime = new Date("March 21, 2019 19:00:00 PDT");
                 var endTime = (Date.parse(endTime)) / 1000;
 
                 var now = new Date();
@@ -98,7 +98,7 @@ $(document).ready(function(){
 
                 var timeLeft = endTime - now;
 
-                var days = Math.floor(timeLeft / 86400); 
+                var days = Math.floor(timeLeft / 86400);
                 var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
                 var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
                 var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
@@ -110,32 +110,32 @@ $(document).ready(function(){
                 $("#days").html(days + '<span class="camp">Days</span>');
                 $("#hours").html(hours + '<span class="camp">Hour</span>');
                 $("#minutes").html(minutes + '<span class="camp">Minute</span>');
-                $("#seconds").html(seconds + '<span class="camp">Second</span>');       
+                $("#seconds").html(seconds + '<span class="camp">Second</span>');
 
         }
-        
+
         setInterval(function() { makeTimer(); }, 1000);
 
     // 4. owl carousel
-    
+
         // i. #testimonial-carousel
-    
-        
+
+
         var owl=$('#testemonial-carousel');
         owl.owlCarousel({
             items:3,
             margin:0,
-            
+
             loop:true,
             autoplay:true,
             smartSpeed:1000,
-            
+
             //nav:false,
             //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-            
+
             dots:true,
             autoplayHoverPause:true,
-        
+
             responsiveClass:true,
                 responsive:{
                     0:{
@@ -151,19 +151,19 @@ $(document).ready(function(){
                         items:3
                     }
                 }
-            
-            
+
+
         });
 
     // 5. datepicker
             $('[data-toggle="datepicker"]').datepicker();
 
     // 6. Smooth Scroll spy
-        
+
         $('.header-area').sticky({
            topSpacing:0
         });
-        
+
         //=============
 
         $('li.smooth-menu a').bind("click", function(event) {
@@ -173,7 +173,7 @@ $(document).ready(function(){
                 scrollTop: $(anchor.attr('href')).offset().top - -1
             }, 1200,'easeInOutExpo');
         });
-        
+
         $('body').scrollspy({
             target:'.navbar-collapse',
             offset:0
@@ -193,8 +193,6 @@ $(document).ready(function(){
             $(".about-us-txt button").addClass("animated fadeInDown").css({'opacity':'0'});
 
         });
-        
 
-});	
 
-	
+});
