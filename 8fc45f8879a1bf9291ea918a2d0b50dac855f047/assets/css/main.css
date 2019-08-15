@@ -197,6 +197,14 @@ h6, .h6 {
   letter-spacing: 0.16rem;
 }
 
+/* added hp on 8/14/19 to create a base format for trip blog paragraph format. Took out on 8/14/19.
+hp, .h10 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  ;
+}
+*/
+
 p img {
   margin: 0;
 }
@@ -1624,7 +1632,8 @@ input::-moz-focus-inner {
  * ## entry media
  * ------------------------------------------------------------------- */
 .media-wrap {
-  margin-bottom: 7.2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .media-wrap img,
@@ -3266,7 +3275,7 @@ body.search-is-visible {
  * ## related articles
  * ------------------------------------------------------------------- */
 .entry__related {
-  margin-top: 10.2rem;
+  margin-top: 3rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
@@ -3293,7 +3302,7 @@ body.search-is-visible {
   float: left;
   width: 33.33333%;
   padding-left: 4rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0rem;
 }
 
 .related__link {
