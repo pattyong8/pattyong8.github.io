@@ -928,6 +928,7 @@ select:-webkit-autofill:focus {
  * # buttons
  *
  * ------------------------------------------------------------------- */
+/* //Removed on 12/21/19 to fix the
 .btn,
 button,
 input[type="submit"],
@@ -954,6 +955,7 @@ input[type="button"] {
   background-color: #d3d3d3;
   border: 0.2rem solid #d3d3d3;
 }
+*/
 
 .btn:hover,
 button:hover,
@@ -2952,7 +2954,7 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .s-content,
 .s-footer {
-  padding-left: 330px;
+  padding-left: 100px;
   padding-right: 100px;
   max-width: 2140px;
 }
@@ -3061,7 +3063,7 @@ body.search-is-visible {
 @media screen and (max-width:1600px) {
   .s-content,
   .s-footer {
-    padding-left: 320px;
+    padding-left: 285px;
   }
 
 }
@@ -3069,7 +3071,7 @@ body.search-is-visible {
 @media screen and (max-width:1200px) {
   .s-content,
   .s-footer {
-    padding-left: 290px;
+    padding-left: 80px;
     padding-right: 80px;
   }
 

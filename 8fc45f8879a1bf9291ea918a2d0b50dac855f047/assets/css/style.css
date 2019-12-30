@@ -146,6 +146,7 @@ body {
 .header-area {
 	position: relative;
 	width: 100%;
+	background: rgba(77, 78, 84, 1);
 }
 
 
@@ -178,26 +179,6 @@ body {
 	.sticky-wrapper.is-sticky .main-menu .nav a:before {
 		bottom: 17.6px;
 	}
-
-/*.sub-travel-area */
-
-	.sub-travel-area {}
-
-	.sub-travel-area:after {
-	position: absolute;
-	content: '';
-	background: rgba(77, 78, 84, 1);
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	-webkit-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-ms-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
-}
 
 
 /*.sticky-wrapper */
@@ -1416,7 +1397,7 @@ body {
 --------------------------------------*/
 
 .blog {
-	background: #74eaff;
+	background: #f9f9f9;
 	padding: 115px 0 92px;
 }
 
@@ -1783,6 +1764,11 @@ body {
 
 /*foot-icons*/
 
+.journal-days{
+	text-align: center;
+	margin-top: 20px;
+}
+
 .foot-icons {
 	text-align: center;
 	margin-top: 60px;
@@ -1814,7 +1800,7 @@ body {
 }
 
 .foot-icon-bg-2 {
-	background: #1da1f3;
+	background: #0e76a8;
 }
 
 .foot-icon-bg-3 {

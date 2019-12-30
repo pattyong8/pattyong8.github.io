@@ -1,11 +1,35 @@
-Free Licesne
+Changes & Instructions
 
-1. You can use this item for personal and/or commercial use.
-2. You cannot remove the copyright link to ThemeSINE without buying the "Remove Footer Link" license.
-3. You can change it however you like.
-4. You can redistribute this template.
+0. Commands to update website real time
+  cd ~/Documents/Patrick/pattyong8.github.io
+  git add .
+  git commit -m ""
+  git push
 
-cd ~/Documents/Patrick/pattyong8.github.io
-git add .
-git commit -m ""
-git push
+1. Removed line 935 in main.css to fix the button formatting on other pages
+  ".btn,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"]""
+
+2. Countdown timer
+  Under custom.js to change the time for upcoming trips
+
+3. Header-area within individual trip packages
+  Adding the background color so that it doesn't start with a blank background
+
+4. Adjusted the background color (background: rgba(0, 122, 207, .5);) for subscribe banner
+  Style.css line with (".subscribe:after")
+
+5. Adding spacing in sections
+
+6. Adding in spacing with foot-icons in style for the journal days section & bottom of pages
+  Created .journal-days for journal spacing
+
+7. Changed the spacing on the borders of the travel pages on main...
+ (@media screen and (max-width:1600px) {
+  .s-content,
+  .s-footer {
+    padding-left: 285px; <<< from 315px
+  })
