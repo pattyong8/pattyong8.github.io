@@ -27,9 +27,12 @@ Changes & Instructions
 6. Adding in spacing with foot-icons in style for the journal days section & bottom of pages
   Created .journal-days for journal spacing
 
-7. Changed the spacing on the borders of the travel pages on main...
+7. Changed the spacing on the borders of the travel pages on main... (These media screens reacts to
+the size of the screen and change the dimensions of the page accordingly)
  (@media screen and (max-width:1600px) {
   .s-content,
   .s-footer {
     padding-left: 285px; <<< from 315px
   })
+    7a. Changed the total size of the content on travel page from 900px to 1000px
+      Under main... "".content__page"

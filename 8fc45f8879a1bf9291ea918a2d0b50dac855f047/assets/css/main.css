@@ -3068,6 +3068,15 @@ body.search-is-visible {
 
 }
 
+@media screen and (max-width:1300px) {
+  .s-content,
+  .s-footer {
+    padding-left: 210px;
+    padding-right: 80px;
+  }
+
+}
+
 @media screen and (max-width:1200px) {
   .s-content,
   .s-footer {
