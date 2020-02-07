@@ -36,3 +36,9 @@ the size of the screen and change the dimensions of the page accordingly)
   })
     7a. Changed the total size of the content on travel page from 900px to 1000px
       Under main... "".content__page"
+
+8. Moved pages number pages to top of pages
+
+9. Added Picture # text box to bottom of photos (in Main css at the top in the "new Additions" section)
+
+10. Created p-box in (style css page) for white text for picture text boxes Line 89 towards the top

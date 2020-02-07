@@ -86,6 +86,12 @@ p {
 	font-size: 14px;
 }
 
+p-box {
+	margin: 0;
+	color: white;
+	font-size: 14px;
+}
+
 img {
 	border: none;
 	max-width: 100%;
