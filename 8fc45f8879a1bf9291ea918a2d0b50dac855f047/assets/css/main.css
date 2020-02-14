@@ -58,6 +58,16 @@
  /* -------------------------------------------------------------------
   * ## New Additions
   * ------------------------------------------------------------------- */
+
+  /* 2/11/20 for transparent box at bottom of travel images*/
+  .TavelImageBorder {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
 /* 2/4/20 for text box at bottom of photos*/
   .text-block {
     position: absolute;
@@ -3323,7 +3333,14 @@ body.search-is-visible {
 
 .related__item {
   float: left;
-  width: 33.33333%;
+  width: 33.33%;
+  padding-left: 4rem;
+  margin-bottom: 0rem;
+}
+
+.related__item_half {
+  float: left;
+  width: 50%;
   padding-left: 4rem;
   margin-bottom: 0rem;
 }
