@@ -42,3 +42,13 @@ the size of the screen and change the dimensions of the page accordingly)
 9. Added Picture # text box to bottom of photos (in Main css at the top in the "new Additions" section)
 
 10. Created p-box in (style css page) for white text for picture text boxes Line 89 towards the top
+
+11. Removed the "a LINK" settings in main.css & style.css
+      /* a {
+        color: #33998a;
+        transition: all 0.3s ease-in-out;
+      }
+
+      /*a:hover, 3/3/20 - to fix drop downs for places Visited */
+
+12.

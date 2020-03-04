@@ -59,7 +59,7 @@ body {
 }
 
 a,
-a:hover,
+/*a:hover, 3/3/20 - to fix drop downs for places Visited */ 
 a:active,
 a:focus {
 	display: inline-block;
