@@ -949,7 +949,8 @@ body {
 }
 
 .discount-offer:after,
-.subscribe:after {
+.subscribe:after,
+.subscribe1:after {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -1573,8 +1574,41 @@ body {
 	margin-top: 10px;
 }
 
+/*subscribe1-for section after experience on index.html*/
 
-/*subscribe-title*/
+.subscribe1 {
+	position: relative;
+	padding: 120px 0;
+	background: url(../../assets/images/home/Skydive.png)no-repeat center fixed;
+	background-size: cover;
+	z-index: 1;
+}
+
+
+/*subscribe1-title*/
+
+.subscribe1 .subscribe1-title {
+	margin-bottom: 45px;
+}
+
+.subscribe1-title h2 {
+	color: #fff;
+	font-size: 38px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.subscribe1-title p {
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.4;
+	margin-top: 10px;
+}
+
+
+/*subscribe1-title*/
 
 
 /*custom-input-group*/
