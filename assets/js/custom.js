@@ -166,7 +166,17 @@ $(document).ready(function(){
 
         //=============
 
-        $('li.smooth-menu a').bind("click", function(event) {
+				$('li.smooth-menu a').bind("click", function(event) {
+            event.preventDefault();
+            var anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(anchor.attr('href')).offset().top - -1
+            }, 1200,'easeInOutExpo');
+        });
+
+    // Created Button Type for Smooth Explore button
+
+        $('button.smooth-menu a').bind("click", function(event) {
             event.preventDefault();
             var anchor = $(this);
             $('html, body').stop().animate({
@@ -193,6 +203,23 @@ $(document).ready(function(){
             $(".about-us-txt button").addClass("animated fadeInDown").css({'opacity':'0'});
 
         });
+
+			// 8.animation support (added 8/21/2020)
+
+					$(window).load(function(){
+
+							$(".memories-home h2").removeClass("animated fadeInUp").css({'opacity':'0'});
+							$(".memories-home p").removeClass("animated fadeInUp").css({'opacity':'0'});
+							$(".memories-home button").removeClass("animated fadeInDown").css({'opacity':'0'});
+					});
+
+					$(window).load(function(){
+
+							$(".memories-home h2").addClass("animated fadeInUp").css({'opacity':'0'});
+							$(".memories-home p").addClass("animated fadeInUp").css({'opacity':'0'});
+							$(".memories-home button").addClass("animated fadeInDown").css({'opacity':'0'});
+
+					});
 
 
 });

@@ -97,6 +97,10 @@
 
 
 		<!-- main-menu Start -->
+		<?php
+		include('header.php');
+		?>
+
 		<header class="top-area">
 			<div class="header-area">
 				<div class="container">
@@ -120,10 +124,14 @@
 								<div class="collapse navbar-collapse">
 									<ul class="nav navbar-nav navbar-right">
 										<li class="smooth-menu"><a href="#home">Home</a></li>
-										<li class="smooth-menu"><a href="#gallery">Travel</a></li>
-										<li class="smooth-menu"><a href="#pack">Experience</a></li>
-										<li class="smooth-menu"><a href="#blog">Blog</a></li>
-										<li class="smooth-menu"><a href="#subs">Upcoming</a></li>
+										<li><a href="Travel-Pages/20s/20s-2019-20.html">Memories</a></li>
+										<li><a href="#pack">Activities</a></li>
+										<li><a href="#blog">Reviews</a></li>
+										<li><a href="#blog">Blogs</a></li>
+										<li>
+											<button class="book-btn">Explore
+											</button>
+										</li><!--/.project-btn-->
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div><!-- /.main-menu-->
@@ -136,11 +144,10 @@
 		</header><!-- /.top-area-->
 		<!-- main-menu End -->
 
-
 		<!--about-us start -->
 		<section id="home" class="about-us">
 			<div class="container">
-				<div class="about-us-content">
+				<div class="about-us-content" style="margin-top: 100px">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="single-about-us">
@@ -150,6 +157,9 @@
 
 									</h2>
 									<div class="about-btn">
+										<button  class="about-view">
+											explore now
+										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.about-us-txt-->
 							</div><!--/.single-about-us-->
@@ -165,9 +175,9 @@
 
 		</section><!--/.about-us-->
 		<!--about-us end -->
-
+		<section id="gallery" class="gallery">
 		<div class="s-content content">
-				<main class="row content__page">
+				<main class="row content__page" style="margin-bottom:-80px">
 
 						<section class="column large-full entry format-standard">
 
@@ -206,9 +216,9 @@
 
 										<div class="col-md-4">
 												<a href="Travel-Pages/20s/20s-2019-20.html">
-													<img src="assets/images/About-Icons/validating-ticket.png">
+													<img src="assets/images/About-Icons/backpack.png">
 												</a>
-												<h4 style="margin-bottom: 10px">Experiences</h4>
+												<h4 style="margin-bottom: 10px">Activities</h4>
 												<p>This category captures the many special climbs, hikes, and breweries I have experienced over the years. The goal is the rate each of these and note down their significance.</p>
 										</div>
 
@@ -267,7 +277,7 @@
 
 						<section class="column large-full entry format-standard">
 
-								<div style="margin-top: -30px; margin-bottom: -50px" class="col-md-4">
+								<div style="margin-top: -40px; margin-bottom: -50px" class="col-md-4">
 										<div>
 												<img src="assets/images/About-Icons/About-me.jpeg"
 													srcset="assets/images/About-Icons/About-me.jpeg 2000w,
@@ -276,18 +286,13 @@
 										</div>
 								</div>
 
-								<h2>This Is My Story</h2>
+								<h2>Hello Everyone!</h2>
 
 								<p style="margin-top: 25px">
-								Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
-								dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-								sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+								My name is Patrick Ong and my goal with the website is to capture all the amazing moments in my life in one central location. A few of my passions in life are rock climbing (current bouldering and lead), teaching /mentoring, and traveling. I was introduced to climbing while in Seattle over the summer of 2018. Since then, climbing has been a large part of my life. My lifelong goal is to one day free climb El Capitan (very hard but attainable with dedication).
+								</p>
 
-								<p>
-								Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor
-								sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim
-								mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco. Lorem
-								ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat aute.
+								<p style="margin-top: 15px">Another goal of mine is to visit at least half of the countries in the world. This goal was inspired by my Japan / Taiwan / Thailand post college trip. I had such an amazing time backpacking through Southeast Asia and can’t wait to see the rest of the world. Lastly, I am an extrovert by nature and love exploring new things. I love experiencing new things with friends and family.
 								</p>
 
 						</section>
