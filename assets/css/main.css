@@ -3120,7 +3120,7 @@ body.search-is-visible {
 /* -------------------------------------------------------------------
  * responsive:
  * site content & footer
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 @media screen and (max-width:1600px) {
   .s-content,
   .s-footer {
@@ -3146,6 +3146,8 @@ body.search-is-visible {
   }
 
 }
+
+*/
 
 @media screen and (max-width:1100px) {
   .s-content,
