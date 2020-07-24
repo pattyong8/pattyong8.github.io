@@ -3120,7 +3120,7 @@ body.search-is-visible {
 /* -------------------------------------------------------------------
  * responsive:
  * site content & footer
- * -------------------------------------------------------------------
+ * --------------------------------------------Page content to be center (7.23.20)
 @media screen and (max-width:1600px) {
   .s-content,
   .s-footer {
