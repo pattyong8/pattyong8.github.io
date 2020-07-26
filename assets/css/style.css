@@ -881,14 +881,14 @@ body {
 /*.item img*/
 
 
-/*.item-title*/
+/*.item-title (7.26.20 changed width from 300-400px to have a bigger travel item title)*/
 
 .item-title {
 	position: absolute;
 	background: transparent;
 	bottom: 20%;
 	left: 20px;
-	width: 300px;
+	width: 400px;
 	height: 20px;
 	-webkit-transition: all 0.6s linear;
 	-moz-transition: all 0.6s linear;
