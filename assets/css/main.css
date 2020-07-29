@@ -3439,12 +3439,14 @@ body.search-is-visible {
 
   .related__item {
     padding-left: 4.4rem;
-    width: 50%;
+    width: 33%;
   }
 
+/* ----- Removed for Asia post grad trip with 3 maps (7.29.20)
   .related__item:nth-child(2n + 1) {
     clear: both;
   }
+  */
 
 }
 

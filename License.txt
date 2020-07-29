@@ -69,4 +69,5 @@ the size of the screen and change the dimensions of the page accordingly)
     1577 -
     /*subscribe1-for section after experience on index.html*/
 
-13.
+13. Fixing hover effect on map on sub pages
+    Need to style="display: inline" on the image
