@@ -3380,7 +3380,6 @@ body.search-is-visible {
 }
 
 .related__item_half {
-  float: left;
   width: 50%;
   padding-left: 4rem;
   margin-bottom: 0rem;
