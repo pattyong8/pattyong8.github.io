@@ -189,20 +189,20 @@ $(document).ready(function(){
             offset:0
         });
 
-    // 7.animation support
+				// 7.animation support
 
-        $(window).load(function(){
+		        $(window).load(function(){
 
-            $(".about-us-txt h2").removeClass("animated fadeInUp").css({'opacity':'0'});
-            $(".about-us-txt button").removeClass("animated fadeInDown").css({'opacity':'0'});
-        });
+		            $(".about-us-txt h2").removeClass("animated fadeInUp").css({'opacity':'0'});
+		            $(".about-us-txt button").removeClass("animated fadeInDown").css({'opacity':'0'});
+		        });
 
-        $(window).load(function(){
+		        $(window).load(function(){
 
-            $(".about-us-txt h2").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".about-us-txt button").addClass("animated fadeInDown").css({'opacity':'0'});
+		            $(".about-us-txt h2").addClass("animated fadeInUp").css({'opacity':'0'});
+		            $(".about-us-txt button").addClass("animated fadeInDown").css({'opacity':'0'});
 
-        });
+		        });
 
 			// 8.animation support (added 8/21/2020)
 
@@ -214,6 +214,7 @@ $(document).ready(function(){
 							$(".memories-home button").removeClass("animated fadeInDown").css({'opacity':'0'});
 							$(".memories-home img").removeClass("animated fadeInDown").css({'opacity':'0'});
 							$(".memories-home a").removeClass("animated fadeInDown").css({'opacity':'0'});
+							$(".memories-home p-box").removeClass("animated fadeInDown").css({'opacity':'0'});
 					});
 
 					$(window).load(function(){
@@ -224,7 +225,7 @@ $(document).ready(function(){
 							$(".memories-home button").addClass("animated fadeInDown").css({'opacity':'0'});
 							$(".memories-home img").addClass("animated fadeInDown").css({'opacity':'0'});
 							$(".memories-home a").addClass("animated fadeInDown").css({'opacity':'0'});
-
+							$(".memories-home p-box").removeClass("animated fadeInDown").css({'opacity':'0'});
 					});
 
 

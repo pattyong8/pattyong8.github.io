@@ -6,7 +6,7 @@
 @media screen and (max-width:1200px) {}
 
 
-/*max-width:1200px*/
+/*max-width:1200px (7.26.20 - Changed item-title bottom to 25%)*/
 
 @media screen and (max-width:1199px) {
 	.travel-budget h3 {
@@ -26,7 +26,7 @@
 		font-size: 15px;
 	}
 	.item-title {
-		bottom: 20%;
+		bottom: 25%;
 		left: 15px;
 	}
 	.thumbnail h2 {
