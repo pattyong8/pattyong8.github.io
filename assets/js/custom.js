@@ -90,7 +90,7 @@ $(document).ready(function(){
 
         function makeTimer() {
 
-                var endTime = new Date("August 14, 2020 12:00:00 PDT");
+                var endTime = new Date("October 22, 2020 12:00:00 PDT");
                 var endTime = (Date.parse(endTime)) / 1000;
 
                 var now = new Date();
