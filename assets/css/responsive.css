@@ -25,10 +25,12 @@
 	.single-tab-select-box h2 {
 		font-size: 15px;
 	}
+	/*   REMOVED 10.6.20 **This was taken our so that mobile view would have the black transparent band going through the entire pic horizontially.
 	.item-title {
 		bottom: 25%;
-		left: 15px;
+		left: 20px;
 	}
+	*/
 	.thumbnail h2 {
 		line-height: 1.5;
 	}

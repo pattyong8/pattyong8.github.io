@@ -246,6 +246,88 @@
 												<img src="../../../assets/images/Travel-Pages-Images/College-F&S/Summer-Break-2016/SB12.png" alt="portfolio image"/>
 											</div><!-- /.col -->
 
+											<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5; margin-top: 20px">
+											HOME & FAMILY!
+											</p>
+
+											<div class="comments-wrap">
+
+													<div id="comments" class="column large-12">
+
+															<h3 class="h2">Comments</h3>
+
+															<!-- START commentlist -->
+															<ol class="commentlist">
+
+																	<li class="thread-alt depth-1 comment">
+
+																			<div class="comment__content">
+
+																				<div class="comment__info">
+																						<div class="comment__author">Nothing yet!</div>
+
+																						<div class="comment__meta">
+																								<div class="comment__time">:)</div>
+																						</div>
+																				</div>
+
+																				<div class="comment__text">
+																				<p>Coming Soon</p>
+																				</div>
+
+																			</div>
+
+																	</li> <!-- end comment level 1 -->
+
+															</ol>
+															<!-- END commentlist -->
+
+													</div> <!-- end comments -->
+
+													<div class="column large-12 comment-respond">
+
+															<!-- START respond -->
+
+
+
+															<div id="respond">
+
+																	<h3 class="h2">Add Comment <span>Help me create memories from your perspective!</span></h3>
+																	<form name="submit-to-google-sheet" id="contactForm" method="post" action="" autocomplete="off" onSubmit="alert('Thank you! I will make sure to add your comment soon! :)')">
+																		<fieldset>
+
+																				<div class="form-field">
+																						<input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text">
+																				</div>
+
+																				<div class="message form-field">
+																						<textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+																				</div>
+
+																				<input name="submit" id="submit-form" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
+
+																		</fieldset>
+
+																	</form>
+															</div>
+															<!-- END respond-->
+
+
+															<script>
+																const scriptURL = 'https://script.google.com/macros/s/AKfycbwJjCkEuTaMzWu4dV7kLRbZ8LLAacYhY6FhvgateuthLTxZJig/exec'
+																const form = document.forms['submit-to-google-sheet']
+																form.addEventListener('submit', e => {
+																	e.preventDefault()
+																	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+																		.then(response => console.log('Success!', response))
+																		.catch(error => console.error('Error!', error.message))
+																})
+															</script>
+
+
+													</div> <!-- end comment-respond -->
+
+											</div> <!-- end comments-wrap -->
 
 									</div> <!-- end entry content -->
 
