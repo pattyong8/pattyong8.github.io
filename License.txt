@@ -1,5 +1,9 @@
 Changes & Instructions
 
+-1. Local Server
+python -m SimpleHTTPServer
+http://localhost:8000/
+
 0. Commands to update website real time
   cd ~/Documents/Patrick/pattyong8.github.io
   git add .
