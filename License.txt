@@ -19,6 +19,7 @@ http://localhost:8000/
 
 2. Countdown timer
   Under custom.js to change the time for upcoming trips
+  Style.css discount-offer for pic
 
 3. Header-area within individual trip packages
   Adding the background color so that it doesn't start with a blank background

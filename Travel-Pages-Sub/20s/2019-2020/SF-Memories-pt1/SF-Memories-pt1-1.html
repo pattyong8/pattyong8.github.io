@@ -138,19 +138,37 @@
 											<div class="entry__related">
 											<h2>Pictures</h2>
 
-											<!-- START OF SCRIPT MADE BY JACK -->
+											<!-- START OF SCRIPT MADE BY JACK + RISHI
+										  Can use this...  to help with autosizing for photos and boxes-->
 											<div id="image-container"/>
 											<script>
 
-											function appendImage(url, index){
+											function appendImage(prefix, index){
 												const div = document.createElement('div');
-
+												const number2 = i + 1;
+												const number3 = i + 2;
+												const url1 = `${prefix}${i}.jpg`;
+												const url2 = `${prefix}${i+1}.jpg`;
+												const url3 = `${prefix}${i+2}.jpg`;
 												div.className = 'col-md-4';
+												div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%"
 												div.innerHTML = `
-												<div>
-													<img src=` + url + ` alt="portfolio image"/>
+												<div style="margin:5px; position:relative">
+													<img src=` + url1 + ` alt="portfolio image"/>
 													<div class="text-block">
 														<p-box> Picture #` + index + ` </p-box>
+													</div>
+												</div>
+												<div style="margin:5px; position:relative">
+													<img src=` + url2 + ` alt="portfolio image"/>
+													<div class="text-block">
+														<p-box> Picture #` + number2 + ` </p-box>
+													</div>
+												</div>
+												<div style="margin:5px; position:relative">
+													<img src=` + url3 + ` alt="portfolio image"/>
+													<div class="text-block">
+														<p-box> Picture #` + number3 + ` </p-box>
 													</div>
 												</div>
 												`;
@@ -158,27 +176,17 @@
 												document.getElementById('image-container').appendChild(div);
 											}
 											const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2019-2020/SF-Oct-Nov-2020/SF-Oct-Nov-2020-";
-											for (var i = 1; i < 41; i++) {
-												const url = prefix + i + ".jpg"
-												appendImage(url, i);
+											for (var i = 1; i < 40; i+=3) {
+												// const url = prefix + i + ".jpg"
+												appendImage(prefix, i);
 											}
 											</script>
 
-											<!-- END OF SCRIPT MADE BY JACK -->
-
-
-											<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-											After coming home, I would eat lunch with mom practical every day during her lunch break. We got food items such as Chipotle, Blaze Pizza, and even food from the Mitsuwa food court <span style="color: #00d8d5">[Pictures #1, #2, #4, & #5]</span>. I also made sure to climb at the UCI gym while I was here <span style="color: #00d8d5">[Picture #3]</span>.
-											</p>
+											<!-- END OF SCRIPT MADE BY JACK + RISHI-->
 
 											<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-											At some point, mom took me to get my annual checkups at the UCI medical center near Disneyland. I finished up before mom was ready, so I went to the nearby shopping mall to see what was around. I found myself into a Dave & Buster’s and got a beer at 12pm <span style="color: #00d8d5">[Picture #6]</span>! LOL
+											Some of the best memories include yoga and game nights, food making adventures with Ryan + Sarah, outdoor climbing, and random remote work events. My team at client #2 was able to do an outdoor social distancing BBQ event with 4505 BBQ <span style="color: #00d8d5">[Picture #37]</span>! So yummy! I told my camera during quarantine since I found that I wasn’t really using it <span style="color: #00d8d5">[Picture #36]</span>. I climbed an outdoor 10C on top rope at Castle Rock! It was a slab and about 100ft+ <span style="color: #00d8d5">[Pictures #13-15]</span>! Olivia and I did a paint night social with my Accenture team! So glad I had someone who also appreciated the arts to do this with :) <span style="color: #00d8d5">[Pictures #31-33]</span>
 											</p>
-
-											<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-											Before Vincent was back, Doug, Mom, Coleman, and I went mini golfing at Boomers one afternoon. We even got Tommy’s Burger beforehand <span style="color: #00d8d5">[Pictures #7 & #8]</span>. So many calories in all their items OMG.
-											</p>
-
 
 									</div> <!-- end entry content -->
 

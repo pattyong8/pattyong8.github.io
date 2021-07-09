@@ -113,7 +113,7 @@
 
 									<div class="media-wrap entry__media">
 											<div class="entry__post-thumb">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Outdoor-Virgo-Hike/Outdoor-Virgo-Hike-3.jpeg">
+												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Outdoor-Virgo-Hike/Outdoor-Virgo-Hike-HP.jpg">
 										</div>
 									</div>
 
@@ -132,71 +132,61 @@
 
 									<div class="entry__content">
 
-											<p class="lead drop-cap">
-											One of my good friends from my Accenture start class, Reena Sudan, asked if I want to accompany her to the play “Harry Potter and the Cursed Child”. I am 100% a Harry Potter fan so decided to join her! What I didn’t know was that this play was split into two 3-4 hour segments. Also, it was the most expensive play, ever lol. It didn’t matter though because it was AMAZING! The special effects were pehnomical, acting superb, and screenwriting stupendous.
+										<p class="lead drop-cap">
+										When Aiden and I were hanging out one day, we decided to go on a hike somewhere up in the Oakland hills. We convinced Matt and Connor to join us since it was such a beautiful day. Since it was around spring time, the entire hike was full of lush green plans, flowers, and pristine air. This was such a refreshing experience. It was one of the last times I would hangout with someone outside of my house for a while due to the COVID-19 pandemic. Connor had a mini photo shoot and we made the most out of the day!
 											</head>
 
 											<div class="entry__related">
 											<h2>Pictures</h2>
 
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-1.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #1 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-2.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #2 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-3.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #3 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-4.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #4 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-6.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #5 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-7.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #6 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-9.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #7 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-10.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #8 </p-box>
-												</div>
-											</div><!-- /.col -->
-											<div class="col-md-4">
-												<img src="../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-11.jpg" alt="portfolio image"/>
-												<div class="text-block">
-													<p-box> Picture #9 </p-box>
-												</div>
-											</div><!-- /.col -->
+											<!-- START OF SCRIPT MADE BY JACK + RISHI
+										  Can use this...  to help with autosizing for photos and boxes-->
+											<div id="image-container"/>
+											<script>
 
+											function appendImage(prefix, index){
+												const div = document.createElement('div');
+												const number2 = i + 1;
+												const number3 = i + 2;
+												const url1 = `${prefix}${i}.jpg`;
+												const url2 = `${prefix}${i+1}.jpg`;
+												const url3 = `${prefix}${i+2}.jpg`;
+												div.className = 'col-md-4';
+												div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%"
+												div.innerHTML = `
+												<div style="margin:5px; position:relative">
+													<img src=` + url1 + ` alt="portfolio image"/>
+													<div class="text-block">
+														<p-box> Picture #` + index + ` </p-box>
+													</div>
+												</div>
+												<div style="margin:5px; position:relative">
+													<img src=` + url2 + ` alt="portfolio image"/>
+													<div class="text-block">
+														<p-box> Picture #` + number2 + ` </p-box>
+													</div>
+												</div>
+												<div style="margin:5px; position:relative">
+													<img src=` + url3 + ` alt="portfolio image"/>
+													<div class="text-block">
+														<p-box> Picture #` + number3 + ` </p-box>
+													</div>
+												</div>
+												`;
+
+												document.getElementById('image-container').appendChild(div);
+											}
+											const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Outdoor-Virgo-Hike/Outdoor-Virgo-Hike-";
+											for (var i = 1; i < 7; i+=3) {
+												// const url = prefix + i + ".jpg"
+												appendImage(prefix, i);
+											}
+											</script>
+
+											<!-- END OF SCRIPT MADE BY JACK + RISHI-->
 
 											<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-											Okay the introduction said it all. I was literally so impressed with this play. Now, given it was the only I plan I have seen and remembered in my lifetime, it was still super impressive. I loved the acting and special effects the best! Honestly, so glad this my play experience and can’t wait for the next one!
+											Sibley Park has three distinct zones. The first was a downward sloping dirt road with bushes covered in sand leading into a valley. This was the least beautiful part of the park but quickly led into the second zone which was a dense redwood forest. It was musty, damp, and around 5 degrees cooler than the top of the valley. After this zone was the final stretch of lush green grasslands and a few sparsely placed trees.
 											</p>
 
 									</div> <!-- end entry content -->
