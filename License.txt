@@ -75,3 +75,32 @@ the size of the screen and change the dimensions of the page accordingly)
 
 13. Fixing hover effect on map on sub pages
     Need to style="display: inline" on the image
+
+14. (7.3.2021) Jack added a script to allow me to automatically put photos on the page w/o having to number them! :)
+      <!-- START OF SCRIPT MADE BY JACK -->
+      <div id="image-container"/>
+      <script>
+
+      function appendImage(url, index){
+        const div = document.createElement('div');
+
+        div.className = 'col-md-4';
+        div.innerHTML = `
+        <div>
+          <img src=` + url + ` alt="portfolio image"/>
+          <div class="text-block">
+            <p-box> Picture #` + index + ` </p-box>
+          </div>
+        </div>
+        `;
+
+        document.getElementById('image-container').appendChild(div);
+      }
+      const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2019-2020/Irvine-September-2020/Irvine-September-2020-";
+      for (var i = 1; i < 50; i++) {
+        const url = prefix + i + ".jpg"
+        appendImage(url, i);
+      }
+      </script>
+
+      <!-- END OF SCRIPT MADE BY JACK -->
