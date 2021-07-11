@@ -1,0 +1,55 @@
+<div class="col-md-4">
+  <div class="filtr-item">
+    <a href="../../Travel-Pages-Sub/20s/2019-2020/Tour-de-Virgo/Tour-de-Virgo-1.html">
+      <img src="../../assets/images/gallary/Examples/g4.jpg" alt="portfolio image"/>
+    </a>
+  <div class="item-title">
+    <a>
+      Santa Monica, CA
+    </a>
+    <p>Aug 15th-Aug 29th 2021</p>
+  </div> <!-- /.item-title-->
+</div><!-- /.filtr-item -->
+</div><!-- /.col -->
+
+<div class="col-md-4">
+  <div class="filtr-item">
+    <a href="../../Travel-Pages-Sub/20s/2019-2020/Tour-de-Virgo/Tour-de-Virgo-1.html">
+      <img src="../../assets/images/gallary/Examples/g4.jpg" alt="portfolio image"/>
+    </a>
+  <div class="item-title">
+    <a>
+      Playa Del Carmen, MX
+    </a>
+    <p>July 24th-Aug 5th 2021</p>
+  </div> <!-- /.item-title-->
+</div><!-- /.filtr-item -->
+</div><!-- /.col -->
+
+<div class="col-md-4">
+  <div class="filtr-item">
+    <a href="../../Travel-Pages-Sub/20s/2019-2020/Tour-de-Virgo/Tour-de-Virgo-1.html">
+      <img src="../../assets/images/gallary/Examples/g4.jpg" alt="portfolio image"/>
+    </a>
+  <div class="item-title">
+    <a>
+      Irvine, CA
+    </a>
+    <p>July 19th-23rd 2021</p>
+  </div> <!-- /.item-title-->
+</div><!-- /.filtr-item -->
+</div><!-- /.col -->
+
+<div class="col-md-4">
+  <div class="filtr-item">
+    <a href="../../Travel-Pages-Sub/20s/2019-2020/Tour-de-Virgo/Tour-de-Virgo-1.html">
+      <img src="../../assets/images/gallary/Examples/g4.jpg" alt="portfolio image"/>
+    </a>
+  <div class="item-title">
+    <a>
+      Seattle, WA
+    </a>
+    <p>July 16th-19th 2021</p>
+  </div> <!-- /.item-title-->
+</div><!-- /.filtr-item -->
+</div><!-- /.col -->
