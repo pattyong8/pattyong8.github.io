@@ -8,8 +8,8 @@ http://localhost:8000/
   cd ~/Documents/Patrick/pattyong8.github.io
   git add .
   git commit -m ""
-  git push https://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@github.com/pattyong8/pattyong8.github.io.git
-    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
+  git push https://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@github.com/pattyong8/pattyong8.github.io.git
+    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
 
 1. Removed line 935 in main.css to fix the button formatting on other pages
   ".btn,
