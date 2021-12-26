@@ -1955,7 +1955,7 @@ pre {
 	font-size: 13px;
 	line-height: 1.42857143;
 	color: #333;
-	word-break: break-all;
+	/*! word-break: break-all; -- Removed 12.26.21 12pm for Review page*/
 	word-wrap: break-word;
 	background-color: #f5f5f5;
 	border: 1px solid #ccc;

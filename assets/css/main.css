@@ -411,7 +411,7 @@ code {
 pre > code {
   display: block;
   white-space: pre;
-  line-height: 2;
+  line-height: 1; /*! changed on 12.26.21 to 1 from 2 */
   padding: 0;
   margin: 0;
 }
