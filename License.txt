@@ -8,7 +8,7 @@ http://localhost:8000/
   cd ~/Documents/Patrick/pattyong8.github.io
   git add .
   git commit -m ""
-  git push https://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@github.com/pattyong8/pattyong8.github.io.git
+  git push https://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@github.com/pattyong8/pattyong8.github.io.git
 
 1. Removed line 935 in main.css to fix the button formatting on other pages
   ".btn,
@@ -107,3 +107,5 @@ the size of the screen and change the dimensions of the page accordingly)
       <!-- END OF SCRIPT MADE BY JACK -->
 
 15. console.log("TEST");
+
+16. Made changes to code and pre in main & bootstrap.min.css
