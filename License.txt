@@ -1,8 +1,11 @@
 Changes & Instructions
 
 -1. Local Server
-python -m SimpleHTTPServer
-http://localhost:8000/
+python -m SimpleHTTPServer 8888 &
+http://localhost:8888
+OLD (Pre 12.28.21)
+  python -m SimpleHTTPServer
+  http://localhost:8000/
 
 0. Commands to update website real time
   cd ~/Documents/Patrick/pattyong8.github.io
