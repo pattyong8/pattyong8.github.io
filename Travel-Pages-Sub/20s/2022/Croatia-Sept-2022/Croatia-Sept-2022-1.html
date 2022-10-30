@@ -5,7 +5,7 @@
 		<!--- basic page needs
 		================================================== -->
 		<meta charset="utf-8">
-		<title>Croatia 2022</title>
+		<title>Croatia/Denmark 2022</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
 
@@ -119,13 +119,13 @@
 
 									<div class="content__page-header entry__header">
 											<h1 class="display-1 entry__title">
-											Croatia 2022
+											Croatia/Denmark 2022
 											</h1>
 											<ul class="entry__header-meta">
 													<li class="author">With <a>Eric & Friends</a></li>
 													<li class="date">Sept 2022</li>
 													<li class="cat-links">
-															<a>Hostel hoping, spontaneous adventure, vibes</a>
+															<a>Hostel hoping, spontaneous adventure, coastal</a>
 													</li>
 											</ul>
 									</div> <!-- end entry__header -->
@@ -144,16 +144,23 @@
 											<div class="entry__related">
 													<h3 class="h2">Locations <span style="font-size: 12px; color: #00d8d5">(CLICK on the pictures for a map!)</span> </h3>
 
-													<ul class="related">
-															<li class="related__item_half" style="margin: auto">
-																<a href="https://www.google.com/maps/d/u/2/edit?mid=1K2nCkRwyH7TYYiA6dVTRyAliK49a2QA&usp=sharing" style="display: inline" class="related__link">
-																	<h5 class="related__post-title" style="text-align: center">Croatia</h5>
-																			<img src="../../../../assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept 2022/Croatia-Sept 2022-Map.jpeg" alt="">
-																</a>
-																	<h6 class="related__post-title" style="text-align:center">Split, Dubrovnik, Hvar, & Others</h6>
-															</li>
-													</ul>
-											</div> <!-- end entry related -->
+															<ul class="related" style="margin-bottom: 470px">
+																	<li class="related__item_half" style="float: left">
+																		<a href="https://www.google.com/maps/d/u/2/edit?mid=1K2nCkRwyH7TYYiA6dVTRyAliK49a2QA&usp=sharing" style="display: inline" class="related__link">
+																			<h5 class="related__post-title" style="text-align: center">Denmark</h5>
+																					<img src="../../../../assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept 2022/Denmark-Sept-2022-Map.jpeg" alt="">
+																		</a>
+																			<h6 class="related__post-title" style="text-align:center">Copenhagen</h6>
+																	</li>
+																	<li class="related__item_half" style="float: left">
+																		<a href="https://www.google.com/maps/d/u/2/edit?mid=1K2nCkRwyH7TYYiA6dVTRyAliK49a2QA&usp=sharing" style="display: inline" class="related__link">
+																			<h5 class="related__post-title" style="text-align: center">Croatia</h5>
+																					<img src="../../../../assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept 2022/Croatia-Sept 2022-Map.jpeg" alt="">
+																		</a>
+																			<h6 class="related__post-title" style="text-align:center">Split, Dubrovnik, Hvar, & Others</h6>
+																	</li>
+															</ul>
+													</div> <!-- end entry related -->
 
 											<div class="entry__related">
 												<h2 class="related__post-title" style="text-align: center; margin-top: 20px">Entry Pages</h2>
@@ -175,9 +182,9 @@
 												const div = document.createElement('div');
 												const number2 = i + 1;
 												const number3 = i + 2;
-												const url1 = `${prefix}${i}.jpg`;
-												const url2 = `${prefix}${i+1}.jpg`;
-												const url3 = `${prefix}${i+2}.jpg`;
+												const url1 = `${prefix}${i}.jpeg`;
+												const url2 = `${prefix}${i+1}.jpeg`;
+												const url3 = `${prefix}${i+2}.jpeg`;
 												div.className = 'col-md-4';
 												div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%"
 												div.innerHTML = `
@@ -203,8 +210,8 @@
 
 												document.getElementById('image-container').appendChild(div);
 											}
-											const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2021/Playa-del-Carmen-MX-2021/Playa-del-Carmen-2021-";
-											for (var i = 1; i < 3; i+=3) {
+											const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept 2022/Copenhagen/Tall/Copenhagen-Sept-2022-";
+											for (var i = 1; i < 39; i+=3) {
 												// const url = prefix + i + ".jpg"
 												appendImage(prefix, i);
 											}
