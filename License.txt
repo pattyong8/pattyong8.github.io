@@ -11,7 +11,7 @@ OLD (Pre 12.28.21)
   cd ~/Documents/Patrick/pattyong8.github.io
   git add .
   git commit -m ""
-  git push https://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@github.com/pattyong8/pattyong8.github.io.git
+  git push https://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@github.com/pattyong8/pattyong8.github.io.git
 
 1. Removed line 935 in main.css to fix the button formatting on other pages
   ".btn,
