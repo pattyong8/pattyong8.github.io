@@ -1,8 +1,8 @@
 Changes & Instructions
 
 -1. Local Server
-python -m SimpleHTTPServer 8888 &
-http://localhost:8888
+python -m http.server 8888
+http://localhost:8888 <--- paste in url box
 OLD (Pre 12.28.21)
   python -m SimpleHTTPServer
   http://localhost:8000/
