@@ -1,17 +1,23 @@
 Changes & Instructions
 
 -1. Local Server
-python -m http.server 8888
+python3 -m http.server 8888
 http://localhost:8888 <--- paste in url box
 OLD (Pre 12.28.21)
   python -m SimpleHTTPServer
   http://localhost:8000/
 
 0. Commands to update website real time
-  cd ~/Documents/Patrick/pattyong8.github.io
-  git add .
-  git commit -m ""
-  git push https://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@github.com/pattyong8/pattyong8.github.io.git
+    cd ~/Desktop/pattyong8.github.io
+    git add .
+    git commit -m ""
+    git push
+  
+  OLD (Pre 06.06.24 - Parth Helped Set Up)
+    cd ~/Documents/Patrick/pattyong8.github.io
+    git add .
+    git commit -m ""
+    git push https://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@github.com/pattyong8/pattyong8.github.io.git
 
 1. Removed line 935 in main.css to fix the button formatting on other pages
   ".btn,
