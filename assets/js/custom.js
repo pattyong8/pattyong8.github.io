@@ -90,7 +90,7 @@ $(document).ready(function(){
 
         function makeTimer() {
 
-                var endTime = new Date("January 20, 2023 12:00:00 PDT");
+                var endTime = new Date("July 21, 2024 12:00:00 PDT");
                 var endTime = (Date.parse(endTime)) / 1000;
 
                 var now = new Date();
