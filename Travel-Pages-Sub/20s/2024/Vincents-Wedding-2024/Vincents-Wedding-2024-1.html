@@ -108,7 +108,7 @@
 
 				<div class="media-wrap entry__media">
 					<div class="entry__post-thumb">
-						<img src="../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-HP.jpeg">
+						<img src="../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-HP.jpeg">
 					</div>
 				</div>
 
@@ -127,263 +127,99 @@
 
 				<div class="entry__content">
 
-					<p class="lead drop-cap">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-					</p>
+				<p class="lead drop-cap">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</p>
 
-					<div class="entry__related">
-					<h2>Day 1 - Arrival</h2>
+			<!-- REUSABLE IMAGE GRID FUNCTION -->
+			<script>
+			function buildGrid(containerId, prefix, start, end) {
+				for (let i = start; i < end; i += 3) {
+					const div = document.createElement('div');
+					div.className = 'col-md-4';
+					div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
+					let html = '';
+					for (let j = i; j < Math.min(i + 3, end); j++) {
+						html += `<div style="margin:5px; position:relative">
+							<img src="${prefix}${j}.jpeg" alt="portfolio image" loading="lazy"/>
+							<div class="text-block"><p-box> Picture #${j} </p-box></div>
+						</div>`;
+					}
+					div.innerHTML = html;
+					document.getElementById(containerId).appendChild(div);
+				}
+			}
+			</script>
 
-					<!-- START OF IMAGE GRID -->
-					<div id="image-container-1"/>
-					<script>
-					(function() {
-						function appendImage(prefix, index) {
-							const div = document.createElement('div');
-							const number2 = index + 1;
-							const number3 = index + 2;
-							const url1 = prefix + index + '.jpeg';
-							const url2 = prefix + (index + 1) + '.jpeg';
-							const url3 = prefix + (index + 2) + '.jpeg';
-							div.className = 'col-md-4';
-							div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
-							div.innerHTML = `
-							<div style="margin:5px; position:relative">
-								<img src="${url1}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${index} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url2}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number2} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url3}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number3} </p-box>
-								</div>
-							</div>
-							`;
-							document.getElementById('image-container-1').appendChild(div);
-						}
-						const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-";
-						for (let i = 1; i < 16; i += 3) {
-							appendImage(prefix, i);
-						}
-					})();
-					</script>
-					<!-- END OF IMAGE GRID -->
+			<div class="entry__related">
+			<h2>Arrival &amp; Pre-trip (Nov 2–6)</h2>
+			<div id="image-container-1"/>
+			<script>buildGrid('image-container-1', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 1, 25);
+			// Photos 1–22</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+			</p>
+			</div>
 
-					<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-					 </p>
+			<div class="entry__related">
+			<h2>Pre-Wedding Activities</h2>
+			<div id="image-container-2"/>
+			<script>buildGrid('image-container-2', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 25, 61);
+			// Photos 22–57: rehearsal day + rehearsal dinner</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. At vero eos et accusamus et iusto odio dignissimos.
+			</p>
+			</div>
 
-					</div>
+			<div class="entry__related">
+			<h2>Wedding Day</h2>
+			<div id="image-container-3"/>
+			<script>buildGrid('image-container-3', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 61, 93);
+			// Photos 58–89: 11:14–13:51</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+			</p>
+			</div>
 
-					<div class="entry__related">
-					<h2>Day 2 - Pre-Wedding Events</h2>
+			<div class="entry__related">
+			<h2>Afternoon</h2>
+			<div id="image-container-4"/>
+			<script>buildGrid('image-container-4', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 93, 108);
+			// Photos 90–104</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+			</p>
+			</div>
 
-					<!-- START OF IMAGE GRID -->
-					<div id="image-container-2"/>
-					<script>
-					(function() {
-						function appendImage(prefix, index) {
-							const div = document.createElement('div');
-							const number2 = index + 1;
-							const number3 = index + 2;
-							const url1 = prefix + index + '.jpeg';
-							const url2 = prefix + (index + 1) + '.jpeg';
-							const url3 = prefix + (index + 2) + '.jpeg';
-							div.className = 'col-md-4';
-							div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
-							div.innerHTML = `
-							<div style="margin:5px; position:relative">
-								<img src="${url1}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${index} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url2}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number2} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url3}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number3} </p-box>
-								</div>
-							</div>
-							`;
-							document.getElementById('image-container-2').appendChild(div);
-						}
-						const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-";
-						for (let i = 16; i < 31; i += 3) {
-							appendImage(prefix, i);
-						}
-					})();
-					</script>
-					<!-- END OF IMAGE GRID -->
+			<div class="entry__related">
+			<h2>Evening Reception</h2>
+			<div id="image-container-5"/>
+			<script>buildGrid('image-container-5', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 108, 126);
+			// Photos 105–122</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.
+			</p>
+			</div>
 
-					<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-						Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-					 </p>
+			<div class="entry__related">
+			<h2>Dinner &amp; Dancing</h2>
+			<div id="image-container-6"/>
+			<script>buildGrid('image-container-6', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 126, 134);
+			// Photos 123–129</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+			</p>
+			</div>
 
-					</div>
-
-					<div class="entry__related">
-					<h2>Day 3 - The Wedding</h2>
-
-					<!-- START OF IMAGE GRID -->
-					<div id="image-container-3"/>
-					<script>
-					(function() {
-						function appendImage(prefix, index) {
-							const div = document.createElement('div');
-							const number2 = index + 1;
-							const number3 = index + 2;
-							const url1 = prefix + index + '.jpeg';
-							const url2 = prefix + (index + 1) + '.jpeg';
-							const url3 = prefix + (index + 2) + '.jpeg';
-							div.className = 'col-md-4';
-							div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
-							div.innerHTML = `
-							<div style="margin:5px; position:relative">
-								<img src="${url1}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${index} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url2}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number2} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url3}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number3} </p-box>
-								</div>
-							</div>
-							`;
-							document.getElementById('image-container-3').appendChild(div);
-						}
-						const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-";
-						for (let i = 31; i < 55; i += 3) {
-							appendImage(prefix, i);
-						}
-					})();
-					</script>
-					<!-- END OF IMAGE GRID -->
-
-					<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-						Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-					 </p>
-
-					</div>
-
-					<div class="entry__related">
-					<h2>Day 4 - Post-Wedding Celebration</h2>
-
-					<!-- START OF IMAGE GRID -->
-					<div id="image-container-4"/>
-					<script>
-					(function() {
-						function appendImage(prefix, index) {
-							const div = document.createElement('div');
-							const number2 = index + 1;
-							const number3 = index + 2;
-							const url1 = prefix + index + '.jpeg';
-							const url2 = prefix + (index + 1) + '.jpeg';
-							const url3 = prefix + (index + 2) + '.jpeg';
-							div.className = 'col-md-4';
-							div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
-							div.innerHTML = `
-							<div style="margin:5px; position:relative">
-								<img src="${url1}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${index} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url2}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number2} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url3}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number3} </p-box>
-								</div>
-							</div>
-							`;
-							document.getElementById('image-container-4').appendChild(div);
-						}
-						const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-";
-						for (let i = 55; i < 70; i += 3) {
-							appendImage(prefix, i);
-						}
-					})();
-					</script>
-					<!-- END OF IMAGE GRID -->
-
-					<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
-						Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-					 </p>
-
-					</div>
-
-					<div class="entry__related">
-					<h2>Day 5 - Departure</h2>
-
-					<!-- START OF IMAGE GRID -->
-					<div id="image-container-5"/>
-					<script>
-					(function() {
-						function appendImage(prefix, index) {
-							const div = document.createElement('div');
-							const number2 = index + 1;
-							const number3 = index + 2;
-							const url1 = prefix + index + '.jpeg';
-							const url2 = prefix + (index + 1) + '.jpeg';
-							const url3 = prefix + (index + 2) + '.jpeg';
-							div.className = 'col-md-4';
-							div.style = "display:flex; align-items:flex-start;justify-content:center;width:100%";
-							div.innerHTML = `
-							<div style="margin:5px; position:relative">
-								<img src="${url1}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${index} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url2}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number2} </p-box>
-								</div>
-							</div>
-							<div style="margin:5px; position:relative">
-								<img src="${url3}" alt="portfolio image" loading="lazy"/>
-								<div class="text-block">
-									<p-box> Picture #${number3} </p-box>
-								</div>
-							</div>
-							`;
-							document.getElementById('image-container-5').appendChild(div);
-						}
-						const prefix = "../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s%20Wedding/V%26E-2024-";
-						for (let i = 70; i < 83; i += 3) {
-							appendImage(prefix, i);
-						}
-					})();
-					</script>
-					<!-- END OF IMAGE GRID -->
+			<div class="entry__related">
+			<h2>Late Night</h2>
+			<div id="image-container-7"/>
+			<script>buildGrid('image-container-7', '../../../../assets/images/Travel-Pages-Images/20s/2024/Vincent%27s-Wedding-2024/V%26E-2024-', 134, 143);
+			// Photos 130–135</script>
+			<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
+				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.
+				</p>
+				</div>
 
 					<p style="text-indent: 50px; font-size: 1.6rem; line-height: 1.5">
 						Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
