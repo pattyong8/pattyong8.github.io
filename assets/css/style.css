@@ -80,6 +80,12 @@ h6 {
 	text-transform: capitalize;
 }
 
+/* Travel subpage section headers: keep space under titles (style.css resets heading margins above) */
+.entry__related > h2 {
+	margin-top: 0;
+	margin-bottom: 3.2rem !important;
+}
+
 p {
 	margin: 0;
 	color: #666666;

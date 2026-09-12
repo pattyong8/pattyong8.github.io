@@ -52,9 +52,10 @@ export async function processImage(
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Process with sharp
+  // Process with sharp — preserve EXIF (date/time metadata) so photos can be re-sorted later
   let pipeline = sharp(inputPath)
     .rotate() // Auto-rotate based on EXIF orientation
+    .withMetadata() // Keep date/time and other EXIF
     .resize({
       width: options.maxWidth,
       withoutEnlargement: true, // Don't upscale smaller images
@@ -108,9 +109,10 @@ export async function processResponsiveImage(
     const webpPath = path.join(outputDir, webpFileName);
     const jpegPath = path.join(outputDir, jpegFileName);
 
-    // Create base pipeline with resize
+    // Create base pipeline with resize — preserve EXIF
     const resizedBuffer = await sharp(inputPath)
       .rotate()
+      .withMetadata()
       .resize({
         width: size.width,
         withoutEnlargement: true,

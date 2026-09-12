@@ -3355,6 +3355,11 @@ body.search-is-visible {
   position: relative;
 }
 
+.entry__related > h2 {
+  margin-top: 0;
+  margin-bottom: 3.2rem !important;
+}
+
 .entry__related h3 {
   margin-top: 0;
   margin-bottom: 3.2rem;
