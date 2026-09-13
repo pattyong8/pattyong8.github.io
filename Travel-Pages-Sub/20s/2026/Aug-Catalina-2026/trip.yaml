@@ -1,0 +1,349 @@
+schemaVersion: 1
+title: Catalina
+slug: Aug-Catalina-2026
+section: 20s
+year: '2026'
+dateRange: August 2026
+startDate: '2026-08-01'
+location: Catalina Island, California
+people: ''
+introParagraph: ''
+tripPrefix: Aug-Catalina-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Aug-Catalina-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Aug-Catalina-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Aug-Catalina-2026-1.jpeg
+    sourceFile: IMG_5047.jpeg
+    exif: '2026-08-28T14:59:07.000Z'
+    flags: []
+    bytes: 340641
+  - id: p002
+    seq: 2
+    file: Aug-Catalina-2026-2.jpeg
+    sourceFile: IMG_5048.jpeg
+    exif: '2026-08-28T15:48:46.000Z'
+    flags: []
+    bytes: 583547
+  - id: p003
+    seq: 3
+    file: Aug-Catalina-2026-3.jpeg
+    sourceFile: IMG_5049.jpeg
+    exif: '2026-08-28T15:53:03.000Z'
+    flags: []
+    bytes: 424949
+  - id: p004
+    seq: 4
+    file: Aug-Catalina-2026-4.jpeg
+    sourceFile: IMG_5050.jpeg
+    exif: '2026-08-28T18:18:05.000Z'
+    flags: []
+    bytes: 389201
+  - id: p005
+    seq: 5
+    file: Aug-Catalina-2026-5.jpeg
+    sourceFile: IMG_5051.jpeg
+    exif: '2026-08-28T20:23:00.000Z'
+    flags: []
+    bytes: 540957
+  - id: p006
+    seq: 6
+    file: Aug-Catalina-2026-6.jpeg
+    sourceFile: IMG_5052.jpeg
+    exif: '2026-08-28T20:23:02.000Z'
+    flags: []
+    bytes: 406414
+  - id: p007
+    seq: 7
+    file: Aug-Catalina-2026-7.jpeg
+    sourceFile: IMG_5053.jpeg
+    exif: '2026-08-28T20:23:07.000Z'
+    flags: []
+    bytes: 352744
+  - id: p008
+    seq: 8
+    file: Aug-Catalina-2026-8.jpeg
+    sourceFile: IMG_5054.jpeg
+    exif: '2026-08-28T21:24:39.000Z'
+    flags: []
+    bytes: 373094
+  - id: p009
+    seq: 9
+    file: Aug-Catalina-2026-9.jpeg
+    sourceFile: IMG_5056.jpeg
+    exif: '2026-08-28T21:26:06.000Z'
+    flags: []
+    bytes: 264086
+  - id: p010
+    seq: 10
+    file: Aug-Catalina-2026-10.jpeg
+    sourceFile: IMG_5058.jpeg
+    exif: '2026-08-28T21:46:27.000Z'
+    flags: []
+    bytes: 855763
+  - id: p011
+    seq: 11
+    file: Aug-Catalina-2026-11.jpeg
+    sourceFile: IMG_5061.jpeg
+    exif: '2026-08-28T22:01:47.000Z'
+    flags: []
+    bytes: 1103245
+  - id: p012
+    seq: 12
+    file: Aug-Catalina-2026-12.jpeg
+    sourceFile: IMG_5063.jpeg
+    exif: '2026-08-28T22:01:55.000Z'
+    flags: []
+    bytes: 867921
+  - id: p013
+    seq: 13
+    file: Aug-Catalina-2026-13.jpeg
+    sourceFile: IMG_5147.JPG
+    exif: '2026-08-28T22:05:45.000Z'
+    flags: []
+    bytes: 748017
+  - id: p014
+    seq: 14
+    file: Aug-Catalina-2026-14.jpeg
+    sourceFile: IMG_5064.jpeg
+    exif: '2026-08-28T22:50:22.000Z'
+    flags: []
+    bytes: 845562
+  - id: p015
+    seq: 15
+    file: Aug-Catalina-2026-15.jpeg
+    sourceFile: IMG_5073.jpeg
+    exif: '2026-08-28T23:49:20.000Z'
+    flags: []
+    bytes: 473540
+  - id: p016
+    seq: 16
+    file: Aug-Catalina-2026-16.jpeg
+    sourceFile: IMG_5074.jpeg
+    exif: '2026-08-28T23:49:49.000Z'
+    flags: []
+    bytes: 360904
+  - id: p017
+    seq: 17
+    file: Aug-Catalina-2026-17.jpeg
+    sourceFile: IMG_5079.jpeg
+    exif: '2026-08-28T23:51:55.000Z'
+    flags: []
+    bytes: 369910
+  - id: p018
+    seq: 18
+    file: Aug-Catalina-2026-18.jpeg
+    sourceFile: IMG_5082.jpeg
+    exif: '2026-08-28T23:52:32.000Z'
+    flags: []
+    bytes: 290151
+  - id: p019
+    seq: 19
+    file: Aug-Catalina-2026-19.jpeg
+    sourceFile: IMG_5083.jpeg
+    exif: '2026-08-28T23:52:45.000Z'
+    flags: []
+    bytes: 339794
+  - id: p020
+    seq: 20
+    file: Aug-Catalina-2026-20.jpeg
+    sourceFile: IMG_5085.jpeg
+    exif: '2026-08-28T23:53:01.000Z'
+    flags: []
+    bytes: 458445
+  - id: p021
+    seq: 21
+    file: Aug-Catalina-2026-21.jpeg
+    sourceFile: IMG_5086.jpeg
+    exif: '2026-08-29T00:38:09.000Z'
+    flags: []
+    bytes: 560752
+  - id: p022
+    seq: 22
+    file: Aug-Catalina-2026-22.jpeg
+    sourceFile: IMG_5087.jpeg
+    exif: '2026-08-29T00:39:35.000Z'
+    flags: []
+    bytes: 321787
+  - id: p023
+    seq: 23
+    file: Aug-Catalina-2026-23.jpeg
+    sourceFile: IMG_5088.jpeg
+    exif: '2026-08-29T00:40:04.000Z'
+    flags: []
+    bytes: 358511
+  - id: p024
+    seq: 24
+    file: Aug-Catalina-2026-24.jpeg
+    sourceFile: IMG_5090.jpeg
+    exif: '2026-08-29T00:42:47.000Z'
+    flags: []
+    bytes: 363515
+  - id: p025
+    seq: 25
+    file: Aug-Catalina-2026-25.jpeg
+    sourceFile: IMG_5093.jpeg
+    exif: '2026-08-29T00:42:57.000Z'
+    flags: []
+    bytes: 370236
+  - id: p026
+    seq: 26
+    file: Aug-Catalina-2026-26.jpeg
+    sourceFile: IMG_5097.jpeg
+    exif: '2026-08-29T01:04:25.000Z'
+    flags: []
+    bytes: 517512
+  - id: p027
+    seq: 27
+    file: Aug-Catalina-2026-27.jpeg
+    sourceFile: IMG_5098.jpeg
+    exif: '2026-08-29T01:04:26.000Z'
+    flags: []
+    bytes: 415590
+  - id: p028
+    seq: 28
+    file: Aug-Catalina-2026-28.jpeg
+    sourceFile: IMG_5099.jpeg
+    exif: '2026-08-29T02:13:24.000Z'
+    flags: []
+    bytes: 252601
+  - id: p029
+    seq: 29
+    file: Aug-Catalina-2026-29.jpeg
+    sourceFile: IMG_5100.jpeg
+    exif: '2026-08-29T14:16:47.000Z'
+    flags: []
+    bytes: 633686
+  - id: p030
+    seq: 30
+    file: Aug-Catalina-2026-30.jpeg
+    sourceFile: IMG_5103.jpeg
+    exif: '2026-08-29T14:16:59.000Z'
+    flags: []
+    bytes: 842126
+  - id: p031
+    seq: 31
+    file: Aug-Catalina-2026-31.jpeg
+    sourceFile: IMG_5105.jpeg
+    exif: '2026-08-29T15:19:55.000Z'
+    flags: []
+    bytes: 597108
+  - id: p032
+    seq: 32
+    file: Aug-Catalina-2026-32.jpeg
+    sourceFile: IMG_5106.jpeg
+    exif: '2026-08-29T15:19:58.000Z'
+    flags: []
+    bytes: 678487
+  - id: p033
+    seq: 33
+    file: Aug-Catalina-2026-33.jpeg
+    sourceFile: IMG_5107.jpeg
+    exif: '2026-08-29T15:20:02.000Z'
+    flags: []
+    bytes: 706876
+  - id: p034
+    seq: 34
+    file: Aug-Catalina-2026-34.jpeg
+    sourceFile: IMG_5109.jpeg
+    exif: '2026-08-29T15:20:50.000Z'
+    flags: []
+    bytes: 527252
+  - id: p035
+    seq: 35
+    file: Aug-Catalina-2026-35.jpeg
+    sourceFile: IMG_5112.jpeg
+    exif: '2026-08-29T17:32:33.000Z'
+    flags: []
+    bytes: 458000
+  - id: p036
+    seq: 36
+    file: Aug-Catalina-2026-36.jpeg
+    sourceFile: IMG_5114.jpeg
+    exif: '2026-08-29T17:32:37.000Z'
+    flags: []
+    bytes: 512564
+  - id: p037
+    seq: 37
+    file: Aug-Catalina-2026-37.jpeg
+    sourceFile: IMG_5115.jpeg
+    exif: '2026-08-29T17:32:39.000Z'
+    flags: []
+    bytes: 470676
+  - id: p038
+    seq: 38
+    file: Aug-Catalina-2026-38.jpeg
+    sourceFile: IMG_5117.jpeg
+    exif: '2026-08-29T19:20:53.000Z'
+    flags: []
+    bytes: 525338
+  - id: p039
+    seq: 39
+    file: Aug-Catalina-2026-39.jpeg
+    sourceFile: IMG_5120.jpeg
+    exif: '2026-08-29T21:02:00.000Z'
+    flags: []
+    bytes: 245451
+  - id: p040
+    seq: 40
+    file: Aug-Catalina-2026-40.jpeg
+    sourceFile: IMG_5123.jpeg
+    exif: '2026-08-29T21:17:30.000Z'
+    flags: []
+    bytes: 791665
+  - id: p041
+    seq: 41
+    file: Aug-Catalina-2026-41.jpeg
+    sourceFile: IMG_5125.jpeg
+    exif: '2026-08-29T21:26:00.000Z'
+    flags: []
+    bytes: 788904
+  - id: p042
+    seq: 42
+    file: Aug-Catalina-2026-42.jpeg
+    sourceFile: IMG_0104.JPG
+    exif: '2026-08-29T21:29:19.000Z'
+    flags: []
+    bytes: 662371
+  - id: p043
+    seq: 43
+    file: Aug-Catalina-2026-43.jpeg
+    sourceFile: IMG_5127.jpeg
+    exif: '2026-08-30T01:22:23.000Z'
+    flags: []
+    bytes: 227649
+  - id: p044
+    seq: 44
+    file: Aug-Catalina-2026-44.jpeg
+    sourceFile: IMG_5129.jpeg
+    exif: '2026-08-30T01:22:42.000Z'
+    flags: []
+    bytes: 313950
+  - id: p045
+    seq: 45
+    file: Aug-Catalina-2026-45.jpeg
+    sourceFile: IMG_5135.JPG
+    exif: '2026-08-30T03:25:43.000Z'
+    flags: []
+    bytes: 253121
+  - id: p046
+    seq: 46
+    file: Aug-Catalina-2026-46.jpeg
+    sourceFile: IMG_5145.jpeg
+    exif: '2026-08-30T03:25:58.000Z'
+    flags: []
+    bytes: 267121
+sections: []
+pages:
+  - file: Aug-Catalina-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:33:51.037Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1789317231053'
+gallaryThumb: assets/images/gallary/20s/2026/Aug-Catalina-2026.jpeg

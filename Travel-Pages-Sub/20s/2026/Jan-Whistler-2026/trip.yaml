@@ -1,0 +1,471 @@
+schemaVersion: 1
+title: Noah's Bday in Whistler
+slug: Jan-Whistler-2026
+section: 20s
+year: '2026'
+dateRange: January 2026
+startDate: '2026-01-05'
+location: Whistler, British Columbia
+people: ''
+introParagraph: ''
+tripPrefix: Jan-Whistler-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-Whistler-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Jan-Whistler-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jan-Whistler-2026-1.jpeg
+    sourceFile: IMG_0996.jpeg
+    exif: '2026-01-08T20:47:27.000Z'
+    flags: []
+    bytes: 366271
+  - id: p002
+    seq: 2
+    file: Jan-Whistler-2026-2.jpeg
+    sourceFile: IMG_0997.jpeg
+    exif: '2026-01-08T20:47:33.000Z'
+    flags: []
+    bytes: 508412
+  - id: p003
+    seq: 3
+    file: Jan-Whistler-2026-3.jpeg
+    sourceFile: IMG_0998.jpeg
+    exif: '2026-01-09T01:04:50.000Z'
+    flags: []
+    bytes: 379617
+  - id: p004
+    seq: 4
+    file: Jan-Whistler-2026-4.jpeg
+    sourceFile: IMG_1001.jpeg
+    exif: '2026-01-09T01:37:38.000Z'
+    flags: []
+    bytes: 330514
+  - id: p005
+    seq: 5
+    file: Jan-Whistler-2026-5.jpeg
+    sourceFile: IMG_1003.jpeg
+    exif: '2026-01-09T02:02:24.000Z'
+    flags: []
+    bytes: 312914
+  - id: p006
+    seq: 6
+    file: Jan-Whistler-2026-6.jpeg
+    sourceFile: IMG_1004.jpeg
+    exif: '2026-01-09T02:17:19.000Z'
+    flags: []
+    bytes: 277933
+  - id: p007
+    seq: 7
+    file: Jan-Whistler-2026-7.jpeg
+    sourceFile: IMG_1006.jpeg
+    exif: '2026-01-09T02:17:38.000Z'
+    flags: []
+    bytes: 338902
+  - id: p008
+    seq: 8
+    file: Jan-Whistler-2026-8.jpeg
+    sourceFile: IMG_1007.jpeg
+    exif: '2026-01-09T02:31:31.000Z'
+    flags: []
+    bytes: 194969
+  - id: p009
+    seq: 9
+    file: Jan-Whistler-2026-9.jpeg
+    sourceFile: IMG_2052.jpeg
+    exif: '2026-01-09T02:31:48.000Z'
+    flags: []
+    bytes: 216683
+  - id: p010
+    seq: 10
+    file: Jan-Whistler-2026-10.jpeg
+    sourceFile: IMG_1008.jpeg
+    exif: '2026-01-09T03:54:53.000Z'
+    flags: []
+    bytes: 306898
+  - id: p011
+    seq: 11
+    file: Jan-Whistler-2026-11.jpeg
+    sourceFile: IMG_3314.jpeg
+    exif: '2026-01-09T03:55:40.000Z'
+    flags: []
+    bytes: 351602
+  - id: p012
+    seq: 12
+    file: Jan-Whistler-2026-12.jpeg
+    sourceFile: IMG_1012.jpeg
+    exif: '2026-01-09T14:07:40.000Z'
+    flags: []
+    bytes: 570649
+  - id: p013
+    seq: 13
+    file: Jan-Whistler-2026-13.jpeg
+    sourceFile: IMG_1013.jpeg
+    exif: '2026-01-09T15:05:27.000Z'
+    flags: []
+    bytes: 498463
+  - id: p014
+    seq: 14
+    file: Jan-Whistler-2026-14.jpeg
+    sourceFile: IMG_2098.jpeg
+    exif: '2026-01-09T16:48:35.000Z'
+    flags: []
+    bytes: 759373
+  - id: p015
+    seq: 15
+    file: Jan-Whistler-2026-15.jpeg
+    sourceFile: IMG_1015.jpeg
+    exif: '2026-01-09T17:54:51.000Z'
+    flags: []
+    bytes: 446345
+  - id: p016
+    seq: 16
+    file: Jan-Whistler-2026-16.jpeg
+    sourceFile: IMG_1016.jpeg
+    exif: '2026-01-09T18:26:24.000Z'
+    flags: []
+    bytes: 359127
+  - id: p017
+    seq: 17
+    file: Jan-Whistler-2026-17.jpeg
+    sourceFile: IMG_3322.jpeg
+    exif: '2026-01-09T18:32:49.000Z'
+    flags: []
+    bytes: 249314
+  - id: p018
+    seq: 18
+    file: Jan-Whistler-2026-18.jpeg
+    sourceFile: IMG_3324.jpeg
+    exif: '2026-01-09T18:32:54.000Z'
+    flags: []
+    bytes: 306595
+  - id: p019
+    seq: 19
+    file: Jan-Whistler-2026-19.jpeg
+    sourceFile: IMG_1017.jpeg
+    exif: '2026-01-09T18:42:34.000Z'
+    flags: []
+    bytes: 607905
+  - id: p020
+    seq: 20
+    file: Jan-Whistler-2026-20.jpeg
+    sourceFile: IMG_1018.jpeg
+    exif: '2026-01-09T18:43:18.000Z'
+    flags: []
+    bytes: 486108
+  - id: p021
+    seq: 21
+    file: Jan-Whistler-2026-21.jpeg
+    sourceFile: IMG_1019.jpeg
+    exif: '2026-01-09T18:45:28.000Z'
+    flags: []
+    bytes: 391888
+  - id: p022
+    seq: 22
+    file: Jan-Whistler-2026-22.jpeg
+    sourceFile: IMG_1020.jpeg
+    exif: '2026-01-09T18:45:35.000Z'
+    flags: []
+    bytes: 512349
+  - id: p023
+    seq: 23
+    file: Jan-Whistler-2026-23.jpeg
+    sourceFile: IMG_3329.jpeg
+    exif: '2026-01-09T20:22:22.000Z'
+    flags: []
+    bytes: 497077
+  - id: p024
+    seq: 24
+    file: Jan-Whistler-2026-24.jpeg
+    sourceFile: IMG_341534B8-0B83-47F1-8193-822785C829C6.jpeg
+    exif: '2026-01-09T23:58:33.000Z'
+    flags: []
+    bytes: 278706
+  - id: p025
+    seq: 25
+    file: Jan-Whistler-2026-25.jpeg
+    sourceFile: IMG_1023.jpeg
+    exif: '2026-01-10T01:57:03.000Z'
+    flags: []
+    bytes: 382271
+  - id: p026
+    seq: 26
+    file: Jan-Whistler-2026-26.jpeg
+    sourceFile: IMG_2330.jpeg
+    exif: '2026-01-10T01:57:26.000Z'
+    flags: []
+    bytes: 361211
+  - id: p027
+    seq: 27
+    file: Jan-Whistler-2026-27.jpeg
+    sourceFile: IMG_1024.jpeg
+    exif: '2026-01-10T02:10:26.000Z'
+    flags: []
+    bytes: 333233
+  - id: p028
+    seq: 28
+    file: Jan-Whistler-2026-28.jpeg
+    sourceFile: IMG_1027.jpeg
+    exif: '2026-01-10T02:44:42.000Z'
+    flags: []
+    bytes: 442414
+  - id: p029
+    seq: 29
+    file: Jan-Whistler-2026-29.jpeg
+    sourceFile: IMG_1029.jpeg
+    exif: '2026-01-10T03:05:07.000Z'
+    flags: []
+    bytes: 367791
+  - id: p030
+    seq: 30
+    file: Jan-Whistler-2026-30.jpeg
+    sourceFile: IMG_1031.jpeg
+    exif: '2026-01-10T03:48:13.000Z'
+    flags: []
+    bytes: 256705
+  - id: p031
+    seq: 31
+    file: Jan-Whistler-2026-31.jpeg
+    sourceFile: IMG_3333.jpeg
+    exif: '2026-01-10T03:54:16.000Z'
+    flags: []
+    bytes: 181762
+  - id: p032
+    seq: 32
+    file: Jan-Whistler-2026-32.jpeg
+    sourceFile: IMG_2157.jpeg
+    exif: '2026-01-10T15:57:17.000Z'
+    flags: []
+    bytes: 605992
+  - id: p033
+    seq: 33
+    file: Jan-Whistler-2026-33.jpeg
+    sourceFile: IMG_2159.jpeg
+    exif: '2026-01-10T19:34:29.000Z'
+    flags: []
+    bytes: 575324
+  - id: p034
+    seq: 34
+    file: Jan-Whistler-2026-34.jpeg
+    sourceFile: IMG_2161.jpeg
+    exif: '2026-01-10T19:41:41.000Z'
+    flags: []
+    bytes: 385687
+  - id: p035
+    seq: 35
+    file: Jan-Whistler-2026-35.jpeg
+    sourceFile: IMG_2165.jpeg
+    exif: '2026-01-10T19:42:40.000Z'
+    flags: []
+    bytes: 360288
+  - id: p036
+    seq: 36
+    file: Jan-Whistler-2026-36.jpeg
+    sourceFile: IMG_1035.jpeg
+    exif: '2026-01-10T20:06:09.000Z'
+    flags: []
+    bytes: 386557
+  - id: p037
+    seq: 37
+    file: Jan-Whistler-2026-37.jpeg
+    sourceFile: IMG_1036.jpeg
+    exif: '2026-01-10T20:06:12.000Z'
+    flags: []
+    bytes: 575521
+  - id: p038
+    seq: 38
+    file: Jan-Whistler-2026-38.jpeg
+    sourceFile: IMG_1037.jpeg
+    exif: '2026-01-10T20:22:00.000Z'
+    flags: []
+    bytes: 406436
+  - id: p039
+    seq: 39
+    file: Jan-Whistler-2026-39.jpeg
+    sourceFile: IMG_2172.jpeg
+    exif: '2026-01-10T20:30:44.000Z'
+    flags: []
+    bytes: 361437
+  - id: p040
+    seq: 40
+    file: Jan-Whistler-2026-40.jpeg
+    sourceFile: IMG_3353.jpeg
+    exif: '2026-01-10T20:30:49.000Z'
+    flags: []
+    bytes: 351490
+  - id: p041
+    seq: 41
+    file: Jan-Whistler-2026-41.jpeg
+    sourceFile: IMG_1045.jpeg
+    exif: '2026-01-10T20:53:10.000Z'
+    flags: []
+    bytes: 416147
+  - id: p042
+    seq: 42
+    file: Jan-Whistler-2026-42.jpeg
+    sourceFile: DSC02091.jpg
+    exif: '2026-01-10T21:49:40.000Z'
+    flags: []
+    bytes: 232716
+  - id: p043
+    seq: 43
+    file: Jan-Whistler-2026-43.jpeg
+    sourceFile: DSC02109.jpg
+    exif: '2026-01-10T21:49:58.000Z'
+    flags: []
+    bytes: 228929
+  - id: p044
+    seq: 44
+    file: Jan-Whistler-2026-44.jpeg
+    sourceFile: DSC02115.jpg
+    exif: '2026-01-10T21:50:45.000Z'
+    flags: []
+    bytes: 224516
+  - id: p045
+    seq: 45
+    file: Jan-Whistler-2026-45.jpeg
+    sourceFile: IMG_1049.jpeg
+    exif: '2026-01-10T21:54:18.000Z'
+    flags: []
+    bytes: 371954
+  - id: p046
+    seq: 46
+    file: Jan-Whistler-2026-46.jpeg
+    sourceFile: IMG_1050.jpeg
+    exif: '2026-01-10T21:54:40.000Z'
+    flags: []
+    bytes: 356178
+  - id: p047
+    seq: 47
+    file: Jan-Whistler-2026-47.jpeg
+    sourceFile: IMG_1052.jpeg
+    exif: '2026-01-10T21:55:27.000Z'
+    flags: []
+    bytes: 196169
+  - id: p048
+    seq: 48
+    file: Jan-Whistler-2026-48.jpeg
+    sourceFile: DSC02249.jpg
+    exif: '2026-01-10T22:13:59.000Z'
+    flags: []
+    bytes: 236150
+  - id: p049
+    seq: 49
+    file: Jan-Whistler-2026-49.jpeg
+    sourceFile: DSC02273.jpg
+    exif: '2026-01-10T22:26:08.000Z'
+    flags: []
+    bytes: 235318
+  - id: p050
+    seq: 50
+    file: Jan-Whistler-2026-50.jpeg
+    sourceFile: IMG_3397.jpeg
+    exif: '2026-01-10T22:31:12.000Z'
+    flags: []
+    bytes: 377159
+  - id: p051
+    seq: 51
+    file: Jan-Whistler-2026-51.jpeg
+    sourceFile: IMG_1061.jpeg
+    exif: '2026-01-10T22:31:34.000Z'
+    flags: []
+    bytes: 278040
+  - id: p052
+    seq: 52
+    file: Jan-Whistler-2026-52.jpeg
+    sourceFile: IMG_1062.jpeg
+    exif: '2026-01-10T22:31:37.000Z'
+    flags: []
+    bytes: 265790
+  - id: p053
+    seq: 53
+    file: Jan-Whistler-2026-53.jpeg
+    sourceFile: IMG_1065.jpeg
+    exif: '2026-01-10T22:32:10.000Z'
+    flags: []
+    bytes: 247286
+  - id: p054
+    seq: 54
+    file: Jan-Whistler-2026-54.jpeg
+    sourceFile: IMG_1067.jpeg
+    exif: '2026-01-10T22:32:37.000Z'
+    flags: []
+    bytes: 275090
+  - id: p055
+    seq: 55
+    file: Jan-Whistler-2026-55.jpeg
+    sourceFile: IMG_1069.jpeg
+    exif: '2026-01-10T22:33:17.000Z'
+    flags: []
+    bytes: 275651
+  - id: p056
+    seq: 56
+    file: Jan-Whistler-2026-56.jpeg
+    sourceFile: DSC02337.jpg
+    exif: '2026-01-10T23:25:32.000Z'
+    flags: []
+    bytes: 274380
+  - id: p057
+    seq: 57
+    file: Jan-Whistler-2026-57.jpeg
+    sourceFile: DSC02447.jpg
+    exif: '2026-01-10T23:28:11.000Z'
+    flags: []
+    bytes: 672449
+  - id: p058
+    seq: 58
+    file: Jan-Whistler-2026-58.jpeg
+    sourceFile: DSC02634.jpg
+    exif: '2026-01-10T23:37:25.000Z'
+    flags: []
+    bytes: 286769
+  - id: p059
+    seq: 59
+    file: Jan-Whistler-2026-59.jpeg
+    sourceFile: DSC02741.jpg
+    exif: '2026-01-11T00:07:08.000Z'
+    flags: []
+    bytes: 227373
+  - id: p060
+    seq: 60
+    file: Jan-Whistler-2026-60.jpeg
+    sourceFile: DSC02751.jpg
+    exif: '2026-01-11T00:07:20.000Z'
+    flags: []
+    bytes: 211199
+  - id: p061
+    seq: 61
+    file: Jan-Whistler-2026-61.jpeg
+    sourceFile: DSC02766.jpg
+    exif: '2026-01-11T00:08:19.000Z'
+    flags: []
+    bytes: 218585
+  - id: p062
+    seq: 62
+    file: Jan-Whistler-2026-62.jpeg
+    sourceFile: 1DB9EC98-357C-42B8-9A78-8593EF174B3B.jpg
+    exif: '2026-01-11T00:28:16.000Z'
+    flags: []
+    bytes: 253115
+  - id: p063
+    seq: 63
+    file: Jan-Whistler-2026-63.jpeg
+    sourceFile: IMG_1391.WEBP
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 119679
+sections: []
+pages:
+  - file: Jan-Whistler-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:44.491Z'
+  oversizedFiles: []
+  needsPlacement:
+    - Jan-Whistler-2026-63.jpeg
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Jan-Whistler-2026.jpeg
+cacheBust: '1789318645743'

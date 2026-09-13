@@ -7,7 +7,11 @@ import {
   loadManifest,
   resolveRepoPath,
 } from '../manifest';
-import { assertNoLeftoverBlankColumn } from '../layout-guards';
+import {
+  assertNoLeftoverBlankColumn,
+  assertYearNavIntact,
+  yearPageGalleryRegion,
+} from '../layout-guards';
 
 const P_STYLE = 'text-indent: 50px; font-size: 1.6rem; line-height: 1.5; margin-top: 0';
 
@@ -108,7 +112,9 @@ export function renderTripHtml(manifest: TripManifest): string {
   const depth = assetDepthPrefix(manifest.section);
   const encodedSlug = encodeURIComponent(manifest.slug).replace(/%2F/gi, '/');
   const heroFile = manifest.heroFile || manifest.tripPrefix + '-HP.jpeg';
-  const heroRel = `${depth}assets/images/Travel-Pages-Images/${manifest.section}/${manifest.year}/${encodedSlug}/${heroFile}`;
+  const cacheBust = manifest.cacheBust || '';
+  const bustQ = cacheBust ? `?v=${cacheBust}` : '';
+  const heroRel = `${depth}assets/images/Travel-Pages-Images/${manifest.section}/${manifest.year}/${encodedSlug}/${heroFile}${bustQ}`;
   const imagePrefixUrl = `${depth}assets/images/Travel-Pages-Images/${manifest.section}/${manifest.year}/${encodedSlug}/${manifest.tripPrefix}-`;
 
   const sections =
@@ -293,9 +299,18 @@ export function upsertYearCard(
   }
 
   let html = fs.readFileSync(yearPage, 'utf-8');
+  assertYearNavIntact(html);
+
+  // Only look inside the gallery — never treat memory-bar year links as trip cards.
+  const gallery = yearPageGalleryRegion(html);
+  if (!gallery) throw new Error('filtr-container not found in year page');
+
   const encodedSlug = encodeURIComponent(manifest.slug).replace(/%2F/gi, '/');
   const href = `../../Travel-Pages-Sub/${manifest.section}/${manifest.year}/${encodedSlug}/${encodedSlug}-1.html`;
-  if (html.includes(`${manifest.slug}-1.html`) || html.includes(`${encodedSlug}-1.html`)) {
+  if (
+    gallery.includes(`${manifest.slug}-1.html`) ||
+    gallery.includes(`${encodedSlug}-1.html`)
+  ) {
     console.log('Year card already present; skipping insert');
     return;
   }
@@ -333,14 +348,13 @@ export function upsertYearCard(
 `;
 
   // Insert after opening filtr-container row — newest first
-  const marker = '<div class="row">';
-  // Find the gallery row specifically: after filtr-container
   const filtrIdx = html.indexOf('filtr-container');
   if (filtrIdx === -1) throw new Error('filtr-container not found in year page');
   const rowIdx = html.indexOf('<div class="row">', filtrIdx);
   if (rowIdx === -1) throw new Error('gallery row not found');
   const insertAt = rowIdx + '<div class="row">'.length;
   html = html.slice(0, insertAt) + '\n' + card + html.slice(insertAt);
+  assertYearNavIntact(html);
   fs.writeFileSync(yearPage, html, 'utf-8');
   console.log(`Year card inserted (newest first) → ${yearPage}`);
 }

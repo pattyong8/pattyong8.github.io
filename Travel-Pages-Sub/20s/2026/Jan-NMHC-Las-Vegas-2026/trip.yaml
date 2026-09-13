@@ -1,0 +1,237 @@
+schemaVersion: 1
+title: NMHC Las Vegas
+slug: Jan-NMHC-Las-Vegas-2026
+section: 20s
+year: '2026'
+dateRange: January 2026
+startDate: '2026-01-15'
+location: Las Vegas, Nevada
+people: ''
+introParagraph: ''
+tripPrefix: Jan-NMHC-Las-Vegas-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-NMHC-Las-Vegas-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Jan-NMHC-Las-Vegas-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jan-NMHC-Las-Vegas-2026-1.jpeg
+    sourceFile: IMG_1232.jpeg
+    exif: '2026-01-25T04:15:16.000Z'
+    flags: []
+    bytes: 355029
+  - id: p002
+    seq: 2
+    file: Jan-NMHC-Las-Vegas-2026-2.jpeg
+    sourceFile: IMG_1233.jpeg
+    exif: '2026-01-25T04:16:11.000Z'
+    flags: []
+    bytes: 332632
+  - id: p003
+    seq: 3
+    file: Jan-NMHC-Las-Vegas-2026-3.jpeg
+    sourceFile: IMG_1234.jpeg
+    exif: '2026-01-25T04:16:21.000Z'
+    flags: []
+    bytes: 399168
+  - id: p004
+    seq: 4
+    file: Jan-NMHC-Las-Vegas-2026-4.jpeg
+    sourceFile: IMG_1235.jpeg
+    exif: '2026-01-25T04:16:42.000Z'
+    flags: []
+    bytes: 304386
+  - id: p005
+    seq: 5
+    file: Jan-NMHC-Las-Vegas-2026-5.jpeg
+    sourceFile: IMG_1236.jpeg
+    exif: '2026-01-25T04:19:39.000Z'
+    flags: []
+    bytes: 375805
+  - id: p006
+    seq: 6
+    file: Jan-NMHC-Las-Vegas-2026-6.jpeg
+    sourceFile: IMG_1237.jpeg
+    exif: '2026-01-25T04:21:04.000Z'
+    flags: []
+    bytes: 308216
+  - id: p007
+    seq: 7
+    file: Jan-NMHC-Las-Vegas-2026-7.jpeg
+    sourceFile: IMG_1238.jpeg
+    exif: '2026-01-25T04:21:11.000Z'
+    flags: []
+    bytes: 385060
+  - id: p008
+    seq: 8
+    file: Jan-NMHC-Las-Vegas-2026-8.jpeg
+    sourceFile: IMG_1245.jpeg
+    exif: '2026-01-25T20:59:24.000Z'
+    flags: []
+    bytes: 329898
+  - id: p009
+    seq: 9
+    file: Jan-NMHC-Las-Vegas-2026-9.jpeg
+    sourceFile: IMG_1248.jpeg
+    exif: '2026-01-25T21:19:14.000Z'
+    flags: []
+    bytes: 521108
+  - id: p010
+    seq: 10
+    file: Jan-NMHC-Las-Vegas-2026-10.jpeg
+    sourceFile: IMG_1249.jpeg
+    exif: '2026-01-25T21:23:35.000Z'
+    flags: []
+    bytes: 458698
+  - id: p011
+    seq: 11
+    file: Jan-NMHC-Las-Vegas-2026-11.jpeg
+    sourceFile: IMG_1250.jpeg
+    exif: '2026-01-25T21:47:08.000Z'
+    flags: []
+    bytes: 508552
+  - id: p012
+    seq: 12
+    file: Jan-NMHC-Las-Vegas-2026-12.jpeg
+    sourceFile: IMG_1251.jpeg
+    exif: '2026-01-25T21:47:39.000Z'
+    flags: []
+    bytes: 814079
+  - id: p013
+    seq: 13
+    file: Jan-NMHC-Las-Vegas-2026-13.jpeg
+    sourceFile: IMG_1252.jpeg
+    exif: '2026-01-25T21:51:58.000Z'
+    flags: []
+    bytes: 301796
+  - id: p014
+    seq: 14
+    file: Jan-NMHC-Las-Vegas-2026-14.jpeg
+    sourceFile: IMG_1253.jpeg
+    exif: '2026-01-25T21:55:20.000Z'
+    flags: []
+    bytes: 319709
+  - id: p015
+    seq: 15
+    file: Jan-NMHC-Las-Vegas-2026-15.jpeg
+    sourceFile: IMG_1254.jpeg
+    exif: '2026-01-25T21:56:37.000Z'
+    flags: []
+    bytes: 511947
+  - id: p016
+    seq: 16
+    file: Jan-NMHC-Las-Vegas-2026-16.jpeg
+    sourceFile: IMG_1256.jpeg
+    exif: '2026-01-25T22:08:58.000Z'
+    flags: []
+    bytes: 487139
+  - id: p017
+    seq: 17
+    file: Jan-NMHC-Las-Vegas-2026-17.jpeg
+    sourceFile: IMG_1257.jpeg
+    exif: '2026-01-25T22:15:16.000Z'
+    flags: []
+    bytes: 481408
+  - id: p018
+    seq: 18
+    file: Jan-NMHC-Las-Vegas-2026-18.jpeg
+    sourceFile: IMG_1259.jpeg
+    exif: '2026-01-25T22:26:11.000Z'
+    flags: []
+    bytes: 261499
+  - id: p019
+    seq: 19
+    file: Jan-NMHC-Las-Vegas-2026-19.jpeg
+    sourceFile: IMG_1261.jpeg
+    exif: '2026-01-25T22:59:05.000Z'
+    flags: []
+    bytes: 255238
+  - id: p020
+    seq: 20
+    file: Jan-NMHC-Las-Vegas-2026-20.jpeg
+    sourceFile: IMG_1262.jpeg
+    exif: '2026-01-25T23:06:13.000Z'
+    flags: []
+    bytes: 594479
+  - id: p021
+    seq: 21
+    file: Jan-NMHC-Las-Vegas-2026-21.jpeg
+    sourceFile: IMG_1264.jpeg
+    exif: '2026-01-25T23:08:36.000Z'
+    flags: []
+    bytes: 272405
+  - id: p022
+    seq: 22
+    file: Jan-NMHC-Las-Vegas-2026-22.jpeg
+    sourceFile: IMG_1265.jpeg
+    exif: '2026-01-25T23:09:48.000Z'
+    flags: []
+    bytes: 262164
+  - id: p023
+    seq: 23
+    file: Jan-NMHC-Las-Vegas-2026-23.jpeg
+    sourceFile: IMG_1267.jpeg
+    exif: '2026-01-26T00:10:45.000Z'
+    flags: []
+    bytes: 319676
+  - id: p024
+    seq: 24
+    file: Jan-NMHC-Las-Vegas-2026-24.jpeg
+    sourceFile: IMG_1271.jpeg
+    exif: '2026-01-26T01:26:22.000Z'
+    flags: []
+    bytes: 455805
+  - id: p025
+    seq: 25
+    file: Jan-NMHC-Las-Vegas-2026-25.jpeg
+    sourceFile: IMG_1273.jpeg
+    exif: '2026-01-26T01:26:43.000Z'
+    flags: []
+    bytes: 462046
+  - id: p026
+    seq: 26
+    file: Jan-NMHC-Las-Vegas-2026-26.jpeg
+    sourceFile: IMG_1288.jpeg
+    exif: '2026-01-27T01:39:27.000Z'
+    flags: []
+    bytes: 677843
+  - id: p027
+    seq: 27
+    file: Jan-NMHC-Las-Vegas-2026-27.jpeg
+    sourceFile: IMG_1292.jpeg
+    exif: '2026-01-27T23:57:40.000Z'
+    flags: []
+    bytes: 561738
+  - id: p028
+    seq: 28
+    file: Jan-NMHC-Las-Vegas-2026-28.jpeg
+    sourceFile: IMG_1293.jpeg
+    exif: '2026-01-27T23:57:45.000Z'
+    flags: []
+    bytes: 499830
+  - id: p029
+    seq: 29
+    file: Jan-NMHC-Las-Vegas-2026-29.jpeg
+    sourceFile: IMG_1295.jpeg
+    exif: '2026-01-28T00:07:14.000Z'
+    flags: []
+    bytes: 578210
+  - id: p030
+    seq: 30
+    file: Jan-NMHC-Las-Vegas-2026-30.jpeg
+    sourceFile: IMG_1296.jpeg
+    exif: '2026-01-28T00:50:51.000Z'
+    flags: []
+    bytes: 645496
+sections: []
+pages:
+  - file: Jan-NMHC-Las-Vegas-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:30.035Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Jan-NMHC-Las-Vegas-2026.jpeg
+cacheBust: '1789317270385'

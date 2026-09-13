@@ -1,0 +1,90 @@
+schemaVersion: 1
+title: Esther Visit NYC
+slug: Sept-Esther-Visit-2026
+section: 20s
+year: '2026'
+dateRange: September 2026
+startDate: '2026-09-01'
+location: NYC
+people: ''
+introParagraph: ''
+tripPrefix: Sept-Esther-Visit-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Sept-Esther-Visit-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Sept-Esther-Visit-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Sept-Esther-Visit-2026-1.jpeg
+    sourceFile: IMG_5198.jpeg
+    exif: '2026-09-06T20:19:37.000Z'
+    flags: []
+    bytes: 897148
+  - id: p002
+    seq: 2
+    file: Sept-Esther-Visit-2026-2.jpeg
+    sourceFile: IMG_5201.jpeg
+    exif: '2026-09-06T20:53:00.000Z'
+    flags: []
+    bytes: 712838
+  - id: p003
+    seq: 3
+    file: Sept-Esther-Visit-2026-3.jpeg
+    sourceFile: IMG_5203.jpeg
+    exif: '2026-09-06T21:09:20.000Z'
+    flags: []
+    bytes: 268865
+  - id: p004
+    seq: 4
+    file: Sept-Esther-Visit-2026-4.jpeg
+    sourceFile: IMG_5205.jpeg
+    exif: '2026-09-06T21:46:51.000Z'
+    flags: []
+    bytes: 427250
+  - id: p005
+    seq: 5
+    file: Sept-Esther-Visit-2026-5.jpeg
+    sourceFile: IMG_5208.jpeg
+    exif: '2026-09-06T21:47:06.000Z'
+    flags: []
+    bytes: 332613
+  - id: p006
+    seq: 6
+    file: Sept-Esther-Visit-2026-6.jpeg
+    sourceFile: IMG_5210.jpeg
+    exif: '2026-09-06T22:47:02.000Z'
+    flags: []
+    bytes: 367113
+  - id: p007
+    seq: 7
+    file: Sept-Esther-Visit-2026-7.jpeg
+    sourceFile: IMG_5213.jpeg
+    exif: '2026-09-06T22:47:06.000Z'
+    flags: []
+    bytes: 460991
+  - id: p008
+    seq: 8
+    file: Sept-Esther-Visit-2026-8.jpeg
+    sourceFile: IMG_5214.jpeg
+    exif: '2026-09-06T23:05:26.000Z'
+    flags: []
+    bytes: 285952
+  - id: p009
+    seq: 9
+    file: Sept-Esther-Visit-2026-9.jpeg
+    sourceFile: IMG_5215.jpeg
+    exif: '2026-09-06T23:09:31.000Z'
+    flags: []
+    bytes: 482619
+sections: []
+pages:
+  - file: Sept-Esther-Visit-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:35:13.873Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1789319087924'
+gallaryThumb: assets/images/gallary/20s/2026/Sep-Esther-Visit-2026.jpeg

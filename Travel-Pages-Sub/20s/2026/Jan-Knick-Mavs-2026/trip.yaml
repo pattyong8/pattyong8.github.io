@@ -1,0 +1,48 @@
+schemaVersion: 1
+title: Knicks vs Mavs
+slug: Jan-Knick-Mavs-2026
+section: 20s
+year: '2026'
+dateRange: January 2026
+startDate: '2026-01-10'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: Jan-Knick-Mavs-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-Knick-Mavs-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Jan-Knick-Mavs-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jan-Knick-Mavs-2026-1.jpeg
+    sourceFile: IMG_1182.jpeg
+    exif: '2026-01-19T22:35:49.000Z'
+    flags: []
+    bytes: 669769
+  - id: p002
+    seq: 2
+    file: Jan-Knick-Mavs-2026-2.jpeg
+    sourceFile: IMG_1183.jpeg
+    exif: '2026-01-20T00:09:11.000Z'
+    flags: []
+    bytes: 633439
+  - id: p003
+    seq: 3
+    file: Jan-Knick-Mavs-2026-3.jpeg
+    sourceFile: IMG_1185.jpeg
+    exif: '2026-01-20T00:16:52.000Z'
+    flags: []
+    bytes: 524453
+sections: []
+pages:
+  - file: Jan-Knick-Mavs-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:20.881Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Jan-Knick-Mavs-2026.jpeg
+cacheBust: '1789317261180'

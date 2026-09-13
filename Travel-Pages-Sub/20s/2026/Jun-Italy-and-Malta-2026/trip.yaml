@@ -1,0 +1,1599 @@
+schemaVersion: 1
+title: Italy & Malta 2026
+slug: Jun-Italy-and-Malta-2026
+section: 20s
+year: '2026'
+dateRange: June 2026
+startDate: '2026-06-18'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: Jun-Italy-and-Malta-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Jun-Italy-and-Malta-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Jun-Italy-and-Malta-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jun-Italy-and-Malta-2026-1.jpeg
+    sourceFile: IMG_3236.jpeg
+    exif: '2026-06-18T12:18:15.000Z'
+    flags: []
+    bytes: 452288
+  - id: p002
+    seq: 2
+    file: Jun-Italy-and-Malta-2026-2.jpeg
+    sourceFile: IMG_3238.jpeg
+    exif: '2026-06-18T16:47:49.000Z'
+    flags: []
+    bytes: 379756
+  - id: p003
+    seq: 3
+    file: Jun-Italy-and-Malta-2026-3.jpeg
+    sourceFile: IMG_3241.jpeg
+    exif: '2026-06-18T20:21:57.000Z'
+    flags: []
+    bytes: 411716
+  - id: p004
+    seq: 4
+    file: Jun-Italy-and-Malta-2026-4.jpeg
+    sourceFile: IMG_3244.jpeg
+    exif: '2026-06-18T23:45:27.000Z'
+    flags: []
+    bytes: 239924
+  - id: p005
+    seq: 5
+    file: Jun-Italy-and-Malta-2026-5.jpeg
+    sourceFile: IMG_3253.jpeg
+    exif: '2026-06-19T00:15:04.000Z'
+    flags: []
+    bytes: 223094
+  - id: p006
+    seq: 6
+    file: Jun-Italy-and-Malta-2026-6.jpeg
+    sourceFile: IMG_3256.jpeg
+    exif: '2026-06-19T00:35:33.000Z'
+    flags: []
+    bytes: 328718
+  - id: p007
+    seq: 7
+    file: Jun-Italy-and-Malta-2026-7.jpeg
+    sourceFile: IMG_3257.jpeg
+    exif: '2026-06-19T00:53:54.000Z'
+    flags: []
+    bytes: 214888
+  - id: p008
+    seq: 8
+    file: Jun-Italy-and-Malta-2026-8.jpeg
+    sourceFile: IMG_3260.jpeg
+    exif: '2026-06-19T00:59:42.000Z'
+    flags: []
+    bytes: 342947
+  - id: p009
+    seq: 9
+    file: Jun-Italy-and-Malta-2026-9.jpeg
+    sourceFile: IMG_3263.jpeg
+    exif: '2026-06-19T11:35:09.000Z'
+    flags: []
+    bytes: 436737
+  - id: p010
+    seq: 10
+    file: Jun-Italy-and-Malta-2026-10.jpeg
+    sourceFile: IMG_3298.jpeg
+    exif: '2026-06-19T17:13:22.000Z'
+    flags: []
+    bytes: 421283
+  - id: p011
+    seq: 11
+    file: Jun-Italy-and-Malta-2026-11.jpeg
+    sourceFile: IMG_3299.jpeg
+    exif: '2026-06-19T17:14:13.000Z'
+    flags: []
+    bytes: 375171
+  - id: p012
+    seq: 12
+    file: Jun-Italy-and-Malta-2026-12.jpeg
+    sourceFile: IMG_3301.jpeg
+    exif: '2026-06-19T17:38:06.000Z'
+    flags: []
+    bytes: 466590
+  - id: p013
+    seq: 13
+    file: Jun-Italy-and-Malta-2026-13.jpeg
+    sourceFile: IMG_3303.jpeg
+    exif: '2026-06-19T18:04:06.000Z'
+    flags: []
+    bytes: 406532
+  - id: p014
+    seq: 14
+    file: Jun-Italy-and-Malta-2026-14.jpeg
+    sourceFile: IMG_3312.jpeg
+    exif: '2026-06-20T06:11:07.000Z'
+    flags: []
+    bytes: 101682
+  - id: p015
+    seq: 15
+    file: Jun-Italy-and-Malta-2026-15.jpeg
+    sourceFile: IMG_3314.jpeg
+    exif: '2026-06-20T07:16:39.000Z'
+    flags: []
+    bytes: 535342
+  - id: p016
+    seq: 16
+    file: Jun-Italy-and-Malta-2026-16.jpeg
+    sourceFile: IMG_3316.jpeg
+    exif: '2026-06-20T19:17:37.000Z'
+    flags: []
+    bytes: 315996
+  - id: p017
+    seq: 17
+    file: Jun-Italy-and-Malta-2026-17.jpeg
+    sourceFile: IMG_3317.jpeg
+    exif: '2026-06-20T20:15:52.000Z'
+    flags: []
+    bytes: 454566
+  - id: p018
+    seq: 18
+    file: Jun-Italy-and-Malta-2026-18.jpeg
+    sourceFile: IMG_3318.jpeg
+    exif: '2026-06-21T00:49:36.000Z'
+    flags: []
+    bytes: 216619
+  - id: p019
+    seq: 19
+    file: Jun-Italy-and-Malta-2026-19.jpeg
+    sourceFile: IMG_3321.jpeg
+    exif: '2026-06-21T01:20:54.000Z'
+    flags: []
+    bytes: 552657
+  - id: p020
+    seq: 20
+    file: Jun-Italy-and-Malta-2026-20.jpeg
+    sourceFile: IMG_3323.jpeg
+    exif: '2026-06-21T03:20:30.000Z'
+    flags: []
+    bytes: 201928
+  - id: p021
+    seq: 21
+    file: Jun-Italy-and-Malta-2026-21.jpeg
+    sourceFile: IMG_3324.jpeg
+    exif: '2026-06-21T03:38:48.000Z'
+    flags: []
+    bytes: 599824
+  - id: p022
+    seq: 22
+    file: Jun-Italy-and-Malta-2026-22.jpeg
+    sourceFile: IMG_3325.jpeg
+    exif: '2026-06-21T03:43:04.000Z'
+    flags: []
+    bytes: 350622
+  - id: p023
+    seq: 23
+    file: Jun-Italy-and-Malta-2026-23.jpeg
+    sourceFile: IMG_3329.jpeg
+    exif: '2026-06-21T03:52:16.000Z'
+    flags: []
+    bytes: 379132
+  - id: p024
+    seq: 24
+    file: Jun-Italy-and-Malta-2026-24.jpeg
+    sourceFile: IMG_3331.jpeg
+    exif: '2026-06-21T05:07:19.000Z'
+    flags: []
+    bytes: 302279
+  - id: p025
+    seq: 25
+    file: Jun-Italy-and-Malta-2026-25.jpeg
+    sourceFile: IMG_3333.jpeg
+    exif: '2026-06-21T05:07:25.000Z'
+    flags: []
+    bytes: 363607
+  - id: p026
+    seq: 26
+    file: Jun-Italy-and-Malta-2026-26.jpeg
+    sourceFile: IMG_3335.jpeg
+    exif: '2026-06-21T05:07:31.000Z'
+    flags: []
+    bytes: 464852
+  - id: p027
+    seq: 27
+    file: Jun-Italy-and-Malta-2026-27.jpeg
+    sourceFile: IMG_3339.jpeg
+    exif: '2026-06-21T05:22:40.000Z'
+    flags: []
+    bytes: 387676
+  - id: p028
+    seq: 28
+    file: Jun-Italy-and-Malta-2026-28.jpeg
+    sourceFile: IMG_3341.jpeg
+    exif: '2026-06-21T05:36:44.000Z'
+    flags: []
+    bytes: 224852
+  - id: p029
+    seq: 29
+    file: Jun-Italy-and-Malta-2026-29.jpeg
+    sourceFile: IMG_3343.jpeg
+    exif: '2026-06-21T06:16:59.000Z'
+    flags: []
+    bytes: 251968
+  - id: p030
+    seq: 30
+    file: Jun-Italy-and-Malta-2026-30.jpeg
+    sourceFile: IMG_3357.jpeg
+    exif: '2026-06-21T14:23:14.000Z'
+    flags: []
+    bytes: 604505
+  - id: p031
+    seq: 31
+    file: Jun-Italy-and-Malta-2026-31.jpeg
+    sourceFile: IMG_3368.jpeg
+    exif: '2026-06-21T14:24:29.000Z'
+    flags: []
+    bytes: 356949
+  - id: p032
+    seq: 32
+    file: Jun-Italy-and-Malta-2026-32.jpeg
+    sourceFile: IMG_3372.jpeg
+    exif: '2026-06-21T14:25:24.000Z'
+    flags: []
+    bytes: 386003
+  - id: p033
+    seq: 33
+    file: Jun-Italy-and-Malta-2026-33.jpeg
+    sourceFile: IMG_3378.jpeg
+    exif: '2026-06-21T14:44:36.000Z'
+    flags: []
+    bytes: 393591
+  - id: p034
+    seq: 34
+    file: Jun-Italy-and-Malta-2026-34.jpeg
+    sourceFile: IMG_3383.jpeg
+    exif: '2026-06-21T15:28:48.000Z'
+    flags: []
+    bytes: 628575
+  - id: p035
+    seq: 35
+    file: Jun-Italy-and-Malta-2026-35.jpeg
+    sourceFile: IMG_3384.jpeg
+    exif: '2026-06-21T16:58:24.000Z'
+    flags: []
+    bytes: 629461
+  - id: p036
+    seq: 36
+    file: Jun-Italy-and-Malta-2026-36.jpeg
+    sourceFile: IMG_3386.jpeg
+    exif: '2026-06-21T16:59:33.000Z'
+    flags: []
+    bytes: 533284
+  - id: p037
+    seq: 37
+    file: Jun-Italy-and-Malta-2026-37.jpeg
+    sourceFile: IMG_3387.jpeg
+    exif: '2026-06-21T16:59:41.000Z'
+    flags: []
+    bytes: 437546
+  - id: p038
+    seq: 38
+    file: Jun-Italy-and-Malta-2026-38.jpeg
+    sourceFile: IMG_3388.jpeg
+    exif: '2026-06-21T16:59:53.000Z'
+    flags: []
+    bytes: 415118
+  - id: p039
+    seq: 39
+    file: Jun-Italy-and-Malta-2026-39.jpeg
+    sourceFile: IMG_3389.jpeg
+    exif: '2026-06-21T17:02:32.000Z'
+    flags: []
+    bytes: 620920
+  - id: p040
+    seq: 40
+    file: Jun-Italy-and-Malta-2026-40.jpeg
+    sourceFile: IMG_3391.jpeg
+    exif: '2026-06-21T17:02:34.000Z'
+    flags: []
+    bytes: 602739
+  - id: p041
+    seq: 41
+    file: Jun-Italy-and-Malta-2026-41.jpeg
+    sourceFile: IMG_3393.jpeg
+    exif: '2026-06-21T17:02:55.000Z'
+    flags: []
+    bytes: 632870
+  - id: p042
+    seq: 42
+    file: Jun-Italy-and-Malta-2026-42.jpeg
+    sourceFile: IMG_3395.jpeg
+    exif: '2026-06-21T17:04:59.000Z'
+    flags: []
+    bytes: 629659
+  - id: p043
+    seq: 43
+    file: Jun-Italy-and-Malta-2026-43.jpeg
+    sourceFile: IMG_3398.jpeg
+    exif: '2026-06-21T17:05:06.000Z'
+    flags: []
+    bytes: 487874
+  - id: p044
+    seq: 44
+    file: Jun-Italy-and-Malta-2026-44.jpeg
+    sourceFile: IMG_3399.jpeg
+    exif: '2026-06-21T17:33:43.000Z'
+    flags: []
+    bytes: 298476
+  - id: p045
+    seq: 45
+    file: Jun-Italy-and-Malta-2026-45.jpeg
+    sourceFile: IMG_3400.jpeg
+    exif: '2026-06-21T18:16:06.000Z'
+    flags: []
+    bytes: 381047
+  - id: p046
+    seq: 46
+    file: Jun-Italy-and-Malta-2026-46.jpeg
+    sourceFile: IMG_3401.jpeg
+    exif: '2026-06-21T18:19:04.000Z'
+    flags: []
+    bytes: 380026
+  - id: p047
+    seq: 47
+    file: Jun-Italy-and-Malta-2026-47.jpeg
+    sourceFile: IMG_3402.jpeg
+    exif: '2026-06-21T18:44:41.000Z'
+    flags: []
+    bytes: 350362
+  - id: p048
+    seq: 48
+    file: Jun-Italy-and-Malta-2026-48.jpeg
+    sourceFile: IMG_3427.jpeg
+    exif: '2026-06-22T01:52:36.000Z'
+    flags: []
+    bytes: 265013
+  - id: p049
+    seq: 49
+    file: Jun-Italy-and-Malta-2026-49.jpeg
+    sourceFile: IMG_3428.jpeg
+    exif: '2026-06-22T01:56:44.000Z'
+    flags: []
+    bytes: 405312
+  - id: p050
+    seq: 50
+    file: Jun-Italy-and-Malta-2026-50.jpeg
+    sourceFile: IMG_3430.jpeg
+    exif: '2026-06-22T02:02:47.000Z'
+    flags: []
+    bytes: 398579
+  - id: p051
+    seq: 51
+    file: Jun-Italy-and-Malta-2026-51.jpeg
+    sourceFile: IMG_3431.jpeg
+    exif: '2026-06-22T02:03:10.000Z'
+    flags: []
+    bytes: 695657
+  - id: p052
+    seq: 52
+    file: Jun-Italy-and-Malta-2026-52.jpeg
+    sourceFile: IMG_3432.jpeg
+    exif: '2026-06-22T02:04:02.000Z'
+    flags: []
+    bytes: 498014
+  - id: p053
+    seq: 53
+    file: Jun-Italy-and-Malta-2026-53.jpeg
+    sourceFile: IMG_3437.jpeg
+    exif: '2026-06-22T02:17:41.000Z'
+    flags: []
+    bytes: 408762
+  - id: p054
+    seq: 54
+    file: Jun-Italy-and-Malta-2026-54.jpeg
+    sourceFile: IMG_3439.jpeg
+    exif: '2026-06-22T02:26:00.000Z'
+    flags: []
+    bytes: 313803
+  - id: p055
+    seq: 55
+    file: Jun-Italy-and-Malta-2026-55.jpeg
+    sourceFile: IMG_3440.jpeg
+    exif: '2026-06-22T02:27:25.000Z'
+    flags: []
+    bytes: 362267
+  - id: p056
+    seq: 56
+    file: Jun-Italy-and-Malta-2026-56.jpeg
+    sourceFile: IMG_3441.jpeg
+    exif: '2026-06-22T02:59:57.000Z'
+    flags: []
+    bytes: 486261
+  - id: p057
+    seq: 57
+    file: Jun-Italy-and-Malta-2026-57.jpeg
+    sourceFile: IMG_3447.jpeg
+    exif: '2026-06-22T18:38:56.000Z'
+    flags: []
+    bytes: 353318
+  - id: p058
+    seq: 58
+    file: Jun-Italy-and-Malta-2026-58.jpeg
+    sourceFile: IMG_3450.jpeg
+    exif: '2026-06-22T18:39:03.000Z'
+    flags: []
+    bytes: 304464
+  - id: p059
+    seq: 59
+    file: Jun-Italy-and-Malta-2026-59.jpeg
+    sourceFile: IMG_3452.jpeg
+    exif: '2026-06-22T18:42:28.000Z'
+    flags: []
+    bytes: 580857
+  - id: p060
+    seq: 60
+    file: Jun-Italy-and-Malta-2026-60.jpeg
+    sourceFile: IMG_3454.jpeg
+    exif: '2026-06-22T18:42:43.000Z'
+    flags: []
+    bytes: 667917
+  - id: p061
+    seq: 61
+    file: Jun-Italy-and-Malta-2026-61.jpeg
+    sourceFile: IMG_3455.jpeg
+    exif: '2026-06-22T18:56:33.000Z'
+    flags: []
+    bytes: 663659
+  - id: p062
+    seq: 62
+    file: Jun-Italy-and-Malta-2026-62.jpeg
+    sourceFile: IMG_3457.jpeg
+    exif: '2026-06-22T19:06:10.000Z'
+    flags: []
+    bytes: 439034
+  - id: p063
+    seq: 63
+    file: Jun-Italy-and-Malta-2026-63.jpeg
+    sourceFile: IMG_3458.jpeg
+    exif: '2026-06-22T19:10:52.000Z'
+    flags: []
+    bytes: 388696
+  - id: p064
+    seq: 64
+    file: Jun-Italy-and-Malta-2026-64.jpeg
+    sourceFile: IMG_3459.jpeg
+    exif: '2026-06-22T19:10:56.000Z'
+    flags: []
+    bytes: 279175
+  - id: p065
+    seq: 65
+    file: Jun-Italy-and-Malta-2026-65.jpeg
+    sourceFile: IMG_3461.jpeg
+    exif: '2026-06-22T19:15:24.000Z'
+    flags: []
+    bytes: 499284
+  - id: p066
+    seq: 66
+    file: Jun-Italy-and-Malta-2026-66.jpeg
+    sourceFile: IMG_3463.jpeg
+    exif: '2026-06-22T19:40:54.000Z'
+    flags: []
+    bytes: 500740
+  - id: p067
+    seq: 67
+    file: Jun-Italy-and-Malta-2026-67.jpeg
+    sourceFile: IMG_3467.jpeg
+    exif: '2026-06-22T19:52:37.000Z'
+    flags: []
+    bytes: 426260
+  - id: p068
+    seq: 68
+    file: Jun-Italy-and-Malta-2026-68.jpeg
+    sourceFile: IMG_3468.jpeg
+    exif: '2026-06-22T21:28:26.000Z'
+    flags: []
+    bytes: 385542
+  - id: p069
+    seq: 69
+    file: Jun-Italy-and-Malta-2026-69.jpeg
+    sourceFile: IMG_3469.jpeg
+    exif: '2026-06-22T21:28:30.000Z'
+    flags: []
+    bytes: 340606
+  - id: p070
+    seq: 70
+    file: Jun-Italy-and-Malta-2026-70.jpeg
+    sourceFile: IMG_3473.jpeg
+    exif: '2026-06-23T04:36:45.000Z'
+    flags: []
+    bytes: 418549
+  - id: p071
+    seq: 71
+    file: Jun-Italy-and-Malta-2026-71.jpeg
+    sourceFile: IMG_3474.jpeg
+    exif: '2026-06-23T05:38:40.000Z'
+    flags: []
+    bytes: 279996
+  - id: p072
+    seq: 72
+    file: Jun-Italy-and-Malta-2026-72.jpeg
+    sourceFile: IMG_3481.jpeg
+    exif: '2026-06-23T13:05:51.000Z'
+    flags: []
+    bytes: 381121
+  - id: p073
+    seq: 73
+    file: Jun-Italy-and-Malta-2026-73.jpeg
+    sourceFile: IMG_3483.jpeg
+    exif: '2026-06-23T13:08:39.000Z'
+    flags: []
+    bytes: 400107
+  - id: p074
+    seq: 74
+    file: Jun-Italy-and-Malta-2026-74.jpeg
+    sourceFile: IMG_3484.jpeg
+    exif: '2026-06-23T13:08:43.000Z'
+    flags: []
+    bytes: 351141
+  - id: p075
+    seq: 75
+    file: Jun-Italy-and-Malta-2026-75.jpeg
+    sourceFile: IMG_3485.jpeg
+    exif: '2026-06-23T13:08:46.000Z'
+    flags: []
+    bytes: 333230
+  - id: p076
+    seq: 76
+    file: Jun-Italy-and-Malta-2026-76.jpeg
+    sourceFile: IMG_3486.jpeg
+    exif: '2026-06-23T13:11:03.000Z'
+    flags: []
+    bytes: 445816
+  - id: p077
+    seq: 77
+    file: Jun-Italy-and-Malta-2026-77.jpeg
+    sourceFile: IMG_3495.jpeg
+    exif: '2026-06-23T15:17:40.000Z'
+    flags: []
+    bytes: 409952
+  - id: p078
+    seq: 78
+    file: Jun-Italy-and-Malta-2026-78.jpeg
+    sourceFile: IMG_3496.jpeg
+    exif: '2026-06-23T15:52:10.000Z'
+    flags: []
+    bytes: 247671
+  - id: p079
+    seq: 79
+    file: Jun-Italy-and-Malta-2026-79.jpeg
+    sourceFile: IMG_3508.jpeg
+    exif: '2026-06-23T16:21:57.000Z'
+    flags: []
+    bytes: 261702
+  - id: p080
+    seq: 80
+    file: Jun-Italy-and-Malta-2026-80.jpeg
+    sourceFile: IMG_3510.jpeg
+    exif: '2026-06-23T16:23:23.000Z'
+    flags: []
+    bytes: 325000
+  - id: p081
+    seq: 81
+    file: Jun-Italy-and-Malta-2026-81.jpeg
+    sourceFile: IMG_4449.jpeg
+    exif: '2026-06-23T16:26:02.000Z'
+    flags: []
+    bytes: 343229
+  - id: p082
+    seq: 82
+    file: Jun-Italy-and-Malta-2026-82.jpeg
+    sourceFile: IMG_3511.jpeg
+    exif: '2026-06-23T16:32:35.000Z'
+    flags: []
+    bytes: 228574
+  - id: p083
+    seq: 83
+    file: Jun-Italy-and-Malta-2026-83.jpeg
+    sourceFile: IMG_3513.jpeg
+    exif: '2026-06-23T16:44:44.000Z'
+    flags: []
+    bytes: 262557
+  - id: p084
+    seq: 84
+    file: Jun-Italy-and-Malta-2026-84.jpeg
+    sourceFile: IMG_3515.jpeg
+    exif: '2026-06-23T16:46:52.000Z'
+    flags: []
+    bytes: 563305
+  - id: p085
+    seq: 85
+    file: Jun-Italy-and-Malta-2026-85.jpeg
+    sourceFile: IMG_3516.jpeg
+    exif: '2026-06-23T16:48:15.000Z'
+    flags: []
+    bytes: 604376
+  - id: p086
+    seq: 86
+    file: Jun-Italy-and-Malta-2026-86.jpeg
+    sourceFile: IMG_3517.jpeg
+    exif: '2026-06-23T17:14:45.000Z'
+    flags: []
+    bytes: 695934
+  - id: p087
+    seq: 87
+    file: Jun-Italy-and-Malta-2026-87.jpeg
+    sourceFile: IMG_3518.jpeg
+    exif: '2026-06-23T17:20:50.000Z'
+    flags: []
+    bytes: 328218
+  - id: p088
+    seq: 88
+    file: Jun-Italy-and-Malta-2026-88.jpeg
+    sourceFile: IMG_3520.jpeg
+    exif: '2026-06-23T17:20:57.000Z'
+    flags: []
+    bytes: 559443
+  - id: p089
+    seq: 89
+    file: Jun-Italy-and-Malta-2026-89.jpeg
+    sourceFile: IMG_3523.jpeg
+    exif: '2026-06-23T17:41:58.000Z'
+    flags: []
+    bytes: 239209
+  - id: p090
+    seq: 90
+    file: Jun-Italy-and-Malta-2026-90.jpeg
+    sourceFile: IMG_3524.jpeg
+    exif: '2026-06-23T17:46:25.000Z'
+    flags: []
+    bytes: 548034
+  - id: p091
+    seq: 91
+    file: Jun-Italy-and-Malta-2026-91.jpeg
+    sourceFile: IMG_4465.jpeg
+    exif: '2026-06-23T18:21:25.000Z'
+    flags: []
+    bytes: 300015
+  - id: p092
+    seq: 92
+    file: Jun-Italy-and-Malta-2026-92.jpeg
+    sourceFile: IMG_3527.jpeg
+    exif: '2026-06-23T18:32:11.000Z'
+    flags: []
+    bytes: 332837
+  - id: p093
+    seq: 93
+    file: Jun-Italy-and-Malta-2026-93.jpeg
+    sourceFile: IMG_3528.jpeg
+    exif: '2026-06-23T18:55:55.000Z'
+    flags: []
+    bytes: 296194
+  - id: p094
+    seq: 94
+    file: Jun-Italy-and-Malta-2026-94.jpeg
+    sourceFile: IMG_3530.jpeg
+    exif: '2026-06-23T19:01:48.000Z'
+    flags: []
+    bytes: 329522
+  - id: p095
+    seq: 95
+    file: Jun-Italy-and-Malta-2026-95.jpeg
+    sourceFile: IMG_3531.jpeg
+    exif: '2026-06-23T19:05:00.000Z'
+    flags: []
+    bytes: 258385
+  - id: p096
+    seq: 96
+    file: Jun-Italy-and-Malta-2026-96.jpeg
+    sourceFile: IMG_3539.jpeg
+    exif: '2026-06-23T19:07:59.000Z'
+    flags: []
+    bytes: 421193
+  - id: p097
+    seq: 97
+    file: Jun-Italy-and-Malta-2026-97.jpeg
+    sourceFile: IMG_4471.jpeg
+    exif: '2026-06-23T19:21:21.000Z'
+    flags: []
+    bytes: 464404
+  - id: p098
+    seq: 98
+    file: Jun-Italy-and-Malta-2026-98.jpeg
+    sourceFile: IMG_3546.jpeg
+    exif: '2026-06-23T19:25:28.000Z'
+    flags: []
+    bytes: 265378
+  - id: p099
+    seq: 99
+    file: Jun-Italy-and-Malta-2026-99.jpeg
+    sourceFile: IMG_3581.jpeg
+    exif: '2026-06-23T19:33:58.000Z'
+    flags: []
+    bytes: 342897
+  - id: p100
+    seq: 100
+    file: Jun-Italy-and-Malta-2026-100.jpeg
+    sourceFile: IMG_3584.jpeg
+    exif: '2026-06-23T19:34:12.000Z'
+    flags: []
+    bytes: 294884
+  - id: p101
+    seq: 101
+    file: Jun-Italy-and-Malta-2026-101.jpeg
+    sourceFile: IMG_3587.jpeg
+    exif: '2026-06-23T19:34:32.000Z'
+    flags: []
+    bytes: 209522
+  - id: p102
+    seq: 102
+    file: Jun-Italy-and-Malta-2026-102.jpeg
+    sourceFile: IMG_3595.jpeg
+    exif: '2026-06-23T23:18:02.000Z'
+    flags: []
+    bytes: 574181
+  - id: p103
+    seq: 103
+    file: Jun-Italy-and-Malta-2026-103.jpeg
+    sourceFile: IMG_3598.jpeg
+    exif: '2026-06-23T23:27:07.000Z'
+    flags: []
+    bytes: 318729
+  - id: p104
+    seq: 104
+    file: Jun-Italy-and-Malta-2026-104.jpeg
+    sourceFile: IMG_3599.jpeg
+    exif: '2026-06-23T23:27:17.000Z'
+    flags: []
+    bytes: 495505
+  - id: p105
+    seq: 105
+    file: Jun-Italy-and-Malta-2026-105.jpeg
+    sourceFile: IMG_3600.jpeg
+    exif: '2026-06-23T23:55:31.000Z'
+    flags: []
+    bytes: 432906
+  - id: p106
+    seq: 106
+    file: Jun-Italy-and-Malta-2026-106.jpeg
+    sourceFile: IMG_3603.jpeg
+    exif: '2026-06-24T00:02:18.000Z'
+    flags: []
+    bytes: 370926
+  - id: p107
+    seq: 107
+    file: Jun-Italy-and-Malta-2026-107.jpeg
+    sourceFile: IMG_3604.jpeg
+    exif: '2026-06-24T00:03:09.000Z'
+    flags: []
+    bytes: 244102
+  - id: p108
+    seq: 108
+    file: Jun-Italy-and-Malta-2026-108.jpeg
+    sourceFile: IMG_3607.jpeg
+    exif: '2026-06-24T00:20:23.000Z'
+    flags: []
+    bytes: 372657
+  - id: p109
+    seq: 109
+    file: Jun-Italy-and-Malta-2026-109.jpeg
+    sourceFile: IMG_3608.jpeg
+    exif: '2026-06-24T00:51:33.000Z'
+    flags: []
+    bytes: 293058
+  - id: p110
+    seq: 110
+    file: Jun-Italy-and-Malta-2026-110.jpeg
+    sourceFile: IMG_3612.jpeg
+    exif: '2026-06-24T02:37:52.000Z'
+    flags: []
+    bytes: 425533
+  - id: p111
+    seq: 111
+    file: Jun-Italy-and-Malta-2026-111.jpeg
+    sourceFile: IMG_3613.jpeg
+    exif: '2026-06-24T02:38:07.000Z'
+    flags: []
+    bytes: 507208
+  - id: p112
+    seq: 112
+    file: Jun-Italy-and-Malta-2026-112.jpeg
+    sourceFile: IMG_3614.jpeg
+    exif: '2026-06-24T02:39:09.000Z'
+    flags: []
+    bytes: 654590
+  - id: p113
+    seq: 113
+    file: Jun-Italy-and-Malta-2026-113.jpeg
+    sourceFile: IMG_3616.jpeg
+    exif: '2026-06-24T02:39:45.000Z'
+    flags: []
+    bytes: 370336
+  - id: p114
+    seq: 114
+    file: Jun-Italy-and-Malta-2026-114.jpeg
+    sourceFile: IMG_3617.jpeg
+    exif: '2026-06-24T02:44:25.000Z'
+    flags: []
+    bytes: 436566
+  - id: p115
+    seq: 115
+    file: Jun-Italy-and-Malta-2026-115.jpeg
+    sourceFile: IMG_3622.jpeg
+    exif: '2026-06-24T02:51:34.000Z'
+    flags: []
+    bytes: 455323
+  - id: p116
+    seq: 116
+    file: Jun-Italy-and-Malta-2026-116.jpeg
+    sourceFile: IMG_3624.jpeg
+    exif: '2026-06-24T02:53:38.000Z'
+    flags: []
+    bytes: 237546
+  - id: p117
+    seq: 117
+    file: Jun-Italy-and-Malta-2026-117.jpeg
+    sourceFile: IMG_3629.jpeg
+    exif: '2026-06-24T03:34:12.000Z'
+    flags: []
+    bytes: 174943
+  - id: p118
+    seq: 118
+    file: Jun-Italy-and-Malta-2026-118.jpeg
+    sourceFile: IMG_3634.jpeg
+    exif: '2026-06-24T03:57:55.000Z'
+    flags: []
+    bytes: 351479
+  - id: p119
+    seq: 119
+    file: Jun-Italy-and-Malta-2026-119.jpeg
+    sourceFile: IMG_3635.jpeg
+    exif: '2026-06-24T04:02:49.000Z'
+    flags: []
+    bytes: 279353
+  - id: p120
+    seq: 120
+    file: Jun-Italy-and-Malta-2026-120.jpeg
+    sourceFile: IMG_3637.jpeg
+    exif: '2026-06-24T04:02:59.000Z'
+    flags: []
+    bytes: 383329
+  - id: p121
+    seq: 121
+    file: Jun-Italy-and-Malta-2026-121.jpeg
+    sourceFile: IMG_3639.jpeg
+    exif: '2026-06-24T05:10:46.000Z'
+    flags: []
+    bytes: 269957
+  - id: p122
+    seq: 122
+    file: Jun-Italy-and-Malta-2026-122.jpeg
+    sourceFile: IMG_3643.jpeg
+    exif: '2026-06-24T16:29:36.000Z'
+    flags: []
+    bytes: 266225
+  - id: p123
+    seq: 123
+    file: Jun-Italy-and-Malta-2026-123.jpeg
+    sourceFile: IMG_3645.jpeg
+    exif: '2026-06-24T17:45:18.000Z'
+    flags: []
+    bytes: 467526
+  - id: p124
+    seq: 124
+    file: Jun-Italy-and-Malta-2026-124.jpeg
+    sourceFile: IMG_3650.jpeg
+    exif: '2026-06-24T18:14:12.000Z'
+    flags: []
+    bytes: 346773
+  - id: p125
+    seq: 125
+    file: Jun-Italy-and-Malta-2026-125.jpeg
+    sourceFile: IMG_3657.jpeg
+    exif: '2026-06-24T18:25:05.000Z'
+    flags: []
+    bytes: 470384
+  - id: p126
+    seq: 126
+    file: Jun-Italy-and-Malta-2026-126.jpeg
+    sourceFile: IMG_3659.jpeg
+    exif: '2026-06-24T18:26:38.000Z'
+    flags: []
+    bytes: 211257
+  - id: p127
+    seq: 127
+    file: Jun-Italy-and-Malta-2026-127.jpeg
+    sourceFile: IMG_3662.jpeg
+    exif: '2026-06-24T18:32:59.000Z'
+    flags: []
+    bytes: 575294
+  - id: p128
+    seq: 128
+    file: Jun-Italy-and-Malta-2026-128.jpeg
+    sourceFile: IMG_3664.jpeg
+    exif: '2026-06-24T18:54:01.000Z'
+    flags: []
+    bytes: 510695
+  - id: p129
+    seq: 129
+    file: Jun-Italy-and-Malta-2026-129.jpeg
+    sourceFile: IMG_3667.jpeg
+    exif: '2026-06-24T18:55:21.000Z'
+    flags: []
+    bytes: 254962
+  - id: p130
+    seq: 130
+    file: Jun-Italy-and-Malta-2026-130.jpeg
+    sourceFile: IMG_3670.jpeg
+    exif: '2026-06-24T18:55:49.000Z'
+    flags: []
+    bytes: 294768
+  - id: p131
+    seq: 131
+    file: Jun-Italy-and-Malta-2026-131.jpeg
+    sourceFile: IMG_3672.jpeg
+    exif: '2026-06-24T18:56:28.000Z'
+    flags: []
+    bytes: 530290
+  - id: p132
+    seq: 132
+    file: Jun-Italy-and-Malta-2026-132.jpeg
+    sourceFile: IMG_3673.jpeg
+    exif: '2026-06-24T19:04:56.000Z'
+    flags: []
+    bytes: 475673
+  - id: p133
+    seq: 133
+    file: Jun-Italy-and-Malta-2026-133.jpeg
+    sourceFile: IMG_3674.jpeg
+    exif: '2026-06-24T19:09:05.000Z'
+    flags: []
+    bytes: 347284
+  - id: p134
+    seq: 134
+    file: Jun-Italy-and-Malta-2026-134.jpeg
+    sourceFile: IMG_3676.jpeg
+    exif: '2026-06-24T19:24:49.000Z'
+    flags: []
+    bytes: 665192
+  - id: p135
+    seq: 135
+    file: Jun-Italy-and-Malta-2026-135.jpeg
+    sourceFile: IMG_3679.jpeg
+    exif: '2026-06-24T19:38:15.000Z'
+    flags: []
+    bytes: 262289
+  - id: p136
+    seq: 136
+    file: Jun-Italy-and-Malta-2026-136.jpeg
+    sourceFile: IMG_3681.jpeg
+    exif: '2026-06-24T20:26:02.000Z'
+    flags: []
+    bytes: 541290
+  - id: p137
+    seq: 137
+    file: Jun-Italy-and-Malta-2026-137.jpeg
+    sourceFile: IMG_3696.jpeg
+    exif: '2026-06-24T20:27:45.000Z'
+    flags: []
+    bytes: 331589
+  - id: p138
+    seq: 138
+    file: Jun-Italy-and-Malta-2026-138.jpeg
+    sourceFile: IMG_3697.jpeg
+    exif: '2026-06-24T20:54:05.000Z'
+    flags: []
+    bytes: 641040
+  - id: p139
+    seq: 139
+    file: Jun-Italy-and-Malta-2026-139.jpeg
+    sourceFile: IMG_3699.jpeg
+    exif: '2026-06-24T21:14:31.000Z'
+    flags: []
+    bytes: 472673
+  - id: p140
+    seq: 140
+    file: Jun-Italy-and-Malta-2026-140.jpeg
+    sourceFile: IMG_3701.jpeg
+    exif: '2026-06-24T21:31:51.000Z'
+    flags: []
+    bytes: 465264
+  - id: p141
+    seq: 141
+    file: Jun-Italy-and-Malta-2026-141.jpeg
+    sourceFile: IMG_3702.jpeg
+    exif: '2026-06-24T21:33:16.000Z'
+    flags: []
+    bytes: 398337
+  - id: p142
+    seq: 142
+    file: Jun-Italy-and-Malta-2026-142.jpeg
+    sourceFile: IMG_3705.jpeg
+    exif: '2026-06-24T21:38:41.000Z'
+    flags: []
+    bytes: 435915
+  - id: p143
+    seq: 143
+    file: Jun-Italy-and-Malta-2026-143.jpeg
+    sourceFile: IMG_3707.jpeg
+    exif: '2026-06-24T21:51:34.000Z'
+    flags: []
+    bytes: 662854
+  - id: p144
+    seq: 144
+    file: Jun-Italy-and-Malta-2026-144.jpeg
+    sourceFile: IMG_3716.jpeg
+    exif: '2026-06-24T21:57:59.000Z'
+    flags: []
+    bytes: 171221
+  - id: p145
+    seq: 145
+    file: Jun-Italy-and-Malta-2026-145.jpeg
+    sourceFile: IMG_3723.jpeg
+    exif: '2026-06-24T21:59:45.000Z'
+    flags: []
+    bytes: 560778
+  - id: p146
+    seq: 146
+    file: Jun-Italy-and-Malta-2026-146.jpeg
+    sourceFile: IMG_3727.jpeg
+    exif: '2026-06-24T22:09:16.000Z'
+    flags: []
+    bytes: 375323
+  - id: p147
+    seq: 147
+    file: Jun-Italy-and-Malta-2026-147.jpeg
+    sourceFile: IMG_3733.jpeg
+    exif: '2026-06-24T22:31:40.000Z'
+    flags: []
+    bytes: 293970
+  - id: p148
+    seq: 148
+    file: Jun-Italy-and-Malta-2026-148.jpeg
+    sourceFile: IMG_3734.jpeg
+    exif: '2026-06-24T23:21:02.000Z'
+    flags: []
+    bytes: 381822
+  - id: p149
+    seq: 149
+    file: Jun-Italy-and-Malta-2026-149.jpeg
+    sourceFile: IMG_3736.jpeg
+    exif: '2026-06-25T00:16:36.000Z'
+    flags: []
+    bytes: 379783
+  - id: p150
+    seq: 150
+    file: Jun-Italy-and-Malta-2026-150.jpeg
+    sourceFile: IMG_3737.jpeg
+    exif: '2026-06-25T00:16:41.000Z'
+    flags: []
+    bytes: 451703
+  - id: p151
+    seq: 151
+    file: Jun-Italy-and-Malta-2026-151.jpeg
+    sourceFile: IMG_3739.jpeg
+    exif: '2026-06-25T01:06:07.000Z'
+    flags: []
+    bytes: 557707
+  - id: p152
+    seq: 152
+    file: Jun-Italy-and-Malta-2026-152.jpeg
+    sourceFile: IMG_3742.jpeg
+    exif: '2026-06-25T01:25:49.000Z'
+    flags: []
+    bytes: 382019
+  - id: p153
+    seq: 153
+    file: Jun-Italy-and-Malta-2026-153.jpeg
+    sourceFile: IMG_3743.jpeg
+    exif: '2026-06-25T01:31:56.000Z'
+    flags: []
+    bytes: 157465
+  - id: p154
+    seq: 154
+    file: Jun-Italy-and-Malta-2026-154.jpeg
+    sourceFile: IMG_3745.jpeg
+    exif: '2026-06-25T02:02:14.000Z'
+    flags: []
+    bytes: 314526
+  - id: p155
+    seq: 155
+    file: Jun-Italy-and-Malta-2026-155.jpeg
+    sourceFile: IMG_3746.jpeg
+    exif: '2026-06-25T02:11:34.000Z'
+    flags: []
+    bytes: 347114
+  - id: p156
+    seq: 156
+    file: Jun-Italy-and-Malta-2026-156.jpeg
+    sourceFile: IMG_3747.jpeg
+    exif: '2026-06-25T02:11:38.000Z'
+    flags: []
+    bytes: 260582
+  - id: p157
+    seq: 157
+    file: Jun-Italy-and-Malta-2026-157.jpeg
+    sourceFile: IMG_3748.jpeg
+    exif: '2026-06-25T02:49:20.000Z'
+    flags: []
+    bytes: 674325
+  - id: p158
+    seq: 158
+    file: Jun-Italy-and-Malta-2026-158.jpeg
+    sourceFile: IMG_3749.jpeg
+    exif: '2026-06-25T03:52:54.000Z'
+    flags: []
+    bytes: 358372
+  - id: p159
+    seq: 159
+    file: Jun-Italy-and-Malta-2026-159.jpeg
+    sourceFile: IMG_3752.jpeg
+    exif: '2026-06-25T12:46:25.000Z'
+    flags: []
+    bytes: 400355
+  - id: p160
+    seq: 160
+    file: Jun-Italy-and-Malta-2026-160.jpeg
+    sourceFile: IMG_3755.jpeg
+    exif: '2026-06-25T21:34:52.000Z'
+    flags: []
+    bytes: 340070
+  - id: p161
+    seq: 161
+    file: Jun-Italy-and-Malta-2026-161.jpeg
+    sourceFile: IMG_3757.jpeg
+    exif: '2026-06-25T21:53:58.000Z'
+    flags: []
+    bytes: 392639
+  - id: p162
+    seq: 162
+    file: Jun-Italy-and-Malta-2026-162.jpeg
+    sourceFile: IMG_3758.jpeg
+    exif: '2026-06-25T22:24:55.000Z'
+    flags: []
+    bytes: 423368
+  - id: p163
+    seq: 163
+    file: Jun-Italy-and-Malta-2026-163.jpeg
+    sourceFile: IMG_3760.jpeg
+    exif: '2026-06-25T22:47:55.000Z'
+    flags: []
+    bytes: 329132
+  - id: p164
+    seq: 164
+    file: Jun-Italy-and-Malta-2026-164.jpeg
+    sourceFile: IMG_3770.jpeg
+    exif: '2026-06-25T22:48:17.000Z'
+    flags: []
+    bytes: 315496
+  - id: p165
+    seq: 165
+    file: Jun-Italy-and-Malta-2026-165.jpeg
+    sourceFile: IMG_3787.jpeg
+    exif: '2026-06-25T22:49:13.000Z'
+    flags: []
+    bytes: 174463
+  - id: p166
+    seq: 166
+    file: Jun-Italy-and-Malta-2026-166.jpeg
+    sourceFile: IMG_3790.jpeg
+    exif: '2026-06-25T22:50:08.000Z'
+    flags: []
+    bytes: 334658
+  - id: p167
+    seq: 167
+    file: Jun-Italy-and-Malta-2026-167.jpeg
+    sourceFile: IMG_3800.jpeg
+    exif: '2026-06-25T22:50:27.000Z'
+    flags: []
+    bytes: 334757
+  - id: p168
+    seq: 168
+    file: Jun-Italy-and-Malta-2026-168.jpeg
+    sourceFile: IMG_3823.jpeg
+    exif: '2026-06-26T00:22:41.000Z'
+    flags: []
+    bytes: 433843
+  - id: p169
+    seq: 169
+    file: Jun-Italy-and-Malta-2026-169.jpeg
+    sourceFile: IMG_3826.jpeg
+    exif: '2026-06-26T00:43:58.000Z'
+    flags: []
+    bytes: 362813
+  - id: p170
+    seq: 170
+    file: Jun-Italy-and-Malta-2026-170.jpeg
+    sourceFile: IMG_3828.jpeg
+    exif: '2026-06-26T01:13:54.000Z'
+    flags: []
+    bytes: 268399
+  - id: p171
+    seq: 171
+    file: Jun-Italy-and-Malta-2026-171.jpeg
+    sourceFile: IMG_3829.jpeg
+    exif: '2026-06-26T02:06:23.000Z'
+    flags: []
+    bytes: 362218
+  - id: p172
+    seq: 172
+    file: Jun-Italy-and-Malta-2026-172.jpeg
+    sourceFile: IMG_3835.jpeg
+    exif: '2026-06-26T02:21:46.000Z'
+    flags: []
+    bytes: 310753
+  - id: p173
+    seq: 173
+    file: Jun-Italy-and-Malta-2026-173.jpeg
+    sourceFile: IMG_3839.jpeg
+    exif: '2026-06-26T03:30:11.000Z'
+    flags: []
+    bytes: 331216
+  - id: p174
+    seq: 174
+    file: Jun-Italy-and-Malta-2026-174.jpeg
+    sourceFile: IMG_3841.jpeg
+    exif: '2026-06-26T03:53:50.000Z'
+    flags: []
+    bytes: 307033
+  - id: p175
+    seq: 175
+    file: Jun-Italy-and-Malta-2026-175.jpeg
+    sourceFile: IMG_3848.jpeg
+    exif: '2026-06-26T03:54:05.000Z'
+    flags: []
+    bytes: 372198
+  - id: p176
+    seq: 176
+    file: Jun-Italy-and-Malta-2026-176.jpeg
+    sourceFile: IMG_3850.jpeg
+    exif: '2026-06-26T03:58:47.000Z'
+    flags: []
+    bytes: 338596
+  - id: p177
+    seq: 177
+    file: Jun-Italy-and-Malta-2026-177.jpeg
+    sourceFile: IMG_3852.jpeg
+    exif: '2026-06-26T03:59:45.000Z'
+    flags: []
+    bytes: 200250
+  - id: p178
+    seq: 178
+    file: Jun-Italy-and-Malta-2026-178.jpeg
+    sourceFile: IMG_3854.jpeg
+    exif: '2026-06-26T04:00:15.000Z'
+    flags: []
+    bytes: 492332
+  - id: p179
+    seq: 179
+    file: Jun-Italy-and-Malta-2026-179.jpeg
+    sourceFile: IMG_3857.jpeg
+    exif: '2026-06-26T04:08:47.000Z'
+    flags: []
+    bytes: 236670
+  - id: p180
+    seq: 180
+    file: Jun-Italy-and-Malta-2026-180.jpeg
+    sourceFile: IMG_3862.jpeg
+    exif: '2026-06-26T16:19:13.000Z'
+    flags: []
+    bytes: 472461
+  - id: p181
+    seq: 181
+    file: Jun-Italy-and-Malta-2026-181.jpeg
+    sourceFile: IMG_3873.jpeg
+    exif: '2026-06-26T23:43:21.000Z'
+    flags: []
+    bytes: 587943
+  - id: p182
+    seq: 182
+    file: Jun-Italy-and-Malta-2026-182.jpeg
+    sourceFile: IMG_3876.jpeg
+    exif: '2026-06-27T00:04:05.000Z'
+    flags: []
+    bytes: 344749
+  - id: p183
+    seq: 183
+    file: Jun-Italy-and-Malta-2026-183.jpeg
+    sourceFile: IMG_3900.jpeg
+    exif: '2026-06-27T00:05:21.000Z'
+    flags: []
+    bytes: 372346
+  - id: p184
+    seq: 184
+    file: Jun-Italy-and-Malta-2026-184.jpeg
+    sourceFile: IMG_3918.jpeg
+    exif: '2026-06-27T00:08:29.000Z'
+    flags: []
+    bytes: 307389
+  - id: p185
+    seq: 185
+    file: Jun-Italy-and-Malta-2026-185.jpeg
+    sourceFile: IMG_3920.jpeg
+    exif: '2026-06-27T00:29:51.000Z'
+    flags: []
+    bytes: 559444
+  - id: p186
+    seq: 186
+    file: Jun-Italy-and-Malta-2026-186.jpeg
+    sourceFile: IMG_3923.jpeg
+    exif: '2026-06-27T00:30:10.000Z'
+    flags: []
+    bytes: 542684
+  - id: p187
+    seq: 187
+    file: Jun-Italy-and-Malta-2026-187.jpeg
+    sourceFile: IMG_3929.jpeg
+    exif: '2026-06-27T00:35:43.000Z'
+    flags: []
+    bytes: 249817
+  - id: p188
+    seq: 188
+    file: Jun-Italy-and-Malta-2026-188.jpeg
+    sourceFile: IMG_3930.jpeg
+    exif: '2026-06-27T01:26:58.000Z'
+    flags: []
+    bytes: 347850
+  - id: p189
+    seq: 189
+    file: Jun-Italy-and-Malta-2026-189.jpeg
+    sourceFile: IMG_3931.jpeg
+    exif: '2026-06-27T01:27:57.000Z'
+    flags: []
+    bytes: 302216
+  - id: p190
+    seq: 190
+    file: Jun-Italy-and-Malta-2026-190.jpeg
+    sourceFile: IMG_3932.jpeg
+    exif: '2026-06-27T01:40:19.000Z'
+    flags: []
+    bytes: 295266
+  - id: p191
+    seq: 191
+    file: Jun-Italy-and-Malta-2026-191.jpeg
+    sourceFile: IMG_3933.jpeg
+    exif: '2026-06-27T14:51:13.000Z'
+    flags: []
+    bytes: 444831
+  - id: p192
+    seq: 192
+    file: Jun-Italy-and-Malta-2026-192.jpeg
+    sourceFile: IMG_3935.jpeg
+    exif: '2026-06-27T15:37:29.000Z'
+    flags: []
+    bytes: 576699
+  - id: p193
+    seq: 193
+    file: Jun-Italy-and-Malta-2026-193.jpeg
+    sourceFile: IMG_3936.jpeg
+    exif: '2026-06-27T16:59:40.000Z'
+    flags: []
+    bytes: 681106
+  - id: p194
+    seq: 194
+    file: Jun-Italy-and-Malta-2026-194.jpeg
+    sourceFile: IMG_3939.jpeg
+    exif: '2026-06-27T17:42:25.000Z'
+    flags: []
+    bytes: 639902
+  - id: p195
+    seq: 195
+    file: Jun-Italy-and-Malta-2026-195.jpeg
+    sourceFile: IMG_3942.jpeg
+    exif: '2026-06-27T17:45:18.000Z'
+    flags: []
+    bytes: 523367
+  - id: p196
+    seq: 196
+    file: Jun-Italy-and-Malta-2026-196.jpeg
+    sourceFile: IMG_3945.jpeg
+    exif: '2026-06-27T18:55:09.000Z'
+    flags: []
+    bytes: 430074
+sections:
+  - id: all-photos
+    title: Photos
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p020
+      - p021
+      - p022
+      - p023
+      - p024
+      - p025
+      - p026
+      - p027
+      - p028
+      - p029
+      - p030
+      - p031
+      - p032
+      - p033
+      - p034
+      - p035
+      - p036
+      - p037
+      - p038
+      - p039
+      - p040
+      - p041
+      - p042
+      - p043
+      - p044
+      - p045
+      - p046
+      - p047
+      - p048
+      - p049
+      - p050
+      - p051
+      - p052
+      - p053
+      - p054
+      - p055
+      - p056
+      - p057
+      - p058
+      - p059
+      - p060
+      - p061
+      - p062
+      - p063
+      - p064
+      - p065
+      - p066
+      - p067
+      - p068
+      - p069
+      - p070
+      - p071
+      - p072
+      - p073
+      - p074
+      - p075
+      - p076
+      - p077
+      - p078
+      - p079
+      - p080
+      - p081
+      - p082
+      - p083
+      - p084
+      - p085
+      - p086
+      - p087
+      - p088
+      - p089
+      - p090
+      - p091
+      - p092
+      - p093
+      - p094
+      - p095
+      - p096
+      - p097
+      - p098
+      - p099
+      - p100
+      - p101
+      - p102
+      - p103
+      - p104
+      - p105
+      - p106
+      - p107
+      - p108
+      - p109
+      - p110
+      - p111
+      - p112
+      - p113
+      - p114
+      - p115
+      - p116
+      - p117
+      - p118
+      - p119
+      - p120
+      - p121
+      - p122
+      - p123
+      - p124
+      - p125
+      - p126
+      - p127
+      - p128
+      - p129
+      - p130
+      - p131
+      - p132
+      - p133
+      - p134
+      - p135
+      - p136
+      - p137
+      - p138
+      - p139
+      - p140
+      - p141
+      - p142
+      - p143
+      - p144
+      - p145
+      - p146
+      - p147
+      - p148
+      - p149
+      - p150
+      - p151
+      - p152
+      - p153
+      - p154
+      - p155
+      - p156
+      - p157
+      - p158
+      - p159
+      - p160
+      - p161
+      - p162
+      - p163
+      - p164
+      - p165
+      - p166
+      - p167
+      - p168
+      - p169
+      - p170
+      - p171
+      - p172
+      - p173
+      - p174
+      - p175
+      - p176
+      - p177
+      - p178
+      - p179
+      - p180
+      - p181
+      - p182
+      - p183
+      - p184
+      - p185
+      - p186
+      - p187
+      - p188
+      - p189
+      - p190
+      - p191
+      - p192
+      - p193
+      - p194
+      - p195
+      - p196
+    prose: ''
+pages:
+  - file: Jun-Italy-and-Malta-2026-1.html
+    sectionIds:
+      - all-photos
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-12T22:03:10.050Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg

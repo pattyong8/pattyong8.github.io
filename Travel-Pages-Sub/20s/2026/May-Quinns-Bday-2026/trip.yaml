@@ -1,0 +1,153 @@
+schemaVersion: 1
+title: Quinn's Birthday
+slug: May-Quinns-Bday-2026
+section: 20s
+year: '2026'
+dateRange: May 2026
+startDate: '2026-05-15'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: May-Quinns-Bday-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/May-Quinns-Bday-2026
+coverSource: Cover.jpeg
+heroFile: May-Quinns-Bday-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: May-Quinns-Bday-2026-1.jpeg
+    sourceFile: IMG_4296.jpeg
+    exif: '2026-05-30T15:53:23.000Z'
+    flags: []
+    bytes: 399437
+  - id: p002
+    seq: 2
+    file: May-Quinns-Bday-2026-2.jpeg
+    sourceFile: IMG_2982.jpeg
+    exif: '2026-05-30T17:46:10.000Z'
+    flags: []
+    bytes: 547538
+  - id: p003
+    seq: 3
+    file: May-Quinns-Bday-2026-3.jpeg
+    sourceFile: IMG_2988.jpeg
+    exif: '2026-05-30T17:47:04.000Z'
+    flags: []
+    bytes: 346946
+  - id: p004
+    seq: 4
+    file: May-Quinns-Bday-2026-4.jpeg
+    sourceFile: IMG_2989.jpeg
+    exif: '2026-05-30T17:47:06.000Z'
+    flags: []
+    bytes: 416356
+  - id: p005
+    seq: 5
+    file: May-Quinns-Bday-2026-5.jpeg
+    sourceFile: IMG_2993.jpeg
+    exif: '2026-05-30T17:47:15.000Z'
+    flags: []
+    bytes: 430739
+  - id: p006
+    seq: 6
+    file: May-Quinns-Bday-2026-6.jpeg
+    sourceFile: IMG_2997.jpeg
+    exif: '2026-05-30T17:47:29.000Z'
+    flags: []
+    bytes: 558840
+  - id: p007
+    seq: 7
+    file: May-Quinns-Bday-2026-7.jpeg
+    sourceFile: IMG_2998.jpeg
+    exif: '2026-05-30T17:48:59.000Z'
+    flags: []
+    bytes: 363284
+  - id: p008
+    seq: 8
+    file: May-Quinns-Bday-2026-8.jpeg
+    sourceFile: IMG_3002.jpeg
+    exif: '2026-05-30T17:49:23.000Z'
+    flags: []
+    bytes: 313720
+  - id: p009
+    seq: 9
+    file: May-Quinns-Bday-2026-9.jpeg
+    sourceFile: IMG_3007.jpeg
+    exif: '2026-05-30T17:49:44.000Z'
+    flags: []
+    bytes: 355751
+  - id: p010
+    seq: 10
+    file: May-Quinns-Bday-2026-10.jpeg
+    sourceFile: IMG_3009.jpeg
+    exif: '2026-05-30T17:50:22.000Z'
+    flags: []
+    bytes: 312548
+  - id: p011
+    seq: 11
+    file: May-Quinns-Bday-2026-11.jpeg
+    sourceFile: IMG_3014.jpeg
+    exif: '2026-05-30T17:50:48.000Z'
+    flags: []
+    bytes: 470151
+  - id: p012
+    seq: 12
+    file: May-Quinns-Bday-2026-12.jpeg
+    sourceFile: IMG_3019.jpeg
+    exif: '2026-05-30T19:07:38.000Z'
+    flags: []
+    bytes: 337747
+  - id: p013
+    seq: 13
+    file: May-Quinns-Bday-2026-13.jpeg
+    sourceFile: IMG_3024.jpeg
+    exif: '2026-05-30T19:46:10.000Z'
+    flags: []
+    bytes: 680244
+  - id: p014
+    seq: 14
+    file: May-Quinns-Bday-2026-14.jpeg
+    sourceFile: IMG_3025.jpeg
+    exif: '2026-05-30T19:46:15.000Z'
+    flags: []
+    bytes: 579720
+  - id: p015
+    seq: 15
+    file: May-Quinns-Bday-2026-15.jpeg
+    sourceFile: IMG_3026.jpeg
+    exif: '2026-05-30T20:08:36.000Z'
+    flags: []
+    bytes: 546281
+  - id: p016
+    seq: 16
+    file: May-Quinns-Bday-2026-16.jpeg
+    sourceFile: IMG_3027.jpeg
+    exif: '2026-05-30T20:30:11.000Z'
+    flags: []
+    bytes: 383220
+  - id: p017
+    seq: 17
+    file: May-Quinns-Bday-2026-17.jpeg
+    sourceFile: IMG_3029.jpeg
+    exif: '2026-05-30T20:30:15.000Z'
+    flags: []
+    bytes: 528139
+  - id: p018
+    seq: 18
+    file: May-Quinns-Bday-2026-18.jpeg
+    sourceFile: IMG_3030.jpeg
+    exif: '2026-05-30T20:36:01.000Z'
+    flags: []
+    bytes: 482784
+sections: []
+pages:
+  - file: May-Quinns-Bday-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:35:09.193Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1789321217568'
+gallaryThumb: assets/images/gallary/20s/2026/May-Quinns-Bday-2026.jpeg

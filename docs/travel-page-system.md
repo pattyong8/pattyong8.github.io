@@ -74,6 +74,7 @@ Personal archive, not a travel magazine. Preserve specific memories from dictati
 
 - Yaml is master; HTML is generated.
 - Leftover layout must match Chile reading flow: float leftovers, put **all** section paragraphs inside `.travel-leftover-wrap` **before** `clear:both` (never clear after only the first paragraph — that leaves a blank column beside tall photos). Enforced by `layout-guards.ts` on every `render-trip`, by `validate-trip`, and by `npm test` in `travel-page-tool/`.
+- Year memory-bar nav is off-limits unless the user asks: dropdown year links must stay on `Travel-Pages/{section}/…` galleries. Trip cards only inside `.filtr-container`. Enforced by `assertYearNavIntact` / `validate-trip`.
 - Picture # badges always on.
 - Don’t commit multi-hundred-MB `_incoming` folders.
 - Agent never auto git push.

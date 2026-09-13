@@ -13,6 +13,7 @@ photosDir: assets/images/Travel-Pages-Images/20s/2022/Vegas-OE-Oct-2022
 coverSource: _incoming/Cover.jpeg
 heroFile: Vegas-OE-Oct-2022-HP.jpeg
 gallaryThumb: assets/images/gallary/20s/2022/Oct-Vegas-2022.jpeg
+cacheBust: '1789312390377'
 photos:
   - id: p001
     seq: 1

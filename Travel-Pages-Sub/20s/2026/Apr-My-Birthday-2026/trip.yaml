@@ -1,0 +1,48 @@
+schemaVersion: 1
+title: My Birthday
+slug: Apr-My-Birthday-2026
+section: 20s
+year: '2026'
+dateRange: April 2026
+startDate: '2026-04-01'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: Apr-My-Birthday-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Apr-My-Birthday-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Apr-My-Birthday-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Apr-My-Birthday-2026-1.jpeg
+    sourceFile: IMG_2711.jpeg
+    exif: '2026-04-24T22:14:57.000Z'
+    flags: []
+    bytes: 515541
+  - id: p002
+    seq: 2
+    file: Apr-My-Birthday-2026-2.jpeg
+    sourceFile: IMG_2712.jpeg
+    exif: '2026-04-24T23:36:29.000Z'
+    flags: []
+    bytes: 565936
+  - id: p003
+    seq: 3
+    file: Apr-My-Birthday-2026-3.jpeg
+    sourceFile: IMG_2714.jpeg
+    exif: '2026-04-24T23:52:05.000Z'
+    flags: []
+    bytes: 494520
+sections: []
+pages:
+  - file: Apr-My-Birthday-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:33:28.992Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1789317209005'
+gallaryThumb: assets/images/gallary/20s/2026/Apr-My-Birthday-2026.jpeg

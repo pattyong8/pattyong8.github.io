@@ -5,7 +5,13 @@ import {
   loadManifest,
   resolveRepoPath,
 } from '../manifest';
-import { hasLeftoverBlankColumn, LEFTOVER_BLANK_COLUMN_MSG } from '../layout-guards';
+import {
+  hasLeftoverBlankColumn,
+  LEFTOVER_BLANK_COLUMN_MSG,
+  hasYearNavTripLinks,
+  YEAR_NAV_TRIP_LINK_MSG,
+  yearPageGalleryRegion,
+} from '../layout-guards';
 
 export interface ValidationResult {
   ok: boolean;
@@ -96,7 +102,11 @@ export function validateTrip(projectRoot: string, manifestPath: string): Validat
   );
   if (fs.existsSync(yearPage)) {
     const y = fs.readFileSync(yearPage, 'utf-8');
-    if (!y.includes(`${manifest.slug}-1.html`)) {
+    if (hasYearNavTripLinks(y)) {
+      errors.push(YEAR_NAV_TRIP_LINK_MSG);
+    }
+    const gallery = yearPageGalleryRegion(y);
+    if (!gallery.includes(`${manifest.slug}-1.html`)) {
       warnings.push('Year page does not link to this trip yet');
     }
   } else {

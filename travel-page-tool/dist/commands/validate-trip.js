@@ -110,7 +110,11 @@ function validateTrip(projectRoot, manifestPath) {
     const yearPage = path.join(projectRoot, 'Travel-Pages', manifest.section, `${manifest.section}-${manifest.year}.html`);
     if (fs.existsSync(yearPage)) {
         const y = fs.readFileSync(yearPage, 'utf-8');
-        if (!y.includes(`${manifest.slug}-1.html`)) {
+        if ((0, layout_guards_1.hasYearNavTripLinks)(y)) {
+            errors.push(layout_guards_1.YEAR_NAV_TRIP_LINK_MSG);
+        }
+        const gallery = (0, layout_guards_1.yearPageGalleryRegion)(y);
+        if (!gallery.includes(`${manifest.slug}-1.html`)) {
             warnings.push('Year page does not link to this trip yet');
         }
     }

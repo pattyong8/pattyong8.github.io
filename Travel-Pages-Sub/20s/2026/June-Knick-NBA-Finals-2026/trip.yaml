@@ -1,0 +1,125 @@
+schemaVersion: 1
+title: Knicks NBA Finals
+slug: June-Knick-NBA-Finals-2026
+section: 20s
+year: '2026'
+dateRange: June 2026
+startDate: '2026-06-10'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: June-Knick-NBA-Finals-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/June-Knick-NBA-Finals-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: June-Knick-NBA-Finals-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: June-Knick-NBA-Finals-2026-1.jpeg
+    sourceFile: IMG_3079.jpeg
+    exif: '2026-06-04T02:39:45.000Z'
+    flags: []
+    bytes: 280366
+  - id: p002
+    seq: 2
+    file: June-Knick-NBA-Finals-2026-2.jpeg
+    sourceFile: IMG_3146.jpeg
+    exif: '2026-06-11T03:21:51.000Z'
+    flags: []
+    bytes: 266322
+  - id: p003
+    seq: 3
+    file: June-Knick-NBA-Finals-2026-3.jpeg
+    sourceFile: IMG_3149.jpeg
+    exif: '2026-06-11T03:31:32.000Z'
+    flags: []
+    bytes: 246571
+  - id: p004
+    seq: 4
+    file: June-Knick-NBA-Finals-2026-4.jpeg
+    sourceFile: IMG_3151.jpeg
+    exif: '2026-06-11T03:39:32.000Z'
+    flags: []
+    bytes: 440518
+  - id: p005
+    seq: 5
+    file: June-Knick-NBA-Finals-2026-5.jpeg
+    sourceFile: IMG_3153.jpeg
+    exif: '2026-06-11T03:47:49.000Z'
+    flags: []
+    bytes: 271250
+  - id: p006
+    seq: 6
+    file: June-Knick-NBA-Finals-2026-6.jpeg
+    sourceFile: IMG_3157.jpeg
+    exif: '2026-06-11T03:50:57.000Z'
+    flags: []
+    bytes: 315778
+  - id: p007
+    seq: 7
+    file: June-Knick-NBA-Finals-2026-7.jpeg
+    sourceFile: IMG_3181.jpeg
+    exif: '2026-06-13T23:28:28.000Z'
+    flags: []
+    bytes: 629414
+  - id: p008
+    seq: 8
+    file: June-Knick-NBA-Finals-2026-8.jpeg
+    sourceFile: IMG_3183.jpeg
+    exif: '2026-06-13T23:46:00.000Z'
+    flags: []
+    bytes: 464512
+  - id: p009
+    seq: 9
+    file: June-Knick-NBA-Finals-2026-9.jpeg
+    sourceFile: IMG_3186.jpeg
+    exif: '2026-06-14T00:55:09.000Z'
+    flags: []
+    bytes: 335493
+  - id: p010
+    seq: 10
+    file: June-Knick-NBA-Finals-2026-10.jpeg
+    sourceFile: IMG_3191.jpeg
+    exif: '2026-06-14T01:08:28.000Z'
+    flags: []
+    bytes: 471211
+  - id: p011
+    seq: 11
+    file: June-Knick-NBA-Finals-2026-11.jpeg
+    sourceFile: IMG_3192.jpeg
+    exif: '2026-06-14T01:23:34.000Z'
+    flags: []
+    bytes: 159027
+  - id: p012
+    seq: 12
+    file: June-Knick-NBA-Finals-2026-12.jpeg
+    sourceFile: IMG_3199.jpeg
+    exif: '2026-06-14T02:40:11.000Z'
+    flags: []
+    bytes: 522456
+  - id: p013
+    seq: 13
+    file: June-Knick-NBA-Finals-2026-13.jpeg
+    sourceFile: IMG_3202.jpeg
+    exif: '2026-06-14T03:42:39.000Z'
+    flags: []
+    bytes: 466654
+  - id: p014
+    seq: 14
+    file: June-Knick-NBA-Finals-2026-14.jpeg
+    sourceFile: IMG_3203.jpeg
+    exif: '2026-06-14T04:00:27.000Z'
+    flags: []
+    bytes: 301537
+sections: []
+pages:
+  - file: June-Knick-NBA-Finals-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:57.928Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1789317297941'
+gallaryThumb: assets/images/gallary/20s/2026/Jun-Knick-NBA-Finals-2026.jpeg

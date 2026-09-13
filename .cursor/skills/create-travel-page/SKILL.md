@@ -66,6 +66,7 @@ Show chronology summary, `needs_placement`, capped `possible_duplicate`. Apply o
 - Comments/chrome come from generator (include `</article>` after comments)
 - Year card newest-first by `startDate`
 - Cover and hero from same `COVER` file unless user overrides
+- **Year memory-bar nav is sacred:** never change year-dropdown links (`Travel-Pages/{section}/{section}-YYYY.html`) unless the user explicitly asks. Only insert/update trip cards **inside** `.filtr-container`. Never use a loose regex from `<a href>` across to a gallery `<img>` — that previously rewrote the 2025 nav link to a trip page.
 
 ## Partial updates
 

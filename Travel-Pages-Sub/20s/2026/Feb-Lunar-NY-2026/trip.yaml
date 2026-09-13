@@ -1,0 +1,83 @@
+schemaVersion: 1
+title: Lunar New Year
+slug: Feb-Lunar-NY-2026
+section: 20s
+year: '2026'
+dateRange: February 2026
+startDate: '2026-02-01'
+location: ''
+people: ''
+introParagraph: ''
+tripPrefix: Feb-Lunar-NY-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Feb-Lunar-NY-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Feb-Lunar-NY-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Feb-Lunar-NY-2026-1.jpeg
+    sourceFile: IMG_1496.jpeg
+    exif: '2026-02-18T01:05:29.000Z'
+    flags: []
+    bytes: 440935
+  - id: p002
+    seq: 2
+    file: Feb-Lunar-NY-2026-2.jpeg
+    sourceFile: IMG_1498.jpeg
+    exif: '2026-02-18T01:06:14.000Z'
+    flags: []
+    bytes: 559366
+  - id: p003
+    seq: 3
+    file: Feb-Lunar-NY-2026-3.jpeg
+    sourceFile: IMG_1499.jpeg
+    exif: '2026-02-18T01:06:23.000Z'
+    flags: []
+    bytes: 484467
+  - id: p004
+    seq: 4
+    file: Feb-Lunar-NY-2026-4.jpeg
+    sourceFile: IMG_1500.jpeg
+    exif: '2026-02-18T01:06:25.000Z'
+    flags: []
+    bytes: 390950
+  - id: p005
+    seq: 5
+    file: Feb-Lunar-NY-2026-5.jpeg
+    sourceFile: IMG_1501.jpeg
+    exif: '2026-02-18T01:06:33.000Z'
+    flags: []
+    bytes: 359456
+  - id: p006
+    seq: 6
+    file: Feb-Lunar-NY-2026-6.jpeg
+    sourceFile: IMG_1502.jpeg
+    exif: '2026-02-18T01:06:42.000Z'
+    flags: []
+    bytes: 407658
+  - id: p007
+    seq: 7
+    file: Feb-Lunar-NY-2026-7.jpeg
+    sourceFile: IMG_1503.jpeg
+    exif: '2026-02-18T01:55:11.000Z'
+    flags: []
+    bytes: 558821
+  - id: p008
+    seq: 8
+    file: Feb-Lunar-NY-2026-8.jpeg
+    sourceFile: IMG_1504.jpeg
+    exif: '2026-02-18T01:57:21.000Z'
+    flags: []
+    bytes: 673229
+sections: []
+pages:
+  - file: Feb-Lunar-NY-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:06.083Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Feb-Lunar-NY-2026.jpeg
+cacheBust: '1789317246412'

@@ -1,0 +1,90 @@
+schemaVersion: 1
+title: CREFC Miami
+slug: Jan-CREFC-Miami-2026
+section: 20s
+year: '2026'
+dateRange: January 2026
+startDate: '2026-01-20'
+location: Miami, Florida
+people: ''
+introParagraph: ''
+tripPrefix: Jan-CREFC-Miami-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-CREFC-Miami-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Jan-CREFC-Miami-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jan-CREFC-Miami-2026-1.jpeg
+    sourceFile: IMG_1104.jpeg
+    exif: '2026-01-12T23:14:17.000Z'
+    flags: []
+    bytes: 313266
+  - id: p002
+    seq: 2
+    file: Jan-CREFC-Miami-2026-2.jpeg
+    sourceFile: IMG_1105.jpeg
+    exif: '2026-01-12T23:14:19.000Z'
+    flags: []
+    bytes: 218956
+  - id: p003
+    seq: 3
+    file: Jan-CREFC-Miami-2026-3.jpeg
+    sourceFile: IMG_1106.jpeg
+    exif: '2026-01-12T23:41:34.000Z'
+    flags: []
+    bytes: 268664
+  - id: p004
+    seq: 4
+    file: Jan-CREFC-Miami-2026-4.jpeg
+    sourceFile: IMG_1109.jpeg
+    exif: '2026-01-12T23:42:16.000Z'
+    flags: []
+    bytes: 442059
+  - id: p005
+    seq: 5
+    file: Jan-CREFC-Miami-2026-5.jpeg
+    sourceFile: IMG_1112.jpeg
+    exif: '2026-01-12T23:44:23.000Z'
+    flags: []
+    bytes: 390883
+  - id: p006
+    seq: 6
+    file: Jan-CREFC-Miami-2026-6.jpeg
+    sourceFile: IMG_1113.jpeg
+    exif: '2026-01-13T00:23:24.000Z'
+    flags: []
+    bytes: 200566
+  - id: p007
+    seq: 7
+    file: Jan-CREFC-Miami-2026-7.jpeg
+    sourceFile: IMG_1114.jpeg
+    exif: '2026-01-13T00:23:32.000Z'
+    flags: []
+    bytes: 233368
+  - id: p008
+    seq: 8
+    file: Jan-CREFC-Miami-2026-8.jpeg
+    sourceFile: IMG_1116.jpeg
+    exif: '2026-01-13T03:56:10.000Z'
+    flags: []
+    bytes: 350931
+  - id: p009
+    seq: 9
+    file: Jan-CREFC-Miami-2026-9.jpeg
+    sourceFile: IMG_1118.jpeg
+    exif: '2026-01-14T01:17:27.000Z'
+    flags: []
+    bytes: 384992
+sections: []
+pages:
+  - file: Jan-CREFC-Miami-2026-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:34:18.763Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2026/Jan-CREFC-Miami-2026.jpeg
+cacheBust: '1789317259211'
