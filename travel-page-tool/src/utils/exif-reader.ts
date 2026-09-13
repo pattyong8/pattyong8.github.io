@@ -6,6 +6,8 @@ export interface PhotoMetadata {
   filePath: string;
   fileName: string;
   dateTaken: Date | null;
+  /** True only when DateTimeOriginal / CreateDate / ModifyDate came from EXIF */
+  hasExifDate: boolean;
   width: number | null;
   height: number | null;
   orientation: number | null;
@@ -27,24 +29,30 @@ export async function extractExifData(filePath: string): Promise<PhotoMetadata> 
 
     // Get date taken - try multiple EXIF fields
     let dateTaken: Date | null = null;
+    let hasExifDate = false;
     if (exif?.DateTimeOriginal) {
       dateTaken = new Date(exif.DateTimeOriginal);
+      hasExifDate = true;
     } else if (exif?.CreateDate) {
       dateTaken = new Date(exif.CreateDate);
+      hasExifDate = true;
     } else if (exif?.ModifyDate) {
       dateTaken = new Date(exif.ModifyDate);
+      hasExifDate = true;
     }
 
     // If no EXIF date, fall back to file modification time
     if (!dateTaken || isNaN(dateTaken.getTime())) {
       const stats = fs.statSync(filePath);
       dateTaken = stats.mtime;
+      hasExifDate = false;
     }
 
     return {
       filePath,
       fileName,
       dateTaken,
+      hasExifDate,
       width: exif?.ImageWidth || null,
       height: exif?.ImageHeight || null,
       orientation: exif?.Orientation || null,
@@ -58,6 +66,7 @@ export async function extractExifData(filePath: string): Promise<PhotoMetadata> 
       filePath,
       fileName,
       dateTaken: stats.mtime,
+      hasExifDate: false,
       width: null,
       height: null,
       orientation: null,

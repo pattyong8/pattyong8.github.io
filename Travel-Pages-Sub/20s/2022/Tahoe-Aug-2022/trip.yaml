@@ -1,0 +1,553 @@
+schemaVersion: 1
+title: Tahoe with ES Besties
+slug: Tahoe-Aug-2022
+section: 20s
+year: '2022'
+dateRange: August 12th to 14th 2022
+startDate: '2022-08-12'
+location: Lake Tahoe, California
+people: ES Besties & San Francisco friends
+introParagraph: >-
+  This was a wonderful summer trip with my ES besties and some of our other San Francisco friends.
+  We hiked, we drank, we ate, and we laughed. It was a wonderful way to get outdoors and spend some
+  time with the people I care about. This was also my first really memorable summer trip to Lake
+  Tahoe, and it definitely set the bar high.
+tripPrefix: Tahoe-Aug-2022
+photosDir: assets/images/Travel-Pages-Images/20s/2022/Tahoe-Aug-2022
+coverSource: _incoming/Cover.JPG
+gallaryThumb: assets/images/gallary/20s/2022/Aug-Tahoe-2022.jpeg
+heroFile: Tahoe-Aug-2022-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Tahoe-Aug-2022-1.jpeg
+    sourceFile: IMG_8154.jpeg
+    exif: '2022-08-13T03:10:12.000Z'
+    flags: []
+    bytes: 382058
+  - id: p002
+    seq: 2
+    file: Tahoe-Aug-2022-2.jpeg
+    sourceFile: IMG_4500.JPG
+    exif: '2022-08-13T15:15:44.000Z'
+    flags: []
+    bytes: 719176
+  - id: p003
+    seq: 3
+    file: Tahoe-Aug-2022-3.jpeg
+    sourceFile: IMG_8157.jpeg
+    exif: '2022-08-13T16:11:20.000Z'
+    flags: []
+    bytes: 919597
+  - id: p004
+    seq: 4
+    file: Tahoe-Aug-2022-4.jpeg
+    sourceFile: IMG_8158.jpeg
+    exif: '2022-08-13T16:11:30.000Z'
+    flags: []
+    bytes: 915525
+  - id: p005
+    seq: 5
+    file: Tahoe-Aug-2022-5.jpeg
+    sourceFile: IMG_8159.jpeg
+    exif: '2022-08-13T16:11:39.000Z'
+    flags: []
+    bytes: 970782
+  - id: p006
+    seq: 6
+    file: Tahoe-Aug-2022-6.jpeg
+    sourceFile: IMG_8160.jpeg
+    exif: '2022-08-13T16:11:43.000Z'
+    flags: []
+    bytes: 982925
+  - id: p007
+    seq: 7
+    file: Tahoe-Aug-2022-7.jpeg
+    sourceFile: IMG_8317.jpeg
+    exif: '2022-08-13T16:16:35.000Z'
+    flags: []
+    bytes: 522275
+  - id: p008
+    seq: 8
+    file: Tahoe-Aug-2022-8.jpeg
+    sourceFile: IMG_3269.jpeg
+    exif: '2022-08-13T16:17:06.000Z'
+    flags: []
+    bytes: 923754
+  - id: p009
+    seq: 9
+    file: Tahoe-Aug-2022-9.jpeg
+    sourceFile: IMG_3273.jpeg
+    exif: '2022-08-13T16:17:10.000Z'
+    flags: []
+    bytes: 862377
+  - id: p010
+    seq: 10
+    file: Tahoe-Aug-2022-10.jpeg
+    sourceFile: IMG_7762.JPG
+    exif: '2022-08-13T16:25:40.000Z'
+    flags: []
+    bytes: 653054
+  - id: p011
+    seq: 11
+    file: Tahoe-Aug-2022-11.jpeg
+    sourceFile: IMG_8161.jpeg
+    exif: '2022-08-13T16:48:11.000Z'
+    flags: []
+    bytes: 575876
+  - id: p012
+    seq: 12
+    file: Tahoe-Aug-2022-12.jpeg
+    sourceFile: IMG_8162.jpeg
+    exif: '2022-08-13T17:01:48.000Z'
+    flags: []
+    bytes: 834638
+  - id: p013
+    seq: 13
+    file: Tahoe-Aug-2022-13.jpeg
+    sourceFile: IMG_8163.jpeg
+    exif: '2022-08-13T17:16:09.000Z'
+    flags: []
+    bytes: 397157
+  - id: p014
+    seq: 14
+    file: Tahoe-Aug-2022-14.jpeg
+    sourceFile: IMG_8324.jpeg
+    exif: '2022-08-13T17:37:00.000Z'
+    flags: []
+    bytes: 296523
+  - id: p015
+    seq: 15
+    file: Tahoe-Aug-2022-15.jpeg
+    sourceFile: IMG_8327.jpeg
+    exif: '2022-08-13T17:44:47.000Z'
+    flags: []
+    bytes: 308040
+  - id: p016
+    seq: 16
+    file: Tahoe-Aug-2022-16.jpeg
+    sourceFile: IMG_3290.JPG
+    exif: '2022-08-13T17:35:27.000Z'
+    flags: []
+    bytes: 435939
+  - id: p017
+    seq: 17
+    file: Tahoe-Aug-2022-17.jpeg
+    sourceFile: IMG_3291.JPG
+    exif: '2022-08-13T17:35:29.000Z'
+    flags: []
+    bytes: 416532
+  - id: p018
+    seq: 18
+    file: Tahoe-Aug-2022-18.jpeg
+    sourceFile: IMG_3331.JPG
+    exif: '2022-08-13T17:48:03.000Z'
+    flags: []
+    bytes: 474483
+  - id: p019
+    seq: 19
+    file: Tahoe-Aug-2022-19.jpeg
+    sourceFile: IMG_3339.JPG
+    exif: '2022-08-13T17:48:56.000Z'
+    flags: []
+    bytes: 429287
+  - id: p020
+    seq: 20
+    file: Tahoe-Aug-2022-20.jpeg
+    sourceFile: IMG_3380.JPG
+    exif: '2022-08-13T18:10:49.000Z'
+    flags: []
+    bytes: 575710
+  - id: p021
+    seq: 21
+    file: Tahoe-Aug-2022-21.jpeg
+    sourceFile: IMG_3525.JPG
+    exif: '2022-08-13T21:38:42.000Z'
+    flags: []
+    bytes: 631269
+  - id: p022
+    seq: 22
+    file: Tahoe-Aug-2022-22.jpeg
+    sourceFile: IMG_3537.JPG
+    exif: '2022-08-13T21:41:25.000Z'
+    flags: []
+    bytes: 444848
+  - id: p023
+    seq: 23
+    file: Tahoe-Aug-2022-23.jpeg
+    sourceFile: IMG_3539.JPG
+    exif: '2022-08-13T21:42:26.000Z'
+    flags: []
+    bytes: 583213
+  - id: p024
+    seq: 24
+    file: Tahoe-Aug-2022-24.jpeg
+    sourceFile: IMG_3540.JPG
+    exif: '2022-08-13T21:42:28.000Z'
+    flags: []
+    bytes: 513875
+  - id: p025
+    seq: 25
+    file: Tahoe-Aug-2022-25.jpeg
+    sourceFile: IMG_8166.jpeg
+    exif: '2022-08-13T21:56:20.000Z'
+    flags: []
+    bytes: 320577
+  - id: p026
+    seq: 26
+    file: Tahoe-Aug-2022-26.jpeg
+    sourceFile: IMG_8169.jpeg
+    exif: '2022-08-13T23:52:22.000Z'
+    flags: []
+    bytes: 296199
+  - id: p027
+    seq: 27
+    file: Tahoe-Aug-2022-27.jpeg
+    sourceFile: IMG_8341.jpeg
+    exif: '2022-08-14T01:06:20.000Z'
+    flags: []
+    bytes: 663782
+  - id: p028
+    seq: 28
+    file: Tahoe-Aug-2022-28.jpeg
+    sourceFile: IMG_8172.jpeg
+    exif: '2022-08-14T01:08:33.000Z'
+    flags: []
+    bytes: 480076
+  - id: p029
+    seq: 29
+    file: Tahoe-Aug-2022-29.jpeg
+    sourceFile: IMG_8173.jpeg
+    exif: '2022-08-14T01:13:57.000Z'
+    flags: []
+    bytes: 361175
+  - id: p030
+    seq: 30
+    file: Tahoe-Aug-2022-30.jpeg
+    sourceFile: IMG_8175.jpeg
+    exif: '2022-08-14T03:32:03.000Z'
+    flags: []
+    bytes: 304507
+  - id: p032
+    seq: 32
+    file: Tahoe-Aug-2022-32.jpeg
+    sourceFile: IMG_3645.JPG
+    exif: '2022-08-14T15:54:26.000Z'
+    flags: []
+    bytes: 547426
+  - id: p033
+    seq: 33
+    file: Tahoe-Aug-2022-33.jpeg
+    sourceFile: IMG_3651.JPG
+    exif: '2022-08-14T15:54:32.000Z'
+    flags: []
+    bytes: 574373
+  - id: p034
+    seq: 34
+    file: Tahoe-Aug-2022-34.jpeg
+    sourceFile: IMG_3653.JPG
+    exif: '2022-08-14T15:54:33.000Z'
+    flags: []
+    bytes: 655688
+  - id: p035
+    seq: 35
+    file: Tahoe-Aug-2022-35.jpeg
+    sourceFile: IMG_3690.JPG
+    exif: '2022-08-14T16:07:30.000Z'
+    flags: []
+    bytes: 708011
+  - id: p036
+    seq: 36
+    file: Tahoe-Aug-2022-36.jpeg
+    sourceFile: IMG_3660.JPG
+    exif: '2022-08-14T16:00:57.000Z'
+    flags: []
+    bytes: 798200
+  - id: p037
+    seq: 37
+    file: Tahoe-Aug-2022-37.jpeg
+    sourceFile: IMG_3666.JPG
+    exif: '2022-08-14T16:01:15.000Z'
+    flags: []
+    bytes: 787650
+  - id: p038
+    seq: 38
+    file: Tahoe-Aug-2022-38.jpeg
+    sourceFile: IMG_3685.JPG
+    exif: '2022-08-14T16:07:30.000Z'
+    flags: []
+    bytes: 624801
+  - id: p039
+    seq: 39
+    file: Tahoe-Aug-2022-39.jpeg
+    sourceFile: IMG_3655.JPG
+    exif: '2022-08-14T15:54:37.000Z'
+    flags: []
+    bytes: 717425
+  - id: p040
+    seq: 40
+    file: Tahoe-Aug-2022-40.jpeg
+    sourceFile: IMG_4580.JPG
+    exif: '2022-08-14T16:14:00.000Z'
+    flags: []
+    bytes: 636330
+  - id: p042
+    seq: 42
+    file: Tahoe-Aug-2022-42.jpeg
+    sourceFile: IMG_9201.JPG
+    exif: '2022-09-12T19:56:27.000Z'
+    flags: []
+    bytes: 338707
+  - id: p043
+    seq: 43
+    file: Tahoe-Aug-2022-43.jpeg
+    sourceFile: IMG_9203.JPG
+    exif: '2022-09-12T19:56:27.000Z'
+    flags: []
+    bytes: 327323
+  - id: p044
+    seq: 44
+    file: Tahoe-Aug-2022-44.jpeg
+    sourceFile: IMG_9206.JPG
+    exif: '2022-09-12T19:56:27.000Z'
+    flags: []
+    bytes: 276520
+  - id: p045
+    seq: 45
+    file: Tahoe-Aug-2022-45.jpeg
+    sourceFile: IMG_9208.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 342798
+  - id: p046
+    seq: 46
+    file: Tahoe-Aug-2022-46.jpeg
+    sourceFile: IMG_9209.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 298222
+  - id: p047
+    seq: 47
+    file: Tahoe-Aug-2022-47.jpeg
+    sourceFile: IMG_9210.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 259096
+  - id: p048
+    seq: 48
+    file: Tahoe-Aug-2022-48.jpeg
+    sourceFile: IMG_9211.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 267926
+  - id: p049
+    seq: 49
+    file: Tahoe-Aug-2022-49.jpeg
+    sourceFile: IMG_9212.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 266710
+  - id: p050
+    seq: 50
+    file: Tahoe-Aug-2022-50.jpeg
+    sourceFile: IMG_9213.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 241204
+  - id: p051
+    seq: 51
+    file: Tahoe-Aug-2022-51.jpeg
+    sourceFile: IMG_9214.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 289072
+  - id: p052
+    seq: 52
+    file: Tahoe-Aug-2022-52.jpeg
+    sourceFile: IMG_9215.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 271002
+  - id: p053
+    seq: 53
+    file: Tahoe-Aug-2022-53.jpeg
+    sourceFile: IMG_9216.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 309151
+  - id: p054
+    seq: 54
+    file: Tahoe-Aug-2022-54.jpeg
+    sourceFile: IMG_9217.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 347984
+  - id: p055
+    seq: 55
+    file: Tahoe-Aug-2022-55.jpeg
+    sourceFile: IMG_9218.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 306858
+  - id: p056
+    seq: 56
+    file: Tahoe-Aug-2022-56.jpeg
+    sourceFile: IMG_9219.JPG
+    exif: '2022-09-12T19:56:28.000Z'
+    flags: []
+    bytes: 244451
+  - id: p057
+    seq: 57
+    file: Tahoe-Aug-2022-57.jpeg
+    sourceFile: IMG_9220.JPG
+    exif: '2022-09-12T19:56:29.000Z'
+    flags: []
+    bytes: 258606
+  - id: p058
+    seq: 58
+    file: Tahoe-Aug-2022-58.jpeg
+    sourceFile: IMG_9221.JPG
+    exif: '2022-09-12T19:56:29.000Z'
+    flags: []
+    bytes: 275987
+sections:
+  - id: wine-hiking
+    title: Wine, Hiking & A Little Climbing
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p020
+      - p021
+    prose: >-
+      We started the trip appropriately prepared with a pretty ridiculous amount of wine, our way of
+      making sure we were ready to have a good time.
+
+
+      One of the highlights of the trip was a pretty steep hike up one of the nearby mountains. As
+      we got closer to the top, we came across some rocks that absolutely did not require any
+      scrambling. But, being a rock climber, I obviously wanted to climb them anyway. I somehow
+      convinced the entire group to come along with me, which turned into a really fun little detour
+      and gave me an excuse to embrace my climbing side.
+
+
+      Eventually, we made it to the viewpoint overlooking Lake Tahoe, and it was absolutely
+      beautiful. I had never seen Tahoe from that vantage point before, and it made the climb
+      completely worth it. Naturally, we turned the top into a full photo shoot before eventually
+      making our way back down.
+  - id: lake-cliff
+    title: Lake Tahoe & Cliff Jumping
+    photoIds:
+      - p022
+      - p023
+      - p024
+      - p025
+      - p026
+    prose: >-
+      Later that day, we headed to the lake to cool off after the hike. Joan had told us about a
+      cliff-jumping spot nearby, so we swam over to check it out. We didn't bring our phones with
+      us, so unfortunately there aren't any photos of the actual jumps, but I decided to jump from
+      the very, very top.
+
+
+      Turns out water gets pretty hard when you hit it from high enough. I landed with my hand
+      completely outstretched and came away with a gnarly red mark and bruise from smacking the
+      water. It eventually disappeared, and thankfully that was the extent of the damage, but it was
+      a pretty good reminder that there is, in fact, a wrong way to land in water.
+  - id: korean-bbq
+    title: Korean BBQ Night
+    photoIds:
+      - p027
+      - p028
+      - p029
+      - p030
+    prose: >-
+      Back at the house, we cooked up an absolute storm. Esther made amazing Korean galbi, and we
+      had kimchi and all the fixings, including scallions, lettuce, cucumber salad, and plenty of
+      other food. After a full day of hiking, climbing, swimming, and cliff jumping, it was exactly
+      the meal we needed.
+
+
+      One of my favorite random photos from the trip is just the ES besties standing around flossing
+      our teeth together afterward. Nothing particularly exciting, but somehow a perfect little
+      snapshot of the trip.
+  - id: day-at-lake
+    title: A Day at the Lake
+    photoIds:
+      - p032
+      - p033
+      - p034
+      - p035
+      - p036
+      - p037
+      - p038
+      - p039
+      - p040
+      - p042
+      - p043
+      - p044
+      - p045
+      - p046
+      - p047
+      - p048
+      - p049
+      - p050
+      - p051
+      - p052
+      - p053
+      - p054
+      - p055
+      - p056
+      - p057
+      - p058
+    prose: >-
+      The next day was all about taking it easy and enjoying Tahoe. We spent the day on the sandy
+      shore, soaking up the sun and taking in how beautiful it was outside.
+
+
+      At one point, we turned jumping off the dock into another full photo shoot. It wasn't high or
+      remotely scary, but we had way too much fun trying to coordinate jumps, spell things out in
+      the air, and make increasingly ridiculous poses together.
+
+
+      We also took a bunch of film photos throughout the day, which captured some of my favorite
+      little moments from the trip. This was one of my first times really spending a lot of time
+      with Artem and Olivia, which made the weekend even more memorable.
+
+
+      We played games, ate really good food, spent plenty of time by the water, and just enjoyed
+      being together. Nothing overly complicated. Just a good old-fashioned Tahoe summer trip with a
+      really great group of people.
+pages:
+  - file: Tahoe-Aug-2022-1.html
+    sectionIds:
+      - wine-hiking
+      - lake-cliff
+      - korean-bbq
+      - day-at-lake
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T03:40:01.647Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates:
+    - Tahoe-Aug-2022-9.jpeg
+    - Tahoe-Aug-2022-17.jpeg
+    - Tahoe-Aug-2022-55.jpeg
+cacheBust: '1789273066993'

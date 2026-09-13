@@ -1,0 +1,3 @@
+# Ignore bulky photo staging folders (optimized web JPEGs are committed instead)
+assets/images/Travel-Pages-Images/**/_incoming/
+.DS_Store

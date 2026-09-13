@@ -1,0 +1,144 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.validateTrip = validateTrip;
+exports.printValidation = printValidation;
+const fs = __importStar(require("fs"));
+const path = __importStar(require("path"));
+const manifest_1 = require("../manifest");
+const layout_guards_1 = require("../layout-guards");
+function validateTrip(projectRoot, manifestPath) {
+    const errors = [];
+    const warnings = [];
+    const manifest = (0, manifest_1.loadManifest)(manifestPath);
+    const photosDir = (0, manifest_1.resolveRepoPath)(projectRoot, manifest.photosDir);
+    if (!fs.existsSync(photosDir)) {
+        errors.push(`photosDir missing: ${photosDir}`);
+    }
+    const cover = path.join(photosDir, manifest.coverSource);
+    const coverAlt = path.join(photosDir, '_incoming', path.basename(manifest.coverSource));
+    if (!fs.existsSync(cover) && !fs.existsSync(coverAlt)) {
+        errors.push(`coverSource missing: ${manifest.coverSource}`);
+    }
+    if (manifest.heroFile) {
+        const hero = path.join(photosDir, manifest.heroFile);
+        if (!fs.existsSync(hero))
+            warnings.push(`Hero not cropped yet: ${manifest.heroFile}`);
+    }
+    if (manifest.gallaryThumb) {
+        const thumb = (0, manifest_1.resolveRepoPath)(projectRoot, manifest.gallaryThumb);
+        if (!fs.existsSync(thumb))
+            warnings.push(`Gallary thumb missing: ${manifest.gallaryThumb}`);
+    }
+    else {
+        warnings.push('gallaryThumb not set (run crop-cover)');
+    }
+    const seqs = new Set();
+    for (const photo of manifest.photos) {
+        if (seqs.has(photo.seq))
+            errors.push(`Duplicate seq: ${photo.seq}`);
+        seqs.add(photo.seq);
+        const fp = path.join(photosDir, photo.file);
+        if (!fs.existsSync(fp)) {
+            errors.push(`Missing photo file: ${photo.file}`);
+        }
+        else {
+            const bytes = fs.statSync(fp).size;
+            if (bytes > 1.5 * 1024 * 1024) {
+                warnings.push(`Oversized (>1.5MB): ${photo.file} (${Math.round(bytes / 1024)}KB)`);
+            }
+        }
+    }
+    // Contiguous seq 1..n
+    for (let i = 1; i <= manifest.photos.length; i++) {
+        if (!seqs.has(i))
+            errors.push(`Missing seq ${i} in contiguous range`);
+    }
+    for (const section of manifest.sections) {
+        for (const id of section.photoIds) {
+            if (!manifest.photos.some((p) => p.id === id)) {
+                errors.push(`Section "${section.title}" references unknown photo id ${id}`);
+            }
+        }
+    }
+    const htmlPath = path.join(projectRoot, 'Travel-Pages-Sub', manifest.section, manifest.year, manifest.slug, manifest.pages[0]?.file || `${manifest.slug}-1.html`);
+    if (!fs.existsSync(htmlPath)) {
+        warnings.push(`Trip HTML not rendered yet: ${htmlPath}`);
+    }
+    else {
+        const html = fs.readFileSync(htmlPath, 'utf-8');
+        if (!html.includes('comments-wrap'))
+            errors.push('Trip HTML missing comments-wrap');
+        if (!html.includes('</article>'))
+            errors.push('Trip HTML missing </article> (nesting risk)');
+        if ((0, layout_guards_1.hasLeftoverBlankColumn)(html)) {
+            errors.push(layout_guards_1.LEFTOVER_BLANK_COLUMN_MSG);
+        }
+    }
+    const yearPage = path.join(projectRoot, 'Travel-Pages', manifest.section, `${manifest.section}-${manifest.year}.html`);
+    if (fs.existsSync(yearPage)) {
+        const y = fs.readFileSync(yearPage, 'utf-8');
+        if (!y.includes(`${manifest.slug}-1.html`)) {
+            warnings.push('Year page does not link to this trip yet');
+        }
+    }
+    else {
+        errors.push(`Year page missing: ${yearPage}`);
+    }
+    const incoming = path.join(photosDir, '_incoming');
+    if (fs.existsSync(incoming)) {
+        let incomingBytes = 0;
+        for (const f of fs.readdirSync(incoming)) {
+            const st = fs.statSync(path.join(incoming, f));
+            if (st.isFile())
+                incomingBytes += st.size;
+        }
+        if (incomingBytes > 50 * 1024 * 1024) {
+            warnings.push(`_incoming is ${Math.round(incomingBytes / 1024 / 1024)}MB — prefer not committing raw dumps to git`);
+        }
+    }
+    return { ok: errors.length === 0, errors, warnings };
+}
+function printValidation(result) {
+    for (const e of result.errors)
+        console.error(`ERROR: ${e}`);
+    for (const w of result.warnings)
+        console.warn(`WARN: ${w}`);
+    if (result.ok)
+        console.log('Validation OK' + (result.warnings.length ? ' (with warnings)' : ''));
+    else
+        console.log('Validation FAILED');
+}
+//# sourceMappingURL=validate-trip.js.map

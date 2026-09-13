@@ -1,0 +1,1 @@
+{"version":3,"file":"validate-trip.d.ts","sourceRoot":"","sources":["../../src/commands/validate-trip.ts"],"names":[],"mappings":"AASA,MAAM,WAAW,gBAAgB;IAC/B,EAAE,EAAE,OAAO,CAAC;IACZ,MAAM,EAAE,MAAM,EAAE,CAAC;IACjB,QAAQ,EAAE,MAAM,EAAE,CAAC;CACpB;AAED,wBAAgB,YAAY,CAAC,WAAW,EAAE,MAAM,EAAE,YAAY,EAAE,MAAM,GAAG,gBAAgB,CAyGxF;AAED,wBAAgB,eAAe,CAAC,MAAM,EAAE,gBAAgB,GAAG,IAAI,CAK9D"}

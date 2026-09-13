@@ -1,0 +1,22 @@
+---
+description: Travel page creation system — manifests, Assets paths, COVER, gates, no auto-git
+globs: Travel-Pages*/**/*,assets/images/Travel-Pages-Images/**/*,assets/images/gallary/**/*,travel-page-tool/**/*,docs/travel-page-system.md
+alwaysApply: false
+---
+
+# Travel pages
+
+Canonical workflow: [docs/travel-page-system.md](../../docs/travel-page-system.md) and skill `create-travel-page`.
+
+## Hard rules
+
+- Source of truth is `trip.yaml` beside the trip HTML. Regenerate HTML from yaml; do not treat hand-edited HTML as durable.
+- Working photos live under `assets/images/Travel-Pages-Images/`. Year thumbs under `assets/images/gallary/` (spelling).
+- Cover/hero source file must be named `COVER` / `Cover` (any image extension). Same source → two crops unless user overrides.
+- Picture # badges stay visible on public pages.
+- Prefer Chile leftover **reading flow** (text beside 1–2 leftovers, then full width). Use `assets/css/travel-trip.css` + generator.
+- **NEVER** clear after only the first leftover paragraph. ALL section `<p>` tags must stay inside `.travel-leftover-wrap` **before** `clear:both`. The generator + `layout-guards` / `validate-trip` enforce this — do not hand-edit leftover HTML in a way that reintroduces the blank column beside tall photos.
+- Run tooling via `cd travel-page-tool && npm run travel -- <command>`. Agent runs CLI; user reviews gates.
+- Never auto-commit or push. Warn before staging huge `_incoming/` dumps (~prefer gitignore).
+- Three gates: (1) photo order (2) story outline + crop previews + multipage ask (3) finished page QA.
+- Do not mass-edit old trips. New trips use the generator.

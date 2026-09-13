@@ -1,0 +1,516 @@
+schemaVersion: 1
+title: Vegas, NV (O&E & Friends)
+slug: Vegas-OE-Oct-2022
+section: 20s
+year: '2022'
+dateRange: October 17th to 24th 2022
+startDate: '2022-10-17'
+location: Las Vegas, Nevada
+people: O&E & Friends
+introParagraph: ''
+tripPrefix: Vegas-OE-Oct-2022
+photosDir: assets/images/Travel-Pages-Images/20s/2022/Vegas-OE-Oct-2022
+coverSource: _incoming/Cover.jpeg
+heroFile: Vegas-OE-Oct-2022-HP.jpeg
+gallaryThumb: assets/images/gallary/20s/2022/Oct-Vegas-2022.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Vegas-OE-Oct-2022-1.jpeg
+    sourceFile: 68776406706__FEB0E2E6-9532-42FB-B50E-02EFF18424D3.fullsizerender.jpeg
+    exif: '2022-10-18T02:34:26.000Z'
+    flags: []
+    bytes: 394024
+  - id: p002
+    seq: 2
+    file: Vegas-OE-Oct-2022-2.jpeg
+    sourceFile: IMG_0540.jpeg
+    exif: '2022-10-18T13:55:11.000Z'
+    flags: []
+    bytes: 505327
+  - id: p003
+    seq: 3
+    file: Vegas-OE-Oct-2022-3.jpeg
+    sourceFile: IMG_0543.jpeg
+    exif: '2022-10-18T13:55:22.000Z'
+    flags: []
+    bytes: 287569
+  - id: p004
+    seq: 4
+    file: Vegas-OE-Oct-2022-4.jpeg
+    sourceFile: IMG_0548.jpeg
+    exif: '2022-10-18T13:59:39.000Z'
+    flags: []
+    bytes: 228651
+  - id: p005
+    seq: 5
+    file: Vegas-OE-Oct-2022-5.jpeg
+    sourceFile: IMG_9459.jpeg
+    exif: '2022-10-18T14:00:27.000Z'
+    flags: []
+    bytes: 285501
+  - id: p006
+    seq: 6
+    file: Vegas-OE-Oct-2022-6.jpeg
+    sourceFile: IMG_9460.jpeg
+    exif: '2022-10-18T14:00:30.000Z'
+    flags: []
+    bytes: 270245
+  - id: p007
+    seq: 7
+    file: Vegas-OE-Oct-2022-7.jpeg
+    sourceFile: IMG_0555.jpeg
+    exif: '2022-10-18T14:04:23.000Z'
+    flags: []
+    bytes: 265207
+  - id: p008
+    seq: 8
+    file: Vegas-OE-Oct-2022-8.jpeg
+    sourceFile: IMG_0559.jpeg
+    exif: '2022-10-18T14:04:44.000Z'
+    flags: []
+    bytes: 340179
+  - id: p009
+    seq: 9
+    file: Vegas-OE-Oct-2022-9.jpeg
+    sourceFile: IMG_0562.jpeg
+    exif: '2022-10-18T14:06:05.000Z'
+    flags: []
+    bytes: 167283
+  - id: p010
+    seq: 10
+    file: Vegas-OE-Oct-2022-10.jpeg
+    sourceFile: IMG_9465.jpeg
+    exif: '2022-10-18T14:59:23.000Z'
+    flags: []
+    bytes: 207607
+  - id: p011
+    seq: 11
+    file: Vegas-OE-Oct-2022-11.jpeg
+    sourceFile: IMG_9469.jpeg
+    exif: '2022-10-18T15:42:45.000Z'
+    flags: []
+    bytes: 311489
+  - id: p012
+    seq: 12
+    file: Vegas-OE-Oct-2022-12.jpeg
+    sourceFile: 68781230585__3A03E7A1-85BA-4D4C-8250-E62D1BBAF403.jpeg
+    exif: '2022-10-18T15:58:25.000Z'
+    flags: []
+    bytes: 361965
+  - id: p013
+    seq: 13
+    file: Vegas-OE-Oct-2022-13.jpeg
+    sourceFile: IMG_9477.jpeg
+    exif: '2022-10-18T16:52:31.000Z'
+    flags: []
+    bytes: 362567
+  - id: p014
+    seq: 14
+    file: Vegas-OE-Oct-2022-14.jpeg
+    sourceFile: IMG_9478.jpeg
+    exif: '2022-10-18T18:15:47.000Z'
+    flags: []
+    bytes: 374546
+  - id: p015
+    seq: 15
+    file: Vegas-OE-Oct-2022-15.jpeg
+    sourceFile: IMG_2885.jpeg
+    exif: '2022-10-18T23:19:41.000Z'
+    flags: []
+    bytes: 632474
+  - id: p016
+    seq: 16
+    file: Vegas-OE-Oct-2022-16.jpeg
+    sourceFile: IMG_9489.jpeg
+    exif: '2022-10-18T23:48:39.000Z'
+    flags: []
+    bytes: 245378
+  - id: p017
+    seq: 17
+    file: Vegas-OE-Oct-2022-17.jpeg
+    sourceFile: IMG_5394.jpeg
+    exif: '2022-10-19T00:43:38.000Z'
+    flags: []
+    bytes: 429648
+  - id: p018
+    seq: 18
+    file: Vegas-OE-Oct-2022-18.jpeg
+    sourceFile: IMG_5399.jpeg
+    exif: '2022-10-19T01:54:12.000Z'
+    flags: []
+    bytes: 596691
+  - id: p019
+    seq: 19
+    file: Vegas-OE-Oct-2022-19.jpeg
+    sourceFile: IMG_5402.jpeg
+    exif: '2022-10-19T02:01:43.000Z'
+    flags: []
+    bytes: 280552
+  - id: p020
+    seq: 20
+    file: Vegas-OE-Oct-2022-20.jpeg
+    sourceFile: IMG_9497.jpeg
+    exif: '2022-10-19T15:45:12.000Z'
+    flags: []
+    bytes: 345622
+  - id: p021
+    seq: 21
+    file: Vegas-OE-Oct-2022-21.jpeg
+    sourceFile: IMG_3100.jpeg
+    exif: '2022-10-20T01:15:26.000Z'
+    flags: []
+    bytes: 605271
+  - id: p022
+    seq: 22
+    file: Vegas-OE-Oct-2022-22.jpeg
+    sourceFile: IMG_0676.jpeg
+    exif: '2022-10-20T01:18:25.000Z'
+    flags: []
+    bytes: 293577
+  - id: p023
+    seq: 23
+    file: Vegas-OE-Oct-2022-23.jpeg
+    sourceFile: IMG_5485.jpeg
+    exif: '2022-10-20T02:08:52.000Z'
+    flags: []
+    bytes: 485909
+  - id: p024
+    seq: 24
+    file: Vegas-OE-Oct-2022-24.jpeg
+    sourceFile: 68798471864__AFDD6122-B966-463E-AC01-788ADF00C62D.jpeg
+    exif: '2022-10-20T15:51:58.000Z'
+    flags: []
+    bytes: 241597
+  - id: p025
+    seq: 25
+    file: Vegas-OE-Oct-2022-25.jpeg
+    sourceFile: IMG_9538.jpeg
+    exif: '2022-10-20T17:06:09.000Z'
+    flags: []
+    bytes: 237847
+  - id: p026
+    seq: 26
+    file: Vegas-OE-Oct-2022-26.jpeg
+    sourceFile: IMG_9539.jpeg
+    exif: '2022-10-20T17:11:46.000Z'
+    flags: []
+    bytes: 278252
+  - id: p027
+    seq: 27
+    file: Vegas-OE-Oct-2022-27.jpeg
+    sourceFile: IMG_9540.jpeg
+    exif: '2022-10-20T17:27:39.000Z'
+    flags: []
+    bytes: 285619
+  - id: p028
+    seq: 28
+    file: Vegas-OE-Oct-2022-28.jpeg
+    sourceFile: IMG_9541.jpeg
+    exif: '2022-10-20T17:27:40.000Z'
+    flags: []
+    bytes: 254088
+  - id: p029
+    seq: 29
+    file: Vegas-OE-Oct-2022-29.jpeg
+    sourceFile: IMG_2792.jpeg
+    exif: '2022-10-20T23:12:09.000Z'
+    flags: []
+    bytes: 304519
+  - id: p030
+    seq: 30
+    file: Vegas-OE-Oct-2022-30.jpeg
+    sourceFile: IMG_9558.jpeg
+    exif: '2022-10-20T23:51:09.000Z'
+    flags: []
+    bytes: 340474
+  - id: p031
+    seq: 31
+    file: Vegas-OE-Oct-2022-31.jpeg
+    sourceFile: IMG_0445.jpeg
+    exif: '2022-10-21T00:12:47.000Z'
+    flags: []
+    bytes: 404945
+  - id: p032
+    seq: 32
+    file: Vegas-OE-Oct-2022-32.jpeg
+    sourceFile: IMG_5307.jpeg
+    exif: '2022-10-21T00:22:59.000Z'
+    flags: []
+    bytes: 374020
+  - id: p033
+    seq: 33
+    file: Vegas-OE-Oct-2022-33.jpeg
+    sourceFile: IMG_3502.jpeg
+    exif: '2022-10-21T00:28:46.000Z'
+    flags: []
+    bytes: 477954
+  - id: p034
+    seq: 34
+    file: Vegas-OE-Oct-2022-34.jpeg
+    sourceFile: IMG_9565.jpeg
+    exif: '2022-10-21T00:59:41.000Z'
+    flags: []
+    bytes: 367482
+  - id: p035
+    seq: 35
+    file: Vegas-OE-Oct-2022-35.jpeg
+    sourceFile: IMG_8085.jpeg
+    exif: '2022-10-21T01:09:42.000Z'
+    flags: []
+    bytes: 213238
+  - id: p036
+    seq: 36
+    file: Vegas-OE-Oct-2022-36.jpeg
+    sourceFile: IMG_0316.jpeg
+    exif: '2022-10-21T02:33:21.000Z'
+    flags: []
+    bytes: 405395
+  - id: p037
+    seq: 37
+    file: Vegas-OE-Oct-2022-37.jpeg
+    sourceFile: IMG_9587.jpeg
+    exif: '2022-10-21T02:40:49.000Z'
+    flags: []
+    bytes: 269760
+  - id: p038
+    seq: 38
+    file: Vegas-OE-Oct-2022-38.jpeg
+    sourceFile: IMG_9588.jpeg
+    exif: '2022-10-21T02:40:54.000Z'
+    flags: []
+    bytes: 357958
+  - id: p039
+    seq: 39
+    file: Vegas-OE-Oct-2022-39.jpeg
+    sourceFile: IMG_9592.jpeg
+    exif: '2022-10-21T05:48:57.000Z'
+    flags: []
+    bytes: 106857
+  - id: p040
+    seq: 40
+    file: Vegas-OE-Oct-2022-40.jpeg
+    sourceFile: IMG_9594.jpeg
+    exif: '2022-10-21T06:19:11.000Z'
+    flags: []
+    bytes: 158250
+  - id: p041
+    seq: 41
+    file: Vegas-OE-Oct-2022-41.jpeg
+    sourceFile: IMG_8693.jpeg
+    exif: '2022-10-21T23:22:14.000Z'
+    flags: []
+    bytes: 153604
+  - id: p042
+    seq: 42
+    file: Vegas-OE-Oct-2022-42.jpeg
+    sourceFile: IMG_8700.jpeg
+    exif: '2022-10-21T23:34:02.000Z'
+    flags: []
+    bytes: 292397
+  - id: p043
+    seq: 43
+    file: Vegas-OE-Oct-2022-43.jpeg
+    sourceFile: IMG_9614.jpeg
+    exif: '2022-10-22T00:06:17.000Z'
+    flags: []
+    bytes: 191405
+  - id: p044
+    seq: 44
+    file: Vegas-OE-Oct-2022-44.jpeg
+    sourceFile: IMG_3632.jpeg
+    exif: '2022-10-22T00:07:35.000Z'
+    flags: []
+    bytes: 320714
+  - id: p045
+    seq: 45
+    file: Vegas-OE-Oct-2022-45.jpeg
+    sourceFile: IMG_9615.jpeg
+    exif: '2022-10-22T00:10:14.000Z'
+    flags: []
+    bytes: 248138
+  - id: p046
+    seq: 46
+    file: Vegas-OE-Oct-2022-46.jpeg
+    sourceFile: IMG_3637.jpeg
+    exif: '2022-10-22T00:10:23.000Z'
+    flags: []
+    bytes: 440407
+  - id: p047
+    seq: 47
+    file: Vegas-OE-Oct-2022-47.jpeg
+    sourceFile: IMG_9616.jpeg
+    exif: '2022-10-22T00:19:34.000Z'
+    flags: []
+    bytes: 314715
+  - id: p048
+    seq: 48
+    file: Vegas-OE-Oct-2022-48.jpeg
+    sourceFile: IMG_9620.jpeg
+    exif: '2022-10-22T00:29:32.000Z'
+    flags: []
+    bytes: 446225
+  - id: p049
+    seq: 49
+    file: Vegas-OE-Oct-2022-49.jpeg
+    sourceFile: IMG_9627.jpeg
+    exif: '2022-10-22T03:05:19.000Z'
+    flags: []
+    bytes: 198980
+  - id: p050
+    seq: 50
+    file: Vegas-OE-Oct-2022-50.jpeg
+    sourceFile: IMG_9631.jpeg
+    exif: '2022-10-22T03:22:38.000Z'
+    flags: []
+    bytes: 376710
+  - id: p051
+    seq: 51
+    file: Vegas-OE-Oct-2022-51.jpeg
+    sourceFile: IMG_9633.jpeg
+    exif: '2022-10-22T03:47:52.000Z'
+    flags: []
+    bytes: 332758
+  - id: p052
+    seq: 52
+    file: Vegas-OE-Oct-2022-52.jpeg
+    sourceFile: IMG_9641.jpeg
+    exif: '2022-10-22T04:44:53.000Z'
+    flags: []
+    bytes: 264555
+  - id: p053
+    seq: 53
+    file: Vegas-OE-Oct-2022-53.jpeg
+    sourceFile: IMG_9649.JPG
+    exif: '2022-10-22T06:32:06.000Z'
+    flags: []
+    bytes: 486716
+  - id: p054
+    seq: 54
+    file: Vegas-OE-Oct-2022-54.jpeg
+    sourceFile: IMG_9647.JPG
+    exif: '2022-10-22T06:33:03.000Z'
+    flags: []
+    bytes: 752800
+  - id: p055
+    seq: 55
+    file: Vegas-OE-Oct-2022-55.jpeg
+    sourceFile: IMG_9660.jpeg
+    exif: '2022-10-22T19:56:00.000Z'
+    flags: []
+    bytes: 375899
+  - id: p056
+    seq: 56
+    file: Vegas-OE-Oct-2022-56.jpeg
+    sourceFile: IMG_9664.jpeg
+    exif: '2022-10-22T19:56:08.000Z'
+    flags: []
+    bytes: 391013
+  - id: p057
+    seq: 57
+    file: Vegas-OE-Oct-2022-57.jpeg
+    sourceFile: IMG_9672.jpeg
+    exif: '2022-10-22T20:32:05.000Z'
+    flags: []
+    bytes: 204032
+  - id: p058
+    seq: 58
+    file: Vegas-OE-Oct-2022-58.jpeg
+    sourceFile: IMG_0831.jpeg
+    exif: '2022-10-22T20:42:49.000Z'
+    flags: []
+    bytes: 350324
+  - id: p059
+    seq: 59
+    file: Vegas-OE-Oct-2022-59.jpeg
+    sourceFile: IMG_9679.jpeg
+    exif: '2022-10-23T01:49:29.000Z'
+    flags: []
+    bytes: 253235
+  - id: p060
+    seq: 60
+    file: Vegas-OE-Oct-2022-60.jpeg
+    sourceFile: IMG_9680.jpeg
+    exif: '2022-10-23T01:49:36.000Z'
+    flags: []
+    bytes: 243047
+  - id: p061
+    seq: 61
+    file: Vegas-OE-Oct-2022-61.jpeg
+    sourceFile: IMG_9681.jpeg
+    exif: '2022-10-23T01:49:39.000Z'
+    flags: []
+    bytes: 257484
+  - id: p062
+    seq: 62
+    file: Vegas-OE-Oct-2022-62.jpeg
+    sourceFile: IMG_9685.jpeg
+    exif: '2022-10-23T01:55:25.000Z'
+    flags: []
+    bytes: 166410
+  - id: p063
+    seq: 63
+    file: Vegas-OE-Oct-2022-63.jpeg
+    sourceFile: IMG_9686.jpeg
+    exif: '2022-10-23T02:01:55.000Z'
+    flags: []
+    bytes: 185430
+  - id: p064
+    seq: 64
+    file: Vegas-OE-Oct-2022-64.jpeg
+    sourceFile: IMG_9687.jpeg
+    exif: '2022-10-23T02:01:58.000Z'
+    flags: []
+    bytes: 413664
+  - id: p065
+    seq: 65
+    file: Vegas-OE-Oct-2022-65.jpeg
+    sourceFile: IMG_9689.jpeg
+    exif: '2022-10-23T02:04:49.000Z'
+    flags: []
+    bytes: 278080
+  - id: p066
+    seq: 66
+    file: Vegas-OE-Oct-2022-66.jpeg
+    sourceFile: IMG_9690.jpeg
+    exif: '2022-10-23T02:07:04.000Z'
+    flags: []
+    bytes: 280525
+  - id: p067
+    seq: 67
+    file: Vegas-OE-Oct-2022-67.jpeg
+    sourceFile: IMG_9693.jpeg
+    exif: '2022-10-23T02:12:32.000Z'
+    flags: []
+    bytes: 384675
+  - id: p068
+    seq: 68
+    file: Vegas-OE-Oct-2022-68.jpeg
+    sourceFile: IMG_9566.JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 423574
+  - id: p069
+    seq: 69
+    file: Vegas-OE-Oct-2022-69.jpeg
+    sourceFile: McLendon-Photography-0152.jpg
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 392251
+sections: []
+pages:
+  - file: Vegas-OE-Oct-2022-1.html
+    sectionIds: []
+skippedVideos:
+  - IMG_9544.mov
+processReport:
+  processedAt: '2026-09-13T04:44:37.157Z'
+  oversizedFiles: []
+  needsPlacement:
+    - Vegas-OE-Oct-2022-68.jpeg
+    - Vegas-OE-Oct-2022-69.jpeg
+  possibleDuplicates: []

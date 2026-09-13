@@ -2,6 +2,8 @@ export interface PhotoMetadata {
     filePath: string;
     fileName: string;
     dateTaken: Date | null;
+    /** True only when DateTimeOriginal / CreateDate / ModifyDate came from EXIF */
+    hasExifDate: boolean;
     width: number | null;
     height: number | null;
     orientation: number | null;
