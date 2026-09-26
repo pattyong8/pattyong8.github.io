@@ -64,6 +64,8 @@ Re-render after prose-only yaml edits without re-processing photos.
 
 Personal archive, not a travel magazine. Preserve specific memories from dictation. Avoid generic / AI-sounding prose. Full section paragraphs, not captions.
 
+**No hyphens or dashes in trip prose.** Do not write compound adjectives (`music-heavy`, `late-night`), em dashes, or en dashes. Rephrase with spaces or a new sentence (`hole in ones`, `late night`, `almost like blackjack`). Keep hyphens only in proper names the user wrote (`Rice-A-Roni`, `Cal-KA`) and in file/slug paths.
+
 ## Gates
 
 1. **Order** — chronology, needs-placement, possible duplicates (flag only). Show updated Picture # list after changes.

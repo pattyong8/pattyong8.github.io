@@ -3,11 +3,16 @@ title: Irvine Summer
 slug: Irvine-Summer-2026
 section: 20s
 year: '2026'
-dateRange: Summer 2026
-startDate: '2026-07-15'
+dateRange: July and August 2026
+startDate: '2026-07-24'
 location: Irvine, California
-people: ''
-introParagraph: ''
+people: Family
+introParagraph: >-
+  As I usually do, I came home for the summer to enjoy some time with family and friends. This
+  summer was particularly significant because there was a new member of the family. Annabelle was
+  born in the summer of 2026, and I came back a few times to see her, spend time with her, and enjoy
+  my new role as the funcle. What a wonderful milestone for Vinny and Erin and for our entire
+  family.
 tripPrefix: Irvine-Summer-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Irvine-Summer-2026
 coverSource: _incoming/Cover.jpeg
@@ -72,129 +77,129 @@ photos:
   - id: p009
     seq: 9
     file: Irvine-Summer-2026-9.jpeg
-    sourceFile: IMG_4182.jpeg
-    exif: '2026-07-26T00:48:56.000Z'
-    flags: []
-    bytes: 517145
-  - id: p010
-    seq: 10
-    file: Irvine-Summer-2026-10.jpeg
-    sourceFile: IMG_4183.jpeg
-    exif: '2026-07-26T01:11:56.000Z'
-    flags: []
-    bytes: 483906
-  - id: p011
-    seq: 11
-    file: Irvine-Summer-2026-11.jpeg
-    sourceFile: IMG_4184.jpeg
-    exif: '2026-07-26T01:12:00.000Z'
-    flags: []
-    bytes: 259496
-  - id: p012
-    seq: 12
-    file: Irvine-Summer-2026-12.jpeg
-    sourceFile: IMG_4185.jpeg
-    exif: '2026-07-26T01:12:42.000Z'
-    flags: []
-    bytes: 381780
-  - id: p013
-    seq: 13
-    file: Irvine-Summer-2026-13.jpeg
-    sourceFile: IMG_4203.jpeg
-    exif: '2026-07-27T23:07:47.000Z'
-    flags: []
-    bytes: 402597
-  - id: p014
-    seq: 14
-    file: Irvine-Summer-2026-14.jpeg
-    sourceFile: IMG_4210.jpeg
-    exif: '2026-07-28T21:44:59.000Z'
-    flags: []
-    bytes: 325585
-  - id: p015
-    seq: 15
-    file: Irvine-Summer-2026-15.jpeg
-    sourceFile: IMG_4212.jpeg
-    exif: '2026-07-28T21:45:11.000Z'
-    flags: []
-    bytes: 483392
-  - id: p016
-    seq: 16
-    file: Irvine-Summer-2026-16.jpeg
-    sourceFile: IMG_4213.jpeg
-    exif: '2026-07-28T22:29:35.000Z'
-    flags: []
-    bytes: 282060
-  - id: p017
-    seq: 17
-    file: Irvine-Summer-2026-17.jpeg
-    sourceFile: IMG_4214.jpeg
-    exif: '2026-07-28T22:29:43.000Z'
-    flags: []
-    bytes: 423303
-  - id: p018
-    seq: 18
-    file: Irvine-Summer-2026-18.jpeg
-    sourceFile: IMG_4216.jpeg
-    exif: '2026-07-28T22:32:25.000Z'
-    flags: []
-    bytes: 386890
-  - id: p019
-    seq: 19
-    file: Irvine-Summer-2026-19.jpeg
-    sourceFile: IMG_4221.jpeg
-    exif: '2026-07-29T17:28:42.000Z'
-    flags: []
-    bytes: 327500
-  - id: p020
-    seq: 20
-    file: Irvine-Summer-2026-20.jpeg
-    sourceFile: IMG_4222.jpeg
-    exif: '2026-07-29T17:28:45.000Z'
-    flags: []
-    bytes: 315011
-  - id: p021
-    seq: 21
-    file: Irvine-Summer-2026-21.jpeg
-    sourceFile: IMG_4223.jpeg
-    exif: '2026-07-29T17:31:10.000Z'
-    flags: []
-    bytes: 381227
-  - id: p022
-    seq: 22
-    file: Irvine-Summer-2026-22.jpeg
-    sourceFile: IMG_4224.jpeg
-    exif: '2026-07-29T17:35:24.000Z'
-    flags: []
-    bytes: 371625
-  - id: p023
-    seq: 23
-    file: Irvine-Summer-2026-23.jpeg
-    sourceFile: IMG_4225.jpeg
-    exif: '2026-07-29T17:35:26.000Z'
-    flags: []
-    bytes: 421152
-  - id: p024
-    seq: 24
-    file: Irvine-Summer-2026-24.jpeg
-    sourceFile: IMG_4231.jpeg
-    exif: '2026-07-30T22:33:37.000Z'
-    flags: []
-    bytes: 177624
-  - id: p025
-    seq: 25
-    file: Irvine-Summer-2026-25.jpeg
-    sourceFile: IMG_4983.jpeg
-    exif: '2026-08-24T22:44:53.000Z'
-    flags: []
-    bytes: 376623
-  - id: p026
-    seq: 26
-    file: Irvine-Summer-2026-26.jpeg
     sourceFile: IMG_4989.jpeg
     exif: '2026-08-24T23:43:44.000Z'
     flags: []
     bytes: 411786
+  - id: p010
+    seq: 10
+    file: Irvine-Summer-2026-10.jpeg
+    sourceFile: IMG_4182.jpeg
+    exif: '2026-07-26T00:48:56.000Z'
+    flags: []
+    bytes: 517145
+  - id: p011
+    seq: 11
+    file: Irvine-Summer-2026-11.jpeg
+    sourceFile: IMG_4183.jpeg
+    exif: '2026-07-26T01:11:56.000Z'
+    flags: []
+    bytes: 483906
+  - id: p012
+    seq: 12
+    file: Irvine-Summer-2026-12.jpeg
+    sourceFile: IMG_4184.jpeg
+    exif: '2026-07-26T01:12:00.000Z'
+    flags: []
+    bytes: 259496
+  - id: p013
+    seq: 13
+    file: Irvine-Summer-2026-13.jpeg
+    sourceFile: IMG_4185.jpeg
+    exif: '2026-07-26T01:12:42.000Z'
+    flags: []
+    bytes: 381780
+  - id: p014
+    seq: 14
+    file: Irvine-Summer-2026-14.jpeg
+    sourceFile: IMG_4203.jpeg
+    exif: '2026-07-27T23:07:47.000Z'
+    flags: []
+    bytes: 402597
+  - id: p015
+    seq: 15
+    file: Irvine-Summer-2026-15.jpeg
+    sourceFile: IMG_4210.jpeg
+    exif: '2026-07-28T21:44:59.000Z'
+    flags: []
+    bytes: 325585
+  - id: p016
+    seq: 16
+    file: Irvine-Summer-2026-16.jpeg
+    sourceFile: IMG_4212.jpeg
+    exif: '2026-07-28T21:45:11.000Z'
+    flags: []
+    bytes: 483392
+  - id: p017
+    seq: 17
+    file: Irvine-Summer-2026-17.jpeg
+    sourceFile: IMG_4213.jpeg
+    exif: '2026-07-28T22:29:35.000Z'
+    flags: []
+    bytes: 282060
+  - id: p018
+    seq: 18
+    file: Irvine-Summer-2026-18.jpeg
+    sourceFile: IMG_4214.jpeg
+    exif: '2026-07-28T22:29:43.000Z'
+    flags: []
+    bytes: 423303
+  - id: p019
+    seq: 19
+    file: Irvine-Summer-2026-19.jpeg
+    sourceFile: IMG_4216.jpeg
+    exif: '2026-07-28T22:32:25.000Z'
+    flags: []
+    bytes: 386890
+  - id: p020
+    seq: 20
+    file: Irvine-Summer-2026-20.jpeg
+    sourceFile: IMG_4221.jpeg
+    exif: '2026-07-29T17:28:42.000Z'
+    flags: []
+    bytes: 327500
+  - id: p021
+    seq: 21
+    file: Irvine-Summer-2026-21.jpeg
+    sourceFile: IMG_4222.jpeg
+    exif: '2026-07-29T17:28:45.000Z'
+    flags: []
+    bytes: 315011
+  - id: p022
+    seq: 22
+    file: Irvine-Summer-2026-22.jpeg
+    sourceFile: IMG_4223.jpeg
+    exif: '2026-07-29T17:31:10.000Z'
+    flags: []
+    bytes: 381227
+  - id: p023
+    seq: 23
+    file: Irvine-Summer-2026-23.jpeg
+    sourceFile: IMG_4224.jpeg
+    exif: '2026-07-29T17:35:24.000Z'
+    flags: []
+    bytes: 371625
+  - id: p024
+    seq: 24
+    file: Irvine-Summer-2026-24.jpeg
+    sourceFile: IMG_4225.jpeg
+    exif: '2026-07-29T17:35:26.000Z'
+    flags: []
+    bytes: 421152
+  - id: p025
+    seq: 25
+    file: Irvine-Summer-2026-25.jpeg
+    sourceFile: IMG_5043.jpeg
+    exif: '2026-08-27T22:35:14.000Z'
+    flags: []
+    bytes: 575926
+  - id: p026
+    seq: 26
+    file: Irvine-Summer-2026-26.jpeg
+    sourceFile: IMG_4983.jpeg
+    exif: '2026-08-24T22:44:53.000Z'
+    flags: []
+    bytes: 376623
   - id: p027
     seq: 27
     file: Irvine-Summer-2026-27.jpeg
@@ -226,19 +231,143 @@ photos:
   - id: p031
     seq: 31
     file: Irvine-Summer-2026-31.jpeg
-    sourceFile: IMG_5043.jpeg
-    exif: '2026-08-27T22:35:14.000Z'
+    sourceFile: IMG_4231.jpeg
+    exif: '2026-07-30T22:33:37.000Z'
     flags: []
-    bytes: 575926
-sections: []
+    bytes: 177624
+sections:
+  - id: annabelle
+    title: Annabelle
+    photoIds:
+      - p001
+      - p002
+      - p003
+    prose: >-
+      The summer of 2026 was really defined by getting to spend time with Annabelle, my new niece.
+      She was the cutest, most precious baby I had ever met. I went over to Vinny and Erin's many
+      times just to see her, hold her, and spend time with the newest member of our family.
+
+
+      I really had not spent much time around babies before, so I learned a lot during these visits.
+      Even something as simple as learning how to comfortably hold and take care of a baby was new
+      to me. It was really special getting to know Annabelle during the first few months of her life
+      and watching Vinny and Erin settle into being parents.
+  - id: family-dinner
+    title: Family Dinner
+    photoIds:
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+    prose: >-
+      Of course, being home also meant eating incredibly well. While I was visiting and meeting
+      Annabelle, Vinny decided to cook up a storm. He had bought a bunch of steaks from Costco a few
+      weeks earlier and saved the rib caps that he had butchered himself. They were incredible.
+
+
+      Mom and Doug also made fresh pesto pasta, and Doug brought some of his signature homemade
+      bread. We even finished everything off with snickerdoodles. A pretty classic family meal where
+      there was absolutely no shortage of food.
+  - id: meals-out
+    title: Meals Out
+    photoIds:
+      - p010
+      - p011
+      - p012
+      - p013
+      - p020
+      - p021
+      - p022
+      - p023
+      - p024
+    prose: >-
+      Vinny, Mom, and I also went to Chubby Cattle, an all you can eat Japanese barbecue spot that
+      Vinny was really excited to try. They had an amazing selection of meats and other dishes. It
+      was definitely expensive, but everything was very tasty.
+
+
+      I also tried uni mentaiko for the first time. It was good, although I think I still prefer
+      having uni fresh rather than in mentaiko form.
+
+
+      Mom and I went to try Tim Ho Wan together. The dim sum was good, and I was particularly
+      impressed by the har gow. They were really tightly put together and well made.
+  - id: home-cooked-meals
+    title: Home Cooked Meals
+    photoIds:
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p025
+      - p026
+      - p029
+    prose: >-
+      A lot of the summer was simply home cooked meals with the family. Mom made jambalaya during
+      another visit to Vinny and Erin's, and Doug made fresh homemade pizzas.
+
+
+      Picture 18 was easily my favorite: sausage, mushrooms, and cheese. Just can't get enough of
+      that combination.
+
+
+      As you can probably tell from the photos, there was a lot of food this summer. Mom is always
+      cooking something wonderful whenever I'm home.
+
+
+      It was also incredibly hot, so Mom made some aiyu, which was the perfect refreshing drink for
+      the weather.
+  - id: other-activities
+    title: Other activities
+    photoIds:
+      - p027
+      - p028
+      - p030
+      - p031
+    prose: >-
+      But there was also plenty of time with family in between all the meals. I got to spend more
+      time with Annabelle, Davis and I hung out by the pool, and we went to visit Mom while she was
+      pet sitting at a house.
+
+
+      We also went to Diamond Jamboree for bingsu, which is always a good summer dessert.
+
+
+      Vinny and I went out to play nine holes at the par three course near John Wayne Airport. We
+      ended up finishing within one stroke of each other. I lost it a little toward the end, but
+      overall I was playing and hitting the ball pretty well, which was exciting.
+
+
+      Before I left, we went to see The Odyssey together in 70mm IMAX. It was one of the best
+      moviegoing experiences I'd had in a while. Christopher Nolan shot the movie in IMAX, and you
+      could really feel the scale of it on that screen.
+
+
+      Our seats on the left side of the theater were definitely not ideal, but it almost didn't
+      matter. Some of the images were so immersive that it felt like you were actually inside the
+      scene. It had been a long time since I'd had an IMAX experience that felt like that.
+
+
+      Between welcoming Annabelle into the family, spending time with everyone, eating way too much
+      good food, golfing with Vinny, and simply being back home, this was a particularly special
+      Irvine summer.
 pages:
   - file: Irvine-Summer-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - annabelle
+      - family-dinner
+      - meals-out
+      - home-cooked-meals
+      - other-activities
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:15.551Z'
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789319986974'
+cacheBust: '1789834405943'
 gallaryThumb: assets/images/gallary/20s/2026/Jul-Irvine-Summer-2026.jpeg

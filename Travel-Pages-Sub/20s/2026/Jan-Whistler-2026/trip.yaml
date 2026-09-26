@@ -3,11 +3,14 @@ title: Noah's Bday in Whistler
 slug: Jan-Whistler-2026
 section: 20s
 year: '2026'
-dateRange: January 2026
-startDate: '2026-01-05'
+dateRange: January 8th-10th, 2026
+startDate: '2026-01-08'
 location: Whistler, British Columbia
-people: ''
-introParagraph: ''
+people: Seattle Friends
+introParagraph: >-
+  Noah does a birthday ski trip every year, and this year was no different. It was full of friends,
+  food, drinks, and enjoying one of Noah's favorite sports. This was the first time we had gone to
+  Whistler for his birthday, and boy was it a lavish and luxurious time. Good vibes all around.
 tripPrefix: Jan-Whistler-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-Whistler-2026
 coverSource: _incoming/Cover.jpeg
@@ -65,407 +68,616 @@ photos:
   - id: p008
     seq: 8
     file: Jan-Whistler-2026-8.jpeg
-    sourceFile: IMG_1007.jpeg
-    exif: '2026-01-09T02:31:31.000Z'
-    flags: []
-    bytes: 194969
-  - id: p009
-    seq: 9
-    file: Jan-Whistler-2026-9.jpeg
     sourceFile: IMG_2052.jpeg
     exif: '2026-01-09T02:31:48.000Z'
     flags: []
     bytes: 216683
-  - id: p010
-    seq: 10
-    file: Jan-Whistler-2026-10.jpeg
+  - id: p009
+    seq: 9
+    file: Jan-Whistler-2026-9.jpeg
     sourceFile: IMG_1008.jpeg
     exif: '2026-01-09T03:54:53.000Z'
     flags: []
     bytes: 306898
-  - id: p011
-    seq: 11
-    file: Jan-Whistler-2026-11.jpeg
-    sourceFile: IMG_3314.jpeg
-    exif: '2026-01-09T03:55:40.000Z'
-    flags: []
-    bytes: 351602
-  - id: p012
-    seq: 12
-    file: Jan-Whistler-2026-12.jpeg
+  - id: p010
+    seq: 10
+    file: Jan-Whistler-2026-10.jpeg
     sourceFile: IMG_1012.jpeg
     exif: '2026-01-09T14:07:40.000Z'
     flags: []
     bytes: 570649
-  - id: p013
-    seq: 13
-    file: Jan-Whistler-2026-13.jpeg
+  - id: p011
+    seq: 11
+    file: Jan-Whistler-2026-11.jpeg
     sourceFile: IMG_1013.jpeg
     exif: '2026-01-09T15:05:27.000Z'
     flags: []
     bytes: 498463
-  - id: p014
-    seq: 14
-    file: Jan-Whistler-2026-14.jpeg
+  - id: p012
+    seq: 12
+    file: Jan-Whistler-2026-12.jpeg
     sourceFile: IMG_2098.jpeg
     exif: '2026-01-09T16:48:35.000Z'
     flags: []
     bytes: 759373
-  - id: p015
-    seq: 15
-    file: Jan-Whistler-2026-15.jpeg
-    sourceFile: IMG_1015.jpeg
-    exif: '2026-01-09T17:54:51.000Z'
-    flags: []
-    bytes: 446345
-  - id: p016
-    seq: 16
-    file: Jan-Whistler-2026-16.jpeg
-    sourceFile: IMG_1016.jpeg
-    exif: '2026-01-09T18:26:24.000Z'
-    flags: []
-    bytes: 359127
-  - id: p017
-    seq: 17
-    file: Jan-Whistler-2026-17.jpeg
-    sourceFile: IMG_3322.jpeg
-    exif: '2026-01-09T18:32:49.000Z'
-    flags: []
-    bytes: 249314
-  - id: p018
-    seq: 18
-    file: Jan-Whistler-2026-18.jpeg
-    sourceFile: IMG_3324.jpeg
-    exif: '2026-01-09T18:32:54.000Z'
-    flags: []
-    bytes: 306595
-  - id: p019
-    seq: 19
-    file: Jan-Whistler-2026-19.jpeg
-    sourceFile: IMG_1017.jpeg
-    exif: '2026-01-09T18:42:34.000Z'
-    flags: []
-    bytes: 607905
-  - id: p020
-    seq: 20
-    file: Jan-Whistler-2026-20.jpeg
-    sourceFile: IMG_1018.jpeg
-    exif: '2026-01-09T18:43:18.000Z'
-    flags: []
-    bytes: 486108
-  - id: p021
-    seq: 21
-    file: Jan-Whistler-2026-21.jpeg
-    sourceFile: IMG_1019.jpeg
-    exif: '2026-01-09T18:45:28.000Z'
-    flags: []
-    bytes: 391888
-  - id: p022
-    seq: 22
-    file: Jan-Whistler-2026-22.jpeg
-    sourceFile: IMG_1020.jpeg
-    exif: '2026-01-09T18:45:35.000Z'
-    flags: []
-    bytes: 512349
-  - id: p023
-    seq: 23
-    file: Jan-Whistler-2026-23.jpeg
+  - id: p013
+    seq: 13
+    file: Jan-Whistler-2026-13.jpeg
     sourceFile: IMG_3329.jpeg
     exif: '2026-01-09T20:22:22.000Z'
     flags: []
     bytes: 497077
-  - id: p024
-    seq: 24
-    file: Jan-Whistler-2026-24.jpeg
-    sourceFile: IMG_341534B8-0B83-47F1-8193-822785C829C6.jpeg
-    exif: '2026-01-09T23:58:33.000Z'
-    flags: []
-    bytes: 278706
-  - id: p025
-    seq: 25
-    file: Jan-Whistler-2026-25.jpeg
-    sourceFile: IMG_1023.jpeg
-    exif: '2026-01-10T01:57:03.000Z'
-    flags: []
-    bytes: 382271
-  - id: p026
-    seq: 26
-    file: Jan-Whistler-2026-26.jpeg
-    sourceFile: IMG_2330.jpeg
-    exif: '2026-01-10T01:57:26.000Z'
-    flags: []
-    bytes: 361211
-  - id: p027
-    seq: 27
-    file: Jan-Whistler-2026-27.jpeg
-    sourceFile: IMG_1024.jpeg
-    exif: '2026-01-10T02:10:26.000Z'
-    flags: []
-    bytes: 333233
-  - id: p028
-    seq: 28
-    file: Jan-Whistler-2026-28.jpeg
-    sourceFile: IMG_1027.jpeg
-    exif: '2026-01-10T02:44:42.000Z'
-    flags: []
-    bytes: 442414
-  - id: p029
-    seq: 29
-    file: Jan-Whistler-2026-29.jpeg
-    sourceFile: IMG_1029.jpeg
-    exif: '2026-01-10T03:05:07.000Z'
-    flags: []
-    bytes: 367791
-  - id: p030
-    seq: 30
-    file: Jan-Whistler-2026-30.jpeg
-    sourceFile: IMG_1031.jpeg
-    exif: '2026-01-10T03:48:13.000Z'
-    flags: []
-    bytes: 256705
-  - id: p031
-    seq: 31
-    file: Jan-Whistler-2026-31.jpeg
-    sourceFile: IMG_3333.jpeg
-    exif: '2026-01-10T03:54:16.000Z'
-    flags: []
-    bytes: 181762
-  - id: p032
-    seq: 32
-    file: Jan-Whistler-2026-32.jpeg
-    sourceFile: IMG_2157.jpeg
-    exif: '2026-01-10T15:57:17.000Z'
-    flags: []
-    bytes: 605992
-  - id: p033
-    seq: 33
-    file: Jan-Whistler-2026-33.jpeg
-    sourceFile: IMG_2159.jpeg
-    exif: '2026-01-10T19:34:29.000Z'
-    flags: []
-    bytes: 575324
-  - id: p034
-    seq: 34
-    file: Jan-Whistler-2026-34.jpeg
-    sourceFile: IMG_2161.jpeg
-    exif: '2026-01-10T19:41:41.000Z'
-    flags: []
-    bytes: 385687
-  - id: p035
-    seq: 35
-    file: Jan-Whistler-2026-35.jpeg
-    sourceFile: IMG_2165.jpeg
-    exif: '2026-01-10T19:42:40.000Z'
-    flags: []
-    bytes: 360288
-  - id: p036
-    seq: 36
-    file: Jan-Whistler-2026-36.jpeg
-    sourceFile: IMG_1035.jpeg
-    exif: '2026-01-10T20:06:09.000Z'
-    flags: []
-    bytes: 386557
-  - id: p037
-    seq: 37
-    file: Jan-Whistler-2026-37.jpeg
-    sourceFile: IMG_1036.jpeg
-    exif: '2026-01-10T20:06:12.000Z'
-    flags: []
-    bytes: 575521
-  - id: p038
-    seq: 38
-    file: Jan-Whistler-2026-38.jpeg
-    sourceFile: IMG_1037.jpeg
-    exif: '2026-01-10T20:22:00.000Z'
-    flags: []
-    bytes: 406436
-  - id: p039
-    seq: 39
-    file: Jan-Whistler-2026-39.jpeg
-    sourceFile: IMG_2172.jpeg
-    exif: '2026-01-10T20:30:44.000Z'
-    flags: []
-    bytes: 361437
-  - id: p040
-    seq: 40
-    file: Jan-Whistler-2026-40.jpeg
-    sourceFile: IMG_3353.jpeg
-    exif: '2026-01-10T20:30:49.000Z'
-    flags: []
-    bytes: 351490
-  - id: p041
-    seq: 41
-    file: Jan-Whistler-2026-41.jpeg
-    sourceFile: IMG_1045.jpeg
-    exif: '2026-01-10T20:53:10.000Z'
-    flags: []
-    bytes: 416147
-  - id: p042
-    seq: 42
-    file: Jan-Whistler-2026-42.jpeg
-    sourceFile: DSC02091.jpg
-    exif: '2026-01-10T21:49:40.000Z'
-    flags: []
-    bytes: 232716
-  - id: p043
-    seq: 43
-    file: Jan-Whistler-2026-43.jpeg
-    sourceFile: DSC02109.jpg
-    exif: '2026-01-10T21:49:58.000Z'
-    flags: []
-    bytes: 228929
-  - id: p044
-    seq: 44
-    file: Jan-Whistler-2026-44.jpeg
-    sourceFile: DSC02115.jpg
-    exif: '2026-01-10T21:50:45.000Z'
-    flags: []
-    bytes: 224516
-  - id: p045
-    seq: 45
-    file: Jan-Whistler-2026-45.jpeg
-    sourceFile: IMG_1049.jpeg
-    exif: '2026-01-10T21:54:18.000Z'
-    flags: []
-    bytes: 371954
-  - id: p046
-    seq: 46
-    file: Jan-Whistler-2026-46.jpeg
-    sourceFile: IMG_1050.jpeg
-    exif: '2026-01-10T21:54:40.000Z'
-    flags: []
-    bytes: 356178
-  - id: p047
-    seq: 47
-    file: Jan-Whistler-2026-47.jpeg
-    sourceFile: IMG_1052.jpeg
-    exif: '2026-01-10T21:55:27.000Z'
-    flags: []
-    bytes: 196169
-  - id: p048
-    seq: 48
-    file: Jan-Whistler-2026-48.jpeg
-    sourceFile: DSC02249.jpg
-    exif: '2026-01-10T22:13:59.000Z'
-    flags: []
-    bytes: 236150
-  - id: p049
-    seq: 49
-    file: Jan-Whistler-2026-49.jpeg
-    sourceFile: DSC02273.jpg
-    exif: '2026-01-10T22:26:08.000Z'
-    flags: []
-    bytes: 235318
-  - id: p050
-    seq: 50
-    file: Jan-Whistler-2026-50.jpeg
-    sourceFile: IMG_3397.jpeg
-    exif: '2026-01-10T22:31:12.000Z'
-    flags: []
-    bytes: 377159
-  - id: p051
-    seq: 51
-    file: Jan-Whistler-2026-51.jpeg
-    sourceFile: IMG_1061.jpeg
-    exif: '2026-01-10T22:31:34.000Z'
-    flags: []
-    bytes: 278040
-  - id: p052
-    seq: 52
-    file: Jan-Whistler-2026-52.jpeg
-    sourceFile: IMG_1062.jpeg
-    exif: '2026-01-10T22:31:37.000Z'
-    flags: []
-    bytes: 265790
-  - id: p053
-    seq: 53
-    file: Jan-Whistler-2026-53.jpeg
-    sourceFile: IMG_1065.jpeg
-    exif: '2026-01-10T22:32:10.000Z'
-    flags: []
-    bytes: 247286
-  - id: p054
-    seq: 54
-    file: Jan-Whistler-2026-54.jpeg
-    sourceFile: IMG_1067.jpeg
-    exif: '2026-01-10T22:32:37.000Z'
-    flags: []
-    bytes: 275090
-  - id: p055
-    seq: 55
-    file: Jan-Whistler-2026-55.jpeg
-    sourceFile: IMG_1069.jpeg
-    exif: '2026-01-10T22:33:17.000Z'
-    flags: []
-    bytes: 275651
-  - id: p056
-    seq: 56
-    file: Jan-Whistler-2026-56.jpeg
-    sourceFile: DSC02337.jpg
-    exif: '2026-01-10T23:25:32.000Z'
-    flags: []
-    bytes: 274380
-  - id: p057
-    seq: 57
-    file: Jan-Whistler-2026-57.jpeg
-    sourceFile: DSC02447.jpg
-    exif: '2026-01-10T23:28:11.000Z'
-    flags: []
-    bytes: 672449
-  - id: p058
-    seq: 58
-    file: Jan-Whistler-2026-58.jpeg
-    sourceFile: DSC02634.jpg
-    exif: '2026-01-10T23:37:25.000Z'
-    flags: []
-    bytes: 286769
-  - id: p059
-    seq: 59
-    file: Jan-Whistler-2026-59.jpeg
-    sourceFile: DSC02741.jpg
-    exif: '2026-01-11T00:07:08.000Z'
-    flags: []
-    bytes: 227373
-  - id: p060
-    seq: 60
-    file: Jan-Whistler-2026-60.jpeg
-    sourceFile: DSC02751.jpg
-    exif: '2026-01-11T00:07:20.000Z'
-    flags: []
-    bytes: 211199
-  - id: p061
-    seq: 61
-    file: Jan-Whistler-2026-61.jpeg
-    sourceFile: DSC02766.jpg
-    exif: '2026-01-11T00:08:19.000Z'
-    flags: []
-    bytes: 218585
-  - id: p062
-    seq: 62
-    file: Jan-Whistler-2026-62.jpeg
-    sourceFile: 1DB9EC98-357C-42B8-9A78-8593EF174B3B.jpg
-    exif: '2026-01-11T00:28:16.000Z'
-    flags: []
-    bytes: 253115
-  - id: p063
-    seq: 63
-    file: Jan-Whistler-2026-63.jpeg
+  - id: p014
+    seq: 14
+    file: Jan-Whistler-2026-14.jpeg
     sourceFile: IMG_1391.WEBP
     exif: null
     flags:
       - missing_exif
       - needs_placement
-    bytes: 119679
-sections: []
+    bytes: 105411
+  - id: p015
+    seq: 15
+    file: Jan-Whistler-2026-15.jpeg
+    sourceFile: IMG_1016.jpeg
+    exif: '2026-01-09T18:26:24.000Z'
+    flags: []
+    bytes: 359127
+  - id: p016
+    seq: 16
+    file: Jan-Whistler-2026-16.jpeg
+    sourceFile: IMG_1018.jpeg
+    exif: '2026-01-09T18:43:18.000Z'
+    flags: []
+    bytes: 486108
+  - id: p017
+    seq: 17
+    file: Jan-Whistler-2026-17.jpeg
+    sourceFile: IMG_1019.jpeg
+    exif: '2026-01-09T18:45:28.000Z'
+    flags: []
+    bytes: 391888
+  - id: p018
+    seq: 18
+    file: Jan-Whistler-2026-18.jpeg
+    sourceFile: IMG_1020.jpeg
+    exif: '2026-01-09T18:45:35.000Z'
+    flags: []
+    bytes: 512349
+  - id: p019
+    seq: 19
+    file: Jan-Whistler-2026-19.jpeg
+    sourceFile: IMG_3324.jpeg
+    exif: '2026-01-09T18:32:54.000Z'
+    flags: []
+    bytes: 306595
+  - id: p020
+    seq: 20
+    file: Jan-Whistler-2026-20.jpeg
+    sourceFile: IMG_3322.jpeg
+    exif: '2026-01-09T18:32:49.000Z'
+    flags: []
+    bytes: 249314
+  - id: p021
+    seq: 21
+    file: Jan-Whistler-2026-21.jpeg
+    sourceFile: IMG_1023.jpeg
+    exif: '2026-01-10T01:57:03.000Z'
+    flags: []
+    bytes: 382271
+  - id: p022
+    seq: 22
+    file: Jan-Whistler-2026-22.jpeg
+    sourceFile: IMG_2330.jpeg
+    exif: '2026-01-10T01:57:26.000Z'
+    flags: []
+    bytes: 361211
+  - id: p023
+    seq: 23
+    file: Jan-Whistler-2026-23.jpeg
+    sourceFile: IMG_1024.jpeg
+    exif: '2026-01-10T02:10:26.000Z'
+    flags: []
+    bytes: 333233
+  - id: p024
+    seq: 24
+    file: Jan-Whistler-2026-24.jpeg
+    sourceFile: IMG_1027.jpeg
+    exif: '2026-01-10T02:44:42.000Z'
+    flags: []
+    bytes: 442414
+  - id: p025
+    seq: 25
+    file: Jan-Whistler-2026-25.jpeg
+    sourceFile: IMG_1029.jpeg
+    exif: '2026-01-10T03:05:07.000Z'
+    flags: []
+    bytes: 367791
+  - id: p026
+    seq: 26
+    file: Jan-Whistler-2026-26.jpeg
+    sourceFile: IMG_1031.jpeg
+    exif: '2026-01-10T03:48:13.000Z'
+    flags: []
+    bytes: 256705
+  - id: p027
+    seq: 27
+    file: Jan-Whistler-2026-27.jpeg
+    sourceFile: IMG_3333.jpeg
+    exif: '2026-01-10T03:54:16.000Z'
+    flags: []
+    bytes: 181762
+  - id: p028
+    seq: 28
+    file: Jan-Whistler-2026-28.jpeg
+    sourceFile: IMG_2157.jpeg
+    exif: '2026-01-10T15:57:17.000Z'
+    flags: []
+    bytes: 605992
+  - id: p029
+    seq: 29
+    file: Jan-Whistler-2026-29.jpeg
+    sourceFile: IMG_2159.jpeg
+    exif: '2026-01-10T19:34:29.000Z'
+    flags: []
+    bytes: 575324
+  - id: p030
+    seq: 30
+    file: Jan-Whistler-2026-30.jpeg
+    sourceFile: IMG_1035.jpeg
+    exif: '2026-01-10T20:06:09.000Z'
+    flags: []
+    bytes: 386557
+  - id: p031
+    seq: 31
+    file: Jan-Whistler-2026-31.jpeg
+    sourceFile: IMG_2165.jpeg
+    exif: '2026-01-10T19:42:40.000Z'
+    flags: []
+    bytes: 360288
+  - id: p032
+    seq: 32
+    file: Jan-Whistler-2026-32.jpeg
+    sourceFile: IMG_2161.jpeg
+    exif: '2026-01-10T19:41:41.000Z'
+    flags: []
+    bytes: 385687
+  - id: p033
+    seq: 33
+    file: Jan-Whistler-2026-33.jpeg
+    sourceFile: IMG_1036.jpeg
+    exif: '2026-01-10T20:06:12.000Z'
+    flags: []
+    bytes: 318545
+  - id: p034
+    seq: 34
+    file: Jan-Whistler-2026-34.jpeg
+    sourceFile: IMG_1037.jpeg
+    exif: '2026-01-10T20:22:00.000Z'
+    flags: []
+    bytes: 406436
+  - id: p035
+    seq: 35
+    file: Jan-Whistler-2026-35.jpeg
+    sourceFile: IMG_2172.jpeg
+    exif: '2026-01-10T20:30:44.000Z'
+    flags: []
+    bytes: 361437
+  - id: p036
+    seq: 36
+    file: Jan-Whistler-2026-36.jpeg
+    sourceFile: IMG_3353.jpeg
+    exif: '2026-01-10T20:30:49.000Z'
+    flags: []
+    bytes: 351490
+  - id: p037
+    seq: 37
+    file: Jan-Whistler-2026-37.jpeg
+    sourceFile: DSC02115.jpg
+    exif: '2026-01-10T21:50:45.000Z'
+    flags: []
+    bytes: 224516
+  - id: p038
+    seq: 38
+    file: Jan-Whistler-2026-38.jpeg
+    sourceFile: DSC02091.jpg
+    exif: '2026-01-10T21:49:40.000Z'
+    flags: []
+    bytes: 232716
+  - id: p039
+    seq: 39
+    file: Jan-Whistler-2026-39.jpeg
+    sourceFile: DSC02109.jpg
+    exif: '2026-01-10T21:49:58.000Z'
+    flags: []
+    bytes: 228929
+  - id: p040
+    seq: 40
+    file: Jan-Whistler-2026-40.jpeg
+    sourceFile: IMG_1045.jpeg
+    exif: '2026-01-10T20:53:10.000Z'
+    flags: []
+    bytes: 416147
+  - id: p041
+    seq: 41
+    file: Jan-Whistler-2026-41.jpeg
+    sourceFile: IMG_1049.jpeg
+    exif: '2026-01-10T21:54:18.000Z'
+    flags: []
+    bytes: 371954
+  - id: p042
+    seq: 42
+    file: Jan-Whistler-2026-42.jpeg
+    sourceFile: IMG_1050.jpeg
+    exif: '2026-01-10T21:54:40.000Z'
+    flags: []
+    bytes: 356178
+  - id: p043
+    seq: 43
+    file: Jan-Whistler-2026-43.jpeg
+    sourceFile: IMG_1052.jpeg
+    exif: '2026-01-10T21:55:27.000Z'
+    flags: []
+    bytes: 145721
+  - id: p044
+    seq: 44
+    file: Jan-Whistler-2026-44.jpeg
+    sourceFile: DSC02249.jpg
+    exif: '2026-01-10T22:13:59.000Z'
+    flags: []
+    bytes: 236150
+  - id: p045
+    seq: 45
+    file: Jan-Whistler-2026-45.jpeg
+    sourceFile: DSC02273.jpg
+    exif: '2026-01-10T22:26:08.000Z'
+    flags: []
+    bytes: 235318
+  - id: p046
+    seq: 46
+    file: Jan-Whistler-2026-46.jpeg
+    sourceFile: IMG_3397.jpeg
+    exif: '2026-01-10T22:31:12.000Z'
+    flags: []
+    bytes: 377159
+  - id: p047
+    seq: 47
+    file: Jan-Whistler-2026-47.jpeg
+    sourceFile: IMG_1061.jpeg
+    exif: '2026-01-10T22:31:34.000Z'
+    flags: []
+    bytes: 278040
+  - id: p048
+    seq: 48
+    file: Jan-Whistler-2026-48.jpeg
+    sourceFile: IMG_1062.jpeg
+    exif: '2026-01-10T22:31:37.000Z'
+    flags: []
+    bytes: 265790
+  - id: p049
+    seq: 49
+    file: Jan-Whistler-2026-49.jpeg
+    sourceFile: IMG_1065.jpeg
+    exif: '2026-01-10T22:32:10.000Z'
+    flags: []
+    bytes: 247286
+  - id: p050
+    seq: 50
+    file: Jan-Whistler-2026-50.jpeg
+    sourceFile: IMG_1067.jpeg
+    exif: '2026-01-10T22:32:37.000Z'
+    flags: []
+    bytes: 275090
+  - id: p051
+    seq: 51
+    file: Jan-Whistler-2026-51.jpeg
+    sourceFile: IMG_1069.jpeg
+    exif: '2026-01-10T22:33:17.000Z'
+    flags: []
+    bytes: 275651
+  - id: p052
+    seq: 52
+    file: Jan-Whistler-2026-52.jpeg
+    sourceFile: DSC02337.jpg
+    exif: '2026-01-10T23:25:32.000Z'
+    flags: []
+    bytes: 274380
+  - id: p053
+    seq: 53
+    file: Jan-Whistler-2026-53.jpeg
+    sourceFile: 1DB9EC98-357C-42B8-9A78-8593EF174B3B.jpg
+    exif: '2026-01-11T00:28:16.000Z'
+    flags: []
+    bytes: 253115
+  - id: p054
+    seq: 54
+    file: Jan-Whistler-2026-54.jpeg
+    sourceFile: DSC02634.jpg
+    exif: '2026-01-10T23:37:25.000Z'
+    flags: []
+    bytes: 286769
+  - id: p055
+    seq: 55
+    file: Jan-Whistler-2026-55.jpeg
+    sourceFile: DSC02741.jpg
+    exif: '2026-01-11T00:07:08.000Z'
+    flags: []
+    bytes: 227373
+  - id: p056
+    seq: 56
+    file: Jan-Whistler-2026-56.jpeg
+    sourceFile: DSC02751.jpg
+    exif: '2026-01-11T00:07:20.000Z'
+    flags: []
+    bytes: 211199
+  - id: p057
+    seq: 57
+    file: Jan-Whistler-2026-57.jpeg
+    sourceFile: DSC02766.jpg
+    exif: '2026-01-11T00:08:19.000Z'
+    flags: []
+    bytes: 218585
+  - id: p058
+    seq: 58
+    file: Jan-Whistler-2026-58.jpeg
+    sourceFile: DSC02447.jpg
+    exif: '2026-01-10T23:28:11.000Z'
+    flags: []
+    bytes: 672449
+sections:
+  - id: day-one
+    title: Day One
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+    prose: >-
+      I flew into Vancouver and had not been through the airport in a while. I had completely
+      forgotten how cool it was inside, with the huge indoor water feature and all of the native
+      architecture, boats, and artwork throughout the airport.
+
+
+      After making it through customs, I hopped on a bus for the roughly two and a half to three
+      hour ride from Vancouver to Whistler. The bus was actually really comfortable, and eventually
+      I made it to Whistler and checked into the hotel room I was sharing with Noah and Stephanie.
+
+
+      That night, Noah and I went to dinner with Logan at Bearfoot Bistro. This was actually the
+      first time I ever met Logan, which is funny looking back on it now. Bearfoot Bistro is one of
+      the nicer restaurants in Whistler, so we went all out with a bunch of different dishes to
+      share and some really nice wine. It was definitely an expensive meal, but the food was great
+      and felt like an appropriate way to kick off Noah's birthday weekend.
+
+
+      We also got to go down into the wine cellar and see their massive wine collection. Someone
+      showed us around and explained that they even had an option where you could saber a bottle of
+      champagne. Definitely one of the more extravagant ways to start a ski trip.
+  - id: day-two
+    title: Day Two
+    photoIds:
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p020
+    prose: >-
+      Our first real ski day started with Sebastian, Donnie, Noah, and me heading up the mountain. I
+      had bought a two day pass and was expecting to get a ton of skiing in over the weekend. Turns
+      out I bit off a little more than I could chew almost immediately.
+
+
+      For basically my first real run of the season, I decided to follow the guys down one of the
+      steepest runs I had ever seen. I remember standing at the top, peering over the edge and
+      thinking that this looked less like a ski run and more like a cliff. Noah went first, made a
+      few turns, and successfully got himself down. Naturally, I decided I could do the same.
+
+
+      My first turn went well. I slid down quite a bit, made a second turn, and successfully got
+      myself past a grouping of rocks. Then I went for my third turn, turned way too hard, and my
+      skis went out from underneath me.
+
+
+      I started falling backwards down the mountain at an insane speed. I probably slid a couple
+      hundred feet in a giant plume of snow and genuinely had no idea where I was, how fast I was
+      going, or what was around me. I was doing everything I could to slow myself down until I
+      eventually came to a stop. Noah and Donnie thought I might have died.
+
+
+      It was probably one of the scariest moments I have ever had skiing and a very good reminder
+      that skiing is dangerous and you have to know your limits.
+
+
+      Once I collected myself, I realized I thankfully was not seriously injured. My left ankle was
+      throbbing, though, and skiing on it was noticeably harder. I carefully made my way down the
+      rest of the mountain, and we did a little more skiing before deciding it was probably time for
+      a break.
+
+
+      We met up with the rest of the crew for lunch at the Four Seasons. Apparently, lunch here has
+      become something of a tradition for this group. The restaurant is tucked inside the resort,
+      and everyone seems to love stopping here in the middle of a ski day. The food was good,
+      although nothing incredible, but it was nice to get the whole group together.
+
+
+      I kept telling Noah that I had paid for a ski pass and wanted to get my money's worth. My
+      ankle also was not feeling too terrible at that point, so I decided to head back out with the
+      guys.
+
+
+      We took the gondola all the way back up and ultimately only got one more run in. Given what
+      had happened earlier, I was not taking any chances. I stuck almost entirely to groomers and
+      carefully skied all the way back down to the bottom.
+  - id: day-two-evening
+    title: ''
+    photoIds:
+      - p021
+      - p022
+      - p023
+      - p024
+      - p025
+      - p026
+      - p027
+    prose: >-
+      After skiing, we went to Scandinave, and initially my ankle actually felt okay.
+
+
+      I think this is where I really messed up.
+
+
+      At Scandinave, I kept going from extreme heat to extreme cold, jumping from the sauna into the
+      ice bath and then doing it all over again. Whatever I had pulled or injured earlier clearly
+      did not appreciate that decision. Suddenly, I was in some of the worst pain I had felt in a
+      long time. I could barely put any weight on my foot, and even sitting still hurt.
+
+
+      I eventually took some painkillers, and the hotel was nice enough to give me crutches. Once
+      the painkillers kicked in, I was at least able to survive the rest of the night.
+
+
+      Thankfully, we had a pretty great dinner waiting for us.
+
+
+      That evening, Noah had signed us up for dinner at Wild Blue. It was more of a prix fixe
+      tasting experience, with shared appetizers, individual dishes, and plenty of wine. Even while
+      hobbling around on crutches, I thought it was fantastic.
+
+
+      As good as Bearfoot Bistro had been the night before, I actually liked Wild Blue even more.
+      The seafood, bread, wine, and dishes all felt a little more elegant and were incredibly tasty.
+      Both restaurants were excellent, but Wild Blue was probably my favorite meal of the two.
+
+
+      Not exactly how I expected my first full ski day in Whistler to end, but at least I injured
+      myself somewhere with very good food.
+  - id: more-photos
+    title: Day Three
+    photoIds:
+      - p028
+      - p029
+      - p030
+      - p031
+      - p032
+      - p033
+      - p034
+      - p035
+      - p036
+    prose: >-
+      Because of my ankle, I decided not to ski on our last full day. It was definitely a bummer
+      considering I had bought a two day pass, but that is what happens when you injure yourself on
+      basically your first run of the trip.
+
+
+      It actually ended up being a pretty good day to sit out. It was snowing lightly throughout
+      Whistler, which was beautiful from the perspective of hanging out and watching from the
+      village. Apparently, visibility up on the mountain was terrible, though, so I was secretly
+      pretty happy not to be skiing. Those are definitely not my favorite conditions.
+
+
+      My ankle was feeling better, although still nowhere near 100 percent, so I took it easy at the
+      hotel and got ready for the main event of the day: Longhorns.
+
+
+      I headed over around 2 or 3 p.m., and we had such a good time. In classic Noah fashion, he had
+      reserved a huge table right in front of the DJ booth. There was a pretty hefty minimum spend,
+      but boy was it worth it. Our table even had a little fireplace in the middle, which made the
+      whole setup even more vibey.
+  - id: day-three-longhorns
+    title: ''
+    photoIds:
+      - p037
+      - p038
+      - p039
+      - p040
+      - p041
+      - p042
+    prose: >-
+      Ty, Kells, and I were some of the first people there, so I got to spend some quality time with
+      them before everyone else finished skiing. We immediately got started on the food and drinks.
+      Wings, nachos, oysters, pitchers of beer, and pretty much anything else we could order.
+      Eventually, the rest of the group came down from the mountain and joined us, and that was when
+      the real partying started.
+
+
+      Before everyone drank a little too much, I decided we needed to order at least one bottle
+      service type item for Noah's birthday. We went with the cheapest bottle they had, which was a
+      bottle of Veuve champagne, mostly because I wanted Noah to get the full birthday treatment.
+      They came over with sparklers and a sign, and we took a ton of photos and videos celebrating
+      Noah in very Noah fashion.
+
+
+      As the sun started going down, Longhorns became more and more of a party. The umbrellas came
+      down, everyone started standing on chairs, the music got louder, and the entire place was going
+      off. People around us kept ordering champagne showers, which were hilarious to watch, and the
+      energy just kept building throughout the night.
+  - id: day-three-morning
+    title: ''
+    photoIds:
+      - p043
+      - p044
+      - p045
+      - p046
+      - p047
+      - p048
+      - p049
+      - p050
+      - p051
+      - p052
+      - p053
+      - p054
+      - p055
+      - p056
+      - p057
+      - p058
+    prose: >-
+      Longhorns definitely has a reputation, and it completely lived up to it. More importantly, I
+      got to spend some really good quality time with a lot of the people who had come out to
+      celebrate Noah.
+
+
+      The next morning was significantly less glamorous.
+
+
+      I somehow woke up at 4 a.m., completely delirious and more than a little hungover, and realized
+      I had no idea where my phone or wallet were. I also had not packed anything, my skis were still
+      downstairs, and I had a bus leaving for Vancouver at 7 a.m.
+
+
+      Thank goodness I randomly woke up when I did because, without my phone, I did not even have an
+      alarm to wake me up. Somehow, within about an hour, I packed all of my stuff, retrieved my
+      skis, found both my phone and wallet, gathered everything I needed, and got myself ready to
+      leave. I even managed to get another hour of sleep before heading out at 7 a.m.
+
+
+      If I had not randomly woken up at 4, I almost certainly would have missed the bus and probably
+      my flight home too. Boy was that a tough travel day, but completely worth it for such a fun
+      birthday trip with Noah and the gang.
 pages:
   - file: Jan-Whistler-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - day-one
+      - day-two
+      - day-two-evening
+      - more-photos
+      - day-three-longhorns
+      - day-three-morning
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:44.491Z'
   oversizedFiles: []
   needsPlacement:
-    - Jan-Whistler-2026-63.jpeg
+    - Jan-Whistler-2026-61.jpeg
   possibleDuplicates: []
 gallaryThumb: assets/images/gallary/20s/2026/Jan-Whistler-2026.jpeg
-cacheBust: '1789318645743'
+cacheBust: '1790439425092'

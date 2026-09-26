@@ -3,11 +3,16 @@ title: Knicks vs OKC
 slug: Mar-Knicks-OKC-2026
 section: 20s
 year: '2026'
-dateRange: March 2026
-startDate: '2026-03-15'
-location: ''
-people: ''
-introParagraph: ''
+dateRange: March 4th, 2026
+startDate: '2026-03-04'
+location: Madison Square Garden
+people: Quinn
+introParagraph: >-
+  Game three out of three for my 2026 Knicks season. I went with Quinn to Madison Square Garden to
+  watch the Knicks take on OKC, one of the best teams in the league. We spotted a ton of
+  celebrities, ate some good old Mike's Hot Honey chicken, and got to watch two great teams play at
+  the Garden. I am not the biggest basketball fan, but three Knicks games in one season might say
+  otherwise. What a great time.
 tripPrefix: Mar-Knicks-OKC-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Mar-Knicks-OKC-2026
 coverSource: _incoming/Cover.jpeg
@@ -65,5 +70,5 @@ processReport:
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789317301599'
+cacheBust: '1789441137461'
 gallaryThumb: assets/images/gallary/20s/2026/Mar-Knicks-OKC-2026.jpeg

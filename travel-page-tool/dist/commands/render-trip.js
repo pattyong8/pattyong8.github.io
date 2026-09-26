@@ -33,6 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.renderIntroHtml = renderIntroHtml;
 exports.renderSectionHtml = renderSectionHtml;
 exports.renderTripHtml = renderTripHtml;
 exports.upsertYearCard = upsertYearCard;
@@ -55,6 +56,18 @@ function proseToParagraphs(prose) {
         .map((p) => p.trim())
         .filter(Boolean);
 }
+function renderIntroHtml(introParagraph) {
+    if (!introParagraph.trim()) {
+        return `				<p class="lead drop-cap">\n					[INTRO_PARAGRAPH]\n				</p>\n`;
+    }
+    const paras = proseToParagraphs(introParagraph);
+    return paras
+        .map((para, i) => {
+        const cls = i === 0 ? 'lead drop-cap' : 'lead';
+        return `				<p class="${cls}">\n					${escapeHtml(para)}\n				</p>\n`;
+    })
+        .join('\n');
+}
 function photoById(manifest, id) {
     return manifest.photos.find((p) => p.id === id);
 }
@@ -74,7 +87,9 @@ function renderSectionHtml(section, manifest, imagePrefixUrl) {
     const fullRows = photos.slice(0, fullCount);
     const cacheBust = manifest.cacheBust || '';
     let html = `			<div class="entry__related">\n`;
-    html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
+    if (section.title) {
+        html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
+    }
     for (let i = 0; i < fullRows.length; i += 3) {
         const row = fullRows.slice(i, i + 3);
         html += `			<div class="travel-photo-row">\n`;
@@ -132,17 +147,17 @@ function renderTripHtml(manifest) {
     const imagePrefixUrl = `${depth}assets/images/Travel-Pages-Images/${manifest.section}/${manifest.year}/${encodedSlug}/${manifest.tripPrefix}-`;
     const sections = manifest.sections.length > 0
         ? manifest.sections
-        : [
-            {
-                id: 'photos',
-                title: 'Photos',
-                photoIds: manifest.photos.map((p) => p.id),
-                prose: '',
-            },
-        ];
-    const intro = manifest.introParagraph
-        ? `				<p class="lead drop-cap">\n					${escapeHtml(manifest.introParagraph)}\n				</p>\n`
-        : `				<p class="lead drop-cap">\n					[INTRO_PARAGRAPH]\n				</p>\n`;
+        : manifest.photos.length > 0
+            ? [
+                {
+                    id: 'photos',
+                    title: 'Photos',
+                    photoIds: manifest.photos.map((p) => p.id),
+                    prose: '',
+                },
+            ]
+            : [];
+    const intro = renderIntroHtml(manifest.introParagraph);
     let body = '';
     for (const sec of sections) {
         body += renderSectionHtml(sec, manifest, imagePrefixUrl);

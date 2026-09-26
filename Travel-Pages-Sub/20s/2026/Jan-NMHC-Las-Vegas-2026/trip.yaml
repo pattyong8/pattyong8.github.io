@@ -3,11 +3,13 @@ title: NMHC Las Vegas
 slug: Jan-NMHC-Las-Vegas-2026
 section: 20s
 year: '2026'
-dateRange: January 2026
-startDate: '2026-01-15'
+dateRange: January 24th-27th, 2026
+startDate: '2026-01-24'
 location: Las Vegas, Nevada
-people: ''
-introParagraph: ''
+people: Olive Tree Holdings Team
+introParagraph: >-
+  This was my first NMHC, and boy did it not disappoint. There was food, networking, vibes, and of
+  course, Vegas. Made a whole lot of good connections and great memories.
 tripPrefix: Jan-NMHC-Las-Vegas-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Jan-NMHC-Las-Vegas-2026
 coverSource: _incoming/Cover.jpeg
@@ -223,10 +225,89 @@ photos:
     exif: '2026-01-28T00:50:51.000Z'
     flags: []
     bytes: 645496
-sections: []
+sections:
+  - id: saturday-raku
+    title: ''
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+    prose: >-
+      I actually flew into Vegas on Saturday, a day earlier than originally planned, because there
+      was supposed to be some pretty bad weather on Sunday. Turns out that was absolutely the right
+      call. A lot of people ended up getting delayed, canceled, or grounded trying to fly in on
+      Sunday, while I was already comfortably in Vegas.
+
+
+      Getting there early also gave me the chance to try Raku, a restaurant off the Strip that my
+      mom and her friends had been telling me about. It was a Japanese yakitori style restaurant
+      with a bunch of different small dishes. Everything was very good. It did not necessarily blow
+      my mind, but I was glad I finally got to try it.
+  - id: hells-kitchen-absinthe
+    title: ''
+    photoIds:
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p020
+      - p021
+      - p022
+    prose: >-
+      The next day, I had some time to enjoy Vegas before NMHC really got going. I went to Hell's
+      Kitchen for dinner, which felt like a very appropriate Vegas experience, and then headed to
+      Caesars Palace to see Absinthe.
+
+
+      Absinthe was one of the hottest shows in Vegas at the time and was basically a more intimate
+      Cirque du Soleil type experience inside a tent. The performers were incredibly close to the
+      audience, and the entire show was funny, ridiculous, and impressive. Definitely one of the
+      more memorable Vegas shows I have seen.
+  - id: absinthe-more
+    title: ''
+    photoIds:
+      - p023
+      - p024
+      - p025
+    prose: ''
+  - id: nmhc-conference
+    title: ''
+    photoIds:
+      - p026
+      - p027
+      - p028
+      - p029
+      - p030
+    prose: >-
+      Once NMHC really got going, the networking and events kicked into full gear. One of the
+      coolest was CBRE's event at Allegiant Stadium, where they rented out the entire stadium and
+      let everyone go down onto the field. I did not attempt a field goal, but I did try one of the
+      football passing drills. Turns out I am still terrible at football, and basically nothing went
+      in, but at least I tried.
+
+
+      More importantly, the conference was a great opportunity to meet a ton of people and catch up
+      with friends like Liam, Morgan, and plenty of others in the industry. For my first NMHC, it
+      was a pretty great introduction to what the week is all about.
 pages:
   - file: Jan-NMHC-Las-Vegas-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - saturday-raku
+      - hells-kitchen-absinthe
+      - absinthe-more
+      - nmhc-conference
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:30.035Z'

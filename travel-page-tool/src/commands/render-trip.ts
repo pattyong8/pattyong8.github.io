@@ -30,6 +30,19 @@ function proseToParagraphs(prose: string): string[] {
     .filter(Boolean);
 }
 
+export function renderIntroHtml(introParagraph: string): string {
+  if (!introParagraph.trim()) {
+    return `				<p class="lead drop-cap">\n					[INTRO_PARAGRAPH]\n				</p>\n`;
+  }
+  const paras = proseToParagraphs(introParagraph);
+  return paras
+    .map((para, i) => {
+      const cls = i === 0 ? 'lead drop-cap' : 'lead';
+      return `				<p class="${cls}">\n					${escapeHtml(para)}\n				</p>\n`;
+    })
+    .join('\n');
+}
+
 function photoById(manifest: TripManifest, id: string): TripPhoto | undefined {
   return manifest.photos.find((p) => p.id === id);
 }
@@ -56,7 +69,9 @@ export function renderSectionHtml(
   const cacheBust = (manifest as TripManifest & { cacheBust?: string }).cacheBust || '';
 
   let html = `			<div class="entry__related">\n`;
-  html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
+  if (section.title) {
+    html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
+  }
 
   for (let i = 0; i < fullRows.length; i += 3) {
     const row = fullRows.slice(i, i + 3);
@@ -120,18 +135,18 @@ export function renderTripHtml(manifest: TripManifest): string {
   const sections =
     manifest.sections.length > 0
       ? manifest.sections
-      : [
-          {
-            id: 'photos',
-            title: 'Photos',
-            photoIds: manifest.photos.map((p) => p.id),
-            prose: '',
-          },
-        ];
+      : manifest.photos.length > 0
+        ? [
+            {
+              id: 'photos',
+              title: 'Photos',
+              photoIds: manifest.photos.map((p) => p.id),
+              prose: '',
+            },
+          ]
+        : [];
 
-  const intro = manifest.introParagraph
-    ? `				<p class="lead drop-cap">\n					${escapeHtml(manifest.introParagraph)}\n				</p>\n`
-    : `				<p class="lead drop-cap">\n					[INTRO_PARAGRAPH]\n				</p>\n`;
+  const intro = renderIntroHtml(manifest.introParagraph);
 
   let body = '';
   for (const sec of sections) {

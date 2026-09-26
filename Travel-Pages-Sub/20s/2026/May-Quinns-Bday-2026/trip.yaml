@@ -3,11 +3,16 @@ title: Quinn's Birthday
 slug: May-Quinns-Bday-2026
 section: 20s
 year: '2026'
-dateRange: May 2026
-startDate: '2026-05-15'
-location: ''
-people: ''
-introParagraph: ''
+dateRange: May 30th, 2026
+startDate: '2026-05-30'
+location: US Open Tennis Courts and Chinatown
+people: New York Friends
+introParagraph: >-
+  Quinn's birthday present may have been half a year late, but it was one of the coolest yet. We
+  rented three tennis courts at the US Open and brought together a ton of friends to celebrate
+  Quinn's birthday during some hopefully better weather. Turns out the day was incredibly windy, but
+  we still got everyone together, played a ton of tennis, and finished the day eating our way
+  through Chinatown. Happy birthday, Quinn!
 tripPrefix: May-Quinns-Bday-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/May-Quinns-Bday-2026
 coverSource: Cover.jpeg
@@ -139,10 +144,61 @@ photos:
     exif: '2026-05-30T20:36:01.000Z'
     flags: []
     bytes: 482784
-sections: []
+sections:
+  - id: tennis-at-the-us-open
+    title: Tennis at the US Open
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+    prose: >-
+      We had people from all different parts of Quinn's life come out for tennis. Gabby and her
+      friends joined, along with some of Quinn and Parth's tennis friends from college, Quinn's
+      sister, our other New York friends, and even Rishi's sister. We had five really good tennis
+      players and plenty of intermediate players and beginners, so it was really just about getting
+      everyone on the courts and having a good time.
+
+
+      I also came prepared in my full tracksuit. Parth had given me a Pomona Pitzer Nike top, and it
+      turned out I had matching bottoms from City on water polo, so naturally I had to wear the full
+      set.
+
+
+      We spent a lot of the day playing Around the World, while some of the better players got
+      together for Dingles. Mostly, though, everyone just hit around, rotated between the three
+      courts, and enjoyed getting to play tennis at the US Open with such a big group of friends.
+      Despite the wind, it ended up being a great way to celebrate Quinn.
+  - id: chinatown
+    title: Chinatown
+    photoIds:
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+    prose: >-
+      After tennis, we headed to Chinatown and basically turned the rest of the afternoon into a
+      food tour. We bounced around trying duck buns, spicy dumplings, sheng jian bao, steamed rice
+      rolls, and a ton of other great food.
+
+
+      It was a pretty perfect way to end the day. Lots of tennis, way too much food, and a big group
+      of people we care about all getting together to celebrate Quinn's birthday.
 pages:
   - file: May-Quinns-Bday-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - tennis-at-the-us-open
+      - chinatown
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:35:09.193Z'

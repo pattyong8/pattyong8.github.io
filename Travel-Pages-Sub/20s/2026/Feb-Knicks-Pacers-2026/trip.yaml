@@ -1,0 +1,30 @@
+schemaVersion: 1
+title: Knicks vs Pacers
+slug: Feb-Knicks-Pacers-2026
+section: 20s
+year: '2026'
+dateRange: Feb 2026
+startDate: '2026-02-01'
+location: Madison Square Garden
+people: Elijah
+introParagraph: >-
+  Game two out of three for my 2026 Knicks season. I randomly got a last second ticket after someone
+  couldn't make the Knicks versus Pacers game, so I brought Elijah, one of my good real estate
+  friends who I've gotten to know and hang out with a lot in New York.
+
+
+  This ended up being an incredible game to attend. It was extremely close and went all the way to
+  double overtime, with Elijah and me going off the entire time. Sadly, the Knicks didn't pull out
+  the win, but the energy at Madison Square Garden was electric. Certainly not game four of the NBA
+  Finals, but still one of the most exciting basketball games I've gotten to see in person.
+tripPrefix: Feb-Knicks-Pacers-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Feb-Knicks-Pacers-2026
+coverSource: Cover.jpeg
+heroFile: Feb-Knicks-Pacers-2026-HP.jpeg
+photos: []
+sections: []
+pages:
+  - file: Feb-Knicks-Pacers-2026-1.html
+    sectionIds: []
+skippedVideos: []
+gallaryThumb: assets/images/gallary/20s/2026/Feb-Knicks-Pacers-2026.jpeg

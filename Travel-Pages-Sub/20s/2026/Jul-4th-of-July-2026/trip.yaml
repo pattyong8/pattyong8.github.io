@@ -3,40 +3,40 @@ title: 4th of July in Hawley
 slug: Jul-4th-of-July-2026
 section: 20s
 year: '2026'
-dateRange: July 4th 2026
-startDate: '2026-07-04'
-location: Hawley
+dateRange: Fourth of July 2026
+startDate: '2026-07-03'
+location: Hawley, Pennsylvania
 coverSource: _incoming/Cover.JPG
 heroFile: Jul-4th-of-July-2026-HP.jpeg
 photos:
   - id: p001
     seq: 1
     file: Jul-4th-of-July-2026-1.jpeg
-    sourceFile: IMG_4551.jpeg
-    exif: '2026-07-03T17:09:48.000Z'
-    flags: []
-    bytes: 801946
-  - id: p002
-    seq: 2
-    file: Jul-4th-of-July-2026-2.jpeg
-    sourceFile: IMG_8131.jpeg
-    exif: '2026-07-03T17:50:28.000Z'
-    flags: []
-    bytes: 509462
-  - id: p003
-    seq: 3
-    file: Jul-4th-of-July-2026-3.jpeg
     sourceFile: IMG_0145.JPG
     exif: '2026-07-03T18:52:47.000Z'
     flags: []
     bytes: 329863
+  - id: p002
+    seq: 2
+    file: Jul-4th-of-July-2026-2.jpeg
+    sourceFile: IMG_4015.jpeg
+    exif: '2026-07-05T16:27:33.000Z'
+    flags: []
+    bytes: 411893
+  - id: p003
+    seq: 3
+    file: Jul-4th-of-July-2026-3.jpeg
+    sourceFile: IMG_4551.jpeg
+    exif: '2026-07-03T17:09:48.000Z'
+    flags: []
+    bytes: 801946
   - id: p004
     seq: 4
     file: Jul-4th-of-July-2026-4.jpeg
-    sourceFile: IMG_6039.JPG
-    exif: '2026-07-03T22:50:14.000Z'
+    sourceFile: IMG_8131.jpeg
+    exif: '2026-07-03T17:50:28.000Z'
     flags: []
-    bytes: 258167
+    bytes: 509462
   - id: p005
     seq: 5
     file: Jul-4th-of-July-2026-5.jpeg
@@ -47,136 +47,136 @@ photos:
   - id: p006
     seq: 6
     file: Jul-4th-of-July-2026-6.jpeg
-    sourceFile: IMG_6043.JPG
-    exif: '2026-07-04T15:55:10.000Z'
-    flags: []
-    bytes: 441773
-  - id: p007
-    seq: 7
-    file: Jul-4th-of-July-2026-7.jpeg
     sourceFile: IMG_3980.jpeg
     exif: '2026-07-04T15:56:09.000Z'
     flags: []
     bytes: 520070
-  - id: p008
-    seq: 8
-    file: Jul-4th-of-July-2026-8.jpeg
+  - id: p007
+    seq: 7
+    file: Jul-4th-of-July-2026-7.jpeg
     sourceFile: IMG_3981.jpeg
     exif: '2026-07-04T15:56:22.000Z'
     flags: []
     bytes: 415924
-  - id: p009
-    seq: 9
-    file: Jul-4th-of-July-2026-9.jpeg
+  - id: p008
+    seq: 8
+    file: Jul-4th-of-July-2026-8.jpeg
     sourceFile: IMG_3982.jpeg
     exif: '2026-07-04T15:56:58.000Z'
     flags: []
     bytes: 510199
-  - id: p010
-    seq: 10
-    file: Jul-4th-of-July-2026-10.jpeg
+  - id: p009
+    seq: 9
+    file: Jul-4th-of-July-2026-9.jpeg
     sourceFile: IMG_3987.jpeg
     exif: '2026-07-04T16:20:42.000Z'
     flags: []
     bytes: 904922
-  - id: p011
-    seq: 11
-    file: Jul-4th-of-July-2026-11.jpeg
+  - id: p010
+    seq: 10
+    file: Jul-4th-of-July-2026-10.jpeg
     sourceFile: IMG_3992.jpeg
     exif: '2026-07-04T16:21:06.000Z'
     flags: []
     bytes: 351203
-  - id: p012
-    seq: 12
-    file: Jul-4th-of-July-2026-12.jpeg
+  - id: p011
+    seq: 11
+    file: Jul-4th-of-July-2026-11.jpeg
     sourceFile: IMG_4673.jpeg
     exif: '2026-07-04T16:40:43.000Z'
     flags: []
     bytes: 784938
-  - id: p013
-    seq: 13
-    file: Jul-4th-of-July-2026-13.jpeg
+  - id: p012
+    seq: 12
+    file: Jul-4th-of-July-2026-12.jpeg
     sourceFile: IMG_3998.jpeg
     exif: '2026-07-04T16:41:07.000Z'
     flags: []
     bytes: 514005
-  - id: p014
-    seq: 14
-    file: Jul-4th-of-July-2026-14.jpeg
+  - id: p013
+    seq: 13
+    file: Jul-4th-of-July-2026-13.jpeg
     sourceFile: IMG_6056.JPG
     exif: '2026-07-04T16:41:08.000Z'
     flags: []
     bytes: 730141
-  - id: p015
-    seq: 15
-    file: Jul-4th-of-July-2026-15.jpeg
+  - id: p014
+    seq: 14
+    file: Jul-4th-of-July-2026-14.jpeg
     sourceFile: IMG_4003.jpeg
     exif: '2026-07-04T16:53:44.000Z'
     flags: []
     bytes: 742471
-  - id: p016
-    seq: 16
-    file: Jul-4th-of-July-2026-16.jpeg
+  - id: p015
+    seq: 15
+    file: Jul-4th-of-July-2026-15.jpeg
     sourceFile: IMG_4005.jpeg
     exif: '2026-07-04T17:09:49.000Z'
     flags: []
     bytes: 738920
-  - id: p017
-    seq: 17
-    file: Jul-4th-of-July-2026-17.jpeg
+  - id: p016
+    seq: 16
+    file: Jul-4th-of-July-2026-16.jpeg
     sourceFile: IMG_4676.jpeg
     exif: '2026-07-04T17:16:15.000Z'
     flags: []
     bytes: 947866
-  - id: p018
-    seq: 18
-    file: Jul-4th-of-July-2026-18.jpeg
+  - id: p017
+    seq: 17
+    file: Jul-4th-of-July-2026-17.jpeg
     sourceFile: IMG_4007.jpeg
     exif: '2026-07-04T20:21:00.000Z'
     flags: []
     bytes: 452528
-  - id: p019
-    seq: 19
-    file: Jul-4th-of-July-2026-19.jpeg
-    sourceFile: IMG_8148.jpeg
-    exif: '2026-07-04T20:26:27.000Z'
-    flags: []
-    bytes: 293390
-  - id: p020
-    seq: 20
-    file: Jul-4th-of-July-2026-20.jpeg
-    sourceFile: IMG_6063.JPG
-    exif: '2026-07-04T20:30:00.000Z'
-    flags: []
-    bytes: 310737
-  - id: p021
-    seq: 21
-    file: Jul-4th-of-July-2026-21.jpeg
+  - id: p018
+    seq: 18
+    file: Jul-4th-of-July-2026-18.jpeg
     sourceFile: IMG_4647.jpeg
     exif: '2026-07-04T20:37:47.000Z'
     flags: []
     bytes: 407566
-  - id: p022
-    seq: 22
-    file: Jul-4th-of-July-2026-22.jpeg
-    sourceFile: IMG_4008.jpeg
-    exif: '2026-07-04T20:38:09.000Z'
-    flags: []
-    bytes: 309315
-  - id: p023
-    seq: 23
-    file: Jul-4th-of-July-2026-23.jpeg
+  - id: p019
+    seq: 19
+    file: Jul-4th-of-July-2026-19.jpeg
     sourceFile: IMG_4681.jpeg
     exif: '2026-07-04T20:38:13.000Z'
     flags: []
     bytes: 403997
-  - id: p024
-    seq: 24
-    file: Jul-4th-of-July-2026-24.jpeg
+  - id: p020
+    seq: 20
+    file: Jul-4th-of-July-2026-20.jpeg
+    sourceFile: IMG_8148.jpeg
+    exif: '2026-07-04T20:26:27.000Z'
+    flags: []
+    bytes: 293390
+  - id: p021
+    seq: 21
+    file: Jul-4th-of-July-2026-21.jpeg
+    sourceFile: IMG_6039.JPG
+    exif: '2026-07-03T22:50:14.000Z'
+    flags: []
+    bytes: 258167
+  - id: p022
+    seq: 22
+    file: Jul-4th-of-July-2026-22.jpeg
+    sourceFile: IMG_6063.JPG
+    exif: '2026-07-04T20:30:00.000Z'
+    flags: []
+    bytes: 310737
+  - id: p023
+    seq: 23
+    file: Jul-4th-of-July-2026-23.jpeg
     sourceFile: IMG_4658.jpeg
     exif: '2026-07-04T20:57:39.000Z'
     flags: []
     bytes: 425241
+  - id: p024
+    seq: 24
+    file: Jul-4th-of-July-2026-24.jpeg
+    sourceFile: IMG_4008.jpeg
+    exif: '2026-07-04T20:38:09.000Z'
+    flags: []
+    bytes: 309315
   - id: p025
     seq: 25
     file: Jul-4th-of-July-2026-25.jpeg
@@ -184,24 +184,134 @@ photos:
     exif: '2026-07-05T13:46:30.000Z'
     flags: []
     bytes: 431320
-  - id: p026
-    seq: 26
-    file: Jul-4th-of-July-2026-26.jpeg
-    sourceFile: IMG_4015.jpeg
-    exif: '2026-07-05T16:27:33.000Z'
-    flags: []
-    bytes: 411893
-sections: []
+sections:
+  - id: arrival-and-activities
+    title: Arrival and Activities
+    photoIds:
+      - p001
+      - p002
+      - p003
+    prose: >-
+      We decided to head up Friday morning rather than Thursday night, which gave us the day to make
+      our way to Hawley and start exploring. The train ride up was surprisingly easy and almost
+      completely empty, so we basically had entire rows to ourselves. I figured out the perfect way
+      to position my phone so I could lean back and watch the My Hero Academia movie without even
+      having to hold it, which Parth found funny enough to document. Meanwhile, Parth took the
+      window seat facing the direction the train was moving so he could watch the scenery and nature
+      go by.
+
+
+      Once we arrived, we checked out the nearby lake and beach area. We didn't spend much time
+      there, but it was nice knowing there was an easy place nearby for a beach day.
+  - id: arrival-and-activities-cont
+    title: ''
+    photoIds:
+      - p004
+      - p005
+      - p006
+      - p007
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+    prose: >-
+      Our first real activity of the weekend was one of the more unique things I've ever done:
+      electric rail bikes. They were basically little cart like vehicles attached directly to
+      railroad tracks, with both electric assistance and manual pedaling. I was paired with Elliot,
+      Peter, and Parth, and we made our way along the tracks through Hawley. Parth's sister also
+      joined us for the trip, which was fantastic.
+
+
+      We loaded ourselves up with sunscreen and set off. The whole experience was really fun, but my
+      favorite part was riding through this narrow section surrounded by cliffs. It almost looked
+      like a Disneyland set because the surroundings felt too perfectly constructed to be real.
+
+
+      After the rail bikes, we stopped for sandwiches at an old cotton factory. The sandwiches were
+      a little small, but really good, and we got to sit outside and enjoy them together before
+      heading back.
+  - id: fourth-of-july
+    title: Fourth of July
+    photoIds:
+      - p017
+      - p018
+      - p019
+    prose: >-
+      The next day was the Fourth of July, and it was time to get out on the water. Leading up to
+      the trip, we had talked about renting a boat but realized that most of us didn't have the
+      boating license we needed.
+
+
+      Thankfully, Gaby came in incredibly clutch. She had a boating license and joked that she had
+      basically been waiting her entire life for this exact moment to finally be useful to the
+      group.
+
+
+      It made sense once we learned more about her boating background. Gaby grew up boating and had
+      even been a wakeboard instructor, so she immediately became the professional of the group. She
+      made sure everyone understood what we were doing and how to stay safe before we headed onto
+      the water.
+
+
+      Once we were out there, I became determined to learn how to front flip and backflip into the
+      lake. I spent a ridiculous amount of the afternoon repeatedly throwing myself off the boat,
+      and by the end I actually felt like I was starting to get both of them down.
+  - id: fourth-of-july-cont
+    title: ''
+    photoIds:
+      - p020
+      - p021
+      - p022
+      - p023
+      - p024
+      - p025
+    prose: >-
+      At some point, I also heard there was a cliff jumping spot around the corner and decided I
+      would just swim over to investigate. It turned out to be much farther away than expected, and
+      when I finally got close enough to see it, it didn't even look that cool. So I turned around
+      and made the long swim back.
+
+
+      We had originally rented the boat for three hours, but toward the end the clouds started
+      rolling in and it began to rain a little. We decided to cut the boat trip short and head back
+      to Elliot's to spend the rest of the Fourth together.
+
+
+      We weren't able to see any fireworks that night, but it really didn't matter. Elliot and Lucy
+      made everyone a wonderful dinner with burgers, pasta, salad, and plenty of food to share. We
+      spent the evening eating, drinking, hanging out, and enjoying each other's company at the
+      house. It was a pretty perfect way to spend the Fourth.
+
+
+      Before leaving, I also made a drawing to commemorate the weekend. I drew all of us together on
+      the boat, with Gaby navigating and Lucy's dog joining us for the ride. It felt like the
+      appropriate way to capture the trip: all of us together on the water, celebrating the Fourth
+      of July in Hawley.
 pages:
   - file: Jul-4th-of-July-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - arrival-and-activities
+      - arrival-and-activities-cont
+      - fourth-of-july
+      - fourth-of-july-cont
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:53.037Z'
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789319986367'
+cacheBust: '1789835649321'
 gallaryThumb: assets/images/gallary/20s/2026/Jul-4th-of-July-2026.jpeg
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Jul-4th-of-July-2026
 tripPrefix: Jul-4th-of-July-2026
+people: New York Friends
+introParagraph: >-
+  Elliot graciously hosted us at his house in Hawley, Pennsylvania, which he had bought about a year
+  earlier. It was a wonderful cabin tucked away in the woods deep in the Poconos and the perfect
+  place to spend the Fourth of July. We swam, we drank, we ate, and we rode electric rail bikes.
+  What a great weekend getaway with the New York crew.

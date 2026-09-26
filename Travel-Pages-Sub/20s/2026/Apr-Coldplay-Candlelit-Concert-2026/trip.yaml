@@ -1,0 +1,81 @@
+schemaVersion: 1
+title: Candlelight Concert
+slug: Apr-Coldplay-Candlelit-Concert-2026
+section: 20s
+year: '2026'
+dateRange: April 24th, 2026
+startDate: '2026-04-24'
+location: A Church in Brooklyn
+people: New York Friends
+introParagraph: >-
+  For my birthday, Parth planned a surprise candlelit concert in a church in Brooklyn featuring
+  mostly Coldplay with some Ed Sheeran mixed in. Coldplay is my favorite artist, so it was such a
+  thoughtful surprise and a really nice way to celebrate my birthday with some of my best friends in
+  New York. I had always wanted to go to one of these candlelit concerts, and it ended up being a
+  really special experience.
+tripPrefix: Apr-Coldplay-Candlelit-Concert-2026
+photosDir: assets/images/Travel-Pages-Images/20s/2026/Apr-Coldplay-Candlelit-Concert-2026
+coverSource: _incoming/Cover.jpeg
+heroFile: Apr-Coldplay-Candlelit-Concert-2026-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Apr-Coldplay-Candlelit-Concert-2026-1.jpeg
+    sourceFile: IMG_2711.jpeg
+    exif: '2026-04-24T22:14:57.000Z'
+    flags: []
+    bytes: 515541
+  - id: p002
+    seq: 2
+    file: Apr-Coldplay-Candlelit-Concert-2026-2.jpeg
+    sourceFile: IMG_2712.jpeg
+    exif: '2026-04-24T23:36:29.000Z'
+    flags: []
+    bytes: 565936
+  - id: p003
+    seq: 3
+    file: Apr-Coldplay-Candlelit-Concert-2026-3.jpeg
+    sourceFile: IMG_2714.jpeg
+    exif: '2026-04-24T23:52:05.000Z'
+    flags: []
+    bytes: 494520
+sections:
+  - id: the-concert
+    title: The Concert
+    photoIds:
+      - p001
+      - p002
+      - p003
+    prose: >-
+      I had absolutely no idea what the surprise was beforehand. Quinn and I biked over together,
+      and we had an incredibly difficult time finding bikes to get there in the first place. I was
+      also very confused about where we were going and what exactly Parth had planned.
+
+
+      Eventually, we made it to the church and everything started to make sense. The entire space
+      was filled with candles, and we got to sit together and listen to musicians play some of my
+      favorite Coldplay songs. Sadly, they did not play "Charlie Brown," but I will forgive them.
+
+
+      One of the funniest moments came toward the end when they asked the audience whether people
+      wanted to hear more Coldplay or Ed Sheeran. There was very clearly more cheering for Coldplay,
+      which was obviously the correct answer. For some reason, they proceeded to play Ed Sheeran
+      anyway, making the entire audience vote seem a little pointless.
+
+
+      All in all, it was such a good experience. I had never been to a candlelit concert before and
+      had always wanted to try one. Getting to experience it for the first time as a birthday
+      surprise, surrounded by my New York friends and listening to my favorite artist, made it even
+      better.
+pages:
+  - file: Apr-Coldplay-Candlelit-Concert-2026-1.html
+    sectionIds:
+      - the-concert
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-13T16:33:28.992Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+cacheBust: '1790364817639'
+gallaryThumb: assets/images/gallary/20s/2026/Apr-Coldplay-Candlelit-Concert-2026.jpeg

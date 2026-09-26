@@ -3,11 +3,16 @@ title: Knicks NBA Finals
 slug: June-Knick-NBA-Finals-2026
 section: 20s
 year: '2026'
-dateRange: June 2026
-startDate: '2026-06-10'
-location: ''
-people: ''
-introParagraph: ''
+dateRange: June 3rd-14th, 2026
+startDate: '2026-06-03'
+location: New York City
+people: New York Friends
+introParagraph: >-
+  I am definitely not the biggest sports fan, but when your local team makes a deep run in the
+  playoffs, it is hard not to get caught up in the excitement. Coincidentally, I had actually gone
+  to three Knicks games that season and had the chance to see them play against some of the best
+  teams in the league, including OKC. So this ended up being a particularly fun year to follow the
+  Knicks, and I was glad I got to be a part of the excitement in New York.
 tripPrefix: June-Knick-NBA-Finals-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/June-Knick-NBA-Finals-2026
 coverSource: _incoming/Cover.jpeg
@@ -111,15 +116,74 @@ photos:
     exif: '2026-06-14T04:00:27.000Z'
     flags: []
     bytes: 301537
-sections: []
+sections:
+  - id: watching-the-games
+    title: Watching the Games
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+    prose: >-
+      A lot of our New York friends got together throughout the playoffs to watch the games. There
+      were plenty of nights at outdoor bars, watching TVs from the street and gathering with
+      increasingly large groups of Knicks fans. Every restaurant and bar seemed to know how big of a
+      deal the games were becoming. TVs were moved around, outdoor setups were reconfigured, and
+      seemingly every available screen was positioned so people could watch from every possible
+      angle.
+
+
+      One of my favorite memories was a game that Parth and I had started watching with friends. The
+      Knicks were down by around 25 points at halftime, and our group was pretty demoralized. We
+      eventually decided to call it and head home early.
+
+
+      Of course, while we were heading home, the Knicks started making an incredible comeback. By
+      the time Parth and I realized what was happening, we had just gotten home and there were only
+      about five minutes left in the game. We immediately turned around and rushed back out of the
+      house to the nearest bar so we could watch the ending surrounded by other fans. Somehow, we
+      made it just in time to see the Knicks finish the comeback. The energy was incredible,
+      especially after we had basically given up on the game less than an hour earlier.
+  - id: a-good-spot
+    title: A Good Spot
+    photoIds:
+      - p007
+      - p008
+    prose: >-
+      As the run continued, the crowds around the city just kept getting bigger. For one of the
+      games, we went to an outdoor viewing area and arrived really early so we could stake out a
+      good spot. Eventually, so many people showed up that the streets became completely packed. The
+      crowd started spilling into traffic, and the viewing event ultimately had to be shut down. It
+      was hilarious, although also incredibly disappointing considering how early we had gotten
+      there specifically to make sure we had a spot.
+  - id: the-finals
+    title: The Finals
+    photoIds:
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+    prose: >-
+      For the final games, the streets were packed in a way I had rarely seen before. It reminded me
+      of being in San Francisco when the Warriors were making their championship runs. There is
+      something special about watching an entire city get behind its team, even if you are not
+      normally the biggest sports fan. It was an exciting moment to experience and a great way to
+      feel like a New Yorker.
 pages:
   - file: June-Knick-NBA-Finals-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - watching-the-games
+      - a-good-spot
+      - the-finals
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:57.928Z'
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789317297941'
+cacheBust: '1789441172201'
 gallaryThumb: assets/images/gallary/20s/2026/Jun-Knick-NBA-Finals-2026.jpeg

@@ -3,11 +3,14 @@ title: Lunar New Year
 slug: Feb-Lunar-NY-2026
 section: 20s
 year: '2026'
-dateRange: February 2026
-startDate: '2026-02-01'
-location: ''
-people: ''
-introParagraph: ''
+dateRange: February 17th, 2026
+startDate: '2026-02-17'
+location: Chinatown, Manhattan
+people: Parth, Quinn, Emily, Gabby, and Peter
+introParagraph: >-
+  I dragged my friends out to celebrate Lunar New Year with me this year, and we went to a
+  restaurant in Chinatown that I had been really looking forward to trying called Uncle Lou. The
+  food was really tasty, and I was glad we could all get together to celebrate Chinese New Year.
 tripPrefix: Feb-Lunar-NY-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Feb-Lunar-NY-2026
 coverSource: _incoming/Cover.jpeg
@@ -16,63 +19,87 @@ photos:
   - id: p001
     seq: 1
     file: Feb-Lunar-NY-2026-1.jpeg
-    sourceFile: IMG_1496.jpeg
-    exif: '2026-02-18T01:05:29.000Z'
-    flags: []
-    bytes: 440935
-  - id: p002
-    seq: 2
-    file: Feb-Lunar-NY-2026-2.jpeg
     sourceFile: IMG_1498.jpeg
     exif: '2026-02-18T01:06:14.000Z'
     flags: []
     bytes: 559366
-  - id: p003
-    seq: 3
-    file: Feb-Lunar-NY-2026-3.jpeg
+  - id: p002
+    seq: 2
+    file: Feb-Lunar-NY-2026-2.jpeg
     sourceFile: IMG_1499.jpeg
     exif: '2026-02-18T01:06:23.000Z'
     flags: []
     bytes: 484467
-  - id: p004
-    seq: 4
-    file: Feb-Lunar-NY-2026-4.jpeg
+  - id: p003
+    seq: 3
+    file: Feb-Lunar-NY-2026-3.jpeg
     sourceFile: IMG_1500.jpeg
     exif: '2026-02-18T01:06:25.000Z'
     flags: []
     bytes: 390950
-  - id: p005
-    seq: 5
-    file: Feb-Lunar-NY-2026-5.jpeg
+  - id: p004
+    seq: 4
+    file: Feb-Lunar-NY-2026-4.jpeg
     sourceFile: IMG_1501.jpeg
     exif: '2026-02-18T01:06:33.000Z'
     flags: []
     bytes: 359456
-  - id: p006
-    seq: 6
-    file: Feb-Lunar-NY-2026-6.jpeg
+  - id: p005
+    seq: 5
+    file: Feb-Lunar-NY-2026-5.jpeg
     sourceFile: IMG_1502.jpeg
     exif: '2026-02-18T01:06:42.000Z'
     flags: []
     bytes: 407658
-  - id: p007
-    seq: 7
-    file: Feb-Lunar-NY-2026-7.jpeg
+  - id: p006
+    seq: 6
+    file: Feb-Lunar-NY-2026-6.jpeg
     sourceFile: IMG_1503.jpeg
     exif: '2026-02-18T01:55:11.000Z'
     flags: []
     bytes: 558821
-  - id: p008
-    seq: 8
-    file: Feb-Lunar-NY-2026-8.jpeg
+  - id: p007
+    seq: 7
+    file: Feb-Lunar-NY-2026-7.jpeg
     sourceFile: IMG_1504.jpeg
     exif: '2026-02-18T01:57:21.000Z'
     flags: []
     bytes: 673229
-sections: []
+sections:
+  - id: uncle-lou
+    title: Uncle Lou
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+    prose: >-
+      We went to Chinatown pretty early, and the streets were already a mess. Manhattan Chinatown
+      does not mess around for Lunar New Year. There were fireworks, confetti, and people
+      everywhere. It was chaotic and messy, but all part of the festive spirit.
+
+
+      I went over early to put our name down at Uncle Lou because I really wanted to make sure we
+      got in, and it did not disappoint. The braised pork belly was incredible and definitely the
+      highlight of the meal. The rest of the dishes were pretty good, although nothing quite
+      compared to the pork belly.
+
+
+      Before everyone showed up, I decided to commit to a little bit. I bought red envelopes and
+      some fake cash and put the fake money inside to hand out to my friends. I later learned that
+      apparently putting fake money in red envelopes is bad luck, so maybe not my most culturally
+      accurate Lunar New Year contribution. Still, it made for a very funny moment with everyone.
+
+
+      Always nice to find another reason to get the group together, eat some good food, and
+      celebrate. Until next year!
 pages:
   - file: Feb-Lunar-NY-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - uncle-lou
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:06.083Z'
@@ -80,4 +107,4 @@ processReport:
   needsPlacement: []
   possibleDuplicates: []
 gallaryThumb: assets/images/gallary/20s/2026/Feb-Lunar-NY-2026.jpeg
-cacheBust: '1789317246412'
+cacheBust: '1790367776051'

@@ -1,4 +1,5 @@
 import { TripManifest, TripSection } from '../manifest';
+export declare function renderIntroHtml(introParagraph: string): string;
 /**
  * Chile reading flow for leftover 1–2 photos:
  * float photos left, put ALL section paragraphs inside the wrap before clear:both

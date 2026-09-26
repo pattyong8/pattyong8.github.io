@@ -52,7 +52,7 @@ Show chronology summary, `needs_placement`, capped `possible_duplicate`. Apply o
 - Outline sections + photo id/seq ranges
 - **Always** show cover thumb + hero crop previews
 - Ask: one page or split after which section?
-- Write full-section prose into yaml (user voice; preserve specific memories; tweak loops OK)
+- Write full-section prose into yaml (user voice; preserve specific memories; tweak loops OK). **No hyphens or dashes in prose** (no `music-heavy`, em dashes, etc.). Rephrase; keep hyphens only in proper names and file/slug paths.
 - Prefer section photo counts multiple of 3 when story allows; leftovers use Chile reading flow via generator (**all** paragraphs inside `.travel-leftover-wrap` before `clear:both` — never clear after only the first paragraph)
 
 ### Gate 3 — Page

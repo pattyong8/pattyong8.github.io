@@ -19,7 +19,7 @@ Full system doc: [docs/travel-page-system.md](../../../docs/travel-page-system.m
 - [ ] `process-photos` → yaml
 - [ ] Gate 1 order confirmed; numbers refreshed
 - [ ] `crop-cover` + `crop-hero`; previews shown
-- [ ] Gate 2 outline + prose in yaml; multipage decided
+- [ ] Gate 2 outline + prose in yaml; multipage decided; prose has no hyphens/dashes except proper names
 - [ ] `render-trip` + year card (render aborts if leftover blank-column bug)
 - [ ] `validate-trip` clean enough; must not report leftover blank-column error; local preview
 - [ ] User commits/pushes (not agent); avoid committing huge `_incoming`

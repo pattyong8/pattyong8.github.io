@@ -3,11 +3,16 @@ title: Catalina
 slug: Aug-Catalina-2026
 section: 20s
 year: '2026'
-dateRange: August 2026
-startDate: '2026-08-01'
+dateRange: August 28th-30th, 2026
+startDate: '2026-08-28'
 location: Catalina Island, California
-people: ''
-introParagraph: ''
+people: Cal-KA Buddies
+introParagraph: >-
+  Catalina has officially become one of our traditions. This was our third year doing the trip, and
+  Matt and his family were once again so kind to host us. Rishi joined us this year, bringing the
+  group to five, and the vibes, as always, were immaculate. There was lots of mini golf, plenty of
+  drinking, some new activities, and most importantly, a really good opportunity to catch up and
+  spend quality time together.
 tripPrefix: Aug-Catalina-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Aug-Catalina-2026
 coverSource: _incoming/Cover.jpeg
@@ -149,17 +154,17 @@ photos:
   - id: p020
     seq: 20
     file: Aug-Catalina-2026-20.jpeg
-    sourceFile: IMG_5085.jpeg
-    exif: '2026-08-28T23:53:01.000Z'
-    flags: []
-    bytes: 458445
-  - id: p021
-    seq: 21
-    file: Aug-Catalina-2026-21.jpeg
     sourceFile: IMG_5086.jpeg
     exif: '2026-08-29T00:38:09.000Z'
     flags: []
     bytes: 560752
+  - id: p021
+    seq: 21
+    file: Aug-Catalina-2026-21.jpeg
+    sourceFile: IMG_5085.jpeg
+    exif: '2026-08-28T23:53:01.000Z'
+    flags: []
+    bytes: 458445
   - id: p022
     seq: 22
     file: Aug-Catalina-2026-22.jpeg
@@ -335,15 +340,291 @@ photos:
     exif: '2026-08-30T03:25:58.000Z'
     flags: []
     bytes: 267121
-sections: []
+sections:
+  - id: arrival
+    title: Arrival
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+      - p007
+    prose: >-
+      We arrived in Catalina and, as always, one of our first stops was the grocery store to stock
+      up for the weekend. Connor had taken the lead on food this year, which I was more than happy
+      about since I normally end up cooking. That left the rest of us to focus on the important
+      stuff: alcohol.
+
+
+      This year, I was determined to bring Aperol Spritzes into the Catalina tradition. We grabbed a
+      bottle of Aperol and two bottles of Prosecco, along with everything else we needed for the
+      weekend. I also had to take a picture of the BuzzBalls because my New York friends had become
+      obsessed with them. We initially thought we were buying way too much alcohol, but somehow it
+      ended up being almost exactly the right amount.
+
+
+      When we got back to Matt's, we completely filled the fridge. We also discovered a coconut
+      LaCroix flavor that none of us had tried before, and somehow we all became obsessed with it.
+
+
+      It was the perfect temperature outside, and we were all excited to finally be back in Catalina
+      together, so naturally I immediately opened the Aperol and Prosecco. We sat on the second
+      floor deck drinking Aperol Spritzes, catching up, reminiscing, and talking about what we
+      wanted to do over the weekend. None of us had really eaten that day, so the drinks hit
+      surprisingly hard. It was a pretty great way to officially start the trip.
+
+
+      The guys eventually headed to the beach while I stayed behind to get some work done. By the
+      time I finished and walked down to meet them, they were already getting ready to leave, so I
+      jumped into the water for a little while anyway.
+
+
+      I also used the opportunity to call Riva. We had only recently started dating, and this was
+      actually the first time we had really FaceTimed or talked on the phone outside of seeing each
+      other in person and texting. He had asked before I left if we could call, and sitting by the
+      water in Catalina felt like a pretty perfect opportunity to show him what I was up to and
+      catch up for a bit. His parents were still staying with him, so we didn't talk for very long,
+      but it was a nice little memory from early on.
+  - id: mini-golf
+    title: Mini Golf
+    photoIds:
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+      - p019
+      - p020
+      - p021
+    prose: >-
+      Then it was time for one of the most important Catalina traditions: mini golf.
+
+
+      Rishi and I obviously had to wear our Hawaiian shirts, and Rishi even had a tiny comb for his
+      mustache, which was ridiculous. We also brought High Noon roadies with us to drink while we
+      played.
+
+
+      Mini golf has somehow become one of the most competitive parts of this trip. Jack, Matt, and I
+      are usually pretty evenly matched, and this first round was no different. I had a pretty bad
+      start, but slowly worked my way back into it. Jack and I went back and forth for most of the
+      course and eventually ended up tied.
+
+
+      There were plenty of great moments along the way. Connor played considerably better than in
+      previous years and was deeply focused on every shot. Rishi was also surprisingly competitive.
+      At one point, three of us managed to get hole in ones on the same hole. Everyone except me was
+      wearing white shoes, so apparently I had missed the group memo. Meanwhile, I was getting
+      destroyed by mosquitoes because I had decided flip flops were appropriate golf attire.
+
+
+      Then there was the long hole, where I once again successfully chipped the ball over the wall,
+      as I seem to do every year. That helped me claw my way back into the competition and
+      ultimately tie Jack. Jack also decided at one point to walk up part of the course to adjust
+      the turf and nearly slipped and ate it, so perhaps something we should avoid next year.
+
+
+      Afterward, we headed back to Matt's and sat around the fire pit with wine and chips. These
+      quieter parts of Catalina are always some of my favorite moments of the trip. We talked about
+      settling into our different cities, our friendships, relationships, the activities we've
+      gotten into, and generally where everyone was in life. We don't all live in the same place
+      anymore, so having a few hours where everyone can just sit around a fire and talk is something
+      I really appreciate.
+  - id: night-out
+    title: Margaritas and A Night Out
+    photoIds:
+      - p022
+      - p023
+      - p024
+      - p025
+      - p026
+      - p027
+      - p028
+    prose: >-
+      That night, we had originally hoped to eat at one of the nicer seaside restaurants, but the
+      wait was way too long. Matt and Connor decided to grab pizza, while Jack, Rishi, and I found a
+      surprisingly affordable Mexican spot nearby. I got fajitas with rice and beans, and naturally
+      we ordered a pitcher of margaritas for the table.
+
+
+      Afterward, we met back up with Matt and Connor and headed to a bar where there was a
+      bachelorette party they had started talking to. While we were there, we randomly spotted a
+      Sustainable Shane sticker. Shane is one of our friends with a YouTube channel, so seeing
+      evidence of him out in the wild in Catalina was hilarious.
+
+
+      At some point, I split off with Jack and Rishi, and we ended up sitting by the water and
+      having one of those unexpectedly deep late night conversations. We talked about Rishi's
+      breakup, how he was feeling about his life in San Diego, how Jack was feeling about his own
+      life, relationships, and where everyone was generally headed. It was a really nice moment and
+      one of those conversations that I probably wouldn't remember nearly as well if we weren't all
+      away together.
+  - id: beach-volleyball
+    title: Beach Volleyball
+    photoIds:
+      - p029
+      - p030
+      - p031
+      - p032
+      - p033
+      - p034
+    prose: >-
+      The next day brought a completely new Catalina activity for us: beach volleyball.
+
+
+      Connor, Jack, and Rishi had all been playing more volleyball in San Diego, and Connor in
+      particular was determined to get a game going. I don't really play volleyball, but it ended up
+      being a ton of fun. Connor taught me how to properly return the ball over the net, while Rishi
+      and Matt worked on timing their jumps for blocks.
+
+
+      We hit the ball over the fence far too many times and had to ask far too many tourists to
+      throw it back to us. But considering none of us were taking it too seriously, we actually had
+      some pretty decent rallies.
+
+
+      It was also a surprisingly meaningful activity for Rishi. He was still being cautious with his
+      knee after surgery and wasn't sure how much he would be able to move. Playing volleyball gave
+      him a chance to test it out, and by the end he seemed considerably more confident in his
+      mobility. Hopefully volleyball becomes another Catalina tradition going forward.
+  - id: descanso-beach
+    title: Descanso Beach
+    photoIds:
+      - p035
+      - p036
+      - p037
+      - p038
+    prose: >-
+      From there, we headed somewhere new for us: Descanso Beach. We traditionally hadn't spent much
+      time on this side of Catalina, which is much more about music, parties, and drinking. It ended
+      up being so much fun.
+
+
+      Matt deserves most of the credit because he had somehow gone over at 6 a.m. to put down towels
+      and claim our spot. We didn't actually arrive until almost 1 p.m., and miraculously no one had
+      touched anything. We ended up with prime beach real estate for the entire afternoon.
+
+
+      There was even an Aperol setup there, which felt exactly right for the weekend, although
+      somehow I didn't actually get an Aperol Spritz.
+
+
+      I brought snorkeling gear and fins and spent some time in the water practicing equalizing my
+      ears. I saw a few eels, plenty of Garibaldi, and a bunch of other fish. It wasn't the best
+      snorkeling spot on Catalina, but I didn't particularly want to go over to the casino
+      snorkeling area by myself, so Descanso did the job.
+
+
+      We also ran into some of Matt and Connor's friends from the night before, who happened to be
+      visiting Catalina the same weekend. While hanging out at the tables, we learned a new card
+      game called Flip 7. It's almost like blackjack, where you keep drawing cards and can
+      eventually bust. We became obsessed with it almost immediately and played it several more
+      times throughout the trip.
+  - id: mini-golf-round-two
+    title: Mini Golf, Round Two
+    photoIds:
+      - p039
+      - p040
+      - p041
+      - p042
+      - p043
+      - p044
+    prose: >-
+      After an afternoon at Descanso, everyone was at least a little drunk, which apparently meant
+      it was the perfect time for our second round of mini golf.
+
+
+      This time, there was absolutely no competition for first place. Jack put together one of the
+      best mini golf performances we've seen in all three years of Catalina. He was getting hole in
+      ones everywhere and basically pulled away from the group immediately. There was no catching
+      him.
+
+
+      Matt and I were much closer in the battle for second, although I honestly don't remember who
+      ultimately won that one. Either way, Jack's performance was the story of the round.
+
+
+      Back at the house, we returned to the fire pit for another night of food, drinks, and
+      conversation. This time, Connor and Jack cooked dinner: chicken, broccoli, and Rice-A-Roni. It
+      was simple and so good.
+
+
+      Not having to cook this year was honestly kind of amazing. I could just sit back, relax, eat
+      whatever everyone else made, and focus on being present with the guys.
+
+
+      After dinner, we headed to watch the Abba cover band play near the water. This was our second
+      year in a row getting to see this performance. We somehow timed this perfectly!
+  - id: the-club
+    title: The Club and Heading Home
+    photoIds:
+      - p045
+      - p046
+    prose: >-
+      Matt and Connor's friends eventually convinced us to go out to Catalina's one real club. After
+      dinner, we figured we might as well humor them and see what Catalina nightlife had to offer.
+
+
+      The club itself was pretty average, but there was a decent dance floor and good enough music.
+      We didn't stay particularly long, but it was fun simply because it was something we had never
+      done on any of our previous Catalina trips. At one point, Jack and Matt ended up dancing
+      behind this little cage area, which produced some pretty hilarious photos of the two of them
+      looking like they were partying behind bars.
+
+
+      The next morning, we cleaned up the house and said goodbye to Matt, who wasn't taking the
+      ferry back with us.
+
+
+      The ferry ride home ended up being one of my favorite parts of the weekend. Connor and I sat
+      outside and talked basically the entire hour and a half. We talked about what we were working
+      on, what we were excited about, the guy I was dating, and what actually matters in a
+      relationship. It was just really nice to have that uninterrupted time together.
+
+
+      While talking with Connor, we noticed the lead singers of the Abba cover band were sitting
+      right next to us. We said hi for a bit. So cool!
+
+
+      Unfortunately, sitting outside for an hour and a half also meant I got completely sunburnt. My
+      mom was not particularly happy when she saw me afterward, but it was worth it for the
+      conversation.
+
+
+      Three years into this tradition, Catalina continues to be one of those trips I look forward to
+      every year. There are the recurring traditions like mini golf, drinks on the deck, and nights
+      around the fire pit, but each year we also seem to add something new. This time it was Rishi
+      joining, Aperol Spritzes, beach volleyball, Descanso Beach, Flip 7, and even a night at
+      Catalina's one club.
+
+
+      More than anything, though, it's a chance for all of us to slow down and actually catch up. We
+      live in different places and our lives continue to change, but for a few days every year, we
+      get to come back to Catalina, hang out like we always have, and pick up where we left off. The
+      vibes remain immaculate.
 pages:
   - file: Aug-Catalina-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - arrival
+      - mini-golf
+      - night-out
+      - beach-volleyball
+      - descanso-beach
+      - mini-golf-round-two
+      - the-club
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:33:51.037Z'
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789317231053'
+cacheBust: '1789772003794'
 gallaryThumb: assets/images/gallary/20s/2026/Aug-Catalina-2026.jpeg

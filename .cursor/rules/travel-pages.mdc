@@ -20,3 +20,4 @@ Canonical workflow: [docs/travel-page-system.md](../../docs/travel-page-system.m
 - Never auto-commit or push. Warn before staging huge `_incoming/` dumps (~prefer gitignore).
 - Three gates: (1) photo order (2) story outline + crop previews + multipage ask (3) finished page QA.
 - Do not mass-edit old trips. New trips use the generator.
+- **No hyphens or dashes in trip prose** (no compound adjectives, em dashes, or en dashes). Rephrase in words. Keep hyphens only in proper names the user wrote and in file/slug paths.

@@ -4,7 +4,7 @@
  */
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { renderSectionHtml } from '../dist/commands/render-trip.js';
+import { renderSectionHtml, renderTripHtml, renderIntroHtml } from '../dist/commands/render-trip.js';
 import {
   assertNoLeftoverBlankColumn,
   hasLeftoverBlankColumn,
@@ -64,4 +64,27 @@ test('guard detects the old blank-column bug pattern', () => {
 `;
   assert.equal(hasLeftoverBlankColumn(buggy), true);
   assert.throws(() => assertNoLeftoverBlankColumn(buggy));
+});
+
+test('hero-only trip skips the default Photos heading', () => {
+  const html = renderTripHtml({
+    ...baseManifest,
+    photos: [],
+    introParagraph: 'Just the intro.',
+    people: 'Elijah',
+    location: 'Madison Square Garden',
+    dateRange: 'Feb 2026',
+    startDate: '2026-02-01',
+  });
+  assert.equal(html.includes('<h2>Photos</h2>'), false);
+  assert.equal(html.includes('travel-photo-row'), false);
+  assert.match(html, /Just the intro/);
+});
+
+test('intro splits blank lines into drop-cap then follow-up leads', () => {
+  const html = renderIntroHtml('First intro paragraph.\n\nSecond intro paragraph.');
+  assert.match(html, /class="lead drop-cap"/);
+  assert.match(html, /class="lead"/);
+  assert.ok(html.indexOf('First intro') < html.indexOf('Second intro'));
+  assert.equal((html.match(/<p class="lead/g) || []).length, 2);
 });

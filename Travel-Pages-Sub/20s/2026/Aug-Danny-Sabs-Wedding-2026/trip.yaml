@@ -3,11 +3,16 @@ title: Danny & Sab's Wedding
 slug: Aug-Danny-Sabs-Wedding-2026
 section: 20s
 year: '2026'
-dateRange: August 2026
-startDate: '2026-08-15'
-location: ''
-people: ''
-introParagraph: ''
+dateRange: July 31st to August 2nd, 2026
+startDate: '2026-07-31'
+location: Seattle, Washington
+people: Seattle Crew
+introParagraph: >-
+  Danny and Sabrina's wedding was one of the highlights of 2026. I've known Danny since college, and
+  I've known many of the people at the wedding since we all started interning at Amazon in the
+  summer of 2018. Along the way, that group has only grown as we've met more friends and brought
+  more people into the crew. What a great way to bring everyone back together and celebrate the
+  marriage of two lovely people.
 tripPrefix: Aug-Danny-Sabs-Wedding-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Aug-Danny-Sabs-Wedding-2026
 coverSource: _incoming/Cover.jpeg
@@ -16,185 +21,185 @@ photos:
   - id: p001
     seq: 1
     file: Aug-Danny-Sabs-Wedding-2026-1.jpeg
-    sourceFile: IMG00173.jpg
-    exif: '2025-02-27T03:58:48.000Z'
-    flags: []
-    bytes: 220564
-  - id: p002
-    seq: 2
-    file: Aug-Danny-Sabs-Wedding-2026-2.jpeg
-    sourceFile: IMG00216.jpg
-    exif: '2025-02-27T06:14:51.000Z'
-    flags: []
-    bytes: 320950
-  - id: p003
-    seq: 3
-    file: Aug-Danny-Sabs-Wedding-2026-3.jpeg
-    sourceFile: IMG00221.jpg
-    exif: '2025-02-27T06:15:02.000Z'
-    flags: []
-    bytes: 278427
-  - id: p004
-    seq: 4
-    file: Aug-Danny-Sabs-Wedding-2026-4.jpeg
-    sourceFile: IMG00235.jpg
-    exif: '2025-02-27T06:42:50.000Z'
-    flags: []
-    bytes: 327612
-  - id: p005
-    seq: 5
-    file: Aug-Danny-Sabs-Wedding-2026-5.jpeg
     sourceFile: IMG_4233.jpeg
     exif: '2026-07-31T23:36:59.000Z'
     flags: []
     bytes: 590240
-  - id: p006
-    seq: 6
-    file: Aug-Danny-Sabs-Wedding-2026-6.jpeg
+  - id: p002
+    seq: 2
+    file: Aug-Danny-Sabs-Wedding-2026-2.jpeg
     sourceFile: IMG_4234.jpeg
     exif: '2026-07-31T23:37:30.000Z'
     flags: []
     bytes: 544877
-  - id: p007
-    seq: 7
-    file: Aug-Danny-Sabs-Wedding-2026-7.jpeg
+  - id: p003
+    seq: 3
+    file: Aug-Danny-Sabs-Wedding-2026-3.jpeg
     sourceFile: IMG_4236.jpeg
     exif: '2026-08-01T00:01:18.000Z'
     flags: []
     bytes: 465085
-  - id: p008
-    seq: 8
-    file: Aug-Danny-Sabs-Wedding-2026-8.jpeg
+  - id: p004
+    seq: 4
+    file: Aug-Danny-Sabs-Wedding-2026-4.jpeg
     sourceFile: 80725662491__65366CF8-66E5-4E00-85D1-03A41D92FC04.jpeg
     exif: '2026-08-01T02:57:04.000Z'
     flags: []
     bytes: 248273
-  - id: p009
-    seq: 9
-    file: Aug-Danny-Sabs-Wedding-2026-9.jpeg
+  - id: p005
+    seq: 5
+    file: Aug-Danny-Sabs-Wedding-2026-5.jpeg
     sourceFile: IMG_4243.jpeg
     exif: '2026-08-01T16:01:22.000Z'
     flags: []
     bytes: 458191
-  - id: p010
-    seq: 10
-    file: Aug-Danny-Sabs-Wedding-2026-10.jpeg
+  - id: p006
+    seq: 6
+    file: Aug-Danny-Sabs-Wedding-2026-6.jpeg
     sourceFile: IMG_4244.jpeg
     exif: '2026-08-01T16:31:03.000Z'
     flags: []
     bytes: 264337
-  - id: p011
-    seq: 11
-    file: Aug-Danny-Sabs-Wedding-2026-11.jpeg
+  - id: p007
+    seq: 7
+    file: Aug-Danny-Sabs-Wedding-2026-7.jpeg
     sourceFile: IMG_4262.jpeg
     exif: '2026-08-01T19:24:46.000Z'
     flags: []
     bytes: 797142
-  - id: p012
-    seq: 12
-    file: Aug-Danny-Sabs-Wedding-2026-12.jpeg
+  - id: p008
+    seq: 8
+    file: Aug-Danny-Sabs-Wedding-2026-8.jpeg
     sourceFile: IMG_4264.jpeg
     exif: '2026-08-01T19:46:49.000Z'
     flags: []
     bytes: 1021354
-  - id: p013
-    seq: 13
-    file: Aug-Danny-Sabs-Wedding-2026-13.jpeg
+  - id: p009
+    seq: 9
+    file: Aug-Danny-Sabs-Wedding-2026-9.jpeg
     sourceFile: IMG_4266.jpeg
     exif: '2026-08-01T19:47:03.000Z'
     flags: []
     bytes: 700734
-  - id: p014
-    seq: 14
-    file: Aug-Danny-Sabs-Wedding-2026-14.jpeg
+  - id: p010
+    seq: 10
+    file: Aug-Danny-Sabs-Wedding-2026-10.jpeg
     sourceFile: IMG_4267.jpeg
     exif: '2026-08-01T19:47:22.000Z'
     flags: []
     bytes: 467493
-  - id: p015
-    seq: 15
-    file: Aug-Danny-Sabs-Wedding-2026-15.jpeg
+  - id: p011
+    seq: 11
+    file: Aug-Danny-Sabs-Wedding-2026-11.jpeg
     sourceFile: IMG_4270.jpeg
     exif: '2026-08-01T19:47:52.000Z'
     flags: []
     bytes: 711159
-  - id: p016
-    seq: 16
-    file: Aug-Danny-Sabs-Wedding-2026-16.jpeg
-    sourceFile: IMG_5670.jpeg
-    exif: '2026-08-01T19:54:14.000Z'
-    flags: []
-    bytes: 391251
-  - id: p017
-    seq: 17
-    file: Aug-Danny-Sabs-Wedding-2026-17.jpeg
+  - id: p012
+    seq: 12
+    file: Aug-Danny-Sabs-Wedding-2026-12.jpeg
     sourceFile: IMG_4277.jpeg
     exif: '2026-08-01T21:15:55.000Z'
     flags: []
     bytes: 741200
-  - id: p018
-    seq: 18
-    file: Aug-Danny-Sabs-Wedding-2026-18.jpeg
+  - id: p013
+    seq: 13
+    file: Aug-Danny-Sabs-Wedding-2026-13.jpeg
     sourceFile: IMG_4287.jpeg
     exif: '2026-08-01T21:24:45.000Z'
     flags: []
     bytes: 757751
-  - id: p019
-    seq: 19
-    file: Aug-Danny-Sabs-Wedding-2026-19.jpeg
-    sourceFile: IMG_0132.JPG
-    exif: '2026-08-01T21:40:58.000Z'
-    flags: []
-    bytes: 464602
-  - id: p020
-    seq: 20
-    file: Aug-Danny-Sabs-Wedding-2026-20.jpeg
-    sourceFile: IMG_5727.jpeg
-    exif: '2026-08-01T21:41:17.000Z'
-    flags: []
-    bytes: 472357
-  - id: p021
-    seq: 21
-    file: Aug-Danny-Sabs-Wedding-2026-21.jpeg
-    sourceFile: IMG_5745.jpeg
-    exif: '2026-08-01T21:42:02.000Z'
-    flags: []
-    bytes: 475567
-  - id: p022
-    seq: 22
-    file: Aug-Danny-Sabs-Wedding-2026-22.jpeg
-    sourceFile: IMG_4293.jpeg
-    exif: '2026-08-01T23:12:33.000Z'
-    flags: []
-    bytes: 380060
-  - id: p023
-    seq: 23
-    file: Aug-Danny-Sabs-Wedding-2026-23.jpeg
+  - id: p014
+    seq: 14
+    file: Aug-Danny-Sabs-Wedding-2026-14.jpeg
     sourceFile: IMG_4294.jpeg
     exif: '2026-08-01T23:20:09.000Z'
     flags: []
     bytes: 377690
-  - id: p024
-    seq: 24
-    file: Aug-Danny-Sabs-Wedding-2026-24.jpeg
-    sourceFile: IMG_4298.jpeg
-    exif: '2026-08-02T00:20:37.000Z'
+  - id: p015
+    seq: 15
+    file: Aug-Danny-Sabs-Wedding-2026-15.jpeg
+    sourceFile: IMG_5670.jpeg
+    exif: '2026-08-01T19:54:14.000Z'
     flags: []
-    bytes: 361846
-  - id: p025
-    seq: 25
-    file: Aug-Danny-Sabs-Wedding-2026-25.jpeg
+    bytes: 391251
+  - id: p016
+    seq: 16
+    file: Aug-Danny-Sabs-Wedding-2026-16.jpeg
+    sourceFile: IMG_0132.JPG
+    exif: '2026-08-01T21:40:58.000Z'
+    flags: []
+    bytes: 464602
+  - id: p017
+    seq: 17
+    file: Aug-Danny-Sabs-Wedding-2026-17.jpeg
+    sourceFile: IMG_5727.jpeg
+    exif: '2026-08-01T21:41:17.000Z'
+    flags: []
+    bytes: 472357
+  - id: p018
+    seq: 18
+    file: Aug-Danny-Sabs-Wedding-2026-18.jpeg
+    sourceFile: IMG_5745.jpeg
+    exif: '2026-08-01T21:42:02.000Z'
+    flags: []
+    bytes: 475567
+  - id: p019
+    seq: 19
+    file: Aug-Danny-Sabs-Wedding-2026-19.jpeg
     sourceFile: IMG_4311.JPG
     exif: '2026-08-02T00:56:00.000Z'
     flags: []
     bytes: 253867
-  - id: p026
-    seq: 26
-    file: Aug-Danny-Sabs-Wedding-2026-26.jpeg
+  - id: p020
+    seq: 20
+    file: Aug-Danny-Sabs-Wedding-2026-20.jpeg
     sourceFile: IMG_4312.JPG
     exif: '2026-08-02T02:00:00.000Z'
     flags: []
     bytes: 314557
+  - id: p021
+    seq: 21
+    file: Aug-Danny-Sabs-Wedding-2026-21.jpeg
+    sourceFile: IMG00173.jpg
+    exif: '2025-02-27T03:58:48.000Z'
+    flags: []
+    bytes: 220564
+  - id: p022
+    seq: 22
+    file: Aug-Danny-Sabs-Wedding-2026-22.jpeg
+    sourceFile: IMG00216.jpg
+    exif: '2025-02-27T06:14:51.000Z'
+    flags: []
+    bytes: 320950
+  - id: p023
+    seq: 23
+    file: Aug-Danny-Sabs-Wedding-2026-23.jpeg
+    sourceFile: IMG00221.jpg
+    exif: '2025-02-27T06:15:02.000Z'
+    flags: []
+    bytes: 278427
+  - id: p024
+    seq: 24
+    file: Aug-Danny-Sabs-Wedding-2026-24.jpeg
+    sourceFile: IMG00235.jpg
+    exif: '2025-02-27T06:42:50.000Z'
+    flags: []
+    bytes: 327612
+  - id: p025
+    seq: 25
+    file: Aug-Danny-Sabs-Wedding-2026-25.jpeg
+    sourceFile: IMG_4293.jpeg
+    exif: '2026-08-01T23:12:33.000Z'
+    flags: []
+    bytes: 380060
+  - id: p026
+    seq: 26
+    file: Aug-Danny-Sabs-Wedding-2026-26.jpeg
+    sourceFile: IMG_4298.jpeg
+    exif: '2026-08-02T00:20:37.000Z'
+    flags: []
+    bytes: 361846
   - id: p027
     seq: 27
     file: Aug-Danny-Sabs-Wedding-2026-27.jpeg
@@ -260,10 +265,168 @@ photos:
       - missing_exif
       - needs_placement
     bytes: 607480
-sections: []
+sections:
+  - id: sf-layover
+    title: San Francisco Layover
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+    prose: >-
+      My trip actually started with a layover in San Francisco before heading to Seattle. I spent
+      some time with Ian and Nick talking about the future of Scott Street Capital, and after our
+      first in person meeting together, we decided to grab dinner. Somehow, we were able to walk
+      into Nari, a one Michelin star restaurant and one of my favorite Thai restaurants in the
+      country. I really did not expect us to get in, which made it even more special. Nari always
+      does such a fantastic job. The flavors are incredibly bold, everything is perfectly cooked,
+      and it was a great meal to cap off our time together.
+
+
+      I also unexpectedly got to see Stephanie while I was in town. She saw me on Find My Friends
+      and insisted that we hang out. I really wasn't planning to see anyone outside of Ian and Nick
+      during such a quick stop, but I was so glad she reached out. It ended up being really nice to
+      catch up and spend some time together before I continued on to Seattle.
+  - id: getting-to-seattle
+    title: Getting to Seattle
+    photoIds:
+      - p005
+      - p006
+    prose: >-
+      Getting to Seattle ended up being a little more complicated than expected. I was supposed to
+      take an early flight from San Francisco the morning of the wedding, but my flight was
+      canceled. Thankfully, I was able to talk to a representative who moved me onto another airline
+      that morning and somehow still got me into Seattle around my original 8 or 9 a.m. arrival
+      time. That meant I could get to Noah's, sleep for a little bit, and not have to rush straight
+      to the wedding.
+
+
+      Once I woke up, Noah and I went over to Alex's house to grab his overalls, where I got to see
+      Alex, Danny, and Logan. It was so nice to see everyone again and start the weekend surrounded
+      by people who have become such a big part of my Seattle crew.
+
+
+      Before getting ready, Noah and I picked up sandwiches for Noah, Stephanie, and me from a great
+      Italian sandwich shop that reminded me a lot of All'Antico Vinaio in Italy. After eating, we
+      got dressed and headed to a nearby hotel where the wedding shuttle was picking everyone up.
+      That was really when the reunion started. I began running into friends I hadn't seen in a very
+      long time, and it felt so good reconnecting with people who had been a big part of earlier
+      chapters of my life. I even ran into an old friend from Berkeley who didn't recognize me at
+      first on the bus, but after the ceremony we reconnected and he finally remembered me.
+  - id: ceremony
+    title: The Ceremony
+    photoIds:
+      - p007
+      - p008
+      - p009
+      - p010
+      - p011
+      - p012
+      - p013
+      - p014
+      - p015
+      - p016
+      - p017
+      - p018
+    prose: >-
+      The wedding venue itself was absolutely beautiful. It was about 45 minutes outside Seattle in
+      the mountains, centered around this beautiful home with an incredible entrance and backyard.
+      The ceremony was set right alongside a creek, with natural running water directly behind the
+      altar. It was honestly one of the most beautiful wedding venues I had ever been to.
+
+
+      Seattle also gave Danny and Sabrina the perfect day. The sky was completely blue, the weather
+      was fantastic, and the entire setting felt idyllic. Between the mountains, trees, creek, and
+      beautiful weather, it was hard to imagine a better backdrop for their wedding.
+
+
+      The ceremony and cocktail hour were also just an opportunity to spend quality time with so
+      many people I hadn't seen in a while. There were old friends, newer Seattle friends, and
+      people from different parts of my life all in one place. We got some great group photos,
+      including photo 13 with Danny and Sabrina and the crew, and of course the boys had to get some
+      photos of our own in pictures 16 through 18.
+  - id: reception
+    title: Dinner & Reception
+    photoIds:
+      - p019
+      - p020
+      - p021
+      - p022
+      - p023
+      - p024
+      - p025
+      - p026
+    prose: >-
+      Dinner and the reception were an absolute blast. The food was genuinely fantastic, and photo
+      19 captures the group I spent much of dinner with. I sat across from Logan, got to spend more
+      time with Tim and others, and we all got to celebrate Danny and Sabrina together.
+
+
+      Once the music started, everyone really got into it. There were so many great sing along
+      songs, and before long the entire group was dancing. They also had these light up foam sticks
+      that everyone became completely obsessed with, which somehow made the dance floor even more
+      fun. Even the cake was incredible. Between the food, music, dancing, and all the people there,
+      it was just a really, really good time.
+  - id: after-party
+    title: The Ride Home & After Party
+    photoIds:
+      - p027
+      - p028
+      - p029
+      - p030
+    prose: >-
+      Somehow, the ride home was almost as fun as the wedding itself. Noah basically took over the
+      bus and became our DJ, jumping between house music, techno, and ridiculous sing along songs.
+      Everyone was completely bought in, and the energy on that bus ride back was electric.
+
+
+      The night still wasn't over. We ended up at a bar near Noah and Stephanie's house for the
+      after party, which was especially convenient because we could eventually just walk home. We
+      grabbed a few more drinks, spent more time with friends and family, and got to have some of
+      the deeper conversations that tend to happen toward the end of a long night. Photo 30 was
+      basically the finale: we closed down the bar with the family. An incredible way to end the
+      wedding night.
+  - id: next-day
+    title: The Next Day
+    photoIds:
+      - p031
+      - p032
+      - p033
+      - p034
+      - p035
+    prose: >-
+      The next morning, Tim and Sam hosted a post wedding breakfast with an amazing spread of
+      quiches, cupcakes, and a make your own lox bagel setup. Somehow, none of us were really that
+      hungover, so it ended up being a genuinely enjoyable morning rather than just everyone
+      recovering from the night before. It was a great, relaxed way to get everyone back together
+      one more time after the wedding.
+
+
+      The rest of the day turned into a full Seattle activity day, even though I barely took any
+      photos. Noah and I went climbing with Alex and AJ at Seattle Bouldering Project, which has a
+      special place in my heart because it is really where my climbing journey started. In between
+      activities, we stopped at this great little taco spot with incredibly cheap tacos and
+      wonderful food.
+
+
+      Later, we went golfing with Logan and Danny at a short par three course. I definitely did not
+      play particularly well, while it turned out Logan was incredible. More importantly, this was
+      one of the first trips I remember where Noah was really starting to get into golf. It became
+      the beginning of another activity that we could do together and something we would continue to
+      share after the trip.
+
+
+      I flew home the next morning, but the entire weekend was such a great reminder of the friends
+      I have in Seattle and around the country.
 pages:
   - file: Aug-Danny-Sabs-Wedding-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - sf-layover
+      - getting-to-seattle
+      - ceremony
+      - reception
+      - after-party
+      - next-day
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:34:02.429Z'
@@ -271,5 +434,5 @@ processReport:
   needsPlacement:
     - Aug-Danny-Sabs-Wedding-2026-35.jpeg
   possibleDuplicates: []
-cacheBust: '1789317242442'
+cacheBust: '1789765637130'
 gallaryThumb: assets/images/gallary/20s/2026/Aug-Danny-Sabs-Wedding-2026.jpeg

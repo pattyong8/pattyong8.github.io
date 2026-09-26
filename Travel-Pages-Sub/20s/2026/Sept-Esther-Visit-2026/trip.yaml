@@ -3,11 +3,14 @@ title: Esther Visit NYC
 slug: Sept-Esther-Visit-2026
 section: 20s
 year: '2026'
-dateRange: September 2026
-startDate: '2026-09-01'
-location: NYC
-people: ''
-introParagraph: ''
+dateRange: September 6th, 2026
+startDate: '2026-09-06'
+location: New York City
+people: Esther
+introParagraph: >-
+  Esther came into town over Labor Day weekend in September, and it was the perfect opportunity to
+  catch up. We ate, we laughed, we drank, and even got to watch her favorite tennis player, Ben
+  Shelton, play at the U.S. Open.
 tripPrefix: Sept-Esther-Visit-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Sept-Esther-Visit-2026
 coverSource: _incoming/Cover.jpeg
@@ -76,15 +79,74 @@ photos:
     exif: '2026-09-06T23:09:31.000Z'
     flags: []
     bytes: 482619
-sections: []
+sections:
+  - id: red-hook-tavern
+    title: Red Hook Tavern
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+    prose: >
+      When Esther told me she was coming into town, I didn’t really have enough time to make a
+      reservation anywhere. But since it was Labor Day weekend, we figured we could try our luck
+      walking in somewhere. Red Hook Tavern had been on my list for a while, and Esther has more
+      recently become a burger person, so it felt like the perfect opportunity to finally give it a
+      try.
+
+
+      We showed up about an hour before opening and the line was already almost 15 people long. We
+      decided to stick it out, figuring we still had a pretty good chance of getting in. By 30
+      minutes before opening, the line had grown to nearly 75 people, which made us feel a lot
+      better about how early we had arrived. It paid off. We made the first round of seating and
+      somehow got the last two person table indoors.
+
+
+      We both ordered the Red Hook Tavern burger, which is what they are known for, and it was
+      honestly a very good burger. The dry aged beef patty was delicious, and the cheese was a great
+      balance to the fattiness and flavor of the meat. The bun was probably the weakest part. It was
+      basically a regular white bun, and we were hoping for something more interesting, maybe a
+      brioche or pretzel bun that could better complement the flavor of the burger. The fries were
+      also just okay and surprisingly a little cold considering the restaurant had just opened.
+      Still, it was a great experience and fun to finally try what a lot of people call one of New
+      York’s best burgers.
+
+
+      After lunch, we decided to walk through Red Hook toward one of the barbecue spots that people
+      say is among the best in the city. Along the way, we stopped at a bar with live music playing.
+      The performer was this hilarious older man whose songs were filled with sexual innuendos. We
+      shared an Aperol Spritz, listened to him play, and eventually continued on toward the barbecue
+      spot.
+  - id: us-open-barbecue
+    title: U.S. Open + Barbecue
+    photoIds:
+      - p007
+      - p008
+      - p009
+    prose: >
+      When we finally got to the barbecue spot, the line was way too long. But it turned out we had
+      ended up in exactly the right place because right next door was an outdoor viewing area
+      showing the U.S. Open. We grabbed some frozen honeydew drinks, sat outside on a beautiful day,
+      and watched Ben Shelton play, which was especially perfect because he is Esther’s favorite
+      tennis player.
+
+
+      Parth eventually joined us, and we spent the afternoon drinking frozen honeydews and watching
+      the match together. Those drinks were dangerously good, and we definitely got quite drunk off
+      of them, but they were perfect in the moment. We eventually ended the night with some good old
+      barbecue, a fitting end to a full day eating and drinking our way through Red Hook.
 pages:
   - file: Sept-Esther-Visit-2026-1.html
-    sectionIds: []
+    sectionIds:
+      - red-hook-tavern
+      - us-open-barbecue
 skippedVideos: []
 processReport:
   processedAt: '2026-09-13T16:35:13.873Z'
   oversizedFiles: []
   needsPlacement: []
   possibleDuplicates: []
-cacheBust: '1789319087924'
+cacheBust: '1789769191634'
 gallaryThumb: assets/images/gallary/20s/2026/Sep-Esther-Visit-2026.jpeg
