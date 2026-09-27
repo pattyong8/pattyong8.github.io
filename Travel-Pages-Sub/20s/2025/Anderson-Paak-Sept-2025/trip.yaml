@@ -1,0 +1,117 @@
+schemaVersion: 1
+title: Anderson .Paak
+slug: Anderson-Paak-Sept-2025
+section: 20s
+year: '2025'
+dateRange: Sept 2025
+startDate: '2025-09-26'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Anderson-Paak-Sept-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Anderson-Paak-Sept-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Anderson-Paak-Sept-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Anderson-Paak-Sept-2025-1.jpeg
+    sourceFile: IMG_9018.jpeg
+    exif: '2025-09-26T01:18:09.000Z'
+    flags: []
+    bytes: 388859
+  - id: p002
+    seq: 2
+    file: Anderson-Paak-Sept-2025-2.jpeg
+    sourceFile: IMG_9019.jpeg
+    exif: '2025-09-26T01:18:19.000Z'
+    flags: []
+    bytes: 451422
+  - id: p003
+    seq: 3
+    file: Anderson-Paak-Sept-2025-3.jpeg
+    sourceFile: IMG_9021.jpeg
+    exif: '2025-09-26T01:19:16.000Z'
+    flags: []
+    bytes: 332601
+  - id: p004
+    seq: 4
+    file: Anderson-Paak-Sept-2025-4.jpeg
+    sourceFile: IMG_9022.jpeg
+    exif: '2025-09-26T01:19:26.000Z'
+    flags: []
+    bytes: 352132
+  - id: p005
+    seq: 5
+    file: Anderson-Paak-Sept-2025-5.jpeg
+    sourceFile: IMG_9023.jpeg
+    exif: '2025-09-26T01:22:07.000Z'
+    flags: []
+    bytes: 400050
+  - id: p006
+    seq: 6
+    file: Anderson-Paak-Sept-2025-6.jpeg
+    sourceFile: IMG_9336.JPG
+    exif: '2025-09-26T13:35:27.000Z'
+    flags: []
+    bytes: 351909
+  - id: p007
+    seq: 7
+    file: Anderson-Paak-Sept-2025-7.jpeg
+    sourceFile: IMG_9342.JPG
+    exif: '2025-09-26T13:39:44.000Z'
+    flags: []
+    bytes: 244832
+  - id: p008
+    seq: 8
+    file: Anderson-Paak-Sept-2025-8.jpeg
+    sourceFile: IMG_9028.jpeg
+    exif: '2025-09-27T00:46:38.000Z'
+    flags: []
+    bytes: 334028
+  - id: p009
+    seq: 9
+    file: Anderson-Paak-Sept-2025-9.jpeg
+    sourceFile: IMG_9029.jpeg
+    exif: '2025-09-27T00:46:41.000Z'
+    flags: []
+    bytes: 380743
+  - id: p010
+    seq: 10
+    file: Anderson-Paak-Sept-2025-10.jpeg
+    sourceFile: IMG_9031.jpeg
+    exif: '2025-09-27T00:46:52.000Z'
+    flags: []
+    bytes: 292859
+  - id: p011
+    seq: 11
+    file: Anderson-Paak-Sept-2025-11.jpeg
+    sourceFile: IMG_9033.jpeg
+    exif: '2025-09-27T00:46:54.000Z'
+    flags: []
+    bytes: 274842
+  - id: p012
+    seq: 12
+    file: Anderson-Paak-Sept-2025-12.jpeg
+    sourceFile: IMG_9037.jpeg
+    exif: '2025-09-27T02:26:06.000Z'
+    flags: []
+    bytes: 568679
+  - id: p013
+    seq: 13
+    file: Anderson-Paak-Sept-2025-13.jpeg
+    sourceFile: IMG_9039.jpeg
+    exif: '2025-09-27T02:27:07.000Z'
+    flags: []
+    bytes: 455042
+sections: []
+pages:
+  - file: Anderson-Paak-Sept-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:20:47.026Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Sept-Anderson-Paak-2025.jpeg

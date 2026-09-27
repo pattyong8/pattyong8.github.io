@@ -1,0 +1,90 @@
+schemaVersion: 1
+title: San Francisco
+slug: SF-Oct-2025
+section: 20s
+year: '2025'
+dateRange: Oct 2025
+startDate: '2025-10-02'
+location: San Francisco, California
+people: Friends
+introParagraph: ''
+tripPrefix: SF-Oct-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/SF-Oct-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: SF-Oct-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: SF-Oct-2025-1.jpeg
+    sourceFile: IMG_9103.jpeg
+    exif: '2025-10-02T19:07:18.000Z'
+    flags: []
+    bytes: 460812
+  - id: p002
+    seq: 2
+    file: SF-Oct-2025-2.jpeg
+    sourceFile: IMG_9110.jpeg
+    exif: '2025-10-02T23:13:44.000Z'
+    flags: []
+    bytes: 229319
+  - id: p003
+    seq: 3
+    file: SF-Oct-2025-3.jpeg
+    sourceFile: IMG_9111.jpeg
+    exif: '2025-10-02T23:13:46.000Z'
+    flags: []
+    bytes: 323167
+  - id: p004
+    seq: 4
+    file: SF-Oct-2025-4.jpeg
+    sourceFile: IMG_9112.jpeg
+    exif: '2025-10-02T23:13:53.000Z'
+    flags: []
+    bytes: 354825
+  - id: p005
+    seq: 5
+    file: SF-Oct-2025-5.jpeg
+    sourceFile: IMG_9114.jpeg
+    exif: '2025-10-02T23:18:28.000Z'
+    flags: []
+    bytes: 390247
+  - id: p006
+    seq: 6
+    file: SF-Oct-2025-6.jpeg
+    sourceFile: IMG_9115.jpeg
+    exif: '2025-10-02T23:21:40.000Z'
+    flags: []
+    bytes: 222693
+  - id: p007
+    seq: 7
+    file: SF-Oct-2025-7.jpeg
+    sourceFile: IMG_9116.jpeg
+    exif: '2025-10-03T00:02:42.000Z'
+    flags: []
+    bytes: 423495
+  - id: p008
+    seq: 8
+    file: SF-Oct-2025-8.jpeg
+    sourceFile: IMG_9118.jpeg
+    exif: '2025-10-03T00:03:20.000Z'
+    flags: []
+    bytes: 483352
+  - id: p009
+    seq: 9
+    file: SF-Oct-2025-9.jpeg
+    sourceFile: IMG_9123.jpeg
+    exif: '2025-10-03T21:27:38.000Z'
+    flags: []
+    bytes: 516437
+sections: []
+pages:
+  - file: SF-Oct-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:27:21.331Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Oct-SF-2025.jpeg
+cacheBust: '1790532675432'

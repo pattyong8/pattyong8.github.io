@@ -1,0 +1,215 @@
+schemaVersion: 1
+title: Steamboat, CO
+slug: Steamboat-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Feb 2025
+startDate: '2025-02-20'
+location: Steamboat Springs, Colorado
+people: Friends
+introParagraph: ''
+tripPrefix: Steamboat-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Steamboat-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Steamboat-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Steamboat-Feb-2025-1.jpeg
+    sourceFile: IMG_5356.jpeg
+    exif: '2025-02-20T12:23:04.000Z'
+    flags: []
+    bytes: 251385
+  - id: p002
+    seq: 2
+    file: Steamboat-Feb-2025-2.jpeg
+    sourceFile: IMG_5357.jpeg
+    exif: '2025-02-20T12:23:06.000Z'
+    flags: []
+    bytes: 248633
+  - id: p003
+    seq: 3
+    file: Steamboat-Feb-2025-3.jpeg
+    sourceFile: IMG_5358.jpeg
+    exif: '2025-02-20T14:19:14.000Z'
+    flags: []
+    bytes: 263839
+  - id: p004
+    seq: 4
+    file: Steamboat-Feb-2025-4.jpeg
+    sourceFile: IMG_5359.jpeg
+    exif: '2025-02-20T16:49:50.000Z'
+    flags: []
+    bytes: 388920
+  - id: p005
+    seq: 5
+    file: Steamboat-Feb-2025-5.jpeg
+    sourceFile: IMG_5360.jpeg
+    exif: '2025-02-20T16:49:52.000Z'
+    flags: []
+    bytes: 305224
+  - id: p006
+    seq: 6
+    file: Steamboat-Feb-2025-6.jpeg
+    sourceFile: IMG_5361.jpeg
+    exif: '2025-02-20T18:07:02.000Z'
+    flags: []
+    bytes: 509093
+  - id: p007
+    seq: 7
+    file: Steamboat-Feb-2025-7.jpeg
+    sourceFile: IMG_5362.jpeg
+    exif: '2025-02-20T18:12:59.000Z'
+    flags: []
+    bytes: 206173
+  - id: p008
+    seq: 8
+    file: Steamboat-Feb-2025-8.jpeg
+    sourceFile: IMG_1970.jpeg
+    exif: '2025-02-20T22:42:39.000Z'
+    flags: []
+    bytes: 270945
+  - id: p009
+    seq: 9
+    file: Steamboat-Feb-2025-9.jpeg
+    sourceFile: IMG_5374.jpeg
+    exif: '2025-02-21T16:37:42.000Z'
+    flags: []
+    bytes: 338414
+  - id: p010
+    seq: 10
+    file: Steamboat-Feb-2025-10.jpeg
+    sourceFile: IMG_5376.jpeg
+    exif: '2025-02-21T17:17:02.000Z'
+    flags: []
+    bytes: 437031
+  - id: p011
+    seq: 11
+    file: Steamboat-Feb-2025-11.jpeg
+    sourceFile: IMG_5378.jpeg
+    exif: '2025-02-21T17:17:10.000Z'
+    flags: []
+    bytes: 555107
+  - id: p012
+    seq: 12
+    file: Steamboat-Feb-2025-12.jpeg
+    sourceFile: IMG_5388.jpeg
+    exif: '2025-02-21T21:12:09.000Z'
+    flags: []
+    bytes: 330401
+  - id: p013
+    seq: 13
+    file: Steamboat-Feb-2025-13.jpeg
+    sourceFile: IMG_5393.jpeg
+    exif: '2025-02-22T01:30:33.000Z'
+    flags: []
+    bytes: 279838
+  - id: p014
+    seq: 14
+    file: Steamboat-Feb-2025-14.jpeg
+    sourceFile: IMG_5397.jpeg
+    exif: '2025-02-22T01:52:33.000Z'
+    flags: []
+    bytes: 381660
+  - id: p015
+    seq: 15
+    file: Steamboat-Feb-2025-15.jpeg
+    sourceFile: IMG_5398.jpeg
+    exif: '2025-02-22T02:00:29.000Z'
+    flags: []
+    bytes: 382524
+  - id: p016
+    seq: 16
+    file: Steamboat-Feb-2025-16.jpeg
+    sourceFile: IMG_5408.jpeg
+    exif: '2025-02-22T18:01:12.000Z'
+    flags: []
+    bytes: 464365
+  - id: p017
+    seq: 17
+    file: Steamboat-Feb-2025-17.jpeg
+    sourceFile: IMG_5415.jpeg
+    exif: '2025-02-22T18:55:29.000Z'
+    flags: []
+    bytes: 509913
+  - id: p018
+    seq: 18
+    file: Steamboat-Feb-2025-18.jpeg
+    sourceFile: IMG_5417.jpeg
+    exif: '2025-02-22T22:01:32.000Z'
+    flags: []
+    bytes: 468925
+  - id: p019
+    seq: 19
+    file: Steamboat-Feb-2025-19.jpeg
+    sourceFile: IMG_5420.jpeg
+    exif: '2025-02-22T22:01:58.000Z'
+    flags: []
+    bytes: 307843
+  - id: p020
+    seq: 20
+    file: Steamboat-Feb-2025-20.jpeg
+    sourceFile: IMG_5424.jpeg
+    exif: '2025-02-23T01:37:45.000Z'
+    flags: []
+    bytes: 489811
+  - id: p021
+    seq: 21
+    file: Steamboat-Feb-2025-21.jpeg
+    sourceFile: IMG_5425.jpeg
+    exif: '2025-02-23T01:37:47.000Z'
+    flags: []
+    bytes: 407634
+  - id: p022
+    seq: 22
+    file: Steamboat-Feb-2025-22.jpeg
+    sourceFile: IMG_5431.jpeg
+    exif: '2025-02-23T20:10:00.000Z'
+    flags: []
+    bytes: 358656
+  - id: p023
+    seq: 23
+    file: Steamboat-Feb-2025-23.jpeg
+    sourceFile: IMG_5432.jpeg
+    exif: '2025-02-23T20:10:01.000Z'
+    flags: []
+    bytes: 411336
+  - id: p024
+    seq: 24
+    file: Steamboat-Feb-2025-24.jpeg
+    sourceFile: IMG_5433.jpeg
+    exif: '2025-02-24T00:17:05.000Z'
+    flags: []
+    bytes: 422634
+  - id: p025
+    seq: 25
+    file: Steamboat-Feb-2025-25.jpeg
+    sourceFile: IMG_5463.jpeg
+    exif: '2025-02-24T19:06:10.000Z'
+    flags: []
+    bytes: 421097
+  - id: p026
+    seq: 26
+    file: Steamboat-Feb-2025-26.jpeg
+    sourceFile: IMG_5464.jpeg
+    exif: '2025-02-24T19:07:30.000Z'
+    flags: []
+    bytes: 215689
+  - id: p027
+    seq: 27
+    file: Steamboat-Feb-2025-27.jpeg
+    sourceFile: IMG_5465.jpeg
+    exif: '2025-02-24T20:41:46.000Z'
+    flags: []
+    bytes: 591555
+sections: []
+pages:
+  - file: Steamboat-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:53:06.582Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Feb-Steamboat-2025.jpeg

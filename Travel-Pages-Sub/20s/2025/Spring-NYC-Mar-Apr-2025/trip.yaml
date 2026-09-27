@@ -1,0 +1,159 @@
+schemaVersion: 1
+title: Spring NYC
+slug: Spring-NYC-Mar-Apr-2025
+section: 20s
+year: '2025'
+dateRange: Mar to Apr 2025
+startDate: '2025-03-22'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Spring-NYC-Mar-Apr-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Spring-NYC-Mar-Apr-2025
+coverSource: _incoming/Cover.jpeg
+gallaryThumb: assets/images/gallary/20s/2025/Mar-Spring-NYC-2025.jpeg
+heroFile: Spring-NYC-Mar-Apr-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Spring-NYC-Mar-Apr-2025-1.jpeg
+    sourceFile: IMG_5666.jpeg
+    exif: '2025-03-22T20:45:39.000Z'
+    flags: []
+    bytes: 126429
+  - id: p002
+    seq: 2
+    file: Spring-NYC-Mar-Apr-2025-2.jpeg
+    sourceFile: IMG_5671.jpeg
+    exif: '2025-03-22T23:42:26.000Z'
+    flags: []
+    bytes: 289748
+  - id: p003
+    seq: 3
+    file: Spring-NYC-Mar-Apr-2025-3.jpeg
+    sourceFile: IMG_5688.jpeg
+    exif: '2025-03-23T01:21:24.000Z'
+    flags: []
+    bytes: 402223
+  - id: p004
+    seq: 4
+    file: Spring-NYC-Mar-Apr-2025-4.jpeg
+    sourceFile: IMG_5691.jpeg
+    exif: '2025-03-23T18:23:43.000Z'
+    flags: []
+    bytes: 357907
+  - id: p005
+    seq: 5
+    file: Spring-NYC-Mar-Apr-2025-5.jpeg
+    sourceFile: IMG_5694.jpeg
+    exif: '2025-03-23T18:23:48.000Z'
+    flags: []
+    bytes: 472854
+  - id: p006
+    seq: 6
+    file: Spring-NYC-Mar-Apr-2025-6.jpeg
+    sourceFile: IMG_5696.jpeg
+    exif: '2025-03-24T00:53:25.000Z'
+    flags: []
+    bytes: 415064
+  - id: p007
+    seq: 7
+    file: Spring-NYC-Mar-Apr-2025-7.jpeg
+    sourceFile: IMG_5909.jpeg
+    exif: '2025-04-12T02:22:04.000Z'
+    flags: []
+    bytes: 273408
+  - id: p008
+    seq: 8
+    file: Spring-NYC-Mar-Apr-2025-8.jpeg
+    sourceFile: IMG_4323.jpeg
+    exif: '2025-04-12T22:02:30.000Z'
+    flags: []
+    bytes: 376737
+  - id: p009
+    seq: 9
+    file: Spring-NYC-Mar-Apr-2025-9.jpeg
+    sourceFile: IMG_5923.jpeg
+    exif: '2025-04-12T23:58:26.000Z'
+    flags: []
+    bytes: 352835
+  - id: p010
+    seq: 10
+    file: Spring-NYC-Mar-Apr-2025-10.jpeg
+    sourceFile: IMG_5924.jpeg
+    exif: '2025-04-12T23:58:28.000Z'
+    flags: []
+    bytes: 365785
+  - id: p011
+    seq: 11
+    file: Spring-NYC-Mar-Apr-2025-11.jpeg
+    sourceFile: IMG_6639.jpeg
+    exif: '2025-05-17T22:27:57.000Z'
+    flags: []
+    bytes: 458608
+  - id: p012
+    seq: 12
+    file: Spring-NYC-Mar-Apr-2025-12.jpeg
+    sourceFile: IMG_6645.jpeg
+    exif: '2025-05-18T04:44:20.000Z'
+    flags: []
+    bytes: 408400
+  - id: p013
+    seq: 13
+    file: Spring-NYC-Mar-Apr-2025-13.jpeg
+    sourceFile: IMG_6647.jpeg
+    exif: '2025-05-18T05:07:30.000Z'
+    flags: []
+    bytes: 274312
+  - id: p014
+    seq: 14
+    file: Spring-NYC-Mar-Apr-2025-14.jpeg
+    sourceFile: IMG_6650.jpeg
+    exif: '2025-05-18T06:13:07.000Z'
+    flags: []
+    bytes: 356031
+  - id: p015
+    seq: 15
+    file: Spring-NYC-Mar-Apr-2025-15.jpeg
+    sourceFile: IMG_6652.jpeg
+    exif: '2025-05-18T06:13:18.000Z'
+    flags: []
+    bytes: 254836
+  - id: p016
+    seq: 16
+    file: Spring-NYC-Mar-Apr-2025-16.jpeg
+    sourceFile: IMG_6689.jpeg
+    exif: '2025-05-21T22:29:11.000Z'
+    flags: []
+    bytes: 287712
+  - id: p017
+    seq: 17
+    file: Spring-NYC-Mar-Apr-2025-17.jpeg
+    sourceFile: IMG_6877.jpeg
+    exif: '2025-06-07T05:14:59.000Z'
+    flags: []
+    bytes: 208907
+  - id: p018
+    seq: 18
+    file: Spring-NYC-Mar-Apr-2025-18.jpeg
+    sourceFile: IMG_6881.jpeg
+    exif: '2025-06-07T05:44:50.000Z'
+    flags: []
+    bytes: 313941
+  - id: p019
+    seq: 19
+    file: Spring-NYC-Mar-Apr-2025-19.jpeg
+    sourceFile: IMG_6899.jpeg
+    exif: '2025-06-08T03:50:38.000Z'
+    flags: []
+    bytes: 366672
+sections: []
+pages:
+  - file: Spring-NYC-Mar-Apr-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:27:31.904Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []

@@ -1,0 +1,250 @@
+schemaVersion: 1
+title: Winter NYC
+slug: Winter-NYC-Jan-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Jan to Feb 2025
+startDate: '2025-01-12'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Winter-NYC-Jan-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Winter-NYC-Jan-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Winter-NYC-Jan-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Winter-NYC-Jan-Feb-2025-1.jpeg
+    sourceFile: IMG_4951.jpeg
+    exif: '2025-01-12T23:02:18.000Z'
+    flags: []
+    bytes: 532553
+  - id: p002
+    seq: 2
+    file: Winter-NYC-Jan-Feb-2025-2.jpeg
+    sourceFile: IMG_4952.jpeg
+    exif: '2025-01-12T23:18:15.000Z'
+    flags: []
+    bytes: 618360
+  - id: p003
+    seq: 3
+    file: Winter-NYC-Jan-Feb-2025-3.jpeg
+    sourceFile: IMG_4954.jpeg
+    exif: '2025-01-12T23:18:27.000Z'
+    flags: []
+    bytes: 360508
+  - id: p004
+    seq: 4
+    file: Winter-NYC-Jan-Feb-2025-4.jpeg
+    sourceFile: IMG_4955.jpeg
+    exif: '2025-01-12T23:18:29.000Z'
+    flags: []
+    bytes: 450285
+  - id: p005
+    seq: 5
+    file: Winter-NYC-Jan-Feb-2025-5.jpeg
+    sourceFile: IMG_4956.jpeg
+    exif: '2025-01-12T23:18:40.000Z'
+    flags: []
+    bytes: 432665
+  - id: p006
+    seq: 6
+    file: Winter-NYC-Jan-Feb-2025-6.jpeg
+    sourceFile: IMG_4957.jpeg
+    exif: '2025-01-12T23:18:43.000Z'
+    flags: []
+    bytes: 492133
+  - id: p007
+    seq: 7
+    file: Winter-NYC-Jan-Feb-2025-7.jpeg
+    sourceFile: IMG_3195.jpeg
+    exif: '2025-01-16T05:19:25.000Z'
+    flags: []
+    bytes: 177275
+  - id: p008
+    seq: 8
+    file: Winter-NYC-Jan-Feb-2025-8.jpeg
+    sourceFile: IMG_3198.jpeg
+    exif: '2025-01-16T05:19:48.000Z'
+    flags: []
+    bytes: 379798
+  - id: p009
+    seq: 9
+    file: Winter-NYC-Jan-Feb-2025-9.jpeg
+    sourceFile: IMG_4975.jpeg
+    exif: '2025-01-17T23:25:50.000Z'
+    flags: []
+    bytes: 411376
+  - id: p010
+    seq: 10
+    file: Winter-NYC-Jan-Feb-2025-10.jpeg
+    sourceFile: IMG_4978.jpeg
+    exif: '2025-01-18T18:02:37.000Z'
+    flags: []
+    bytes: 344207
+  - id: p011
+    seq: 11
+    file: Winter-NYC-Jan-Feb-2025-11.jpeg
+    sourceFile: IMG_4982.jpeg
+    exif: '2025-01-18T18:03:06.000Z'
+    flags: []
+    bytes: 353638
+  - id: p012
+    seq: 12
+    file: Winter-NYC-Jan-Feb-2025-12.jpeg
+    sourceFile: IMG_4983.jpeg
+    exif: '2025-01-18T18:07:38.000Z'
+    flags: []
+    bytes: 347838
+  - id: p013
+    seq: 13
+    file: Winter-NYC-Jan-Feb-2025-13.jpeg
+    sourceFile: IMG_4986.jpeg
+    exif: '2025-01-18T18:14:15.000Z'
+    flags: []
+    bytes: 591744
+  - id: p014
+    seq: 14
+    file: Winter-NYC-Jan-Feb-2025-14.jpeg
+    sourceFile: IMG_4991.jpeg
+    exif: '2025-01-18T19:19:33.000Z'
+    flags: []
+    bytes: 357049
+  - id: p015
+    seq: 15
+    file: Winter-NYC-Jan-Feb-2025-15.jpeg
+    sourceFile: IMG_4997.jpeg
+    exif: '2025-01-18T21:22:35.000Z'
+    flags: []
+    bytes: 294830
+  - id: p016
+    seq: 16
+    file: Winter-NYC-Jan-Feb-2025-16.jpeg
+    sourceFile: IMG_4999.jpeg
+    exif: '2025-01-18T21:45:37.000Z'
+    flags: []
+    bytes: 416128
+  - id: p017
+    seq: 17
+    file: Winter-NYC-Jan-Feb-2025-17.jpeg
+    sourceFile: IMG_5002.jpeg
+    exif: '2025-01-19T01:24:46.000Z'
+    flags: []
+    bytes: 353922
+  - id: p018
+    seq: 18
+    file: Winter-NYC-Jan-Feb-2025-18.jpeg
+    sourceFile: IMG_5008.jpeg
+    exif: '2025-01-19T22:27:25.000Z'
+    flags: []
+    bytes: 522571
+  - id: p019
+    seq: 19
+    file: Winter-NYC-Jan-Feb-2025-19.jpeg
+    sourceFile: IMG_5011.jpeg
+    exif: '2025-01-19T22:27:50.000Z'
+    flags: []
+    bytes: 328872
+  - id: p020
+    seq: 20
+    file: Winter-NYC-Jan-Feb-2025-20.jpeg
+    sourceFile: IMG_5015.jpeg
+    exif: '2025-01-19T22:28:00.000Z'
+    flags: []
+    bytes: 281036
+  - id: p021
+    seq: 21
+    file: Winter-NYC-Jan-Feb-2025-21.jpeg
+    sourceFile: IMG_5018.jpeg
+    exif: '2025-01-20T02:54:56.000Z'
+    flags: []
+    bytes: 305963
+  - id: p022
+    seq: 22
+    file: Winter-NYC-Jan-Feb-2025-22.jpeg
+    sourceFile: IMG_5020.jpeg
+    exif: '2025-01-20T02:56:50.000Z'
+    flags: []
+    bytes: 391429
+  - id: p023
+    seq: 23
+    file: Winter-NYC-Jan-Feb-2025-23.jpeg
+    sourceFile: IMG_5022.jpeg
+    exif: '2025-01-20T03:22:10.000Z'
+    flags: []
+    bytes: 384114
+  - id: p024
+    seq: 24
+    file: Winter-NYC-Jan-Feb-2025-24.jpeg
+    sourceFile: IMG_5072.jpeg
+    exif: '2025-01-25T17:12:20.000Z'
+    flags: []
+    bytes: 373211
+  - id: p025
+    seq: 25
+    file: Winter-NYC-Jan-Feb-2025-25.jpeg
+    sourceFile: IMG_5077.jpeg
+    exif: '2025-01-25T17:48:32.000Z'
+    flags: []
+    bytes: 427396
+  - id: p026
+    seq: 26
+    file: Winter-NYC-Jan-Feb-2025-26.jpeg
+    sourceFile: IMG_5084.jpeg
+    exif: '2025-01-26T02:28:46.000Z'
+    flags: []
+    bytes: 383893
+  - id: p027
+    seq: 27
+    file: Winter-NYC-Jan-Feb-2025-27.jpeg
+    sourceFile: IMG_1908.jpeg
+    exif: '2025-01-31T01:08:05.000Z'
+    flags: []
+    bytes: 227901
+  - id: p028
+    seq: 28
+    file: Winter-NYC-Jan-Feb-2025-28.jpeg
+    sourceFile: IMG_1910.jpeg
+    exif: '2025-01-31T01:08:13.000Z'
+    flags: []
+    bytes: 285019
+  - id: p029
+    seq: 29
+    file: Winter-NYC-Jan-Feb-2025-29.jpeg
+    sourceFile: IMG_5116.jpeg
+    exif: '2025-01-31T01:45:32.000Z'
+    flags: []
+    bytes: 427965
+  - id: p030
+    seq: 30
+    file: Winter-NYC-Jan-Feb-2025-30.jpeg
+    sourceFile: IMG_5117.jpeg
+    exif: '2025-01-31T01:45:34.000Z'
+    flags: []
+    bytes: 273137
+  - id: p031
+    seq: 31
+    file: Winter-NYC-Jan-Feb-2025-31.jpeg
+    sourceFile: IMG_1912.jpeg
+    exif: '2025-01-31T01:46:01.000Z'
+    flags: []
+    bytes: 642156
+  - id: p032
+    seq: 32
+    file: Winter-NYC-Jan-Feb-2025-32.jpeg
+    sourceFile: IMG_5129.jpeg
+    exif: '2025-02-01T02:49:30.000Z'
+    flags: []
+    bytes: 433069
+sections: []
+pages:
+  - file: Winter-NYC-Jan-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:53:17.118Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Jan-Winter-NYC-2025.jpeg

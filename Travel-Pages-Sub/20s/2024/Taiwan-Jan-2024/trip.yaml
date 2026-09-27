@@ -1,0 +1,1698 @@
+schemaVersion: 1
+title: Taiwan
+slug: Taiwan-Jan-2024
+section: 20s
+year: '2024'
+dateRange: Jan 13th-26th 2024
+startDate: '2024-01-13'
+location: Taiwan
+people: ''
+introParagraph: ''
+tripPrefix: Taiwan-Jan-2024
+photosDir: assets/images/Travel-Pages-Images/20s/2024/Taiwan-Jan-2024
+coverSource: _incoming/Cover.jpeg
+heroFile: Taiwan-Jan-2024-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Taiwan-Jan-2024-1.jpeg
+    sourceFile: IMG_7851.jpeg
+    exif: '2024-01-14T02:50:46.000Z'
+    flags: []
+    bytes: 552124
+  - id: p002
+    seq: 2
+    file: Taiwan-Jan-2024-2.jpeg
+    sourceFile: IMG_7855.jpeg
+    exif: '2024-01-14T19:33:25.000Z'
+    flags: []
+    bytes: 441285
+  - id: p003
+    seq: 3
+    file: Taiwan-Jan-2024-3.jpeg
+    sourceFile: IMG_7859.jpeg
+    exif: '2024-01-14T19:34:46.000Z'
+    flags: []
+    bytes: 350058
+  - id: p004
+    seq: 4
+    file: Taiwan-Jan-2024-4.jpeg
+    sourceFile: IMG_7861.jpeg
+    exif: '2024-01-14T19:39:51.000Z'
+    flags: []
+    bytes: 456670
+  - id: p005
+    seq: 5
+    file: Taiwan-Jan-2024-5.jpeg
+    sourceFile: IMG_7862.jpeg
+    exif: '2024-01-14T20:02:38.000Z'
+    flags: []
+    bytes: 323598
+  - id: p006
+    seq: 6
+    file: Taiwan-Jan-2024-6.jpeg
+    sourceFile: IMG_7864.jpeg
+    exif: '2024-01-15T00:07:50.000Z'
+    flags: []
+    bytes: 220313
+  - id: p007
+    seq: 7
+    file: Taiwan-Jan-2024-7.jpeg
+    sourceFile: IMG_7865.jpeg
+    exif: '2024-01-15T00:07:55.000Z'
+    flags: []
+    bytes: 287611
+  - id: p008
+    seq: 8
+    file: Taiwan-Jan-2024-8.jpeg
+    sourceFile: IMG_7867.jpeg
+    exif: '2024-01-15T00:08:10.000Z'
+    flags: []
+    bytes: 284827
+  - id: p009
+    seq: 9
+    file: Taiwan-Jan-2024-9.jpeg
+    sourceFile: IMG_7868.jpeg
+    exif: '2024-01-15T00:11:22.000Z'
+    flags: []
+    bytes: 435677
+  - id: p010
+    seq: 10
+    file: Taiwan-Jan-2024-10.jpeg
+    sourceFile: IMG_7869.jpeg
+    exif: '2024-01-15T00:11:24.000Z'
+    flags: []
+    bytes: 359990
+  - id: p011
+    seq: 11
+    file: Taiwan-Jan-2024-11.jpeg
+    sourceFile: IMG_7872.jpeg
+    exif: '2024-01-15T00:16:09.000Z'
+    flags: []
+    bytes: 310935
+  - id: p012
+    seq: 12
+    file: Taiwan-Jan-2024-12.jpeg
+    sourceFile: IMG_1623.jpeg
+    exif: '2024-01-15T00:18:03.000Z'
+    flags: []
+    bytes: 247925
+  - id: p013
+    seq: 13
+    file: Taiwan-Jan-2024-13.jpeg
+    sourceFile: IMG_1628.jpeg
+    exif: '2024-01-15T17:13:21.000Z'
+    flags: []
+    bytes: 309740
+  - id: p014
+    seq: 14
+    file: Taiwan-Jan-2024-14.jpeg
+    sourceFile: IMG_7878.jpeg
+    exif: '2024-01-15T18:06:28.000Z'
+    flags: []
+    bytes: 272357
+  - id: p015
+    seq: 15
+    file: Taiwan-Jan-2024-15.jpeg
+    sourceFile: IMG_7879.jpeg
+    exif: '2024-01-15T18:09:07.000Z'
+    flags: []
+    bytes: 352093
+  - id: p016
+    seq: 16
+    file: Taiwan-Jan-2024-16.jpeg
+    sourceFile: IMG_1640.jpeg
+    exif: '2024-01-15T18:49:38.000Z'
+    flags: []
+    bytes: 210514
+  - id: p017
+    seq: 17
+    file: Taiwan-Jan-2024-17.jpeg
+    sourceFile: IMG_1642.jpeg
+    exif: '2024-01-15T18:49:52.000Z'
+    flags: []
+    bytes: 222225
+  - id: p018
+    seq: 18
+    file: Taiwan-Jan-2024-18.jpeg
+    sourceFile: IMG_1649.jpeg
+    exif: '2024-01-15T21:14:33.000Z'
+    flags: []
+    bytes: 196545
+  - id: p019
+    seq: 19
+    file: Taiwan-Jan-2024-19.jpeg
+    sourceFile: IMG_1654.jpeg
+    exif: '2024-01-15T21:56:10.000Z'
+    flags: []
+    bytes: 255573
+  - id: p020
+    seq: 20
+    file: Taiwan-Jan-2024-20.jpeg
+    sourceFile: IMG_7884.jpeg
+    exif: '2024-01-15T22:02:40.000Z'
+    flags: []
+    bytes: 419057
+  - id: p021
+    seq: 21
+    file: Taiwan-Jan-2024-21.jpeg
+    sourceFile: IMG_7885.jpeg
+    exif: '2024-01-15T22:03:45.000Z'
+    flags: []
+    bytes: 403338
+  - id: p022
+    seq: 22
+    file: Taiwan-Jan-2024-22.jpeg
+    sourceFile: IMG_7891.jpeg
+    exif: '2024-01-15T22:06:01.000Z'
+    flags: []
+    bytes: 509863
+  - id: p023
+    seq: 23
+    file: Taiwan-Jan-2024-23.jpeg
+    sourceFile: IMG_1661.jpeg
+    exif: '2024-01-15T22:13:18.000Z'
+    flags: []
+    bytes: 387829
+  - id: p024
+    seq: 24
+    file: Taiwan-Jan-2024-24.jpeg
+    sourceFile: IMG_7903.jpeg
+    exif: '2024-01-15T23:06:14.000Z'
+    flags: []
+    bytes: 288327
+  - id: p025
+    seq: 25
+    file: Taiwan-Jan-2024-25.jpeg
+    sourceFile: IMG_7905.jpeg
+    exif: '2024-01-16T01:18:05.000Z'
+    flags: []
+    bytes: 348685
+  - id: p026
+    seq: 26
+    file: Taiwan-Jan-2024-26.jpeg
+    sourceFile: IMG_7906.jpeg
+    exif: '2024-01-16T01:19:36.000Z'
+    flags: []
+    bytes: 349635
+  - id: p027
+    seq: 27
+    file: Taiwan-Jan-2024-27.jpeg
+    sourceFile: IMG_7909.jpeg
+    exif: '2024-01-16T17:38:35.000Z'
+    flags: []
+    bytes: 551030
+  - id: p028
+    seq: 28
+    file: Taiwan-Jan-2024-28.jpeg
+    sourceFile: IMG_7912.jpeg
+    exif: '2024-01-16T17:59:51.000Z'
+    flags: []
+    bytes: 389125
+  - id: p029
+    seq: 29
+    file: Taiwan-Jan-2024-29.jpeg
+    sourceFile: IMG_7913.jpeg
+    exif: '2024-01-16T18:04:49.000Z'
+    flags: []
+    bytes: 373421
+  - id: p030
+    seq: 30
+    file: Taiwan-Jan-2024-30.jpeg
+    sourceFile: IMG_7915.jpeg
+    exif: '2024-01-16T23:00:18.000Z'
+    flags: []
+    bytes: 517544
+  - id: p031
+    seq: 31
+    file: Taiwan-Jan-2024-31.jpeg
+    sourceFile: IMG_7917.jpeg
+    exif: '2024-01-16T23:01:34.000Z'
+    flags: []
+    bytes: 874452
+  - id: p032
+    seq: 32
+    file: Taiwan-Jan-2024-32.jpeg
+    sourceFile: IMG_7928.jpeg
+    exif: '2024-01-16T23:20:09.000Z'
+    flags: []
+    bytes: 364458
+  - id: p033
+    seq: 33
+    file: Taiwan-Jan-2024-33.jpeg
+    sourceFile: IMG_7929.jpeg
+    exif: '2024-01-16T23:32:01.000Z'
+    flags: []
+    bytes: 458930
+  - id: p034
+    seq: 34
+    file: Taiwan-Jan-2024-34.jpeg
+    sourceFile: IMG_7930.jpeg
+    exif: '2024-01-16T23:32:08.000Z'
+    flags: []
+    bytes: 526269
+  - id: p035
+    seq: 35
+    file: Taiwan-Jan-2024-35.jpeg
+    sourceFile: IMG_7931.jpeg
+    exif: '2024-01-16T23:33:01.000Z'
+    flags: []
+    bytes: 391939
+  - id: p036
+    seq: 36
+    file: Taiwan-Jan-2024-36.jpeg
+    sourceFile: IMG_7933.jpeg
+    exif: '2024-01-16T23:35:05.000Z'
+    flags: []
+    bytes: 400201
+  - id: p037
+    seq: 37
+    file: Taiwan-Jan-2024-37.jpeg
+    sourceFile: IMG_1698.jpeg
+    exif: '2024-01-16T23:36:22.000Z'
+    flags: []
+    bytes: 344183
+  - id: p038
+    seq: 38
+    file: Taiwan-Jan-2024-38.jpeg
+    sourceFile: IMG_1704.jpeg
+    exif: '2024-01-17T00:41:54.000Z'
+    flags: []
+    bytes: 388598
+  - id: p039
+    seq: 39
+    file: Taiwan-Jan-2024-39.jpeg
+    sourceFile: IMG_1705.jpeg
+    exif: '2024-01-17T00:42:01.000Z'
+    flags: []
+    bytes: 334918
+  - id: p040
+    seq: 40
+    file: Taiwan-Jan-2024-40.jpeg
+    sourceFile: IMG_7936.jpeg
+    exif: '2024-01-17T01:37:06.000Z'
+    flags: []
+    bytes: 445112
+  - id: p041
+    seq: 41
+    file: Taiwan-Jan-2024-41.jpeg
+    sourceFile: IMG_7937.jpeg
+    exif: '2024-01-17T02:54:27.000Z'
+    flags: []
+    bytes: 633602
+  - id: p042
+    seq: 42
+    file: Taiwan-Jan-2024-42.jpeg
+    sourceFile: IMG_7938.jpeg
+    exif: '2024-01-17T02:54:33.000Z'
+    flags: []
+    bytes: 528744
+  - id: p043
+    seq: 43
+    file: Taiwan-Jan-2024-43.jpeg
+    sourceFile: IMG_7941.jpeg
+    exif: '2024-01-17T03:06:23.000Z'
+    flags: []
+    bytes: 656331
+  - id: p044
+    seq: 44
+    file: Taiwan-Jan-2024-44.jpeg
+    sourceFile: IMG_7942.jpeg
+    exif: '2024-01-17T03:08:12.000Z'
+    flags: []
+    bytes: 517539
+  - id: p045
+    seq: 45
+    file: Taiwan-Jan-2024-45.jpeg
+    sourceFile: IMG_7943.jpeg
+    exif: '2024-01-17T03:18:00.000Z'
+    flags: []
+    bytes: 566314
+  - id: p046
+    seq: 46
+    file: Taiwan-Jan-2024-46.jpeg
+    sourceFile: IMG_7945.jpeg
+    exif: '2024-01-17T18:29:56.000Z'
+    flags: []
+    bytes: 679433
+  - id: p047
+    seq: 47
+    file: Taiwan-Jan-2024-47.jpeg
+    sourceFile: IMG_7947.jpeg
+    exif: '2024-01-18T00:36:24.000Z'
+    flags: []
+    bytes: 445314
+  - id: p048
+    seq: 48
+    file: Taiwan-Jan-2024-48.jpeg
+    sourceFile: IMG_7948.jpeg
+    exif: '2024-01-18T00:38:15.000Z'
+    flags: []
+    bytes: 557622
+  - id: p049
+    seq: 49
+    file: Taiwan-Jan-2024-49.jpeg
+    sourceFile: IMG_7949.jpeg
+    exif: '2024-01-18T00:52:02.000Z'
+    flags: []
+    bytes: 353909
+  - id: p050
+    seq: 50
+    file: Taiwan-Jan-2024-50.jpeg
+    sourceFile: IMG_7950.jpeg
+    exif: '2024-01-18T00:53:04.000Z'
+    flags: []
+    bytes: 422487
+  - id: p051
+    seq: 51
+    file: Taiwan-Jan-2024-51.jpeg
+    sourceFile: IMG_7951.jpeg
+    exif: '2024-01-18T00:53:28.000Z'
+    flags: []
+    bytes: 252015
+  - id: p052
+    seq: 52
+    file: Taiwan-Jan-2024-52.jpeg
+    sourceFile: IMG_1715.jpeg
+    exif: '2024-01-18T00:53:49.000Z'
+    flags: []
+    bytes: 217897
+  - id: p053
+    seq: 53
+    file: Taiwan-Jan-2024-53.jpeg
+    sourceFile: IMG_1719.jpeg
+    exif: '2024-01-18T00:55:04.000Z'
+    flags: []
+    bytes: 364782
+  - id: p054
+    seq: 54
+    file: Taiwan-Jan-2024-54.jpeg
+    sourceFile: IMG_7953.jpeg
+    exif: '2024-01-18T00:58:51.000Z'
+    flags: []
+    bytes: 311598
+  - id: p055
+    seq: 55
+    file: Taiwan-Jan-2024-55.jpeg
+    sourceFile: IMG_7954.jpeg
+    exif: '2024-01-18T00:58:53.000Z'
+    flags: []
+    bytes: 359607
+  - id: p056
+    seq: 56
+    file: Taiwan-Jan-2024-56.jpeg
+    sourceFile: IMG_1726.jpeg
+    exif: '2024-01-18T01:02:21.000Z'
+    flags: []
+    bytes: 296534
+  - id: p057
+    seq: 57
+    file: Taiwan-Jan-2024-57.jpeg
+    sourceFile: IMG_1730.jpeg
+    exif: '2024-01-18T01:02:53.000Z'
+    flags: []
+    bytes: 331813
+  - id: p058
+    seq: 58
+    file: Taiwan-Jan-2024-58.jpeg
+    sourceFile: IMG_1740.jpeg
+    exif: '2024-01-18T01:56:56.000Z'
+    flags: []
+    bytes: 380953
+  - id: p059
+    seq: 59
+    file: Taiwan-Jan-2024-59.jpeg
+    sourceFile: IMG_7965.jpeg
+    exif: '2024-01-18T22:48:10.000Z'
+    flags: []
+    bytes: 467165
+  - id: p060
+    seq: 60
+    file: Taiwan-Jan-2024-60.jpeg
+    sourceFile: IMG_7966.jpeg
+    exif: '2024-01-18T22:54:37.000Z'
+    flags: []
+    bytes: 291779
+  - id: p061
+    seq: 61
+    file: Taiwan-Jan-2024-61.jpeg
+    sourceFile: IMG_1749.jpeg
+    exif: '2024-01-18T23:04:17.000Z'
+    flags: []
+    bytes: 494390
+  - id: p062
+    seq: 62
+    file: Taiwan-Jan-2024-62.jpeg
+    sourceFile: IMG_1756.jpeg
+    exif: '2024-01-18T23:04:31.000Z'
+    flags: []
+    bytes: 284422
+  - id: p063
+    seq: 63
+    file: Taiwan-Jan-2024-63.jpeg
+    sourceFile: IMG_1761.jpeg
+    exif: '2024-01-18T23:05:14.000Z'
+    flags: []
+    bytes: 313044
+  - id: p064
+    seq: 64
+    file: Taiwan-Jan-2024-64.jpeg
+    sourceFile: IMG_1763.jpeg
+    exif: '2024-01-18T23:05:51.000Z'
+    flags: []
+    bytes: 215832
+  - id: p065
+    seq: 65
+    file: Taiwan-Jan-2024-65.jpeg
+    sourceFile: IMG_7967.jpeg
+    exif: '2024-01-18T23:06:43.000Z'
+    flags: []
+    bytes: 455732
+  - id: p066
+    seq: 66
+    file: Taiwan-Jan-2024-66.jpeg
+    sourceFile: IMG_7968.jpeg
+    exif: '2024-01-18T23:13:26.000Z'
+    flags: []
+    bytes: 364564
+  - id: p067
+    seq: 67
+    file: Taiwan-Jan-2024-67.jpeg
+    sourceFile: IMG_7969.jpeg
+    exif: '2024-01-18T23:13:29.000Z'
+    flags: []
+    bytes: 436294
+  - id: p068
+    seq: 68
+    file: Taiwan-Jan-2024-68.jpeg
+    sourceFile: IMG_7971.jpeg
+    exif: '2024-01-18T23:16:11.000Z'
+    flags: []
+    bytes: 351195
+  - id: p069
+    seq: 69
+    file: Taiwan-Jan-2024-69.jpeg
+    sourceFile: IMG_1775.jpeg
+    exif: '2024-01-18T23:19:36.000Z'
+    flags: []
+    bytes: 321021
+  - id: p070
+    seq: 70
+    file: Taiwan-Jan-2024-70.jpeg
+    sourceFile: IMG_7972.jpeg
+    exif: '2024-01-18T23:19:57.000Z'
+    flags: []
+    bytes: 617803
+  - id: p071
+    seq: 71
+    file: Taiwan-Jan-2024-71.jpeg
+    sourceFile: IMG_7973.jpeg
+    exif: '2024-01-18T23:21:22.000Z'
+    flags: []
+    bytes: 361396
+  - id: p072
+    seq: 72
+    file: Taiwan-Jan-2024-72.jpeg
+    sourceFile: IMG_7974.jpeg
+    exif: '2024-01-18T23:22:32.000Z'
+    flags: []
+    bytes: 509909
+  - id: p073
+    seq: 73
+    file: Taiwan-Jan-2024-73.jpeg
+    sourceFile: IMG_1782.jpeg
+    exif: '2024-01-18T23:22:47.000Z'
+    flags: []
+    bytes: 299641
+  - id: p074
+    seq: 74
+    file: Taiwan-Jan-2024-74.jpeg
+    sourceFile: IMG_1784.jpeg
+    exif: '2024-01-18T23:23:09.000Z'
+    flags: []
+    bytes: 265926
+  - id: p075
+    seq: 75
+    file: Taiwan-Jan-2024-75.jpeg
+    sourceFile: IMG_7975.jpeg
+    exif: '2024-01-18T23:25:56.000Z'
+    flags: []
+    bytes: 468450
+  - id: p076
+    seq: 76
+    file: Taiwan-Jan-2024-76.jpeg
+    sourceFile: IMG_7976.jpeg
+    exif: '2024-01-18T23:42:35.000Z'
+    flags: []
+    bytes: 402934
+  - id: p077
+    seq: 77
+    file: Taiwan-Jan-2024-77.jpeg
+    sourceFile: IMG_1798.jpeg
+    exif: '2024-01-18T23:50:41.000Z'
+    flags: []
+    bytes: 353217
+  - id: p078
+    seq: 78
+    file: Taiwan-Jan-2024-78.jpeg
+    sourceFile: IMG_7978.jpeg
+    exif: '2024-01-19T00:56:18.000Z'
+    flags: []
+    bytes: 579331
+  - id: p079
+    seq: 79
+    file: Taiwan-Jan-2024-79.jpeg
+    sourceFile: IMG_7980.jpeg
+    exif: '2024-01-19T01:09:50.000Z'
+    flags: []
+    bytes: 362304
+  - id: p080
+    seq: 80
+    file: Taiwan-Jan-2024-80.jpeg
+    sourceFile: IMG_1820.jpeg
+    exif: '2024-01-19T01:11:22.000Z'
+    flags: []
+    bytes: 428699
+  - id: p081
+    seq: 81
+    file: Taiwan-Jan-2024-81.jpeg
+    sourceFile: IMG_1824.jpeg
+    exif: '2024-01-19T01:11:37.000Z'
+    flags: []
+    bytes: 448538
+  - id: p082
+    seq: 82
+    file: Taiwan-Jan-2024-82.jpeg
+    sourceFile: IMG_7982.jpeg
+    exif: '2024-01-19T01:49:32.000Z'
+    flags: []
+    bytes: 303606
+  - id: p083
+    seq: 83
+    file: Taiwan-Jan-2024-83.jpeg
+    sourceFile: IMG_1832.jpeg
+    exif: '2024-01-19T01:49:57.000Z'
+    flags: []
+    bytes: 266868
+  - id: p084
+    seq: 84
+    file: Taiwan-Jan-2024-84.jpeg
+    sourceFile: IMG_7984.jpeg
+    exif: '2024-01-19T01:59:44.000Z'
+    flags: []
+    bytes: 394223
+  - id: p085
+    seq: 85
+    file: Taiwan-Jan-2024-85.jpeg
+    sourceFile: IMG_7986.jpeg
+    exif: '2024-01-19T16:21:28.000Z'
+    flags: []
+    bytes: 396857
+  - id: p086
+    seq: 86
+    file: Taiwan-Jan-2024-86.jpeg
+    sourceFile: IMG_7988.jpeg
+    exif: '2024-01-19T16:27:54.000Z'
+    flags: []
+    bytes: 530876
+  - id: p087
+    seq: 87
+    file: Taiwan-Jan-2024-87.jpeg
+    sourceFile: IMG_7990.jpeg
+    exif: '2024-01-19T17:32:08.000Z'
+    flags: []
+    bytes: 338285
+  - id: p088
+    seq: 88
+    file: Taiwan-Jan-2024-88.jpeg
+    sourceFile: IMG_7993.jpeg
+    exif: '2024-01-19T19:08:45.000Z'
+    flags: []
+    bytes: 360386
+  - id: p089
+    seq: 89
+    file: Taiwan-Jan-2024-89.jpeg
+    sourceFile: IMG_7994.jpeg
+    exif: '2024-01-19T19:16:10.000Z'
+    flags: []
+    bytes: 505753
+  - id: p090
+    seq: 90
+    file: Taiwan-Jan-2024-90.jpeg
+    sourceFile: IMG_7996.jpeg
+    exif: '2024-01-19T19:17:19.000Z'
+    flags: []
+    bytes: 754430
+  - id: p091
+    seq: 91
+    file: Taiwan-Jan-2024-91.jpeg
+    sourceFile: IMG_7997.jpeg
+    exif: '2024-01-19T19:18:46.000Z'
+    flags: []
+    bytes: 434895
+  - id: p092
+    seq: 92
+    file: Taiwan-Jan-2024-92.jpeg
+    sourceFile: IMG_7998.jpeg
+    exif: '2024-01-19T19:20:53.000Z'
+    flags: []
+    bytes: 346530
+  - id: p093
+    seq: 93
+    file: Taiwan-Jan-2024-93.jpeg
+    sourceFile: IMG_7999.jpeg
+    exif: '2024-01-19T19:32:25.000Z'
+    flags: []
+    bytes: 341200
+  - id: p094
+    seq: 94
+    file: Taiwan-Jan-2024-94.jpeg
+    sourceFile: IMG_1855.jpeg
+    exif: '2024-01-19T19:32:59.000Z'
+    flags: []
+    bytes: 378985
+  - id: p095
+    seq: 95
+    file: Taiwan-Jan-2024-95.jpeg
+    sourceFile: IMG_8002.jpeg
+    exif: '2024-01-19T19:44:31.000Z'
+    flags: []
+    bytes: 510115
+  - id: p096
+    seq: 96
+    file: Taiwan-Jan-2024-96.jpeg
+    sourceFile: IMG_1859.jpeg
+    exif: '2024-01-19T19:46:19.000Z'
+    flags: []
+    bytes: 481993
+  - id: p097
+    seq: 97
+    file: Taiwan-Jan-2024-97.jpeg
+    sourceFile: IMG_8008.jpeg
+    exif: '2024-01-20T00:38:00.000Z'
+    flags: []
+    bytes: 394479
+  - id: p098
+    seq: 98
+    file: Taiwan-Jan-2024-98.jpeg
+    sourceFile: IMG_1882.jpeg
+    exif: '2024-01-20T01:08:17.000Z'
+    flags: []
+    bytes: 395513
+  - id: p099
+    seq: 99
+    file: Taiwan-Jan-2024-99.jpeg
+    sourceFile: IMG_1886.jpeg
+    exif: '2024-01-20T13:16:47.000Z'
+    flags: []
+    bytes: 319273
+  - id: p100
+    seq: 100
+    file: Taiwan-Jan-2024-100.jpeg
+    sourceFile: IMG_8011.jpeg
+    exif: '2024-01-20T14:05:03.000Z'
+    flags: []
+    bytes: 493530
+  - id: p101
+    seq: 101
+    file: Taiwan-Jan-2024-101.jpeg
+    sourceFile: IMG_8014.jpeg
+    exif: '2024-01-20T14:45:01.000Z'
+    flags: []
+    bytes: 251287
+  - id: p102
+    seq: 102
+    file: Taiwan-Jan-2024-102.jpeg
+    sourceFile: IMG_1893.jpeg
+    exif: '2024-01-20T14:58:42.000Z'
+    flags: []
+    bytes: 302216
+  - id: p103
+    seq: 103
+    file: Taiwan-Jan-2024-103.jpeg
+    sourceFile: IMG_1895.jpeg
+    exif: '2024-01-20T14:58:48.000Z'
+    flags: []
+    bytes: 248258
+  - id: p104
+    seq: 104
+    file: Taiwan-Jan-2024-104.jpeg
+    sourceFile: IMG_1896.jpeg
+    exif: '2024-01-20T14:58:51.000Z'
+    flags: []
+    bytes: 320627
+  - id: p105
+    seq: 105
+    file: Taiwan-Jan-2024-105.jpeg
+    sourceFile: IMG_1897.jpeg
+    exif: '2024-01-20T14:58:53.000Z'
+    flags: []
+    bytes: 369814
+  - id: p106
+    seq: 106
+    file: Taiwan-Jan-2024-106.jpeg
+    sourceFile: IMG_8015.jpeg
+    exif: '2024-01-20T14:59:01.000Z'
+    flags: []
+    bytes: 326851
+  - id: p107
+    seq: 107
+    file: Taiwan-Jan-2024-107.jpeg
+    sourceFile: IMG_8016.jpeg
+    exif: '2024-01-20T15:02:45.000Z'
+    flags: []
+    bytes: 485528
+  - id: p108
+    seq: 108
+    file: Taiwan-Jan-2024-108.jpeg
+    sourceFile: IMG_1904.jpeg
+    exif: '2024-01-20T15:58:10.000Z'
+    flags: []
+    bytes: 418514
+  - id: p109
+    seq: 109
+    file: Taiwan-Jan-2024-109.jpeg
+    sourceFile: IMG_1906.jpeg
+    exif: '2024-01-20T15:58:14.000Z'
+    flags: []
+    bytes: 711788
+  - id: p110
+    seq: 110
+    file: Taiwan-Jan-2024-110.jpeg
+    sourceFile: IMG_1913.jpeg
+    exif: '2024-01-20T15:58:54.000Z'
+    flags: []
+    bytes: 640827
+  - id: p111
+    seq: 111
+    file: Taiwan-Jan-2024-111.jpeg
+    sourceFile: IMG_1923.jpeg
+    exif: '2024-01-20T16:18:50.000Z'
+    flags: []
+    bytes: 526732
+  - id: p112
+    seq: 112
+    file: Taiwan-Jan-2024-112.jpeg
+    sourceFile: IMG_1926.jpeg
+    exif: '2024-01-20T16:19:04.000Z'
+    flags: []
+    bytes: 526480
+  - id: p113
+    seq: 113
+    file: Taiwan-Jan-2024-113.jpeg
+    sourceFile: IMG_1928.jpeg
+    exif: '2024-01-20T16:19:23.000Z'
+    flags: []
+    bytes: 533653
+  - id: p114
+    seq: 114
+    file: Taiwan-Jan-2024-114.jpeg
+    sourceFile: IMG_8019.jpeg
+    exif: '2024-01-20T16:19:38.000Z'
+    flags: []
+    bytes: 514095
+  - id: p115
+    seq: 115
+    file: Taiwan-Jan-2024-115.jpeg
+    sourceFile: IMG_1931.jpeg
+    exif: '2024-01-20T16:20:02.000Z'
+    flags: []
+    bytes: 521814
+  - id: p116
+    seq: 116
+    file: Taiwan-Jan-2024-116.jpeg
+    sourceFile: IMG_1932.jpeg
+    exif: '2024-01-20T16:20:09.000Z'
+    flags: []
+    bytes: 881239
+  - id: p117
+    seq: 117
+    file: Taiwan-Jan-2024-117.jpeg
+    sourceFile: IMG_8020.jpeg
+    exif: '2024-01-20T17:00:09.000Z'
+    flags: []
+    bytes: 809464
+  - id: p118
+    seq: 118
+    file: Taiwan-Jan-2024-118.jpeg
+    sourceFile: IMG_1946.jpeg
+    exif: '2024-01-20T17:03:39.000Z'
+    flags: []
+    bytes: 555648
+  - id: p119
+    seq: 119
+    file: Taiwan-Jan-2024-119.jpeg
+    sourceFile: IMG_1960.jpeg
+    exif: '2024-01-20T17:09:22.000Z'
+    flags: []
+    bytes: 775600
+  - id: p120
+    seq: 120
+    file: Taiwan-Jan-2024-120.jpeg
+    sourceFile: IMG_8021.jpeg
+    exif: '2024-01-20T17:13:47.000Z'
+    flags: []
+    bytes: 862122
+  - id: p121
+    seq: 121
+    file: Taiwan-Jan-2024-121.jpeg
+    sourceFile: IMG_1963.jpeg
+    exif: '2024-01-20T17:14:40.000Z'
+    flags: []
+    bytes: 1011420
+  - id: p122
+    seq: 122
+    file: Taiwan-Jan-2024-122.jpeg
+    sourceFile: IMG_1966.jpeg
+    exif: '2024-01-20T17:16:22.000Z'
+    flags: []
+    bytes: 702879
+  - id: p123
+    seq: 123
+    file: Taiwan-Jan-2024-123.jpeg
+    sourceFile: IMG_8023.jpeg
+    exif: '2024-01-20T17:19:55.000Z'
+    flags: []
+    bytes: 288071
+  - id: p124
+    seq: 124
+    file: Taiwan-Jan-2024-124.jpeg
+    sourceFile: IMG_8026.jpeg
+    exif: '2024-01-20T17:20:23.000Z'
+    flags: []
+    bytes: 293645
+  - id: p125
+    seq: 125
+    file: Taiwan-Jan-2024-125.jpeg
+    sourceFile: IMG_8027.jpeg
+    exif: '2024-01-20T17:20:42.000Z'
+    flags: []
+    bytes: 295142
+  - id: p126
+    seq: 126
+    file: Taiwan-Jan-2024-126.jpeg
+    sourceFile: IMG_8029.jpeg
+    exif: '2024-01-20T17:21:12.000Z'
+    flags: []
+    bytes: 657098
+  - id: p127
+    seq: 127
+    file: Taiwan-Jan-2024-127.jpeg
+    sourceFile: IMG_1970.jpeg
+    exif: '2024-01-20T17:31:01.000Z'
+    flags: []
+    bytes: 963299
+  - id: p128
+    seq: 128
+    file: Taiwan-Jan-2024-128.jpeg
+    sourceFile: IMG_1995.jpeg
+    exif: '2024-01-20T17:56:43.000Z'
+    flags: []
+    bytes: 989455
+  - id: p129
+    seq: 129
+    file: Taiwan-Jan-2024-129.jpeg
+    sourceFile: IMG_8036.jpeg
+    exif: '2024-01-20T18:30:47.000Z'
+    flags: []
+    bytes: 780458
+  - id: p130
+    seq: 130
+    file: Taiwan-Jan-2024-130.jpeg
+    sourceFile: IMG_8041.jpeg
+    exif: '2024-01-20T19:31:17.000Z'
+    flags: []
+    bytes: 490444
+  - id: p131
+    seq: 131
+    file: Taiwan-Jan-2024-131.jpeg
+    sourceFile: IMG_2014.jpeg
+    exif: '2024-01-20T19:32:06.000Z'
+    flags: []
+    bytes: 479944
+  - id: p132
+    seq: 132
+    file: Taiwan-Jan-2024-132.jpeg
+    sourceFile: IMG_2017.jpeg
+    exif: '2024-01-20T19:32:48.000Z'
+    flags: []
+    bytes: 522947
+  - id: p133
+    seq: 133
+    file: Taiwan-Jan-2024-133.jpeg
+    sourceFile: IMG_2030.jpeg
+    exif: '2024-01-20T19:49:25.000Z'
+    flags: []
+    bytes: 528710
+  - id: p134
+    seq: 134
+    file: Taiwan-Jan-2024-134.jpeg
+    sourceFile: IMG_2035.jpeg
+    exif: '2024-01-20T19:50:06.000Z'
+    flags: []
+    bytes: 584184
+  - id: p135
+    seq: 135
+    file: Taiwan-Jan-2024-135.jpeg
+    sourceFile: IMG_2038.jpeg
+    exif: '2024-01-20T19:50:40.000Z'
+    flags: []
+    bytes: 555369
+  - id: p136
+    seq: 136
+    file: Taiwan-Jan-2024-136.jpeg
+    sourceFile: IMG_2041.jpeg
+    exif: '2024-01-20T19:52:21.000Z'
+    flags: []
+    bytes: 748952
+  - id: p137
+    seq: 137
+    file: Taiwan-Jan-2024-137.jpeg
+    sourceFile: IMG_8044.jpeg
+    exif: '2024-01-20T19:54:57.000Z'
+    flags: []
+    bytes: 878499
+  - id: p138
+    seq: 138
+    file: Taiwan-Jan-2024-138.jpeg
+    sourceFile: IMG_8046.jpeg
+    exif: '2024-01-20T19:55:21.000Z'
+    flags: []
+    bytes: 534746
+  - id: p139
+    seq: 139
+    file: Taiwan-Jan-2024-139.jpeg
+    sourceFile: IMG_2050.jpeg
+    exif: '2024-01-20T19:56:38.000Z'
+    flags: []
+    bytes: 799204
+  - id: p140
+    seq: 140
+    file: Taiwan-Jan-2024-140.jpeg
+    sourceFile: IMG_2063.jpeg
+    exif: '2024-01-20T19:59:20.000Z'
+    flags: []
+    bytes: 1028605
+  - id: p141
+    seq: 141
+    file: Taiwan-Jan-2024-141.jpeg
+    sourceFile: IMG_8047.jpeg
+    exif: '2024-01-20T20:01:58.000Z'
+    flags: []
+    bytes: 785054
+  - id: p142
+    seq: 142
+    file: Taiwan-Jan-2024-142.jpeg
+    sourceFile: IMG_8049.jpeg
+    exif: '2024-01-20T20:02:32.000Z'
+    flags: []
+    bytes: 341406
+  - id: p143
+    seq: 143
+    file: Taiwan-Jan-2024-143.jpeg
+    sourceFile: IMG_8050.jpeg
+    exif: '2024-01-20T20:08:14.000Z'
+    flags: []
+    bytes: 1108879
+  - id: p144
+    seq: 144
+    file: Taiwan-Jan-2024-144.jpeg
+    sourceFile: IMG_2073.jpeg
+    exif: '2024-01-20T20:12:53.000Z'
+    flags: []
+    bytes: 509295
+  - id: p145
+    seq: 145
+    file: Taiwan-Jan-2024-145.jpeg
+    sourceFile: IMG_2079.jpeg
+    exif: '2024-01-20T20:14:36.000Z'
+    flags: []
+    bytes: 545637
+  - id: p146
+    seq: 146
+    file: Taiwan-Jan-2024-146.jpeg
+    sourceFile: IMG_2082.jpeg
+    exif: '2024-01-20T20:14:54.000Z'
+    flags: []
+    bytes: 425014
+  - id: p147
+    seq: 147
+    file: Taiwan-Jan-2024-147.jpeg
+    sourceFile: IMG_2097.jpeg
+    exif: '2024-01-20T20:20:02.000Z'
+    flags: []
+    bytes: 527845
+  - id: p148
+    seq: 148
+    file: Taiwan-Jan-2024-148.jpeg
+    sourceFile: IMG_2108.jpeg
+    exif: '2024-01-20T20:37:34.000Z'
+    flags: []
+    bytes: 564971
+  - id: p149
+    seq: 149
+    file: Taiwan-Jan-2024-149.jpeg
+    sourceFile: IMG_2121.jpeg
+    exif: '2024-01-21T02:24:27.000Z'
+    flags: []
+    bytes: 374040
+  - id: p150
+    seq: 150
+    file: Taiwan-Jan-2024-150.jpeg
+    sourceFile: IMG_8063.jpeg
+    exif: '2024-01-21T02:49:21.000Z'
+    flags: []
+    bytes: 464783
+  - id: p151
+    seq: 151
+    file: Taiwan-Jan-2024-151.jpeg
+    sourceFile: IMG_8065.jpeg
+    exif: '2024-01-21T02:49:25.000Z'
+    flags: []
+    bytes: 465982
+  - id: p152
+    seq: 152
+    file: Taiwan-Jan-2024-152.jpeg
+    sourceFile: IMG_8067.jpeg
+    exif: '2024-01-21T02:49:36.000Z'
+    flags: []
+    bytes: 410989
+  - id: p153
+    seq: 153
+    file: Taiwan-Jan-2024-153.jpeg
+    sourceFile: IMG_8070.jpeg
+    exif: '2024-01-21T02:49:42.000Z'
+    flags: []
+    bytes: 378143
+  - id: p154
+    seq: 154
+    file: Taiwan-Jan-2024-154.jpeg
+    sourceFile: IMG_8071.jpeg
+    exif: '2024-01-21T02:49:47.000Z'
+    flags: []
+    bytes: 407254
+  - id: p155
+    seq: 155
+    file: Taiwan-Jan-2024-155.jpeg
+    sourceFile: IMG_8073.jpeg
+    exif: '2024-01-21T03:54:33.000Z'
+    flags: []
+    bytes: 270446
+  - id: p156
+    seq: 156
+    file: Taiwan-Jan-2024-156.jpeg
+    sourceFile: IMG_2135.jpeg
+    exif: '2024-01-21T13:13:43.000Z'
+    flags: []
+    bytes: 312400
+  - id: p157
+    seq: 157
+    file: Taiwan-Jan-2024-157.jpeg
+    sourceFile: IMG_2140.jpeg
+    exif: '2024-01-21T13:13:56.000Z'
+    flags: []
+    bytes: 224032
+  - id: p158
+    seq: 158
+    file: Taiwan-Jan-2024-158.jpeg
+    sourceFile: IMG_2143.jpeg
+    exif: '2024-01-21T13:14:03.000Z'
+    flags: []
+    bytes: 341686
+  - id: p159
+    seq: 159
+    file: Taiwan-Jan-2024-159.jpeg
+    sourceFile: IMG_2144.jpeg
+    exif: '2024-01-21T13:15:27.000Z'
+    flags: []
+    bytes: 227914
+  - id: p160
+    seq: 160
+    file: Taiwan-Jan-2024-160.jpeg
+    sourceFile: IMG_2147.jpeg
+    exif: '2024-01-21T13:15:33.000Z'
+    flags: []
+    bytes: 246205
+  - id: p161
+    seq: 161
+    file: Taiwan-Jan-2024-161.jpeg
+    sourceFile: IMG_2149.jpeg
+    exif: '2024-01-21T13:15:58.000Z'
+    flags: []
+    bytes: 407023
+  - id: p162
+    seq: 162
+    file: Taiwan-Jan-2024-162.jpeg
+    sourceFile: IMG_2182.jpeg
+    exif: '2024-01-21T14:21:10.000Z'
+    flags: []
+    bytes: 402750
+  - id: p163
+    seq: 163
+    file: Taiwan-Jan-2024-163.jpeg
+    sourceFile: IMG_8081.jpeg
+    exif: '2024-01-21T14:25:07.000Z'
+    flags: []
+    bytes: 492808
+  - id: p164
+    seq: 164
+    file: Taiwan-Jan-2024-164.jpeg
+    sourceFile: IMG_2186.jpeg
+    exif: '2024-01-21T14:26:21.000Z'
+    flags: []
+    bytes: 313507
+  - id: p165
+    seq: 165
+    file: Taiwan-Jan-2024-165.jpeg
+    sourceFile: IMG_8086.jpeg
+    exif: '2024-01-21T14:36:17.000Z'
+    flags: []
+    bytes: 246147
+  - id: p166
+    seq: 166
+    file: Taiwan-Jan-2024-166.jpeg
+    sourceFile: IMG_8088.jpeg
+    exif: '2024-01-21T15:34:13.000Z'
+    flags: []
+    bytes: 455697
+  - id: p167
+    seq: 167
+    file: Taiwan-Jan-2024-167.jpeg
+    sourceFile: IMG_8089.jpeg
+    exif: '2024-01-21T15:42:52.000Z'
+    flags: []
+    bytes: 532383
+  - id: p168
+    seq: 168
+    file: Taiwan-Jan-2024-168.jpeg
+    sourceFile: IMG_8090.jpeg
+    exif: '2024-01-21T15:45:30.000Z'
+    flags: []
+    bytes: 512668
+  - id: p169
+    seq: 169
+    file: Taiwan-Jan-2024-169.jpeg
+    sourceFile: IMG_8092.jpeg
+    exif: '2024-01-21T17:03:54.000Z'
+    flags: []
+    bytes: 395285
+  - id: p170
+    seq: 170
+    file: Taiwan-Jan-2024-170.jpeg
+    sourceFile: IMG_8093.jpeg
+    exif: '2024-01-21T17:04:30.000Z'
+    flags: []
+    bytes: 516802
+  - id: p171
+    seq: 171
+    file: Taiwan-Jan-2024-171.jpeg
+    sourceFile: IMG_8095.jpeg
+    exif: '2024-01-21T17:04:53.000Z'
+    flags: []
+    bytes: 302841
+  - id: p172
+    seq: 172
+    file: Taiwan-Jan-2024-172.jpeg
+    sourceFile: IMG_8096.jpeg
+    exif: '2024-01-21T17:12:24.000Z'
+    flags: []
+    bytes: 464851
+  - id: p173
+    seq: 173
+    file: Taiwan-Jan-2024-173.jpeg
+    sourceFile: IMG_8098.jpeg
+    exif: '2024-01-21T17:12:45.000Z'
+    flags: []
+    bytes: 488141
+  - id: p174
+    seq: 174
+    file: Taiwan-Jan-2024-174.jpeg
+    sourceFile: IMG_2259.jpeg
+    exif: '2024-01-21T17:15:31.000Z'
+    flags: []
+    bytes: 224140
+  - id: p175
+    seq: 175
+    file: Taiwan-Jan-2024-175.jpeg
+    sourceFile: IMG_2263.jpeg
+    exif: '2024-01-21T17:38:46.000Z'
+    flags: []
+    bytes: 375549
+  - id: p176
+    seq: 176
+    file: Taiwan-Jan-2024-176.jpeg
+    sourceFile: IMG_2266.jpeg
+    exif: '2024-01-21T17:39:06.000Z'
+    flags: []
+    bytes: 379291
+  - id: p177
+    seq: 177
+    file: Taiwan-Jan-2024-177.jpeg
+    sourceFile: IMG_2268.jpeg
+    exif: '2024-01-21T17:39:18.000Z'
+    flags: []
+    bytes: 367543
+  - id: p178
+    seq: 178
+    file: Taiwan-Jan-2024-178.jpeg
+    sourceFile: IMG_8101.jpeg
+    exif: '2024-01-21T17:39:55.000Z'
+    flags: []
+    bytes: 564434
+  - id: p179
+    seq: 179
+    file: Taiwan-Jan-2024-179.jpeg
+    sourceFile: IMG_2283.jpeg
+    exif: '2024-01-21T17:46:06.000Z'
+    flags: []
+    bytes: 297964
+  - id: p180
+    seq: 180
+    file: Taiwan-Jan-2024-180.jpeg
+    sourceFile: IMG_8102.jpeg
+    exif: '2024-01-21T17:50:46.000Z'
+    flags: []
+    bytes: 312898
+  - id: p181
+    seq: 181
+    file: Taiwan-Jan-2024-181.jpeg
+    sourceFile: IMG_2309.jpeg
+    exif: '2024-01-21T21:38:48.000Z'
+    flags: []
+    bytes: 456005
+  - id: p182
+    seq: 182
+    file: Taiwan-Jan-2024-182.jpeg
+    sourceFile: IMG_2312.jpeg
+    exif: '2024-01-21T21:38:52.000Z'
+    flags: []
+    bytes: 577589
+  - id: p183
+    seq: 183
+    file: Taiwan-Jan-2024-183.jpeg
+    sourceFile: IMG_8104.jpeg
+    exif: '2024-01-21T21:38:59.000Z'
+    flags: []
+    bytes: 658383
+  - id: p184
+    seq: 184
+    file: Taiwan-Jan-2024-184.jpeg
+    sourceFile: IMG_8110.jpeg
+    exif: '2024-01-21T21:46:39.000Z'
+    flags: []
+    bytes: 427921
+  - id: p185
+    seq: 185
+    file: Taiwan-Jan-2024-185.jpeg
+    sourceFile: IMG_8113.jpeg
+    exif: '2024-01-21T21:49:29.000Z'
+    flags: []
+    bytes: 497058
+  - id: p186
+    seq: 186
+    file: Taiwan-Jan-2024-186.jpeg
+    sourceFile: IMG_8115.jpeg
+    exif: '2024-01-21T21:53:22.000Z'
+    flags: []
+    bytes: 723360
+  - id: p187
+    seq: 187
+    file: Taiwan-Jan-2024-187.jpeg
+    sourceFile: IMG_2317.jpeg
+    exif: '2024-01-21T21:54:15.000Z'
+    flags: []
+    bytes: 509237
+  - id: p188
+    seq: 188
+    file: Taiwan-Jan-2024-188.jpeg
+    sourceFile: IMG_2329.jpeg
+    exif: '2024-01-22T02:53:19.000Z'
+    flags: []
+    bytes: 437182
+  - id: p189
+    seq: 189
+    file: Taiwan-Jan-2024-189.jpeg
+    sourceFile: IMG_2330.jpeg
+    exif: '2024-01-22T02:53:30.000Z'
+    flags: []
+    bytes: 412428
+  - id: p190
+    seq: 190
+    file: Taiwan-Jan-2024-190.jpeg
+    sourceFile: IMG_2333.jpeg
+    exif: '2024-01-22T02:53:37.000Z'
+    flags: []
+    bytes: 287576
+  - id: p191
+    seq: 191
+    file: Taiwan-Jan-2024-191.jpeg
+    sourceFile: IMG_2335.jpeg
+    exif: '2024-01-22T03:29:15.000Z'
+    flags: []
+    bytes: 648692
+  - id: p192
+    seq: 192
+    file: Taiwan-Jan-2024-192.jpeg
+    sourceFile: IMG_8125.jpeg
+    exif: '2024-01-22T18:18:44.000Z'
+    flags: []
+    bytes: 283822
+  - id: p193
+    seq: 193
+    file: Taiwan-Jan-2024-193.jpeg
+    sourceFile: IMG_8126.jpeg
+    exif: '2024-01-22T18:21:27.000Z'
+    flags: []
+    bytes: 293164
+  - id: p194
+    seq: 194
+    file: Taiwan-Jan-2024-194.jpeg
+    sourceFile: IMG_8127.jpeg
+    exif: '2024-01-22T18:22:55.000Z'
+    flags: []
+    bytes: 357907
+  - id: p195
+    seq: 195
+    file: Taiwan-Jan-2024-195.jpeg
+    sourceFile: IMG_8130.jpeg
+    exif: '2024-01-22T18:23:34.000Z'
+    flags: []
+    bytes: 415224
+  - id: p196
+    seq: 196
+    file: Taiwan-Jan-2024-196.jpeg
+    sourceFile: IMG_8131.jpeg
+    exif: '2024-01-22T18:27:19.000Z'
+    flags: []
+    bytes: 334599
+  - id: p197
+    seq: 197
+    file: Taiwan-Jan-2024-197.jpeg
+    sourceFile: IMG_8132.jpeg
+    exif: '2024-01-22T18:59:39.000Z'
+    flags: []
+    bytes: 265927
+  - id: p198
+    seq: 198
+    file: Taiwan-Jan-2024-198.jpeg
+    sourceFile: IMG_8137.jpeg
+    exif: '2024-01-22T19:38:00.000Z'
+    flags: []
+    bytes: 545121
+  - id: p199
+    seq: 199
+    file: Taiwan-Jan-2024-199.jpeg
+    sourceFile: IMG_8139.jpeg
+    exif: '2024-01-22T19:41:41.000Z'
+    flags: []
+    bytes: 490060
+  - id: p200
+    seq: 200
+    file: Taiwan-Jan-2024-200.jpeg
+    sourceFile: IMG_8140.jpeg
+    exif: '2024-01-22T20:32:14.000Z'
+    flags: []
+    bytes: 372265
+  - id: p201
+    seq: 201
+    file: Taiwan-Jan-2024-201.jpeg
+    sourceFile: IMG_8142.jpeg
+    exif: '2024-01-22T20:32:25.000Z'
+    flags: []
+    bytes: 304435
+  - id: p202
+    seq: 202
+    file: Taiwan-Jan-2024-202.jpeg
+    sourceFile: IMG_8143.jpeg
+    exif: '2024-01-22T20:41:35.000Z'
+    flags: []
+    bytes: 285663
+  - id: p203
+    seq: 203
+    file: Taiwan-Jan-2024-203.jpeg
+    sourceFile: IMG_8144.jpeg
+    exif: '2024-01-22T22:45:13.000Z'
+    flags: []
+    bytes: 365336
+  - id: p204
+    seq: 204
+    file: Taiwan-Jan-2024-204.jpeg
+    sourceFile: IMG_8148.jpeg
+    exif: '2024-01-23T04:31:32.000Z'
+    flags: []
+    bytes: 260872
+  - id: p205
+    seq: 205
+    file: Taiwan-Jan-2024-205.jpeg
+    sourceFile: IMG_8151.jpeg
+    exif: '2024-01-23T17:59:41.000Z'
+    flags: []
+    bytes: 468917
+  - id: p206
+    seq: 206
+    file: Taiwan-Jan-2024-206.jpeg
+    sourceFile: IMG_8152.jpeg
+    exif: '2024-01-23T17:59:43.000Z'
+    flags: []
+    bytes: 339717
+  - id: p207
+    seq: 207
+    file: Taiwan-Jan-2024-207.jpeg
+    sourceFile: IMG_8153.jpeg
+    exif: '2024-01-23T23:21:18.000Z'
+    flags: []
+    bytes: 324432
+  - id: p208
+    seq: 208
+    file: Taiwan-Jan-2024-208.jpeg
+    sourceFile: IMG_8155.jpeg
+    exif: '2024-01-24T00:17:51.000Z'
+    flags: []
+    bytes: 339121
+  - id: p209
+    seq: 209
+    file: Taiwan-Jan-2024-209.jpeg
+    sourceFile: IMG_8156.jpeg
+    exif: '2024-01-24T00:20:40.000Z'
+    flags: []
+    bytes: 337081
+  - id: p210
+    seq: 210
+    file: Taiwan-Jan-2024-210.jpeg
+    sourceFile: IMG_2379.jpeg
+    exif: '2024-01-24T00:22:52.000Z'
+    flags: []
+    bytes: 250064
+  - id: p211
+    seq: 211
+    file: Taiwan-Jan-2024-211.jpeg
+    sourceFile: IMG_2400.jpeg
+    exif: '2024-01-24T00:27:32.000Z'
+    flags: []
+    bytes: 193203
+  - id: p212
+    seq: 212
+    file: Taiwan-Jan-2024-212.jpeg
+    sourceFile: IMG_2402.jpeg
+    exif: '2024-01-24T00:27:37.000Z'
+    flags: []
+    bytes: 258174
+  - id: p213
+    seq: 213
+    file: Taiwan-Jan-2024-213.jpeg
+    sourceFile: IMG_8161.jpeg
+    exif: '2024-01-24T00:31:03.000Z'
+    flags: []
+    bytes: 211650
+  - id: p214
+    seq: 214
+    file: Taiwan-Jan-2024-214.jpeg
+    sourceFile: IMG_8423.jpeg
+    exif: '2024-01-24T17:23:28.000Z'
+    flags: []
+    bytes: 425635
+  - id: p215
+    seq: 215
+    file: Taiwan-Jan-2024-215.jpeg
+    sourceFile: IMG_8424.jpeg
+    exif: '2024-01-24T17:24:13.000Z'
+    flags: []
+    bytes: 497364
+  - id: p216
+    seq: 216
+    file: Taiwan-Jan-2024-216.jpeg
+    sourceFile: IMG_8425.jpeg
+    exif: '2024-01-24T17:24:27.000Z'
+    flags: []
+    bytes: 474165
+  - id: p217
+    seq: 217
+    file: Taiwan-Jan-2024-217.jpeg
+    sourceFile: IMG_8428.jpeg
+    exif: '2024-01-24T18:17:09.000Z'
+    flags: []
+    bytes: 494149
+  - id: p218
+    seq: 218
+    file: Taiwan-Jan-2024-218.jpeg
+    sourceFile: IMG_8430.jpeg
+    exif: '2024-01-24T19:09:39.000Z'
+    flags: []
+    bytes: 439918
+  - id: p219
+    seq: 219
+    file: Taiwan-Jan-2024-219.jpeg
+    sourceFile: IMG_8431.jpeg
+    exif: '2024-01-24T19:12:58.000Z'
+    flags: []
+    bytes: 427147
+  - id: p220
+    seq: 220
+    file: Taiwan-Jan-2024-220.jpeg
+    sourceFile: IMG_8433.jpeg
+    exif: '2024-01-24T20:03:14.000Z'
+    flags: []
+    bytes: 624310
+  - id: p221
+    seq: 221
+    file: Taiwan-Jan-2024-221.jpeg
+    sourceFile: IMG_8435.jpeg
+    exif: '2024-01-24T20:04:24.000Z'
+    flags: []
+    bytes: 477715
+  - id: p222
+    seq: 222
+    file: Taiwan-Jan-2024-222.jpeg
+    sourceFile: IMG_8436.jpeg
+    exif: '2024-01-24T20:04:36.000Z'
+    flags: []
+    bytes: 514747
+  - id: p223
+    seq: 223
+    file: Taiwan-Jan-2024-223.jpeg
+    sourceFile: IMG_8438.jpeg
+    exif: '2024-01-24T21:34:50.000Z'
+    flags: []
+    bytes: 439324
+  - id: p224
+    seq: 224
+    file: Taiwan-Jan-2024-224.jpeg
+    sourceFile: IMG_8440.jpeg
+    exif: '2024-01-24T21:35:01.000Z'
+    flags: []
+    bytes: 395296
+  - id: p225
+    seq: 225
+    file: Taiwan-Jan-2024-225.jpeg
+    sourceFile: IMG_8442.jpeg
+    exif: '2024-01-24T23:04:38.000Z'
+    flags: []
+    bytes: 287713
+  - id: p226
+    seq: 226
+    file: Taiwan-Jan-2024-226.jpeg
+    sourceFile: IMG_8443.jpeg
+    exif: '2024-01-24T23:04:45.000Z'
+    flags: []
+    bytes: 495037
+  - id: p227
+    seq: 227
+    file: Taiwan-Jan-2024-227.jpeg
+    sourceFile: IMG_8446.jpeg
+    exif: '2024-01-24T23:07:33.000Z'
+    flags: []
+    bytes: 364669
+  - id: p228
+    seq: 228
+    file: Taiwan-Jan-2024-228.jpeg
+    sourceFile: IMG_8447.jpeg
+    exif: '2024-01-24T23:14:02.000Z'
+    flags: []
+    bytes: 328622
+  - id: p229
+    seq: 229
+    file: Taiwan-Jan-2024-229.jpeg
+    sourceFile: IMG_8448.jpeg
+    exif: '2024-01-24T23:37:56.000Z'
+    flags: []
+    bytes: 365356
+  - id: p230
+    seq: 230
+    file: Taiwan-Jan-2024-230.jpeg
+    sourceFile: IMG_8449.jpeg
+    exif: '2024-01-24T23:55:58.000Z'
+    flags: []
+    bytes: 555119
+  - id: p231
+    seq: 231
+    file: Taiwan-Jan-2024-231.jpeg
+    sourceFile: IMG_8452.jpeg
+    exif: '2024-01-25T20:57:15.000Z'
+    flags: []
+    bytes: 460492
+  - id: p232
+    seq: 232
+    file: Taiwan-Jan-2024-232.jpeg
+    sourceFile: IMG_8454.jpeg
+    exif: '2024-01-25T20:58:34.000Z'
+    flags: []
+    bytes: 463679
+  - id: p233
+    seq: 233
+    file: Taiwan-Jan-2024-233.jpeg
+    sourceFile: IMG_2525.jpeg
+    exif: '2024-01-25T20:58:39.000Z'
+    flags: []
+    bytes: 395424
+  - id: p234
+    seq: 234
+    file: Taiwan-Jan-2024-234.jpeg
+    sourceFile: IMG_2529.jpeg
+    exif: '2024-01-25T20:59:43.000Z'
+    flags: []
+    bytes: 552778
+  - id: p235
+    seq: 235
+    file: Taiwan-Jan-2024-235.jpeg
+    sourceFile: IMG_8463.jpeg
+    exif: '2024-01-26T00:22:20.000Z'
+    flags: []
+    bytes: 288803
+  - id: p236
+    seq: 236
+    file: Taiwan-Jan-2024-236.jpeg
+    sourceFile: IMG_8465.jpeg
+    exif: '2024-01-26T02:30:55.000Z'
+    flags: []
+    bytes: 374715
+  - id: p237
+    seq: 237
+    file: Taiwan-Jan-2024-237.jpeg
+    sourceFile: IMG_8467.jpeg
+    exif: '2024-01-26T02:31:06.000Z'
+    flags: []
+    bytes: 366815
+  - id: p238
+    seq: 238
+    file: Taiwan-Jan-2024-238.jpeg
+    sourceFile: IMG_8470.jpeg
+    exif: '2024-01-26T03:09:35.000Z'
+    flags: []
+    bytes: 281772
+  - id: p239
+    seq: 239
+    file: Taiwan-Jan-2024-239.jpeg
+    sourceFile: IMG_8472.jpeg
+    exif: '2024-01-26T12:25:43.000Z'
+    flags: []
+    bytes: 430995
+sections: []
+pages:
+  - file: Taiwan-Jan-2024-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-27T00:02:40.850Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []

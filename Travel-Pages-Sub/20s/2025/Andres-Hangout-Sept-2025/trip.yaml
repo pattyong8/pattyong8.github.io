@@ -1,0 +1,75 @@
+schemaVersion: 1
+title: Andres Hangout
+slug: Andres-Hangout-Sept-2025
+section: 20s
+year: '2025'
+dateRange: Sept 2025
+startDate: '2025-09-20'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Andres-Hangout-Sept-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Andres-Hangout-Sept-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Andres-Hangout-Sept-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Andres-Hangout-Sept-2025-1.jpeg
+    sourceFile: IMG_8975.jpeg
+    exif: '2025-09-20T17:53:23.000Z'
+    flags: []
+    bytes: 385160
+  - id: p002
+    seq: 2
+    file: Andres-Hangout-Sept-2025-2.jpeg
+    sourceFile: IMG_8976.jpeg
+    exif: '2025-09-20T17:53:28.000Z'
+    flags: []
+    bytes: 401887
+  - id: p003
+    seq: 3
+    file: Andres-Hangout-Sept-2025-3.jpeg
+    sourceFile: IMG_8979.jpeg
+    exif: '2025-09-20T17:55:06.000Z'
+    flags: []
+    bytes: 417030
+  - id: p004
+    seq: 4
+    file: Andres-Hangout-Sept-2025-4.jpeg
+    sourceFile: IMG_8985.jpeg
+    exif: '2025-09-20T18:21:52.000Z'
+    flags: []
+    bytes: 371751
+  - id: p005
+    seq: 5
+    file: Andres-Hangout-Sept-2025-5.jpeg
+    sourceFile: IMG_8986.jpeg
+    exif: '2025-09-20T18:21:56.000Z'
+    flags: []
+    bytes: 254951
+  - id: p006
+    seq: 6
+    file: Andres-Hangout-Sept-2025-6.jpeg
+    sourceFile: IMG_8989.jpeg
+    exif: '2025-09-20T21:10:07.000Z'
+    flags: []
+    bytes: 381339
+  - id: p007
+    seq: 7
+    file: Andres-Hangout-Sept-2025-7.jpeg
+    sourceFile: IMG_8990.jpeg
+    exif: '2025-09-20T23:45:17.000Z'
+    flags: []
+    bytes: 257083
+sections: []
+pages:
+  - file: Andres-Hangout-Sept-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:20:49.740Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Sept-Andres-Hangout-2025.jpeg

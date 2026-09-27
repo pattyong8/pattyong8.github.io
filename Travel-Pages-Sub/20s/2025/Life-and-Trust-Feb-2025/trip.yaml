@@ -1,0 +1,68 @@
+schemaVersion: 1
+title: Life & Trust
+slug: Life-and-Trust-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Feb 2025
+startDate: '2025-02-01'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Life-and-Trust-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Life-and-Trust-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Life-and-Trust-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Life-and-Trust-Feb-2025-1.jpeg
+    sourceFile: IMG_5133.jpeg
+    exif: '2025-02-01T23:25:03.000Z'
+    flags: []
+    bytes: 528282
+  - id: p002
+    seq: 2
+    file: Life-and-Trust-Feb-2025-2.jpeg
+    sourceFile: IMG_5137.jpeg
+    exif: '2025-02-01T23:25:37.000Z'
+    flags: []
+    bytes: 570420
+  - id: p003
+    seq: 3
+    file: Life-and-Trust-Feb-2025-3.jpeg
+    sourceFile: IMG_5139.jpeg
+    exif: '2025-02-01T23:47:52.000Z'
+    flags: []
+    bytes: 563606
+  - id: p004
+    seq: 4
+    file: Life-and-Trust-Feb-2025-4.jpeg
+    sourceFile: IMG_5140.jpeg
+    exif: '2025-02-02T00:39:40.000Z'
+    flags: []
+    bytes: 284634
+  - id: p005
+    seq: 5
+    file: Life-and-Trust-Feb-2025-5.jpeg
+    sourceFile: IMG_5141.jpeg
+    exif: '2025-02-02T03:03:17.000Z'
+    flags: []
+    bytes: 315145
+  - id: p006
+    seq: 6
+    file: Life-and-Trust-Feb-2025-6.jpeg
+    sourceFile: IMG_5143.jpeg
+    exif: '2025-02-02T03:05:08.000Z'
+    flags: []
+    bytes: 468085
+sections: []
+pages:
+  - file: Life-and-Trust-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:16.740Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Feb-Life-and-Trust-2025.jpeg

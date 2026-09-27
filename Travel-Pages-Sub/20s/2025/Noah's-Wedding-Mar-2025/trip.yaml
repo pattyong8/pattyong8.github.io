@@ -1,0 +1,110 @@
+schemaVersion: 1
+title: Noah's Wedding
+slug: Noah's-Wedding-Mar-2025
+section: 20s
+year: '2025'
+dateRange: Mar 2025
+startDate: '2025-03-14'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Noah's-Wedding-Mar-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Noah's-Wedding-Mar-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Noah's-Wedding-Mar-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Noah's-Wedding-Mar-2025-1.jpeg
+    sourceFile: IMG_5593.jpeg
+    exif: '2025-03-14T22:33:23.000Z'
+    flags: []
+    bytes: 447728
+  - id: p002
+    seq: 2
+    file: Noah's-Wedding-Mar-2025-2.jpeg
+    sourceFile: IMG_5595.jpeg
+    exif: '2025-03-14T22:41:32.000Z'
+    flags: []
+    bytes: 519974
+  - id: p003
+    seq: 3
+    file: Noah's-Wedding-Mar-2025-3.jpeg
+    sourceFile: IMG_5596.jpeg
+    exif: '2025-03-14T22:41:34.000Z'
+    flags: []
+    bytes: 714379
+  - id: p004
+    seq: 4
+    file: Noah's-Wedding-Mar-2025-4.jpeg
+    sourceFile: IMG_5599.jpeg
+    exif: '2025-03-14T22:46:14.000Z'
+    flags: []
+    bytes: 615226
+  - id: p005
+    seq: 5
+    file: Noah's-Wedding-Mar-2025-5.jpeg
+    sourceFile: IMG_5600.jpeg
+    exif: '2025-03-14T22:46:17.000Z'
+    flags: []
+    bytes: 480317
+  - id: p006
+    seq: 6
+    file: Noah's-Wedding-Mar-2025-6.jpeg
+    sourceFile: IMG_5614.jpeg
+    exif: '2025-03-15T20:54:34.000Z'
+    flags: []
+    bytes: 421125
+  - id: p007
+    seq: 7
+    file: Noah's-Wedding-Mar-2025-7.jpeg
+    sourceFile: IMG_5617.jpeg
+    exif: '2025-03-15T21:28:07.000Z'
+    flags: []
+    bytes: 508067
+  - id: p008
+    seq: 8
+    file: Noah's-Wedding-Mar-2025-8.jpeg
+    sourceFile: IMG_5618.jpeg
+    exif: '2025-03-15T21:53:26.000Z'
+    flags: []
+    bytes: 552479
+  - id: p009
+    seq: 9
+    file: Noah's-Wedding-Mar-2025-9.jpeg
+    sourceFile: IMG_5620.jpeg
+    exif: '2025-03-15T22:53:51.000Z'
+    flags: []
+    bytes: 250306
+  - id: p010
+    seq: 10
+    file: Noah's-Wedding-Mar-2025-10.jpeg
+    sourceFile: IMG_5622.jpeg
+    exif: '2025-03-16T00:40:10.000Z'
+    flags: []
+    bytes: 537163
+  - id: p011
+    seq: 11
+    file: Noah's-Wedding-Mar-2025-11.jpeg
+    sourceFile: IMG_5625.jpeg
+    exif: '2025-03-16T01:17:55.000Z'
+    flags: []
+    bytes: 495233
+  - id: p012
+    seq: 12
+    file: Noah's-Wedding-Mar-2025-12.jpeg
+    sourceFile: IMG_5630.jpeg
+    exif: '2025-03-16T01:22:50.000Z'
+    flags: []
+    bytes: 546413
+sections: []
+pages:
+  - file: Noah's-Wedding-Mar-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:45.471Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Mar-Noah's-Wedding.jpeg

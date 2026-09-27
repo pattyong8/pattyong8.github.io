@@ -1,0 +1,54 @@
+schemaVersion: 1
+title: Johnny's Wedding
+slug: Johnny's-Wedding-Oct-2025
+section: 20s
+year: '2025'
+dateRange: Oct 2025
+startDate: '2025-10-25'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Johnny's-Wedding-Oct-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Johnny's-Wedding-Oct-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Johnny's-Wedding-Oct-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Johnny's-Wedding-Oct-2025-1.jpeg
+    sourceFile: IMG_9540.jpeg
+    exif: '2025-10-25T22:17:16.000Z'
+    flags: []
+    bytes: 332565
+  - id: p002
+    seq: 2
+    file: Johnny's-Wedding-Oct-2025-2.jpeg
+    sourceFile: IMG_9543.jpeg
+    exif: '2025-10-26T00:35:34.000Z'
+    flags: []
+    bytes: 516287
+  - id: p003
+    seq: 3
+    file: Johnny's-Wedding-Oct-2025-3.jpeg
+    sourceFile: IMG_9544.jpeg
+    exif: '2025-10-26T00:46:08.000Z'
+    flags: []
+    bytes: 337635
+  - id: p004
+    seq: 4
+    file: Johnny's-Wedding-Oct-2025-4.jpeg
+    sourceFile: IMG_9545.jpeg
+    exif: '2025-10-26T01:18:59.000Z'
+    flags: []
+    bytes: 576937
+sections: []
+pages:
+  - file: Johnny's-Wedding-Oct-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:26:20.193Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Oct-Johnny's-Wedding-2025.jpeg

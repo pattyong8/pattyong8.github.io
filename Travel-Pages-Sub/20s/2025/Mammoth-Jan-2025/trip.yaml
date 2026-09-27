@@ -1,0 +1,419 @@
+schemaVersion: 1
+title: Mammoth, CA
+slug: Mammoth-Jan-2025
+section: 20s
+year: '2025'
+dateRange: Jan 2025
+startDate: '2025-01-02'
+location: Mammoth Lakes, California
+people: Friends
+introParagraph: ''
+tripPrefix: Mammoth-Jan-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Mammoth-Jan-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Mammoth-Jan-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Mammoth-Jan-2025-1.jpeg
+    sourceFile: IMG_4764.jpeg
+    exif: '2025-01-02T23:34:11.000Z'
+    flags: []
+    bytes: 288532
+  - id: p002
+    seq: 2
+    file: Mammoth-Jan-2025-2.jpeg
+    sourceFile: IMG_4767.jpeg
+    exif: '2025-01-04T00:32:13.000Z'
+    flags: []
+    bytes: 439815
+  - id: p003
+    seq: 3
+    file: Mammoth-Jan-2025-3.jpeg
+    sourceFile: IMG_4770.jpeg
+    exif: '2025-01-04T01:58:58.000Z'
+    flags: []
+    bytes: 296911
+  - id: p004
+    seq: 4
+    file: Mammoth-Jan-2025-4.jpeg
+    sourceFile: IMG_4772.jpeg
+    exif: '2025-01-04T14:06:07.000Z'
+    flags: []
+    bytes: 253512
+  - id: p005
+    seq: 5
+    file: Mammoth-Jan-2025-5.jpeg
+    sourceFile: IMG_4774.jpeg
+    exif: '2025-01-04T14:34:48.000Z'
+    flags: []
+    bytes: 536530
+  - id: p006
+    seq: 6
+    file: Mammoth-Jan-2025-6.jpeg
+    sourceFile: IMG_4775.jpeg
+    exif: '2025-01-04T14:34:49.000Z'
+    flags: []
+    bytes: 416446
+  - id: p007
+    seq: 7
+    file: Mammoth-Jan-2025-7.jpeg
+    sourceFile: IMG_4778.jpeg
+    exif: '2025-01-04T15:34:20.000Z'
+    flags: []
+    bytes: 358396
+  - id: p008
+    seq: 8
+    file: Mammoth-Jan-2025-8.jpeg
+    sourceFile: IMG_4779.jpeg
+    exif: '2025-01-04T15:34:27.000Z'
+    flags: []
+    bytes: 567954
+  - id: p009
+    seq: 9
+    file: Mammoth-Jan-2025-9.jpeg
+    sourceFile: IMG_4780.jpeg
+    exif: '2025-01-04T15:34:28.000Z'
+    flags: []
+    bytes: 412440
+  - id: p010
+    seq: 10
+    file: Mammoth-Jan-2025-10.jpeg
+    sourceFile: IMG_4782.jpeg
+    exif: '2025-01-04T17:33:25.000Z'
+    flags: []
+    bytes: 662773
+  - id: p011
+    seq: 11
+    file: Mammoth-Jan-2025-11.jpeg
+    sourceFile: IMG_4785.jpeg
+    exif: '2025-01-04T19:28:03.000Z'
+    flags: []
+    bytes: 477637
+  - id: p012
+    seq: 12
+    file: Mammoth-Jan-2025-12.jpeg
+    sourceFile: IMG_4787.jpeg
+    exif: '2025-01-04T19:28:04.000Z'
+    flags: []
+    bytes: 504882
+  - id: p013
+    seq: 13
+    file: Mammoth-Jan-2025-13.jpeg
+    sourceFile: IMG_4788.jpeg
+    exif: '2025-01-04T19:28:47.000Z'
+    flags: []
+    bytes: 263127
+  - id: p014
+    seq: 14
+    file: Mammoth-Jan-2025-14.jpeg
+    sourceFile: IMG_4791.jpeg
+    exif: '2025-01-04T20:17:04.000Z'
+    flags: []
+    bytes: 555638
+  - id: p015
+    seq: 15
+    file: Mammoth-Jan-2025-15.jpeg
+    sourceFile: IMG_4802.jpeg
+    exif: '2025-01-04T23:44:50.000Z'
+    flags: []
+    bytes: 535607
+  - id: p016
+    seq: 16
+    file: Mammoth-Jan-2025-16.jpeg
+    sourceFile: IMG_4803.jpeg
+    exif: '2025-01-05T00:44:58.000Z'
+    flags: []
+    bytes: 344377
+  - id: p017
+    seq: 17
+    file: Mammoth-Jan-2025-17.jpeg
+    sourceFile: IMG_4804.jpeg
+    exif: '2025-01-05T00:45:03.000Z'
+    flags: []
+    bytes: 436019
+  - id: p018
+    seq: 18
+    file: Mammoth-Jan-2025-18.jpeg
+    sourceFile: IMG_4806.jpeg
+    exif: '2025-01-05T00:53:36.000Z'
+    flags: []
+    bytes: 341989
+  - id: p019
+    seq: 19
+    file: Mammoth-Jan-2025-19.jpeg
+    sourceFile: IMG_4808.jpeg
+    exif: '2025-01-05T00:54:11.000Z'
+    flags: []
+    bytes: 283811
+  - id: p020
+    seq: 20
+    file: Mammoth-Jan-2025-20.jpeg
+    sourceFile: IMG_4812.jpeg
+    exif: '2025-01-05T02:38:14.000Z'
+    flags: []
+    bytes: 325249
+  - id: p021
+    seq: 21
+    file: Mammoth-Jan-2025-21.jpeg
+    sourceFile: IMG_4817.jpeg
+    exif: '2025-01-05T03:29:36.000Z'
+    flags: []
+    bytes: 274855
+  - id: p022
+    seq: 22
+    file: Mammoth-Jan-2025-22.jpeg
+    sourceFile: IMG_4821.jpeg
+    exif: '2025-01-05T03:29:49.000Z'
+    flags: []
+    bytes: 349405
+  - id: p023
+    seq: 23
+    file: Mammoth-Jan-2025-23.jpeg
+    sourceFile: IMG_4825.jpeg
+    exif: '2025-01-05T15:42:40.000Z'
+    flags: []
+    bytes: 641563
+  - id: p024
+    seq: 24
+    file: Mammoth-Jan-2025-24.jpeg
+    sourceFile: IMG_4827.jpeg
+    exif: '2025-01-05T17:23:39.000Z'
+    flags: []
+    bytes: 610078
+  - id: p025
+    seq: 25
+    file: Mammoth-Jan-2025-25.jpeg
+    sourceFile: IMG_4828.jpeg
+    exif: '2025-01-05T17:33:23.000Z'
+    flags: []
+    bytes: 925756
+  - id: p026
+    seq: 26
+    file: Mammoth-Jan-2025-26.jpeg
+    sourceFile: IMG_4840.jpeg
+    exif: '2025-01-05T18:41:56.000Z'
+    flags: []
+    bytes: 358097
+  - id: p027
+    seq: 27
+    file: Mammoth-Jan-2025-27.jpeg
+    sourceFile: IMG_4842.jpeg
+    exif: '2025-01-05T18:42:21.000Z'
+    flags: []
+    bytes: 365747
+  - id: p028
+    seq: 28
+    file: Mammoth-Jan-2025-28.jpeg
+    sourceFile: IMG_4843.jpeg
+    exif: '2025-01-05T18:42:26.000Z'
+    flags: []
+    bytes: 335825
+  - id: p029
+    seq: 29
+    file: Mammoth-Jan-2025-29.jpeg
+    sourceFile: IMG_4846.jpeg
+    exif: '2025-01-05T19:46:04.000Z'
+    flags: []
+    bytes: 633724
+  - id: p030
+    seq: 30
+    file: Mammoth-Jan-2025-30.jpeg
+    sourceFile: IMG_4848.jpeg
+    exif: '2025-01-05T19:59:32.000Z'
+    flags: []
+    bytes: 655559
+  - id: p031
+    seq: 31
+    file: Mammoth-Jan-2025-31.jpeg
+    sourceFile: IMG_4849.jpeg
+    exif: '2025-01-05T19:59:38.000Z'
+    flags: []
+    bytes: 642282
+  - id: p032
+    seq: 32
+    file: Mammoth-Jan-2025-32.jpeg
+    sourceFile: IMG_4853.jpeg
+    exif: '2025-01-05T20:12:40.000Z'
+    flags: []
+    bytes: 515701
+  - id: p033
+    seq: 33
+    file: Mammoth-Jan-2025-33.jpeg
+    sourceFile: IMG_4861.jpeg
+    exif: '2025-01-05T20:14:20.000Z'
+    flags: []
+    bytes: 380027
+  - id: p034
+    seq: 34
+    file: Mammoth-Jan-2025-34.jpeg
+    sourceFile: IMG_4863.jpeg
+    exif: '2025-01-05T20:14:35.000Z'
+    flags: []
+    bytes: 609685
+  - id: p035
+    seq: 35
+    file: Mammoth-Jan-2025-35.jpeg
+    sourceFile: IMG_4865.jpeg
+    exif: '2025-01-05T20:19:20.000Z'
+    flags: []
+    bytes: 373906
+  - id: p036
+    seq: 36
+    file: Mammoth-Jan-2025-36.jpeg
+    sourceFile: IMG_4866.jpeg
+    exif: '2025-01-05T20:41:45.000Z'
+    flags: []
+    bytes: 605712
+  - id: p037
+    seq: 37
+    file: Mammoth-Jan-2025-37.jpeg
+    sourceFile: IMG_4868.jpeg
+    exif: '2025-01-05T21:07:59.000Z'
+    flags: []
+    bytes: 381723
+  - id: p038
+    seq: 38
+    file: Mammoth-Jan-2025-38.jpeg
+    sourceFile: IMG_4873.jpeg
+    exif: '2025-01-06T00:50:35.000Z'
+    flags: []
+    bytes: 434791
+  - id: p039
+    seq: 39
+    file: Mammoth-Jan-2025-39.jpeg
+    sourceFile: IMG_4874.jpeg
+    exif: '2025-01-06T01:06:56.000Z'
+    flags: []
+    bytes: 343295
+  - id: p040
+    seq: 40
+    file: Mammoth-Jan-2025-40.jpeg
+    sourceFile: IMG_4876.jpeg
+    exif: '2025-01-06T01:19:34.000Z'
+    flags: []
+    bytes: 256598
+  - id: p041
+    seq: 41
+    file: Mammoth-Jan-2025-41.jpeg
+    sourceFile: IMG_4877.jpeg
+    exif: '2025-01-06T01:19:49.000Z'
+    flags: []
+    bytes: 207111
+  - id: p042
+    seq: 42
+    file: Mammoth-Jan-2025-42.jpeg
+    sourceFile: IMG_4878.jpeg
+    exif: '2025-01-06T01:30:16.000Z'
+    flags: []
+    bytes: 319152
+  - id: p043
+    seq: 43
+    file: Mammoth-Jan-2025-43.jpeg
+    sourceFile: IMG_4879.jpeg
+    exif: '2025-01-06T02:09:49.000Z'
+    flags: []
+    bytes: 261491
+  - id: p044
+    seq: 44
+    file: Mammoth-Jan-2025-44.jpeg
+    sourceFile: IMG_4882.jpeg
+    exif: '2025-01-06T14:18:57.000Z'
+    flags: []
+    bytes: 657815
+  - id: p045
+    seq: 45
+    file: Mammoth-Jan-2025-45.jpeg
+    sourceFile: IMG_4884.jpeg
+    exif: '2025-01-06T14:54:45.000Z'
+    flags: []
+    bytes: 536107
+  - id: p046
+    seq: 46
+    file: Mammoth-Jan-2025-46.jpeg
+    sourceFile: IMG_4885.jpeg
+    exif: '2025-01-06T14:54:48.000Z'
+    flags: []
+    bytes: 513372
+  - id: p047
+    seq: 47
+    file: Mammoth-Jan-2025-47.jpeg
+    sourceFile: IMG_4887.jpeg
+    exif: '2025-01-06T16:19:55.000Z'
+    flags: []
+    bytes: 461589
+  - id: p048
+    seq: 48
+    file: Mammoth-Jan-2025-48.jpeg
+    sourceFile: IMG_4891.jpeg
+    exif: '2025-01-06T20:14:52.000Z'
+    flags: []
+    bytes: 839563
+  - id: p049
+    seq: 49
+    file: Mammoth-Jan-2025-49.jpeg
+    sourceFile: IMG_4894.jpeg
+    exif: '2025-01-06T21:28:16.000Z'
+    flags: []
+    bytes: 292770
+  - id: p050
+    seq: 50
+    file: Mammoth-Jan-2025-50.jpeg
+    sourceFile: IMG_4895.jpeg
+    exif: '2025-01-06T22:29:40.000Z'
+    flags: []
+    bytes: 368633
+  - id: p051
+    seq: 51
+    file: Mammoth-Jan-2025-51.jpeg
+    sourceFile: IMG_4896.jpeg
+    exif: '2025-01-06T22:41:51.000Z'
+    flags: []
+    bytes: 257426
+  - id: p052
+    seq: 52
+    file: Mammoth-Jan-2025-52.jpeg
+    sourceFile: IMG_4897.jpeg
+    exif: '2025-01-06T23:18:23.000Z'
+    flags: []
+    bytes: 420832
+  - id: p053
+    seq: 53
+    file: Mammoth-Jan-2025-53.jpeg
+    sourceFile: IMG_4899.jpeg
+    exif: '2025-01-06T23:18:41.000Z'
+    flags: []
+    bytes: 675450
+  - id: p054
+    seq: 54
+    file: Mammoth-Jan-2025-54.jpeg
+    sourceFile: IMG_4902.jpeg
+    exif: '2025-01-07T14:05:11.000Z'
+    flags: []
+    bytes: 369700
+  - id: p055
+    seq: 55
+    file: Mammoth-Jan-2025-55.jpeg
+    sourceFile: IMG_4904.jpeg
+    exif: '2025-01-07T15:06:49.000Z'
+    flags: []
+    bytes: 233754
+  - id: p056
+    seq: 56
+    file: Mammoth-Jan-2025-56.jpeg
+    sourceFile: IMG_4907.jpeg
+    exif: '2025-01-07T15:37:21.000Z'
+    flags: []
+    bytes: 208830
+sections: []
+pages:
+  - file: Mammoth-Jan-2025-1.html
+    sectionIds: []
+skippedVideos:
+  - IMG_4805.MOV
+processReport:
+  processedAt: '2026-09-26T20:52:38.016Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Jan-Mammoth-2025.jpeg

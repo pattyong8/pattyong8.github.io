@@ -1,0 +1,227 @@
+schemaVersion: 1
+title: Beat the Bomb
+slug: Beat-the-Bomb-May-2025
+section: 20s
+year: '2025'
+dateRange: May 2025
+startDate: '2025-05-16'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Beat-the-Bomb-May-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Beat-the-Bomb-May-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Beat-the-Bomb-May-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Beat-the-Bomb-May-2025-1.jpeg
+    sourceFile: IMG_6561.jpeg
+    exif: '2025-05-16T23:31:42.000Z'
+    flags: []
+    bytes: 535920
+  - id: p002
+    seq: 2
+    file: Beat-the-Bomb-May-2025-2.jpeg
+    sourceFile: IMG_6562.jpeg
+    exif: '2025-05-16T23:31:57.000Z'
+    flags: []
+    bytes: 520186
+  - id: p003
+    seq: 3
+    file: Beat-the-Bomb-May-2025-3.jpeg
+    sourceFile: IMG_6567.jpeg
+    exif: '2025-05-16T23:35:36.000Z'
+    flags: []
+    bytes: 511184
+  - id: p004
+    seq: 4
+    file: Beat-the-Bomb-May-2025-4.jpeg
+    sourceFile: IMG_6568.jpeg
+    exif: '2025-05-16T23:43:36.000Z'
+    flags: []
+    bytes: 269553
+  - id: p005
+    seq: 5
+    file: Beat-the-Bomb-May-2025-5.jpeg
+    sourceFile: IMG_6569.jpeg
+    exif: '2025-05-16T23:43:45.000Z'
+    flags: []
+    bytes: 354735
+  - id: p006
+    seq: 6
+    file: Beat-the-Bomb-May-2025-6.jpeg
+    sourceFile: IMG_6570.jpeg
+    exif: '2025-05-16T23:43:56.000Z'
+    flags: []
+    bytes: 433458
+  - id: p007
+    seq: 7
+    file: Beat-the-Bomb-May-2025-7.jpeg
+    sourceFile: IMG_6573.jpeg
+    exif: '2025-05-16T23:53:46.000Z'
+    flags: []
+    bytes: 200505
+  - id: p008
+    seq: 8
+    file: Beat-the-Bomb-May-2025-8.jpeg
+    sourceFile: IMG_6581.jpeg
+    exif: '2025-05-17T00:03:16.000Z'
+    flags: []
+    bytes: 219768
+  - id: p009
+    seq: 9
+    file: Beat-the-Bomb-May-2025-9.jpeg
+    sourceFile: IMG_6582.jpeg
+    exif: '2025-05-17T00:27:47.000Z'
+    flags: []
+    bytes: 232378
+  - id: p010
+    seq: 10
+    file: Beat-the-Bomb-May-2025-10.jpeg
+    sourceFile: IMG_6583.jpeg
+    exif: '2025-05-17T00:27:53.000Z'
+    flags: []
+    bytes: 327135
+  - id: p011
+    seq: 11
+    file: Beat-the-Bomb-May-2025-11.jpeg
+    sourceFile: IMG_6585.jpeg
+    exif: '2025-05-17T01:12:55.000Z'
+    flags: []
+    bytes: 432224
+  - id: p012
+    seq: 12
+    file: Beat-the-Bomb-May-2025-12.jpeg
+    sourceFile: IMG_6589.jpeg
+    exif: '2025-05-17T01:31:17.000Z'
+    flags: []
+    bytes: 224151
+  - id: p013
+    seq: 13
+    file: Beat-the-Bomb-May-2025-13.jpeg
+    sourceFile: IMG_6592.jpeg
+    exif: '2025-05-17T02:12:48.000Z'
+    flags: []
+    bytes: 499629
+  - id: p014
+    seq: 14
+    file: Beat-the-Bomb-May-2025-14.jpeg
+    sourceFile: IMG_6594.jpeg
+    exif: '2025-05-17T02:12:51.000Z'
+    flags: []
+    bytes: 453287
+  - id: p015
+    seq: 15
+    file: Beat-the-Bomb-May-2025-15.jpeg
+    sourceFile: IMG_6595.jpeg
+    exif: '2025-05-17T02:12:53.000Z'
+    flags: []
+    bytes: 477493
+  - id: p016
+    seq: 16
+    file: Beat-the-Bomb-May-2025-16.jpeg
+    sourceFile: IMG_6600.jpeg
+    exif: '2025-05-17T02:12:58.000Z'
+    flags: []
+    bytes: 342082
+  - id: p017
+    seq: 17
+    file: Beat-the-Bomb-May-2025-17.jpeg
+    sourceFile: IMG_6604.jpeg
+    exif: '2025-05-17T02:38:00.000Z'
+    flags: []
+    bytes: 273196
+  - id: p018
+    seq: 18
+    file: Beat-the-Bomb-May-2025-18.jpeg
+    sourceFile: IMG_6605.jpeg
+    exif: '2025-05-17T02:49:20.000Z'
+    flags: []
+    bytes: 323952
+  - id: p019
+    seq: 19
+    file: Beat-the-Bomb-May-2025-19.jpeg
+    sourceFile: IMG_6606.jpeg
+    exif: '2025-05-17T02:49:23.000Z'
+    flags: []
+    bytes: 256922
+  - id: p020
+    seq: 20
+    file: Beat-the-Bomb-May-2025-20.jpeg
+    sourceFile: IMG_6607.jpeg
+    exif: '2025-05-17T02:49:29.000Z'
+    flags: []
+    bytes: 308957
+  - id: p021
+    seq: 21
+    file: Beat-the-Bomb-May-2025-21.jpeg
+    sourceFile: IMG_6608.jpeg
+    exif: '2025-05-17T02:49:33.000Z'
+    flags: []
+    bytes: 378756
+  - id: p022
+    seq: 22
+    file: Beat-the-Bomb-May-2025-22.jpeg
+    sourceFile: IMG_6609.jpeg
+    exif: '2025-05-17T02:49:46.000Z'
+    flags: []
+    bytes: 293321
+  - id: p023
+    seq: 23
+    file: Beat-the-Bomb-May-2025-23.jpeg
+    sourceFile: IMG_6610.jpeg
+    exif: '2025-05-17T02:50:02.000Z'
+    flags: []
+    bytes: 353920
+  - id: p024
+    seq: 24
+    file: Beat-the-Bomb-May-2025-24.jpeg
+    sourceFile: IMG_4979.JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 199387
+  - id: p025
+    seq: 25
+    file: Beat-the-Bomb-May-2025-25.jpeg
+    sourceFile: IMG_4974.JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 143510
+  - id: p026
+    seq: 26
+    file: Beat-the-Bomb-May-2025-26.jpeg
+    sourceFile: IMG_4976.JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 138103
+  - id: p027
+    seq: 27
+    file: Beat-the-Bomb-May-2025-27.jpeg
+    sourceFile: IMG_4975.JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 139830
+sections: []
+pages:
+  - file: Beat-the-Bomb-May-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:20:58.072Z'
+  oversizedFiles: []
+  needsPlacement:
+    - Beat-the-Bomb-May-2025-24.jpeg
+    - Beat-the-Bomb-May-2025-25.jpeg
+    - Beat-the-Bomb-May-2025-26.jpeg
+    - Beat-the-Bomb-May-2025-27.jpeg
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/May-Beat-the-Bomb-2025.jpeg

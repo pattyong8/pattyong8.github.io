@@ -1,0 +1,82 @@
+schemaVersion: 1
+title: Palentine's Day
+slug: Palentines-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Feb 2025
+startDate: '2025-02-15'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Palentines-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Palentines-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Palentines-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Palentines-Feb-2025-1.jpeg
+    sourceFile: IMG_5249.jpeg
+    exif: '2025-02-15T01:46:09.000Z'
+    flags: []
+    bytes: 369314
+  - id: p002
+    seq: 2
+    file: Palentines-Feb-2025-2.jpeg
+    sourceFile: IMG_5250.jpeg
+    exif: '2025-02-15T01:46:48.000Z'
+    flags: []
+    bytes: 391018
+  - id: p003
+    seq: 3
+    file: Palentines-Feb-2025-3.jpeg
+    sourceFile: IMG_5252.jpeg
+    exif: '2025-02-15T01:52:17.000Z'
+    flags: []
+    bytes: 261192
+  - id: p004
+    seq: 4
+    file: Palentines-Feb-2025-4.jpeg
+    sourceFile: IMG_5261.jpeg
+    exif: '2025-02-15T02:04:48.000Z'
+    flags: []
+    bytes: 219908
+  - id: p005
+    seq: 5
+    file: Palentines-Feb-2025-5.jpeg
+    sourceFile: IMG_5264.jpeg
+    exif: '2025-02-15T02:15:31.000Z'
+    flags: []
+    bytes: 329626
+  - id: p006
+    seq: 6
+    file: Palentines-Feb-2025-6.jpeg
+    sourceFile: IMG_5265.jpeg
+    exif: '2025-02-15T02:15:41.000Z'
+    flags: []
+    bytes: 292065
+  - id: p007
+    seq: 7
+    file: Palentines-Feb-2025-7.jpeg
+    sourceFile: IMG_5270.jpeg
+    exif: '2025-02-15T02:33:46.000Z'
+    flags: []
+    bytes: 508210
+  - id: p008
+    seq: 8
+    file: Palentines-Feb-2025-8.jpeg
+    sourceFile: IMG_5271.jpeg
+    exif: '2025-02-15T02:41:58.000Z'
+    flags: []
+    bytes: 219487
+sections: []
+pages:
+  - file: Palentines-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:47.739Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Feb-Palentines-Day-2025.jpeg

@@ -1,0 +1,390 @@
+schemaVersion: 1
+title: Family in NYC
+slug: Family-in-NYC-Aug-2025
+section: 20s
+year: '2025'
+dateRange: Aug 2025
+startDate: '2025-08-08'
+location: New York, New York
+people: Family
+introParagraph: ''
+tripPrefix: Family-in-NYC-Aug-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Family-in-NYC-Aug-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Family-in-NYC-Aug-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Family-in-NYC-Aug-2025-1.jpeg
+    sourceFile: IMG_8265.jpeg
+    exif: '2025-08-08T01:50:58.000Z'
+    flags: []
+    bytes: 211522
+  - id: p002
+    seq: 2
+    file: Family-in-NYC-Aug-2025-2.jpeg
+    sourceFile: IMG_8271.jpeg
+    exif: '2025-08-08T14:53:46.000Z'
+    flags: []
+    bytes: 604949
+  - id: p003
+    seq: 3
+    file: Family-in-NYC-Aug-2025-3.jpeg
+    sourceFile: IMG_8276.jpeg
+    exif: '2025-08-08T14:53:58.000Z'
+    flags: []
+    bytes: 488722
+  - id: p004
+    seq: 4
+    file: Family-in-NYC-Aug-2025-4.jpeg
+    sourceFile: IMG_8278.jpeg
+    exif: '2025-08-08T14:55:18.000Z'
+    flags: []
+    bytes: 574850
+  - id: p005
+    seq: 5
+    file: Family-in-NYC-Aug-2025-5.jpeg
+    sourceFile: IMG_6135.jpeg
+    exif: '2025-08-08T15:19:40.000Z'
+    flags: []
+    bytes: 472999
+  - id: p006
+    seq: 6
+    file: Family-in-NYC-Aug-2025-6.jpeg
+    sourceFile: IMG_8285.jpeg
+    exif: '2025-08-08T18:43:50.000Z'
+    flags: []
+    bytes: 437842
+  - id: p007
+    seq: 7
+    file: Family-in-NYC-Aug-2025-7.jpeg
+    sourceFile: IMG_6149.jpeg
+    exif: '2025-08-08T19:01:35.000Z'
+    flags: []
+    bytes: 472761
+  - id: p008
+    seq: 8
+    file: Family-in-NYC-Aug-2025-8.jpeg
+    sourceFile: IMG_8286.jpeg
+    exif: '2025-08-08T22:05:01.000Z'
+    flags: []
+    bytes: 287543
+  - id: p009
+    seq: 9
+    file: Family-in-NYC-Aug-2025-9.jpeg
+    sourceFile: IMG_8287.jpeg
+    exif: '2025-08-08T22:05:04.000Z'
+    flags: []
+    bytes: 290885
+  - id: p010
+    seq: 10
+    file: Family-in-NYC-Aug-2025-10.jpeg
+    sourceFile: IMG_8288.jpeg
+    exif: '2025-08-08T22:09:31.000Z'
+    flags: []
+    bytes: 529584
+  - id: p011
+    seq: 11
+    file: Family-in-NYC-Aug-2025-11.jpeg
+    sourceFile: IMG_8289.jpeg
+    exif: '2025-08-08T22:09:37.000Z'
+    flags: []
+    bytes: 594318
+  - id: p012
+    seq: 12
+    file: Family-in-NYC-Aug-2025-12.jpeg
+    sourceFile: IMG_6154.jpeg
+    exif: '2025-08-08T22:16:10.000Z'
+    flags: []
+    bytes: 516704
+  - id: p013
+    seq: 13
+    file: Family-in-NYC-Aug-2025-13.jpeg
+    sourceFile: IMG_8291.jpeg
+    exif: '2025-08-08T22:28:44.000Z'
+    flags: []
+    bytes: 317213
+  - id: p014
+    seq: 14
+    file: Family-in-NYC-Aug-2025-14.jpeg
+    sourceFile: IMG_8305.jpeg
+    exif: '2025-08-08T23:00:06.000Z'
+    flags: []
+    bytes: 490053
+  - id: p015
+    seq: 15
+    file: Family-in-NYC-Aug-2025-15.jpeg
+    sourceFile: IMG_8306.jpeg
+    exif: '2025-08-08T23:18:36.000Z'
+    flags: []
+    bytes: 478680
+  - id: p016
+    seq: 16
+    file: Family-in-NYC-Aug-2025-16.jpeg
+    sourceFile: IMG_8307.jpeg
+    exif: '2025-08-09T00:14:19.000Z'
+    flags: []
+    bytes: 530506
+  - id: p017
+    seq: 17
+    file: Family-in-NYC-Aug-2025-17.jpeg
+    sourceFile: IMG_8310.jpeg
+    exif: '2025-08-09T00:27:21.000Z'
+    flags: []
+    bytes: 526863
+  - id: p018
+    seq: 18
+    file: Family-in-NYC-Aug-2025-18.jpeg
+    sourceFile: IMG_8316.jpeg
+    exif: '2025-08-09T00:55:18.000Z'
+    flags: []
+    bytes: 431008
+  - id: p019
+    seq: 19
+    file: Family-in-NYC-Aug-2025-19.jpeg
+    sourceFile: IMG_8321.jpeg
+    exif: '2025-08-09T01:15:06.000Z'
+    flags: []
+    bytes: 514626
+  - id: p020
+    seq: 20
+    file: Family-in-NYC-Aug-2025-20.jpeg
+    sourceFile: IMG_6232.jpeg
+    exif: '2025-08-09T01:33:52.000Z'
+    flags: []
+    bytes: 533620
+  - id: p021
+    seq: 21
+    file: Family-in-NYC-Aug-2025-21.jpeg
+    sourceFile: IMG_8325.jpeg
+    exif: '2025-08-09T02:07:58.000Z'
+    flags: []
+    bytes: 544261
+  - id: p022
+    seq: 22
+    file: Family-in-NYC-Aug-2025-22.jpeg
+    sourceFile: IMG_8328.jpeg
+    exif: '2025-08-09T02:23:33.000Z'
+    flags: []
+    bytes: 474546
+  - id: p023
+    seq: 23
+    file: Family-in-NYC-Aug-2025-23.jpeg
+    sourceFile: IMG_8332.jpeg
+    exif: '2025-08-09T03:29:12.000Z'
+    flags: []
+    bytes: 329926
+  - id: p024
+    seq: 24
+    file: Family-in-NYC-Aug-2025-24.jpeg
+    sourceFile: IMG_8334.jpeg
+    exif: '2025-08-09T03:38:02.000Z'
+    flags: []
+    bytes: 230667
+  - id: p025
+    seq: 25
+    file: Family-in-NYC-Aug-2025-25.jpeg
+    sourceFile: IMG_8335.jpeg
+    exif: '2025-08-09T03:38:09.000Z'
+    flags: []
+    bytes: 362647
+  - id: p026
+    seq: 26
+    file: Family-in-NYC-Aug-2025-26.jpeg
+    sourceFile: IMG_8342.jpeg
+    exif: '2025-08-09T03:39:54.000Z'
+    flags: []
+    bytes: 291755
+  - id: p027
+    seq: 27
+    file: Family-in-NYC-Aug-2025-27.jpeg
+    sourceFile: IMG_8344.jpeg
+    exif: '2025-08-09T03:49:25.000Z'
+    flags: []
+    bytes: 364320
+  - id: p028
+    seq: 28
+    file: Family-in-NYC-Aug-2025-28.jpeg
+    sourceFile: IMG_8345.jpeg
+    exif: '2025-08-09T03:49:33.000Z'
+    flags: []
+    bytes: 332167
+  - id: p029
+    seq: 29
+    file: Family-in-NYC-Aug-2025-29.jpeg
+    sourceFile: photo-93_singular_display_fullPicture.jpeg
+    exif: '2025-08-09T16:07:41.000Z'
+    flags: []
+    bytes: 433517
+  - id: p030
+    seq: 30
+    file: Family-in-NYC-Aug-2025-30.jpeg
+    sourceFile: IMG_8351.jpeg
+    exif: '2025-08-09T18:07:02.000Z'
+    flags: []
+    bytes: 488459
+  - id: p031
+    seq: 31
+    file: Family-in-NYC-Aug-2025-31.jpeg
+    sourceFile: IMG_6295.jpeg
+    exif: '2025-08-09T21:54:31.000Z'
+    flags: []
+    bytes: 927753
+  - id: p032
+    seq: 32
+    file: Family-in-NYC-Aug-2025-32.jpeg
+    sourceFile: photo-256_singular_display_fullPicture.jpeg
+    exif: '2025-08-09T22:51:00.000Z'
+    flags: []
+    bytes: 715657
+  - id: p033
+    seq: 33
+    file: Family-in-NYC-Aug-2025-33.jpeg
+    sourceFile: IMG_6337.jpeg
+    exif: '2025-08-10T01:26:51.000Z'
+    flags: []
+    bytes: 526663
+  - id: p034
+    seq: 34
+    file: Family-in-NYC-Aug-2025-34.jpeg
+    sourceFile: IMG_8360.jpeg
+    exif: '2025-08-10T01:36:34.000Z'
+    flags: []
+    bytes: 439962
+  - id: p035
+    seq: 35
+    file: Family-in-NYC-Aug-2025-35.jpeg
+    sourceFile: IMG_6343.jpeg
+    exif: '2025-08-10T02:20:58.000Z'
+    flags: []
+    bytes: 331429
+  - id: p036
+    seq: 36
+    file: Family-in-NYC-Aug-2025-36.jpeg
+    sourceFile: IMG_6376.jpeg
+    exif: '2025-08-10T14:14:11.000Z'
+    flags: []
+    bytes: 247463
+  - id: p037
+    seq: 37
+    file: Family-in-NYC-Aug-2025-37.jpeg
+    sourceFile: FullSizeRender.jpeg
+    exif: '2025-08-10T15:49:04.000Z'
+    flags: []
+    bytes: 633301
+  - id: p038
+    seq: 38
+    file: Family-in-NYC-Aug-2025-38.jpeg
+    sourceFile: IMG_8363.jpeg
+    exif: '2025-08-10T15:56:16.000Z'
+    flags: []
+    bytes: 776391
+  - id: p039
+    seq: 39
+    file: Family-in-NYC-Aug-2025-39.jpeg
+    sourceFile: IMG_8365.jpeg
+    exif: '2025-08-10T16:08:03.000Z'
+    flags: []
+    bytes: 504133
+  - id: p040
+    seq: 40
+    file: Family-in-NYC-Aug-2025-40.jpeg
+    sourceFile: IMG_3589.jpeg
+    exif: '2025-08-10T16:21:02.000Z'
+    flags: []
+    bytes: 343908
+  - id: p041
+    seq: 41
+    file: Family-in-NYC-Aug-2025-41.jpeg
+    sourceFile: IMG_6403.jpeg
+    exif: '2025-08-10T17:48:02.000Z'
+    flags: []
+    bytes: 287153
+  - id: p042
+    seq: 42
+    file: Family-in-NYC-Aug-2025-42.jpeg
+    sourceFile: IMG_6459.jpeg
+    exif: '2025-08-10T23:47:18.000Z'
+    flags: []
+    bytes: 703464
+  - id: p043
+    seq: 43
+    file: Family-in-NYC-Aug-2025-43.jpeg
+    sourceFile: IMG_8367.jpeg
+    exif: '2025-08-10T23:54:49.000Z'
+    flags: []
+    bytes: 473088
+  - id: p044
+    seq: 44
+    file: Family-in-NYC-Aug-2025-44.jpeg
+    sourceFile: IMG_6463.jpeg
+    exif: '2025-08-11T00:10:31.000Z'
+    flags: []
+    bytes: 387523
+  - id: p045
+    seq: 45
+    file: Family-in-NYC-Aug-2025-45.jpeg
+    sourceFile: IMG_8370.jpeg
+    exif: '2025-08-11T00:15:00.000Z'
+    flags: []
+    bytes: 453532
+  - id: p046
+    seq: 46
+    file: Family-in-NYC-Aug-2025-46.jpeg
+    sourceFile: IMG_8373.jpeg
+    exif: '2025-08-11T00:30:51.000Z'
+    flags: []
+    bytes: 404825
+  - id: p047
+    seq: 47
+    file: Family-in-NYC-Aug-2025-47.jpeg
+    sourceFile: IMG_8374.jpeg
+    exif: '2025-08-11T00:30:54.000Z'
+    flags: []
+    bytes: 364107
+  - id: p048
+    seq: 48
+    file: Family-in-NYC-Aug-2025-48.jpeg
+    sourceFile: IMG_6473.jpeg
+    exif: '2025-08-11T01:16:41.000Z'
+    flags: []
+    bytes: 436862
+  - id: p049
+    seq: 49
+    file: Family-in-NYC-Aug-2025-49.jpeg
+    sourceFile: IMG_6477.jpeg
+    exif: '2025-08-11T03:13:37.000Z'
+    flags: []
+    bytes: 663758
+  - id: p050
+    seq: 50
+    file: Family-in-NYC-Aug-2025-50.jpeg
+    sourceFile: IMG_6478.jpeg
+    exif: '2025-08-11T03:20:10.000Z'
+    flags: []
+    bytes: 445484
+  - id: p051
+    seq: 51
+    file: Family-in-NYC-Aug-2025-51.jpeg
+    sourceFile: IMG_5283.jpeg
+    exif: '2025-08-11T13:17:25.000Z'
+    flags: []
+    bytes: 375587
+  - id: p052
+    seq: 52
+    file: Family-in-NYC-Aug-2025-52.jpeg
+    sourceFile: IMG_6492.jpeg
+    exif: '2025-08-11T14:26:30.000Z'
+    flags: []
+    bytes: 417262
+sections: []
+pages:
+  - file: Family-in-NYC-Aug-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:22:15.297Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Aug-Family-NYC-2025.jpeg

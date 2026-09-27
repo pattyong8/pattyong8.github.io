@@ -1,0 +1,253 @@
+schemaVersion: 1
+title: Jake's Wedding
+slug: Jake's-Wedding-Oct-2025
+section: 20s
+year: '2025'
+dateRange: Oct 2025
+startDate: '2025-10-04'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Jake's-Wedding-Oct-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Jake's-Wedding-Oct-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Jake's-Wedding-Oct-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Jake's-Wedding-Oct-2025-1.jpeg
+    sourceFile: IMG_9126.jpeg
+    exif: '2025-10-04T02:11:30.000Z'
+    flags: []
+    bytes: 286466
+  - id: p002
+    seq: 2
+    file: Jake's-Wedding-Oct-2025-2.jpeg
+    sourceFile: IMG_9127.jpeg
+    exif: '2025-10-04T03:34:03.000Z'
+    flags: []
+    bytes: 337360
+  - id: p003
+    seq: 3
+    file: Jake's-Wedding-Oct-2025-3.jpeg
+    sourceFile: IMG_9139.jpeg
+    exif: '2025-10-04T16:05:03.000Z'
+    flags: []
+    bytes: 390675
+  - id: p004
+    seq: 4
+    file: Jake's-Wedding-Oct-2025-4.jpeg
+    sourceFile: IMG_9144.jpeg
+    exif: '2025-10-04T21:06:55.000Z'
+    flags: []
+    bytes: 647267
+  - id: p005
+    seq: 5
+    file: Jake's-Wedding-Oct-2025-5.jpeg
+    sourceFile: IMG_9151.jpeg
+    exif: '2025-10-04T22:13:08.000Z'
+    flags: []
+    bytes: 834729
+  - id: p006
+    seq: 6
+    file: Jake's-Wedding-Oct-2025-6.jpeg
+    sourceFile: IMG_9168.jpeg
+    exif: '2025-10-04T22:13:46.000Z'
+    flags: []
+    bytes: 909567
+  - id: p007
+    seq: 7
+    file: Jake's-Wedding-Oct-2025-7.jpeg
+    sourceFile: IMG_9186.jpeg
+    exif: '2025-10-04T22:14:24.000Z'
+    flags: []
+    bytes: 693325
+  - id: p008
+    seq: 8
+    file: Jake's-Wedding-Oct-2025-8.jpeg
+    sourceFile: IMG_9196.jpeg
+    exif: '2025-10-04T22:21:33.000Z'
+    flags: []
+    bytes: 503033
+  - id: p009
+    seq: 9
+    file: Jake's-Wedding-Oct-2025-9.jpeg
+    sourceFile: IMG_9198.jpeg
+    exif: '2025-10-04T22:26:07.000Z'
+    flags: []
+    bytes: 757786
+  - id: p010
+    seq: 10
+    file: Jake's-Wedding-Oct-2025-10.jpeg
+    sourceFile: IMG_9201.jpeg
+    exif: '2025-10-04T22:26:36.000Z'
+    flags: []
+    bytes: 224190
+  - id: p011
+    seq: 11
+    file: Jake's-Wedding-Oct-2025-11.jpeg
+    sourceFile: IMG_9203.jpeg
+    exif: '2025-10-04T22:27:05.000Z'
+    flags: []
+    bytes: 160733
+  - id: p012
+    seq: 12
+    file: Jake's-Wedding-Oct-2025-12.jpeg
+    sourceFile: IMG_9208.jpeg
+    exif: '2025-10-04T22:27:23.000Z'
+    flags: []
+    bytes: 163807
+  - id: p013
+    seq: 13
+    file: Jake's-Wedding-Oct-2025-13.jpeg
+    sourceFile: IMG_9213.jpeg
+    exif: '2025-10-04T22:28:01.000Z'
+    flags: []
+    bytes: 173910
+  - id: p014
+    seq: 14
+    file: Jake's-Wedding-Oct-2025-14.jpeg
+    sourceFile: IMG_8209.jpeg
+    exif: '2025-10-04T22:29:33.000Z'
+    flags: []
+    bytes: 366254
+  - id: p015
+    seq: 15
+    file: Jake's-Wedding-Oct-2025-15.jpeg
+    sourceFile: IMG_9218.jpeg
+    exif: '2025-10-04T22:30:08.000Z'
+    flags: []
+    bytes: 262088
+  - id: p016
+    seq: 16
+    file: Jake's-Wedding-Oct-2025-16.jpeg
+    sourceFile: IMG_9231.jpeg
+    exif: '2025-10-04T22:34:02.000Z'
+    flags: []
+    bytes: 416179
+  - id: p017
+    seq: 17
+    file: Jake's-Wedding-Oct-2025-17.jpeg
+    sourceFile: IMG_9240.jpeg
+    exif: '2025-10-04T22:35:28.000Z'
+    flags: []
+    bytes: 404586
+  - id: p018
+    seq: 18
+    file: Jake's-Wedding-Oct-2025-18.jpeg
+    sourceFile: IMG_9242.jpeg
+    exif: '2025-10-04T22:36:04.000Z'
+    flags: []
+    bytes: 431306
+  - id: p019
+    seq: 19
+    file: Jake's-Wedding-Oct-2025-19.jpeg
+    sourceFile: IMG_9252.jpeg
+    exif: '2025-10-04T22:36:26.000Z'
+    flags: []
+    bytes: 422658
+  - id: p020
+    seq: 20
+    file: Jake's-Wedding-Oct-2025-20.jpeg
+    sourceFile: IMG_9257.jpeg
+    exif: '2025-10-04T22:45:39.000Z'
+    flags: []
+    bytes: 323414
+  - id: p021
+    seq: 21
+    file: Jake's-Wedding-Oct-2025-21.jpeg
+    sourceFile: IMG_9258.jpeg
+    exif: '2025-10-04T22:46:33.000Z'
+    flags: []
+    bytes: 547950
+  - id: p022
+    seq: 22
+    file: Jake's-Wedding-Oct-2025-22.jpeg
+    sourceFile: IMG_9260.jpeg
+    exif: '2025-10-04T22:46:44.000Z'
+    flags: []
+    bytes: 555607
+  - id: p023
+    seq: 23
+    file: Jake's-Wedding-Oct-2025-23.jpeg
+    sourceFile: IMG_9262.jpeg
+    exif: '2025-10-04T23:04:16.000Z'
+    flags: []
+    bytes: 359673
+  - id: p024
+    seq: 24
+    file: Jake's-Wedding-Oct-2025-24.jpeg
+    sourceFile: IMG_9263.jpeg
+    exif: '2025-10-04T23:18:57.000Z'
+    flags: []
+    bytes: 546157
+  - id: p025
+    seq: 25
+    file: Jake's-Wedding-Oct-2025-25.jpeg
+    sourceFile: IMG_9264.jpeg
+    exif: '2025-10-04T23:23:01.000Z'
+    flags: []
+    bytes: 506129
+  - id: p026
+    seq: 26
+    file: Jake's-Wedding-Oct-2025-26.jpeg
+    sourceFile: IMG_9267.jpeg
+    exif: '2025-10-05T00:58:38.000Z'
+    flags: []
+    bytes: 331801
+  - id: p027
+    seq: 27
+    file: Jake's-Wedding-Oct-2025-27.jpeg
+    sourceFile: IMG_9269.jpeg
+    exif: '2025-10-05T01:03:46.000Z'
+    flags: []
+    bytes: 377376
+  - id: p028
+    seq: 28
+    file: Jake's-Wedding-Oct-2025-28.jpeg
+    sourceFile: IMG_9272.jpeg
+    exif: '2025-10-05T02:30:44.000Z'
+    flags: []
+    bytes: 373527
+  - id: p029
+    seq: 29
+    file: Jake's-Wedding-Oct-2025-29.jpeg
+    sourceFile: IMG_9274.jpeg
+    exif: '2025-10-05T14:07:36.000Z'
+    flags: []
+    bytes: 507562
+  - id: p030
+    seq: 30
+    file: Jake's-Wedding-Oct-2025-30.jpeg
+    sourceFile: IMG_9275.jpeg
+    exif: '2025-10-05T14:07:41.000Z'
+    flags: []
+    bytes: 480448
+  - id: p031
+    seq: 31
+    file: Jake's-Wedding-Oct-2025-31.jpeg
+    sourceFile: IMG_9276.jpeg
+    exif: '2025-10-05T14:07:57.000Z'
+    flags: []
+    bytes: 336768
+  - id: p032
+    seq: 32
+    file: Jake's-Wedding-Oct-2025-32.jpeg
+    sourceFile: JPEG image-44B8-8AA8-FC-0.jpeg
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 133698
+sections: []
+pages:
+  - file: Jake's-Wedding-Oct-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:26:17.970Z'
+  oversizedFiles: []
+  needsPlacement:
+    - Jake's-Wedding-Oct-2025-32.jpeg
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Oct-Jake's-Wedding-2025.jpeg
