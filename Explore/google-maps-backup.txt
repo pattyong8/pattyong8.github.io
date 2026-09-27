@@ -1,0 +1,12 @@
+Previous Explore implementation (do not delete)
+
+The site header and home page previously sent Explore to this Google My Maps URL:
+
+https://www.google.com/maps/d/u/1/edit?mid=114LTDEcbRKypWWoGcImRR37qwgGV0hWZ&usp=sharing
+
+To restore that behavior, point the Explore button in header-H.html, header-M.html,
+header-A.html, header-B.html, header-R.html, and the home page "explore now" button
+back to this URL.
+
+The map data (markers, country colors, and visit descriptions) lives in Google My Maps,
+not in this repository.

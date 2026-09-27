@@ -3,6 +3,26 @@
  *
  * ------------------------------------------------------------------- */
 
+(function () {
+    var path = location.pathname;
+    var markers = ['/Travel-Pages-Sub/', '/Travel-Pages/', '/Activities/', '/Reviews/', '/Blog/'];
+    var root = '';
+    var i;
+    for (i = 0; i < markers.length; i++) {
+        var idx = path.indexOf(markers[i]);
+        if (idx !== -1) {
+            root = path.slice(0, idx);
+            break;
+        }
+    }
+    if (!root && /\/index\.html$/i.test(path)) {
+        root = path.replace(/\/index\.html$/i, '');
+    }
+    var nav = document.createElement('script');
+    nav.src = root + '/assets/js/site-nav.js?v=3';
+    document.head.appendChild(nav);
+})();
+
 (function($) {
 
     "use strict";

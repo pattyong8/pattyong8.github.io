@@ -1,0 +1,432 @@
+/* Stage 1 shell: cover, header, quiet footer. Does not restyle trip essays or the map. */
+
+.scrapbook-shell {
+	position: sticky;
+	top: 0;
+	z-index: 40;
+	background: #1c1e24;
+	border-bottom: 0;
+	box-shadow: 0 10px 28px rgba(28, 30, 36, 0.18);
+}
+
+.scrapbook-shell-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	min-height: 64px;
+	padding: 8px 22px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.scrapbook-logo,
+.scrapbook-logo:hover,
+.scrapbook-logo:focus {
+	display: inline-flex;
+	align-items: baseline;
+	color: #faf7f2;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	text-transform: none;
+	padding: 8px 0;
+	margin: 0;
+	line-height: 1;
+}
+
+.scrapbook-logo span {
+	color: #c4a484;
+}
+
+.scrapbook-toggle {
+	display: inline-flex;
+	align-items: stretch;
+	border: 1px solid rgba(28, 30, 36, 0.14);
+	border-radius: 999px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.scrapbook-toggle a,
+.scrapbook-toggle a:hover,
+.scrapbook-toggle a:focus {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 76px;
+	min-height: 44px;
+	padding: 0 18px;
+	margin: 0;
+	color: #3a3d44;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+	background: transparent;
+	border: 0;
+}
+
+.scrapbook-toggle a + a {
+	border-left: 1px solid rgba(28, 30, 36, 0.12);
+}
+
+.scrapbook-toggle a.is-active,
+.scrapbook-toggle a.is-active:hover,
+.scrapbook-toggle a.is-active:focus {
+	background: #1c1e24;
+	color: #faf7f2;
+}
+
+.scrapbook-page {
+	background: #faf7f2;
+	color: #1c1e24;
+}
+
+.scrapbook-cover {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 28px 24px 72px;
+}
+
+.scrapbook-cover-photo {
+	margin: 0 0 36px;
+	overflow: hidden;
+	border-radius: 18px;
+	background: #e7e1d6;
+	aspect-ratio: 16 / 9;
+}
+
+.scrapbook-cover-photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.scrapbook-kicker {
+	font-family: 'Poppins', sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: #1aa7c4;
+	margin-bottom: 10px;
+}
+
+.scrapbook-cover h1 {
+	font-family: 'Rufina', serif;
+	font-size: 46px;
+	line-height: 1.15;
+	color: #1c1e24;
+	text-transform: none;
+	font-weight: 400;
+	margin: 0 0 18px;
+}
+
+.scrapbook-cover p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	line-height: 1.7;
+	color: #4a4e57;
+	margin: 0 0 16px;
+	max-width: 38em;
+}
+
+.scrapbook-next {
+	display: none;
+	margin: 28px 0 8px;
+	padding: 14px 16px;
+	border: 1px solid rgba(28, 30, 36, 0.1);
+	border-radius: 12px;
+	background: #fff;
+}
+
+.scrapbook-next.is-visible {
+	display: block;
+}
+
+.scrapbook-next span {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: #8a8580;
+	margin-bottom: 4px;
+}
+
+.scrapbook-next strong {
+	display: block;
+	font-family: 'Rufina', serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #1c1e24;
+	text-transform: none;
+}
+
+.scrapbook-cover-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 32px;
+}
+
+.scrapbook-cover-actions a,
+.scrapbook-cover-actions a:hover,
+.scrapbook-cover-actions a:focus {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 44px;
+	padding: 0 18px;
+	border-radius: 999px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.scrapbook-cover-actions a.is-primary {
+	background: #1c1e24;
+	color: #faf7f2;
+}
+
+.scrapbook-cover-actions a.is-quiet {
+	background: transparent;
+	color: #1c1e24;
+	border: 1px solid rgba(28, 30, 36, 0.18);
+}
+
+.scrapbook-cover-years {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 28px 0 8px;
+}
+
+.scrapbook-cover-years a,
+.scrapbook-cover-years a:hover,
+.scrapbook-cover-years a:focus {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40px;
+	padding: 6px 14px;
+	border-radius: 999px;
+	border: 1px solid rgba(28, 30, 36, 0.12);
+	background: #fff;
+	color: #3a3d44;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.3;
+	text-transform: none;
+}
+
+.scrapbook-cover-years a:hover,
+.scrapbook-cover-years a:focus {
+	background: #1c1e24;
+	border-color: #1c1e24;
+	color: #faf7f2;
+}
+
+.scrapbook-recent {
+	margin-top: 40px;
+}
+
+.scrapbook-recent-head {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.scrapbook-recent h2 {
+	font-family: 'Rufina', serif;
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #1c1e24;
+	text-transform: none;
+	margin: 0;
+}
+
+.scrapbook-recent-head a,
+.scrapbook-recent-head a:hover,
+.scrapbook-recent-head a:focus {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #8d6e56;
+	text-transform: none;
+	white-space: nowrap;
+}
+
+.scrapbook-recent-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px 24px;
+}
+
+.scrapbook-recent-grid a,
+.scrapbook-recent-grid a:hover,
+.scrapbook-recent-grid a:focus {
+	display: block;
+	color: #1c1e24;
+	text-transform: none;
+}
+
+.scrapbook-recent-grid img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	border-radius: 14px;
+	background: #e7e1d6;
+	display: block;
+	margin-bottom: 10px;
+	transition: transform 0.35s ease;
+}
+
+.scrapbook-recent-grid a:hover img {
+	transform: scale(1.03);
+}
+
+.scrapbook-recent-grid strong {
+	display: block;
+	font-family: 'Rufina', serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 4px;
+}
+
+.scrapbook-recent-grid span {
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 13px;
+	color: #8a8580;
+}
+
+.scrapbook-footer {
+	display: none;
+}
+
+/* Year galleries were padded for an overlaying header. */
+.gallery-details {
+	margin-top: 28px;
+}
+
+.memories-home h1,
+.memories-home p {
+	opacity: 1 !important;
+}
+
+body .s-content {
+	padding-top: 2.4rem;
+}
+
+.footer-copyright.scrapbook-footer-bar {
+	background: #faf7f2;
+	padding: 24px 0 40px;
+}
+
+.footer-copyright.scrapbook-footer-bar hr,
+.footer-copyright.scrapbook-footer-bar .return-to-top {
+	display: none;
+}
+
+	.footer-copyright.scrapbook-footer-bar .foot-icons {
+	text-align: center;
+}
+
+.footer-copyright.scrapbook-footer-bar .foot-icons:empty {
+	display: none;
+}
+
+.footer-copyright.scrapbook-footer-bar p,
+.footer-copyright.scrapbook-footer-bar a {
+	color: #8a8580;
+	font-size: 13px;
+	text-transform: none;
+}
+
+@media (min-width: 700px) {
+	.scrapbook-recent-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1040px) {
+	.scrapbook-recent-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 767px) {
+	.scrapbook-shell-inner {
+		padding: 6px 14px;
+		min-height: 56px;
+	}
+
+	.scrapbook-logo,
+	.scrapbook-logo:hover,
+	.scrapbook-logo:focus {
+		font-size: 18px;
+	}
+
+	.scrapbook-toggle a,
+	.scrapbook-toggle a:hover,
+	.scrapbook-toggle a:focus {
+		min-width: 68px;
+		padding: 0 14px;
+	}
+
+	.scrapbook-cover {
+		padding: 16px 16px 48px;
+	}
+
+	.scrapbook-cover h1 {
+		font-size: 34px;
+	}
+
+	.scrapbook-cover p {
+		font-size: 16px;
+	}
+
+	.scrapbook-cover-photo {
+		border-radius: 14px;
+		margin-bottom: 24px;
+	}
+
+	.scrapbook-cover-actions {
+		flex-direction: column;
+	}
+
+	.scrapbook-cover-actions a,
+	.scrapbook-cover-actions a:hover,
+	.scrapbook-cover-actions a:focus {
+		width: 100%;
+	}
+
+	.scrapbook-cover-years {
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		padding-bottom: 4px;
+	}
+
+	.scrapbook-cover-years a,
+	.scrapbook-cover-years a:hover,
+	.scrapbook-cover-years a:focus {
+		flex: 0 0 auto;
+	}
+
+	.scrapbook-recent h2 {
+		font-size: 24px;
+	}
+
+	.scrapbook-recent-grid strong {
+		font-size: 18px;
+	}
+}
