@@ -1,5 +1,5 @@
 .explore-body {
-	background: #faf7f2;
+	background: var(--paper, #f3f0ea);
 	overflow: hidden;
 	max-width: none;
 	display: flex;
@@ -10,6 +10,10 @@
 	flex: 0 0 auto;
 	position: relative;
 	z-index: 20;
+}
+
+.explore-body .scrapbook-shell {
+	position: relative;
 }
 
 .explore-shell {
@@ -25,7 +29,7 @@
 	position: absolute;
 	inset: 0;
 	z-index: 1;
-	background: #d5ddd8;
+	background: #d5ded9;
 }
 
 .explore-panel {
@@ -35,7 +39,7 @@
 	bottom: 24px;
 	width: min(360px, calc(100vw - 48px));
 	z-index: 10;
-	color: #1c1e24;
+	color: var(--ink, #1c2b2e);
 	pointer-events: none;
 }
 
@@ -43,8 +47,8 @@
 	height: 100%;
 	overflow: auto;
 	pointer-events: auto;
-	background: rgba(250, 247, 242, 0.96);
-	border: 1px solid rgba(28, 30, 36, 0.08);
+	background: rgba(255, 252, 247, 0.96);
+	border: 1px solid var(--line, rgba(31, 61, 68, 0.12));
 	border-radius: 18px;
 	padding: 24px 22px 28px;
 	backdrop-filter: blur(16px);
@@ -56,14 +60,14 @@
 	font-size: 11px;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
-	color: #8d6e56;
+	color: var(--ocean-mid, #2a8fa3);
 	margin-bottom: 8px;
 }
 
 .explore-panel h1 {
 	font-family: 'Rufina', serif;
 	font-size: 36px;
-	color: #1c1e24;
+	color: var(--ink, #1c2b2e);
 	text-transform: none;
 	margin-bottom: 8px;
 	font-weight: 400;
@@ -73,14 +77,14 @@
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
-	color: #6a6560;
+	color: var(--ink-soft, #4a5a5e);
 	margin-bottom: 10px;
 }
 
 .explore-caption {
 	font-family: 'Poppins', sans-serif;
 	font-size: 12px;
-	color: #8a8580;
+	color: var(--muted, #7a8688);
 	margin-bottom: 16px;
 }
 
@@ -93,10 +97,10 @@
 	width: 100%;
 	min-height: 44px;
 	padding: 0 12px;
-	border: 1px solid rgba(28, 30, 36, 0.14);
+	border: 1px solid var(--line, rgba(31, 61, 68, 0.14));
 	border-radius: 10px;
-	background: #fff;
-	color: #1c1e24;
+	background: var(--surface, #fffcf7);
+	color: var(--ink, #1c2b2e);
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 }
@@ -116,9 +120,9 @@
 	min-height: 40px;
 	padding: 6px 14px;
 	border-radius: 999px;
-	border: 1px solid rgba(28, 30, 36, 0.12);
-	background: #fff;
-	color: #3a3d44;
+	border: 1px solid var(--line, rgba(31, 61, 68, 0.12));
+	background: var(--surface, #fffcf7);
+	color: var(--ink-soft, #4a5a5e);
 	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
 	font-weight: 600;
@@ -129,9 +133,9 @@
 
 .explore-type-row button.is-active,
 .explore-type-row button.is-active:hover {
-	background: #1c1e24;
-	border-color: #1c1e24;
-	color: #faf7f2;
+	background: var(--header, #1f3d44);
+	border-color: var(--header, #1f3d44);
+	color: #fff;
 }
 
 .explore-list-label,
@@ -139,7 +143,7 @@
 	font-size: 11px;
 	letter-spacing: 0.16em;
 	text-transform: uppercase;
-	color: #8a8580;
+	color: var(--muted, #7a8688);
 	margin-bottom: 10px;
 }
 
@@ -151,7 +155,7 @@
 	text-align: left;
 	background: transparent;
 	border: 0;
-	border-bottom: 1px solid rgba(28, 30, 36, 0.08);
+	border-bottom: 1px solid var(--line, rgba(31, 61, 68, 0.12));
 	padding: 12px 0;
 	color: inherit;
 	cursor: pointer;
@@ -168,7 +172,7 @@
 	border-radius: 10px;
 	object-fit: cover;
 	flex: 0 0 56px;
-	background: #e7e1d6;
+	background: var(--paper-deep, #e7e2d8);
 }
 
 .explore-place-copy {
@@ -180,7 +184,7 @@
 .explore-trip-row strong {
 	display: block;
 	font-size: 15px;
-	color: #1c1e24;
+	color: var(--ink, #1c2b2e);
 	font-weight: 500;
 	text-transform: none;
 }
@@ -190,13 +194,13 @@
 	display: block;
 	margin-top: 4px;
 	font-size: 12px;
-	color: #8a8580;
+	color: var(--muted, #7a8688);
 }
 
 .explore-back {
 	background: none;
 	border: 0;
-	color: #8d6e56;
+	color: var(--ocean-mid, #2a8fa3);
 	padding: 0;
 	min-height: 44px;
 	margin-bottom: 8px;
@@ -208,7 +212,7 @@
 .explore-detail h2 {
 	font-family: 'Rufina', serif;
 	font-size: 26px;
-	color: #1c1e24;
+	color: var(--ink, #1c2b2e);
 	text-transform: none;
 	margin-bottom: 6px;
 	font-weight: 400;
@@ -224,7 +228,7 @@
 }
 
 .leaflet-container {
-	background: #d5ddd8;
+	background: #d5ded9;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -238,31 +242,72 @@
 }
 
 .leaflet-control-zoom a {
-	background: #fff !important;
-	color: #222 !important;
-	border: 1px solid rgba(0, 0, 0, 0.12) !important;
+	background: var(--surface, #fffcf7) !important;
+	color: var(--ink, #1c2b2e) !important;
+	border: 1px solid var(--line, rgba(31, 61, 68, 0.12)) !important;
 }
 
 .explore-marker {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	overflow: hidden;
-	background: #b08968;
-	border: 2px solid #faf7f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #7a8688;
+	color: #fff;
+	border: 2px solid #fff;
 	box-sizing: border-box;
+	box-shadow: 0 2px 6px rgba(31, 61, 68, 0.3);
 }
 
-.explore-marker img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.explore-marker svg {
 	display: block;
 }
 
+.explore-marker.is-family {
+	background: #c46a3b;
+}
+
+.explore-marker.is-friends {
+	background: #1c9bb5;
+}
+
+.explore-marker.is-work {
+	background: #2b3a67;
+}
+
+.explore-marker.is-solo {
+	background: #8a4fb3;
+}
+
+.explore-marker.is-other {
+	background: #8a9694;
+}
+
+.explore-type-row [data-type="family"] svg {
+	color: #c46a3b;
+}
+
+.explore-type-row [data-type="friends"] svg {
+	color: #1c9bb5;
+}
+
+.explore-type-row [data-type="work"] svg {
+	color: #2b3a67;
+}
+
+.explore-type-row [data-type="solo"] svg {
+	color: #8a4fb3;
+}
+
+.explore-type-row button.is-active svg {
+	color: #fff;
+}
+
 .explore-marker.is-active {
-	border-color: #1c1e24;
-	outline: 3px solid rgba(176, 137, 104, 0.45);
+	border-color: #fff;
+	outline: 3px solid rgba(0, 216, 255, 0.55);
 }
 
 .sr-only {
@@ -316,7 +361,7 @@
 		height: 4px;
 		margin: 10px auto 0;
 		border-radius: 4px;
-		background: rgba(28, 30, 36, 0.28);
+		background: rgba(31, 61, 68, 0.28);
 	}
 
 	.explore-panel h1 {
@@ -325,5 +370,41 @@
 
 	.leaflet-control-zoom {
 		margin-bottom: 86px !important;
+	}
+}
+
+.explore-legend {
+	display: flex;
+	gap: 14px;
+	align-items: center;
+	padding: 8px 12px;
+	background: rgba(255, 252, 247, 0.96);
+	border: 1px solid var(--line, rgba(31, 61, 68, 0.12));
+	border-radius: 999px;
+	box-shadow: 0 4px 14px rgba(31, 61, 68, 0.12);
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--ink-soft, #4a5a5e);
+}
+
+.explore-legend-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.explore-legend .explore-marker {
+	width: 26px;
+	height: 26px;
+	flex: none;
+	box-shadow: none;
+}
+
+@media (max-width: 767px) {
+	.explore-legend {
+		gap: 8px;
+		padding: 6px 8px;
+		font-size: 11px;
 	}
 }

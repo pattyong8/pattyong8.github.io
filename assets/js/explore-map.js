@@ -18,7 +18,11 @@
         MX: 'Mexico',
         AU: 'Australia',
         NZ: 'New Zealand',
-        TH: 'Thailand'
+        TH: 'Thailand',
+        GR: 'Greece',
+        TR: 'Turkey',
+        VN: 'Vietnam',
+        GB: 'England'
     };
 
     var state = {
@@ -95,7 +99,7 @@
         var countries = {};
         places.forEach(function (place) {
             countries[place.iso] = true;
-            place.trips.forEach(function (trip) { trips[trip.href] = true; });
+            place.trips.forEach(function (trip) { trips[trip.href + "|" + trip.title + "|" + trip.dateRange] = true; });
         });
         document.getElementById('explore-stats').textContent =
             Object.keys(countries).length + ' countries · ' +
@@ -235,15 +239,47 @@
         document.getElementById('explore-panel').classList.remove('is-collapsed');
     }
 
+    var TYPE_ICONS = {
+        family: '<path fill="currentColor" d="M12 3 2.5 11.4h2.8V20.5h4.9v-6.1h3.6v6.1h4.9v-9.1h2.8L12 3z"/>',
+        friends: '<circle cx="6" cy="7.4" r="3.5" fill="currentColor"/>' +
+            '<path fill="currentColor" d="M0.8 20.6c0-3.9 2.3-6.5 5.2-6.5s5.2 2.6 5.2 6.5z"/>' +
+            '<circle cx="18" cy="7.4" r="3.5" fill="currentColor"/>' +
+            '<path fill="currentColor" d="M12.8 20.6c0-3.9 2.3-6.5 5.2-6.5s5.2 2.6 5.2 6.5z"/>',
+        work: '<path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8.6 7V5.2c0-.9.7-1.7 1.7-1.7h3.4c1 0 1.7.8 1.7 1.7V7"/>' +
+            '<path fill="currentColor" fill-rule="evenodd" d="M4.9 6.5h14.2c1.3 0 2.4 1.1 2.4 2.4v9.2c0 1.3-1.1 2.4-2.4 2.4H4.9c-1.3 0-2.4-1.1-2.4-2.4V8.9c0-1.3 1.1-2.4 2.4-2.4zM2.5 11.5v1.5h19v-1.5z"/>' +
+            '<rect x="10.2" y="10.4" width="3.6" height="4.2" rx="0.9" fill="currentColor"/>',
+        solo: '<circle cx="12" cy="7" r="4.2" fill="currentColor"/><path fill="currentColor" d="M3.8 21c0-4.6 3.6-7.4 8.2-7.4s8.2 2.8 8.2 7.4z"/>',
+        other: '<circle cx="12" cy="12" r="4" fill="currentColor"/>'
+    };
+
+    function iconSvg(type, size) {
+        return '<svg viewBox="0 0 24 24" width="' + size + '" height="' + size + '" aria-hidden="true">' + TYPE_ICONS[type] + '</svg>';
+    }
+
+    var TYPE_PRIORITY = ['family', 'friends', 'work', 'solo'];
+
+    function markerType(place) {
+        var counts = { family: 0, friends: 0, work: 0, solo: 0 };
+        var best = '';
+        if (state.typeFilter) return state.typeFilter;
+        place.trips.forEach(function (trip) {
+            if (counts.hasOwnProperty(trip.type)) counts[trip.type] += 1;
+        });
+        TYPE_PRIORITY.forEach(function (type) {
+            if (counts[type] && (!best || counts[type] > counts[best])) best = type;
+        });
+        return best || 'other';
+    }
+
     function markerIcon(place, active) {
-        var thumb = coverFor(place);
-        var size = active ? 22 : 14;
+        var type = markerType(place);
+        var size = active ? 34 : 28;
         return L.divIcon({
             className: 'explore-marker-wrap',
             iconSize: [size, size],
             iconAnchor: [size / 2, size / 2],
-            html: '<div class="explore-marker' + (active ? ' is-active' : '') + '">' +
-                (thumb ? '<img src="' + thumb + '" alt="">' : '') + '</div>'
+            html: '<div class="explore-marker is-' + type + (active ? ' is-active' : '') + '">' +
+                iconSvg(type, active ? 21 : 17) + '</div>'
         });
     }
 
@@ -343,10 +379,10 @@
         state.countryLayer = L.geoJSON(visitedGeo, {
             renderer: L.canvas({ padding: 0.8 }),
             style: {
-                color: '#8d6e56',
+                color: '#4d6e68',
                 weight: 0.8,
-                fillColor: '#c4a484',
-                fillOpacity: 0.46
+                fillColor: '#8eaea6',
+                fillOpacity: 0.42
             },
             onEachFeature: function (feature, layer) {
                 layer.on('click', function () {
@@ -371,6 +407,17 @@
         state.map.attributionControl.addAttribution('Natural Earth');
 
         L.control.zoom({ position: 'bottomright' }).addTo(state.map);
+
+        var legend = L.control({ position: 'topright' });
+        legend.onAdd = function () {
+            var div = L.DomUtil.create('div', 'explore-legend');
+            div.innerHTML = [['family', 'Family'], ['friends', 'Friends'], ['work', 'Work'], ['solo', 'Solo']].map(function (item) {
+                return '<span class="explore-legend-item"><span class="explore-marker is-' + item[0] + '">' + iconSvg(item[0], 18) + '</span>' + item[1] + '</span>';
+            }).join('');
+            L.DomEvent.disableClickPropagation(div);
+            return div;
+        };
+        legend.addTo(state.map);
 
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri',
@@ -397,6 +444,12 @@
     }
 
     function bindUi() {
+        Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
+            var type = button.getAttribute('data-type');
+            var old = button.querySelector('svg');
+            if (!type || !TYPE_ICONS[type]) return;
+            if (old) old.outerHTML = iconSvg(type, 18);
+        });
         document.getElementById('explore-destination').addEventListener('change', function (event) {
             var value = event.target.value;
             if (!value) {
@@ -425,7 +478,7 @@
     }
 
     Promise.all([
-        fetch('assets/data/explore-places.json').then(function (res) { return res.json(); }),
+        fetch('assets/data/explore-places.json?v=9').then(function (res) { return res.json(); }),
         fetch('assets/data/world.geojson').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];

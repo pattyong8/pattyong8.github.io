@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-27T20:28:22.970Z",
+  "generatedAt": "2026-09-29T03:27:59.549Z",
   "totals": {
-    "places": 59,
-    "trips": 177,
-    "countries": 19,
-    "unmatched": 4
+    "places": 86,
+    "trips": 217,
+    "countries": 23,
+    "unmatched": 0
   },
   "countries": [
     "AU",
@@ -14,6 +14,8 @@
     "DK",
     "ES",
     "FR",
+    "GB",
+    "GR",
     "HR",
     "IE",
     "IT",
@@ -23,9 +25,11 @@
     "NZ",
     "PH",
     "TH",
+    "TR",
     "TW",
     "US",
-    "VC"
+    "VC",
+    "VN"
   ],
   "places": [
     {
@@ -37,15 +41,16 @@
       "lat": 40.758,
       "lng": -73.985,
       "types": [
-        "other",
         "friends",
         "family",
         "work"
       ],
-      "tripCount": 37,
+      "tripCount": 45,
       "years": [
         "2026",
-        "2025"
+        "2025",
+        "2024",
+        "2023"
       ],
       "trips": [
         {
@@ -53,7 +58,7 @@
           "year": "2026",
           "dateRange": "September 6th, 2026",
           "people": "Esther",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Sept-Esther-Visit-2026/Sept-Esther-Visit-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Sep-Esther-Visit-2026.jpeg",
           "excerpt": "Esther came into town over Labor Day weekend in September, and it was the perfect opportunity to catch up. We ate, we laughed, we drank, and even got to watch her favorite tennis p"
@@ -73,7 +78,7 @@
           "year": "2026",
           "dateRange": "March 4th, 2026",
           "people": "Quinn",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Mar-Knicks-OKC-2026/Mar-Knicks-OKC-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Mar-Knicks-OKC-2026.jpeg",
           "excerpt": "Game three out of three for my 2026 Knicks season. I went with Quinn to Madison Square Garden to watch the Knicks take on OKC, one of the best teams in the league. We spotted a ton"
@@ -93,7 +98,7 @@
           "year": "2026",
           "dateRange": "January 19th, 2026",
           "people": "Parth",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Jan-Knick-Mavs-2026/Jan-Knick-Mavs-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jan-Knick-Mavs-2026.jpeg",
           "excerpt": "Game one out of three for my 2026 Knicks season. Parth and I headed to Madison Square Garden for my first Knicks game of the year to watch them take on the Mavs. It wasn't the craz"
@@ -113,7 +118,7 @@
           "year": "2026",
           "dateRange": "Feb 2026",
           "people": "Elijah",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Feb-Knicks-Pacers-2026/Feb-Knicks-Pacers-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Feb-Knicks-Pacers-2026.jpeg",
           "excerpt": "Game two out of three for my 2026 Knicks season. I randomly got a last second ticket after someone couldn't make the Knicks versus Pacers game, so I brought Elijah, one of my good "
@@ -269,6 +274,16 @@
           "excerpt": ""
         },
         {
+          "title": "Knicks vs Clippers",
+          "year": "2025",
+          "dateRange": "Mar 2025",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2025.html",
+          "thumb": "assets/images/gallary/20s/2025/Mar-Knick-Clippers-2025.jpeg",
+          "excerpt": ""
+        },
+        {
           "title": "NYC Adventures",
           "year": "2025",
           "dateRange": "Jul 2025",
@@ -409,6 +424,66 @@
           "excerpt": ""
         },
         {
+          "title": "Esther in NYC",
+          "year": "2024",
+          "dateRange": "Jun 27th-30th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Jun-Esther-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "NYC Bike Excursion",
+          "year": "2024",
+          "dateRange": "Jun 13th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Jun-Biking-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Queens Chinatown",
+          "year": "2024",
+          "dateRange": "Feb 17th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Jan-Queens-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "NYC Christmas",
+          "year": "2024",
+          "dateRange": "Dec 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Dec-NYC-Christmas-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Scott Street in NYC",
+          "year": "2023",
+          "dateRange": "Sept 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/NYC-Sep-14-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Broadway Shows",
+          "year": "2023",
+          "dateRange": "Nov & Dec 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Broadway-Dec-9-2023.jpeg",
+          "excerpt": ""
+        },
+        {
           "title": "New York 2010",
           "year": "",
           "dateRange": "Winter 2010",
@@ -416,6 +491,16 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/MiddleSchool/New-York-2011/New-York-2011-1.html",
           "thumb": "assets/images/Travel-Pages-Images/Middle-School/New-York-2011/New-Work-2011-HP.jpg",
+          "excerpt": ""
+        },
+        {
+          "title": "O4U Conferences 2018",
+          "year": "",
+          "dateRange": "Sep 14th-23rd 2018",
+          "people": "O4U Business and Marketing Friends",
+          "type": "work",
+          "href": "Travel-Pages-Sub/College-J&S/O4U-2018/O4U-2018-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/O4U-2018/O4U-2018-HP.jpeg",
           "excerpt": ""
         }
       ]
@@ -431,12 +516,12 @@
       "types": [
         "friends",
         "work",
-        "family",
-        "other"
+        "family"
       ],
-      "tripCount": 29,
+      "tripCount": 31,
       "years": [
         "2025",
+        "2023",
         "2022",
         "2021",
         "2019-2020"
@@ -450,6 +535,26 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2025/SF-Oct-2025/SF-Oct-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/Oct-SF-2025.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "San Francisco, CA",
+          "year": "2023",
+          "dateRange": "Dec 1st-3rd 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/SF-Dec-2-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Outside Lands 2023",
+          "year": "2023",
+          "dateRange": "Aug 12th-14th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Outsidelands-Aug-2023.jpeg",
           "excerpt": ""
         },
         {
@@ -533,6 +638,16 @@
           "excerpt": ""
         },
         {
+          "title": "Warriors Courtside 2022",
+          "year": "2022",
+          "dateRange": "Dec 26th 2022",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/Warriors-Courtside-2022/Warriors-Courtside-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Warriors-Courtside-2022/Warriors-Courtside-2022-HP.jpeg",
+          "excerpt": ""
+        },
+        {
           "title": "Outside Lands 2022",
           "year": "2022",
           "dateRange": "Aug 6th 2022",
@@ -597,9 +712,19 @@
           "year": "2021",
           "dateRange": "July 6th-9th 2021",
           "people": "Vincent, Scott St., & Work Team",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/20s/2021/Vincent-Visit-Work-Reunion-July-2021/Vincent-Visit-Work-Reunion-July-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Vincent-Visit-Work-reunion-June-2021/Vincent-Visit-Work-Reunion-June-2021-HP.jpg",
+          "excerpt": ""
+        },
+        {
+          "title": "4th of July",
+          "year": "2021",
+          "dateRange": "July 4th 2021",
+          "people": "SF Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2021/4th-of-July-2021/4th-of-July-2021-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2021/4th-of-July-2021/4th-of-July-2021-HP.jpg",
           "excerpt": ""
         },
         {
@@ -627,7 +752,7 @@
           "year": "2019-2020",
           "dateRange": "Oct/Nov 2020",
           "people": "Scott Street Housemates",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/SF-Memories-pt1/SF-Memories-pt1-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/SF-Oct-Nov-2020/SF-Oct-Nov-2020-HP.jpg",
           "excerpt": ""
@@ -637,7 +762,7 @@
           "year": "2019-2020",
           "dateRange": "Oct 31st-Nov 1st, 2019",
           "people": "Virgo + Climbing homies",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Halloween-BOTB-2019/Halloween-BOTB-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Halloween-2019/Halloween-2019-3.jpg",
           "excerpt": ""
@@ -667,7 +792,7 @@
           "year": "2019-2020",
           "dateRange": "March 15th, 2019",
           "people": "Vincent",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/20s/2019-2020/Vincent's-bday-2019/Vincent's-bday-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Vincent-bday-2019/Vincent-bday-2019-7.jpg",
           "excerpt": ""
@@ -677,19 +802,9 @@
           "year": "2019-2020",
           "dateRange": "Jan 30th & 31st, 2020",
           "people": "Reena Sundan",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Harry-Potter-CC-2020/Harry-Potter-CC-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Harry-Potter-Cursed-Child-2019/HP-CC-2019-5.jpg",
-          "excerpt": ""
-        },
-        {
-          "title": "Sibley Park 2020",
-          "year": "2019-2020",
-          "dateRange": "Feb 1st, 2020",
-          "people": "Matt, Connor, & Aiden",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2019-2020/Sibley-Park-2020/Sibley-Park-2020-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Outdoor-Virgo-Hike/Outdoor-Virgo-Hike-HP.jpg",
           "excerpt": ""
         },
         {
@@ -713,21 +828,11 @@
           "excerpt": ""
         },
         {
-          "title": "Back In Berkeley 2019",
-          "year": "2019-2020",
-          "dateRange": "August 2019",
-          "people": "CAL Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2019-2020/Back-In-Berkeley/Back-In-Berkeley-2020.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/First-Week-Virgo-2019/First-Week-Virgo-2019-1.jpg",
-          "excerpt": ""
-        },
-        {
           "title": "Senior Bago 2018",
           "year": "",
           "dateRange": "Nov 9th-12th 2018",
           "people": "KA Seniors",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Senior-Bago-2018/Senior-Bago-2018-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Senior-Bago-2018/Bago-HP.jpeg",
           "excerpt": ""
@@ -744,13 +849,13 @@
       "lng": -117.8265,
       "types": [
         "family",
-        "other",
         "friends"
       ],
-      "tripCount": 25,
+      "tripCount": 27,
       "years": [
         "2026",
         "2025",
+        "2024",
         "2022",
         "2021",
         "2019-2020"
@@ -794,6 +899,26 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2025/Irvine-Christmas-Dec-2025/Irvine-Christmas-Dec-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/Dec-Irvine-Christmas-2025.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Irvine, CA",
+          "year": "2024",
+          "dateRange": "May 13th-21st 2024",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/May-Irvine-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Irvine, CA",
+          "year": "2024",
+          "dateRange": "Jul 1st-17th 2024",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Jul-Irvine-2024.jpeg",
           "excerpt": ""
         },
         {
@@ -931,7 +1056,7 @@
           "year": "",
           "dateRange": "Summer 2015",
           "people": "HVST Coaches & Swimmers",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/HighSchool/HVST-2015/HVST-1.html",
           "thumb": "assets/images/Travel-Pages-Images/High-School/HVST-2015/HVST-2015-Title-Page.jpg",
           "excerpt": ""
@@ -961,7 +1086,7 @@
           "year": "",
           "dateRange": "July 2011",
           "people": "Alex, Rachel, Katie, & Brandon",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/MiddleSchool/OC-Fair-2011/OC-Fair-2011-1.html",
           "thumb": "assets/images/gallary/Middle-School/OC-Fair-2011-HP.jpg",
           "excerpt": ""
@@ -1001,9 +1126,101 @@
           "year": "",
           "dateRange": "2012-2015",
           "people": "CDM Team",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/HighSchool/WP-Swim-HS/WP-Swim-HS-1.html",
           "thumb": "assets/images/Travel-Pages-Images/High-School/Water-Polo-and-Swim/WP-Swim-Title-Page.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "types": [
+        "friends",
+        "family"
+      ],
+      "tripCount": 7,
+      "years": [
+        "2025",
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "San Diego",
+          "year": "2025",
+          "dateRange": "Nov 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/San-Diego-Nov-2025/San-Diego-Nov-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/Nov-San-Diego-2025.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "NYE San Diego",
+          "year": "2025",
+          "dateRange": "Dec 31st 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/NYE-San-Diego-Dec-2025/NYE-San-Diego-Dec-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/Dec-NYE-San-Diego-2025.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "San Diego",
+          "year": "2024",
+          "dateRange": "Jul 3rd-5th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Jul-SD-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Mission Beach, CA",
+          "year": "2023",
+          "dateRange": "Dec 31st-Jan 1st 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/New-Years-Dec-31-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "San Diego, CA",
+          "year": "2023",
+          "dateRange": "Dec 22nd-23rd 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/San-Diego-Dec-22-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "4th of July in Coronado",
+          "year": "2022",
+          "dateRange": "Jul 3rd-6th 2022",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/July-4th-2022/July-4th-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/4th-of-July-2022/July-4th-2022-HP.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "San Diego 2017",
+          "year": "",
+          "dateRange": "March 30th, 2017",
+          "people": "Mom and Vincent",
+          "type": "family",
+          "href": "Travel-Pages-Sub/College-F&S/San-Diego-2017/San-Diego-2017-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-F&S/San-Diego-2017/SD-HP.jpg",
           "excerpt": ""
         }
       ]
@@ -1017,8 +1234,7 @@
       "lat": 37.201,
       "lng": -122.341,
       "types": [
-        "friends",
-        "other"
+        "friends"
       ],
       "tripCount": 6,
       "years": [
@@ -1052,7 +1268,7 @@
           "year": "2019-2020",
           "dateRange": "Oct 18th-20th 2019",
           "people": "Connor, Matt, Dixon, Reece, Daniel, & Jack",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Buteno-2019/Buteno-2019-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Buteno-2019/Buteno-2019-HP.jpg",
           "excerpt": ""
@@ -1062,7 +1278,7 @@
           "year": "2019-2020",
           "dateRange": "Dec 11th-13th 2020",
           "people": "Connor, Matt, Jack, Dixon, Rishi, Gustav, & Quinn",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Butano-pt4-2020/Butano-pt4-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Butano-Dec-2020/Butano-pt4-2020-HP.jpg",
           "excerpt": ""
@@ -1072,7 +1288,7 @@
           "year": "",
           "dateRange": "Oct 19th-21st 2018",
           "people": "Room 5 boys, Dixon, Ungar, and Nate",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Buteno-pt2-2018/Buteno-pt2-2018-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Butano Pt.2/Butano-Hp.jpeg",
           "excerpt": ""
@@ -1082,9 +1298,90 @@
           "year": "",
           "dateRange": "Mar 17th-19th, 2017",
           "people": "Room 5 boys, Dixon, Shane, Ungar, and Nate",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-F&S/Buteno-2017/Buteno-2017-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-F&S/Buteno-2017/Buteno-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "denver",
+      "name": "Denver, Colorado",
+      "region": "Colorado",
+      "country": "United States",
+      "iso": "US",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 6,
+      "years": [
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "trips": [
+        {
+          "title": "Denver, CO",
+          "year": "2024",
+          "dateRange": "Oct 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Oct-Denver-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Denver, CO",
+          "year": "2023",
+          "dateRange": "Aug 26th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Denver-Aug-26-2023.JPG",
+          "excerpt": ""
+        },
+        {
+          "title": "Denver House Trip",
+          "year": "2022",
+          "dateRange": "Feb 21st-28th 2022",
+          "people": "Quinn & Vinny",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/Denver-House-Feb-2022/Denver-House-Feb-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Denver-Feb-2022/Denver-House-Feb-2022-HP.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Denver Feb 2021",
+          "year": "2021",
+          "dateRange": "Feburary 3rd-5th 2021",
+          "people": "Matt, Nate, and Evan",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2021/Denver-Feb-2021/Denver-Feb-2021-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Denver-Feb-2021/Denver-Feb-2021-HP.jpg",
+          "excerpt": ""
+        },
+        {
+          "title": "Denver, CO (RE Trip)",
+          "year": "2021",
+          "dateRange": "Dec 11th-Dec 12th 2021",
+          "people": "Quinn & Vincent",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2021/Denver-Dec-2021/Denver-Dec-2021-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Denver-Nov-2021/Denver-Nov-2021-Tp.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Denver/Aspen",
+          "year": "",
+          "dateRange": "Aug 2nd-6th, 2019",
+          "people": "Connor, Lucas, and Matt",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/Denver-Aspen/Denver-Aspen1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/Denver-Aspen/Denver-Aspen.jpg",
           "excerpt": ""
         }
       ]
@@ -1098,22 +1395,32 @@
       "lat": 39.0968,
       "lng": -120.0324,
       "types": [
-        "other",
         "friends",
         "family"
       ],
-      "tripCount": 5,
+      "tripCount": 6,
       "years": [
+        "2023",
         "2022",
         "2019-2020"
       ],
       "trips": [
         {
+          "title": "Tahoe, CA",
+          "year": "2023",
+          "dateRange": "Jan 18th, 29th, Feb 3rd 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Tahoe-Jan-29-2023.jpeg",
+          "excerpt": ""
+        },
+        {
           "title": "ES Tahoe 2022",
           "year": "2022",
           "dateRange": "Feb 3rd-6th 2022",
           "people": "ES Co-Workers & Clients",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/ES-Tahoe-Feb-2022/ES-Tahoe-Feb-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Tahoe-Feb-2022/ES-Tahoe-2022-HP.jpeg",
           "excerpt": ""
@@ -1153,128 +1460,9 @@
           "year": "",
           "dateRange": "Oct 6th-8th, 2017",
           "people": "Room 5 + KA boys",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Tahoe-2017/Tahoe-2017-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Tahoe-2017/Tahoe-2017-7.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "denver",
-      "name": "Denver, Colorado",
-      "region": "Colorado",
-      "country": "United States",
-      "iso": "US",
-      "lat": 39.7392,
-      "lng": -104.9903,
-      "types": [
-        "other"
-      ],
-      "tripCount": 4,
-      "years": [
-        "2022",
-        "2021"
-      ],
-      "trips": [
-        {
-          "title": "Denver House Trip",
-          "year": "2022",
-          "dateRange": "Feb 21st-28th 2022",
-          "people": "Quinn & Vinny",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2022/Denver-House-Feb-2022/Denver-House-Feb-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Denver-Feb-2022/Denver-House-Feb-2022-HP.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "Denver Feb 2021",
-          "year": "2021",
-          "dateRange": "Feburary 3rd-5th 2021",
-          "people": "Matt, Nate, and Evan",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2021/Denver-Feb-2021/Denver-Feb-2021-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Denver-Feb-2021/Denver-Feb-2021-HP.jpg",
-          "excerpt": ""
-        },
-        {
-          "title": "Denver, CO (RE Trip)",
-          "year": "2021",
-          "dateRange": "Dec 11th-Dec 12th 2021",
-          "people": "Quinn & Vincent",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2021/Denver-Dec-2021/Denver-Dec-2021-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Denver-Nov-2021/Denver-Nov-2021-Tp.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "Denver/Aspen",
-          "year": "",
-          "dateRange": "Aug 2nd-6th, 2019",
-          "people": "Connor, Lucas, and Matt",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-J&S/Denver-Aspen/Denver-Aspen1.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-J&S/Denver-Aspen/Denver-Aspen.jpg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "san-diego",
-      "name": "San Diego, California",
-      "region": "California",
-      "country": "United States",
-      "iso": "US",
-      "lat": 32.7157,
-      "lng": -117.1611,
-      "types": [
-        "friends",
-        "other"
-      ],
-      "tripCount": 4,
-      "years": [
-        "2025",
-        "2022"
-      ],
-      "trips": [
-        {
-          "title": "San Diego",
-          "year": "2025",
-          "dateRange": "Nov 2025",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2025/San-Diego-Nov-2025/San-Diego-Nov-2025-1.html",
-          "thumb": "assets/images/gallary/20s/2025/Nov-San-Diego-2025.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "NYE San Diego",
-          "year": "2025",
-          "dateRange": "Dec 31st 2025",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2025/NYE-San-Diego-Dec-2025/NYE-San-Diego-Dec-2025-1.html",
-          "thumb": "assets/images/gallary/20s/2025/Dec-NYE-San-Diego-2025.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "4th of July in Coronado",
-          "year": "2022",
-          "dateRange": "Jul 3rd-6th 2022",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2022/July-4th-2022/July-4th-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/4th-of-July-2022/July-4th-2022-HP.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "San Diego 2017",
-          "year": "",
-          "dateRange": "March 30th, 2017",
-          "people": "Mom and Vincent",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-F&S/San-Diego-2017/San-Diego-2017-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-F&S/San-Diego-2017/SD-HP.jpg",
           "excerpt": ""
         }
       ]
@@ -1288,12 +1476,12 @@
       "lat": 47.6062,
       "lng": -122.3321,
       "types": [
-        "friends",
-        "other"
+        "friends"
       ],
-      "tripCount": 4,
+      "tripCount": 5,
       "years": [
         "2026",
+        "2023",
         "2021",
         "2019-2020"
       ],
@@ -1309,11 +1497,21 @@
           "excerpt": "Danny and Sabrina's wedding was one of the highlights of 2026. I've known Danny since college, and I've known many of the people at the wedding since we all started interning at Am"
         },
         {
+          "title": "Seattle, WA",
+          "year": "2023",
+          "dateRange": "Jan 4th-8th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Seattle-Jan-2-2023.jpeg",
+          "excerpt": ""
+        },
+        {
           "title": "Seattle July 2021",
           "year": "2021",
           "dateRange": "July 16th-19th 2021",
           "people": "Amazon Crew",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Seattle-July-2021/Seattle-July-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Seattle-July-2021/Seattle-July-2021-HP.jpg",
           "excerpt": ""
@@ -1323,7 +1521,7 @@
           "year": "2019-2020",
           "dateRange": "Nov 16th-18th, 2019",
           "people": "Eric, Noah, Mimi, Danny, Logan, Ross, Jack, and Jeff",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Seattle-2019/Seattle-2019-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Seattle-2019/Seattle_2019_HP.jpg",
           "excerpt": ""
@@ -1341,6 +1539,117 @@
       ]
     },
     {
+      "id": "napa",
+      "name": "Napa, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 38.5025,
+      "lng": -122.2654,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 4,
+      "years": [
+        "2023",
+        "2021",
+        "2019-2020"
+      ],
+      "trips": [
+        {
+          "title": "Napa, CA (Porchfest)",
+          "year": "2023",
+          "dateRange": "Apr 23rd 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Napa-May-28-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Napa 2021",
+          "year": "2021",
+          "dateRange": "April 10th & May 1st 2021",
+          "people": "Scott Street",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2021/Napa-April-2021/Napa-April-2021-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Napa-April-May-2021/Napa-April-May-2021-HP.jpg",
+          "excerpt": ""
+        },
+        {
+          "title": "Napa 2020",
+          "year": "2019-2020",
+          "dateRange": "October 24th, 2020",
+          "people": "Scott Street Housemates + Ryan",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2019-2020/Napa-2020/Napa-2020-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Napa 2020/Napa-HP.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Napa Valley 2018",
+          "year": "",
+          "dateRange": "Sept 7th-9th, 2018",
+          "people": "College Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/Napa-2018/Napa-2018-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/Napa-Valley/Napa-Valley-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "big-bear",
+      "name": "Big Bear Lake, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 34.2439,
+      "lng": -116.9114,
+      "types": [
+        "friends",
+        "family"
+      ],
+      "tripCount": 3,
+      "years": [
+        "2023",
+        "2022",
+        "2019-2020"
+      ],
+      "trips": [
+        {
+          "title": "Big Bear, CA",
+          "year": "2023",
+          "dateRange": "Dec 17th-18th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Big-Bear-Dec-17-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Big Bear 2022",
+          "year": "2022",
+          "dateRange": "Dec 21st 2022",
+          "people": "Family",
+          "type": "family",
+          "href": "Travel-Pages-Sub/20s/2022/Big-Bear-2022/Big-Bear-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Big-Bear-2022/Big-Bear-2022-HP.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Holcomb Valley 2019",
+          "year": "2019-2020",
+          "dateRange": "July 2019",
+          "people": "Mom & Doug",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2019-2020/Holcomb-Valley-19/Holcomb-Valley-19.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Holcomb-Valley-2019/Holcomb_valley_Hp.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "catalina",
       "name": "Catalina Island, California",
       "region": "California",
@@ -1349,8 +1658,7 @@
       "lat": 33.3879,
       "lng": -118.4163,
       "types": [
-        "friends",
-        "other"
+        "friends"
       ],
       "tripCount": 3,
       "years": [
@@ -1384,9 +1692,59 @@
           "year": "2024",
           "dateRange": "July 12th - 14th 2024",
           "people": "Matt, Connor, and Jack",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2024/Catalina-2024/Catalina-2024-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2024/Catalina-2024/Catalina-2024-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago, Illinois",
+      "region": "Illinois",
+      "country": "United States",
+      "iso": "US",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "types": [
+        "friends",
+        "work"
+      ],
+      "tripCount": 3,
+      "years": [
+        "2025",
+        "2019-2020"
+      ],
+      "trips": [
+        {
+          "title": "Chicago, IL",
+          "year": "2025",
+          "dateRange": "Feb 2025",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2025.html",
+          "thumb": "assets/images/gallary/20s/2025/Feb-Chicago-2025.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "St.Charles & Chicago 2019",
+          "year": "2019-2020",
+          "dateRange": "Aug 25th-Sept 1st 2019",
+          "people": "Start Class, Nate, and new Accenture Friends",
+          "type": "work",
+          "href": "Travel-Pages-Sub/20s/2019-2020/St.Charles-2019/St.Charles-2019-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/St.Charles-Chicago-2019/St.Charles-HP.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Chicago/Milwaukee 2017",
+          "year": "",
+          "dateRange": "Jul 22nd-26th, 2017",
+          "people": "Joshua, Nathan, Tori, Giovanna, and Terrance",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-F&S/Chicago-Milwaukee-2017/Chicago-Milwaukee-2017-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-F&S/Chicago-Milwaukee/Milwaukee-HP.jpeg",
           "excerpt": ""
         }
       ]
@@ -1402,7 +1760,7 @@
       "types": [
         "work",
         "friends",
-        "other"
+        "family"
       ],
       "tripCount": 3,
       "years": [
@@ -1435,7 +1793,7 @@
           "year": "",
           "dateRange": "Dec 29th-31st, 2015",
           "people": "Mom, Vincent, and Dad",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/College-F&S/Las-Vegas-2015/LV1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-F&S/Las-Vegas-2015/LV9-2.jpg",
           "excerpt": ""
@@ -1451,8 +1809,7 @@
       "lat": 37.6485,
       "lng": -118.9721,
       "types": [
-        "friends",
-        "other"
+        "friends"
       ],
       "tripCount": 3,
       "years": [
@@ -1475,7 +1832,7 @@
           "year": "2022",
           "dateRange": "Jul 13th-16th 2022",
           "people": "Noah, Iris, AJ",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/Mammoth-2022/Mammoth-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Mammoth-2022/Mammoth-2022-HP.jpeg",
           "excerpt": ""
@@ -1485,7 +1842,7 @@
           "year": "",
           "dateRange": "May 25th-28th, 2019",
           "people": "Noah, Cody, Shiv, Dylan, Kathleen",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Bishop-Mammoth/Bishop-Mammoth1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Bishop-Mammoth/Bishop-Mammoth-title-page.jpg",
           "excerpt": ""
@@ -1502,8 +1859,7 @@
       "lng": -122.5556,
       "types": [
         "friends",
-        "work",
-        "other"
+        "work"
       ],
       "tripCount": 3,
       "years": [
@@ -1536,7 +1892,7 @@
           "year": "2019-2020",
           "dateRange": "June 7th, 2020",
           "people": "Rishi, Olivia, Alex, Cody, & Laurs",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Turtle-Rock-2020/Turtle-Rock-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Turtle-Rock-2020/Turtle-Rock-2020-HP.jpg",
           "excerpt": ""
@@ -1544,169 +1900,139 @@
       ]
     },
     {
-      "id": "napa",
-      "name": "Napa, California",
-      "region": "California",
+      "id": "salt-lake-city",
+      "name": "Salt Lake City, Utah",
+      "region": "Utah",
       "country": "United States",
       "iso": "US",
-      "lat": 38.5025,
-      "lng": -122.2654,
+      "lat": 40.7608,
+      "lng": -111.891,
       "types": [
-        "other",
         "friends"
       ],
       "tripCount": 3,
       "years": [
-        "2021",
-        "2019-2020"
+        "2024",
+        "2023"
       ],
       "trips": [
         {
-          "title": "Napa 2021",
-          "year": "2021",
-          "dateRange": "April 10th & May 1st 2021",
-          "people": "Scott Street",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2021/Napa-April-2021/Napa-April-2021-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2021/Napa-April-May-2021/Napa-April-May-2021-HP.jpg",
-          "excerpt": ""
-        },
-        {
-          "title": "Napa 2020",
-          "year": "2019-2020",
-          "dateRange": "October 24th, 2020",
-          "people": "Scott Street Housemates + Ryan",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2019-2020/Napa-2020/Napa-2020-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Napa 2020/Napa-HP.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "Napa Valley 2018",
-          "year": "",
-          "dateRange": "Sept 7th-9th, 2018",
-          "people": "College Friends",
+          "title": "Salt Lake City",
+          "year": "2024",
+          "dateRange": "Feb 23rd-26th 2024",
+          "people": "",
           "type": "friends",
-          "href": "Travel-Pages-Sub/College-J&S/Napa-2018/Napa-2018-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-J&S/Napa-Valley/Napa-Valley-HP.jpeg",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Feb-SLC-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Salt Lake City, UT",
+          "year": "2023",
+          "dateRange": "Mar 16th-19th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/SLC-Mar-17-2023.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Salt Lake City, UT",
+          "year": "2023",
+          "dateRange": "Jan 12th-15th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/SLC-Jan-12-2023.jpeg",
           "excerpt": ""
         }
       ]
     },
     {
-      "id": "disneyland",
-      "name": "Anaheim, California",
-      "region": "California",
-      "country": "United States",
-      "iso": "US",
-      "lat": 33.8121,
-      "lng": -117.919,
+      "id": "taipei",
+      "name": "Taipei, Taiwan",
+      "region": "Taiwan",
+      "country": "Taiwan",
+      "iso": "TW",
+      "lat": 25.033,
+      "lng": 121.5654,
       "types": [
         "family",
         "friends"
       ],
-      "tripCount": 2,
+      "tripCount": 3,
       "years": [
-        "2022"
+        "2024",
+        "2023"
       ],
       "trips": [
         {
-          "title": "Disneyland 2022",
-          "year": "2022",
-          "dateRange": "Dec 26th 2022",
-          "people": "Family",
+          "title": "Taiwan",
+          "year": "2024",
+          "dateRange": "Jan 13th-26th 2024",
+          "people": "",
           "type": "family",
-          "href": "Travel-Pages-Sub/20s/2022/Disneyland-2022/Disneyland-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Disneyland-2022/Disneyland-2022-HP.jpeg",
+          "href": "Travel-Pages-Sub/20s/2024/Taiwan-Jan-2024/Taiwan-Jan-2024-1.html",
+          "thumb": "",
           "excerpt": ""
         },
         {
-          "title": "Warriors Courtside 2022",
-          "year": "2022",
-          "dateRange": "Dec 26th 2022",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2022/Warriors-Courtside-2022/Warriors-Courtside-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Warriors-Courtside-2022/Warriors-Courtside-2022-HP.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "big-bear",
-      "name": "Big Bear Lake, California",
-      "region": "California",
-      "country": "United States",
-      "iso": "US",
-      "lat": 34.2439,
-      "lng": -116.9114,
-      "types": [
-        "family",
-        "other"
-      ],
-      "tripCount": 2,
-      "years": [
-        "2022",
-        "2019-2020"
-      ],
-      "trips": [
-        {
-          "title": "Big Bear 2022",
-          "year": "2022",
-          "dateRange": "Dec 21st 2022",
-          "people": "Family",
+          "title": "Taiwan",
+          "year": "2023",
+          "dateRange": "Apr 7th-14th 2023",
+          "people": "",
           "type": "family",
-          "href": "Travel-Pages-Sub/20s/2022/Big-Bear-2022/Big-Bear-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Big-Bear-2022/Big-Bear-2022-HP.jpeg",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Taiwan-Apr-9-2023.jpeg",
           "excerpt": ""
         },
         {
-          "title": "Holcomb Valley 2019",
-          "year": "2019-2020",
-          "dateRange": "July 2019",
-          "people": "Mom & Doug",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2019-2020/Holcomb-Valley-19/Holcomb-Valley-19.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Holcomb-Valley-2019/Holcomb_valley_Hp.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "chicago",
-      "name": "Chicago, Illinois",
-      "region": "Illinois",
-      "country": "United States",
-      "iso": "US",
-      "lat": 41.8781,
-      "lng": -87.6298,
-      "types": [
-        "work",
-        "other"
-      ],
-      "tripCount": 2,
-      "years": [
-        "2019-2020"
-      ],
-      "trips": [
-        {
-          "title": "St.Charles & Chicago 2019",
-          "year": "2019-2020",
-          "dateRange": "Aug 25th-Sept 1st 2019",
-          "people": "Start Class, Nate, and new Accenture Friends",
-          "type": "work",
-          "href": "Travel-Pages-Sub/20s/2019-2020/St.Charles-2019/St.Charles-2019-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/St.Charles-Chicago-2019/St.Charles-HP.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "Chicago/Milwaukee 2017",
+          "title": "Japan/Taiwan/Thailand",
           "year": "",
-          "dateRange": "Jul 22nd-26th, 2017",
-          "people": "Joshua, Nathan, Tori, Giovanna, and Terrance",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-F&S/Chicago-Milwaukee-2017/Chicago-Milwaukee-2017-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-F&S/Chicago-Milwaukee/Milwaukee-HP.jpeg",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "austin",
+      "name": "Austin, Texas",
+      "region": "Texas",
+      "country": "United States",
+      "iso": "US",
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 2,
+      "years": [
+        "2024",
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Austin, TX",
+          "year": "2024",
+          "dateRange": "Mar 13th-18th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Mar-Austin-2024.jpeg",
+          "excerpt": ""
+        },
+        {
+          "title": "Austin, TX",
+          "year": "2023",
+          "dateRange": "Nov 20th-20th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Austin-Nov-18-2023.jpeg",
           "excerpt": ""
         }
       ]
@@ -1721,7 +2047,7 @@
       "lng": -115.901,
       "types": [
         "family",
-        "other"
+        "friends"
       ],
       "tripCount": 2,
       "years": [
@@ -1743,46 +2069,9 @@
           "year": "2021",
           "dateRange": "Dec 31st 2021-Jan 1st 2022",
           "people": "Davis",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Joshua-Tree-New-Year-2021/Joshua-Tree-New-Year-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Joshua-Tree-Dec-2021/Joshua-Tree-New-Year-HP.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "newport",
-      "name": "Newport Beach, California",
-      "region": "California",
-      "country": "United States",
-      "iso": "US",
-      "lat": 33.6189,
-      "lng": -117.9298,
-      "types": [
-        "other",
-        "family"
-      ],
-      "tripCount": 2,
-      "years": [],
-      "trips": [
-        {
-          "title": "Thousand Steps 2017",
-          "year": "",
-          "dateRange": "March 31st, 2017",
-          "people": "Mom and Vincent",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-F&S/Thousand-Steps-2017/Thousand-Steps-2017-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-F&S/Thousand-Steps-and-temple-2017/Thousand-Steps-HP.jpeg",
-          "excerpt": ""
-        },
-        {
-          "title": "Middle School Promotion",
-          "year": "",
-          "dateRange": "June 2011",
-          "people": "Family & CDM Middle School Friends",
-          "type": "family",
-          "href": "Travel-Pages-Sub/MiddleSchool/Newport-Beach-2011/Newport-Beach-2011-1.html",
-          "thumb": "assets/images/gallary/Middle-School/MS-Promo-HP.jpg",
           "excerpt": ""
         }
       ]
@@ -1796,7 +2085,7 @@
       "lat": 36.4906,
       "lng": -121.1825,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 2,
       "years": [
@@ -1808,7 +2097,7 @@
           "year": "2019-2020",
           "dateRange": "June 10th-12th, 2020",
           "people": "Climbing Crew",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Pinnacles-June-2020/Pinnacles-June-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Pinnacles/Pinnacles-HP.jpg",
           "excerpt": ""
@@ -1818,7 +2107,7 @@
           "year": "2019-2020",
           "dateRange": "August 14th-16th, 2020",
           "people": "Scott Street Crew",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Pinnacles-pt2-2020/Pinnacles-pt2-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Pinnacles-pt2/Pinnacles-pt2-HP.jpg",
           "excerpt": ""
@@ -1834,8 +2123,7 @@
       "lat": 34.4208,
       "lng": -119.6982,
       "types": [
-        "friends",
-        "other"
+        "friends"
       ],
       "tripCount": 2,
       "years": [
@@ -1858,7 +2146,7 @@
           "year": "2021",
           "dateRange": "May 20th & May 24st 2021",
           "people": "Davis & Co.",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/SB-May-2021/SB-May-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/SB-May-2021/SB-May-2021-HP.jpg",
           "excerpt": ""
@@ -1866,39 +2154,39 @@
       ]
     },
     {
-      "id": "taipei",
-      "name": "Taipei, Taiwan",
-      "region": "Taiwan",
-      "country": "Taiwan",
-      "iso": "TW",
-      "lat": 25.033,
-      "lng": 121.5654,
+      "id": "sonoma",
+      "name": "Sonoma, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 38.2919,
+      "lng": -122.458,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 2,
       "years": [
-        "2024"
+        "2023"
       ],
       "trips": [
         {
-          "title": "Taiwan",
-          "year": "2024",
-          "dateRange": "Jan 13th-26th 2024",
+          "title": "Sononma, CA",
+          "year": "2023",
+          "dateRange": "Jul 29th 2023",
           "people": "",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2024/Taiwan-Jan-2024/Taiwan-Jan-2024-1.html",
-          "thumb": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Sonoma-Jul-2023.jpeg",
           "excerpt": ""
         },
         {
-          "title": "Japan/Taiwan/Thailand",
-          "year": "",
-          "dateRange": "Jun 19th-Jul 18th, 2019",
-          "people": "Noah, Dad, Davis",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
+          "title": "Sonoma, CA",
+          "year": "2023",
+          "dateRange": "Jan 28th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Sonoma-Jan-28-2023.jpeg",
           "excerpt": ""
         }
       ]
@@ -1912,8 +2200,7 @@
       "lat": 38.9072,
       "lng": -77.0369,
       "types": [
-        "family",
-        "other"
+        "family"
       ],
       "tripCount": 2,
       "years": [
@@ -1936,7 +2223,7 @@
           "year": "2021",
           "dateRange": "June 22nd-29th 2021",
           "people": "Vincent, Erin, & Co.",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/20s/2021/DC-June-2021/DC-June-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/DC-June-2021/DC-June-2021-HP.jpg",
           "excerpt": ""
@@ -1982,6 +2269,34 @@
       ]
     },
     {
+      "id": "disneyland",
+      "name": "Anaheim, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 33.8121,
+      "lng": -117.919,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "Disneyland 2022",
+          "year": "2022",
+          "dateRange": "Dec 26th 2022",
+          "people": "Family",
+          "type": "family",
+          "href": "Travel-Pages-Sub/20s/2022/Disneyland-2022/Disneyland-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Disneyland-2022/Disneyland-2022-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "a-basin",
       "name": "Arapahoe Basin, Colorado",
       "region": "Colorado",
@@ -2018,7 +2333,7 @@
       "lat": 39.1911,
       "lng": -106.8175,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2028,9 +2343,37 @@
           "year": "",
           "dateRange": "Aug 2nd-6th, 2019",
           "people": "Connor, Lucas, and Matt",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Denver-Aspen/Denver-Aspen1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Denver-Aspen/Denver-Aspen.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "athens",
+      "name": "Athens, Greece",
+      "region": "Greece",
+      "country": "Greece",
+      "iso": "GR",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
+          "people": "",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
           "excerpt": ""
         }
       ]
@@ -2044,7 +2387,7 @@
       "lat": -33.8688,
       "lng": 151.2093,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2054,7 +2397,7 @@
           "year": "",
           "dateRange": "Summer 2013",
           "people": "CDM Water Polo Team",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/HighSchool/Australia/Australia-1.html",
           "thumb": "assets/images/Travel-Pages-Images/High-School/Australia/Australia-8.png",
           "excerpt": ""
@@ -2070,7 +2413,7 @@
       "lat": 13.7563,
       "lng": 100.5018,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2080,7 +2423,7 @@
           "year": "",
           "dateRange": "Jun 19th-Jul 18th, 2019",
           "people": "Noah, Dad, Davis",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
@@ -2114,6 +2457,88 @@
       ]
     },
     {
+      "id": "beijing",
+      "name": "Beijing, China",
+      "region": "Beijing",
+      "country": "China",
+      "iso": "CN",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "China Study Abroad",
+          "year": "",
+          "dateRange": "",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/China/China-April.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/China/April/China-46.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "berkeley",
+      "name": "Berkeley, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 37.8715,
+      "lng": -122.273,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2019-2020"
+      ],
+      "trips": [
+        {
+          "title": "Back In Berkeley 2019",
+          "year": "2019-2020",
+          "dateRange": "August 2019",
+          "people": "CAL Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2019-2020/Back-In-Berkeley/Back-In-Berkeley-2020.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/First-Week-Virgo-2019/First-Week-Virgo-2019-1.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "bologna",
+      "name": "Bologna, Italy",
+      "region": "Emilia-Romagna",
+      "country": "Italy",
+      "iso": "IT",
+      "lat": 44.4949,
+      "lng": 11.3426,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2026"
+      ],
+      "trips": [
+        {
+          "title": "Italy & Malta 2026",
+          "year": "2026",
+          "dateRange": "June 18th-27th, 2026",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
+          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "boston",
       "name": "Boston, Massachusetts",
       "region": "Massachusetts",
@@ -2122,7 +2547,7 @@
       "lat": 42.3601,
       "lng": -71.0589,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2132,7 +2557,7 @@
           "year": "",
           "dateRange": "Feb 2nd-11th, 2018",
           "people": "Alex and Tatum",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Harvard-Mardi-Gras-2017/Harvard-Mardi-Gras-2017-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Harvard-Mardi-Gras-2017/Mardi-Gras-1.jpeg",
           "excerpt": ""
@@ -2148,7 +2573,7 @@
       "lat": 37.6972,
       "lng": -112.8499,
       "types": [
-        "other"
+        "family"
       ],
       "tripCount": 1,
       "years": [],
@@ -2158,9 +2583,91 @@
           "year": "",
           "dateRange": "Dec 26th-29th 2018",
           "people": "Fam + Doug & Coleman",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/College-J&S/Brian-Head-2018/Brian-Head-2018-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Brian-Head-2018/Brian-Head-2018-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cabo",
+      "name": "Cabo San Lucas, Mexico",
+      "region": "Baja California Sur",
+      "country": "Mexico",
+      "iso": "MX",
+      "lat": 22.8905,
+      "lng": -109.9167,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2024"
+      ],
+      "trips": [
+        {
+          "title": "Cabo, Mexico",
+          "year": "2024",
+          "dateRange": "Oct 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Oct-Cabo-2024.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "california",
+      "name": "California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 36.7783,
+      "lng": -119.4179,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "College School Visits",
+          "year": "",
+          "dateRange": "August 2014",
+          "people": "JR Santoro",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/HighSchool/College-school-visits/College-school-visits-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/High-School/College Visits/College-Visits-title-page.JPG",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cancun",
+      "name": "Cancun, Mexico",
+      "region": "Quintana Roo",
+      "country": "Mexico",
+      "iso": "MX",
+      "lat": 21.1619,
+      "lng": -86.8515,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Cancun, Mexico",
+          "year": "2023",
+          "dateRange": "Jun 22nd-25th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Cancun-Jun-24-2023.jpeg",
           "excerpt": ""
         }
       ]
@@ -2174,7 +2681,7 @@
       "lat": 37.2286,
       "lng": -122.0958,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [
@@ -2186,7 +2693,7 @@
           "year": "2021",
           "dateRange": "Feburary 28th 2021",
           "people": "Jacob & Co. + Tyler",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Castle-Rock-Feb-2021/Castle-Rock-Feb-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Castle-Rock-Feb-2021/Castle-Rock-Feb-2021-HP.JPG",
           "excerpt": ""
@@ -2202,7 +2709,7 @@
       "lat": 10.3157,
       "lng": 123.8854,
       "types": [
-        "other"
+        "family"
       ],
       "tripCount": 1,
       "years": [
@@ -2214,7 +2721,7 @@
           "year": "2024",
           "dateRange": "Jan 26th-31st 2024",
           "people": "",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/20s/2024/Philippines-Jan-2024/Philippines-Jan-2024-1.html",
           "thumb": "",
           "excerpt": ""
@@ -2222,27 +2729,27 @@
       ]
     },
     {
-      "id": "beijing",
-      "name": "China",
-      "region": "China",
-      "country": "China",
-      "iso": "CN",
-      "lat": 39.9042,
-      "lng": 116.4074,
+      "id": "chiang-mai",
+      "name": "Chiang Mai, Thailand",
+      "region": "Thailand",
+      "country": "Thailand",
+      "iso": "TH",
+      "lat": 18.7883,
+      "lng": 98.9853,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
       "trips": [
         {
-          "title": "China Study Abroad",
+          "title": "Japan/Taiwan/Thailand",
           "year": "",
-          "dateRange": "",
-          "people": "",
-          "type": "other",
-          "href": "Travel-Pages-Sub/College-J&S/China/China-April.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-J&S/China/April/China-46.jpg",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
         }
       ]
@@ -2256,6 +2763,60 @@
       "lat": 55.6761,
       "lng": 12.5683,
       "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "Croatia/Denmark 2022",
+          "year": "2022",
+          "dateRange": "Sept 2022",
+          "people": "Eric & Friends",
+          "type": "solo",
+          "href": "Travel-Pages-Sub/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas, Texas",
+      "region": "Texas",
+      "country": "United States",
+      "iso": "US",
+      "lat": 32.7767,
+      "lng": -96.797,
+      "types": [
+        "work"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "O4U - Marketing 2017",
+          "year": "",
+          "dateRange": "Sept 15th-17th, 2017",
+          "people": "O4U Friends",
+          "type": "work",
+          "href": "Travel-Pages-Sub/College-J&S/O4U-Mrkt-2017/O4U-Mrkt-2017-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/O4U-Marketing-2017/Pepsico-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dubrovnik",
+      "name": "Dubrovnik, Croatia",
+      "region": "Dalmatia",
+      "country": "Croatia",
+      "iso": "HR",
+      "lat": 42.6507,
+      "lng": 18.0944,
+      "types": [
         "friends"
       ],
       "tripCount": 1,
@@ -2276,29 +2837,57 @@
       ]
     },
     {
-      "id": "split",
-      "name": "Croatia",
-      "region": "Dalmatia",
-      "country": "Croatia",
-      "iso": "HR",
-      "lat": 43.5081,
-      "lng": 16.4402,
+      "id": "florence",
+      "name": "Florence, Italy",
+      "region": "Tuscany",
+      "country": "Italy",
+      "iso": "IT",
+      "lat": 43.7696,
+      "lng": 11.2558,
       "types": [
         "friends"
       ],
       "tripCount": 1,
       "years": [
-        "2022"
+        "2026"
       ],
       "trips": [
         {
-          "title": "Croatia/Denmark 2022",
-          "year": "2022",
-          "dateRange": "Sept 2022",
-          "people": "Eric & Friends",
+          "title": "Italy & Malta 2026",
+          "year": "2026",
+          "dateRange": "June 18th-27th, 2026",
+          "people": "",
           "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-HP.jpeg",
+          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
+          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "hanoi",
+      "name": "Hanoi, Vietnam",
+      "region": "Vietnam",
+      "country": "Vietnam",
+      "iso": "VN",
+      "lat": 21.0285,
+      "lng": 105.8542,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Vietnam",
+          "year": "2023",
+          "dateRange": "Apr 15th-22nd 2023",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Vietnam-Apr-16-2023.jpeg",
           "excerpt": ""
         }
       ]
@@ -2340,7 +2929,7 @@
       "lat": 34.0928,
       "lng": -118.3287,
       "types": [
-        "other"
+        "family"
       ],
       "tripCount": 1,
       "years": [],
@@ -2350,9 +2939,63 @@
           "year": "",
           "dateRange": "May 14th, 2017",
           "people": "Mom and Vincent",
-          "type": "other",
+          "type": "family",
           "href": "Travel-Pages-Sub/College-F&S/Hollywood-2017/Hollywood1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-F&S/Hollywood-2017/Hollywood-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "huangshan",
+      "name": "Huangshan, China",
+      "region": "Anhui",
+      "country": "China",
+      "iso": "CN",
+      "lat": 30.1327,
+      "lng": 118.1667,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "China Study Abroad",
+          "year": "",
+          "dateRange": "",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/China/China-April.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/China/April/China-46.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "hvar",
+      "name": "Hvar, Croatia",
+      "region": "Dalmatia",
+      "country": "Croatia",
+      "iso": "HR",
+      "lat": 43.1729,
+      "lng": 16.4412,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "Croatia/Denmark 2022",
+          "year": "2022",
+          "dateRange": "Sept 2022",
+          "people": "Eric & Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-HP.jpeg",
           "excerpt": ""
         }
       ]
@@ -2414,29 +3057,109 @@
       ]
     },
     {
-      "id": "rome",
-      "name": "Italy",
-      "region": "Italy",
-      "country": "Italy",
-      "iso": "IT",
-      "lat": 41.9028,
-      "lng": 12.4964,
+      "id": "istanbul",
+      "name": "Istanbul, Turkey",
+      "region": "Turkey",
+      "country": "Turkey",
+      "iso": "TR",
+      "lat": 41.0082,
+      "lng": 28.9784,
       "types": [
-        "other"
+        "solo"
       ],
       "tripCount": 1,
       "years": [
-        "2026"
+        "2023"
       ],
       "trips": [
         {
-          "title": "Italy & Malta 2026",
-          "year": "2026",
-          "dateRange": "June 18th-27th, 2026",
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
           "people": "",
-          "type": "other",
-          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
-          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "kaohsiung",
+      "name": "Kaohsiung, Taiwan",
+      "region": "Taiwan",
+      "country": "Taiwan",
+      "iso": "TW",
+      "lat": 22.6273,
+      "lng": 120.3014,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "laguna-beach",
+      "name": "Laguna Beach, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 33.5427,
+      "lng": -117.7854,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Thousand Steps 2017",
+          "year": "",
+          "dateRange": "March 31st, 2017",
+          "people": "Mom and Vincent",
+          "type": "family",
+          "href": "Travel-Pages-Sub/College-F&S/Thousand-Steps-2017/Thousand-Steps-2017-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-F&S/Thousand-Steps-and-temple-2017/Thousand-Steps-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "london",
+      "name": "London, United Kingdom",
+      "region": "England",
+      "country": "United Kingdom",
+      "iso": "GB",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2024"
+      ],
+      "trips": [
+        {
+          "title": "London, UK",
+          "year": "2024",
+          "dateRange": "Oct 2024",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Oct-London-2024.jpeg",
           "excerpt": ""
         }
       ]
@@ -2504,7 +3227,7 @@
       "lat": 35.8989,
       "lng": 14.5146,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [
@@ -2516,7 +3239,7 @@
           "year": "2026",
           "dateRange": "June 18th-27th, 2026",
           "people": "",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
           "excerpt": ""
@@ -2560,7 +3283,7 @@
       "lat": 12.877,
       "lng": -61.18,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2570,9 +3293,37 @@
           "year": "",
           "dateRange": "August 2011",
           "people": "The Kreunens and Ben",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/MiddleSchool/Caribbean-2011/Caribbean-2011-1.html",
           "thumb": "assets/images/Travel-Pages-Images/Middle-School/Caribbean-2011/Carribean-2011-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "narita",
+      "name": "Narita, Japan",
+      "region": "Chiba",
+      "country": "Japan",
+      "iso": "JP",
+      "lat": 35.772,
+      "lng": 140.3929,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Narita, Japan",
+          "year": "2023",
+          "dateRange": "Apr 23rd 2023",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Narita-Apr-22-2023-1.jpeg",
           "excerpt": ""
         }
       ]
@@ -2586,7 +3337,7 @@
       "lat": 29.9511,
       "lng": -90.0715,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2596,7 +3347,7 @@
           "year": "",
           "dateRange": "Feb 2nd-11th, 2018",
           "people": "Alex and Tatum",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Harvard-Mardi-Gras-2017/Harvard-Mardi-Gras-2017-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Harvard-Mardi-Gras-2017/Mardi-Gras-1.jpeg",
           "excerpt": ""
@@ -2612,7 +3363,7 @@
       "lat": -36.8485,
       "lng": 174.7633,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2622,9 +3373,35 @@
           "year": "",
           "dateRange": "Summer of 2012 & 2014",
           "people": "CDM Water Polo Team",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/HighSchool/New-Zealand/New-Zealand-1.html",
           "thumb": "assets/images/Travel-Pages-Images/High-School/New Zealand/New-Zealand-2014-HP.JPG",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "newport",
+      "name": "Newport Beach, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 33.6189,
+      "lng": -117.9298,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Middle School Promotion",
+          "year": "",
+          "dateRange": "June 2011",
+          "people": "Family & CDM Middle School Friends",
+          "type": "family",
+          "href": "Travel-Pages-Sub/MiddleSchool/Newport-Beach-2011/Newport-Beach-2011-1.html",
+          "thumb": "assets/images/gallary/Middle-School/MS-Promo-HP.jpg",
           "excerpt": ""
         }
       ]
@@ -2638,7 +3415,7 @@
       "lat": 42.8048,
       "lng": 140.6874,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [
@@ -2650,9 +3427,89 @@
           "year": "2024",
           "dateRange": "Jan 5th-13th 2024",
           "people": "",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2024/Japan-Noahs-Bday-Jan-2024/Japan-Noahs-Bday-Jan-2024-1.html",
           "thumb": "",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "oakland",
+      "name": "Oakland, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 37.8044,
+      "lng": -122.2712,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2019-2020"
+      ],
+      "trips": [
+        {
+          "title": "Sibley Park 2020",
+          "year": "2019-2020",
+          "dateRange": "Feb 1st, 2020",
+          "people": "Matt, Connor, & Aiden",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2019-2020/Sibley-Park-2020/Sibley-Park-2020-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Outdoor-Virgo-Hike/Outdoor-Virgo-Hike-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka, Japan",
+      "region": "Kansai",
+      "country": "Japan",
+      "iso": "JP",
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "pai",
+      "name": "Pai, Thailand",
+      "region": "Thailand",
+      "country": "Thailand",
+      "iso": "TH",
+      "lat": 19.3583,
+      "lng": 98.4402,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
         }
       ]
@@ -2686,6 +3543,34 @@
       ]
     },
     {
+      "id": "palos-verdes",
+      "name": "Palos Verdes, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 33.7745,
+      "lng": -118.389,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Palos Verdes, CA",
+          "year": "2023",
+          "dateRange": "Dec 16th 2023",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Palos-Verdes-Dec-16-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "paris",
       "name": "Paris, France",
       "region": "Île-de-France",
@@ -2714,6 +3599,32 @@
       ]
     },
     {
+      "id": "phi-phi",
+      "name": "Phi Phi Islands, Thailand",
+      "region": "Krabi",
+      "country": "Thailand",
+      "iso": "TH",
+      "lat": 7.7407,
+      "lng": 98.7784,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "playa",
       "name": "Playa del Carmen, Mexico",
       "region": "Quintana Roo",
@@ -2722,7 +3633,7 @@
       "lat": 20.6296,
       "lng": -87.0739,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [
@@ -2734,9 +3645,35 @@
           "year": "2021",
           "dateRange": "July-Aug 2021",
           "people": "Davis",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Playa-del-Carmen-July-2021/Playa-del-Carmen-July-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Playa-del-Carmen-MX-2021/Playa-del-Carmen-2021-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "railay",
+      "name": "Railay Beach, Thailand",
+      "region": "Krabi",
+      "country": "Thailand",
+      "iso": "TH",
+      "lat": 8.0106,
+      "lng": 98.8386,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
         }
       ]
@@ -2852,6 +3789,60 @@
       ]
     },
     {
+      "id": "shanghai",
+      "name": "Shanghai, China",
+      "region": "Shanghai",
+      "country": "China",
+      "iso": "CN",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "China Study Abroad",
+          "year": "",
+          "dateRange": "",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/College-J&S/China/China-April.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/China/April/China-46.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "split",
+      "name": "Split, Croatia",
+      "region": "Dalmatia",
+      "country": "Croatia",
+      "iso": "HR",
+      "lat": 43.5081,
+      "lng": 16.4402,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "Croatia/Denmark 2022",
+          "year": "2022",
+          "dateRange": "Sept 2022",
+          "people": "Eric & Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "steamboat",
       "name": "Steamboat Springs, Colorado",
       "region": "Colorado",
@@ -2916,7 +3907,7 @@
       "lat": 35.6762,
       "lng": 139.6503,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [],
@@ -2926,7 +3917,7 @@
           "year": "",
           "dateRange": "Jun 19th-Jul 18th, 2019",
           "people": "Noah, Dad, Davis",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
@@ -2942,7 +3933,7 @@
       "lat": 37.8651,
       "lng": -119.5383,
       "types": [
-        "other"
+        "friends"
       ],
       "tripCount": 1,
       "years": [
@@ -2954,7 +3945,7 @@
           "year": "2022",
           "dateRange": "Jun 25th-27th 2022",
           "people": "ES Besties & Co.",
-          "type": "other",
+          "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-HP.jpeg",
           "excerpt": ""
@@ -2962,26 +3953,5 @@
       ]
     }
   ],
-  "unmatched": [
-    {
-      "title": "4th of July",
-      "slug": "4th-of-July-2021",
-      "location": "America"
-    },
-    {
-      "title": "O4U Conferences 2018",
-      "slug": "O4U-2018",
-      "location": "LGBTQ+ Leadership Conference"
-    },
-    {
-      "title": "O4U - Marketing 2017",
-      "slug": "O4U-Mrkt-2017",
-      "location": "LGBTQ+ Conference"
-    },
-    {
-      "title": "College School Visits",
-      "slug": "College-school-visits",
-      "location": "Exploring future college campuses"
-    }
-  ]
+  "unmatched": []
 }

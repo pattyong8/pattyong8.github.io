@@ -61,16 +61,44 @@ const PLACES = {
   'atacama': { id: 'atacama', name: 'San Pedro de Atacama, Chile', region: 'Chile', country: 'Chile', iso: 'CL', lat: -22.9087, lng: -68.1997 },
   'rome': { id: 'rome', name: 'Italy', region: 'Italy', country: 'Italy', iso: 'IT', lat: 41.9028, lng: 12.4964 },
   'malta': { id: 'malta', name: 'Malta', region: 'Malta', country: 'Malta', iso: 'MT', lat: 35.8989, lng: 14.5146 },
-  'split': { id: 'split', name: 'Croatia', region: 'Dalmatia', country: 'Croatia', iso: 'HR', lat: 43.5081, lng: 16.4402 },
+  'split': { id: 'split', name: 'Split, Croatia', region: 'Dalmatia', country: 'Croatia', iso: 'HR', lat: 43.5081, lng: 16.4402 },
   'copenhagen': { id: 'copenhagen', name: 'Copenhagen, Denmark', region: 'Denmark', country: 'Denmark', iso: 'DK', lat: 55.6761, lng: 12.5683 },
-  'beijing': { id: 'beijing', name: 'China', region: 'China', country: 'China', iso: 'CN', lat: 39.9042, lng: 116.4074 },
+  'beijing': { id: 'beijing', name: 'Beijing, China', region: 'Beijing', country: 'China', iso: 'CN', lat: 39.9042, lng: 116.4074 },
   'madrid': { id: 'madrid', name: 'Madrid, Spain', region: 'Spain', country: 'Spain', iso: 'ES', lat: 40.4168, lng: -3.7038 },
   'barcelona': { id: 'barcelona', name: 'Barcelona, Spain', region: 'Spain', country: 'Spain', iso: 'ES', lat: 41.3874, lng: 2.1686 },
   'playa': { id: 'playa', name: 'Playa del Carmen, Mexico', region: 'Quintana Roo', country: 'Mexico', iso: 'MX', lat: 20.6296, lng: -87.0739 },
   'sydney': { id: 'sydney', name: 'Australia', region: 'Australia', country: 'Australia', iso: 'AU', lat: -33.8688, lng: 151.2093 },
   'auckland': { id: 'auckland', name: 'New Zealand', region: 'New Zealand', country: 'New Zealand', iso: 'NZ', lat: -36.8485, lng: 174.7633 },
+  'athens': { id: 'athens', name: 'Athens, Greece', region: 'Greece', country: 'Greece', iso: 'GR', lat: 37.9838, lng: 23.7275 },
+  'istanbul': { id: 'istanbul', name: 'Istanbul, Turkey', region: 'Turkey', country: 'Turkey', iso: 'TR', lat: 41.0082, lng: 28.9784 },
+  'london': { id: 'london', name: 'London, United Kingdom', region: 'England', country: 'United Kingdom', iso: 'GB', lat: 51.5074, lng: -0.1278 },
+  'narita': { id: 'narita', name: 'Narita, Japan', region: 'Chiba', country: 'Japan', iso: 'JP', lat: 35.7720, lng: 140.3929 },
+  'cancun': { id: 'cancun', name: 'Cancun, Mexico', region: 'Quintana Roo', country: 'Mexico', iso: 'MX', lat: 21.1619, lng: -86.8515 },
+  'cabo': { id: 'cabo', name: 'Cabo San Lucas, Mexico', region: 'Baja California Sur', country: 'Mexico', iso: 'MX', lat: 22.8905, lng: -109.9167 },
+  'austin': { id: 'austin', name: 'Austin, Texas', region: 'Texas', country: 'United States', iso: 'US', lat: 30.2672, lng: -97.7431 },
+  'salt-lake-city': { id: 'salt-lake-city', name: 'Salt Lake City, Utah', region: 'Utah', country: 'United States', iso: 'US', lat: 40.7608, lng: -111.8910 },
+  'sonoma': { id: 'sonoma', name: 'Sonoma, California', region: 'California', country: 'United States', iso: 'US', lat: 38.2919, lng: -122.4580 },
+  'palos-verdes': { id: 'palos-verdes', name: 'Palos Verdes, California', region: 'California', country: 'United States', iso: 'US', lat: 33.7745, lng: -118.3890 },
+  'hanoi': { id: 'hanoi', name: 'Hanoi, Vietnam', region: 'Vietnam', country: 'Vietnam', iso: 'VN', lat: 21.0285, lng: 105.8542 },
   'mustique': { id: 'mustique', name: 'Mustique', region: 'Grenadines', country: 'Saint Vincent and the Grenadines', iso: 'VC', lat: 12.877, lng: -61.180 },
-  'hollywood': { id: 'hollywood', name: 'Hollywood, California', region: 'California', country: 'United States', iso: 'US', lat: 34.0928, lng: -118.3287 }
+  'hollywood': { id: 'hollywood', name: 'Hollywood, California', region: 'California', country: 'United States', iso: 'US', lat: 34.0928, lng: -118.3287 },
+  'dallas': { id: 'dallas', name: 'Dallas, Texas', region: 'Texas', country: 'United States', iso: 'US', lat: 32.7767, lng: -96.797 },
+  'california': { id: 'california', name: 'California', region: 'California', country: 'United States', iso: 'US', lat: 36.7783, lng: -119.4179 },
+  'laguna-beach': { id: 'laguna-beach', name: 'Laguna Beach, California', region: 'California', country: 'United States', iso: 'US', lat: 33.5427, lng: -117.7854 },
+  'berkeley': { id: 'berkeley', name: 'Berkeley, California', region: 'California', country: 'United States', iso: 'US', lat: 37.8715, lng: -122.273 },
+  'oakland': { id: 'oakland', name: 'Oakland, California', region: 'California', country: 'United States', iso: 'US', lat: 37.8044, lng: -122.2712 },
+  'florence': { id: 'florence', name: 'Florence, Italy', region: 'Tuscany', country: 'Italy', iso: 'IT', lat: 43.7696, lng: 11.2558 },
+  'bologna': { id: 'bologna', name: 'Bologna, Italy', region: 'Emilia-Romagna', country: 'Italy', iso: 'IT', lat: 44.4949, lng: 11.3426 },
+  'dubrovnik': { id: 'dubrovnik', name: 'Dubrovnik, Croatia', region: 'Dalmatia', country: 'Croatia', iso: 'HR', lat: 42.6507, lng: 18.0944 },
+  'hvar': { id: 'hvar', name: 'Hvar, Croatia', region: 'Dalmatia', country: 'Croatia', iso: 'HR', lat: 43.1729, lng: 16.4412 },
+  'osaka': { id: 'osaka', name: 'Osaka, Japan', region: 'Kansai', country: 'Japan', iso: 'JP', lat: 34.6937, lng: 135.5023 },
+  'kaohsiung': { id: 'kaohsiung', name: 'Kaohsiung, Taiwan', region: 'Taiwan', country: 'Taiwan', iso: 'TW', lat: 22.6273, lng: 120.3014 },
+  'chiang-mai': { id: 'chiang-mai', name: 'Chiang Mai, Thailand', region: 'Thailand', country: 'Thailand', iso: 'TH', lat: 18.7883, lng: 98.9853 },
+  'pai': { id: 'pai', name: 'Pai, Thailand', region: 'Thailand', country: 'Thailand', iso: 'TH', lat: 19.3583, lng: 98.4402 },
+  'railay': { id: 'railay', name: 'Railay Beach, Thailand', region: 'Krabi', country: 'Thailand', iso: 'TH', lat: 8.0106, lng: 98.8386 },
+  'phi-phi': { id: 'phi-phi', name: 'Phi Phi Islands, Thailand', region: 'Krabi', country: 'Thailand', iso: 'TH', lat: 7.7407, lng: 98.7784 },
+  'shanghai': { id: 'shanghai', name: 'Shanghai, China', region: 'Shanghai', country: 'China', iso: 'CN', lat: 31.2304, lng: 121.4737 },
+  'huangshan': { id: 'huangshan', name: 'Huangshan, China', region: 'Anhui', country: 'China', iso: 'CN', lat: 30.1327, lng: 118.1667 }
 };
 
 const LOCATION_ALIASES = {
@@ -215,6 +243,21 @@ function inferType(trip) {
 }
 
 const SLUG_PLACES = {
+  '4th-of-July-2021': ['san-francisco'],
+  'O4U-Mrkt-2017': ['dallas'],
+  'O4U-2018': ['new-york'],
+  'College-school-visits': ['california'],
+  'Warriors-Courtside-2022': ['san-francisco'],
+  'Disneyland-2022': ['disneyland'],
+  'Thousand-Steps-2017': ['laguna-beach'],
+  'Back-In-Berkeley': ['berkeley'],
+  'Sibley-Park-2020': ['oakland'],
+  "Mom's-Wedding-Nov-2025": ['irvine'],
+  'Thanksgiving-Nov-2025': ['irvine'],
+  'Jun-Italy-and-Malta-2026': ['florence', 'bologna', 'malta'],
+  'Croatia-Sept-2022': ['split', 'dubrovnik', 'hvar', 'copenhagen'],
+  'japan-taiwan-thailand': ['osaka', 'tokyo', 'taipei', 'kaohsiung', 'bangkok', 'chiang-mai', 'pai', 'railay', 'phi-phi'],
+  'China': ['beijing', 'shanghai', 'huangshan'],
   'Graduation-Party-2020': ['san-francisco'],
   'Starting-adult-life-2019': ['san-francisco'],
   "Vincent's-bday-2019": ['san-francisco'],
@@ -226,6 +269,45 @@ const SLUG_PLACES = {
   'Home-2016': ['irvine'],
   'Senior-Bago-2018': ['san-francisco']
 };
+
+
+// Confirmed by Patrick: Irvine trips are home trips with family.
+const TYPE_OVERRIDES = {
+  "Mom's-Wedding-Nov-2025": 'family',
+  'Thanksgiving-Nov-2025': 'family',
+  'Home-2016': 'family',
+  'Winter-19-20': 'family',
+  'Thankgiving-Break-2021': 'family',
+  'Sibley-Park-2020': 'friends'
+};
+
+
+// Owner-confirmed types, matched on trip title.
+const TITLE_TYPES = [
+  ['family', /^(Vincent Visit & Reunion|Vincent's Birthday 2019|OC Fair 2011|Cebu, Philippines|Taiwan|San Diego 2017|Thousand Steps 2017|Hollywood 2017|Brian Head, UT|Washington DC 2021|Las Vegas 2015)$/i],
+  ['friends', new RegExp('^(' + [
+    'Esther Visit NYC', 'Knicks vs (OKC|Mavs|Pacers)',
+    'SF Memories Pt\\.1', 'Halloween & BOTB 2019', 'Harry Potter and the Cursed Child', 'Senior Bago 2018',
+    'HVST 2015', 'HS Water Polo & Swimming',
+    'Butano.*', 'ES Tahoe 2022', 'Tahoe 2017',
+    'Denver House Trip', 'Denver Feb 2021', 'Denver, CO \\(RE Trip\\)', 'Denver/Aspen',
+    'Seattle July 2021', 'Seattle 2019', 'Catalina 2024', 'Mammoth Climbing 2022', 'Bishop/Mammoth',
+    'Turtle Rock 2020', 'Napa 2021', 'Napa 2020', 'Holcomb Valley 2019', 'Chicago/Milwaukee 2017',
+    'New Years @ Jtree', 'Pinnacles 2020 Pt\\.[12]', 'Santa Barbra May 2021', 'Playa del Carmen July 2021',
+    'Japan/Taiwan/Thailand', 'Niseko, Japan', 'Italy & Malta 2026', 'China Study Abroad',
+    'Boston / Mardi Gras 2017', 'Australia 2013', 'New Zealand 2012 & 2014', 'Mustique 2011',
+    'Castle Rock Feb 2021', 'Yosemite EC\'s Bday 2022', 'College School Visits'
+  ].join('|') + ')$', 'i')]
+];
+
+function titleType(trip) {
+  for (const [type, re] of TITLE_TYPES) if (re.test(trip.title.trim())) return type;
+  return null;
+}
+
+function isIrvineHomeTrip(trip) {
+  return /^irvine[-\s]/i.test(trip.slug) || /^irvine\b/i.test(trip.title);
+}
 
 function resolvePlaces(trip) {
   if (SLUG_PLACES[trip.slug]) return SLUG_PLACES[trip.slug].slice();
@@ -319,7 +401,7 @@ for (const trip of trips) {
     unmatched.push({ title: trip.title, slug: trip.slug, location: trip.location });
     continue;
   }
-  const type = inferType(trip);
+  const type = TYPE_OVERRIDES[trip.slug] || titleType(trip) || (isIrvineHomeTrip(trip) ? 'family' : inferType(trip));
   const record = {
     title: trip.title,
     year: trip.year,
@@ -333,7 +415,90 @@ for (const trip of trips) {
   for (const id of ids) {
     if (!PLACES[id]) continue;
     if (!byPlace[id]) byPlace[id] = { ...PLACES[id], trips: [] };
-    byPlace[id].trips.push(record);
+    byPlace[id].trips.push({ ...record });
+  }
+}
+
+// Trips that only exist as year gallery cards (no trip page yet). They link to the year page.
+// Each entry: [year page, card title, card date, place ids, type].
+const GALLERY_TRIPS = [
+  ['2023', 'Mission Beach, CA', 'Dec 31st-Jan 1st 2023', ['san-diego'], 'friends'],
+  ['2023', 'San Diego, CA', 'Dec 22nd-23rd 2023', ['san-diego'], 'friends'],
+  ['2023', 'Big Bear, CA', 'Dec 17th-18th 2023', ['big-bear'], 'friends'],
+  ['2023', 'Palos Verdes, CA', 'Dec 16th 2023', ['palos-verdes'], 'friends'],
+  ['2023', 'San Francisco, CA', 'Dec 1st-3rd 2023', ['san-francisco'], 'friends'],
+  ['2023', 'Broadway Shows', 'Nov & Dec 2023', ['new-york'], 'friends'],
+  ['2023', 'Austin, TX', 'Nov 20th-20th 2023', ['austin'], 'friends'],
+  ['2023', 'Greece & Turkey', 'Oct 23rd-Nov 7th 2023', ['athens', 'istanbul'], 'solo'],
+  ['2023', 'Scott Street in NYC', 'Sept 2023', ['new-york'], 'friends'],
+  ['2023', 'Denver, CO', 'Aug 26th 2023', ['denver'], 'friends'],
+  ['2023', 'Outside Lands 2023', 'Aug 12th-14th 2023', ['san-francisco'], 'friends'],
+  ['2023', 'Sononma, CA', 'Jul 29th 2023', ['sonoma'], 'friends'],
+  ['2023', 'Cancun, Mexico', 'Jun 22nd-25th 2023', ['cancun'], 'friends'],
+  ['2023', 'Napa, CA (Porchfest)', 'Apr 23rd 2023', ['napa'], 'friends'],
+  ['2023', 'Narita, Japan', 'Apr 23rd 2023', ['narita'], 'family'],
+  ['2023', 'Vietnam', 'Apr 15th-22nd 2023', ['hanoi'], 'family'],
+  ['2023', 'Taiwan', 'Apr 7th-14th 2023', ['taipei'], 'family'],
+  ['2023', 'Salt Lake City, UT', 'Mar 16th-19th 2023', ['salt-lake-city'], 'friends'],
+  ['2023', 'Tahoe, CA', 'Jan 18th, 29th, Feb 3rd 2023', ['tahoe'], 'friends'],
+  ['2023', 'Sonoma, CA', 'Jan 28th 2023', ['sonoma'], 'friends'],
+  ['2023', 'Salt Lake City, UT', 'Jan 12th-15th 2023', ['salt-lake-city'], 'friends'],
+  ['2023', 'Seattle, WA', 'Jan 4th-8th 2023', ['seattle'], 'friends'],
+  ['2024', 'NYC Christmas', 'Dec 2024', ['new-york'], 'friends'],
+  ['2024', 'London, UK', 'Oct 2024', ['london'], 'family'],
+  ['2024', 'Denver, CO', 'Oct 2024', ['denver'], 'friends'],
+  ['2024', 'Cabo, Mexico', 'Oct 2024', ['cabo'], 'friends'],
+  ['2024', 'San Diego', 'Jul 3rd-5th 2024', ['san-diego'], 'friends'],
+  ['2024', 'Irvine, CA', 'Jul 1st-17th 2024', ['irvine'], 'family'],
+  ['2024', 'Esther in NYC', 'Jun 27th-30th 2024', ['new-york'], 'friends'],
+  ['2024', 'NYC Bike Excursion', 'Jun 13th 2024', ['new-york'], 'friends'],
+  ['2024', 'Irvine, CA', 'May 13th-21st 2024', ['irvine'], 'family'],
+  ['2024', 'Austin, TX', 'Mar 13th-18th 2024', ['austin'], 'friends'],
+  ['2024', 'Salt Lake City', 'Feb 23rd-26th 2024', ['salt-lake-city'], 'friends'],
+  ['2024', 'Queens Chinatown', 'Feb 17th 2024', ['new-york'], 'friends'],
+  ['2025', 'Knicks vs Clippers', 'Mar 2025', ['new-york'], 'friends'],
+  ['2025', 'Chicago, IL', 'Feb 2025', ['chicago'], 'friends']
+];
+
+// Per place overrides when one trip visits places with different company.
+const PLACE_TYPE_OVERRIDES = {
+  'Croatia/Denmark 2022|copenhagen': 'solo'
+};
+
+function galleryCards(year) {
+  const file = path.join(ROOT, 'Travel-Pages/20s/20s-' + year + '.html');
+  const html = fs.readFileSync(file, 'utf8');
+  const re = /<div class="filtr-item">\s*<a href="[^"]*">\s*<img src="([^"]*)"[^>]*>\s*<\/a>([\s\S]*?)<\/div><!-- \/\.filtr-item/g;
+  const cards = [];
+  let m;
+  while ((m = re.exec(html))) {
+    const title = (m[2].match(/<a[^>]*>\s*([^<]+?)\s*<\/a>/) || [])[1];
+    const date = (m[2].match(/<p>([^<]*)<\/p>/) || [])[1];
+    if (title) cards.push({ title: decode(title), date: decode(date || ''), thumb: m[1].replace(/^(?:\.\.\/)+/, '') });
+  }
+  return cards;
+}
+
+const cardCache = {};
+for (const [year, title, date, ids, type] of GALLERY_TRIPS) {
+  cardCache[year] = cardCache[year] || galleryCards(year);
+  const card = cardCache[year].find((c) => c.title === title && c.date === date);
+  if (!card) throw new Error('Gallery card not found: ' + year + ' ' + title + ' ' + date);
+  for (const id of ids) {
+    if (!PLACES[id]) throw new Error('Unknown place ' + id);
+    if (!byPlace[id]) byPlace[id] = { ...PLACES[id], trips: [] };
+    byPlace[id].trips.push({
+      title, year, dateRange: date, people: '', type,
+      href: 'Travel-Pages/20s/20s-' + year + '.html', thumb: card.thumb, excerpt: ''
+    });
+  }
+}
+
+// Apply per place type overrides and the "solo" wording.
+for (const place of Object.values(byPlace)) {
+  for (const trip of place.trips) {
+    const o = PLACE_TYPE_OVERRIDES[trip.title + '|' + place.id];
+    if (o) trip.type = o;
   }
 }
 
@@ -359,7 +524,7 @@ const places = Object.values(byPlace)
 
 const countries = Array.from(new Set(places.map((p) => p.iso))).sort();
 const uniqueTripHrefs = new Set();
-places.forEach((place) => place.trips.forEach((trip) => uniqueTripHrefs.add(trip.href)));
+places.forEach((place) => place.trips.forEach((trip) => uniqueTripHrefs.add(trip.href + "|" + trip.title + "|" + trip.dateRange)));
 const payload = {
   generatedAt: new Date().toISOString(),
   totals: {
