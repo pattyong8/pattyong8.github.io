@@ -481,8 +481,16 @@ body .s-content {
 		--page-gutter: 16px;
 	}
 
+	header.scrapbook-shell,
+	.scrapbook-shell {
+		padding-left: env(safe-area-inset-left, 0);
+		padding-right: env(safe-area-inset-right, 0);
+	}
+
 	.scrapbook-shell-inner {
-		padding: 6px var(--page-gutter);
+		gap: 10px;
+		padding: 6px max(var(--page-gutter), env(safe-area-inset-right, 0px));
+		padding-left: max(var(--page-gutter), env(safe-area-inset-left, 0px));
 		min-height: var(--header-height);
 	}
 
@@ -496,18 +504,22 @@ body .s-content {
 	.scrapbook-logo:focus,
 	.scrapbook-logo:active,
 	.scrapbook-logo span {
-		font-size: 24px;
+		font-size: 22px;
+		padding: 6px 0;
 	}
 
 	.scrapbook-toggle a,
 	.scrapbook-toggle a:hover,
 	.scrapbook-toggle a:focus {
-		min-width: 68px;
-		padding: 0 14px;
+		min-width: 64px;
+		min-height: 44px;
+		padding: 0 12px;
+		font-size: 13px;
 	}
 
 	.scrapbook-cover {
-		padding: 16px var(--page-gutter) 48px;
+		padding: 12px max(var(--page-gutter), env(safe-area-inset-right, 0px)) 56px;
+		padding-left: max(var(--page-gutter), env(safe-area-inset-left, 0px));
 	}
 
 	.scrapbook-cover h1 {
@@ -518,9 +530,14 @@ body .s-content {
 		font-size: 16px;
 	}
 
+	.scrapbook-cover p.scrapbook-lead {
+		font-size: 17px;
+	}
+
 	.scrapbook-cover-photo {
+		height: clamp(240px, 56vw, 360px);
 		border-radius: 14px;
-		margin-bottom: 24px;
+		margin-bottom: 22px;
 	}
 
 	.scrapbook-cover-actions {
@@ -533,17 +550,44 @@ body .s-content {
 		width: 100%;
 	}
 
+	.scrapbook-cover-chapters,
 	.scrapbook-cover-years {
 		flex-wrap: nowrap;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		padding-bottom: 4px;
+		scroll-snap-type: x proximity;
+		scrollbar-width: none;
+		padding-bottom: 6px;
+		margin-left: calc(var(--page-gutter) * -1);
+		margin-right: calc(var(--page-gutter) * -1);
+		padding-left: var(--page-gutter);
+		padding-right: var(--page-gutter);
 	}
 
+	.scrapbook-cover-chapters::-webkit-scrollbar,
+	.scrapbook-cover-years::-webkit-scrollbar {
+		display: none;
+	}
+
+	.scrapbook-cover-chapters a,
+	.scrapbook-cover-chapters a:hover,
+	.scrapbook-cover-chapters a:focus,
 	.scrapbook-cover-years a,
 	.scrapbook-cover-years a:hover,
 	.scrapbook-cover-years a:focus {
 		flex: 0 0 auto;
+		scroll-snap-align: start;
+		min-height: 44px;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.scrapbook-cover-chapters a,
+	.scrapbook-cover-chapters a:hover,
+	.scrapbook-cover-chapters a:focus {
+		display: inline-flex;
+		font-size: 20px;
 	}
 
 	.scrapbook-recent h2 {
@@ -552,5 +596,15 @@ body .s-content {
 
 	.scrapbook-recent-grid strong {
 		font-size: 18px;
+	}
+
+	.scrapbook-recent-grid a,
+	.scrapbook-recent-grid a:hover,
+	.scrapbook-recent-grid a:focus {
+		padding-bottom: 8px;
+	}
+
+	.footer-copyright.scrapbook-footer-bar {
+		padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
 	}
 }

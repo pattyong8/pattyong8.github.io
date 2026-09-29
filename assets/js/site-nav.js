@@ -3,8 +3,8 @@
     'use strict';
 
     var DEFAULT_LIST = 'Travel-Pages/20s/20s-2026.html';
-    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=13';
-    var LIST_CSS = '/assets/css/scrapbook-list.css?v=10';
+    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=14';
+    var LIST_CSS = '/assets/css/scrapbook-list.css?v=11';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=6';
     var TRIP_CSS = '/assets/css/travel-trip.css?v=3';
 
@@ -91,7 +91,7 @@
         var link;
         for (i = 0; i < existing.length; i++) {
             linkHref = existing[i].getAttribute('href') || '';
-            if (linkHref.indexOf('scrapbook-shell.css?v=13') !== -1) {
+            if (linkHref.indexOf('scrapbook-shell.css?v=14') !== -1) {
                 existing[i].setAttribute('data-scrapbook-shell', 'true');
                 hasCurrent = true;
             } else if (existing[i].parentNode) {
