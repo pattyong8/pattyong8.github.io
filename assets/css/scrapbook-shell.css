@@ -608,3 +608,21 @@ body .s-content {
 		padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
 	}
 }
+
+@media (max-width: 360px) {
+	.scrapbook-cover h1 {
+		font-size: 30px;
+	}
+
+	.scrapbook-cover p.scrapbook-lead {
+		font-size: 16px;
+	}
+
+	.scrapbook-cover-photo {
+		height: clamp(210px, 58vw, 300px);
+	}
+
+	.scrapbook-story h2 {
+		font-size: 22px;
+	}
+}

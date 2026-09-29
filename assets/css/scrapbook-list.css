@@ -531,3 +531,18 @@ body .filtr-container .filtr-item:hover .item-title p {
 		padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px));
 	}
 }
+
+@media (max-width: 360px) {
+	.memories-home h1 {
+		font-size: 26px;
+	}
+
+	.gallary-header .memories-home p {
+		font-size: 15px;
+		line-height: 1.55;
+	}
+
+	body .filtr-container .filtr-item img {
+		border-radius: 12px;
+	}
+}

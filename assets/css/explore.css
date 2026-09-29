@@ -474,3 +474,38 @@ html:has(body.explore-body) {
 		height: 24px;
 	}
 }
+
+@media (max-width: 360px) {
+	.explore-panel {
+		height: min(36dvh, 280px);
+	}
+
+	.explore-panel h1 {
+		font-size: 24px;
+	}
+
+	.explore-lede {
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	.explore-legend-item {
+		font-size: 0;
+		gap: 0;
+	}
+
+	.explore-legend-item .explore-marker {
+		margin: 0;
+	}
+
+	.explore-legend {
+		gap: 6px;
+		padding: 6px 8px;
+		justify-content: space-around;
+	}
+
+	.explore-type-row button {
+		padding: 6px 12px;
+		font-size: 12px;
+	}
+}
