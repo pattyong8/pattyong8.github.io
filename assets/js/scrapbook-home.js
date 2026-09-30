@@ -52,6 +52,8 @@
         requestAnimationFrame(function () {
             requestAnimationFrame(markReady);
         });
+        // Safety: never leave cover copy invisible if rAF is delayed/skipped
+        setTimeout(markReady, 120);
     }
 
     if (document.readyState === 'loading') {
