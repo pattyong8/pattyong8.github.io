@@ -523,5 +523,9 @@
         initMap(state.data, results[1]);
         bindUi();
         refresh();
+        requestAnimationFrame(function () {
+            document.body.classList.add('explore-ready');
+            refreshMapSize();
+        });
     });
 })();

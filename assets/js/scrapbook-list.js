@@ -125,11 +125,32 @@
         host.classList.add('scrapbook-legacy-nav');
     }
 
+    function revealCards() {
+        var items = document.querySelectorAll('.filtr-container .filtr-item');
+        if (!items.length) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+            return;
+        }
+        document.body.classList.add('scrapbook-animate');
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add('is-inview');
+                io.unobserve(entry.target);
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+        Array.prototype.forEach.call(items, function (item, i) {
+            item.style.transitionDelay = (i % 3) * 0.06 + 's';
+            io.observe(item);
+        });
+    }
+
     function start() {
         if (!document.querySelector('.dropdown-travelbar')) return;
         document.body.classList.add('scrapbook-list');
         enhanceNav();
         enhanceCards();
+        revealCards();
     }
 
     if (document.readyState === 'loading') {

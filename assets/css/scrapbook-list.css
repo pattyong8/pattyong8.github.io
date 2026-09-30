@@ -33,15 +33,31 @@ body.scrapbook-list .container {
 
 .memories-home h1 {
 	font-family: 'Rufina', serif;
-	font-size: 36px;
-	line-height: 1.15;
+	font-size: clamp(30px, 5vw, 42px);
+	line-height: 1.12;
 	color: var(--ink, #1c2b2e);
 	text-transform: none;
 	font-weight: 400;
 	opacity: 1 !important;
-	margin: 0 0 12px;
+	margin: 0 0 14px;
 	animation: none !important;
 	transform: none !important;
+	letter-spacing: -0.01em;
+}
+
+body.scrapbook-list .s-content {
+	padding-top: 1.6rem !important;
+}
+
+body.scrapbook-list.scrapbook-animate .filtr-container .filtr-item {
+	opacity: 0;
+	transform: translateY(12px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+body.scrapbook-list.scrapbook-animate .filtr-container .filtr-item.is-inview {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .gallary-header .memories-home p {
@@ -346,9 +362,10 @@ body .filtr-container .filtr-item img {
 	height: auto;
 	aspect-ratio: 4 / 3;
 	object-fit: cover;
-	border-radius: 14px;
+	object-position: center 35%;
+	border-radius: 16px;
 	display: block;
-	transition: transform 0.35s ease;
+	transition: transform 0.45s ease;
 }
 
 body .filtr-container .filtr-item:hover img {

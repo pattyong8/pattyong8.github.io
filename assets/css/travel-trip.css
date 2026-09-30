@@ -3,6 +3,48 @@
  * Mobile stacks photos and tightens spacing so entries feel phone-native.
  */
 
+/* Cinematic entry open — all viewports */
+body:has(.entry.format-standard) {
+  background: #f3f0ea;
+}
+
+.entry.format-standard .media-wrap.entry__media {
+  margin: 0 0 1.5rem;
+}
+
+.entry.format-standard .entry__post-thumb img {
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(58vh, 560px);
+  object-fit: cover;
+  margin: 0 !important;
+}
+
+.entry.format-standard .content__page-header.entry__header {
+  margin-bottom: 2rem;
+}
+
+.entry.format-standard .entry__title.display-1 {
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.entry.format-standard .text-block {
+  opacity: 0.88;
+  font-size: 1.15rem;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.entry.format-standard .travel-photo-card img,
+.entry.format-standard .entry__related img[alt="portfolio image"] {
+  border-radius: 12px;
+}
+
 .entry__related > h2 {
   margin-bottom: 3.2rem !important;
 }

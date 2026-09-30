@@ -15,6 +15,47 @@ html:has(body.explore-body) {
 	min-height: 100dvh;
 }
 
+.explore-body #explore-map {
+	opacity: 0;
+	transform: scale(1.02);
+	transition: opacity 0.7s ease, transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.explore-body.explore-ready #explore-map {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.explore-body .explore-panel {
+	opacity: 0;
+	transform: translateY(16px);
+	transition: opacity 0.55s ease 0.18s, transform 0.55s cubic-bezier(0.22, 1, 0.36, 1) 0.18s;
+}
+
+.explore-body.explore-ready .explore-panel {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+	.explore-body .explore-panel {
+		transform: translateX(-12px);
+	}
+
+	.explore-body.explore-ready .explore-panel {
+		transform: translateX(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.explore-body #explore-map,
+	.explore-body .explore-panel {
+		transition: none !important;
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}
+
 .explore-body #header {
 	flex: 0 0 auto;
 	position: relative;
