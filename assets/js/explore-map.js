@@ -1,38 +1,18 @@
 (function () {
     'use strict';
 
-    var GEO_NAMES = {
-        US: 'USA',
-        CA: 'Canada',
-        JP: 'Japan',
-        TW: 'Taiwan',
-        PH: 'Philippines',
-        IE: 'Ireland',
-        FR: 'France',
-        CL: 'Chile',
-        IT: 'Italy',
-        HR: 'Croatia',
-        DK: 'Denmark',
-        CN: 'China',
-        ES: 'Spain',
-        MX: 'Mexico',
-        AU: 'Australia',
-        NZ: 'New Zealand',
-        TH: 'Thailand',
-        GR: 'Greece',
-        TR: 'Turkey',
-        VN: 'Vietnam',
-        GB: 'England'
-    };
+    // US and Canada are drawn as states/provinces. Every other country stays one shape.
+    var ADMIN1 = { US: true, CA: true };
 
     var state = {
         data: null,
         map: null,
         cluster: null,
-        countryLayer: null,
+        regionLayer: null,
         markers: {},
         activeId: null,
         countryFilter: '',
+        regionFilter: '',
         typeFilter: '',
         sheet: 'peek'
     };
@@ -50,6 +30,7 @@
     function visiblePlaces() {
         return state.data.places.filter(function (place) {
             if (state.countryFilter && place.iso !== state.countryFilter) return false;
+            if (state.regionFilter && place.region !== state.regionFilter) return false;
             return placeMatchesType(place);
         });
     }
@@ -74,12 +55,16 @@
         });
     }
 
-    function isoForGeoName(name) {
-        var iso;
-        for (iso in GEO_NAMES) {
-            if (GEO_NAMES[iso] === name) return iso;
-        }
-        return '';
+    function placesForRegion(iso, region) {
+        return state.data.places.filter(function (place) {
+            return place.iso === iso && place.region === region && placeMatchesType(place);
+        });
+    }
+
+    function placesForFeature(props) {
+        if (!props) return [];
+        if (props.kind === 'admin1') return placesForRegion(props.iso, props.region);
+        return placesForIso(props.iso);
     }
 
     function escapeHtml(value) {
@@ -166,8 +151,21 @@
                 return groups[a].name.localeCompare(groups[b].name);
             }).forEach(function (iso) {
                 var group = groups[iso];
+                var regions = [];
+                var seenRegion = {};
                 html += '<optgroup label="' + escapeHtml(group.name) + '">';
                 html += '<option value="country:' + iso + '">All of ' + escapeHtml(group.name) + '</option>';
+                if (ADMIN1[iso]) {
+                    group.places.forEach(function (place) {
+                        if (place.region && !seenRegion[place.region]) {
+                            seenRegion[place.region] = true;
+                            regions.push(place.region);
+                        }
+                    });
+                    regions.sort(function (a, b) { return a.localeCompare(b); }).forEach(function (region) {
+                        html += '<option value="region:' + iso + ':' + region + '">' + escapeHtml(region) + '</option>';
+                    });
+                }
                 group.places.sort(function (a, b) {
                     return a.name.localeCompare(b.name);
                 }).forEach(function (place) {
@@ -180,6 +178,7 @@
         }
 
         if (state.activeId) current = 'place:' + state.activeId;
+        else if (state.regionFilter) current = 'region:' + state.countryFilter + ':' + state.regionFilter;
         else if (state.countryFilter) current = 'country:' + state.countryFilter;
         select.value = current;
     }
@@ -213,8 +212,12 @@
         } else {
             showList();
         }
+        if (!state.activeId && state.regionFilter && !placesForRegion(state.countryFilter, state.regionFilter).length) {
+            state.regionFilter = '';
+        }
         if (!state.activeId && state.countryFilter && !placesForIso(state.countryFilter).length) {
             state.countryFilter = '';
+            state.regionFilter = '';
         }
         refresh();
     }
@@ -434,6 +437,7 @@
         if (!place) return;
         state.activeId = id;
         state.countryFilter = place.iso;
+        state.regionFilter = '';
         renderDetail(place);
         showDetail(!!fromMap && isMobile());
         refresh();
@@ -446,6 +450,19 @@
         var places = placesForIso(iso);
         state.activeId = null;
         state.countryFilter = iso;
+        state.regionFilter = '';
+        showList();
+        openSheet();
+        refresh();
+        setHash('');
+        if (pan) flyToGroup(places);
+    }
+
+    function selectRegion(iso, region, pan) {
+        var places = placesForRegion(iso, region);
+        state.activeId = null;
+        state.countryFilter = iso;
+        state.regionFilter = region;
         showList();
         openSheet();
         refresh();
@@ -456,6 +473,7 @@
     function clearPlace() {
         state.activeId = null;
         state.countryFilter = '';
+        state.regionFilter = '';
         showList();
         refresh();
         setHash('');
@@ -467,6 +485,7 @@
         renderDestinationSelect();
         renderList();
         refreshMarkers();
+        restyleRegions();
         panelEl().setAttribute('data-has-place', state.activeId ? 'true' : 'false');
     }
 
@@ -475,37 +494,52 @@
         if (!places.length) return;
         var bounds = state.countryFilter
             ? L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))
-            : (state.countryLayer ? state.countryLayer.getBounds() : L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; })));
+            : (state.regionLayer ? state.regionLayer.getBounds() : L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; })));
         state.map.fitBounds(bounds, Object.assign({ maxZoom: state.countryFilter ? 5 : 2, animate: !!animate, duration: 0.6 }, mapPadding()));
-        if (state.countryLayer) state.countryLayer.bringToFront();
+        if (state.regionLayer) state.regionLayer.bringToFront();
         state.map.invalidateSize();
     }
 
-    var COUNTRY_STYLE = { color: '#2f6f78', weight: 0.9, opacity: 0.55, fillColor: '#2f6f78', fillOpacity: 0.2 };
-    var COUNTRY_STYLE_HOVER = { color: '#2f6f78', weight: 1.2, opacity: 0.85, fillColor: '#2f6f78', fillOpacity: 0.32 };
+    var REGION_STYLE = { color: '#2f6f78', weight: 1, opacity: 0.9, fillColor: '#2f6f78', fillOpacity: 0.2 };
+    var REGION_STYLE_ACTIVE = { color: '#2f6f78', weight: 1.6, opacity: 1, fillColor: '#2f6f78', fillOpacity: 0.34 };
+    var REGION_STYLE_HIDDEN = { opacity: 0, fillOpacity: 0, weight: 0 };
 
-    function addCountryLayer(geo, visitedIso) {
-        var names = {};
-        Object.keys(GEO_NAMES).forEach(function (iso) {
-            if (visitedIso[iso]) names[GEO_NAMES[iso]] = true;
+    function regionIsSelected(props) {
+        if (!props || !placesForFeature(props).length) return false;
+        if (state.regionFilter) return props.kind === 'admin1' && props.iso === state.countryFilter && props.region === state.regionFilter;
+        if (state.countryFilter) return props.iso === state.countryFilter;
+        return false;
+    }
+
+    function styleForRegion(feature, hover) {
+        if (!placesForFeature(feature.properties).length) return REGION_STYLE_HIDDEN;
+        if (hover || regionIsSelected(feature.properties)) return REGION_STYLE_ACTIVE;
+        return REGION_STYLE;
+    }
+
+    function restyleRegions() {
+        if (!state.regionLayer) return;
+        state.regionLayer.eachLayer(function (layer) {
+            layer.setStyle(styleForRegion(layer.feature, false));
         });
-        var visitedGeo = {
-            type: 'FeatureCollection',
-            features: geo.features.filter(function (feature) {
-                return names[feature.properties.name];
-            })
-        };
-        state.countryLayer = L.geoJSON(visitedGeo, {
-            renderer: L.canvas({ padding: 0.8 }),
-            style: COUNTRY_STYLE,
+    }
+
+    function addRegionLayer(geo) {
+        state.regionLayer = L.geoJSON(geo, {
+            renderer: L.canvas({ padding: 0.5 }),
+            smoothFactor: 0,
+            style: function (feature) { return styleForRegion(feature, false); },
             onEachFeature: function (feature, layer) {
-                layer.on('mouseover', function () { layer.setStyle(COUNTRY_STYLE_HOVER); });
-                layer.on('mouseout', function () { layer.setStyle(COUNTRY_STYLE); });
+                layer.on('mouseover', function () {
+                    if (!placesForFeature(feature.properties).length) return;
+                    layer.setStyle(styleForRegion(feature, true));
+                });
+                layer.on('mouseout', function () { layer.setStyle(styleForRegion(feature, false)); });
                 layer.on('click', function () {
-                    var iso = isoForGeoName(feature.properties.name);
-                    var match = placesForIso(iso);
+                    var match = placesForFeature(feature.properties);
                     if (match.length === 1) selectPlace(match[0].id, true, true);
-                    else if (match.length > 1) selectCountry(iso, true);
+                    else if (match.length > 1 && feature.properties.kind === 'admin1') selectRegion(feature.properties.iso, feature.properties.region, true);
+                    else if (match.length > 1) selectCountry(feature.properties.iso, true);
                 });
             }
         }).addTo(state.map);
@@ -521,7 +555,7 @@
         }).setView([20, -20], 2);
         state.map.attributionControl.setPrefix('');
         if (isMobile()) state.map.attributionControl.setPosition('topleft');
-        state.map.attributionControl.addAttribution('Natural Earth');
+        state.map.attributionControl.addAttribution('Boundaries &copy; Natural Earth');
 
         var controls = L.control({ position: 'bottomright' });
         controls.onAdd = function () {
@@ -571,9 +605,7 @@
             maxZoom: 8
         }).addTo(state.map);
 
-        var visitedIso = {};
-        data.places.forEach(function (place) { visitedIso[place.iso] = true; });
-        addCountryLayer(geo, visitedIso);
+        addRegionLayer(geo);
 
         data.places.forEach(function (place) {
             var marker = L.marker([place.lat, place.lng], {
@@ -697,6 +729,11 @@
                 selectPlace(value.slice(6), true);
                 return;
             }
+            if (value.indexOf('region:') === 0) {
+                var parts = value.split(':');
+                selectRegion(parts[1], parts.slice(2).join(':'), true);
+                return;
+            }
             if (value.indexOf('country:') === 0) {
                 selectCountry(value.slice(8), true);
             }
@@ -713,7 +750,7 @@
 
     Promise.all([
         fetch('assets/data/explore-places.json?v=10').then(function (res) { return res.json(); }),
-        fetch('assets/data/world.geojson').then(function (res) { return res.json(); })
+        fetch('assets/data/map-regions.geojson').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];
         initMap(state.data, results[1]);
