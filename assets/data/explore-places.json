@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-09-30T05:20:57.942Z",
   "totals": {
-    "places": 86,
+    "places": 89,
     "trips": 217,
     "countries": 23,
     "unmatched": 0
@@ -3064,6 +3064,90 @@
       "iso": "TR",
       "lat": 41.0082,
       "lng": 28.9784,
+      "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
+          "people": "",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cappadocia",
+      "name": "Cappadocia, Turkey",
+      "region": "Turkey",
+      "country": "Turkey",
+      "iso": "TR",
+      "lat": 38.643,
+      "lng": 34.829,
+      "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
+          "people": "",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "kos",
+      "name": "Kos, Greece",
+      "region": "Greece",
+      "country": "Greece",
+      "iso": "GR",
+      "lat": 36.892,
+      "lng": 27.288,
+      "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
+          "people": "",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "kalymnos",
+      "name": "Kalymnos, Greece",
+      "region": "Greece",
+      "country": "Greece",
+      "iso": "GR",
+      "lat": 36.955,
+      "lng": 26.983,
       "types": [
         "solo"
       ],
