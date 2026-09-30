@@ -730,15 +730,19 @@ body.scrapbook-home.scrapbook-home-scrolled #header {
 	z-index: 0;
 }
 
+.scrapbook-hero-media picture,
 .scrapbook-hero-media img {
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+.scrapbook-hero-media img {
 	object-fit: cover;
-	object-position: center 40%;
-	transform: scale(1.06);
+	object-position: center center;
+	transform: scale(1.04);
 	transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 1s ease;
-	opacity: 0.92;
+	opacity: 0.94;
 }
 
 body.scrapbook-home-ready .scrapbook-hero-media img {
