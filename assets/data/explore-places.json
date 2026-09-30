@@ -3009,7 +3009,7 @@
       "lat": 39.7684,
       "lng": -86.1581,
       "types": [
-        "friends"
+        "work"
       ],
       "tripCount": 1,
       "years": [
@@ -3021,7 +3021,7 @@
           "year": "2025",
           "dateRange": "Sept 2025",
           "people": "Friends",
-          "type": "friends",
+          "type": "work",
           "href": "Travel-Pages-Sub/20s/2025/Indy-Sept-2025/Indy-Sept-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/Sept-Indy-2025.jpeg",
           "excerpt": ""

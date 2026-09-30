@@ -278,7 +278,8 @@ const TYPE_OVERRIDES = {
   'Home-2016': 'family',
   'Winter-19-20': 'family',
   'Thankgiving-Break-2021': 'family',
-  'Sibley-Park-2020': 'friends'
+  'Sibley-Park-2020': 'friends',
+  'Indy-Sept-2025': 'work'
 };
 
 
