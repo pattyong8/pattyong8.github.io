@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="assets/css/vendor.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<script src="assets/js/modernizr.js"></script>
-	<script src="assets/js/main.js?v=2"></script>
+	<script src="assets/js/main.js?v=7"></script>
 
 	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
 	<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
@@ -19,12 +19,12 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/responsive.css" />
-	<link rel="stylesheet" href="assets/css/scrapbook-shell.css?v=13" />
+	<link rel="stylesheet" href="assets/css/scrapbook-shell.css?v=20" />
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script>
 	$(function(){
-	  $("#header").load("header-H.html?v=12");
+	  $("#header").load("header-H.html?v=14");
 	});
 	</script>
 </head>
@@ -35,27 +35,18 @@
 		<figure class="scrapbook-cover-photo">
 			<img src="assets/images/scrapbook/home-cover-wide.jpeg?v=1" alt="Friends standing with elephants in Thailand">
 		</figure>
-
-		<div class="scrapbook-kicker">ONGtheroad</div>
-		<h1>A digital scrapbook</h1>
-		<p class="scrapbook-lead">This website is dedicated to preserving all my spontaneous adventures, precious memories, and life changing experiences. Although the main goal is to create a repository of my life, this site also serves as a self-imposed accountability measure, forcing me to step beyond my comfort zone and explore what life has to offer. Please explore the site and take a trip down memory road with me!</p>
-
-		<section class="scrapbook-story" aria-label="About Patrick">
-			<div>
-				<h2>About me</h2>
-				<p>My name is Patrick Ong, and my goal with this website is to capture all the amazing moments in my life in one central location. A few of my passions are rock climbing (currently bouldering and lead), scuba diving, skiing, teaching and mentoring, and traveling. I was introduced to climbing in Seattle over the summer of 2018, and since then it has been a large part of my life. One of my life goals is to become a dive master, which is hard but attainable.</p>
-				<p>I am an extrovert by nature and love exploring new things, especially with friends and family.</p>
+		<div class="scrapbook-intro">
+			<div class="scrapbook-intro-head">
+				<div class="scrapbook-kicker">ONGtheroad</div>
+				<h1>A digital scrapbook</h1>
 			</div>
-			<div>
-				<h2>Where I am headed</h2>
-				<p>Another goal of mine is to visit at least half of the countries in the world. It was inspired by my Japan, Taiwan, and Thailand post college trip and reinforced by my trip to Croatia in 2022. I had such an amazing time backpacking through Southeast Asia and cannot wait to see the rest of the world.</p>
-				<p>I want to do something in life that I will be proud of. Whether I am impacting the lives of those I mentor or contributing to society in a meaningful way, I hope I can look back and know that I lived it to the fullest.</p>
+			<div class="scrapbook-intro-body">
+			<p class="scrapbook-lead">This website is dedicated to preserving all my spontaneous adventures, precious memories, and life changing experiences. Although the main goal is to create a repository of my life, this site also serves as a self-imposed accountability measure, forcing me to step beyond my comfort zone and explore what life has to offer. Please explore the site and take a trip down memory road with me!</p>
+			<div class="scrapbook-next" id="scrapbook-next">
+				<span>Next trip</span>
+				<strong data-next-label></strong>
 			</div>
-		</section>
-
-		<div class="scrapbook-next" id="scrapbook-next">
-			<span>Next trip</span>
-			<strong data-next-label></strong>
+			</div>
 		</div>
 
 		<nav class="scrapbook-cover-nav" aria-label="Browse memories">
@@ -82,35 +73,56 @@
 			</div>
 			<div class="scrapbook-recent-grid">
 				<a href="Travel-Pages-Sub/20s/2026/Sept-Esther-Visit-2026/Sept-Esther-Visit-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Sep-Esther-Visit-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Sep-Esther-Visit-2026.jpeg" alt=""></span>
 					<strong>Esther Visit NYC</strong>
 					<span>September 6th, 2026</span>
 				</a>
 				<a href="Travel-Pages-Sub/20s/2026/Aug-Catalina-2026/Aug-Catalina-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Aug-Catalina-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Aug-Catalina-2026.jpeg" alt=""></span>
 					<strong>Catalina</strong>
 					<span>August 28th-30th, 2026</span>
 				</a>
 				<a href="Travel-Pages-Sub/20s/2026/Aug-Whistler-2026/Aug-Whistler-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Aug-Whistler-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Aug-Whistler-2026.jpeg" alt=""></span>
 					<strong>Summer in Whistler</strong>
 					<span>August 19th-24th, 2026</span>
 				</a>
 				<a href="Travel-Pages-Sub/20s/2026/Aug-Danny-Sabs-Wedding-2026/Aug-Danny-Sabs-Wedding-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Aug-Danny-Sabs-Wedding-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Aug-Danny-Sabs-Wedding-2026.jpeg" alt=""></span>
 					<strong>Danny &amp; Sab's Wedding</strong>
 					<span>July 31st to August 2nd, 2026</span>
 				</a>
 				<a href="Travel-Pages-Sub/20s/2026/Irvine-Summer-2026/Irvine-Summer-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Jul-Irvine-Summer-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Jul-Irvine-Summer-2026.jpeg" alt=""></span>
 					<strong>Irvine Summer</strong>
 					<span>July and August 2026</span>
 				</a>
 				<a href="Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html">
-					<img src="assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg" alt="">
+					<span class="scrapbook-card-photo"><img src="assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg" alt=""></span>
 					<strong>Italy &amp; Malta 2026</strong>
 					<span>June 18th-27th, 2026</span>
 				</a>
+			</div>
+		</section>
+
+		<section class="scrapbook-mapcta" aria-label="Explore the map">
+			<div>
+				<div class="scrapbook-kicker">By place</div>
+				<h2>Prefer to wander? See every place on the map.</h2>
+			</div>
+			<a href="explore.html">Open the map</a>
+		</section>
+
+		<section class="scrapbook-story" aria-label="About Patrick">
+			<div>
+				<h2>About me</h2>
+				<p>My name is Patrick Ong, and my goal with this website is to capture all the amazing moments in my life in one central location. A few of my passions are rock climbing (currently bouldering and lead), scuba diving, skiing, teaching and mentoring, and traveling. I was introduced to climbing in Seattle over the summer of 2018, and since then it has been a large part of my life. One of my life goals is to become a dive master, which is hard but attainable.</p>
+				<p>I am an extrovert by nature and love exploring new things, especially with friends and family.</p>
+			</div>
+			<div>
+				<h2>Where I am headed</h2>
+				<p>Another goal of mine is to visit at least half of the countries in the world. It was inspired by my Japan, Taiwan, and Thailand post college trip and reinforced by my trip to Croatia in 2022. I had such an amazing time backpacking through Southeast Asia and cannot wait to see the rest of the world.</p>
+				<p>I want to do something in life that I will be proud of. Whether I am impacting the lives of those I mentor or contributing to society in a meaningful way, I hope I can look back and know that I lived it to the fullest.</p>
 			</div>
 		</section>
 	</main>

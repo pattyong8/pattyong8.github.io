@@ -1,69 +1,672 @@
-/* Shared travel trip page layout (Chile reading flow + Picture # badges) */
+/*
+ * Trip pages: one editorial article template.
+ * A wide hero, a calm reading column, photographs that keep their rhythm.
+ * Built on the tokens in scrapbook-shell.css. Scoped to body.scrapbook-trip
+ * so the older theme keeps working underneath.
+ */
 
-.entry__related > h2 {
-  margin-bottom: 3.2rem !important;
+body.scrapbook-trip {
+	--photo-gap: 12px;
+	--r-photo: 10px;
+	--column: 880px;
+}
+
+/* Page frame ----------------------------------------------------- */
+
+body.scrapbook-trip .s-content {
+	max-width: none;
+	padding: 0 var(--page-gutter);
+}
+
+body.scrapbook-trip main.content__page {
+	width: 100%;
+	max-width: calc(var(--page-max) - 2 * var(--page-gutter));
+	margin: 0 auto;
+	padding: var(--s-5) 0 var(--s-8);
+	float: none;
+}
+
+body.scrapbook-trip article.entry {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.scrapbook-trip .content__page img {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Hero ----------------------------------------------------------- */
+
+body.scrapbook-trip .media-wrap.entry__media {
+	margin: 0;
+}
+
+body.scrapbook-trip .entry__post-thumb {
+	overflow: hidden;
+	border-radius: var(--r-lg);
+	background: var(--paper-deep);
+}
+
+body.scrapbook-trip .entry__post-thumb img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	max-height: min(72vh, 660px);
+	object-fit: cover;
+	object-position: center 40%;
+	margin: 0;
+}
+
+/* Title and facts ------------------------------------------------ */
+
+body.scrapbook-trip .content__page-header.entry__header {
+	max-width: var(--column);
+	margin: var(--s-7) auto var(--s-6);
+	text-align: left;
+}
+
+body.scrapbook-trip h1.entry__title,
+body.scrapbook-trip h1.display-1 {
+	font-family: var(--font-serif);
+	font-size: var(--fs-display);
+	font-weight: 350;
+	font-variation-settings: 'opsz' 72;
+	line-height: 1.05;
+	letter-spacing: -0.02em;
+	color: var(--ink);
+	text-transform: none;
+	margin: 0 0 var(--s-6);
+}
+
+body.scrapbook-trip .entry__header-meta {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	gap: var(--s-4) var(--s-6);
+	margin: 0;
+	padding: var(--s-4) 0 0;
+	border-top: 1px solid var(--line);
+	list-style: none;
+	font-size: 0;
+	line-height: 1.4;
+}
+
+body.scrapbook-trip .entry__header-meta li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+body.scrapbook-trip .entry__header-meta li.date { order: 1; }
+body.scrapbook-trip .entry__header-meta li.cat-links { order: 2; }
+body.scrapbook-trip .entry__header-meta li.author { order: 3; }
+
+body.scrapbook-trip .entry__header-meta li::before {
+	display: block;
+	margin-bottom: var(--s-2);
+	font-family: var(--font-sans);
+	font-size: var(--fs-label);
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--sea);
+}
+
+body.scrapbook-trip .entry__header-meta li.date::before { content: 'When'; }
+body.scrapbook-trip .entry__header-meta li.cat-links::before { content: 'Where'; }
+body.scrapbook-trip .entry__header-meta li.author::before { content: 'With'; }
+
+body.scrapbook-trip .entry__header-meta li.date,
+body.scrapbook-trip .entry__header-meta li a {
+	font-family: var(--font-serif);
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--ink);
+	text-transform: none;
+}
+
+/* Reading column ------------------------------------------------- */
+
+body.scrapbook-trip .entry__content,
+body.scrapbook-trip .comments-wrap {
+	max-width: var(--column);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.scrapbook-trip .entry__content p,
+body.scrapbook-trip .entry__related p {
+	font-family: var(--font-serif);
+	font-size: var(--fs-body) !important;
+	font-weight: 400;
+	line-height: 1.75 !important;
+	text-indent: 0 !important;
+	color: #2a3a3c;
+	margin: 0 0 1.25em !important;
+}
+
+body.scrapbook-trip .entry__content p.lead {
+	font-size: var(--fs-lead) !important;
+	font-weight: 350;
+	line-height: 1.55 !important;
+	color: var(--ink);
+	margin: 0 0 var(--s-6) !important;
+}
+
+body.scrapbook-trip .drop-cap:first-letter {
+	float: left;
+	margin: 0;
+	padding: 0.08em 0.12em 0 0;
+	font-family: var(--font-serif);
+	font-size: 4.4em;
+	font-weight: 400;
+	line-height: 0.78;
+	color: var(--sea-deep);
+	background: transparent;
+}
+
+/* Sections. Each chapter of the trip opens with a quiet rule. */
+body.scrapbook-trip .entry__related {
+	margin-top: var(--s-8);
+	padding-top: var(--s-5);
+	border-top: 1px solid var(--line);
+}
+
+/* A few older pages leave sections unclosed, so they nest. Only the
+   outermost one draws the divider and takes the grid. */
+body.scrapbook-trip .entry__related .entry__related {
+	display: block;
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+
+body.scrapbook-trip .entry__related > h2,
+body.scrapbook-trip .entry__content h2,
+body.scrapbook-trip .entry__related h2.related__post-title,
+body.scrapbook-trip article > div > h2.related__post-title {
+	font-family: var(--font-serif);
+	font-size: var(--fs-h2);
+	font-weight: 350;
+	line-height: 1.15;
+	letter-spacing: -0.01em;
+	text-align: left !important;
+	text-transform: none;
+	color: var(--ink);
+	margin: 0 0 var(--s-5) !important;
+}
+
+body.scrapbook-trip .entry__related h3,
+body.scrapbook-trip .entry__related h3.h2 {
+	font-family: var(--font-serif);
+	font-size: var(--fs-h2);
+	font-weight: 350;
+	line-height: 1.15;
+	text-transform: none;
+	color: var(--ink);
+	margin: 0 0 var(--s-5);
+}
+
+body.scrapbook-trip .entry__related h3 span {
+	display: block;
+	margin-top: var(--s-2);
+	font-family: var(--font-sans);
+	font-size: var(--fs-small) !important;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	color: var(--muted) !important;
+}
+
+body.scrapbook-trip .entry__related h5 {
+	font-family: var(--font-serif);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--ink);
+}
+
+body.scrapbook-trip .entry__related h6 {
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	font-weight: 500;
+	letter-spacing: 0.03em;
+	color: var(--muted);
+	text-transform: none;
+}
+
+/* Journal day summaries (older pages). */
+body.scrapbook-trip .entry__related ul:not(.related),
+body.scrapbook-trip article > div > ul {
+	text-align: left !important;
+	font-family: var(--font-serif);
+	font-size: var(--fs-body) !important;
+	line-height: 1.6 !important;
+	color: #2a3a3c;
+	margin: 0 0 var(--s-5);
+}
+
+body.scrapbook-trip .entry__related ul:not(.related) li,
+body.scrapbook-trip article > div > ul li {
+	margin: 0 0 var(--s-3) !important;
+	padding-left: 0;
+}
+
+body.scrapbook-trip .entry__related .related img {
+	border-radius: var(--r-photo);
+}
+
+/* Photographs ---------------------------------------------------- */
+
+body.scrapbook-trip img[alt="portfolio image"] {
+	display: block;
+	border-radius: var(--r-photo);
+	margin: 0 0 var(--photo-gap) !important;
+	background: var(--paper-deep);
+	/* Lazy photos hold a soft placeholder, so the page keeps its length
+	   and only loads what is near the screen. */
+	min-height: 140px;
+	width: 100%;
+	height: auto;
 }
 
 .travel-photo-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  flex-wrap: nowrap;
-  box-sizing: border-box;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100%;
+	flex-wrap: nowrap;
+	box-sizing: border-box;
 }
 
 .travel-photo-card {
-  margin: 5px;
-  position: relative;
-  box-sizing: border-box;
+	margin: 5px;
+	position: relative;
+	box-sizing: border-box;
 }
 
 .travel-photo-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0.8rem;
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 /*
- * Leftover 1–2 photos: float left ~1/3 each; following text wraps beside then full width.
+ * Leftover 1 to 2 photos: float left about a third each; following text
+ * wraps beside them then runs full width.
  * CRITICAL: generator must put ALL section <p> tags inside this wrap BEFORE clear:both.
- * Clearing after only the first paragraph recreates the blank-column bug.
+ * Clearing after only the first paragraph recreates the blank column bug.
  */
 .travel-leftover-wrap {
-  width: 100%;
-  box-sizing: border-box;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 .travel-leftover-photos {
-  float: left;
-  margin: 0 18px 10px 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
+	float: left;
+	margin: 0 18px 10px 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	box-sizing: border-box;
 }
 
-.travel-leftover-photos .travel-photo-card img {
-  margin-bottom: 0.6rem;
+/*
+ * Desktop rhythm: rows of photographs share one gutter and sit flush with the
+ * reading column. The inline three across widths are replaced by equal flex.
+ */
+@media (min-width: 768px) {
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> div > img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> div > img[alt="portfolio image"]),
+	body.scrapbook-trip .travel-photo-row {
+		gap: var(--photo-gap);
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> img[alt="portfolio image"]):not(.col-md-4),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> img[alt="portfolio image"]):not(.col-md-4),
+	body.scrapbook-trip .travel-photo-card {
+		flex: 1 1 0 !important;
+		width: auto !important;
+		max-width: none !important;
+		min-width: 0;
+		margin: 0 !important;
+	}
 }
 
-@media (max-width: 768px) {
-  .travel-photo-row {
-    flex-wrap: wrap;
-  }
+/* Picture number: a small glass label, never a loud badge. */
+body.scrapbook-trip .text-block {
+	position: absolute;
+	right: auto;
+	bottom: calc(var(--photo-gap) + 10px);
+	left: 10px;
+	padding: 4px 10px;
+	background: rgba(26, 42, 44, 0.5);
+	-webkit-backdrop-filter: blur(8px);
+	backdrop-filter: blur(8px);
+	border-radius: var(--r-pill);
+	opacity: 0.92;
+	transition: opacity var(--t-fast) var(--ease);
+}
 
-  .travel-photo-card {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-    width: 100% !important;
-  }
+body.scrapbook-trip .col-md-4 > .text-block {
+	left: 25px;
+}
 
-  .travel-leftover-photos {
-    float: none;
-    width: 100% !important;
-    margin: 0 0 1rem 0;
-  }
+body.scrapbook-trip .text-block p-box,
+body.scrapbook-trip p-box {
+	display: block;
+	margin: 0;
+	font-family: var(--font-sans);
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 1.4;
+	color: var(--paper);
+	white-space: nowrap;
+}
+
+/* Comments ------------------------------------------------------- */
+
+body.scrapbook-trip .comments-wrap {
+	margin-top: var(--s-8);
+	padding: var(--s-6) 0 0;
+	background: transparent;
+	border-top: 1px solid var(--line);
+}
+
+body.scrapbook-trip .comments-wrap h3,
+body.scrapbook-trip .comments-wrap h3.h2 {
+	font-family: var(--font-serif);
+	font-size: var(--fs-h2);
+	font-weight: 350;
+	line-height: 1.15;
+	text-transform: none;
+	color: var(--ink);
+	margin: 0 0 var(--s-4);
+}
+
+body.scrapbook-trip .comments-wrap h3 span {
+	display: block;
+	margin-top: var(--s-2);
+	font-family: var(--font-sans);
+	font-size: var(--fs-ui);
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--muted);
+}
+
+body.scrapbook-trip .comment__author,
+body.scrapbook-trip .comment__time {
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	color: var(--muted);
+}
+
+body.scrapbook-trip .comments-wrap .comment-respond {
+	margin-top: var(--s-6);
+}
+
+body.scrapbook-trip .comment-respond form {
+	padding-top: var(--s-4);
+}
+
+body.scrapbook-trip .comment-respond input[type="text"],
+body.scrapbook-trip .comment-respond textarea {
+	width: 100%;
+	padding: var(--s-3) var(--s-4);
+	border: 1px solid var(--line-strong);
+	border-radius: var(--r-md);
+	background: var(--surface);
+	color: var(--ink);
+	font-family: var(--font-sans);
+	font-size: 16px;
+	box-shadow: none;
+	transition: border-color var(--t-fast) var(--ease);
+}
+
+body.scrapbook-trip .comment-respond input[type="text"] {
+	height: 52px;
+}
+
+body.scrapbook-trip .comment-respond input:focus,
+body.scrapbook-trip .comment-respond textarea:focus {
+	outline: 0;
+	border-color: var(--sea);
+}
+
+body.scrapbook-trip .comment-respond input[type="submit"],
+body.scrapbook-trip .comment-respond .btn--primary {
+	height: 52px;
+	line-height: 52px;
+	padding: 0 var(--s-6);
+	border: 0;
+	border-radius: var(--r-pill);
+	background: var(--sea-deep);
+	color: var(--paper);
+	font-family: var(--font-sans);
+	font-size: var(--fs-ui);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	text-transform: none;
+	transition: background var(--t-fast) var(--ease);
+}
+
+body.scrapbook-trip .comment-respond input[type="submit"]:hover {
+	background: var(--sea);
+}
+
+/* Tablet and up ---------------------------------------------------- */
+
+@media (min-width: 768px) {
+	body.scrapbook-trip main.content__page {
+		padding-top: var(--s-6);
+	}
+
+	/* Older pages lay photos out with floated Bootstrap columns that carry
+	   15px of padding, so they sit off the title edge. Rebuild them as a
+	   12 column grid with the same gap as every other page. */
+	body.scrapbook-trip :is(.entry__content, .entry__related):has(> [class*="col-md-"] > img[alt="portfolio image"]) {
+		display: grid;
+		grid-template-columns: repeat(12, minmax(0, 1fr));
+		gap: var(--photo-gap);
+		align-items: start;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related):has(> [class*="col-md-"] > img[alt="portfolio image"]) > * {
+		grid-column: 1 / -1;
+		float: none;
+		width: auto !important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related) > [class*="col-md-"]:has(> img[alt="portfolio image"]) {
+		grid-column: span 6;
+		float: none !important;
+		width: auto !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		position: relative;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related) > [class*="col-md-"]:has(> img[alt="portfolio image"]) > img {
+		margin: 0 !important;
+	}
+
+	body.scrapbook-trip [class*="col-md-"] > .text-block {
+		left: 10px;
+	}
+}
+
+@media (min-width: 992px) {
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-4:has(> img[alt="portfolio image"]) {
+		grid-column: span 4;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-6:has(> img[alt="portfolio image"]) {
+		grid-column: span 6;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-8:has(> img[alt="portfolio image"]) {
+		grid-column: span 8;
+	}
+
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-12:has(> img[alt="portfolio image"]) {
+		grid-column: 1 / -1;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-8:has(> img[alt="portfolio image"]),
+	body.scrapbook-trip :is(.entry__content, .entry__related) > .col-md-12:has(> img[alt="portfolio image"]) {
+		grid-column: 1 / -1;
+	}
+}
+
+/* Mobile ----------------------------------------------------------- *
+ * Trip pages build their photo grids with inline styles (three across, or
+ * a floated leftover pair). On a phone those are unfrozen here without
+ * touching any trip page. Rhythm: a row of three becomes one large photo
+ * and a pair. Leftovers sit side by side.
+ */
+@media (max-width: 767px) {
+	body.scrapbook-trip {
+		--photo-gap: 8px;
+		--r-photo: 12px;
+	}
+
+	body.scrapbook-trip main.content__page {
+		padding-top: 0;
+	}
+
+	/* The hero runs edge to edge, softened at the bottom. */
+	body.scrapbook-trip .media-wrap.entry__media {
+		margin-left: calc(var(--page-gutter) * -1);
+		margin-right: calc(var(--page-gutter) * -1);
+	}
+
+	body.scrapbook-trip .entry__post-thumb {
+		border-radius: 0 0 var(--r-lg) var(--r-lg);
+	}
+
+	body.scrapbook-trip .entry__post-thumb img {
+		aspect-ratio: 1 / 1;
+		max-height: 62vh;
+	}
+
+	body.scrapbook-trip .content__page-header.entry__header {
+		margin: var(--s-6) 0 var(--s-5);
+	}
+
+	body.scrapbook-trip h1.entry__title,
+	body.scrapbook-trip h1.display-1 {
+		margin-bottom: var(--s-5);
+	}
+
+	body.scrapbook-trip .entry__header-meta {
+		grid-template-columns: 1fr;
+		gap: var(--s-4);
+	}
+
+	body.scrapbook-trip .entry__header-meta li.date,
+	body.scrapbook-trip .entry__header-meta li a {
+		font-size: 18px;
+	}
+
+	body.scrapbook-trip .entry__related {
+		margin-top: var(--s-7);
+		padding-top: var(--s-4);
+	}
+
+	body.scrapbook-trip .entry__related > h2,
+	body.scrapbook-trip .entry__content h2 {
+		margin-bottom: var(--s-4) !important;
+	}
+
+	/* Rows of three: one large photo, then a pair. */
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> div > img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> div > img[alt="portfolio image"]),
+	body.scrapbook-trip .travel-photo-row {
+		display: grid !important;
+		grid-auto-flow: column;
+		grid-auto-columns: minmax(0, 1fr);
+		gap: 8px !important;
+		float: none !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 0 8px 0 !important;
+		padding: 0 !important;
+	}
+
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> div:nth-child(3) > img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> div:nth-child(3) > img[alt="portfolio image"]),
+	body.scrapbook-trip .travel-photo-row:has(> :nth-child(3)) {
+		grid-auto-flow: row;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> div:nth-child(3) > img[alt="portfolio image"]) > :first-child,
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> div:nth-child(3) > img[alt="portfolio image"]) > :first-child,
+	body.scrapbook-trip .travel-photo-row:has(> :nth-child(3)) > :first-child {
+		grid-column: 1 / -1;
+	}
+
+	/* Wrappers that mix single tiles with card rows just stack. */
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> [class*="col-md-"] > div > img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> [class*="col-md-"] > div > img[alt="portfolio image"]) {
+		display: block !important;
+	}
+
+	/* Photo cards inside those grids. */
+	body.scrapbook-trip .entry__content div:not(.entry__related):has(> img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related div:not(.entry__related):has(> img[alt="portfolio image"]),
+	body.scrapbook-trip .travel-photo-card {
+		flex: none !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		float: none !important;
+	}
+
+	/* Single photo blocks from older pages. */
+	body.scrapbook-trip .entry__content [class*="col-md-"],
+	body.scrapbook-trip .entry__related [class*="col-md-"] {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	body.scrapbook-trip .entry__content [class*="col-md-"]:has(> img[alt="portfolio image"]),
+	body.scrapbook-trip .entry__related [class*="col-md-"]:has(> img[alt="portfolio image"]) {
+		display: block !important;
+		float: none !important;
+		width: 100% !important;
+		margin: 0 0 var(--s-3) 0 !important;
+	}
+
+	body.scrapbook-trip [class*="col-md-"] > .text-block {
+		left: 10px;
+	}
+
+	body.scrapbook-trip .travel-leftover-photos {
+		float: none;
+		width: 100% !important;
+		margin: 0 0 8px 0;
+	}
+
+	body.scrapbook-trip .entry__content p,
+	body.scrapbook-trip .entry__related p {
+		margin-bottom: 1.15em !important;
+	}
+
+	body.scrapbook-trip .entry__content p.lead {
+		font-size: 21px !important;
+		margin-bottom: var(--s-5) !important;
+	}
+
+	body.scrapbook-trip .comments-wrap {
+		margin-top: var(--s-7);
+	}
 }

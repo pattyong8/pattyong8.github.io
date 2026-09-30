@@ -3,10 +3,10 @@
     'use strict';
 
     var DEFAULT_LIST = 'Travel-Pages/20s/20s-2026.html';
-    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=13';
-    var LIST_CSS = '/assets/css/scrapbook-list.css?v=10';
+    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=20';
+    var LIST_CSS = '/assets/css/scrapbook-list.css?v=20';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=6';
-    var TRIP_CSS = '/assets/css/travel-trip.css?v=3';
+    var TRIP_CSS = '/assets/css/travel-trip.css?v=21';
 
     var SECTION_PAGES = {
         'College-J&S': 'Travel-Pages/college/college-J-Sen.html',
@@ -91,7 +91,7 @@
         var link;
         for (i = 0; i < existing.length; i++) {
             linkHref = existing[i].getAttribute('href') || '';
-            if (linkHref.indexOf('scrapbook-shell.css?v=13') !== -1) {
+            if (linkHref.indexOf('scrapbook-shell.css?v=20') !== -1) {
                 existing[i].setAttribute('data-scrapbook-shell', 'true');
                 hasCurrent = true;
             } else if (existing[i].parentNode) {
@@ -147,7 +147,7 @@
 
     function injectTripCss() {
         if (!/\/Travel-Pages-Sub\//.test(location.pathname)) return;
-        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=3');
+        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=21');
     }
 
     function paintHeader() {
@@ -166,6 +166,51 @@
                     '</nav>' +
                 '</div>' +
             '</header>';
+    }
+
+
+    function isTripPath(pathname) {
+        return /\/Travel-Pages-Sub\//.test(pathname);
+    }
+
+    function backLabel(rel) {
+        var year = rel.match(/20s-(\d{4}|2019-20)\.html$/);
+        if (year) return year[1];
+        if (/college/i.test(rel)) return 'College';
+        if (/High-School/i.test(rel)) return 'High School';
+        return 'List';
+    }
+
+    function paintBack() {
+        var inner = document.querySelector('#header .scrapbook-shell-inner');
+        var root;
+        var rel;
+        var from = '';
+        var label;
+        var link;
+        if (!inner || !isTripPath(location.pathname) || inner.querySelector('.scrapbook-back')) return;
+        root = siteRoot(location.pathname);
+        rel = listRel(location.pathname);
+        try {
+            var ref = new URL(document.referrer);
+            if (ref.origin === location.origin) {
+                if (isMapPath(ref.pathname)) from = 'map';
+                else if (/\/Travel-Pages\/[^/]+\/[^/]+\.html$/.test(ref.pathname)) from = 'list';
+            }
+        } catch (e) { from = ''; }
+        label = from === 'map' ? 'Map' : backLabel(rel);
+        link = document.createElement('a');
+        link.className = 'scrapbook-back';
+        link.href = from === 'map' ? root + '/explore.html' : root + '/' + rel;
+        link.setAttribute('aria-label', 'Back to ' + label);
+        link.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg><span>' + label + '</span>';
+        if (from && window.history.length > 1) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                window.history.back();
+            });
+        }
+        inner.insertBefore(link, inner.querySelector('.scrapbook-toggle'));
     }
 
     function applyNav() {
@@ -198,10 +243,14 @@
     }
 
     function start() {
+        if (isTripPath(location.pathname) && document.body) {
+            document.body.classList.add('scrapbook-trip');
+        }
         injectShellCss();
         injectListAssets();
         injectTripCss();
         paintHeader();
+        paintBack();
         applyNav();
         var header = document.getElementById('header');
         if (header && !header.getAttribute('data-site-nav-observed')) {
@@ -211,6 +260,7 @@
                 injectListAssets();
                 injectTripCss();
                 paintHeader();
+                paintBack();
                 applyNav();
             }).observe(header, {
                 childList: true,
