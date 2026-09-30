@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-09-30T05:20:57.942Z",
   "totals": {
-    "places": 93,
+    "places": 94,
     "trips": 217,
     "countries": 23,
     "unmatched": 0
@@ -3704,6 +3704,34 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Playa-del-Carmen-July-2021/Playa-del-Carmen-July-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Playa-del-Carmen-MX-2021/Playa-del-Carmen-2021-HP.jpg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "preston",
+      "name": "Preston, United Kingdom",
+      "region": "England",
+      "country": "United Kingdom",
+      "iso": "GB",
+      "lat": 53.7589,
+      "lng": -2.7031,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2024"
+      ],
+      "trips": [
+        {
+          "title": "London, UK",
+          "year": "2024",
+          "dateRange": "Oct 2024",
+          "people": "",
+          "type": "family",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "assets/images/gallary/20s/2024/Oct-London-2024.jpeg",
           "excerpt": ""
         }
       ]
