@@ -933,14 +933,18 @@ body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
 	}
 
 	.scrapbook-hero-actions {
-		gap: 14px;
+		gap: 12px;
+		justify-content: center;
+		padding: 0 4px;
 	}
 
 	.scrapbook-hero-actions a,
 	.scrapbook-hero-actions a:hover,
 	.scrapbook-hero-actions a:focus {
-		flex: 1 1 calc(50% - 7px);
-		max-width: none;
+		flex: 0 1 auto;
+		min-width: 0;
+		max-width: 148px;
+		padding: 0 16px;
 	}
 
 	.scrapbook-hero-hotspots {
