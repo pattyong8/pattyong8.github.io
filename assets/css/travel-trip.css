@@ -1,4 +1,49 @@
-/* Shared travel trip page layout (Chile reading flow + Picture # badges) */
+/* Shared travel trip page layout (Chile reading flow + Picture # badges)
+ * Desktop keeps the designed float/wrap reading flow.
+ * Mobile stacks photos and tightens spacing so entries feel phone-native.
+ */
+
+/* Cinematic entry open — all viewports */
+body:has(.entry.format-standard) {
+  background: #f3f0ea;
+}
+
+.entry.format-standard .media-wrap.entry__media {
+  margin: 0 0 1.5rem;
+}
+
+.entry.format-standard .entry__post-thumb img {
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(58vh, 560px);
+  object-fit: cover;
+  margin: 0 !important;
+}
+
+.entry.format-standard .content__page-header.entry__header {
+  margin-bottom: 2rem;
+}
+
+.entry.format-standard .entry__title.display-1 {
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.entry.format-standard .text-block {
+  opacity: 0.88;
+  font-size: 1.15rem;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.entry.format-standard .travel-photo-card img,
+.entry.format-standard .entry__related img[alt="portfolio image"] {
+  border-radius: 12px;
+}
 
 .entry__related > h2 {
   margin-bottom: 3.2rem !important;
@@ -50,20 +95,315 @@
   margin-bottom: 0.6rem;
 }
 
+/* ===================================================================
+ * Mobile trip entries — intentional phone layout, not shrunk desktop
+ * =================================================================== */
 @media (max-width: 768px) {
-  .travel-photo-row {
-    flex-wrap: wrap;
+  /* Soft scrapbook paper under trip pages for consistency with shell */
+  body:has(.entry.format-standard) {
+    background: #f3f0ea;
   }
 
-  .travel-photo-card {
+  body:has(.entry.format-standard) .s-content.content,
+  body:has(.entry.format-standard) .comments-wrap {
+    background: #f3f0ea;
+  }
+
+  /* Scrapbook header is sticky; kill the old theme's huge top padding */
+  body:has(header.scrapbook-shell) .s-content.content,
+  body .s-content.content {
+    padding-top: 1.25rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .content__page {
+    max-width: none;
+    padding-bottom: 3.5rem;
+  }
+
+  .content__page .row,
+  .s-content .row.content__page {
+    width: 100%;
+    max-width: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .content__page .column,
+  .content__page .column.large-full {
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Hero */
+  .entry__media,
+  .entry__post-thumb {
+    margin: 0 0 1.25rem;
+  }
+
+  .entry__post-thumb img,
+  .media-wrap.entry__media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: min(52vh, 420px);
+    object-fit: cover;
+    border-radius: 14px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .content__page img {
+    margin-top: 0.35rem;
+    margin-bottom: 0.85rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Title + meta */
+  .content__page-header.entry__header,
+  .content__page-header {
+    text-align: left !important;
+    margin: 0 0 1.75rem !important;
+    padding: 0;
+  }
+
+  .entry__title.display-1,
+  h1.display-1.entry__title {
+    font-size: clamp(2.6rem, 8.2vw, 3.4rem) !important;
+    line-height: 1.15 !important;
+    margin: 0 0 0.85rem !important;
+    text-align: left;
+  }
+
+  .entry__header-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    margin: 0;
+    font-size: 1.45rem;
+    line-height: 1.45;
+  }
+
+  .entry__header-meta li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .entry__header-meta .date {
+    font-weight: 500;
+    color: #1c2b2e;
+  }
+
+  .entry__header-meta .cat-links,
+  .entry__header-meta .cat-links a {
+    color: #7a8688;
+    font-size: 1.35rem;
+  }
+
+  /* Body copy */
+  .entry__content {
+    font-size: 1.55rem;
+    line-height: 1.65;
+  }
+
+  .entry__content > p.lead,
+  .entry__content > p.lead.drop-cap {
+    font-size: 1.6rem !important;
+    line-height: 1.65 !important;
+    margin: 0 0 1.5rem !important;
+  }
+
+  .drop-cap:first-letter {
+    font-size: 5.2rem;
+    line-height: 0.85;
+    margin-right: 0.08em;
+    padding-top: 0.08em;
+  }
+
+  /* Inline paragraph styles used by generator / Chile pages */
+  .entry__content p[style*="text-indent"],
+  .entry__related p[style*="text-indent"],
+  .entry__related p[style*="font-size: 1.6rem"],
+  .entry__content p[style*="font-size: 1.6rem"] {
+    text-indent: 1.1em !important;
+    font-size: 1.55rem !important;
+    line-height: 1.65 !important;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .entry__related {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .entry__related > h2 {
+    font-size: 2.2rem !important;
+    line-height: 1.25 !important;
+    margin-top: 2.25rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  .entry__related > h2:first-child {
+    margin-top: 0 !important;
+  }
+
+  /* ---- Photo grids: stack full-width ---- */
+  .travel-photo-row,
+  .entry__related .col-md-4,
+  .entry__related div[style*="display:flex"],
+  .entry__related div[style*="display: flex"] {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .travel-photo-card,
+  .entry__related .travel-photo-card,
+  .entry__related div[style*="33.333%"],
+  .entry__related div[style*="33.33%"],
+  .entry__related div[style*="calc(33"],
+  .entry__related div[style*="calc(100% /"] {
     flex: 0 0 100% !important;
     max-width: 100% !important;
     width: 100% !important;
+    margin: 0 0 0.75rem 0 !important;
   }
 
-  .travel-leftover-photos {
-    float: none;
+  .travel-photo-card img,
+  .entry__related .travel-photo-card img,
+  .entry__related img[alt="portfolio image"] {
+    border-radius: 12px;
+    margin-bottom: 0.35rem !important;
+  }
+
+  /* Chile / legacy float leftovers → stack, no skinny text column.
+     Inline styles may be "float:left" or browser-normalized "float: left". */
+  .travel-leftover-photos,
+  .entry__related div[style*="float:"],
+  .entry__related div[style*="float :"] {
+    float: none !important;
     width: 100% !important;
-    margin: 0 0 1rem 0;
+    max-width: 100% !important;
+    margin: 0 0 1rem 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .travel-leftover-wrap,
+  .entry__related > div[style*="width:100%"],
+  .entry__related > div[style*="width: 100%"] {
+    width: 100% !important;
+    overflow: visible;
+  }
+
+  .entry__related div[style*="float:"] > div,
+  .entry__related div[style*="float :"] > div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 0 0.75rem 0 !important;
+  }
+
+  /* Clearfix leftover float wraps must not leave a reserved gap */
+  .entry__related div[style*="clear"],
+  .entry__related div[style-clear],
+  .entry__related div[style*="clear:"] {
+    clear: both !important;
+    height: 0;
+  }
+
+  /* Picture badges */
+  .text-block {
+    bottom: 12px;
+    right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+  }
+
+  /* Comments / forms */
+  .comments-wrap {
+    padding: 2.5rem 0 0;
+  }
+
+  .commentlist > .comment {
+    padding-left: 0;
+  }
+
+  .comment__avatar {
+    position: static;
+    margin-bottom: 0.75rem;
+  }
+
+  .btn.btn--primary.btn-wide,
+  .btn.btn--large.full-width {
+    min-height: 48px;
+    width: 100%;
+  }
+
+  .footer-copyright.scrapbook-footer-bar,
+  #footer {
+    padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (max-width: 430px) {
+  .content__page .row,
+  .s-content .row.content__page {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .entry__title.display-1,
+  h1.display-1.entry__title {
+    font-size: clamp(2.5rem, 9vw, 3.2rem) !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .content__page .row,
+  .s-content .row.content__page {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .entry__header-meta {
+    font-size: 1.35rem;
+  }
+
+  .scrapbook-toggle a,
+  .scrapbook-toggle a:hover,
+  .scrapbook-toggle a:focus {
+    min-width: 58px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
+
+/* Small tablet: keep two-up only where it still reads well; leftovers stay stacked */
+@media (min-width: 600px) and (max-width: 768px) {
+  .travel-photo-row .travel-photo-card {
+    flex: 0 0 calc(50% - 8px) !important;
+    max-width: calc(50% - 8px) !important;
+    width: calc(50% - 8px) !important;
+  }
+
+  /* Still never restore Chile float-beside-text on tablet portrait */
+  .travel-leftover-photos,
+  .entry__related div[style*="float:"] {
+    float: none !important;
+    width: 100% !important;
   }
 }

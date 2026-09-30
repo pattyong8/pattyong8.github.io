@@ -33,15 +33,31 @@ body.scrapbook-list .container {
 
 .memories-home h1 {
 	font-family: 'Rufina', serif;
-	font-size: 36px;
-	line-height: 1.15;
+	font-size: clamp(30px, 5vw, 42px);
+	line-height: 1.12;
 	color: var(--ink, #1c2b2e);
 	text-transform: none;
 	font-weight: 400;
 	opacity: 1 !important;
-	margin: 0 0 12px;
+	margin: 0 0 14px;
 	animation: none !important;
 	transform: none !important;
+	letter-spacing: -0.01em;
+}
+
+body.scrapbook-list .s-content {
+	padding-top: 1.6rem !important;
+}
+
+body.scrapbook-list.scrapbook-animate .filtr-container .filtr-item {
+	opacity: 0;
+	transform: translateY(12px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+body.scrapbook-list.scrapbook-animate .filtr-container .filtr-item.is-inview {
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .gallary-header .memories-home p {
@@ -346,9 +362,10 @@ body .filtr-container .filtr-item img {
 	height: auto;
 	aspect-ratio: 4 / 3;
 	object-fit: cover;
-	border-radius: 14px;
+	object-position: center 35%;
+	border-radius: 16px;
 	display: block;
-	transition: transform 0.35s ease;
+	transition: transform 0.45s ease;
 }
 
 body .filtr-container .filtr-item:hover img {
@@ -431,8 +448,8 @@ body .filtr-container .filtr-item:hover .item-title p {
 		top: var(--header-height, 56px);
 		margin-left: calc(var(--page-gutter, 16px) * -1);
 		margin-right: calc(var(--page-gutter, 16px) * -1);
-		padding-left: var(--page-gutter, 16px);
-		padding-right: var(--page-gutter, 16px);
+		padding: 4px max(var(--page-gutter, 16px), env(safe-area-inset-right, 0px)) 10px;
+		padding-left: max(var(--page-gutter, 16px), env(safe-area-inset-left, 0px));
 	}
 
 	.memories-home h1 {
@@ -440,11 +457,24 @@ body .filtr-container .filtr-item:hover .item-title p {
 	}
 
 	.scrapbook-eras,
-	.scrapbook-years {
-		flex-wrap: nowrap;
+	.scrapbook-years,
+	.scrapbook-chip-row.scrapbook-eras,
+	.scrapbook-chip-row.scrapbook-years,
+	.dropdown-travelbar:has(> .dropbtn-travelbar.activenotnumbermenu) .dropdown-content-travelbar {
+		flex-wrap: nowrap !important;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		padding-bottom: 8px;
+		scroll-snap-type: x proximity;
+		scrollbar-width: none;
+		padding-bottom: 8px !important;
+	}
+
+	.scrapbook-eras::-webkit-scrollbar,
+	.scrapbook-years::-webkit-scrollbar,
+	.scrapbook-chip-row.scrapbook-eras::-webkit-scrollbar,
+	.scrapbook-chip-row.scrapbook-years::-webkit-scrollbar,
+	.dropdown-content-travelbar::-webkit-scrollbar {
+		display: none;
 	}
 
 	.scrapbook-eras a,
@@ -452,20 +482,84 @@ body .filtr-container .filtr-item:hover .item-title p {
 	.scrapbook-eras a:focus,
 	.scrapbook-years a,
 	.scrapbook-years a:hover,
-	.scrapbook-years a:focus {
-		flex: 0 0 auto;
-		font-size: 18px;
+	.scrapbook-years a:focus,
+	.journal-chapters a,
+	.journal-chapters a:hover,
+	.journal-chapters a:focus,
+	.journal-years a,
+	.journal-years a:hover,
+	.journal-years a:focus,
+	.scrapbook-chip-row a,
+	.scrapbook-chip-row a:hover,
+	.scrapbook-chip-row a:focus,
+	.scrapbook-chip-row a.is-active,
+	.dropbtn-travelbar,
+	.dropdown-content-travelbar a,
+	.dropdown-content-travelbar a:hover,
+	.dropdown-content-travelbar a:focus {
+		flex: 0 0 auto !important;
+		scroll-snap-align: start;
+		display: inline-flex !important;
+		align-items: center !important;
+		min-height: 44px !important;
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
+	.scrapbook-eras a,
+	.scrapbook-eras a:hover,
+	.scrapbook-eras a:focus,
+	.journal-chapters a,
+	.journal-chapters a:hover,
+	.journal-chapters a:focus,
+	.scrapbook-chip-row.scrapbook-eras a,
+	.scrapbook-chip-row.scrapbook-eras a.is-active,
+	.dropbtn-travelbar {
+		font-size: 18px !important;
 	}
 
 	.scrapbook-years a,
 	.scrapbook-years a:hover,
-	.scrapbook-years a:focus {
-		font-size: 13px;
+	.scrapbook-years a:focus,
+	.journal-years a,
+	.journal-years a:hover,
+	.journal-years a:focus,
+	.scrapbook-chip-row.scrapbook-years a,
+	.dropdown-content-travelbar a {
+		font-size: 13px !important;
+	}
+
+	body .filtr-container .filtr-item {
+		margin-bottom: 4px;
+	}
+
+	body .item-title {
+		padding: 10px 2px 14px;
 	}
 
 	body .item-title a,
 	body .item-title a:hover,
 	body .item-title a:focus {
 		font-size: 18px;
+		min-height: 28px;
+	}
+
+	body .s-content {
+		padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0px));
+	}
+}
+
+@media (max-width: 360px) {
+	.memories-home h1 {
+		font-size: 26px;
+	}
+
+	.gallary-header .memories-home p {
+		font-size: 15px;
+		line-height: 1.55;
+	}
+
+	body .filtr-container .filtr-item img {
+		border-radius: 12px;
 	}
 }

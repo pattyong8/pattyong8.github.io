@@ -481,8 +481,16 @@ body .s-content {
 		--page-gutter: 16px;
 	}
 
+	header.scrapbook-shell,
+	.scrapbook-shell {
+		padding-left: env(safe-area-inset-left, 0);
+		padding-right: env(safe-area-inset-right, 0);
+	}
+
 	.scrapbook-shell-inner {
-		padding: 6px var(--page-gutter);
+		gap: 10px;
+		padding: 6px max(var(--page-gutter), env(safe-area-inset-right, 0px));
+		padding-left: max(var(--page-gutter), env(safe-area-inset-left, 0px));
 		min-height: var(--header-height);
 	}
 
@@ -496,18 +504,22 @@ body .s-content {
 	.scrapbook-logo:focus,
 	.scrapbook-logo:active,
 	.scrapbook-logo span {
-		font-size: 24px;
+		font-size: 22px;
+		padding: 6px 0;
 	}
 
 	.scrapbook-toggle a,
 	.scrapbook-toggle a:hover,
 	.scrapbook-toggle a:focus {
-		min-width: 68px;
-		padding: 0 14px;
+		min-width: 64px;
+		min-height: 44px;
+		padding: 0 12px;
+		font-size: 13px;
 	}
 
 	.scrapbook-cover {
-		padding: 16px var(--page-gutter) 48px;
+		padding: 12px max(var(--page-gutter), env(safe-area-inset-right, 0px)) 56px;
+		padding-left: max(var(--page-gutter), env(safe-area-inset-left, 0px));
 	}
 
 	.scrapbook-cover h1 {
@@ -518,9 +530,14 @@ body .s-content {
 		font-size: 16px;
 	}
 
+	.scrapbook-cover p.scrapbook-lead {
+		font-size: 17px;
+	}
+
 	.scrapbook-cover-photo {
+		height: clamp(240px, 56vw, 360px);
 		border-radius: 14px;
-		margin-bottom: 24px;
+		margin-bottom: 22px;
 	}
 
 	.scrapbook-cover-actions {
@@ -533,17 +550,44 @@ body .s-content {
 		width: 100%;
 	}
 
+	.scrapbook-cover-chapters,
 	.scrapbook-cover-years {
 		flex-wrap: nowrap;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		padding-bottom: 4px;
+		scroll-snap-type: x proximity;
+		scrollbar-width: none;
+		padding-bottom: 6px;
+		margin-left: calc(var(--page-gutter) * -1);
+		margin-right: calc(var(--page-gutter) * -1);
+		padding-left: var(--page-gutter);
+		padding-right: var(--page-gutter);
 	}
 
+	.scrapbook-cover-chapters::-webkit-scrollbar,
+	.scrapbook-cover-years::-webkit-scrollbar {
+		display: none;
+	}
+
+	.scrapbook-cover-chapters a,
+	.scrapbook-cover-chapters a:hover,
+	.scrapbook-cover-chapters a:focus,
 	.scrapbook-cover-years a,
 	.scrapbook-cover-years a:hover,
 	.scrapbook-cover-years a:focus {
 		flex: 0 0 auto;
+		scroll-snap-align: start;
+		min-height: 44px;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.scrapbook-cover-chapters a,
+	.scrapbook-cover-chapters a:hover,
+	.scrapbook-cover-chapters a:focus {
+		display: inline-flex;
+		font-size: 20px;
 	}
 
 	.scrapbook-recent h2 {
@@ -552,5 +596,249 @@ body .s-content {
 
 	.scrapbook-recent-grid strong {
 		font-size: 18px;
+	}
+
+	.scrapbook-recent-grid a,
+	.scrapbook-recent-grid a:hover,
+	.scrapbook-recent-grid a:focus {
+		padding-bottom: 8px;
+	}
+
+	.footer-copyright.scrapbook-footer-bar {
+		padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
+	}
+}
+
+@media (max-width: 360px) {
+	.scrapbook-cover h1 {
+		font-size: 30px;
+	}
+
+	.scrapbook-cover p.scrapbook-lead {
+		font-size: 16px;
+	}
+
+	.scrapbook-cover-photo {
+		height: clamp(210px, 58vw, 300px);
+	}
+
+	.scrapbook-story h2 {
+		font-size: 22px;
+	}
+}
+
+/* ===================================================================
+ * Home cover — exact approved mock art (mobile + desktop)
+ * =================================================================== */
+body.scrapbook-home {
+	margin: 0;
+}
+
+body.scrapbook-home #header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 50;
+}
+
+body.scrapbook-home:not(.scrapbook-home-scrolled) #header {
+	opacity: 0;
+	pointer-events: none;
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay {
+	position: relative;
+	background: transparent;
+	border-bottom-color: transparent;
+	box-shadow: none;
+	transition: background 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease, opacity 0.25s ease;
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid {
+	background: var(--header);
+	border-bottom-color: var(--header-line);
+	box-shadow: 0 10px 24px rgba(31, 61, 68, 0.18);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+body.scrapbook-home.scrapbook-home-scrolled #header {
+	position: fixed;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.scrapbook-hero {
+	position: relative;
+	min-height: 100vh;
+	min-height: 100dvh;
+	width: 100%;
+	overflow: hidden;
+	background: #1a2a2d;
+}
+
+.scrapbook-hero-media {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+}
+
+.scrapbook-hero-media picture,
+.scrapbook-hero-media img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.scrapbook-hero-media img {
+	object-fit: cover;
+	object-position: center center;
+	opacity: 0;
+	transition: opacity 0.8s ease;
+}
+
+body.scrapbook-home-ready .scrapbook-hero-media img {
+	opacity: 1;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.scrapbook-hero-hotspots {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	margin: 0;
+}
+
+.scrapbook-hero-hotspots .hotspot {
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: transparent;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.hotspot-logo {
+	top: max(18px, env(safe-area-inset-top, 0px));
+	left: max(18px, env(safe-area-inset-left, 0px));
+	width: 44%;
+	height: 48px;
+}
+
+.hotspot-list {
+	top: max(20px, env(safe-area-inset-top, 0px));
+	right: calc(max(18px, env(safe-area-inset-right, 0px)) + 54px);
+	width: 54px;
+	height: 44px;
+}
+
+.hotspot-map {
+	top: max(20px, env(safe-area-inset-top, 0px));
+	right: max(18px, env(safe-area-inset-right, 0px));
+	width: 54px;
+	height: 44px;
+}
+
+.hotspot-browse {
+	left: 8%;
+	bottom: calc(28px + env(safe-area-inset-bottom, 0px));
+	width: 40%;
+	height: 48px;
+}
+
+.hotspot-explore {
+	right: 8%;
+	bottom: calc(28px + env(safe-area-inset-bottom, 0px));
+	width: 40%;
+	height: 48px;
+}
+
+.scrapbook-cover.scrapbook-cover-below {
+	padding-top: 48px;
+}
+
+.scrapbook-cover.scrapbook-cover-below .scrapbook-lead {
+	font-size: 18px;
+	max-width: 46em;
+}
+
+body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a {
+	opacity: 0;
+	transform: translateY(14px);
+	transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+	.hotspot-logo {
+		top: 18px;
+		left: 28px;
+		width: 220px;
+		height: 44px;
+	}
+
+	.hotspot-list {
+		top: 18px;
+		right: 110px;
+		width: 72px;
+		height: 44px;
+	}
+
+	.hotspot-map {
+		top: 18px;
+		right: 36px;
+		width: 72px;
+		height: 44px;
+	}
+
+	.hotspot-browse {
+		left: max(28px, 4vw);
+		bottom: 48px;
+		width: 180px;
+		height: 48px;
+	}
+
+	.hotspot-explore {
+		left: calc(max(28px, 4vw) + 192px);
+		right: auto;
+		bottom: 48px;
+		width: 160px;
+		height: 48px;
+	}
+}
+
+@media (max-width: 767px) {
+	.scrapbook-cover.scrapbook-cover-below {
+		padding-top: 32px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.scrapbook-hero-media img,
+	.scrapbook-recent-grid a,
+	header.scrapbook-shell.scrapbook-shell-overlay {
+		transition: none !important;
+		opacity: 1 !important;
 	}
 }

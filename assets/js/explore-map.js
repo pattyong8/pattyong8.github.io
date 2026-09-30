@@ -86,11 +86,28 @@
         });
     }
 
+    function isMobileLayout() {
+        return window.innerWidth <= 767;
+    }
+
+    function panelCollapsed() {
+        var panel = document.getElementById('explore-panel');
+        return !!(panel && panel.classList.contains('is-collapsed'));
+    }
+
     function mapPadding() {
-        if (window.innerWidth <= 767) {
-            return { paddingTopLeft: [16, 80], paddingBottomRight: [16, 220] };
+        if (isMobileLayout()) {
+            return {
+                paddingTopLeft: [16, 96],
+                paddingBottomRight: [16, panelCollapsed() ? 100 : 280]
+            };
         }
         return { paddingTopLeft: [400, 80], paddingBottomRight: [40, 40] };
+    }
+
+    function refreshMapSize() {
+        if (!state.map) return;
+        state.map.invalidateSize({ animate: false });
     }
 
     function renderStats() {
@@ -273,13 +290,15 @@
 
     function markerIcon(place, active) {
         var type = markerType(place);
-        var size = active ? 34 : 28;
+        var mobile = isMobileLayout();
+        var size = active ? (mobile ? 40 : 34) : (mobile ? 34 : 28);
+        var icon = active ? (mobile ? 24 : 21) : (mobile ? 20 : 17);
         return L.divIcon({
             className: 'explore-marker-wrap',
             iconSize: [size, size],
             iconAnchor: [size / 2, size / 2],
             html: '<div class="explore-marker is-' + type + (active ? ' is-active' : '') + '">' +
-                iconSvg(type, active ? 21 : 17) + '</div>'
+                iconSvg(type, icon) + '</div>'
         });
     }
 
@@ -300,8 +319,8 @@
         setTimeout(function () {
             var zoom = state.map.getZoom();
             var pt = state.map.project([place.lat, place.lng], zoom);
-            if (window.innerWidth > 767) pt.x -= 180;
-            else pt.y -= 80;
+            if (!isMobileLayout()) pt.x -= 180;
+            else pt.y -= panelCollapsed() ? 40 : 90;
             state.map.panTo(state.map.unproject(pt, zoom), { animate: true, duration: 0.35 });
         }, 560);
     }
@@ -467,6 +486,15 @@
         });
         document.getElementById('explore-panel-toggle').addEventListener('click', function () {
             document.getElementById('explore-panel').classList.toggle('is-collapsed');
+            setTimeout(function () {
+                refreshMapSize();
+                if (state.activeId) {
+                    var place = placeById(state.activeId);
+                    if (place) flyToPlace(place);
+                } else {
+                    fitToVisible();
+                }
+            }, 220);
         });
         Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
             button.addEventListener('click', function () {
@@ -474,6 +502,16 @@
                 if (type && type === state.typeFilter) type = '';
                 setTypeFilter(type);
             });
+        });
+        window.addEventListener('resize', function () {
+            refreshMapSize();
+            refreshMarkers();
+        });
+        window.addEventListener('orientationchange', function () {
+            setTimeout(function () {
+                refreshMapSize();
+                fitToVisible();
+            }, 280);
         });
     }
 
@@ -485,5 +523,9 @@
         initMap(state.data, results[1]);
         bindUi();
         refresh();
+        requestAnimationFrame(function () {
+            document.body.classList.add('explore-ready');
+            refreshMapSize();
+        });
     });
 })();

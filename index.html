@@ -19,25 +19,36 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/responsive.css" />
-	<link rel="stylesheet" href="assets/css/scrapbook-shell.css?v=13" />
+	<link rel="stylesheet" href="assets/css/scrapbook-shell.css?v=32" />
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script>
 	$(function(){
-	  $("#header").load("header-H.html?v=12");
+	  $("#header").load("header-H.html?v=22");
 	});
 	</script>
 </head>
-<body class="scrapbook-page">
+<body class="scrapbook-page scrapbook-home">
 	<div id="header"></div>
 
-	<main class="scrapbook-cover">
-		<figure class="scrapbook-cover-photo">
-			<img src="assets/images/scrapbook/home-cover-wide.jpeg?v=1" alt="Friends standing with elephants in Thailand">
-		</figure>
+	<section class="scrapbook-hero scrapbook-hero-exact" aria-label="ONGtheroad cover">
+		<div class="scrapbook-hero-media">
+			<picture>
+				<source media="(max-width: 767px)" srcset="assets/images/scrapbook/home-cover-mobile.jpeg?v=32">
+				<img class="scrapbook-hero-art" src="assets/images/scrapbook/home-cover-wide.jpeg?v=10" alt="ONGtheroad — friends standing with elephants in Thailand" width="1280" height="720">
+			</picture>
+		</div>
+		<!-- Exact mock art includes header + CTAs; hotspots keep links real. -->
+		<nav class="scrapbook-hero-hotspots" aria-label="Cover links">
+			<a class="hotspot hotspot-logo" href="index.html"><span class="visually-hidden">ONGtheroad home</span></a>
+			<a class="hotspot hotspot-list" data-nav="list" href="Travel-Pages/20s/20s-2026.html"><span class="visually-hidden">List</span></a>
+			<a class="hotspot hotspot-map" data-nav="map" href="explore.html"><span class="visually-hidden">Map</span></a>
+			<a class="hotspot hotspot-browse" data-nav="list" href="Travel-Pages/20s/20s-2026.html"><span class="visually-hidden">Browse memories</span></a>
+			<a class="hotspot hotspot-explore" data-nav="map" href="explore.html"><span class="visually-hidden">Explore map</span></a>
+		</nav>
+	</section>
 
-		<div class="scrapbook-kicker">ONGtheroad</div>
-		<h1>A digital scrapbook</h1>
+	<main class="scrapbook-cover scrapbook-cover-below">
 		<p class="scrapbook-lead">This website is dedicated to preserving all my spontaneous adventures, precious memories, and life changing experiences. Although the main goal is to create a repository of my life, this site also serves as a self-imposed accountability measure, forcing me to step beyond my comfort zone and explore what life has to offer. Please explore the site and take a trip down memory road with me!</p>
 
 		<section class="scrapbook-story" aria-label="About Patrick">
@@ -116,5 +127,6 @@
 	</main>
 
 	<script src="assets/js/next-trip.js"></script>
+	<script src="assets/js/scrapbook-home.js?v=3"></script>
 </body>
 </html>

@@ -76,6 +76,7 @@
 
 	<!--responsive.css-->
 	<link rel="stylesheet" href="../../../../assets/css/responsive.css" />
+	<link rel="stylesheet" href="../../../../assets/css/travel-trip.css?v=7" />
 
 	<style>
 		/* Ensure section headers have breathing room under the title */
@@ -174,6 +175,7 @@
 				wrap.style = 'width:100%; box-sizing:border-box';
 
 				const photos = document.createElement('div');
+				photos.className = 'travel-leftover-photos';
 				photos.style = `float:left; width:calc(${remCount} * 33.333% - 8px); margin:0 18px 10px 0; display:flex; align-items:flex-start; justify-content:flex-start; box-sizing:border-box`;
 				let html = '';
 				for (let j = fullEnd; j < end; j++) {
