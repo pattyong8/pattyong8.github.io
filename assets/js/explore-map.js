@@ -750,7 +750,7 @@
 
     Promise.all([
         fetch('assets/data/explore-places.json?v=11').then(function (res) { return res.json(); }),
-        fetch('assets/data/map-regions.geojson').then(function (res) { return res.json(); })
+        fetch('assets/data/map-regions.geojson?v=2').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];
         initMap(state.data, results[1]);
