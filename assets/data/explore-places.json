@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-09-30T05:20:57.942Z",
   "totals": {
-    "places": 89,
+    "places": 93,
     "trips": 217,
     "countries": 23,
     "unmatched": 0
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "sydney",
-      "name": "Australia",
+      "name": "Sydney, Australia",
       "region": "Australia",
       "country": "Australia",
       "iso": "AU",
@@ -3029,34 +3029,6 @@
       ]
     },
     {
-      "id": "ireland",
-      "name": "Ireland",
-      "region": "Ireland",
-      "country": "Ireland",
-      "iso": "IE",
-      "lat": 53.3498,
-      "lng": -6.2603,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2025"
-      ],
-      "trips": [
-        {
-          "title": "Ireland",
-          "year": "2025",
-          "dateRange": "Jul 2025",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
-          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
       "id": "istanbul",
       "name": "Istanbul, Turkey",
       "region": "Turkey",
@@ -3177,7 +3149,7 @@
       "lat": 22.6273,
       "lng": 120.3014,
       "types": [
-        "friends"
+        "family"
       ],
       "tripCount": 1,
       "years": [],
@@ -3187,7 +3159,7 @@
           "year": "",
           "dateRange": "Jun 19th-Jul 18th, 2019",
           "people": "Noah, Dad, Davis",
-          "type": "friends",
+          "type": "family",
           "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
@@ -3440,7 +3412,7 @@
     },
     {
       "id": "auckland",
-      "name": "New Zealand",
+      "name": "Auckland, New Zealand",
       "region": "New Zealand",
       "country": "New Zealand",
       "iso": "NZ",
@@ -4033,6 +4005,146 @@
           "href": "Travel-Pages-Sub/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-HP.jpeg",
           "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin, Ireland",
+      "region": "Ireland",
+      "country": "Ireland",
+      "iso": "IE",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2025"
+      ],
+      "trips": [
+        {
+          "title": "Ireland",
+          "year": "2025",
+          "dateRange": "Jul 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "kerry",
+      "name": "County Kerry, Ireland",
+      "region": "Ireland",
+      "country": "Ireland",
+      "iso": "IE",
+      "lat": 52.0599,
+      "lng": -9.5044,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2025"
+      ],
+      "trips": [
+        {
+          "title": "Ireland",
+          "year": "2025",
+          "dateRange": "Jul 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "modena",
+      "name": "Modena, Italy",
+      "region": "Emilia-Romagna",
+      "country": "Italy",
+      "iso": "IT",
+      "lat": 44.6471,
+      "lng": 10.9252,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2026"
+      ],
+      "trips": [
+        {
+          "title": "Italy & Malta 2026",
+          "year": "2026",
+          "dateRange": "June 18th-27th, 2026",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
+          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "sapporo",
+      "name": "Sapporo, Japan",
+      "region": "Hokkaido",
+      "country": "Japan",
+      "iso": "JP",
+      "lat": 43.0618,
+      "lng": 141.3545,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2024"
+      ],
+      "trips": [
+        {
+          "title": "Niseko, Japan",
+          "year": "2024",
+          "dateRange": "Jan 5th-13th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2024/Japan-Noahs-Bday-Jan-2024/Japan-Noahs-Bday-Jan-2024-1.html",
+          "thumb": "",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver, British Columbia",
+      "region": "British Columbia",
+      "country": "Canada",
+      "iso": "CA",
+      "lat": 49.2827,
+      "lng": -123.1207,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2026"
+      ],
+      "trips": [
+        {
+          "title": "Summer in Whistler",
+          "year": "2026",
+          "dateRange": "August 19th-24th, 2026",
+          "people": "Noah, Danny, and Sabs",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2026/Aug-Whistler-2026/Aug-Whistler-2026-1.html",
+          "thumb": "assets/images/gallary/20s/2026/Aug-Whistler-2026.jpeg",
+          "excerpt": "About a month after Danny and Sabrina got married, the two of them, along with Noah and me, headed up to Whistler for a wonderful summer weekend in the mountains. We golfed at the "
         }
       ]
     }

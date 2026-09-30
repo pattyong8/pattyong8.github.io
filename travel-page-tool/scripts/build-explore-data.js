@@ -34,6 +34,7 @@ const PLACES = {
   'newport': { id: 'newport', name: 'Newport Beach, California', region: 'California', country: 'United States', iso: 'US', lat: 33.6189, lng: -117.9298 },
   'seattle': { id: 'seattle', name: 'Seattle, Washington', region: 'Washington', country: 'United States', iso: 'US', lat: 47.6062, lng: -122.3321 },
   'whistler': { id: 'whistler', name: 'Whistler, British Columbia', region: 'British Columbia', country: 'Canada', iso: 'CA', lat: 50.1163, lng: -122.9574 },
+  'vancouver': { id: 'vancouver', name: 'Vancouver, British Columbia', region: 'British Columbia', country: 'Canada', iso: 'CA', lat: 49.2827, lng: -123.1207 },
   'las-vegas': { id: 'las-vegas', name: 'Las Vegas, Nevada', region: 'Nevada', country: 'United States', iso: 'US', lat: 36.1699, lng: -115.1398 },
   'miami': { id: 'miami', name: 'Miami, Florida', region: 'Florida', country: 'United States', iso: 'US', lat: 25.7617, lng: -80.1918 },
   'denver': { id: 'denver', name: 'Denver, Colorado', region: 'Colorado', country: 'United States', iso: 'US', lat: 39.7392, lng: -104.9903 },
@@ -51,15 +52,18 @@ const PLACES = {
   'brian-head': { id: 'brian-head', name: 'Brian Head, Utah', region: 'Utah', country: 'United States', iso: 'US', lat: 37.6972, lng: -112.8499 },
   'davis': { id: 'davis', name: 'Davis, California', region: 'California', country: 'United States', iso: 'US', lat: 38.5449, lng: -121.7405 },
   'niseko': { id: 'niseko', name: 'Niseko, Japan', region: 'Hokkaido', country: 'Japan', iso: 'JP', lat: 42.8048, lng: 140.6874 },
+  'sapporo': { id: 'sapporo', name: 'Sapporo, Japan', region: 'Hokkaido', country: 'Japan', iso: 'JP', lat: 43.0618, lng: 141.3545 },
   'tokyo': { id: 'tokyo', name: 'Tokyo, Japan', region: 'Kanto', country: 'Japan', iso: 'JP', lat: 35.6762, lng: 139.6503 },
   'taipei': { id: 'taipei', name: 'Taipei, Taiwan', region: 'Taiwan', country: 'Taiwan', iso: 'TW', lat: 25.033, lng: 121.5654 },
   'cebu': { id: 'cebu', name: 'Cebu, Philippines', region: 'Central Visayas', country: 'Philippines', iso: 'PH', lat: 10.3157, lng: 123.8854 },
   'bangkok': { id: 'bangkok', name: 'Bangkok, Thailand', region: 'Thailand', country: 'Thailand', iso: 'TH', lat: 13.7563, lng: 100.5018 },
-  'ireland': { id: 'ireland', name: 'Ireland', region: 'Ireland', country: 'Ireland', iso: 'IE', lat: 53.3498, lng: -6.2603 },
+  'dublin': { id: 'dublin', name: 'Dublin, Ireland', region: 'Ireland', country: 'Ireland', iso: 'IE', lat: 53.3498, lng: -6.2603 },
+  'kerry': { id: 'kerry', name: 'County Kerry, Ireland', region: 'Ireland', country: 'Ireland', iso: 'IE', lat: 52.0599, lng: -9.5044 },
   'paris': { id: 'paris', name: 'Paris, France', region: 'Île-de-France', country: 'France', iso: 'FR', lat: 48.8566, lng: 2.3522 },
   'santiago': { id: 'santiago', name: 'Santiago, Chile', region: 'Chile', country: 'Chile', iso: 'CL', lat: -33.4489, lng: -70.6693 },
   'atacama': { id: 'atacama', name: 'San Pedro de Atacama, Chile', region: 'Chile', country: 'Chile', iso: 'CL', lat: -22.9087, lng: -68.1997 },
   'rome': { id: 'rome', name: 'Italy', region: 'Italy', country: 'Italy', iso: 'IT', lat: 41.9028, lng: 12.4964 },
+  'modena': { id: 'modena', name: 'Modena, Italy', region: 'Emilia-Romagna', country: 'Italy', iso: 'IT', lat: 44.6471, lng: 10.9252 },
   'malta': { id: 'malta', name: 'Malta', region: 'Malta', country: 'Malta', iso: 'MT', lat: 35.8989, lng: 14.5146 },
   'split': { id: 'split', name: 'Split, Croatia', region: 'Dalmatia', country: 'Croatia', iso: 'HR', lat: 43.5081, lng: 16.4402 },
   'copenhagen': { id: 'copenhagen', name: 'Copenhagen, Denmark', region: 'Denmark', country: 'Denmark', iso: 'DK', lat: 55.6761, lng: 12.5683 },
@@ -67,8 +71,8 @@ const PLACES = {
   'madrid': { id: 'madrid', name: 'Madrid, Spain', region: 'Spain', country: 'Spain', iso: 'ES', lat: 40.4168, lng: -3.7038 },
   'barcelona': { id: 'barcelona', name: 'Barcelona, Spain', region: 'Spain', country: 'Spain', iso: 'ES', lat: 41.3874, lng: 2.1686 },
   'playa': { id: 'playa', name: 'Playa del Carmen, Mexico', region: 'Quintana Roo', country: 'Mexico', iso: 'MX', lat: 20.6296, lng: -87.0739 },
-  'sydney': { id: 'sydney', name: 'Australia', region: 'Australia', country: 'Australia', iso: 'AU', lat: -33.8688, lng: 151.2093 },
-  'auckland': { id: 'auckland', name: 'New Zealand', region: 'New Zealand', country: 'New Zealand', iso: 'NZ', lat: -36.8485, lng: 174.7633 },
+  'sydney': { id: 'sydney', name: 'Sydney, Australia', region: 'Australia', country: 'Australia', iso: 'AU', lat: -33.8688, lng: 151.2093 },
+  'auckland': { id: 'auckland', name: 'Auckland, New Zealand', region: 'New Zealand', country: 'New Zealand', iso: 'NZ', lat: -36.8485, lng: 174.7633 },
   'athens': { id: 'athens', name: 'Athens, Greece', region: 'Greece', country: 'Greece', iso: 'GR', lat: 37.9838, lng: 23.7275 },
   'kos': { id: 'kos', name: 'Kos, Greece', region: 'Greece', country: 'Greece', iso: 'GR', lat: 36.892, lng: 27.288 },
   'kalymnos': { id: 'kalymnos', name: 'Kalymnos, Greece', region: 'Greece', country: 'Greece', iso: 'GR', lat: 36.955, lng: 26.983 },
@@ -149,10 +153,10 @@ const LOCATION_ALIASES = {
   'indianapolis, indiana': ['indianapolis'],
   'the hamptons, new york': ['hamptons'],
   'hawley, pennsylvania': ['hawley'],
-  'niseko, japan': ['niseko'],
+  'niseko, japan': ['niseko', 'sapporo'],
   'taiwan': ['taipei'],
   'cebu, philippines': ['cebu'],
-  'ireland': ['ireland'],
+  'ireland': ['dublin', 'kerry'],
   'paris, france': ['paris'],
   'san pedro de atacama and santiago, chile': ['atacama', 'santiago']
 };
@@ -173,7 +177,7 @@ const KEYWORD_PLACES = [
   { re: /seattle/i, ids: ['seattle'] },
   { re: /las.?vegas|\bvegas\b/i, ids: ['las-vegas'] },
   { re: /paris/i, ids: ['paris'] },
-  { re: /niseko/i, ids: ['niseko'] },
+  { re: /niseko/i, ids: ['niseko', 'sapporo'] },
   { re: /\bchina\b/i, ids: ['beijing'] },
   { re: /australia/i, ids: ['sydney'] },
   { re: /new.?zealand/i, ids: ['auckland'] },
@@ -206,7 +210,7 @@ const KEYWORD_PLACES = [
   { re: /indianapolis|\bindy\b/i, ids: ['indianapolis'] },
   { re: /hamptons/i, ids: ['hamptons'] },
   { re: /hawley/i, ids: ['hawley'] },
-  { re: /ireland/i, ids: ['ireland'] },
+  { re: /ireland/i, ids: ['dublin', 'kerry'] },
   { re: /taiwan/i, ids: ['taipei'] },
   { re: /cebu|philippines/i, ids: ['cebu'] },
   { re: /niseko|japan/i, ids: ['niseko'] }
@@ -257,7 +261,9 @@ const SLUG_PLACES = {
   'Sibley-Park-2020': ['oakland'],
   "Mom's-Wedding-Nov-2025": ['irvine'],
   'Thanksgiving-Nov-2025': ['irvine'],
-  'Jun-Italy-and-Malta-2026': ['florence', 'bologna', 'malta'],
+  'Jun-Italy-and-Malta-2026': ['florence', 'bologna', 'modena', 'malta'],
+  'Aug-Whistler-2026': ['whistler', 'vancouver'],
+  'Japan-Noahs-Bday-Jan-2024': ['niseko', 'sapporo'],
   'Croatia-Sept-2022': ['split', 'dubrovnik', 'hvar', 'copenhagen'],
   'japan-taiwan-thailand': ['osaka', 'tokyo', 'taipei', 'kaohsiung', 'bangkok', 'chiang-mai', 'pai', 'railay', 'phi-phi'],
   'China': ['beijing', 'shanghai', 'huangshan'],
@@ -466,7 +472,8 @@ const GALLERY_TRIPS = [
 
 // Per place overrides when one trip visits places with different company.
 const PLACE_TYPE_OVERRIDES = {
-  'Croatia/Denmark 2022|copenhagen': 'solo'
+  'Croatia/Denmark 2022|copenhagen': 'solo',
+  'Japan/Taiwan/Thailand|kaohsiung': 'family'
 };
 
 function galleryCards(year) {
