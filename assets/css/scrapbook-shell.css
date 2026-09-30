@@ -655,10 +655,29 @@ header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-logo span {
 	text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
 }
 
+/* Glass toggle over the cover photo (matches preferred mock) */
 header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle {
-	background: rgba(255, 252, 247, 0.88);
-	border-color: rgba(255, 255, 255, 0.35);
+	background: rgba(255, 255, 255, 0.14);
+	border: 1px solid rgba(255, 255, 255, 0.55);
 	backdrop-filter: blur(10px);
+	box-shadow: none;
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a,
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a:hover,
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a:focus {
+	color: rgba(255, 255, 255, 0.92);
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a + a {
+	border-left-color: rgba(255, 255, 255, 0.35);
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a.is-active,
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a.is-active:hover,
+header.scrapbook-shell.scrapbook-shell-overlay .scrapbook-toggle a.is-active:focus {
+	background: rgba(255, 255, 255, 0.92);
+	color: var(--header);
 }
 
 header.scrapbook-shell.scrapbook-shell-overlay.is-solid {
@@ -669,6 +688,24 @@ header.scrapbook-shell.scrapbook-shell-overlay.is-solid {
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle {
+	background: var(--paper);
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a,
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a:hover,
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a:focus {
+	color: var(--ink);
+}
+
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a.is-active,
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a.is-active:hover,
+header.scrapbook-shell.scrapbook-shell-overlay.is-solid .scrapbook-toggle a.is-active:focus {
+	background: var(--header);
+	color: #fff;
 }
 
 body.scrapbook-home.scrapbook-home-scrolled #header {
@@ -714,7 +751,7 @@ body.scrapbook-home-ready .scrapbook-hero-media img {
 	inset: 0;
 	z-index: 1;
 	background:
-		linear-gradient(180deg, rgba(18, 28, 30, 0.28) 0%, rgba(18, 28, 30, 0.08) 38%, rgba(18, 28, 30, 0.55) 68%, rgba(18, 28, 30, 0.82) 100%);
+		linear-gradient(180deg, rgba(18, 28, 30, 0.22) 0%, rgba(18, 28, 30, 0.05) 42%, rgba(18, 28, 30, 0.45) 70%, rgba(18, 28, 30, 0.78) 100%);
 	pointer-events: none;
 }
 
@@ -726,12 +763,31 @@ body.scrapbook-home-ready .scrapbook-hero-media img {
 	margin: 0 auto;
 	padding: 0 max(var(--page-gutter), env(safe-area-inset-right, 0px)) calc(36px + env(safe-area-inset-bottom, 0px));
 	padding-left: max(var(--page-gutter), env(safe-area-inset-left, 0px));
-	opacity: 0;
-	transform: translateY(22px);
-	transition: opacity 0.8s ease 0.22s, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.22s;
 }
 
-body.scrapbook-home-ready .scrapbook-hero-copy {
+.scrapbook-hero-brand,
+.scrapbook-hero-lead,
+.scrapbook-hero-actions {
+	opacity: 0;
+	transform: translateY(18px);
+	transition: opacity 0.75s ease, transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.scrapbook-hero-brand {
+	transition-delay: 0.18s;
+}
+
+.scrapbook-hero-lead {
+	transition-delay: 0.32s;
+}
+
+.scrapbook-hero-actions {
+	transition-delay: 0.46s;
+}
+
+body.scrapbook-home-ready .scrapbook-hero-brand,
+body.scrapbook-home-ready .scrapbook-hero-lead,
+body.scrapbook-home-ready .scrapbook-hero-actions {
 	opacity: 1;
 	transform: translateY(0);
 }
@@ -745,10 +801,7 @@ body.scrapbook-home-ready .scrapbook-hero-copy {
 	margin: 0 0 12px;
 	color: #fff;
 	text-transform: none;
-}
-
-.scrapbook-hero-brand span {
-	color: var(--ocean);
+	text-shadow: 0 2px 18px rgba(0, 0, 0, 0.28);
 }
 
 .scrapbook-hero-lead {
@@ -756,15 +809,17 @@ body.scrapbook-home-ready .scrapbook-hero-copy {
 	font-size: clamp(15px, 2.6vw, 18px);
 	line-height: 1.5;
 	font-weight: 400;
-	color: rgba(255, 252, 247, 0.92);
+	color: rgba(255, 252, 247, 0.94);
 	margin: 0 0 22px;
-	max-width: 26em;
+	max-width: 28em;
+	text-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
 }
 
 .scrapbook-hero-actions {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
+	flex-wrap: nowrap;
+	gap: 12px;
+	align-items: center;
 }
 
 .scrapbook-hero-actions a,
@@ -773,39 +828,40 @@ body.scrapbook-home-ready .scrapbook-hero-copy {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 46px;
-	padding: 0 18px;
+	min-height: 44px;
+	padding: 0 20px;
 	border-radius: 999px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: none;
 	text-decoration: none;
-	transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
-}
-
-.scrapbook-hero-actions a.is-primary {
-	background: rgba(255, 252, 247, 0.96);
-	color: var(--header);
-	border: 1px solid rgba(255, 252, 247, 0.96);
-}
-
-.scrapbook-hero-actions a.is-primary:hover,
-.scrapbook-hero-actions a.is-primary:focus {
-	background: #fff;
-	color: var(--header);
-}
-
-.scrapbook-hero-actions a.is-ghost {
 	background: transparent;
-	color: #fff;
-	border: 1px solid rgba(0, 216, 255, 0.85);
+	transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
 }
 
-.scrapbook-hero-actions a.is-ghost:hover,
-.scrapbook-hero-actions a.is-ghost:focus {
-	background: rgba(0, 216, 255, 0.12);
+.scrapbook-hero-actions a.is-soft {
 	color: #fff;
+	border: 1.5px solid rgba(255, 255, 255, 0.88);
+}
+
+.scrapbook-hero-actions a.is-soft:hover,
+.scrapbook-hero-actions a.is-soft:focus {
+	background: rgba(255, 255, 255, 0.12);
+	color: #fff;
+	border-color: #fff;
+}
+
+.scrapbook-hero-actions a.is-accent {
+	color: var(--ocean);
+	border: 1.5px solid rgba(0, 216, 255, 0.95);
+}
+
+.scrapbook-hero-actions a.is-accent:hover,
+.scrapbook-hero-actions a.is-accent:focus {
+	background: rgba(0, 216, 255, 0.12);
+	color: var(--ocean);
+	border-color: var(--ocean);
 }
 
 .scrapbook-cover.scrapbook-cover-below {
@@ -831,6 +887,7 @@ body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
 @media (min-width: 900px) {
 	.scrapbook-hero-copy {
 		padding-bottom: 56px;
+		text-align: left;
 	}
 
 	.scrapbook-hero-actions a,
@@ -843,16 +900,26 @@ body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
 @media (max-width: 767px) {
 	.scrapbook-hero-copy {
 		padding-bottom: calc(28px + env(safe-area-inset-bottom, 0px));
+		text-align: center;
+	}
+
+	.scrapbook-hero-lead {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.scrapbook-hero-actions {
-		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 
 	.scrapbook-hero-actions a,
 	.scrapbook-hero-actions a:hover,
 	.scrapbook-hero-actions a:focus {
-		width: 100%;
+		flex: 1 1 auto;
+		min-width: 0;
+		padding: 0 14px;
+		font-size: 13px;
 	}
 
 	.scrapbook-cover.scrapbook-cover-below {
@@ -862,7 +929,9 @@ body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
 
 @media (prefers-reduced-motion: reduce) {
 	.scrapbook-hero-media img,
-	.scrapbook-hero-copy,
+	.scrapbook-hero-brand,
+	.scrapbook-hero-lead,
+	.scrapbook-hero-actions,
 	.scrapbook-recent-grid a,
 	header.scrapbook-shell.scrapbook-shell-overlay {
 		transition: none !important;
