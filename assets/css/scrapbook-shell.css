@@ -642,7 +642,6 @@ body.scrapbook-home #header {
 	z-index: 50;
 }
 
-/* Mock art already includes logo + List/Map; hide chrome until scroll */
 body.scrapbook-home:not(.scrapbook-home-scrolled) #header {
 	opacity: 0;
 	pointer-events: none;
@@ -694,7 +693,6 @@ body.scrapbook-home.scrapbook-home-scrolled #header {
 	height: 100%;
 }
 
-/* Important: mock images are already correctly framed — cover, no extra zoom crop */
 .scrapbook-hero-media img {
 	object-fit: cover;
 	object-position: center center;
@@ -737,7 +735,6 @@ body.scrapbook-home-ready .scrapbook-hero-media img {
 	overflow: hidden;
 }
 
-/* Mobile hotspot map matching the approved 720x1280 mock */
 .hotspot-logo {
 	top: max(18px, env(safe-area-inset-top, 0px));
 	left: max(18px, env(safe-area-inset-left, 0px));
@@ -842,7 +839,6 @@ body.scrapbook-home.scrapbook-home-animate .scrapbook-recent-grid a.is-inview {
 	.scrapbook-recent-grid a,
 	header.scrapbook-shell.scrapbook-shell-overlay {
 		transition: none !important;
-		transform: none !important;
 		opacity: 1 !important;
 	}
 }
