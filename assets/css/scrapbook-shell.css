@@ -148,6 +148,25 @@ body.explore-body select:focus-visible,
 	border-radius: var(--r-sm);
 }
 
+/* Mouse and touch never leave a focus box behind. Keyboard users still
+   get the sea colored ring above. */
+.scrapbook-page a:focus:not(:focus-visible),
+body.scrapbook-list a:focus:not(:focus-visible),
+body.scrapbook-trip a:focus:not(:focus-visible),
+body.explore-body a:focus:not(:focus-visible),
+body.explore-body button:focus:not(:focus-visible),
+.scrapbook-shell a:focus:not(:focus-visible) {
+	outline: none;
+	box-shadow: none;
+}
+
+.scrapbook-page,
+body.scrapbook-list,
+body.scrapbook-trip,
+body.explore-body {
+	-webkit-tap-highlight-color: transparent;
+}
+
 /* Eyebrow: the small tracked label used above every headline. */
 .scrapbook-kicker,
 .explore-kicker,

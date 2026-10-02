@@ -298,11 +298,21 @@ body.explore-body {
 	color: var(--muted);
 }
 
-.explore-trip-row {
+/* The old theme restyles every link on hover (display, font size), which
+   collapsed the row. Hold the row layout in every state. */
+.explore-trip-row,
+.explore-trip-row:hover,
+.explore-trip-row:active,
+.explore-trip-row:focus {
+	display: flex;
+	align-items: center;
+	font-size: inherit;
 	text-decoration: none;
+	color: inherit;
+	user-select: none;
+	caret-color: transparent;
 }
 
-.explore-trip-row::after,
 .explore-place-row::after {
 	content: '';
 	flex: none;
@@ -315,7 +325,6 @@ body.explore-body {
 	transition: border-color var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
 }
 
-.explore-trip-row:hover::after,
 .explore-place-row:hover::after {
 	border-color: var(--sea);
 	transform: translateX(2px) rotate(45deg);
