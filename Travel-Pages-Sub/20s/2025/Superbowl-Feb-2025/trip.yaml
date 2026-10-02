@@ -1,0 +1,54 @@
+schemaVersion: 1
+title: Super Bowl
+slug: Superbowl-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Feb 2025
+startDate: '2025-02-09'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Superbowl-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Superbowl-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Superbowl-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Superbowl-Feb-2025-1.jpeg
+    sourceFile: IMG_5211.jpeg
+    exif: '2025-02-09T23:52:01.000Z'
+    flags: []
+    bytes: 451497
+  - id: p002
+    seq: 2
+    file: Superbowl-Feb-2025-2.jpeg
+    sourceFile: IMG_5212.jpeg
+    exif: '2025-02-09T23:52:03.000Z'
+    flags: []
+    bytes: 500998
+  - id: p003
+    seq: 3
+    file: Superbowl-Feb-2025-3.jpeg
+    sourceFile: IMG_5213.jpeg
+    exif: '2025-02-09T23:52:05.000Z'
+    flags: []
+    bytes: 406626
+  - id: p004
+    seq: 4
+    file: Superbowl-Feb-2025-4.jpeg
+    sourceFile: IMG_5219.jpeg
+    exif: '2025-02-10T00:57:34.000Z'
+    flags: []
+    bytes: 232152
+sections: []
+pages:
+  - file: Superbowl-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:53:08.024Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Feb-Super-Bowl-2025.jpeg

@@ -1,0 +1,523 @@
+schemaVersion: 1
+title: NYC Adventures
+slug: Summer-NYC-2025
+section: 20s
+year: '2025'
+dateRange: Jul 2025
+startDate: '2025-07-12'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Summer-NYC-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Summer-NYC-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Summer-NYC-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Summer-NYC-2025-1.jpeg
+    sourceFile: IMG_5387.JPG
+    exif: '2025-07-12T12:55:09.000Z'
+    flags: []
+    bytes: 293938
+  - id: p002
+    seq: 2
+    file: Summer-NYC-2025-2.jpeg
+    sourceFile: IMG_7889.jpeg
+    exif: '2025-07-13T00:11:03.000Z'
+    flags: []
+    bytes: 422809
+  - id: p003
+    seq: 3
+    file: Summer-NYC-2025-3.jpeg
+    sourceFile: IMG_7892.jpeg
+    exif: '2025-07-13T00:47:01.000Z'
+    flags: []
+    bytes: 253407
+  - id: p004
+    seq: 4
+    file: Summer-NYC-2025-4.jpeg
+    sourceFile: IMG_7899.jpeg
+    exif: '2025-07-13T16:25:43.000Z'
+    flags: []
+    bytes: 500865
+  - id: p005
+    seq: 5
+    file: Summer-NYC-2025-5.jpeg
+    sourceFile: IMG_7928.jpeg
+    exif: '2025-07-18T23:57:00.000Z'
+    flags: []
+    bytes: 425214
+  - id: p006
+    seq: 6
+    file: Summer-NYC-2025-6.jpeg
+    sourceFile: IMG_7933.jpeg
+    exif: '2025-07-19T00:19:54.000Z'
+    flags: []
+    bytes: 422036
+  - id: p007
+    seq: 7
+    file: Summer-NYC-2025-7.jpeg
+    sourceFile: IMG_7937.jpeg
+    exif: '2025-07-19T00:58:59.000Z'
+    flags: []
+    bytes: 406637
+  - id: p008
+    seq: 8
+    file: Summer-NYC-2025-8.jpeg
+    sourceFile: IMG_7938.jpeg
+    exif: '2025-07-19T00:59:08.000Z'
+    flags: []
+    bytes: 230379
+  - id: p009
+    seq: 9
+    file: Summer-NYC-2025-9.jpeg
+    sourceFile: IMG_7939.jpeg
+    exif: '2025-07-19T02:00:52.000Z'
+    flags: []
+    bytes: 289670
+  - id: p010
+    seq: 10
+    file: Summer-NYC-2025-10.jpeg
+    sourceFile: IMG_7942.jpeg
+    exif: '2025-07-19T02:10:38.000Z'
+    flags: []
+    bytes: 304985
+  - id: p011
+    seq: 11
+    file: Summer-NYC-2025-11.jpeg
+    sourceFile: IMG_7959.jpeg
+    exif: '2025-07-20T00:51:38.000Z'
+    flags: []
+    bytes: 252519
+  - id: p012
+    seq: 12
+    file: Summer-NYC-2025-12.jpeg
+    sourceFile: IMG_7961.jpeg
+    exif: '2025-07-20T00:55:05.000Z'
+    flags: []
+    bytes: 494197
+  - id: p013
+    seq: 13
+    file: Summer-NYC-2025-13.jpeg
+    sourceFile: IMG_7963.jpeg
+    exif: '2025-07-20T00:55:25.000Z'
+    flags: []
+    bytes: 478056
+  - id: p014
+    seq: 14
+    file: Summer-NYC-2025-14.jpeg
+    sourceFile: IMG_7966.jpeg
+    exif: '2025-07-20T01:02:32.000Z'
+    flags: []
+    bytes: 419711
+  - id: p015
+    seq: 15
+    file: Summer-NYC-2025-15.jpeg
+    sourceFile: IMG_7968.jpeg
+    exif: '2025-07-20T01:30:04.000Z'
+    flags: []
+    bytes: 343660
+  - id: p016
+    seq: 16
+    file: Summer-NYC-2025-16.jpeg
+    sourceFile: IMG_7970.jpeg
+    exif: '2025-07-20T01:32:07.000Z'
+    flags: []
+    bytes: 612120
+  - id: p017
+    seq: 17
+    file: Summer-NYC-2025-17.jpeg
+    sourceFile: IMG_7971.jpeg
+    exif: '2025-07-20T01:37:13.000Z'
+    flags: []
+    bytes: 393977
+  - id: p018
+    seq: 18
+    file: Summer-NYC-2025-18.jpeg
+    sourceFile: 67F61D36-4F68-4C79-9781-0F6886FD9033.jpeg
+    exif: '2025-07-20T02:00:42.000Z'
+    flags: []
+    bytes: 379972
+  - id: p019
+    seq: 19
+    file: Summer-NYC-2025-19.jpeg
+    sourceFile: IMG_7972.jpeg
+    exif: '2025-07-20T02:59:05.000Z'
+    flags: []
+    bytes: 224757
+  - id: p020
+    seq: 20
+    file: Summer-NYC-2025-20.jpeg
+    sourceFile: IMG_8020.jpeg
+    exif: '2025-07-27T01:47:44.000Z'
+    flags: []
+    bytes: 348085
+  - id: p021
+    seq: 21
+    file: Summer-NYC-2025-21.jpeg
+    sourceFile: IMG_8023.jpeg
+    exif: '2025-07-27T01:49:54.000Z'
+    flags: []
+    bytes: 319007
+  - id: p022
+    seq: 22
+    file: Summer-NYC-2025-22.jpeg
+    sourceFile: IMG_8024.jpeg
+    exif: '2025-07-27T02:16:17.000Z'
+    flags: []
+    bytes: 291315
+  - id: p023
+    seq: 23
+    file: Summer-NYC-2025-23.jpeg
+    sourceFile: IMG_8025.jpeg
+    exif: '2025-07-27T02:16:25.000Z'
+    flags: []
+    bytes: 417645
+  - id: p024
+    seq: 24
+    file: Summer-NYC-2025-24.jpeg
+    sourceFile: IMG_8029.jpeg
+    exif: '2025-07-27T02:51:23.000Z'
+    flags: []
+    bytes: 186345
+  - id: p025
+    seq: 25
+    file: Summer-NYC-2025-25.jpeg
+    sourceFile: IMG_8032.jpeg
+    exif: '2025-07-27T03:47:34.000Z'
+    flags: []
+    bytes: 401112
+  - id: p026
+    seq: 26
+    file: Summer-NYC-2025-26.jpeg
+    sourceFile: IMG_8057.jpeg
+    exif: '2025-07-27T20:50:23.000Z'
+    flags: []
+    bytes: 366170
+  - id: p027
+    seq: 27
+    file: Summer-NYC-2025-27.jpeg
+    sourceFile: IMG_8060.jpeg
+    exif: '2025-07-27T20:51:01.000Z'
+    flags: []
+    bytes: 258865
+  - id: p028
+    seq: 28
+    file: Summer-NYC-2025-28.jpeg
+    sourceFile: IMG_8069.jpeg
+    exif: '2025-07-28T16:46:15.000Z'
+    flags: []
+    bytes: 559401
+  - id: p029
+    seq: 29
+    file: Summer-NYC-2025-29.jpeg
+    sourceFile: IMG_8075.jpeg
+    exif: '2025-07-29T02:16:12.000Z'
+    flags: []
+    bytes: 261762
+  - id: p030
+    seq: 30
+    file: Summer-NYC-2025-30.jpeg
+    sourceFile: IMG_8196.jpeg
+    exif: '2025-08-02T16:59:15.000Z'
+    flags: []
+    bytes: 235312
+  - id: p031
+    seq: 31
+    file: Summer-NYC-2025-31.jpeg
+    sourceFile: IMG_8198.jpeg
+    exif: '2025-08-02T19:47:24.000Z'
+    flags: []
+    bytes: 356108
+  - id: p032
+    seq: 32
+    file: Summer-NYC-2025-32.jpeg
+    sourceFile: IMG_8201.jpeg
+    exif: '2025-08-02T19:47:30.000Z'
+    flags: []
+    bytes: 287572
+  - id: p033
+    seq: 33
+    file: Summer-NYC-2025-33.jpeg
+    sourceFile: IMG_8202.jpeg
+    exif: '2025-08-02T19:47:31.000Z'
+    flags: []
+    bytes: 329048
+  - id: p034
+    seq: 34
+    file: Summer-NYC-2025-34.jpeg
+    sourceFile: IMG_8261.jpeg
+    exif: '2025-08-07T03:32:21.000Z'
+    flags: []
+    bytes: 828743
+  - id: p035
+    seq: 35
+    file: Summer-NYC-2025-35.jpeg
+    sourceFile: IMG_8390.jpeg
+    exif: '2025-08-13T00:10:34.000Z'
+    flags: []
+    bytes: 357444
+  - id: p036
+    seq: 36
+    file: Summer-NYC-2025-36.jpeg
+    sourceFile: IMG_8394.jpeg
+    exif: '2025-08-13T00:11:06.000Z'
+    flags: []
+    bytes: 314265
+  - id: p037
+    seq: 37
+    file: Summer-NYC-2025-37.jpeg
+    sourceFile: IMG_8536.jpeg
+    exif: '2025-08-23T01:34:58.000Z'
+    flags: []
+    bytes: 381199
+  - id: p038
+    seq: 38
+    file: Summer-NYC-2025-38.jpeg
+    sourceFile: IMG_8901.jpeg
+    exif: '2025-09-12T23:00:39.000Z'
+    flags: []
+    bytes: 234515
+  - id: p039
+    seq: 39
+    file: Summer-NYC-2025-39.jpeg
+    sourceFile: IMG_8903.jpeg
+    exif: '2025-09-13T02:30:06.000Z'
+    flags: []
+    bytes: 417360
+  - id: p040
+    seq: 40
+    file: Summer-NYC-2025-40.jpeg
+    sourceFile: IMG_8904.jpeg
+    exif: '2025-09-13T02:30:12.000Z'
+    flags: []
+    bytes: 534305
+  - id: p041
+    seq: 41
+    file: Summer-NYC-2025-41.jpeg
+    sourceFile: IMG_8905.jpeg
+    exif: '2025-09-13T02:30:20.000Z'
+    flags: []
+    bytes: 506736
+  - id: p042
+    seq: 42
+    file: Summer-NYC-2025-42.jpeg
+    sourceFile: IMG_3009.jpeg
+    exif: '2025-09-13T03:12:13.000Z'
+    flags: []
+    bytes: 271243
+  - id: p043
+    seq: 43
+    file: Summer-NYC-2025-43.jpeg
+    sourceFile: IMG_8910.jpeg
+    exif: '2025-09-13T19:01:18.000Z'
+    flags: []
+    bytes: 450768
+  - id: p044
+    seq: 44
+    file: Summer-NYC-2025-44.jpeg
+    sourceFile: IMG_8912.jpeg
+    exif: '2025-09-13T19:06:09.000Z'
+    flags: []
+    bytes: 524567
+  - id: p045
+    seq: 45
+    file: Summer-NYC-2025-45.jpeg
+    sourceFile: IMG_8913.jpeg
+    exif: '2025-09-13T19:07:22.000Z'
+    flags: []
+    bytes: 457697
+  - id: p046
+    seq: 46
+    file: Summer-NYC-2025-46.jpeg
+    sourceFile: IMG_8914.jpeg
+    exif: '2025-09-13T19:07:23.000Z'
+    flags: []
+    bytes: 577607
+  - id: p047
+    seq: 47
+    file: Summer-NYC-2025-47.jpeg
+    sourceFile: IMG_8916.jpeg
+    exif: '2025-09-13T19:07:27.000Z'
+    flags: []
+    bytes: 462408
+  - id: p048
+    seq: 48
+    file: Summer-NYC-2025-48.jpeg
+    sourceFile: IMG_8917.jpeg
+    exif: '2025-09-13T20:09:55.000Z'
+    flags: []
+    bytes: 516668
+  - id: p049
+    seq: 49
+    file: Summer-NYC-2025-49.jpeg
+    sourceFile: IMG_8918.jpeg
+    exif: '2025-09-13T23:45:26.000Z'
+    flags: []
+    bytes: 413539
+  - id: p050
+    seq: 50
+    file: Summer-NYC-2025-50.jpeg
+    sourceFile: IMG_8919.jpeg
+    exif: '2025-09-13T23:51:16.000Z'
+    flags: []
+    bytes: 363583
+  - id: p051
+    seq: 51
+    file: Summer-NYC-2025-51.jpeg
+    sourceFile: IMG_8921.jpeg
+    exif: '2025-09-14T00:03:16.000Z'
+    flags: []
+    bytes: 228751
+  - id: p052
+    seq: 52
+    file: Summer-NYC-2025-52.jpeg
+    sourceFile: IMG_8922.jpeg
+    exif: '2025-09-14T04:34:02.000Z'
+    flags: []
+    bytes: 410030
+  - id: p053
+    seq: 53
+    file: Summer-NYC-2025-53.jpeg
+    sourceFile: IMG_8923.jpeg
+    exif: '2025-09-14T04:34:14.000Z'
+    flags: []
+    bytes: 445394
+  - id: p054
+    seq: 54
+    file: Summer-NYC-2025-54.jpeg
+    sourceFile: IMG_8940.jpeg
+    exif: '2025-09-16T23:27:52.000Z'
+    flags: []
+    bytes: 335439
+  - id: p055
+    seq: 55
+    file: Summer-NYC-2025-55.jpeg
+    sourceFile: IMG_8941.jpeg
+    exif: '2025-09-17T00:36:42.000Z'
+    flags: []
+    bytes: 358893
+  - id: p056
+    seq: 56
+    file: Summer-NYC-2025-56.jpeg
+    sourceFile: IMG_8942.jpeg
+    exif: '2025-09-17T00:36:52.000Z'
+    flags: []
+    bytes: 309208
+  - id: p057
+    seq: 57
+    file: Summer-NYC-2025-57.jpeg
+    sourceFile: IMG_14DE545E-1573-4956-A8EE-72A05A537EBC.jpeg
+    exif: '2025-09-27T20:34:49.000Z'
+    flags: []
+    bytes: 433914
+  - id: p058
+    seq: 58
+    file: Summer-NYC-2025-58.jpeg
+    sourceFile: IMG_9066.jpeg
+    exif: '2025-09-28T02:56:01.000Z'
+    flags: []
+    bytes: 331765
+  - id: p059
+    seq: 59
+    file: Summer-NYC-2025-59.jpeg
+    sourceFile: IMG_9067.jpeg
+    exif: '2025-09-28T02:56:07.000Z'
+    flags: []
+    bytes: 297276
+  - id: p060
+    seq: 60
+    file: Summer-NYC-2025-60.jpeg
+    sourceFile: IMG_9070.jpeg
+    exif: '2025-09-28T04:22:22.000Z'
+    flags: []
+    bytes: 323565
+  - id: p061
+    seq: 61
+    file: Summer-NYC-2025-61.jpeg
+    sourceFile: IMG_9454.JPG
+    exif: '2025-10-10T15:59:43.000Z'
+    flags: []
+    bytes: 220378
+  - id: p062
+    seq: 62
+    file: Summer-NYC-2025-62.jpeg
+    sourceFile: IMG_9332.jpeg
+    exif: '2025-10-10T22:31:37.000Z'
+    flags: []
+    bytes: 457636
+  - id: p063
+    seq: 63
+    file: Summer-NYC-2025-63.jpeg
+    sourceFile: IMG_9333.jpeg
+    exif: '2025-10-10T22:31:45.000Z'
+    flags: []
+    bytes: 482197
+  - id: p064
+    seq: 64
+    file: Summer-NYC-2025-64.jpeg
+    sourceFile: IMG_9334.jpeg
+    exif: '2025-10-10T22:35:22.000Z'
+    flags: []
+    bytes: 332910
+  - id: p065
+    seq: 65
+    file: Summer-NYC-2025-65.jpeg
+    sourceFile: IMG_9345.jpeg
+    exif: '2025-10-11T00:26:44.000Z'
+    flags: []
+    bytes: 259789
+  - id: p066
+    seq: 66
+    file: Summer-NYC-2025-66.jpeg
+    sourceFile: IMG_9356.jpeg
+    exif: '2025-10-11T04:41:29.000Z'
+    flags: []
+    bytes: 264091
+  - id: p067
+    seq: 67
+    file: Summer-NYC-2025-67.jpeg
+    sourceFile: IMG_9493.JPG
+    exif: '2025-10-11T07:20:34.000Z'
+    flags: []
+    bytes: 309219
+  - id: p068
+    seq: 68
+    file: Summer-NYC-2025-68.jpeg
+    sourceFile: IMG_3144.jpeg
+    exif: '2025-10-11T20:34:18.000Z'
+    flags: []
+    bytes: 238270
+  - id: p069
+    seq: 69
+    file: Summer-NYC-2025-69.jpeg
+    sourceFile: IMG_9359.jpeg
+    exif: '2025-10-11T22:43:24.000Z'
+    flags: []
+    bytes: 459873
+  - id: p070
+    seq: 70
+    file: Summer-NYC-2025-70.jpeg
+    sourceFile: IMG_9363.jpeg
+    exif: '2025-10-11T22:49:48.000Z'
+    flags: []
+    bytes: 500590
+  - id: p071
+    seq: 71
+    file: Summer-NYC-2025-71.jpeg
+    sourceFile: IMG_9368.jpeg
+    exif: '2025-10-11T23:39:08.000Z'
+    flags: []
+    bytes: 341836
+sections: []
+pages:
+  - file: Summer-NYC-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:28:04.122Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/July-NYC-Adventures-2025.jpeg

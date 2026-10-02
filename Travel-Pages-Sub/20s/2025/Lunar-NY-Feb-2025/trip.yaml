@@ -1,0 +1,126 @@
+schemaVersion: 1
+title: Lunar New Year
+slug: Lunar-NY-Feb-2025
+section: 20s
+year: '2025'
+dateRange: Feb 2025
+startDate: '2025-02-16'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Lunar-NY-Feb-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Lunar-NY-Feb-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Lunar-NY-Feb-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Lunar-NY-Feb-2025-1.jpeg
+    sourceFile: IMG_5312.jpeg
+    exif: '2025-02-16T17:44:43.000Z'
+    flags: []
+    bytes: 434008
+  - id: p002
+    seq: 2
+    file: Lunar-NY-Feb-2025-2.jpeg
+    sourceFile: IMG_5318.jpeg
+    exif: '2025-02-16T17:46:27.000Z'
+    flags: []
+    bytes: 364397
+  - id: p003
+    seq: 3
+    file: Lunar-NY-Feb-2025-3.jpeg
+    sourceFile: IMG_5319.jpeg
+    exif: '2025-02-16T17:49:20.000Z'
+    flags: []
+    bytes: 357804
+  - id: p004
+    seq: 4
+    file: Lunar-NY-Feb-2025-4.jpeg
+    sourceFile: IMG_5321.jpeg
+    exif: '2025-02-16T17:50:00.000Z'
+    flags: []
+    bytes: 418666
+  - id: p005
+    seq: 5
+    file: Lunar-NY-Feb-2025-5.jpeg
+    sourceFile: IMG_5322.jpeg
+    exif: '2025-02-16T19:35:15.000Z'
+    flags: []
+    bytes: 612503
+  - id: p006
+    seq: 6
+    file: Lunar-NY-Feb-2025-6.jpeg
+    sourceFile: IMG_0555.jpeg
+    exif: '2025-02-16T19:39:06.000Z'
+    flags: []
+    bytes: 792885
+  - id: p007
+    seq: 7
+    file: Lunar-NY-Feb-2025-7.jpeg
+    sourceFile: IMG_0556.jpeg
+    exif: '2025-02-16T19:39:09.000Z'
+    flags: []
+    bytes: 815352
+  - id: p008
+    seq: 8
+    file: Lunar-NY-Feb-2025-8.jpeg
+    sourceFile: IMG_5325.jpeg
+    exif: '2025-02-16T19:55:44.000Z'
+    flags: []
+    bytes: 584691
+  - id: p009
+    seq: 9
+    file: Lunar-NY-Feb-2025-9.jpeg
+    sourceFile: IMG_5327.jpeg
+    exif: '2025-02-16T19:56:01.000Z'
+    flags: []
+    bytes: 554453
+  - id: p010
+    seq: 10
+    file: Lunar-NY-Feb-2025-10.jpeg
+    sourceFile: IMG_5329.jpeg
+    exif: '2025-02-16T20:21:32.000Z'
+    flags: []
+    bytes: 395814
+  - id: p011
+    seq: 11
+    file: Lunar-NY-Feb-2025-11.jpeg
+    sourceFile: IMG_5330.jpeg
+    exif: '2025-02-16T20:21:34.000Z'
+    flags:
+      - possible_duplicate
+    bytes: 415864
+  - id: p012
+    seq: 12
+    file: Lunar-NY-Feb-2025-12.jpeg
+    sourceFile: IMG_5332.jpeg
+    exif: '2025-02-16T21:02:36.000Z'
+    flags: []
+    bytes: 568327
+  - id: p013
+    seq: 13
+    file: Lunar-NY-Feb-2025-13.jpeg
+    sourceFile: IMG_5333.jpeg
+    exif: '2025-02-16T23:41:51.000Z'
+    flags: []
+    bytes: 266190
+  - id: p014
+    seq: 14
+    file: Lunar-NY-Feb-2025-14.jpeg
+    sourceFile: IMG_5334.jpeg
+    exif: '2025-02-16T23:41:53.000Z'
+    flags: []
+    bytes: 406683
+sections: []
+pages:
+  - file: Lunar-NY-Feb-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:21.061Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates:
+    - Lunar-NY-Feb-2025-11.jpeg
+gallaryThumb: assets/images/gallary/20s/2025/Feb-Lunar-NY-2025.jpeg

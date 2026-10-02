@@ -1,0 +1,159 @@
+schemaVersion: 1
+title: Catalina, CA
+slug: Catalina-Aug-2025
+section: 20s
+year: '2025'
+dateRange: Aug 2025
+startDate: '2025-08-15'
+location: Catalina Island, California
+people: Friends
+introParagraph: ''
+tripPrefix: Catalina-Aug-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Catalina-Aug-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Catalina-Aug-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Catalina-Aug-2025-1.jpeg
+    sourceFile: IMG_8439.jpeg
+    exif: '2025-08-15T20:17:07.000Z'
+    flags: []
+    bytes: 728450
+  - id: p002
+    seq: 2
+    file: Catalina-Aug-2025-2.jpeg
+    sourceFile: IMG_8441.jpeg
+    exif: '2025-08-15T20:17:09.000Z'
+    flags: []
+    bytes: 753243
+  - id: p003
+    seq: 3
+    file: Catalina-Aug-2025-3.jpeg
+    sourceFile: IMG_8442.jpeg
+    exif: '2025-08-15T21:09:28.000Z'
+    flags: []
+    bytes: 318887
+  - id: p004
+    seq: 4
+    file: Catalina-Aug-2025-4.jpeg
+    sourceFile: IMG_8446.jpeg
+    exif: '2025-08-16T21:04:15.000Z'
+    flags: []
+    bytes: 555943
+  - id: p005
+    seq: 5
+    file: Catalina-Aug-2025-5.jpeg
+    sourceFile: IMG_8447.jpeg
+    exif: '2025-08-16T21:37:32.000Z'
+    flags: []
+    bytes: 854746
+  - id: p006
+    seq: 6
+    file: Catalina-Aug-2025-6.jpeg
+    sourceFile: IMG_3343.jpeg
+    exif: '2025-08-16T22:18:24.000Z'
+    flags: []
+    bytes: 845122
+  - id: p007
+    seq: 7
+    file: Catalina-Aug-2025-7.jpeg
+    sourceFile: IMG_3345.jpeg
+    exif: '2025-08-16T22:18:48.000Z'
+    flags: []
+    bytes: 849140
+  - id: p008
+    seq: 8
+    file: Catalina-Aug-2025-8.jpeg
+    sourceFile: IMG_3348.jpeg
+    exif: '2025-08-16T22:19:03.000Z'
+    flags: []
+    bytes: 871360
+  - id: p009
+    seq: 9
+    file: Catalina-Aug-2025-9.jpeg
+    sourceFile: IMG_8452.JPG
+    exif: '2025-08-16T23:10:23.000Z'
+    flags: []
+    bytes: 559426
+  - id: p010
+    seq: 10
+    file: Catalina-Aug-2025-10.jpeg
+    sourceFile: IMG_3349.jpeg
+    exif: '2025-08-16T23:21:45.000Z'
+    flags: []
+    bytes: 427986
+  - id: p011
+    seq: 11
+    file: Catalina-Aug-2025-11.jpeg
+    sourceFile: IMG_8474.jpeg
+    exif: '2025-08-17T00:11:21.000Z'
+    flags: []
+    bytes: 478829
+  - id: p012
+    seq: 12
+    file: Catalina-Aug-2025-12.jpeg
+    sourceFile: IMG_8475.jpeg
+    exif: '2025-08-17T00:34:54.000Z'
+    flags: []
+    bytes: 243876
+  - id: p013
+    seq: 13
+    file: Catalina-Aug-2025-13.jpeg
+    sourceFile: IMG_8476.jpeg
+    exif: '2025-08-17T00:38:49.000Z'
+    flags: []
+    bytes: 268757
+  - id: p014
+    seq: 14
+    file: Catalina-Aug-2025-14.jpeg
+    sourceFile: IMG_8478.jpeg
+    exif: '2025-08-17T00:43:03.000Z'
+    flags: []
+    bytes: 273307
+  - id: p015
+    seq: 15
+    file: Catalina-Aug-2025-15.jpeg
+    sourceFile: IMG_8479.jpeg
+    exif: '2025-08-17T01:22:06.000Z'
+    flags: []
+    bytes: 331362
+  - id: p016
+    seq: 16
+    file: Catalina-Aug-2025-16.jpeg
+    sourceFile: IMG_8483.jpeg
+    exif: '2025-08-17T01:40:26.000Z'
+    flags: []
+    bytes: 302009
+  - id: p017
+    seq: 17
+    file: Catalina-Aug-2025-17.jpeg
+    sourceFile: IMG_8484.jpeg
+    exif: '2025-08-17T01:40:33.000Z'
+    flags: []
+    bytes: 331008
+  - id: p018
+    seq: 18
+    file: Catalina-Aug-2025-18.jpeg
+    sourceFile: IMG_8485.jpeg
+    exif: '2025-08-17T01:40:38.000Z'
+    flags: []
+    bytes: 276267
+  - id: p019
+    seq: 19
+    file: Catalina-Aug-2025-19.jpeg
+    sourceFile: IMG_8491.jpeg
+    exif: '2025-08-17T18:38:28.000Z'
+    flags: []
+    bytes: 578879
+sections: []
+pages:
+  - file: Catalina-Aug-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:21:09.944Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Aug-Catalina-2025.jpeg

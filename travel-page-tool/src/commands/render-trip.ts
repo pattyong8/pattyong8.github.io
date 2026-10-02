@@ -337,6 +337,29 @@ export function upsertYearCard(
     ? `../../${thumb}`
     : `../../${thumb}`;
 
+  // Reuse an existing placeholder card (same thumb or title) instead of inserting a duplicate.
+  const filtrIdxForUpdate = html.indexOf('filtr-container');
+  const thumbName = path.basename(thumb).replace(/\?.*$/, '');
+  let matchAt = -1;
+  if (thumbName) matchAt = html.indexOf(thumbName, filtrIdxForUpdate);
+  if (matchAt === -1 && manifest.title) {
+    matchAt = html.indexOf(manifest.title, filtrIdxForUpdate);
+  }
+  if (matchAt > filtrIdxForUpdate) {
+    const tagAt = html.lastIndexOf('<a href="', matchAt);
+    if (tagAt > filtrIdxForUpdate) {
+      const hrefStart = tagAt + '<a href="'.length;
+      const hrefEnd = html.indexOf('"', hrefStart);
+      if (hrefEnd > hrefStart) {
+        html = html.slice(0, hrefStart) + href + html.slice(hrefEnd);
+        assertYearNavIntact(html);
+        fs.writeFileSync(yearPage, html, 'utf-8');
+        console.log(`Year card href updated (placeholder → trip) → ${yearPage}`);
+        return;
+      }
+    }
+  }
+
   const shortDate =
     manifest.dateRange ||
     (manifest.startDate

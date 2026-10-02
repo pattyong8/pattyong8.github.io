@@ -1,0 +1,551 @@
+schemaVersion: 1
+title: Gus Bachelor Party
+slug: Gus'-Bachelor-Party-2025
+section: 20s
+year: '2025'
+dateRange: Aug 2025
+startDate: '2025-08-27'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Gus'-Bachelor-Party-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Gus'-Bachelor-Party-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Gus'-Bachelor-Party-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Gus'-Bachelor-Party-2025-1.jpeg
+    sourceFile: IMG_8581.jpeg
+    exif: '2025-08-27T12:38:39.000Z'
+    flags: []
+    bytes: 571997
+  - id: p002
+    seq: 2
+    file: Gus'-Bachelor-Party-2025-2.jpeg
+    sourceFile: IMG_8582.jpeg
+    exif: '2025-08-27T18:38:56.000Z'
+    flags: []
+    bytes: 320590
+  - id: p003
+    seq: 3
+    file: Gus'-Bachelor-Party-2025-3.jpeg
+    sourceFile: IMG_8585.jpeg
+    exif: '2025-08-27T21:23:13.000Z'
+    flags: []
+    bytes: 424843
+  - id: p004
+    seq: 4
+    file: Gus'-Bachelor-Party-2025-4.jpeg
+    sourceFile: IMG_8588.jpeg
+    exif: '2025-08-27T22:41:26.000Z'
+    flags: []
+    bytes: 171066
+  - id: p005
+    seq: 5
+    file: Gus'-Bachelor-Party-2025-5.jpeg
+    sourceFile: IMG_8592.jpeg
+    exif: '2025-08-28T00:10:09.000Z'
+    flags: []
+    bytes: 452283
+  - id: p006
+    seq: 6
+    file: Gus'-Bachelor-Party-2025-6.jpeg
+    sourceFile: IMG_8593.jpeg
+    exif: '2025-08-28T00:10:12.000Z'
+    flags: []
+    bytes: 432849
+  - id: p007
+    seq: 7
+    file: Gus'-Bachelor-Party-2025-7.jpeg
+    sourceFile: IMG_8595.jpeg
+    exif: '2025-08-28T00:53:50.000Z'
+    flags: []
+    bytes: 208402
+  - id: p008
+    seq: 8
+    file: Gus'-Bachelor-Party-2025-8.jpeg
+    sourceFile: IMG_8596.jpeg
+    exif: '2025-08-28T15:34:59.000Z'
+    flags: []
+    bytes: 603298
+  - id: p009
+    seq: 9
+    file: Gus'-Bachelor-Party-2025-9.jpeg
+    sourceFile: IMG_8598.jpeg
+    exif: '2025-08-28T17:18:55.000Z'
+    flags: []
+    bytes: 518135
+  - id: p010
+    seq: 10
+    file: Gus'-Bachelor-Party-2025-10.jpeg
+    sourceFile: IMG_8600.jpeg
+    exif: '2025-08-28T17:51:20.000Z'
+    flags: []
+    bytes: 677585
+  - id: p011
+    seq: 11
+    file: Gus'-Bachelor-Party-2025-11.jpeg
+    sourceFile: IMG_8603.jpeg
+    exif: '2025-08-28T19:31:44.000Z'
+    flags: []
+    bytes: 408375
+  - id: p012
+    seq: 12
+    file: Gus'-Bachelor-Party-2025-12.jpeg
+    sourceFile: IMG_8606.jpeg
+    exif: '2025-08-28T22:49:48.000Z'
+    flags: []
+    bytes: 579487
+  - id: p013
+    seq: 13
+    file: Gus'-Bachelor-Party-2025-13.jpeg
+    sourceFile: IMG_8611.jpeg
+    exif: '2025-08-28T23:32:22.000Z'
+    flags: []
+    bytes: 231295
+  - id: p014
+    seq: 14
+    file: Gus'-Bachelor-Party-2025-14.jpeg
+    sourceFile: IMG_8612.jpeg
+    exif: '2025-08-28T23:32:26.000Z'
+    flags: []
+    bytes: 355482
+  - id: p015
+    seq: 15
+    file: Gus'-Bachelor-Party-2025-15.jpeg
+    sourceFile: IMG_8615.jpeg
+    exif: '2025-08-28T23:32:34.000Z'
+    flags: []
+    bytes: 380476
+  - id: p016
+    seq: 16
+    file: Gus'-Bachelor-Party-2025-16.jpeg
+    sourceFile: IMG_8616.jpeg
+    exif: '2025-08-28T23:32:42.000Z'
+    flags: []
+    bytes: 241612
+  - id: p017
+    seq: 17
+    file: Gus'-Bachelor-Party-2025-17.jpeg
+    sourceFile: IMG_8618.jpeg
+    exif: '2025-08-28T23:32:44.000Z'
+    flags: []
+    bytes: 188697
+  - id: p018
+    seq: 18
+    file: Gus'-Bachelor-Party-2025-18.jpeg
+    sourceFile: IMG_8622.jpeg
+    exif: '2025-08-28T23:32:48.000Z'
+    flags: []
+    bytes: 319420
+  - id: p019
+    seq: 19
+    file: Gus'-Bachelor-Party-2025-19.jpeg
+    sourceFile: IMG_8623.jpeg
+    exif: '2025-08-29T00:04:10.000Z'
+    flags: []
+    bytes: 385897
+  - id: p020
+    seq: 20
+    file: Gus'-Bachelor-Party-2025-20.jpeg
+    sourceFile: IMG_8624.jpeg
+    exif: '2025-08-29T00:04:11.000Z'
+    flags: []
+    bytes: 435916
+  - id: p021
+    seq: 21
+    file: Gus'-Bachelor-Party-2025-21.jpeg
+    sourceFile: IMG_8627.jpeg
+    exif: '2025-08-29T00:04:19.000Z'
+    flags: []
+    bytes: 271876
+  - id: p022
+    seq: 22
+    file: Gus'-Bachelor-Party-2025-22.jpeg
+    sourceFile: IMG_8629.jpeg
+    exif: '2025-08-29T00:04:22.000Z'
+    flags: []
+    bytes: 363863
+  - id: p023
+    seq: 23
+    file: Gus'-Bachelor-Party-2025-23.jpeg
+    sourceFile: IMG_5727.jpeg
+    exif: '2025-08-29T00:04:40.000Z'
+    flags: []
+    bytes: 137320
+  - id: p024
+    seq: 24
+    file: Gus'-Bachelor-Party-2025-24.jpeg
+    sourceFile: IMG_8631.jpeg
+    exif: '2025-08-29T00:33:10.000Z'
+    flags: []
+    bytes: 314901
+  - id: p025
+    seq: 25
+    file: Gus'-Bachelor-Party-2025-25.jpeg
+    sourceFile: IMG_8638.jpeg
+    exif: '2025-08-29T00:33:29.000Z'
+    flags: []
+    bytes: 238671
+  - id: p026
+    seq: 26
+    file: Gus'-Bachelor-Party-2025-26.jpeg
+    sourceFile: IMG_8640.jpeg
+    exif: '2025-08-29T00:34:31.000Z'
+    flags: []
+    bytes: 296659
+  - id: p027
+    seq: 27
+    file: Gus'-Bachelor-Party-2025-27.jpeg
+    sourceFile: IMG_8644.jpeg
+    exif: '2025-08-29T00:34:46.000Z'
+    flags: []
+    bytes: 351055
+  - id: p028
+    seq: 28
+    file: Gus'-Bachelor-Party-2025-28.jpeg
+    sourceFile: IMG_8647.jpeg
+    exif: '2025-08-29T00:35:05.000Z'
+    flags: []
+    bytes: 381747
+  - id: p029
+    seq: 29
+    file: Gus'-Bachelor-Party-2025-29.jpeg
+    sourceFile: IMG_8651.jpeg
+    exif: '2025-08-29T00:43:32.000Z'
+    flags: []
+    bytes: 330195
+  - id: p030
+    seq: 30
+    file: Gus'-Bachelor-Party-2025-30.jpeg
+    sourceFile: IMG_8653.jpeg
+    exif: '2025-08-29T00:43:36.000Z'
+    flags: []
+    bytes: 404048
+  - id: p031
+    seq: 31
+    file: Gus'-Bachelor-Party-2025-31.jpeg
+    sourceFile: IMG_8655.jpeg
+    exif: '2025-08-29T00:43:41.000Z'
+    flags: []
+    bytes: 281925
+  - id: p032
+    seq: 32
+    file: Gus'-Bachelor-Party-2025-32.jpeg
+    sourceFile: IMG_8658.jpeg
+    exif: '2025-08-29T00:51:22.000Z'
+    flags: []
+    bytes: 311978
+  - id: p033
+    seq: 33
+    file: Gus'-Bachelor-Party-2025-33.jpeg
+    sourceFile: IMG_8660.jpeg
+    exif: '2025-08-29T00:51:30.000Z'
+    flags: []
+    bytes: 286248
+  - id: p034
+    seq: 34
+    file: Gus'-Bachelor-Party-2025-34.jpeg
+    sourceFile: IMG_8669.jpeg
+    exif: '2025-08-29T00:52:01.000Z'
+    flags: []
+    bytes: 317893
+  - id: p035
+    seq: 35
+    file: Gus'-Bachelor-Party-2025-35.jpeg
+    sourceFile: IMG_8670.jpeg
+    exif: '2025-08-29T00:52:03.000Z'
+    flags: []
+    bytes: 287229
+  - id: p036
+    seq: 36
+    file: Gus'-Bachelor-Party-2025-36.jpeg
+    sourceFile: IMG_8675.jpeg
+    exif: '2025-08-29T01:21:42.000Z'
+    flags: []
+    bytes: 397464
+  - id: p037
+    seq: 37
+    file: Gus'-Bachelor-Party-2025-37.jpeg
+    sourceFile: IMG_8678.jpeg
+    exif: '2025-08-29T01:21:51.000Z'
+    flags: []
+    bytes: 310726
+  - id: p038
+    seq: 38
+    file: Gus'-Bachelor-Party-2025-38.jpeg
+    sourceFile: IMG_8681.jpeg
+    exif: '2025-08-29T01:21:57.000Z'
+    flags: []
+    bytes: 393654
+  - id: p039
+    seq: 39
+    file: Gus'-Bachelor-Party-2025-39.jpeg
+    sourceFile: IMG_8683.jpeg
+    exif: '2025-08-29T01:22:04.000Z'
+    flags: []
+    bytes: 355894
+  - id: p040
+    seq: 40
+    file: Gus'-Bachelor-Party-2025-40.jpeg
+    sourceFile: IMG_8686.jpeg
+    exif: '2025-08-29T01:57:22.000Z'
+    flags: []
+    bytes: 225760
+  - id: p041
+    seq: 41
+    file: Gus'-Bachelor-Party-2025-41.jpeg
+    sourceFile: IMG_7162.jpeg
+    exif: '2025-08-29T13:03:21.000Z'
+    flags: []
+    bytes: 344406
+  - id: p042
+    seq: 42
+    file: Gus'-Bachelor-Party-2025-42.jpeg
+    sourceFile: IMG_8695.jpeg
+    exif: '2025-08-29T16:39:05.000Z'
+    flags: []
+    bytes: 530035
+  - id: p043
+    seq: 43
+    file: Gus'-Bachelor-Party-2025-43.jpeg
+    sourceFile: IMG_8702.jpeg
+    exif: '2025-08-29T20:56:56.000Z'
+    flags: []
+    bytes: 460246
+  - id: p044
+    seq: 44
+    file: Gus'-Bachelor-Party-2025-44.jpeg
+    sourceFile: IMG_8703.jpeg
+    exif: '2025-08-29T20:56:57.000Z'
+    flags: []
+    bytes: 594065
+  - id: p045
+    seq: 45
+    file: Gus'-Bachelor-Party-2025-45.jpeg
+    sourceFile: IMG_8704.jpeg
+    exif: '2025-08-29T20:56:59.000Z'
+    flags: []
+    bytes: 529409
+  - id: p046
+    seq: 46
+    file: Gus'-Bachelor-Party-2025-46.jpeg
+    sourceFile: IMG_7166.jpeg
+    exif: '2025-08-29T21:09:04.000Z'
+    flags: []
+    bytes: 371929
+  - id: p047
+    seq: 47
+    file: Gus'-Bachelor-Party-2025-47.jpeg
+    sourceFile: IMG_8707.jpeg
+    exif: '2025-08-29T21:56:18.000Z'
+    flags: []
+    bytes: 462694
+  - id: p048
+    seq: 48
+    file: Gus'-Bachelor-Party-2025-48.jpeg
+    sourceFile: IMG_8709.jpeg
+    exif: '2025-08-29T22:32:55.000Z'
+    flags: []
+    bytes: 273042
+  - id: p049
+    seq: 49
+    file: Gus'-Bachelor-Party-2025-49.jpeg
+    sourceFile: IMG_5739.jpeg
+    exif: '2025-08-29T23:43:28.000Z'
+    flags: []
+    bytes: 328175
+  - id: p050
+    seq: 50
+    file: Gus'-Bachelor-Party-2025-50.jpeg
+    sourceFile: IMG_8714.jpeg
+    exif: '2025-08-30T01:20:22.000Z'
+    flags: []
+    bytes: 333424
+  - id: p051
+    seq: 51
+    file: Gus'-Bachelor-Party-2025-51.jpeg
+    sourceFile: IMG_8716.jpeg
+    exif: '2025-08-30T01:20:23.000Z'
+    flags: []
+    bytes: 341698
+  - id: p052
+    seq: 52
+    file: Gus'-Bachelor-Party-2025-52.jpeg
+    sourceFile: IMG_8718.jpeg
+    exif: '2025-08-30T01:20:27.000Z'
+    flags: []
+    bytes: 292936
+  - id: p053
+    seq: 53
+    file: Gus'-Bachelor-Party-2025-53.jpeg
+    sourceFile: IMG_8732.jpeg
+    exif: '2025-08-30T19:00:28.000Z'
+    flags: []
+    bytes: 615885
+  - id: p054
+    seq: 54
+    file: Gus'-Bachelor-Party-2025-54.jpeg
+    sourceFile: IMG_8738.jpeg
+    exif: '2025-08-30T19:15:32.000Z'
+    flags: []
+    bytes: 473032
+  - id: p055
+    seq: 55
+    file: Gus'-Bachelor-Party-2025-55.jpeg
+    sourceFile: IMG_8739.jpeg
+    exif: '2025-08-30T19:15:38.000Z'
+    flags: []
+    bytes: 397748
+  - id: p056
+    seq: 56
+    file: Gus'-Bachelor-Party-2025-56.jpeg
+    sourceFile: IMG_8740.jpeg
+    exif: '2025-08-30T19:15:41.000Z'
+    flags: []
+    bytes: 275610
+  - id: p057
+    seq: 57
+    file: Gus'-Bachelor-Party-2025-57.jpeg
+    sourceFile: IMG_7174.jpeg
+    exif: '2025-08-30T20:03:01.000Z'
+    flags: []
+    bytes: 786341
+  - id: p058
+    seq: 58
+    file: Gus'-Bachelor-Party-2025-58.jpeg
+    sourceFile: IMG_7179.jpeg
+    exif: '2025-08-30T22:30:12.000Z'
+    flags: []
+    bytes: 369598
+  - id: p059
+    seq: 59
+    file: Gus'-Bachelor-Party-2025-59.jpeg
+    sourceFile: IMG_8744.jpeg
+    exif: '2025-08-30T22:43:30.000Z'
+    flags: []
+    bytes: 339383
+  - id: p060
+    seq: 60
+    file: Gus'-Bachelor-Party-2025-60.jpeg
+    sourceFile: IMG_8746.jpeg
+    exif: '2025-08-30T22:43:36.000Z'
+    flags: []
+    bytes: 495336
+  - id: p061
+    seq: 61
+    file: Gus'-Bachelor-Party-2025-61.jpeg
+    sourceFile: IMG_8747.jpeg
+    exif: '2025-08-30T22:43:39.000Z'
+    flags: []
+    bytes: 265843
+  - id: p062
+    seq: 62
+    file: Gus'-Bachelor-Party-2025-62.jpeg
+    sourceFile: IMG_8749.jpeg
+    exif: '2025-08-30T22:52:02.000Z'
+    flags: []
+    bytes: 523989
+  - id: p063
+    seq: 63
+    file: Gus'-Bachelor-Party-2025-63.jpeg
+    sourceFile: IMG_8751.jpeg
+    exif: '2025-08-30T22:53:28.000Z'
+    flags: []
+    bytes: 425450
+  - id: p064
+    seq: 64
+    file: Gus'-Bachelor-Party-2025-64.jpeg
+    sourceFile: IMG_8752.jpeg
+    exif: '2025-08-30T22:53:33.000Z'
+    flags: []
+    bytes: 430599
+  - id: p065
+    seq: 65
+    file: Gus'-Bachelor-Party-2025-65.jpeg
+    sourceFile: IMG_8753.jpeg
+    exif: '2025-08-31T00:47:01.000Z'
+    flags: []
+    bytes: 309417
+  - id: p066
+    seq: 66
+    file: Gus'-Bachelor-Party-2025-66.jpeg
+    sourceFile: IMG_8756.jpeg
+    exif: '2025-08-31T03:58:22.000Z'
+    flags: []
+    bytes: 359485
+  - id: p067
+    seq: 67
+    file: Gus'-Bachelor-Party-2025-67.jpeg
+    sourceFile: IMG_8761.jpeg
+    exif: '2025-08-31T18:06:18.000Z'
+    flags: []
+    bytes: 412754
+  - id: p068
+    seq: 68
+    file: Gus'-Bachelor-Party-2025-68.jpeg
+    sourceFile: IMG_8762.jpeg
+    exif: '2025-08-31T18:06:20.000Z'
+    flags: []
+    bytes: 382585
+  - id: p069
+    seq: 69
+    file: Gus'-Bachelor-Party-2025-69.jpeg
+    sourceFile: IMG_8765.jpeg
+    exif: '2025-08-31T18:06:26.000Z'
+    flags: []
+    bytes: 314748
+  - id: p070
+    seq: 70
+    file: Gus'-Bachelor-Party-2025-70.jpeg
+    sourceFile: IMG_8767.jpeg
+    exif: '2025-08-31T18:06:28.000Z'
+    flags: []
+    bytes: 371555
+  - id: p071
+    seq: 71
+    file: Gus'-Bachelor-Party-2025-71.jpeg
+    sourceFile: IMG_8781.jpeg
+    exif: '2025-09-01T17:04:05.000Z'
+    flags: []
+    bytes: 650514
+  - id: p072
+    seq: 72
+    file: Gus'-Bachelor-Party-2025-72.jpeg
+    sourceFile: IMG_8782.jpeg
+    exif: '2025-09-01T17:04:06.000Z'
+    flags: []
+    bytes: 274598
+  - id: p073
+    seq: 73
+    file: Gus'-Bachelor-Party-2025-73.jpeg
+    sourceFile: IMG_8787.jpeg
+    exif: '2025-09-01T17:42:46.000Z'
+    flags: []
+    bytes: 552039
+  - id: p074
+    seq: 74
+    file: Gus'-Bachelor-Party-2025-74.jpeg
+    sourceFile: IMG_8788.jpeg
+    exif: '2025-09-01T17:46:16.000Z'
+    flags: []
+    bytes: 517856
+  - id: p075
+    seq: 75
+    file: Gus'-Bachelor-Party-2025-75.jpeg
+    sourceFile: IMG_8790.jpeg
+    exif: '2025-09-02T01:23:09.000Z'
+    flags: []
+    bytes: 258105
+sections: []
+pages:
+  - file: Gus'-Bachelor-Party-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:23:08.760Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Aug-Gus-Bachelor-Party-2025.jpeg

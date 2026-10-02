@@ -1,0 +1,871 @@
+/*
+ * Map view: full bleed map, a floating place panel on desktop, a three
+ * detent bottom sheet on mobile. Built on the tokens in scrapbook-shell.css.
+ */
+
+body.explore-body {
+	height: 100vh;
+	height: 100dvh;
+	overflow: hidden;
+	max-width: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.explore-body #header {
+	flex: 0 0 auto;
+	position: relative;
+	z-index: 50;
+}
+
+.explore-body .scrapbook-shell {
+	position: relative;
+}
+
+/* Full bleed page: header edges line up with the floating panel. */
+.explore-body .scrapbook-shell-inner {
+	max-width: none;
+	padding-left: var(--s-5);
+	padding-right: var(--s-5);
+}
+
+.explore-shell {
+	position: relative;
+	flex: 1 1 auto;
+	min-height: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+#explore-map {
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	background: #e8e4dc;
+	font-family: var(--font-sans);
+}
+
+.leaflet-container {
+	background: #e8e4dc;
+	font-family: var(--font-sans);
+}
+
+/* Warm the grey basemap toward the linen palette. */
+.leaflet-tile-pane {
+	filter: sepia(0.28) saturate(0.78) brightness(1.015) contrast(0.96);
+}
+
+.leaflet-overlay-pane canvas {
+	z-index: 1;
+}
+
+/* ------------------------------------------------------------------
+ * Panel (desktop floating card)
+ * ------------------------------------------------------------------ */
+
+.explore-panel {
+	position: absolute;
+	top: var(--s-5);
+	left: var(--s-5);
+	bottom: var(--s-5);
+	width: min(384px, calc(100vw - 48px));
+	z-index: 10;
+	color: var(--ink);
+	pointer-events: none;
+}
+
+.explore-panel-inner {
+	height: 100%;
+	overflow: auto;
+	pointer-events: auto;
+	background: rgba(251, 249, 245, 0.97);
+	border: 1px solid var(--line);
+	border-radius: var(--r-lg);
+	box-shadow: var(--shadow-md);
+	padding: var(--s-6) var(--s-5) var(--s-6);
+	-webkit-backdrop-filter: blur(18px);
+	backdrop-filter: blur(18px);
+	-webkit-overflow-scrolling: touch;
+	scrollbar-width: thin;
+	scrollbar-color: var(--line-strong) transparent;
+}
+
+.explore-panel h1 {
+	font-family: var(--font-serif);
+	font-size: 40px;
+	font-weight: 350;
+	font-variation-settings: 'opsz' 60;
+	line-height: 1.08;
+	letter-spacing: -0.02em;
+	color: var(--ink);
+	text-transform: none;
+	margin: 0 0 var(--s-3);
+}
+
+.explore-lede {
+	font-family: var(--font-serif);
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--ink-soft);
+	margin: 0 0 var(--s-3);
+}
+
+.explore-caption {
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	letter-spacing: 0.03em;
+	color: var(--muted);
+	margin: 0 0 var(--s-5);
+}
+
+.explore-select {
+	position: relative;
+	display: block;
+	margin-bottom: var(--s-5);
+}
+
+.explore-select::after {
+	content: '';
+	position: absolute;
+	right: 18px;
+	top: 50%;
+	width: 7px;
+	height: 7px;
+	margin-top: -6px;
+	border-right: 1.5px solid var(--ink-soft);
+	border-bottom: 1.5px solid var(--ink-soft);
+	transform: rotate(45deg);
+	pointer-events: none;
+}
+
+.explore-select select {
+	width: 100%;
+	min-height: 46px;
+	padding: 0 40px 0 var(--s-4);
+	border: 1px solid var(--line-strong);
+	border-radius: var(--r-md);
+	background: var(--surface);
+	color: var(--ink);
+	font-family: var(--font-sans);
+	font-size: var(--fs-ui);
+	-webkit-appearance: none;
+	appearance: none;
+	transition: border-color var(--t-fast) var(--ease);
+}
+
+.explore-select select:hover,
+.explore-select select:focus {
+	border-color: var(--sea);
+	outline: 0;
+}
+
+/* Who I went with: filter and legend in one. */
+.explore-type-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--s-2);
+	margin: 0 0 var(--s-5);
+}
+
+.explore-type-row button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--s-2);
+	min-height: 40px;
+	padding: 0 var(--s-4) 0 var(--s-3);
+	border-radius: var(--r-pill);
+	border: 1px solid var(--line-strong);
+	background: var(--surface);
+	color: var(--ink-soft);
+	font-family: var(--font-sans);
+	font-size: var(--fs-ui);
+	font-weight: 500;
+	line-height: 1.3;
+	text-transform: none;
+	cursor: pointer;
+	transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease);
+}
+
+.explore-type-row button[data-type=""] {
+	padding-left: var(--s-4);
+}
+
+.explore-type-row button:hover {
+	background: var(--sea-mist);
+	color: var(--ink);
+}
+
+.explore-type-row button.is-active,
+.explore-type-row button.is-active:hover {
+	background: var(--sea-deep);
+	border-color: var(--sea-deep);
+	color: var(--paper);
+}
+
+.explore-chip-dot {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	color: #fff;
+	flex: none;
+}
+
+.explore-chip-dot svg {
+	display: block;
+}
+
+.explore-chip-dot.is-family { background: var(--type-family); }
+.explore-chip-dot.is-friends { background: var(--type-friends); }
+.explore-chip-dot.is-work { background: var(--type-work); }
+.explore-chip-dot.is-solo { background: var(--type-solo); }
+
+.explore-type-row button.is-active .explore-chip-dot {
+	box-shadow: 0 0 0 1.5px rgba(245, 242, 236, 0.85);
+}
+
+.explore-list-label,
+.explore-detail-kicker {
+	color: var(--muted);
+	margin-bottom: var(--s-2);
+}
+
+.explore-detail-kicker {
+	color: var(--sea);
+}
+
+/* Rows: places and memories share one pattern. */
+.explore-place-row,
+.explore-trip-row {
+	display: flex;
+	gap: var(--s-4);
+	align-items: center;
+	width: calc(100% + 16px);
+	margin: 0 -8px;
+	text-align: left;
+	background: transparent;
+	border: 0;
+	border-radius: var(--r-md);
+	padding: var(--s-2) 8px;
+	color: inherit;
+	cursor: pointer;
+	transition: background var(--t-fast) var(--ease);
+}
+
+.explore-place-row:hover,
+.explore-trip-row:hover,
+.explore-place-row:focus-visible,
+.explore-trip-row:focus-visible {
+	background: var(--sea-mist);
+	opacity: 1;
+}
+
+.explore-thumb {
+	width: 64px;
+	height: 64px;
+	border-radius: 12px;
+	object-fit: cover;
+	flex: 0 0 64px;
+	background: var(--paper-deep);
+}
+
+.explore-place-copy {
+	min-width: 0;
+	flex: 1;
+}
+
+.explore-place-copy strong,
+.explore-trip-row strong {
+	display: block;
+	font-family: var(--font-serif);
+	font-size: 18px;
+	font-weight: 450;
+	line-height: 1.25;
+	color: var(--ink);
+	text-transform: none;
+}
+
+.explore-place-copy span,
+.explore-trip-meta {
+	display: block;
+	margin-top: 3px;
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	letter-spacing: 0.02em;
+	color: var(--muted);
+}
+
+/* The old theme restyles every link on hover (display, font size), which
+   collapsed the row. Hold the row layout in every state. */
+.explore-trip-row,
+.explore-trip-row:hover,
+.explore-trip-row:active,
+.explore-trip-row:focus {
+	display: flex;
+	align-items: center;
+	font-size: inherit;
+	text-decoration: none;
+	color: inherit;
+	user-select: none;
+	caret-color: transparent;
+}
+
+.explore-place-row::after {
+	content: '';
+	flex: none;
+	width: 8px;
+	height: 8px;
+	margin-right: var(--s-1);
+	border-top: 1.5px solid var(--line-strong);
+	border-right: 1.5px solid var(--line-strong);
+	transform: rotate(45deg);
+	transition: border-color var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
+}
+
+.explore-place-row:hover::after {
+	border-color: var(--sea);
+	transform: translateX(2px) rotate(45deg);
+}
+
+/* Place detail. */
+.explore-back {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--s-1);
+	background: none;
+	border: 0;
+	color: var(--sea);
+	padding: 0;
+	min-height: 36px;
+	margin: 0 0 var(--s-3);
+	font-family: var(--font-sans);
+	font-size: var(--fs-ui);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.explore-back::before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	margin-right: 4px;
+	border-left: 1.5px solid currentColor;
+	border-bottom: 1.5px solid currentColor;
+	transform: rotate(45deg);
+}
+
+.explore-cover {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
+	border-radius: var(--r-md);
+	margin: 0 0 var(--s-4);
+	background: var(--paper-deep);
+}
+
+.explore-detail h2 {
+	font-family: var(--font-serif);
+	font-size: 34px;
+	font-weight: 350;
+	font-variation-settings: 'opsz' 60;
+	line-height: 1.1;
+	letter-spacing: -0.015em;
+	color: var(--ink);
+	text-transform: none;
+	margin: 0 0 var(--s-2);
+}
+
+.explore-detail .explore-lede {
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	letter-spacing: 0.03em;
+	color: var(--muted);
+	margin-bottom: var(--s-4);
+}
+
+.explore-panel-toggle,
+.explore-preview {
+	display: none;
+}
+
+/* ------------------------------------------------------------------
+ * Markers, clusters, tooltips
+ * ------------------------------------------------------------------ */
+
+.explore-marker-wrap {
+	background: transparent;
+	border: 0;
+	overflow: visible;
+}
+
+.explore-marker {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #8a9694;
+	color: #fff;
+	border: 2.5px solid var(--surface);
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px rgba(26, 42, 44, 0.25), 0 4px 12px rgba(26, 42, 44, 0.22);
+	transition: transform var(--t-base) var(--ease), box-shadow var(--t-base) var(--ease);
+	cursor: pointer;
+}
+
+.explore-marker svg {
+	display: block;
+}
+
+.explore-marker-wrap:hover .explore-marker {
+	transform: scale(1.14);
+}
+
+.explore-marker.is-family { background: var(--type-family); }
+.explore-marker.is-friends { background: var(--type-friends); }
+.explore-marker.is-work { background: var(--type-work); }
+.explore-marker.is-solo { background: var(--type-solo); }
+
+.explore-marker.is-active {
+	border-width: 3px;
+	transform: scale(1);
+	box-shadow: 0 0 0 6px rgba(251, 249, 245, 0.55), 0 6px 20px rgba(26, 42, 44, 0.38);
+}
+
+.explore-marker-label {
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 5px 12px;
+	border-radius: var(--r-pill);
+	background: var(--ink);
+	color: var(--paper);
+	font-family: var(--font-sans);
+	font-size: 12.5px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+	box-shadow: var(--shadow-sm);
+	pointer-events: none;
+}
+
+.explore-cluster-wrap {
+	background: transparent;
+	border: 0;
+}
+
+.explore-cluster {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: var(--surface);
+	border: 1.5px solid var(--sea);
+	box-shadow: 0 0 0 5px rgba(251, 249, 245, 0.5), 0 6px 18px rgba(26, 42, 44, 0.22);
+	color: var(--sea-deep);
+	font-family: var(--font-serif);
+	font-size: 17px;
+	font-weight: 600;
+	box-sizing: border-box;
+	transition: transform var(--t-base) var(--ease);
+	cursor: pointer;
+}
+
+.explore-cluster-wrap:hover .explore-cluster {
+	transform: scale(1.08);
+}
+
+.leaflet-tooltip.explore-tip {
+	display: flex;
+	align-items: center;
+	gap: var(--s-3);
+	padding: var(--s-2) var(--s-4) var(--s-2) var(--s-2);
+	border: 1px solid var(--line);
+	border-radius: var(--r-md);
+	background: var(--surface);
+	box-shadow: var(--shadow-md);
+	color: var(--ink);
+	white-space: nowrap;
+	opacity: 1;
+}
+
+.leaflet-tooltip.explore-tip::before {
+	display: none;
+}
+
+.explore-tip img,
+.explore-tip .explore-tip-blank {
+	width: 44px;
+	height: 44px;
+	border-radius: 10px;
+	object-fit: cover;
+	background: var(--paper-deep);
+	flex: none;
+}
+
+.explore-tip strong {
+	display: block;
+	font-family: var(--font-serif);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.explore-tip em {
+	display: block;
+	margin-top: 2px;
+	font-family: var(--font-sans);
+	font-size: 12px;
+	font-style: normal;
+	letter-spacing: 0.02em;
+	color: var(--muted);
+}
+
+/* ------------------------------------------------------------------
+ * Map controls
+ * ------------------------------------------------------------------ */
+
+.explore-controls {
+	display: flex;
+	flex-direction: column;
+	margin: 0 var(--s-5) var(--s-2) 0 !important;
+	border: 1px solid var(--line) !important;
+	border-radius: var(--r-md);
+	background: rgba(251, 249, 245, 0.97);
+	box-shadow: var(--shadow-md) !important;
+	overflow: hidden;
+}
+
+.explore-controls button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--ink);
+	cursor: pointer;
+	transition: background var(--t-fast) var(--ease);
+}
+
+.explore-controls button + button {
+	border-top: 1px solid var(--line);
+}
+
+.explore-controls button:hover {
+	background: var(--sea-mist);
+}
+
+.explore-controls svg {
+	display: block;
+}
+
+.leaflet-control-attribution {
+	background: transparent !important;
+	color: var(--muted);
+	font-family: var(--font-sans);
+	font-size: 10.5px;
+	letter-spacing: 0.02em;
+	padding: 0 var(--s-2);
+}
+
+.leaflet-control-attribution a {
+	color: var(--muted);
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+}
+
+/* ------------------------------------------------------------------
+ * Mobile: bottom sheet with three detents (peek, half, full)
+ * ------------------------------------------------------------------ */
+
+@media (max-width: 767px) {
+	.explore-panel {
+		--sheet-peek: calc(132px + var(--dock-height) + var(--safe-bottom));
+		top: auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 52%;
+		transition: height 0.34s var(--ease-sheet);
+	}
+
+	.explore-panel[data-sheet="peek"] {
+		height: var(--sheet-peek);
+	}
+
+	.explore-panel[data-sheet="half"] {
+		height: 52%;
+	}
+
+	.explore-panel[data-sheet="full"] {
+		height: calc(100% - 8px);
+	}
+
+	.explore-panel.is-dragging {
+		transition: none;
+	}
+
+	.explore-panel-inner {
+		display: flex;
+		flex-direction: column;
+		border: 0;
+		border-top: 1px solid var(--line);
+		border-radius: 26px 26px 0 0;
+		padding: 36px var(--page-gutter) calc(var(--dock-height) + var(--safe-bottom) + var(--s-4));
+		box-shadow: 0 -10px 36px rgba(26, 42, 44, 0.16);
+		overscroll-behavior: contain;
+	}
+
+	.explore-panel-inner > * {
+		flex: 0 0 auto;
+	}
+
+	.explore-panel[data-sheet="peek"] .explore-panel-inner {
+		overflow: hidden;
+	}
+
+	.explore-panel[data-sheet="peek"] .explore-select,
+	.explore-panel[data-sheet="peek"] #explore-list-view,
+	.explore-panel[data-sheet="peek"] #explore-detail-view {
+		visibility: hidden;
+	}
+
+	/* The grab strip: wide, thumb sized, drag or tap. */
+	.explore-panel-toggle {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+		height: 40px;
+		width: 100%;
+		border: 0;
+		background: transparent;
+		pointer-events: auto;
+		touch-action: none;
+		cursor: grab;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.explore-panel-toggle span {
+		display: block;
+		width: 40px;
+		height: 5px;
+		margin: 11px auto 0;
+		border-radius: 5px;
+		background: var(--line-strong);
+	}
+
+	/* The sheet leads with what you can act on. */
+	.explore-kicker,
+	.explore-panel h1,
+	.explore-lede {
+		display: none;
+	}
+
+	.explore-detail .explore-lede {
+		display: block;
+	}
+
+	.explore-caption {
+		order: 0;
+		margin: 0 0 var(--s-3);
+		font-size: var(--fs-small);
+	}
+
+	.explore-type-row {
+		order: 1;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: none;
+		margin: 0 calc(var(--page-gutter) * -1) var(--s-4);
+		padding: 0 var(--page-gutter);
+	}
+
+	.explore-type-row::-webkit-scrollbar {
+		display: none;
+	}
+
+	.explore-type-row button {
+		flex: 0 0 auto;
+		min-height: 44px;
+		padding: 0 var(--s-4) 0 var(--s-3);
+	}
+
+	.explore-type-row button[data-type=""] {
+		padding-left: var(--s-5);
+		padding-right: var(--s-5);
+	}
+
+	.explore-select {
+		order: 2;
+		margin-bottom: var(--s-4);
+	}
+
+	.explore-select select {
+		min-height: 48px;
+		height: 48px;
+		font-size: 16px;
+	}
+
+	#explore-list-view,
+	#explore-detail-view {
+		order: 3;
+	}
+
+	.explore-place-row,
+	.explore-trip-row {
+		min-height: 72px;
+		padding: var(--s-2) 8px;
+	}
+
+	.explore-back {
+		min-height: 44px;
+		font-size: 16px;
+	}
+
+	.explore-cover {
+		display: none;
+	}
+
+	.explore-detail h2 {
+		font-size: 30px;
+	}
+
+	/* Peek preview: the selected place, at a glance. */
+	.explore-preview {
+		order: -1;
+		align-items: center;
+		gap: var(--s-4);
+		margin: 0;
+	}
+
+	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-preview {
+		display: flex;
+	}
+
+	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-caption,
+	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-type-row {
+		display: none;
+	}
+
+	.explore-preview-main {
+		display: flex;
+		align-items: center;
+		gap: var(--s-4);
+		flex: 1;
+		min-width: 0;
+		padding: 0;
+		border: 0;
+		background: transparent;
+		text-align: left;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.explore-preview-photo {
+		width: 72px;
+		height: 72px;
+		border-radius: var(--r-md);
+		object-fit: cover;
+		flex: none;
+		background: var(--paper-deep);
+	}
+
+	.explore-preview-copy {
+		display: block;
+		min-width: 0;
+	}
+
+	.explore-preview-copy small {
+		display: block;
+		font-family: var(--font-sans);
+		font-size: var(--fs-label);
+		font-weight: 600;
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		color: var(--sea);
+	}
+
+	.explore-preview-copy strong {
+		display: block;
+		margin: 3px 0 2px;
+		font-family: var(--font-serif);
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 1.15;
+		color: var(--ink);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.explore-preview-copy span {
+		display: block;
+		font-family: var(--font-sans);
+		font-size: var(--fs-small);
+		letter-spacing: 0.02em;
+		color: var(--muted);
+	}
+
+	.explore-preview-close {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex: none;
+		width: 44px;
+		height: 44px;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: 50%;
+		background: var(--surface);
+		color: var(--ink-soft);
+		cursor: pointer;
+	}
+
+	/* Controls: a single round reset button, top right, clear of the sheet. */
+	.leaflet-bottom.leaflet-right {
+		top: var(--s-3);
+		bottom: auto;
+	}
+
+	.explore-controls {
+		margin: 0 var(--s-4) 0 0 !important;
+		border-radius: 50%;
+	}
+
+	.explore-controls .explore-zoom {
+		display: none;
+	}
+
+	.explore-controls button.explore-reset {
+		width: 48px;
+		height: 48px;
+		border-top: 0;
+	}
+
+	.leaflet-control-attribution {
+		font-size: 10px;
+	}
+}

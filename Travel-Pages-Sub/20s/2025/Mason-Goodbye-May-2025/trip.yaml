@@ -1,0 +1,131 @@
+schemaVersion: 1
+title: Mason's Goodbye
+slug: Mason-Goodbye-May-2025
+section: 20s
+year: '2025'
+dateRange: May 2025
+startDate: '2025-05-21'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Mason-Goodbye-May-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Mason-Goodbye-May-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Mason-Goodbye-May-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Mason-Goodbye-May-2025-1.jpeg
+    sourceFile: IMG_6690.jpeg
+    exif: '2025-05-21T22:29:18.000Z'
+    flags: []
+    bytes: 247404
+  - id: p002
+    seq: 2
+    file: Mason-Goodbye-May-2025-2.jpeg
+    sourceFile: IMG_2239.jpeg
+    exif: '2025-05-21T23:17:52.000Z'
+    flags: []
+    bytes: 174357
+  - id: p003
+    seq: 3
+    file: Mason-Goodbye-May-2025-3.jpeg
+    sourceFile: IMG_6696.jpeg
+    exif: '2025-05-21T23:27:12.000Z'
+    flags: []
+    bytes: 412189
+  - id: p004
+    seq: 4
+    file: Mason-Goodbye-May-2025-4.jpeg
+    sourceFile: IMG_6700.jpeg
+    exif: '2025-05-21T23:27:18.000Z'
+    flags: []
+    bytes: 439655
+  - id: p005
+    seq: 5
+    file: Mason-Goodbye-May-2025-5.jpeg
+    sourceFile: IMG_6705.jpeg
+    exif: '2025-05-22T00:55:42.000Z'
+    flags: []
+    bytes: 308255
+  - id: p006
+    seq: 6
+    file: Mason-Goodbye-May-2025-6.jpeg
+    sourceFile: IMG_6716.jpeg
+    exif: '2025-05-22T01:15:09.000Z'
+    flags: []
+    bytes: 221144
+  - id: p007
+    seq: 7
+    file: Mason-Goodbye-May-2025-7.jpeg
+    sourceFile: IMG_2339.jpeg
+    exif: '2025-05-22T02:23:36.000Z'
+    flags: []
+    bytes: 573327
+  - id: p008
+    seq: 8
+    file: Mason-Goodbye-May-2025-8.jpeg
+    sourceFile: IMG_2348.jpeg
+    exif: '2025-05-22T02:24:43.000Z'
+    flags: []
+    bytes: 473212
+  - id: p009
+    seq: 9
+    file: Mason-Goodbye-May-2025-9.jpeg
+    sourceFile: IMG_2349.jpeg
+    exif: '2025-05-22T02:32:52.000Z'
+    flags: []
+    bytes: 494403
+  - id: p010
+    seq: 10
+    file: Mason-Goodbye-May-2025-10.jpeg
+    sourceFile: IMG_2357.jpeg
+    exif: '2025-05-22T02:33:20.000Z'
+    flags: []
+    bytes: 519902
+  - id: p011
+    seq: 11
+    file: Mason-Goodbye-May-2025-11.jpeg
+    sourceFile: IMG_6818.jpeg
+    exif: '2025-05-31T01:11:33.000Z'
+    flags: []
+    bytes: 348841
+  - id: p012
+    seq: 12
+    file: Mason-Goodbye-May-2025-12.jpeg
+    sourceFile: IMG_6820.jpeg
+    exif: '2025-05-31T01:28:21.000Z'
+    flags: []
+    bytes: 372252
+  - id: p013
+    seq: 13
+    file: Mason-Goodbye-May-2025-13.jpeg
+    sourceFile: IMG_6824.jpeg
+    exif: '2025-05-31T02:23:16.000Z'
+    flags: []
+    bytes: 421161
+  - id: p014
+    seq: 14
+    file: Mason-Goodbye-May-2025-14.jpeg
+    sourceFile: IMG_6827.jpeg
+    exif: '2025-05-31T02:30:45.000Z'
+    flags: []
+    bytes: 455450
+  - id: p015
+    seq: 15
+    file: Mason-Goodbye-May-2025-15.jpeg
+    sourceFile: IMG_6834.jpeg
+    exif: '2025-05-31T15:41:10.000Z'
+    flags: []
+    bytes: 667073
+sections: []
+pages:
+  - file: Mason-Goodbye-May-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:26:29.104Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/May-Mason-Goodbye-2025.jpeg

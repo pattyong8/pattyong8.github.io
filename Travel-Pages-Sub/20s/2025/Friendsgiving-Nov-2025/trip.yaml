@@ -1,0 +1,138 @@
+schemaVersion: 1
+title: Friendsgiving
+slug: Friendsgiving-Nov-2025
+section: 20s
+year: '2025'
+dateRange: Nov 2025
+startDate: '2025-11-12'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Friendsgiving-Nov-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Friendsgiving-Nov-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Friendsgiving-Nov-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Friendsgiving-Nov-2025-1.jpeg
+    sourceFile: IMG_9760.jpeg
+    exif: '2025-11-12T22:13:35.000Z'
+    flags: []
+    bytes: 396002
+  - id: p002
+    seq: 2
+    file: Friendsgiving-Nov-2025-2.jpeg
+    sourceFile: IMG_0928.jpeg
+    exif: '2025-11-12T22:20:32.000Z'
+    flags: []
+    bytes: 397299
+  - id: p003
+    seq: 3
+    file: Friendsgiving-Nov-2025-3.jpeg
+    sourceFile: IMG_9765.jpeg
+    exif: '2025-11-12T22:27:44.000Z'
+    flags: []
+    bytes: 482390
+  - id: p004
+    seq: 4
+    file: Friendsgiving-Nov-2025-4.jpeg
+    sourceFile: IMG_0939.jpeg
+    exif: '2025-11-12T22:57:39.000Z'
+    flags: []
+    bytes: 469960
+  - id: p005
+    seq: 5
+    file: Friendsgiving-Nov-2025-5.jpeg
+    sourceFile: IMG_9770.jpeg
+    exif: '2025-11-12T23:00:01.000Z'
+    flags: []
+    bytes: 468871
+  - id: p006
+    seq: 6
+    file: Friendsgiving-Nov-2025-6.jpeg
+    sourceFile: IMG_9771.jpeg
+    exif: '2025-11-12T23:00:03.000Z'
+    flags: []
+    bytes: 506711
+  - id: p007
+    seq: 7
+    file: Friendsgiving-Nov-2025-7.jpeg
+    sourceFile: IMG_9772.jpeg
+    exif: '2025-11-12T23:25:41.000Z'
+    flags: []
+    bytes: 473454
+  - id: p008
+    seq: 8
+    file: Friendsgiving-Nov-2025-8.jpeg
+    sourceFile: IMG_9776.jpeg
+    exif: '2025-11-13T01:13:16.000Z'
+    flags: []
+    bytes: 629254
+  - id: p009
+    seq: 9
+    file: Friendsgiving-Nov-2025-9.jpeg
+    sourceFile: IMG_9777.jpeg
+    exif: '2025-11-13T01:19:12.000Z'
+    flags: []
+    bytes: 550325
+  - id: p010
+    seq: 10
+    file: Friendsgiving-Nov-2025-10.jpeg
+    sourceFile: IMG_9780.jpeg
+    exif: '2025-11-13T01:19:16.000Z'
+    flags: []
+    bytes: 434745
+  - id: p011
+    seq: 11
+    file: Friendsgiving-Nov-2025-11.jpeg
+    sourceFile: IMG_9781.jpeg
+    exif: '2025-11-13T01:19:18.000Z'
+    flags: []
+    bytes: 451916
+  - id: p012
+    seq: 12
+    file: Friendsgiving-Nov-2025-12.jpeg
+    sourceFile: IMG_9783.jpeg
+    exif: '2025-11-13T01:19:22.000Z'
+    flags: []
+    bytes: 479444
+  - id: p013
+    seq: 13
+    file: Friendsgiving-Nov-2025-13.jpeg
+    sourceFile: IMG_3258.jpeg
+    exif: '2025-11-13T01:41:06.000Z'
+    flags: []
+    bytes: 302712
+  - id: p014
+    seq: 14
+    file: Friendsgiving-Nov-2025-14.jpeg
+    sourceFile: IMG_3262.jpeg
+    exif: '2025-11-13T01:41:29.000Z'
+    flags: []
+    bytes: 365722
+  - id: p015
+    seq: 15
+    file: Friendsgiving-Nov-2025-15.jpeg
+    sourceFile: IMG_3264.jpeg
+    exif: '2025-11-13T01:41:44.000Z'
+    flags: []
+    bytes: 253309
+  - id: p016
+    seq: 16
+    file: Friendsgiving-Nov-2025-16.jpeg
+    sourceFile: IMG_9786.jpeg
+    exif: '2025-11-13T02:00:12.000Z'
+    flags: []
+    bytes: 360554
+sections: []
+pages:
+  - file: Friendsgiving-Nov-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:22:25.541Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Nov-Friendsgiving-2025.jpeg

@@ -1,0 +1,138 @@
+schemaVersion: 1
+title: Parth's Bday
+slug: Parth's-Bday-Apr-2025
+section: 20s
+year: '2025'
+dateRange: Apr 2025
+startDate: '2025-04-08'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Parth's-Bday-Apr-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Parth's-Bday-Apr-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Parth's-Bday-Apr-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Parth's-Bday-Apr-2025-1.jpeg
+    sourceFile: IMG_5871.jpeg
+    exif: '2025-04-08T00:52:36.000Z'
+    flags: []
+    bytes: 486307
+  - id: p002
+    seq: 2
+    file: Parth's-Bday-Apr-2025-2.jpeg
+    sourceFile: IMG_5875.jpeg
+    exif: '2025-04-08T00:54:44.000Z'
+    flags: []
+    bytes: 359868
+  - id: p003
+    seq: 3
+    file: Parth's-Bday-Apr-2025-3.jpeg
+    sourceFile: IMG_5881.jpeg
+    exif: '2025-04-10T00:17:20.000Z'
+    flags: []
+    bytes: 384997
+  - id: p004
+    seq: 4
+    file: Parth's-Bday-Apr-2025-4.jpeg
+    sourceFile: IMG_5882.jpeg
+    exif: '2025-04-10T00:37:37.000Z'
+    flags: []
+    bytes: 338069
+  - id: p005
+    seq: 5
+    file: Parth's-Bday-Apr-2025-5.jpeg
+    sourceFile: IMG_5886.jpeg
+    exif: '2025-04-10T01:07:19.000Z'
+    flags: []
+    bytes: 310836
+  - id: p006
+    seq: 6
+    file: Parth's-Bday-Apr-2025-6.jpeg
+    sourceFile: IMG_5890.jpeg
+    exif: '2025-04-10T02:02:05.000Z'
+    flags: []
+    bytes: 226469
+  - id: p007
+    seq: 7
+    file: Parth's-Bday-Apr-2025-7.jpeg
+    sourceFile: IMG_5896.jpeg
+    exif: '2025-04-10T03:14:04.000Z'
+    flags: []
+    bytes: 308818
+  - id: p008
+    seq: 8
+    file: Parth's-Bday-Apr-2025-8.jpeg
+    sourceFile: IMG_5925.jpeg
+    exif: '2025-04-12T23:58:28.000Z'
+    flags: []
+    bytes: 347197
+  - id: p009
+    seq: 9
+    file: Parth's-Bday-Apr-2025-9.jpeg
+    sourceFile: IMG_5931.jpeg
+    exif: '2025-04-13T00:28:30.000Z'
+    flags: []
+    bytes: 554453
+  - id: p010
+    seq: 10
+    file: Parth's-Bday-Apr-2025-10.jpeg
+    sourceFile: IMG_5937.jpeg
+    exif: '2025-04-13T00:28:37.000Z'
+    flags: []
+    bytes: 486486
+  - id: p011
+    seq: 11
+    file: Parth's-Bday-Apr-2025-11.jpeg
+    sourceFile: IMG_5942.jpeg
+    exif: '2025-04-13T17:06:43.000Z'
+    flags: []
+    bytes: 513845
+  - id: p012
+    seq: 12
+    file: Parth's-Bday-Apr-2025-12.jpeg
+    sourceFile: IMG_5944.jpeg
+    exif: '2025-04-13T17:06:50.000Z'
+    flags: []
+    bytes: 333976
+  - id: p013
+    seq: 13
+    file: Parth's-Bday-Apr-2025-13.jpeg
+    sourceFile: IMG_5947.jpeg
+    exif: '2025-04-13T17:52:18.000Z'
+    flags: []
+    bytes: 499791
+  - id: p014
+    seq: 14
+    file: Parth's-Bday-Apr-2025-14.jpeg
+    sourceFile: IMG_5950.jpeg
+    exif: '2025-04-13T17:52:56.000Z'
+    flags: []
+    bytes: 310065
+  - id: p015
+    seq: 15
+    file: Parth's-Bday-Apr-2025-15.jpeg
+    sourceFile: IMG_5954.jpeg
+    exif: '2025-04-13T17:53:14.000Z'
+    flags: []
+    bytes: 257631
+  - id: p016
+    seq: 16
+    file: Parth's-Bday-Apr-2025-16.jpeg
+    sourceFile: IMG_5956.jpeg
+    exif: '2025-04-13T17:56:09.000Z'
+    flags: []
+    bytes: 515647
+sections: []
+pages:
+  - file: Parth's-Bday-Apr-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:52.270Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Apr-Parth's-Bday-2025.jpeg

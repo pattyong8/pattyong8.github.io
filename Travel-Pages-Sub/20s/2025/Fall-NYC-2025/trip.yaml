@@ -1,0 +1,369 @@
+schemaVersion: 1
+title: Fall NYC
+slug: Fall-NYC-2025
+section: 20s
+year: '2025'
+dateRange: Fall 2025
+startDate: '2025-10-29'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: Fall-NYC-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Fall-NYC-2025
+coverSource: _incoming/IMG_9575.jpeg
+heroFile: Fall-NYC-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Fall-NYC-2025-1.jpeg
+    sourceFile: IMG_9575.jpeg
+    exif: '2025-10-29T17:43:09.000Z'
+    flags: []
+    bytes: 564738
+  - id: p002
+    seq: 2
+    file: Fall-NYC-2025-2.jpeg
+    sourceFile: IMG_9586.jpeg
+    exif: '2025-10-30T01:57:23.000Z'
+    flags: []
+    bytes: 302570
+  - id: p003
+    seq: 3
+    file: Fall-NYC-2025-3.jpeg
+    sourceFile: IMG_9598.jpeg
+    exif: '2025-10-31T00:38:11.000Z'
+    flags: []
+    bytes: 307044
+  - id: p004
+    seq: 4
+    file: Fall-NYC-2025-4.jpeg
+    sourceFile: IMG_9604.jpeg
+    exif: '2025-10-31T16:12:54.000Z'
+    flags: []
+    bytes: 362681
+  - id: p005
+    seq: 5
+    file: Fall-NYC-2025-5.jpeg
+    sourceFile: IMG_9610.jpeg
+    exif: '2025-11-01T05:13:02.000Z'
+    flags: []
+    bytes: 298320
+  - id: p006
+    seq: 6
+    file: Fall-NYC-2025-6.jpeg
+    sourceFile: IMG_9621.jpeg
+    exif: '2025-11-02T22:14:44.000Z'
+    flags: []
+    bytes: 388077
+  - id: p007
+    seq: 7
+    file: Fall-NYC-2025-7.jpeg
+    sourceFile: IMG_9643.jpeg
+    exif: '2025-11-05T02:36:38.000Z'
+    flags: []
+    bytes: 435968
+  - id: p008
+    seq: 8
+    file: Fall-NYC-2025-8.jpeg
+    sourceFile: IMG_9658.jpeg
+    exif: '2025-11-07T01:17:03.000Z'
+    flags: []
+    bytes: 332234
+  - id: p009
+    seq: 9
+    file: Fall-NYC-2025-9.jpeg
+    sourceFile: IMG_9662.jpeg
+    exif: '2025-11-07T02:55:15.000Z'
+    flags: []
+    bytes: 434467
+  - id: p010
+    seq: 10
+    file: Fall-NYC-2025-10.jpeg
+    sourceFile: IMG_9667.jpeg
+    exif: '2025-11-08T01:39:53.000Z'
+    flags: []
+    bytes: 344658
+  - id: p011
+    seq: 11
+    file: Fall-NYC-2025-11.jpeg
+    sourceFile: IMG_9668.jpeg
+    exif: '2025-11-08T01:58:55.000Z'
+    flags: []
+    bytes: 476622
+  - id: p012
+    seq: 12
+    file: Fall-NYC-2025-12.jpeg
+    sourceFile: IMG_9674.jpeg
+    exif: '2025-11-08T02:04:37.000Z'
+    flags: []
+    bytes: 554338
+  - id: p013
+    seq: 13
+    file: Fall-NYC-2025-13.jpeg
+    sourceFile: IMG_9676.jpeg
+    exif: '2025-11-08T02:04:46.000Z'
+    flags: []
+    bytes: 536275
+  - id: p014
+    seq: 14
+    file: Fall-NYC-2025-14.jpeg
+    sourceFile: IMG_9677.jpeg
+    exif: '2025-11-08T02:04:49.000Z'
+    flags: []
+    bytes: 555075
+  - id: p015
+    seq: 15
+    file: Fall-NYC-2025-15.jpeg
+    sourceFile: IMG_9678.jpeg
+    exif: '2025-11-08T02:04:53.000Z'
+    flags: []
+    bytes: 599377
+  - id: p016
+    seq: 16
+    file: Fall-NYC-2025-16.jpeg
+    sourceFile: IMG_9680.jpeg
+    exif: '2025-11-08T02:09:47.000Z'
+    flags: []
+    bytes: 430438
+  - id: p017
+    seq: 17
+    file: Fall-NYC-2025-17.jpeg
+    sourceFile: IMG_9683.jpeg
+    exif: '2025-11-08T02:10:58.000Z'
+    flags: []
+    bytes: 624070
+  - id: p018
+    seq: 18
+    file: Fall-NYC-2025-18.jpeg
+    sourceFile: IMG_9686.jpeg
+    exif: '2025-11-08T02:13:22.000Z'
+    flags: []
+    bytes: 538487
+  - id: p019
+    seq: 19
+    file: Fall-NYC-2025-19.jpeg
+    sourceFile: IMG_9690.jpeg
+    exif: '2025-11-08T02:21:28.000Z'
+    flags: []
+    bytes: 354810
+  - id: p020
+    seq: 20
+    file: Fall-NYC-2025-20.jpeg
+    sourceFile: IMG_9694.jpeg
+    exif: '2025-11-08T02:31:32.000Z'
+    flags: []
+    bytes: 414463
+  - id: p021
+    seq: 21
+    file: Fall-NYC-2025-21.jpeg
+    sourceFile: IMG_9696.jpeg
+    exif: '2025-11-08T02:31:46.000Z'
+    flags: []
+    bytes: 442108
+  - id: p022
+    seq: 22
+    file: Fall-NYC-2025-22.jpeg
+    sourceFile: IMG_9699.jpeg
+    exif: '2025-11-08T02:43:47.000Z'
+    flags: []
+    bytes: 365739
+  - id: p023
+    seq: 23
+    file: Fall-NYC-2025-23.jpeg
+    sourceFile: IMG_9705.jpeg
+    exif: '2025-11-08T03:14:42.000Z'
+    flags: []
+    bytes: 304311
+  - id: p024
+    seq: 24
+    file: Fall-NYC-2025-24.jpeg
+    sourceFile: IMG_9707.jpeg
+    exif: '2025-11-08T03:15:21.000Z'
+    flags: []
+    bytes: 251231
+  - id: p025
+    seq: 25
+    file: Fall-NYC-2025-25.jpeg
+    sourceFile: IMG_9716.jpeg
+    exif: '2025-11-08T05:54:36.000Z'
+    flags: []
+    bytes: 223901
+  - id: p026
+    seq: 26
+    file: Fall-NYC-2025-26.jpeg
+    sourceFile: IMG_9720.jpeg
+    exif: '2025-11-09T03:19:23.000Z'
+    flags: []
+    bytes: 312687
+  - id: p027
+    seq: 27
+    file: Fall-NYC-2025-27.jpeg
+    sourceFile: IMG_9721.jpeg
+    exif: '2025-11-09T03:19:28.000Z'
+    flags: []
+    bytes: 383177
+  - id: p028
+    seq: 28
+    file: Fall-NYC-2025-28.jpeg
+    sourceFile: IMG_9722.jpeg
+    exif: '2025-11-09T03:33:41.000Z'
+    flags: []
+    bytes: 293290
+  - id: p029
+    seq: 29
+    file: Fall-NYC-2025-29.jpeg
+    sourceFile: IMG_9726.jpeg
+    exif: '2025-11-09T03:33:51.000Z'
+    flags: []
+    bytes: 226514
+  - id: p030
+    seq: 30
+    file: Fall-NYC-2025-30.jpeg
+    sourceFile: IMG_9731.jpeg
+    exif: '2025-11-10T00:46:34.000Z'
+    flags: []
+    bytes: 340359
+  - id: p031
+    seq: 31
+    file: Fall-NYC-2025-31.jpeg
+    sourceFile: IMG_9821.jpeg
+    exif: '2025-11-15T00:11:03.000Z'
+    flags: []
+    bytes: 768221
+  - id: p032
+    seq: 32
+    file: Fall-NYC-2025-32.jpeg
+    sourceFile: IMG_9822.jpeg
+    exif: '2025-11-15T00:14:29.000Z'
+    flags: []
+    bytes: 559543
+  - id: p033
+    seq: 33
+    file: Fall-NYC-2025-33.jpeg
+    sourceFile: IMG_9824.jpeg
+    exif: '2025-11-15T00:19:10.000Z'
+    flags: []
+    bytes: 407765
+  - id: p034
+    seq: 34
+    file: Fall-NYC-2025-34.jpeg
+    sourceFile: IMG_9826.jpeg
+    exif: '2025-11-15T00:21:57.000Z'
+    flags: []
+    bytes: 369019
+  - id: p035
+    seq: 35
+    file: Fall-NYC-2025-35.jpeg
+    sourceFile: IMG_9828.jpeg
+    exif: '2025-11-15T00:42:07.000Z'
+    flags: []
+    bytes: 388033
+  - id: p036
+    seq: 36
+    file: Fall-NYC-2025-36.jpeg
+    sourceFile: IMG_9831.jpeg
+    exif: '2025-11-15T00:55:32.000Z'
+    flags: []
+    bytes: 534722
+  - id: p037
+    seq: 37
+    file: Fall-NYC-2025-37.jpeg
+    sourceFile: IMG_9832.jpeg
+    exif: '2025-11-15T00:55:45.000Z'
+    flags: []
+    bytes: 417878
+  - id: p038
+    seq: 38
+    file: Fall-NYC-2025-38.jpeg
+    sourceFile: IMG_9839.jpeg
+    exif: '2025-11-15T01:26:33.000Z'
+    flags: []
+    bytes: 591888
+  - id: p039
+    seq: 39
+    file: Fall-NYC-2025-39.jpeg
+    sourceFile: IMG_9843.jpeg
+    exif: '2025-11-15T01:55:10.000Z'
+    flags: []
+    bytes: 541143
+  - id: p040
+    seq: 40
+    file: Fall-NYC-2025-40.jpeg
+    sourceFile: 78486564175__15540FFC-EA5C-40D9-A638-7E6DF661F32B.jpeg
+    exif: '2025-11-15T02:14:01.000Z'
+    flags: []
+    bytes: 407050
+  - id: p041
+    seq: 41
+    file: Fall-NYC-2025-41.jpeg
+    sourceFile: IMG_0673.jpeg
+    exif: '2025-12-06T05:11:10.000Z'
+    flags: []
+    bytes: 374879
+  - id: p042
+    seq: 42
+    file: Fall-NYC-2025-42.jpeg
+    sourceFile: IMG_0675.jpeg
+    exif: '2025-12-06T05:53:26.000Z'
+    flags: []
+    bytes: 203529
+  - id: p043
+    seq: 43
+    file: Fall-NYC-2025-43.jpeg
+    sourceFile: IMG_0682.jpeg
+    exif: '2025-12-07T03:10:17.000Z'
+    flags: []
+    bytes: 516792
+  - id: p044
+    seq: 44
+    file: Fall-NYC-2025-44.jpeg
+    sourceFile: IMG_0683.jpeg
+    exif: '2025-12-07T03:10:26.000Z'
+    flags: []
+    bytes: 358757
+  - id: p045
+    seq: 45
+    file: Fall-NYC-2025-45.jpeg
+    sourceFile: IMG_0696.jpeg
+    exif: '2025-12-08T00:49:51.000Z'
+    flags: []
+    bytes: 438839
+  - id: p046
+    seq: 46
+    file: Fall-NYC-2025-46.jpeg
+    sourceFile: IMG_0701.jpeg
+    exif: '2025-12-09T23:30:14.000Z'
+    flags: []
+    bytes: 247497
+  - id: p047
+    seq: 47
+    file: Fall-NYC-2025-47.jpeg
+    sourceFile: IMG_0703.jpeg
+    exif: '2025-12-09T23:48:45.000Z'
+    flags: []
+    bytes: 354524
+  - id: p048
+    seq: 48
+    file: Fall-NYC-2025-48.jpeg
+    sourceFile: IMG_0704.jpeg
+    exif: '2025-12-10T00:17:54.000Z'
+    flags: []
+    bytes: 252550
+  - id: p049
+    seq: 49
+    file: Fall-NYC-2025-49.jpeg
+    sourceFile: IMG_0706.jpeg
+    exif: '2025-12-10T00:18:03.000Z'
+    flags: []
+    bytes: 357781
+sections: []
+pages:
+  - file: Fall-NYC-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:21:45.520Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Oct-Fall-NYC-2025.jpeg

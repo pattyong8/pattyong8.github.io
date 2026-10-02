@@ -1,0 +1,110 @@
+schemaVersion: 1
+title: Birthday
+slug: My-Birthday-Mar-2025
+section: 20s
+year: '2025'
+dateRange: Mar 2025
+startDate: '2025-03-26'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: My-Birthday-Mar-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/My-Birthday-Mar-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: My-Birthday-Mar-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: My-Birthday-Mar-2025-1.jpeg
+    sourceFile: IMG_3336.JPG
+    exif: '2025-03-26T14:35:17.000Z'
+    flags: []
+    bytes: 580969
+  - id: p002
+    seq: 2
+    file: My-Birthday-Mar-2025-2.jpeg
+    sourceFile: IMG_3345.JPG
+    exif: '2025-03-26T14:39:11.000Z'
+    flags: []
+    bytes: 422486
+  - id: p003
+    seq: 3
+    file: My-Birthday-Mar-2025-3.jpeg
+    sourceFile: IMG_5715.jpeg
+    exif: '2025-03-26T20:19:55.000Z'
+    flags: []
+    bytes: 279338
+  - id: p004
+    seq: 4
+    file: My-Birthday-Mar-2025-4.jpeg
+    sourceFile: IMG_5716.jpeg
+    exif: '2025-03-26T20:20:04.000Z'
+    flags: []
+    bytes: 516195
+  - id: p005
+    seq: 5
+    file: My-Birthday-Mar-2025-5.jpeg
+    sourceFile: IMG_5726.jpeg
+    exif: '2025-03-27T02:31:56.000Z'
+    flags: []
+    bytes: 406363
+  - id: p006
+    seq: 6
+    file: My-Birthday-Mar-2025-6.jpeg
+    sourceFile: IMG_5729.jpeg
+    exif: '2025-03-27T03:33:35.000Z'
+    flags: []
+    bytes: 445116
+  - id: p007
+    seq: 7
+    file: My-Birthday-Mar-2025-7.jpeg
+    sourceFile: IMG_5730.jpeg
+    exif: '2025-03-27T03:40:19.000Z'
+    flags: []
+    bytes: 486839
+  - id: p008
+    seq: 8
+    file: My-Birthday-Mar-2025-8.jpeg
+    sourceFile: IMG_5797.jpeg
+    exif: '2025-03-30T01:45:03.000Z'
+    flags: []
+    bytes: 379564
+  - id: p009
+    seq: 9
+    file: My-Birthday-Mar-2025-9.jpeg
+    sourceFile: IMG_5798.jpeg
+    exif: '2025-03-30T01:45:09.000Z'
+    flags: []
+    bytes: 189980
+  - id: p010
+    seq: 10
+    file: My-Birthday-Mar-2025-10.jpeg
+    sourceFile: IMG_5799.jpeg
+    exif: '2025-03-30T01:58:39.000Z'
+    flags: []
+    bytes: 374094
+  - id: p011
+    seq: 11
+    file: My-Birthday-Mar-2025-11.jpeg
+    sourceFile: IMG_1749.jpeg
+    exif: '2025-03-30T03:17:02.000Z'
+    flags: []
+    bytes: 283080
+  - id: p012
+    seq: 12
+    file: My-Birthday-Mar-2025-12.jpeg
+    sourceFile: IMG_5801.jpeg
+    exif: '2025-03-30T04:07:11.000Z'
+    flags: []
+    bytes: 268934
+sections: []
+pages:
+  - file: My-Birthday-Mar-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T20:52:41.303Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Mar-Bday-2025.jpeg

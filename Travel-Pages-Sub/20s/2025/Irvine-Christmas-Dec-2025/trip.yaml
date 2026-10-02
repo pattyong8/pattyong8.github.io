@@ -1,0 +1,267 @@
+schemaVersion: 1
+title: Irvine Christmas
+slug: Irvine-Christmas-Dec-2025
+section: 20s
+year: '2025'
+dateRange: Dec 2025
+startDate: '2025-12-18'
+location: Irvine, California
+people: Family
+introParagraph: ''
+tripPrefix: Irvine-Christmas-Dec-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Irvine-Christmas-Dec-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Irvine-Christmas-Dec-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Irvine-Christmas-Dec-2025-1.jpeg
+    sourceFile: IMG_0777.jpeg
+    exif: '2025-12-18T02:56:48.000Z'
+    flags: []
+    bytes: 400900
+  - id: p002
+    seq: 2
+    file: Irvine-Christmas-Dec-2025-2.jpeg
+    sourceFile: IMG_0778.jpeg
+    exif: '2025-12-18T02:56:51.000Z'
+    flags: []
+    bytes: 397362
+  - id: p003
+    seq: 3
+    file: Irvine-Christmas-Dec-2025-3.jpeg
+    sourceFile: IMG_0791.jpeg
+    exif: '2025-12-19T19:39:23.000Z'
+    flags: []
+    bytes: 465667
+  - id: p004
+    seq: 4
+    file: Irvine-Christmas-Dec-2025-4.jpeg
+    sourceFile: IMG_0807.jpeg
+    exif: '2025-12-21T22:26:45.000Z'
+    flags: []
+    bytes: 369002
+  - id: p005
+    seq: 5
+    file: Irvine-Christmas-Dec-2025-5.jpeg
+    sourceFile: IMG_0808.jpeg
+    exif: '2025-12-21T22:27:32.000Z'
+    flags: []
+    bytes: 357542
+  - id: p006
+    seq: 6
+    file: Irvine-Christmas-Dec-2025-6.jpeg
+    sourceFile: IMG_0809.jpeg
+    exif: '2025-12-21T22:27:38.000Z'
+    flags: []
+    bytes: 473849
+  - id: p007
+    seq: 7
+    file: Irvine-Christmas-Dec-2025-7.jpeg
+    sourceFile: IMG_0810.jpeg
+    exif: '2025-12-21T22:32:53.000Z'
+    flags: []
+    bytes: 301374
+  - id: p008
+    seq: 8
+    file: Irvine-Christmas-Dec-2025-8.jpeg
+    sourceFile: IMG_0811.jpeg
+    exif: '2025-12-21T22:36:58.000Z'
+    flags: []
+    bytes: 484821
+  - id: p009
+    seq: 9
+    file: Irvine-Christmas-Dec-2025-9.jpeg
+    sourceFile: IMG_0812.jpeg
+    exif: '2025-12-21T22:37:15.000Z'
+    flags: []
+    bytes: 360952
+  - id: p010
+    seq: 10
+    file: Irvine-Christmas-Dec-2025-10.jpeg
+    sourceFile: IMG_0815.jpeg
+    exif: '2025-12-21T22:38:25.000Z'
+    flags: []
+    bytes: 645103
+  - id: p011
+    seq: 11
+    file: Irvine-Christmas-Dec-2025-11.jpeg
+    sourceFile: IMG_0818.jpeg
+    exif: '2025-12-21T22:38:46.000Z'
+    flags: []
+    bytes: 551342
+  - id: p012
+    seq: 12
+    file: Irvine-Christmas-Dec-2025-12.jpeg
+    sourceFile: IMG_4997.jpeg
+    exif: '2025-12-22T01:43:21.000Z'
+    flags: []
+    bytes: 400645
+  - id: p013
+    seq: 13
+    file: Irvine-Christmas-Dec-2025-13.jpeg
+    sourceFile: IMG_0837.jpeg
+    exif: '2025-12-24T18:58:45.000Z'
+    flags: []
+    bytes: 639457
+  - id: p014
+    seq: 14
+    file: Irvine-Christmas-Dec-2025-14.jpeg
+    sourceFile: IMG_0842.jpeg
+    exif: '2025-12-24T18:58:50.000Z'
+    flags: []
+    bytes: 546086
+  - id: p015
+    seq: 15
+    file: Irvine-Christmas-Dec-2025-15.jpeg
+    sourceFile: IMG_5006.jpeg
+    exif: '2025-12-24T21:25:43.000Z'
+    flags: []
+    bytes: 318948
+  - id: p016
+    seq: 16
+    file: Irvine-Christmas-Dec-2025-16.jpeg
+    sourceFile: IMG_5013.jpeg
+    exif: '2025-12-24T23:55:17.000Z'
+    flags: []
+    bytes: 455723
+  - id: p017
+    seq: 17
+    file: Irvine-Christmas-Dec-2025-17.jpeg
+    sourceFile: IMG_5014.jpeg
+    exif: '2025-12-25T00:01:14.000Z'
+    flags: []
+    bytes: 425792
+  - id: p018
+    seq: 18
+    file: Irvine-Christmas-Dec-2025-18.jpeg
+    sourceFile: IMG_9380.JPG
+    exif: '2025-12-26T22:29:56.000Z'
+    flags: []
+    bytes: 230518
+  - id: p019
+    seq: 19
+    file: Irvine-Christmas-Dec-2025-19.jpeg
+    sourceFile: IMG_9388.JPG
+    exif: '2025-12-26T22:29:56.000Z'
+    flags: []
+    bytes: 226496
+  - id: p020
+    seq: 20
+    file: Irvine-Christmas-Dec-2025-20.jpeg
+    sourceFile: IMG_0870.jpeg
+    exif: '2025-12-27T00:29:47.000Z'
+    flags: []
+    bytes: 308330
+  - id: p021
+    seq: 21
+    file: Irvine-Christmas-Dec-2025-21.jpeg
+    sourceFile: IMG_0871.jpeg
+    exif: '2025-12-27T00:32:46.000Z'
+    flags: []
+    bytes: 323458
+  - id: p022
+    seq: 22
+    file: Irvine-Christmas-Dec-2025-22.jpeg
+    sourceFile: IMG_0872.jpeg
+    exif: '2025-12-27T00:49:03.000Z'
+    flags: []
+    bytes: 329322
+  - id: p023
+    seq: 23
+    file: Irvine-Christmas-Dec-2025-23.jpeg
+    sourceFile: IMG_0882.jpeg
+    exif: '2025-12-27T19:10:30.000Z'
+    flags: []
+    bytes: 308409
+  - id: p024
+    seq: 24
+    file: Irvine-Christmas-Dec-2025-24.jpeg
+    sourceFile: IMG_0883.jpeg
+    exif: '2025-12-27T20:11:06.000Z'
+    flags: []
+    bytes: 521295
+  - id: p025
+    seq: 25
+    file: Irvine-Christmas-Dec-2025-25.jpeg
+    sourceFile: IMG_5033.jpeg
+    exif: '2025-12-28T18:02:54.000Z'
+    flags: []
+    bytes: 429692
+  - id: p026
+    seq: 26
+    file: Irvine-Christmas-Dec-2025-26.jpeg
+    sourceFile: IMG_0892.jpeg
+    exif: '2025-12-29T18:18:46.000Z'
+    flags: []
+    bytes: 393231
+  - id: p027
+    seq: 27
+    file: Irvine-Christmas-Dec-2025-27.jpeg
+    sourceFile: IMG_0893.jpeg
+    exif: '2025-12-29T18:20:07.000Z'
+    flags: []
+    bytes: 344903
+  - id: p028
+    seq: 28
+    file: Irvine-Christmas-Dec-2025-28.jpeg
+    sourceFile: IMG_0894.jpeg
+    exif: '2025-12-29T18:21:51.000Z'
+    flags: []
+    bytes: 364752
+  - id: p029
+    seq: 29
+    file: Irvine-Christmas-Dec-2025-29.jpeg
+    sourceFile: IMG_0901.jpeg
+    exif: '2025-12-29T23:09:48.000Z'
+    flags: []
+    bytes: 473757
+  - id: p030
+    seq: 30
+    file: Irvine-Christmas-Dec-2025-30.jpeg
+    sourceFile: IMG_0902.jpeg
+    exif: '2025-12-29T23:09:50.000Z'
+    flags: []
+    bytes: 447857
+  - id: p031
+    seq: 31
+    file: Irvine-Christmas-Dec-2025-31.jpeg
+    sourceFile: IMG_0918.jpeg
+    exif: '2025-12-30T18:41:04.000Z'
+    flags: []
+    bytes: 453455
+  - id: p032
+    seq: 32
+    file: Irvine-Christmas-Dec-2025-32.jpeg
+    sourceFile: IMG_9510.jpeg
+    exif: '2025-12-31T00:20:32.000Z'
+    flags: []
+    bytes: 257400
+  - id: p033
+    seq: 33
+    file: Irvine-Christmas-Dec-2025-33.jpeg
+    sourceFile: IMG_9513.jpeg
+    exif: '2025-12-31T00:20:35.000Z'
+    flags: []
+    bytes: 440720
+  - id: p034
+    seq: 34
+    file: Irvine-Christmas-Dec-2025-34.jpeg
+    sourceFile: IMG_9388 (1).JPG
+    exif: null
+    flags:
+      - missing_exif
+      - needs_placement
+    bytes: 222411
+sections: []
+pages:
+  - file: Irvine-Christmas-Dec-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:25:57.442Z'
+  oversizedFiles: []
+  needsPlacement:
+    - Irvine-Christmas-Dec-2025-34.jpeg
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Dec-Irvine-Christmas-2025.jpeg

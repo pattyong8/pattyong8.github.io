@@ -1,0 +1,96 @@
+schemaVersion: 1
+title: White Elephant
+slug: White-Elephant-Dec-2025
+section: 20s
+year: '2025'
+dateRange: Dec 2025
+startDate: '2025-12-12'
+location: New York, New York
+people: Friends
+introParagraph: ''
+tripPrefix: White-Elephant-Dec-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/White-Elephant-Dec-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: White-Elephant-Dec-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: White-Elephant-Dec-2025-1.jpeg
+    sourceFile: IMG_0731.jpeg
+    exif: '2025-12-12T01:22:29.000Z'
+    flags: []
+    bytes: 229193
+  - id: p002
+    seq: 2
+    file: White-Elephant-Dec-2025-2.jpeg
+    sourceFile: IMG_0733.jpeg
+    exif: '2025-12-12T01:28:35.000Z'
+    flags: []
+    bytes: 484075
+  - id: p003
+    seq: 3
+    file: White-Elephant-Dec-2025-3.jpeg
+    sourceFile: IMG_0735.jpeg
+    exif: '2025-12-12T01:28:43.000Z'
+    flags: []
+    bytes: 614643
+  - id: p004
+    seq: 4
+    file: White-Elephant-Dec-2025-4.jpeg
+    sourceFile: IMG_0737.jpeg
+    exif: '2025-12-12T01:31:20.000Z'
+    flags: []
+    bytes: 531795
+  - id: p005
+    seq: 5
+    file: White-Elephant-Dec-2025-5.jpeg
+    sourceFile: IMG_0740.jpeg
+    exif: '2025-12-12T01:31:34.000Z'
+    flags: []
+    bytes: 467409
+  - id: p006
+    seq: 6
+    file: White-Elephant-Dec-2025-6.jpeg
+    sourceFile: IMG_0741.jpeg
+    exif: '2025-12-12T01:32:24.000Z'
+    flags: []
+    bytes: 502462
+  - id: p007
+    seq: 7
+    file: White-Elephant-Dec-2025-7.jpeg
+    sourceFile: IMG_0742.jpeg
+    exif: '2025-12-12T01:32:29.000Z'
+    flags: []
+    bytes: 567451
+  - id: p008
+    seq: 8
+    file: White-Elephant-Dec-2025-8.jpeg
+    sourceFile: IMG_0744.jpeg
+    exif: '2025-12-12T01:52:45.000Z'
+    flags: []
+    bytes: 497955
+  - id: p009
+    seq: 9
+    file: White-Elephant-Dec-2025-9.jpeg
+    sourceFile: IMG_0745.jpeg
+    exif: '2025-12-12T01:52:55.000Z'
+    flags: []
+    bytes: 439232
+  - id: p010
+    seq: 10
+    file: White-Elephant-Dec-2025-10.jpeg
+    sourceFile: IMG_0747.jpeg
+    exif: '2025-12-13T03:49:52.000Z'
+    flags: []
+    bytes: 358475
+sections: []
+pages:
+  - file: White-Elephant-Dec-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:28:20.574Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates: []
+gallaryThumb: assets/images/gallary/20s/2025/Dec-White-Elephant-2025.jpeg

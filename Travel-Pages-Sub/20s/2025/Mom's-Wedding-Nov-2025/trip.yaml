@@ -1,0 +1,924 @@
+schemaVersion: 1
+title: Mom's Wedding
+slug: Mom's-Wedding-Nov-2025
+section: 20s
+year: '2025'
+dateRange: Nov 2025
+startDate: '2025-11-21'
+location: California
+people: Family
+introParagraph: ''
+tripPrefix: Mom's-Wedding-Nov-2025
+photosDir: assets/images/Travel-Pages-Images/20s/2025/Mom's-Wedding-Nov-2025
+coverSource: _incoming/Cover.jpeg
+heroFile: Mom's-Wedding-Nov-2025-HP.jpeg
+photos:
+  - id: p001
+    seq: 1
+    file: Mom's-Wedding-Nov-2025-1.jpeg
+    sourceFile: IMG_0007.JPG
+    exif: '2025-11-21T10:42:42.000Z'
+    flags: []
+    bytes: 232423
+  - id: p002
+    seq: 2
+    file: Mom's-Wedding-Nov-2025-2.jpeg
+    sourceFile: IMG_0032.JPG
+    exif: '2025-11-21T10:43:13.000Z'
+    flags: []
+    bytes: 126738
+  - id: p003
+    seq: 3
+    file: Mom's-Wedding-Nov-2025-3.jpeg
+    sourceFile: IMG_0056.JPG
+    exif: '2025-11-21T10:43:41.000Z'
+    flags: []
+    bytes: 221166
+  - id: p004
+    seq: 4
+    file: Mom's-Wedding-Nov-2025-4.jpeg
+    sourceFile: IMG_0080.JPG
+    exif: '2025-11-21T10:52:00.000Z'
+    flags: []
+    bytes: 119434
+  - id: p005
+    seq: 5
+    file: Mom's-Wedding-Nov-2025-5.jpeg
+    sourceFile: IMG_0104.JPG
+    exif: '2025-11-21T10:52:16.000Z'
+    flags: []
+    bytes: 176977
+  - id: p006
+    seq: 6
+    file: Mom's-Wedding-Nov-2025-6.jpeg
+    sourceFile: IMG_0099.JPG
+    exif: '2025-11-21T10:59:04.000Z'
+    flags: []
+    bytes: 166057
+  - id: p007
+    seq: 7
+    file: Mom's-Wedding-Nov-2025-7.jpeg
+    sourceFile: IMG_9970.JPG
+    exif: '2025-11-21T11:00:52.000Z'
+    flags: []
+    bytes: 161344
+  - id: p008
+    seq: 8
+    file: Mom's-Wedding-Nov-2025-8.jpeg
+    sourceFile: IMG_9995.JPG
+    exif: '2025-11-21T11:02:01.000Z'
+    flags: []
+    bytes: 142499
+  - id: p009
+    seq: 9
+    file: Mom's-Wedding-Nov-2025-9.jpeg
+    sourceFile: IMG_0070.JPG
+    exif: '2025-11-21T11:03:33.000Z'
+    flags: []
+    bytes: 180727
+  - id: p010
+    seq: 10
+    file: Mom's-Wedding-Nov-2025-10.jpeg
+    sourceFile: IMG_0094.JPG
+    exif: '2025-11-21T11:03:49.000Z'
+    flags: []
+    bytes: 167342
+  - id: p011
+    seq: 11
+    file: Mom's-Wedding-Nov-2025-11.jpeg
+    sourceFile: IMG_0118.JPG
+    exif: '2025-11-21T11:04:02.000Z'
+    flags: []
+    bytes: 142370
+  - id: p012
+    seq: 12
+    file: Mom's-Wedding-Nov-2025-12.jpeg
+    sourceFile: IMG_9990.JPG
+    exif: '2025-11-21T11:04:09.000Z'
+    flags: []
+    bytes: 147185
+  - id: p013
+    seq: 13
+    file: Mom's-Wedding-Nov-2025-13.jpeg
+    sourceFile: IMG_0016.JPG
+    exif: '2025-11-21T11:04:36.000Z'
+    flags: []
+    bytes: 192221
+  - id: p014
+    seq: 14
+    file: Mom's-Wedding-Nov-2025-14.jpeg
+    sourceFile: IMG_0065.JPG
+    exif: '2025-11-21T11:06:19.000Z'
+    flags: []
+    bytes: 240055
+  - id: p015
+    seq: 15
+    file: Mom's-Wedding-Nov-2025-15.jpeg
+    sourceFile: IMG_0089.JPG
+    exif: '2025-11-21T11:06:59.000Z'
+    flags: []
+    bytes: 159340
+  - id: p016
+    seq: 16
+    file: Mom's-Wedding-Nov-2025-16.jpeg
+    sourceFile: IMG_0113.JPG
+    exif: '2025-11-21T11:07:54.000Z'
+    flags: []
+    bytes: 197618
+  - id: p017
+    seq: 17
+    file: Mom's-Wedding-Nov-2025-17.jpeg
+    sourceFile: IMG_0036.JPG
+    exif: '2025-11-21T11:09:14.000Z'
+    flags: []
+    bytes: 370818
+  - id: p018
+    seq: 18
+    file: Mom's-Wedding-Nov-2025-18.jpeg
+    sourceFile: IMG_0084.JPG
+    exif: '2025-11-21T11:09:21.000Z'
+    flags: []
+    bytes: 432282
+  - id: p019
+    seq: 19
+    file: Mom's-Wedding-Nov-2025-19.jpeg
+    sourceFile: IMG_0108.JPG
+    exif: '2025-11-21T11:09:23.000Z'
+    flags: []
+    bytes: 653201
+  - id: p020
+    seq: 20
+    file: Mom's-Wedding-Nov-2025-20.jpeg
+    sourceFile: IMG_9979.JPG
+    exif: '2025-11-21T11:09:34.000Z'
+    flags: []
+    bytes: 190372
+  - id: p021
+    seq: 21
+    file: Mom's-Wedding-Nov-2025-21.jpeg
+    sourceFile: IMG_0030.JPG
+    exif: '2025-11-21T11:10:12.000Z'
+    flags: []
+    bytes: 142979
+  - id: p022
+    seq: 22
+    file: Mom's-Wedding-Nov-2025-22.jpeg
+    sourceFile: IMG_0078.JPG
+    exif: '2025-11-21T11:11:22.000Z'
+    flags: []
+    bytes: 171110
+  - id: p023
+    seq: 23
+    file: Mom's-Wedding-Nov-2025-23.jpeg
+    sourceFile: IMG_0024.JPG
+    exif: '2025-11-21T11:14:13.000Z'
+    flags: []
+    bytes: 191642
+  - id: p024
+    seq: 24
+    file: Mom's-Wedding-Nov-2025-24.jpeg
+    sourceFile: IMG_0073.JPG
+    exif: '2025-11-21T11:14:59.000Z'
+    flags: []
+    bytes: 184781
+  - id: p025
+    seq: 25
+    file: Mom's-Wedding-Nov-2025-25.jpeg
+    sourceFile: IMG_0116.JPG
+    exif: '2025-11-21T11:19:14.000Z'
+    flags: []
+    bytes: 206988
+  - id: p026
+    seq: 26
+    file: Mom's-Wedding-Nov-2025-26.jpeg
+    sourceFile: IMG_0053.JPG
+    exif: '2025-11-21T11:21:46.000Z'
+    flags: []
+    bytes: 132823
+  - id: p027
+    seq: 27
+    file: Mom's-Wedding-Nov-2025-27.jpeg
+    sourceFile: IMG_0077.JPG
+    exif: '2025-11-21T11:22:07.000Z'
+    flags: []
+    bytes: 124898
+  - id: p028
+    seq: 28
+    file: Mom's-Wedding-Nov-2025-28.jpeg
+    sourceFile: IMG_0101.JPG
+    exif: '2025-11-21T11:22:22.000Z'
+    flags: []
+    bytes: 111027
+  - id: p029
+    seq: 29
+    file: Mom's-Wedding-Nov-2025-29.jpeg
+    sourceFile: IMG_0023.JPG
+    exif: '2025-11-21T11:24:12.000Z'
+    flags: []
+    bytes: 186379
+  - id: p030
+    seq: 30
+    file: Mom's-Wedding-Nov-2025-30.jpeg
+    sourceFile: IMG_0072.JPG
+    exif: '2025-11-21T11:24:54.000Z'
+    flags: []
+    bytes: 152458
+  - id: p031
+    seq: 31
+    file: Mom's-Wedding-Nov-2025-31.jpeg
+    sourceFile: IMG_0120.JPG
+    exif: '2025-11-21T11:25:15.000Z'
+    flags: []
+    bytes: 154928
+  - id: p032
+    seq: 32
+    file: Mom's-Wedding-Nov-2025-32.jpeg
+    sourceFile: IMG_9992.JPG
+    exif: '2025-11-21T11:25:45.000Z'
+    flags: []
+    bytes: 165468
+  - id: p033
+    seq: 33
+    file: Mom's-Wedding-Nov-2025-33.jpeg
+    sourceFile: IMG_0043.JPG
+    exif: '2025-11-21T11:26:19.000Z'
+    flags: []
+    bytes: 173064
+  - id: p034
+    seq: 34
+    file: Mom's-Wedding-Nov-2025-34.jpeg
+    sourceFile: IMG_0115.JPG
+    exif: '2025-11-21T11:27:04.000Z'
+    flags: []
+    bytes: 177571
+  - id: p035
+    seq: 35
+    file: Mom's-Wedding-Nov-2025-35.jpeg
+    sourceFile: IMG_0038.JPG
+    exif: '2025-11-21T11:27:44.000Z'
+    flags: []
+    bytes: 168456
+  - id: p036
+    seq: 36
+    file: Mom's-Wedding-Nov-2025-36.jpeg
+    sourceFile: IMG_0062.JPG
+    exif: '2025-11-21T11:27:48.000Z'
+    flags: []
+    bytes: 193632
+  - id: p037
+    seq: 37
+    file: Mom's-Wedding-Nov-2025-37.jpeg
+    sourceFile: IMG_0086.JPG
+    exif: '2025-11-21T11:28:13.000Z'
+    flags: []
+    bytes: 158268
+  - id: p038
+    seq: 38
+    file: Mom's-Wedding-Nov-2025-38.jpeg
+    sourceFile: IMG_9982.JPG
+    exif: '2025-11-21T11:29:06.000Z'
+    flags: []
+    bytes: 171420
+  - id: p039
+    seq: 39
+    file: Mom's-Wedding-Nov-2025-39.jpeg
+    sourceFile: IMG_0105.JPG
+    exif: '2025-11-21T11:29:29.000Z'
+    flags: []
+    bytes: 186145
+  - id: p040
+    seq: 40
+    file: Mom's-Wedding-Nov-2025-40.jpeg
+    sourceFile: IMG_9976.JPG
+    exif: '2025-11-21T11:30:08.000Z'
+    flags: []
+    bytes: 155712
+  - id: p041
+    seq: 41
+    file: Mom's-Wedding-Nov-2025-41.jpeg
+    sourceFile: IMG_0100.JPG
+    exif: '2025-11-21T11:31:27.000Z'
+    flags: []
+    bytes: 159265
+  - id: p042
+    seq: 42
+    file: Mom's-Wedding-Nov-2025-42.jpeg
+    sourceFile: IMG_9996.JPG
+    exif: '2025-11-21T11:32:25.000Z'
+    flags: []
+    bytes: 154433
+  - id: p043
+    seq: 43
+    file: Mom's-Wedding-Nov-2025-43.jpeg
+    sourceFile: IMG_0047.JPG
+    exif: '2025-11-21T11:34:42.000Z'
+    flags: []
+    bytes: 147519
+  - id: p044
+    seq: 44
+    file: Mom's-Wedding-Nov-2025-44.jpeg
+    sourceFile: IMG_2300_Original.jpeg
+    exif: '2025-11-21T11:34:51.000Z'
+    flags: []
+    bytes: 196334
+  - id: p045
+    seq: 45
+    file: Mom's-Wedding-Nov-2025-45.jpeg
+    sourceFile: IMG_0119.JPG
+    exif: '2025-11-21T11:35:51.000Z'
+    flags: []
+    bytes: 168175
+  - id: p046
+    seq: 46
+    file: Mom's-Wedding-Nov-2025-46.jpeg
+    sourceFile: IMG_0042.JPG
+    exif: '2025-11-21T11:37:05.000Z'
+    flags: []
+    bytes: 169976
+  - id: p047
+    seq: 47
+    file: Mom's-Wedding-Nov-2025-47.jpeg
+    sourceFile: IMG_0090.JPG
+    exif: '2025-11-21T11:37:32.000Z'
+    flags: []
+    bytes: 170353
+  - id: p048
+    seq: 48
+    file: Mom's-Wedding-Nov-2025-48.jpeg
+    sourceFile: IMG_0114.JPG
+    exif: '2025-11-21T11:37:49.000Z'
+    flags: []
+    bytes: 184359
+  - id: p049
+    seq: 49
+    file: Mom's-Wedding-Nov-2025-49.jpeg
+    sourceFile: IMG_0061.JPG
+    exif: '2025-11-21T11:38:48.000Z'
+    flags: []
+    bytes: 152519
+  - id: p050
+    seq: 50
+    file: Mom's-Wedding-Nov-2025-50.jpeg
+    sourceFile: IMG_9999.JPG
+    exif: '2025-11-21T11:40:49.000Z'
+    flags: []
+    bytes: 152205
+  - id: p051
+    seq: 51
+    file: Mom's-Wedding-Nov-2025-51.jpeg
+    sourceFile: IMG_0074.JPG
+    exif: '2025-11-21T11:41:34.000Z'
+    flags: []
+    bytes: 156388
+  - id: p052
+    seq: 52
+    file: Mom's-Wedding-Nov-2025-52.jpeg
+    sourceFile: IMG_0117.JPG
+    exif: '2025-11-21T11:43:32.000Z'
+    flags: []
+    bytes: 142972
+  - id: p053
+    seq: 53
+    file: Mom's-Wedding-Nov-2025-53.jpeg
+    sourceFile: IMG_0064.JPG
+    exif: '2025-11-21T11:44:08.000Z'
+    flags: []
+    bytes: 148931
+  - id: p054
+    seq: 54
+    file: Mom's-Wedding-Nov-2025-54.jpeg
+    sourceFile: IMG_0035.JPG
+    exif: '2025-11-21T11:46:11.000Z'
+    flags: []
+    bytes: 135827
+  - id: p055
+    seq: 55
+    file: Mom's-Wedding-Nov-2025-55.jpeg
+    sourceFile: IMG_9978.JPG
+    exif: '2025-11-21T11:46:47.000Z'
+    flags: []
+    bytes: 155381
+  - id: p056
+    seq: 56
+    file: Mom's-Wedding-Nov-2025-56.jpeg
+    sourceFile: IMG_0004.JPG
+    exif: '2025-11-21T11:47:39.000Z'
+    flags: []
+    bytes: 201508
+  - id: p057
+    seq: 57
+    file: Mom's-Wedding-Nov-2025-57.jpeg
+    sourceFile: IMG_0060.JPG
+    exif: '2025-11-21T20:49:21.000Z'
+    flags: []
+    bytes: 449552
+  - id: p058
+    seq: 58
+    file: Mom's-Wedding-Nov-2025-58.jpeg
+    sourceFile: IMG_0101 (1).JPG
+    exif: '2025-11-21T20:49:23.000Z'
+    flags:
+      - possible_duplicate
+    bytes: 450411
+  - id: p059
+    seq: 59
+    file: Mom's-Wedding-Nov-2025-59.jpeg
+    sourceFile: IMG_3085.JPG
+    exif: '2025-11-21T20:53:12.000Z'
+    flags: []
+    bytes: 890273
+  - id: p060
+    seq: 60
+    file: Mom's-Wedding-Nov-2025-60.jpeg
+    sourceFile: IMG_3087.JPG
+    exif: '2025-11-21T20:56:30.000Z'
+    flags: []
+    bytes: 504336
+  - id: p061
+    seq: 61
+    file: Mom's-Wedding-Nov-2025-61.jpeg
+    sourceFile: IMG_3089.JPG
+    exif: '2025-11-21T20:56:52.000Z'
+    flags: []
+    bytes: 510202
+  - id: p062
+    seq: 62
+    file: Mom's-Wedding-Nov-2025-62.jpeg
+    sourceFile: IMG_3096.JPG
+    exif: '2025-11-21T21:00:29.000Z'
+    flags: []
+    bytes: 539475
+  - id: p063
+    seq: 63
+    file: Mom's-Wedding-Nov-2025-63.jpeg
+    sourceFile: IMG_3099.JPG
+    exif: '2025-11-21T21:01:11.000Z'
+    flags: []
+    bytes: 340173
+  - id: p064
+    seq: 64
+    file: Mom's-Wedding-Nov-2025-64.jpeg
+    sourceFile: IMG_3105.JPG
+    exif: '2025-11-21T21:04:47.000Z'
+    flags: []
+    bytes: 390890
+  - id: p065
+    seq: 65
+    file: Mom's-Wedding-Nov-2025-65.jpeg
+    sourceFile: IMG_5029.JPG
+    exif: '2025-11-21T21:05:01.000Z'
+    flags: []
+    bytes: 426002
+  - id: p066
+    seq: 66
+    file: Mom's-Wedding-Nov-2025-66.jpeg
+    sourceFile: IMG_3106.JPG
+    exif: '2025-11-21T21:06:42.000Z'
+    flags: []
+    bytes: 492598
+  - id: p067
+    seq: 67
+    file: Mom's-Wedding-Nov-2025-67.jpeg
+    sourceFile: IMG_5032.JPG
+    exif: '2025-11-21T21:06:50.000Z'
+    flags: []
+    bytes: 328780
+  - id: p068
+    seq: 68
+    file: Mom's-Wedding-Nov-2025-68.jpeg
+    sourceFile: IMG_3108.JPG
+    exif: '2025-11-21T21:06:56.000Z'
+    flags: []
+    bytes: 495494
+  - id: p069
+    seq: 69
+    file: Mom's-Wedding-Nov-2025-69.jpeg
+    sourceFile: IMG_1288.JPG
+    exif: '2025-11-21T21:08:03.000Z'
+    flags: []
+    bytes: 406410
+  - id: p070
+    seq: 70
+    file: Mom's-Wedding-Nov-2025-70.jpeg
+    sourceFile: IMG_2569.JPG
+    exif: '2025-11-21T21:10:45.000Z'
+    flags: []
+    bytes: 521556
+  - id: p071
+    seq: 71
+    file: Mom's-Wedding-Nov-2025-71.jpeg
+    sourceFile: IMG_3119.JPG
+    exif: '2025-11-21T21:13:53.000Z'
+    flags: []
+    bytes: 312000
+  - id: p072
+    seq: 72
+    file: Mom's-Wedding-Nov-2025-72.jpeg
+    sourceFile: IMG_3127.JPG
+    exif: '2025-11-21T21:19:13.000Z'
+    flags: []
+    bytes: 421630
+  - id: p073
+    seq: 73
+    file: Mom's-Wedding-Nov-2025-73.jpeg
+    sourceFile: IMG_3134.JPG
+    exif: '2025-11-21T21:21:02.000Z'
+    flags: []
+    bytes: 393679
+  - id: p074
+    seq: 74
+    file: Mom's-Wedding-Nov-2025-74.jpeg
+    sourceFile: IMG_3136.JPG
+    exif: '2025-11-21T21:23:16.000Z'
+    flags: []
+    bytes: 256784
+  - id: p075
+    seq: 75
+    file: Mom's-Wedding-Nov-2025-75.jpeg
+    sourceFile: IMG_1308.JPG
+    exif: '2025-11-21T21:26:45.000Z'
+    flags: []
+    bytes: 455930
+  - id: p076
+    seq: 76
+    file: Mom's-Wedding-Nov-2025-76.jpeg
+    sourceFile: IMG_0086 (1).JPG
+    exif: '2025-11-21T21:27:14.000Z'
+    flags: []
+    bytes: 566267
+  - id: p077
+    seq: 77
+    file: Mom's-Wedding-Nov-2025-77.jpeg
+    sourceFile: IMG_3144.JPG
+    exif: '2025-11-21T21:27:46.000Z'
+    flags: []
+    bytes: 319460
+  - id: p078
+    seq: 78
+    file: Mom's-Wedding-Nov-2025-78.jpeg
+    sourceFile: IMG_1316.JPG
+    exif: '2025-11-21T21:28:28.000Z'
+    flags: []
+    bytes: 457365
+  - id: p079
+    seq: 79
+    file: Mom's-Wedding-Nov-2025-79.jpeg
+    sourceFile: IMG_1318.JPG
+    exif: '2025-11-21T21:29:10.000Z'
+    flags: []
+    bytes: 484172
+  - id: p080
+    seq: 80
+    file: Mom's-Wedding-Nov-2025-80.jpeg
+    sourceFile: IMG_1335.JPG
+    exif: '2025-11-21T21:30:43.000Z'
+    flags: []
+    bytes: 499664
+  - id: p081
+    seq: 81
+    file: Mom's-Wedding-Nov-2025-81.jpeg
+    sourceFile: IMG_1341.JPG
+    exif: '2025-11-21T21:30:58.000Z'
+    flags: []
+    bytes: 383593
+  - id: p082
+    seq: 82
+    file: Mom's-Wedding-Nov-2025-82.jpeg
+    sourceFile: IMG_1346.JPG
+    exif: '2025-11-21T21:31:43.000Z'
+    flags: []
+    bytes: 417036
+  - id: p083
+    seq: 83
+    file: Mom's-Wedding-Nov-2025-83.jpeg
+    sourceFile: IMG_1352.JPG
+    exif: '2025-11-21T21:32:15.000Z'
+    flags: []
+    bytes: 331694
+  - id: p084
+    seq: 84
+    file: Mom's-Wedding-Nov-2025-84.jpeg
+    sourceFile: IMG_1361.JPG
+    exif: '2025-11-21T21:33:26.000Z'
+    flags: []
+    bytes: 425609
+  - id: p085
+    seq: 85
+    file: Mom's-Wedding-Nov-2025-85.jpeg
+    sourceFile: IMG_0205.jpeg
+    exif: '2025-11-21T21:33:56.000Z'
+    flags: []
+    bytes: 436640
+  - id: p086
+    seq: 86
+    file: Mom's-Wedding-Nov-2025-86.jpeg
+    sourceFile: IMG_1364.JPG
+    exif: '2025-11-21T21:39:12.000Z'
+    flags: []
+    bytes: 579571
+  - id: p087
+    seq: 87
+    file: Mom's-Wedding-Nov-2025-87.jpeg
+    sourceFile: IMG_1367.JPG
+    exif: '2025-11-21T21:39:24.000Z'
+    flags: []
+    bytes: 484335
+  - id: p088
+    seq: 88
+    file: Mom's-Wedding-Nov-2025-88.jpeg
+    sourceFile: IMG_0216.JPG
+    exif: '2025-11-21T21:39:44.000Z'
+    flags: []
+    bytes: 362853
+  - id: p089
+    seq: 89
+    file: Mom's-Wedding-Nov-2025-89.jpeg
+    sourceFile: IMG_0222.JPG
+    exif: '2025-11-21T21:39:59.000Z'
+    flags: []
+    bytes: 411019
+  - id: p090
+    seq: 90
+    file: Mom's-Wedding-Nov-2025-90.jpeg
+    sourceFile: IMG_1387.JPG
+    exif: '2025-11-21T21:42:06.000Z'
+    flags: []
+    bytes: 418614
+  - id: p091
+    seq: 91
+    file: Mom's-Wedding-Nov-2025-91.jpeg
+    sourceFile: IMG_9929.jpeg
+    exif: '2025-11-21T21:42:26.000Z'
+    flags: []
+    bytes: 416800
+  - id: p092
+    seq: 92
+    file: Mom's-Wedding-Nov-2025-92.jpeg
+    sourceFile: IMG_1397.JPG
+    exif: '2025-11-21T21:43:26.000Z'
+    flags: []
+    bytes: 434182
+  - id: p093
+    seq: 93
+    file: Mom's-Wedding-Nov-2025-93.jpeg
+    sourceFile: IMG_0291.JPG
+    exif: '2025-11-21T21:43:48.000Z'
+    flags: []
+    bytes: 487517
+  - id: p094
+    seq: 94
+    file: Mom's-Wedding-Nov-2025-94.jpeg
+    sourceFile: IMG_0312.JPG
+    exif: '2025-11-21T21:44:52.000Z'
+    flags: []
+    bytes: 417720
+  - id: p095
+    seq: 95
+    file: Mom's-Wedding-Nov-2025-95.jpeg
+    sourceFile: IMG_3167.JPG
+    exif: '2025-11-21T21:49:41.000Z'
+    flags: []
+    bytes: 414738
+  - id: p096
+    seq: 96
+    file: Mom's-Wedding-Nov-2025-96.jpeg
+    sourceFile: IMG_3168.JPG
+    exif: '2025-11-21T21:53:32.000Z'
+    flags: []
+    bytes: 500455
+  - id: p097
+    seq: 97
+    file: Mom's-Wedding-Nov-2025-97.jpeg
+    sourceFile: IMG_4446.JPG
+    exif: '2025-11-21T22:24:17.000Z'
+    flags: []
+    bytes: 276918
+  - id: p098
+    seq: 98
+    file: Mom's-Wedding-Nov-2025-98.jpeg
+    sourceFile: IMG_1412.JPG
+    exif: '2025-11-21T22:24:34.000Z'
+    flags: []
+    bytes: 265895
+  - id: p099
+    seq: 99
+    file: Mom's-Wedding-Nov-2025-99.jpeg
+    sourceFile: IMG_0018.JPG
+    exif: '2025-11-21T22:27:41.000Z'
+    flags: []
+    bytes: 353153
+  - id: p100
+    seq: 100
+    file: Mom's-Wedding-Nov-2025-100.jpeg
+    sourceFile: IMG_8392.JPG
+    exif: '2025-11-21T22:27:44.000Z'
+    flags: []
+    bytes: 288602
+  - id: p101
+    seq: 101
+    file: Mom's-Wedding-Nov-2025-101.jpeg
+    sourceFile: IMG_1420.JPG
+    exif: '2025-11-21T22:36:58.000Z'
+    flags: []
+    bytes: 230231
+  - id: p102
+    seq: 102
+    file: Mom's-Wedding-Nov-2025-102.jpeg
+    sourceFile: IMG_3177.JPG
+    exif: '2025-11-21T23:02:22.000Z'
+    flags: []
+    bytes: 181416
+  - id: p103
+    seq: 103
+    file: Mom's-Wedding-Nov-2025-103.jpeg
+    sourceFile: IMG_1430.JPG
+    exif: '2025-11-21T23:04:31.000Z'
+    flags: []
+    bytes: 242193
+  - id: p104
+    seq: 104
+    file: Mom's-Wedding-Nov-2025-104.jpeg
+    sourceFile: IMG_3178.JPG
+    exif: '2025-11-21T23:08:34.000Z'
+    flags: []
+    bytes: 145458
+  - id: p105
+    seq: 105
+    file: Mom's-Wedding-Nov-2025-105.jpeg
+    sourceFile: IMG_1431.JPG
+    exif: '2025-11-21T23:11:52.000Z'
+    flags: []
+    bytes: 178714
+  - id: p106
+    seq: 106
+    file: Mom's-Wedding-Nov-2025-106.jpeg
+    sourceFile: IMG_3182.JPG
+    exif: '2025-11-21T23:40:51.000Z'
+    flags: []
+    bytes: 159022
+  - id: p107
+    seq: 107
+    file: Mom's-Wedding-Nov-2025-107.jpeg
+    sourceFile: IMG_3187.JPG
+    exif: '2025-11-21T23:45:40.000Z'
+    flags: []
+    bytes: 256530
+  - id: p108
+    seq: 108
+    file: Mom's-Wedding-Nov-2025-108.jpeg
+    sourceFile: IMG_1437.JPG
+    exif: '2025-11-21T23:46:04.000Z'
+    flags: []
+    bytes: 264913
+  - id: p109
+    seq: 109
+    file: Mom's-Wedding-Nov-2025-109.jpeg
+    sourceFile: IMG_3189.JPG
+    exif: '2025-11-21T23:46:59.000Z'
+    flags: []
+    bytes: 262011
+  - id: p110
+    seq: 110
+    file: Mom's-Wedding-Nov-2025-110.jpeg
+    sourceFile: IMG_1444.JPG
+    exif: '2025-11-22T00:23:05.000Z'
+    flags: []
+    bytes: 251378
+  - id: p111
+    seq: 111
+    file: Mom's-Wedding-Nov-2025-111.jpeg
+    sourceFile: IMG_3195.JPG
+    exif: '2025-11-22T00:25:27.000Z'
+    flags: []
+    bytes: 245195
+  - id: p112
+    seq: 112
+    file: Mom's-Wedding-Nov-2025-112.jpeg
+    sourceFile: IMG_3196.JPG
+    exif: '2025-11-22T00:25:34.000Z'
+    flags: []
+    bytes: 207505
+  - id: p113
+    seq: 113
+    file: Mom's-Wedding-Nov-2025-113.jpeg
+    sourceFile: IMG_3198.JPG
+    exif: '2025-11-22T00:25:48.000Z'
+    flags: []
+    bytes: 261229
+  - id: p114
+    seq: 114
+    file: Mom's-Wedding-Nov-2025-114.jpeg
+    sourceFile: IMG_9946.jpeg
+    exif: '2025-11-22T00:26:14.000Z'
+    flags: []
+    bytes: 270075
+  - id: p115
+    seq: 115
+    file: Mom's-Wedding-Nov-2025-115.jpeg
+    sourceFile: IMG_9951.jpeg
+    exif: '2025-11-22T00:26:36.000Z'
+    flags: []
+    bytes: 336724
+  - id: p116
+    seq: 116
+    file: Mom's-Wedding-Nov-2025-116.jpeg
+    sourceFile: IMG_9962.jpeg
+    exif: '2025-11-22T00:27:46.000Z'
+    flags: []
+    bytes: 300137
+  - id: p117
+    seq: 117
+    file: Mom's-Wedding-Nov-2025-117.jpeg
+    sourceFile: IMG_3219.JPG
+    exif: '2025-11-22T00:30:43.000Z'
+    flags: []
+    bytes: 259263
+  - id: p118
+    seq: 118
+    file: Mom's-Wedding-Nov-2025-118.jpeg
+    sourceFile: IMG_3221.JPG
+    exif: '2025-11-22T00:30:46.000Z'
+    flags: []
+    bytes: 256669
+  - id: p119
+    seq: 119
+    file: Mom's-Wedding-Nov-2025-119.jpeg
+    sourceFile: IMG_3222.JPG
+    exif: '2025-11-22T00:43:30.000Z'
+    flags: []
+    bytes: 200371
+  - id: p120
+    seq: 120
+    file: Mom's-Wedding-Nov-2025-120.jpeg
+    sourceFile: IMG_3228.JPG
+    exif: '2025-11-22T00:56:55.000Z'
+    flags: []
+    bytes: 349585
+  - id: p121
+    seq: 121
+    file: Mom's-Wedding-Nov-2025-121.jpeg
+    sourceFile: IMG_3229.JPG
+    exif: '2025-11-22T00:56:56.000Z'
+    flags: []
+    bytes: 394749
+  - id: p122
+    seq: 122
+    file: Mom's-Wedding-Nov-2025-122.jpeg
+    sourceFile: IMG_3231.JPG
+    exif: '2025-11-22T00:58:48.000Z'
+    flags: []
+    bytes: 437841
+  - id: p123
+    seq: 123
+    file: Mom's-Wedding-Nov-2025-123.jpeg
+    sourceFile: IMG_3236.JPG
+    exif: '2025-11-22T00:59:45.000Z'
+    flags: []
+    bytes: 279812
+  - id: p124
+    seq: 124
+    file: Mom's-Wedding-Nov-2025-124.jpeg
+    sourceFile: IMG_3238.JPG
+    exif: '2025-11-22T01:00:06.000Z'
+    flags: []
+    bytes: 192743
+  - id: p125
+    seq: 125
+    file: Mom's-Wedding-Nov-2025-125.jpeg
+    sourceFile: IMG_3240.JPG
+    exif: '2025-11-22T01:46:58.000Z'
+    flags: []
+    bytes: 308602
+  - id: p126
+    seq: 126
+    file: Mom's-Wedding-Nov-2025-126.jpeg
+    sourceFile: IMG_4264.JPG
+    exif: '2025-11-22T01:48:25.000Z'
+    flags: []
+    bytes: 391808
+  - id: p127
+    seq: 127
+    file: Mom's-Wedding-Nov-2025-127.jpeg
+    sourceFile: IMG_3242.JPG
+    exif: '2025-11-22T02:07:06.000Z'
+    flags: []
+    bytes: 261344
+  - id: p128
+    seq: 128
+    file: Mom's-Wedding-Nov-2025-128.jpeg
+    sourceFile: IMG_3243.JPG
+    exif: '2025-11-22T02:26:49.000Z'
+    flags: []
+    bytes: 321499
+sections: []
+pages:
+  - file: Mom's-Wedding-Nov-2025-1.html
+    sectionIds: []
+skippedVideos: []
+processReport:
+  processedAt: '2026-09-26T22:27:04.314Z'
+  oversizedFiles: []
+  needsPlacement: []
+  possibleDuplicates:
+    - Mom's-Wedding-Nov-2025-58.jpeg
+gallaryThumb: assets/images/gallary/20s/2025/Nov-Mom's-Wedding-2025.jpeg
