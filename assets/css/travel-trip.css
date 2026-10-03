@@ -666,6 +666,67 @@ body.scrapbook-trip .comment-respond input[type="submit"]:hover {
 		margin-bottom: var(--s-5) !important;
 	}
 
+	/*
+	 * Location maps. A single card is a half-width box with 40px of padding,
+	 * so the photo shrinks to a stamp in the middle of the column. Several
+	 * cards are floated, and the list is given a few hundred pixels of
+	 * bottom margin so the next section clears that float. On a phone that
+	 * margin is an empty hole. Lay the cards in a tight row instead.
+	 */
+	body.scrapbook-trip .entry__related ul.related {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 18px 14px;
+		margin: 0 !important;
+		padding: 0;
+		list-style: none;
+	}
+
+	body.scrapbook-trip .entry__related ul.related > li {
+		float: none !important;
+		width: calc(50% - 7px) !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		list-style: none;
+	}
+
+	body.scrapbook-trip .entry__related ul.related > li:only-child {
+		width: min(260px, 78%) !important;
+	}
+
+	body.scrapbook-trip .entry__related ul.related > li:first-child:nth-last-child(3),
+	body.scrapbook-trip .entry__related ul.related > li:first-child:nth-last-child(3) ~ li {
+		width: min(260px, 78%) !important;
+	}
+
+	body.scrapbook-trip .entry__related ul.related .related__link {
+		display: block !important;
+	}
+
+	body.scrapbook-trip .entry__related ul.related img {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+
+	body.scrapbook-trip .entry__related ul.related h5,
+	body.scrapbook-trip .entry__related ul.related h6 {
+		margin: 0 !important;
+		text-align: center !important;
+		line-height: 1.25;
+	}
+
+	body.scrapbook-trip .entry__related ul.related h5 {
+		margin-bottom: 8px !important;
+	}
+
+	body.scrapbook-trip .entry__related ul.related h6 {
+		margin-top: 8px !important;
+	}
+
 	body.scrapbook-trip .comments-wrap {
 		margin-top: var(--s-7);
 	}
