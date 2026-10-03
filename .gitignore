@@ -1,3 +1,7 @@
 # Ignore bulky photo staging folders (optimized web JPEGs are committed instead)
 assets/images/Travel-Pages-Images/**/_incoming/
 .DS_Store
+travel-page-tool/.batch-2026-results.json
+
+# Finder duplicate copies ("Photo 2.jpeg") — not site files
+* 2.*

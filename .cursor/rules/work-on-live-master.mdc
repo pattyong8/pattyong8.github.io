@@ -1,0 +1,24 @@
+---
+description: Always work on the live GitHub master branch so desktop and mobile stay one site
+alwaysApply: true
+---
+
+# One live site
+
+The published site is GitHub `master` at https://pattyong8.github.io. There is one repo: `pattyong8/pattyong8.github.io`.
+
+## Before any edit
+
+1. `git fetch origin` and work on the latest `origin/master`.
+2. If HEAD is not `master`, switch to `master` and fast-forward. Do not keep live-site work only on `redesign/scrapbook` or a `cursor/*` agent branch.
+3. Only create a side branch when the user explicitly asks for one, and say that it will not go live until it is merged into `master`.
+
+## Publishing
+
+- GitHub Pages publishes `master`. Pushing `redesign/scrapbook` does not update the phone site.
+- Never commit Finder duplicates (`* 2.jpeg`, `* 2.css`), `_incoming/`, `.DS_Store`, or `travel-page-tool/.batch-2026-results.json`.
+- After a publish, stay on `master`.
+
+## If desktop and phone disagree
+
+The Mac copy drifted from live. Pull `origin/master` first, then re-apply only the missing Mac change on top. Do not treat `redesign/scrapbook` as current.

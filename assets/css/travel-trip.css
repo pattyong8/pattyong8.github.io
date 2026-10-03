@@ -552,9 +552,14 @@ body.scrapbook-trip .comment-respond input[type="submit"]:hover {
 		border-radius: 0 0 var(--r-lg) var(--r-lg);
 	}
 
+	/* Show the whole hero. A forced crop box (square or 4:3) cuts
+	   people off the sides of wide group photos. */
 	body.scrapbook-trip .entry__post-thumb img {
-		aspect-ratio: 1 / 1;
-		max-height: 62vh;
+		aspect-ratio: auto;
+		height: auto;
+		max-height: none;
+		object-fit: contain;
+		object-position: center center;
 	}
 
 	body.scrapbook-trip .content__page-header.entry__header {
