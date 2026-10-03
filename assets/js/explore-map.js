@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    // US and Canada are drawn as states/provinces. Every other country stays one shape.
-    var ADMIN1 = { US: true, CA: true };
+    // The US is drawn as states. Every other country, including Canada, stays one shape.
+    var ADMIN1 = { US: true };
 
     var state = {
         data: null,
@@ -508,12 +508,26 @@
         panelEl().setAttribute('data-has-place', state.activeId ? 'true' : 'false');
     }
 
+    function layerBoundsForSelection() {
+        var bounds = null;
+        if (!state.regionLayer || !state.countryFilter || ADMIN1[state.countryFilter]) return bounds;
+        state.regionLayer.eachLayer(function (layer) {
+            var props = layer.feature && layer.feature.properties;
+            if (!props || props.iso !== state.countryFilter) return;
+            if (state.regionFilter && (props.kind !== 'admin1' || props.region !== state.regionFilter)) return;
+            if (!layer.getBounds) return;
+            bounds = bounds ? bounds.extend(layer.getBounds()) : layer.getBounds();
+        });
+        return bounds;
+    }
+
     function fitToVisible(animate) {
         var places = visiblePlaces();
         if (!places.length) return;
-        var bounds = state.countryFilter
-            ? L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))
-            : (state.regionLayer ? state.regionLayer.getBounds() : L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; })));
+        var bounds = layerBoundsForSelection()
+            || (state.countryFilter
+                ? L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))
+                : (state.regionLayer ? state.regionLayer.getBounds() : L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))));
         state.map.fitBounds(bounds, Object.assign({ maxZoom: state.countryFilter ? 5 : 2, animate: !!animate, duration: 0.6 }, mapPadding()));
         if (state.regionLayer) state.regionLayer.bringToFront();
         state.map.invalidateSize();
@@ -769,7 +783,7 @@
 
     Promise.all([
         fetch('assets/data/explore-places.json?v=15').then(function (res) { return res.json(); }),
-        fetch('assets/data/map-regions.geojson?v=2').then(function (res) { return res.json(); })
+        fetch('assets/data/map-regions.geojson?v=3').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];
         initMap(state.data, results[1]);
