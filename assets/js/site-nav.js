@@ -3,15 +3,16 @@
     'use strict';
 
     var DEFAULT_LIST = 'Travel-Pages/20s/20s-2026.html';
-    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=22';
+    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=23';
     var LIST_CSS = '/assets/css/scrapbook-list.css?v=21';
-    var LIST_JS = '/assets/js/scrapbook-list.js?v=6';
-    var TRIP_CSS = '/assets/css/travel-trip.css?v=23';
+    var LIST_JS = '/assets/js/scrapbook-list.js?v=7';
+    var TRIP_CSS = '/assets/css/travel-trip.css?v=24';
 
     var SECTION_PAGES = {
         'College-J&S': 'Travel-Pages/college/college-J-Sen.html',
         'College-F&S': 'Travel-Pages/college/college-F-Soph.html',
-        'HighSchool': 'Travel-Pages/High-School/highschool-f-s.html'
+        'HighSchool': 'Travel-Pages/High-School/highschool-f-s.html',
+        'MiddleSchool': 'Travel-Pages/High-School/highschool-f-s.html'
     };
 
     var ROOT_MARKERS = [
@@ -95,7 +96,7 @@
         var link;
         for (i = 0; i < existing.length; i++) {
             linkHref = existing[i].getAttribute('href') || '';
-            if (linkHref.indexOf('scrapbook-shell.css?v=22') !== -1) {
+            if (linkHref.indexOf('scrapbook-shell.css?v=23') !== -1) {
                 existing[i].setAttribute('data-scrapbook-shell', 'true');
                 hasCurrent = true;
             } else if (existing[i].parentNode) {
@@ -146,12 +147,12 @@
         if (!hasYearSelectors(location.pathname)) return;
         var root = siteRoot(location.pathname);
         replaceStylesheet(root + LIST_CSS, 'scrapbook-list.css', LIST_CSS.indexOf('?') === -1 ? '' : LIST_CSS.slice(LIST_CSS.indexOf('?')));
-        injectScript(root + LIST_JS, 'scrapbook-list.js?v=6');
+        injectScript(root + LIST_JS, 'scrapbook-list.js?v=7');
     }
 
     function injectTripCss() {
         if (!/\/Travel-Pages-Sub\//.test(location.pathname)) return;
-        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=23');
+        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=24');
     }
 
     function ensureHomeLink(toggle, root) {
@@ -232,6 +233,40 @@
         inner.insertBefore(link, inner.querySelector('.scrapbook-toggle'));
     }
 
+    function setDescription(text) {
+        var desc = document.querySelector('meta[name="description"]');
+        if (!text) return;
+        if (desc && desc.getAttribute('content')) return;
+        if (!desc) {
+            desc = document.createElement('meta');
+            desc.setAttribute('name', 'description');
+            document.head.appendChild(desc);
+        }
+        desc.setAttribute('content', text);
+    }
+
+    function paintPageMeta() {
+        var heading = document.querySelector('h1');
+        var title = heading ? heading.textContent.replace(/\s+/g, ' ').trim() : '';
+        var hero;
+        var lead;
+        var summary;
+        if (isTripPath(location.pathname)) {
+            hero = document.querySelector('.entry__post-thumb img');
+            if (hero && title && !hero.getAttribute('alt')) {
+                hero.setAttribute('alt', title);
+            }
+            Array.prototype.forEach.call(document.querySelectorAll('img[alt="portfolio image"]'), function (img) {
+                img.setAttribute('alt', title ? title + ' photo' : 'Travel photo');
+            });
+            lead = document.querySelector('.entry__content .lead, .lead.drop-cap, .entry__content p');
+            summary = lead ? lead.textContent.replace(/\s+/g, ' ').trim().slice(0, 160) : '';
+            setDescription(summary || (title ? title + ' on ONGtheroad' : ''));
+            return;
+        }
+        if (title) setDescription(title + ' memories on ONGtheroad');
+    }
+
     function applyNav() {
         var root = siteRoot(location.pathname);
         var listHref = root + '/' + listRel(location.pathname);
@@ -256,7 +291,7 @@
             if (nav === 'list' || nav === 'memories' || label === 'List' || label === 'Memories') {
                 link.setAttribute('href', listHref);
                 if (link.closest('.scrapbook-toggle')) {
-                    link.classList.toggle('is-active', isListPath(location.pathname));
+                    link.classList.toggle('is-active', isListPath(location.pathname) && !isTripPath(location.pathname));
                 }
             }
             if (nav === 'map' || label === 'Map') {
@@ -278,6 +313,7 @@
         paintHeader();
         paintBack();
         applyNav();
+        paintPageMeta();
         var header = document.getElementById('header');
         if (header && !header.getAttribute('data-site-nav-observed')) {
             header.setAttribute('data-site-nav-observed', 'true');

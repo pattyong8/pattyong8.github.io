@@ -425,14 +425,27 @@
         state.map.flyToBounds(bounds, Object.assign({ maxZoom: 5, duration: 0.55 }, mapPadding()));
     }
 
-    function setHash(id) {
+    function currentHash() {
         try {
-            history.replaceState(null, '', id ? '#' + id : location.pathname + location.search);
+            return decodeURIComponent((location.hash || '').slice(1));
+        } catch (err) {
+            return (location.hash || '').slice(1);
+        }
+    }
+
+    function setHash(id, mode) {
+        var next = id || '';
+        var url = next ? '#' + next : location.pathname + location.search;
+        if (next === currentHash() && mode !== 'replace') return;
+        try {
+            if (mode === 'push') history.pushState({ explore: next }, '', url);
+            else history.replaceState({ explore: next }, '', url);
         } catch (err) { /* file or sandboxed context */ }
     }
 
     // fromMap: a marker or country was tapped, so keep the sheet low on phones.
-    function selectPlace(id, pan, fromMap) {
+    // fromHistory: restoring a Back/Forward entry, so do not push again.
+    function selectPlace(id, pan, fromMap, fromHistory) {
         var place = placeById(id);
         if (!place) return;
         state.activeId = id;
@@ -441,12 +454,12 @@
         renderDetail(place);
         showDetail(!!fromMap && isMobile());
         refresh();
-        setHash(id);
+        setHash(id, fromHistory ? 'replace' : 'push');
         if (pan) flyToPlace(place);
         else if (isMobile()) revealPlace(place);
     }
 
-    function selectCountry(iso, pan) {
+    function selectCountry(iso, pan, fromHistory) {
         var places = placesForIso(iso);
         state.activeId = null;
         state.countryFilter = iso;
@@ -454,11 +467,11 @@
         showList();
         openSheet();
         refresh();
-        setHash('');
+        setHash('', fromHistory ? 'replace' : 'push');
         if (pan) flyToGroup(places);
     }
 
-    function selectRegion(iso, region, pan) {
+    function selectRegion(iso, region, pan, fromHistory) {
         var places = placesForRegion(iso, region);
         state.activeId = null;
         state.countryFilter = iso;
@@ -466,17 +479,23 @@
         showList();
         openSheet();
         refresh();
-        setHash('');
+        setHash('', fromHistory ? 'replace' : 'push');
         if (pan) flyToGroup(places);
     }
 
-    function clearPlace() {
+    function clearPlace(fromHistory) {
         state.activeId = null;
         state.countryFilter = '';
         state.regionFilter = '';
         showList();
         refresh();
-        setHash('');
+        setHash('', fromHistory ? 'replace' : 'push');
+    }
+
+    function restoreFromHash() {
+        var id = currentHash();
+        if (id && placeById(id)) selectPlace(id, true, true, true);
+        else clearPlace(true);
     }
 
     function refresh() {
@@ -749,16 +768,17 @@
     }
 
     Promise.all([
-        fetch('assets/data/explore-places.json?v=14').then(function (res) { return res.json(); }),
+        fetch('assets/data/explore-places.json?v=15').then(function (res) { return res.json(); }),
         fetch('assets/data/map-regions.geojson?v=2').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];
         initMap(state.data, results[1]);
         bindUi();
         refresh();
+        window.addEventListener('popstate', restoreFromHash);
         setTimeout(function () {
-            var id = decodeURIComponent((location.hash || '').slice(1));
-            if (id && placeById(id)) selectPlace(id, true, true);
+            var id = currentHash();
+            if (id && placeById(id)) selectPlace(id, true, true, true);
         }, 420);
     });
 })();

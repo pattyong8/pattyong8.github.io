@@ -63,6 +63,13 @@
             if (imageLink && titleLink && !titleLink.getAttribute('href')) {
                 titleLink.setAttribute('href', imageLink.getAttribute('href'));
             }
+            if (imageLink && titleLink) {
+                var img = imageLink.querySelector('img');
+                var label = titleLink.textContent.replace(/\s+/g, ' ').trim();
+                if (img && label && (!img.getAttribute('alt') || img.getAttribute('alt') === 'portfolio image')) {
+                    img.setAttribute('alt', label);
+                }
+            }
         });
     }
 

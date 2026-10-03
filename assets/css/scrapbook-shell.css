@@ -913,6 +913,6 @@ header.scrapbook-shell a.scrapbook-logo span,
 	}
 
 	.scrapbook-end {
-		padding: var(--s-6) var(--page-gutter) var(--s-7);
+		padding: var(--s-6) var(--page-gutter) calc(var(--s-7) + var(--dock-height) + var(--safe-bottom));
 	}
 }

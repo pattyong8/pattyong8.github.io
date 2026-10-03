@@ -345,15 +345,22 @@ function collectTrips() {
     const page = (data.pages && data.pages[0] && data.pages[0].file)
       || fs.readdirSync(dir).find((f) => f.endsWith('-1.html'))
       || fs.readdirSync(dir).find((f) => f.endsWith('.html'));
+    const pagePath = page ? path.join(dir, page) : '';
+    const year = String(data.year || '');
+    const yearHref = /^\d{4}$/.test(year)
+      ? 'Travel-Pages/20s/20s-' + year + '.html'
+      : (year === '2019-2020' || year === '2019-20' ? 'Travel-Pages/20s/20s-2019-20.html' : '');
     const intro = String(data.introParagraph || '').trim();
     trips.push({
       title: data.title || '',
-      year: String(data.year || ''),
+      year: year,
       dateRange: data.dateRange || '',
       location: data.location || '',
       people: data.people || '',
       thumb: data.gallaryThumb || '',
-      href: page ? path.relative(ROOT, path.join(dir, page)).replace(/\\/g, '/') : '',
+      href: pagePath && fs.existsSync(pagePath)
+        ? path.relative(ROOT, pagePath).replace(/\\/g, '/')
+        : yearHref,
       slug: data.slug || path.basename(dir),
       intro: intro && intro !== '[INTRO_PARAGRAPH]' ? intro : ''
     });
