@@ -67,7 +67,7 @@ body.scrapbook-list .container {
 	color: var(--ink-soft);
 	text-transform: none;
 	opacity: 1 !important;
-	max-width: 66ch;
+	max-width: none;
 	width: 100%;
 	margin: 0 !important;
 	animation: none !important;

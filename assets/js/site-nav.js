@@ -3,8 +3,8 @@
     'use strict';
 
     var DEFAULT_LIST = 'Travel-Pages/20s/20s-2026.html';
-    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=21';
-    var LIST_CSS = '/assets/css/scrapbook-list.css?v=20';
+    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=22';
+    var LIST_CSS = '/assets/css/scrapbook-list.css?v=21';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=6';
     var TRIP_CSS = '/assets/css/travel-trip.css?v=23';
 
@@ -82,6 +82,10 @@
         return /\/explore\.html(?:$|\?|#)/.test(pathname);
     }
 
+    function isHomePath(pathname) {
+        return pathname === '/' || pathname === '' || /\/index\.html$/i.test(pathname);
+    }
+
     function injectShellCss() {
         var href = siteRoot(location.pathname) + SHELL_CSS;
         var existing = document.querySelectorAll('link[href*="scrapbook-shell.css"]');
@@ -91,7 +95,7 @@
         var link;
         for (i = 0; i < existing.length; i++) {
             linkHref = existing[i].getAttribute('href') || '';
-            if (linkHref.indexOf('scrapbook-shell.css?v=21') !== -1) {
+            if (linkHref.indexOf('scrapbook-shell.css?v=22') !== -1) {
                 existing[i].setAttribute('data-scrapbook-shell', 'true');
                 hasCurrent = true;
             } else if (existing[i].parentNode) {
@@ -161,6 +165,7 @@
                 '<div class="scrapbook-shell-inner">' +
                     '<a class="scrapbook-logo" href="' + root + '/index.html">ONG<span>theroad</span></a>' +
                     '<nav class="scrapbook-toggle" aria-label="Ways to browse">' +
+                        '<a data-nav="home" href="' + root + '/index.html">Home</a>' +
                         '<a data-nav="list" href="' + root + '/' + DEFAULT_LIST + '">List</a>' +
                         '<a data-nav="map" href="' + root + '/explore.html">Map</a>' +
                     '</nav>' +
@@ -217,16 +222,23 @@
         var root = siteRoot(location.pathname);
         var listHref = root + '/' + listRel(location.pathname);
         var mapHref = root + '/explore.html';
-        var links = document.querySelectorAll('a[data-nav="list"], a[data-nav="memories"], a[data-nav="map"]');
+        var links = document.querySelectorAll('a[data-nav="home"], a[data-nav="list"], a[data-nav="memories"], a[data-nav="map"]');
         var i;
         var link;
         var nav;
         var label;
+        var homeHref = root + '/index.html';
 
         for (i = 0; i < links.length; i++) {
             link = links[i];
             nav = link.getAttribute('data-nav');
             label = link.textContent.replace(/\s+/g, ' ').trim();
+            if (nav === 'home' || label === 'Home') {
+                link.setAttribute('href', homeHref);
+                if (link.closest('.scrapbook-toggle')) {
+                    link.classList.toggle('is-active', isHomePath(location.pathname));
+                }
+            }
             if (nav === 'list' || nav === 'memories' || label === 'List' || label === 'Memories') {
                 link.setAttribute('href', listHref);
                 if (link.closest('.scrapbook-toggle')) {

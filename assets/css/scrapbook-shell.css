@@ -257,7 +257,7 @@ header.scrapbook-shell a.scrapbook-logo span,
 	text-transform: none;
 }
 
-/* View switch: List / Map. */
+/* View switch: Home / List / Map. */
 .scrapbook-toggle {
 	display: inline-flex;
 	align-items: stretch;
@@ -349,7 +349,7 @@ header.scrapbook-shell a.scrapbook-logo span,
 	border-radius: var(--r-lg);
 	background: var(--paper-deep);
 	width: 100%;
-	height: clamp(260px, 44vw, 540px);
+	height: clamp(260px, 38vw, 460px);
 }
 
 .scrapbook-cover-photo img {
@@ -366,7 +366,7 @@ header.scrapbook-shell a.scrapbook-logo span,
 	grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
 	gap: var(--s-4) var(--s-8);
 	align-items: start;
-	padding: var(--section-gap) 0 0;
+	padding: var(--s-6) 0 0;
 }
 
 .scrapbook-cover h1 {
@@ -684,6 +684,22 @@ header.scrapbook-shell a.scrapbook-logo span,
 	max-width: none;
 }
 
+.scrapbook-end {
+	max-width: var(--page-max);
+	margin: 0 auto;
+	padding: var(--s-7) var(--page-gutter) var(--s-8);
+	border-top: 1px solid var(--line);
+}
+
+.scrapbook-end p {
+	margin: 0;
+	color: var(--muted);
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
 .scrapbook-footer {
 	display: none;
 }
@@ -774,9 +790,9 @@ header.scrapbook-shell a.scrapbook-logo span,
 	.scrapbook-toggle a,
 	.scrapbook-toggle a:hover,
 	.scrapbook-toggle a:focus {
-		min-width: 104px;
+		min-width: 88px;
 		min-height: 48px;
-		padding: 0 var(--s-5);
+		padding: 0 var(--s-4);
 		font-size: 16px;
 		font-weight: 600;
 		-webkit-tap-highlight-color: transparent;
@@ -894,5 +910,9 @@ header.scrapbook-shell a.scrapbook-logo span,
 	.scrapbook-mapcta a {
 		width: 100%;
 		justify-content: center;
+	}
+
+	.scrapbook-end {
+		padding: var(--s-6) var(--page-gutter) var(--s-7);
 	}
 }
