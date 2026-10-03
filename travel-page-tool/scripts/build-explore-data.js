@@ -409,6 +409,64 @@ function yearSortValue(year) {
   return Number.isFinite(n) ? n : 0;
 }
 
+// Owner-confirmed activities. Place lists keep a multi-city trip from
+// lighting up cities where that activity did not happen.
+const TRIP_ACTIVITIES = [
+  { slug: 'Brian-Head-2018', activities: ['ski'] },
+  { slug: 'Tahoe-2020', activities: ['ski'] },
+  { slug: 'ES-Tahoe-Feb-2022', activities: ['ski'] },
+  { slug: 'Big-Bear-2022', activities: ['ski'] },
+  { slug: 'Jan-Whistler-2026', activities: ['ski'] },
+  { slug: 'Japan-Noahs-Bday-Jan-2024', activities: ['ski'], places: ['niseko'] },
+  { slug: 'Mammoth-Jan-2025', activities: ['ski'] },
+  { slug: 'Steamboat-Feb-2025', activities: ['ski'] },
+  { slug: 'Denver-A-Basin-May-2025', activities: ['ski'] },
+  { title: 'Tahoe, CA', year: '2023', dateRange: 'Jan 18th, 29th, Feb 3rd 2023', activities: ['ski'] },
+  { title: 'Big Bear, CA', year: '2023', dateRange: 'Dec 17th-18th 2023', activities: ['ski'] },
+
+  { slug: 'Playa-del-Carmen-July-2021', activities: ['scuba'] },
+  { slug: 'Croatia-Sept-2022', activities: ['scuba'], places: ['hvar'] },
+  { slug: 'Jun-Italy-and-Malta-2026', activities: ['scuba'], places: ['malta'] },
+
+  { slug: 'Holcomb-Valley-19', activities: ['climb'] },
+  { slug: 'japan-taiwan-thailand', activities: ['climb'], places: ['railay'] },
+  { slug: 'Bishop-Mammoth', activities: ['climb'] },
+  { slug: 'Castle-Rock-Feb-2021', activities: ['climb'] },
+  { slug: 'Pinnacles-June-2020', activities: ['climb'] },
+  { slug: 'Pinnacles-pt2-2020', activities: ['climb'] },
+  { slug: 'Turtle-Rock-2020', activities: ['climb'] },
+  { slug: 'Malibu-Creek-March-2021', activities: ['climb'] },
+  { slug: 'Joshua-Tree-March-2021', activities: ['climb'] },
+  { slug: 'Joshua-Tree-New-Year-2021', activities: ['climb'] },
+  { slug: 'Mammoth-2022', activities: ['climb'] },
+  { slug: 'Aug-Whistler-2026', activities: ['climb', 'golf'], places: ['whistler'] },
+  { title: 'Greece & Turkey', year: '2023', dateRange: 'Oct 23rd-Nov 7th 2023', activities: ['climb'], places: ['kalymnos'] },
+
+  { slug: 'Aug-Danny-Sabs-Wedding-2026', activities: ['golf'] },
+  { slug: 'Irvine-Summer-2026', activities: ['golf'] },
+  { slug: 'Winter-19-20', activities: ['golf'] }
+];
+
+function activityRuleMatches(rule, trip) {
+  if (rule.slug) return rule.slug === trip.slug;
+  if (rule.title && rule.title !== trip.title) return false;
+  if (rule.year && String(rule.year) !== String(trip.year)) return false;
+  if (rule.dateRange && rule.dateRange !== trip.dateRange) return false;
+  return !!rule.title;
+}
+
+function activitiesFor(trip, placeId) {
+  var found = [];
+  TRIP_ACTIVITIES.forEach(function (rule) {
+    if (!activityRuleMatches(rule, trip)) return;
+    if (rule.places && rule.places.indexOf(placeId) === -1) return;
+    rule.activities.forEach(function (activity) {
+      if (found.indexOf(activity) === -1) found.push(activity);
+    });
+  });
+  return found;
+}
+
 const trips = collectTrips();
 const byPlace = {};
 const unmatched = [];
@@ -420,20 +478,22 @@ for (const trip of trips) {
     continue;
   }
   const type = TYPE_OVERRIDES[trip.slug] || titleType(trip) || (isIrvineHomeTrip(trip) ? 'family' : inferType(trip));
-  const record = {
-    title: trip.title,
-    year: trip.year,
-    dateRange: trip.dateRange,
-    people: trip.people,
-    type,
-    href: trip.href,
-    thumb: trip.thumb,
-    excerpt: trip.intro ? trip.intro.replace(/\s+/g, ' ').slice(0, 180) : ''
-  };
   for (const id of ids) {
     if (!PLACES[id]) continue;
     if (!byPlace[id]) byPlace[id] = { ...PLACES[id], trips: [] };
-    byPlace[id].trips.push({ ...record });
+    const record = {
+      title: trip.title,
+      year: trip.year,
+      dateRange: trip.dateRange,
+      people: trip.people,
+      type,
+      href: trip.href,
+      thumb: trip.thumb,
+      excerpt: trip.intro ? trip.intro.replace(/\s+/g, ' ').slice(0, 180) : ''
+    };
+    const acts = activitiesFor(trip, id);
+    if (acts.length) record.activities = acts;
+    byPlace[id].trips.push(record);
   }
 }
 
@@ -506,10 +566,13 @@ for (const [year, title, date, ids, type] of GALLERY_TRIPS) {
   for (const id of ids) {
     if (!PLACES[id]) throw new Error('Unknown place ' + id);
     if (!byPlace[id]) byPlace[id] = { ...PLACES[id], trips: [] };
-    byPlace[id].trips.push({
+    const record = {
       title, year, dateRange: date, people: '', type,
       href: 'Travel-Pages/20s/20s-' + year + '.html', thumb: card.thumb, excerpt: ''
-    });
+    };
+    const acts = activitiesFor({ title, year, dateRange: date, slug: '' }, id);
+    if (acts.length) record.activities = acts;
+    byPlace[id].trips.push(record);
   }
 }
 
@@ -525,7 +588,8 @@ const places = Object.values(byPlace)
   .map((place) => {
     place.trips.sort((a, b) => yearSortValue(b.year) - yearSortValue(a.year) || String(b.dateRange).localeCompare(String(a.dateRange)));
     const types = Array.from(new Set(place.trips.map((t) => t.type)));
-    return {
+    const activities = Array.from(new Set(place.trips.flatMap((t) => t.activities || [])));
+    const out = {
       id: place.id,
       name: place.name,
       region: place.region,
@@ -538,6 +602,8 @@ const places = Object.values(byPlace)
       years: Array.from(new Set(place.trips.map((t) => t.year).filter(Boolean))),
       trips: place.trips
     };
+    if (activities.length) out.activities = activities;
+    return out;
   })
   .sort((a, b) => b.tripCount - a.tripCount || a.name.localeCompare(b.name));
 

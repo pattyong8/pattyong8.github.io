@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T05:20:57.942Z",
+  "generatedAt": "2026-10-03T20:40:18.738Z",
   "totals": {
     "places": 94,
     "trips": 217,
@@ -869,7 +869,10 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2026/Irvine-Summer-2026/Irvine-Summer-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jul-Irvine-Summer-2026.jpeg",
-          "excerpt": "As I usually do, I came home for the summer to enjoy some time with family and friends. This summer was particularly significant because there was a new member of the family. Annab"
+          "excerpt": "As I usually do, I came home for the summer to enjoy some time with family and friends. This summer was particularly significant because there was a new member of the family. Annab",
+          "activities": [
+            "golf"
+          ]
         },
         {
           "title": "Mom's Wedding",
@@ -979,7 +982,10 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2019-2020/Winter-19-20/Winter-19-20.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Irvine-2019-2020-Winter/HP_Irvine.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "golf"
+          ]
         },
         {
           "title": "Irvine Summer 2019",
@@ -1131,6 +1137,9 @@
           "thumb": "assets/images/Travel-Pages-Images/High-School/Water-Polo-and-Swim/WP-Swim-Title-Page.jpg",
           "excerpt": ""
         }
+      ],
+      "activities": [
+        "golf"
       ]
     },
     {
@@ -1413,7 +1422,10 @@
           "type": "friends",
           "href": "Travel-Pages/20s/20s-2023.html",
           "thumb": "assets/images/gallary/20s/2023/Tahoe-Jan-29-2023.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "ES Tahoe 2022",
@@ -1423,7 +1435,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/ES-Tahoe-Feb-2022/ES-Tahoe-Feb-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Tahoe-Feb-2022/ES-Tahoe-2022-HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Tahoe with ES Besties",
@@ -1443,7 +1458,10 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2019-2020/Tahoe-2020/Tahoe-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Tahoe-2020/Tahoe_HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Tahoe December 2020",
@@ -1465,6 +1483,9 @@
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Tahoe-2017/Tahoe-2017-7.jpeg",
           "excerpt": ""
         }
+      ],
+      "activities": [
+        "ski"
       ]
     },
     {
@@ -1494,7 +1515,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Aug-Danny-Sabs-Wedding-2026/Aug-Danny-Sabs-Wedding-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Aug-Danny-Sabs-Wedding-2026.jpeg",
-          "excerpt": "Danny and Sabrina's wedding was one of the highlights of 2026. I've known Danny since college, and I've known many of the people at the wedding since we all started interning at Am"
+          "excerpt": "Danny and Sabrina's wedding was one of the highlights of 2026. I've known Danny since college, and I've known many of the people at the wedding since we all started interning at Am",
+          "activities": [
+            "golf"
+          ]
         },
         {
           "title": "Seattle, WA",
@@ -1536,6 +1560,9 @@
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Seattle-Amazon-2018/Seattle-Amazon-2018-HP.jpg",
           "excerpt": ""
         }
+      ],
+      "activities": [
+        "golf"
       ]
     },
     {
@@ -1625,7 +1652,10 @@
           "type": "friends",
           "href": "Travel-Pages/20s/20s-2023.html",
           "thumb": "assets/images/gallary/20s/2023/Big-Bear-Dec-17-2023.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Big Bear 2022",
@@ -1635,7 +1665,10 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2022/Big-Bear-2022/Big-Bear-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Big-Bear-2022/Big-Bear-2022-HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Holcomb Valley 2019",
@@ -1645,8 +1678,15 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Holcomb-Valley-19/Holcomb-Valley-19.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Holcomb-Valley-2019/Holcomb_valley_Hp.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "ski",
+        "climb"
       ]
     },
     {
@@ -1825,7 +1865,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2025/Mammoth-Jan-2025/Mammoth-Jan-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/Jan-Mammoth-2025.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Mammoth Climbing 2022",
@@ -1835,7 +1878,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/Mammoth-2022/Mammoth-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Mammoth-2022/Mammoth-2022-HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         },
         {
           "title": "Bishop/Mammoth",
@@ -1845,8 +1891,15 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/Bishop-Mammoth/Bishop-Mammoth1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Bishop-Mammoth/Bishop-Mammoth-title-page.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "ski",
+        "climb"
       ]
     },
     {
@@ -1895,8 +1948,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Turtle-Rock-2020/Turtle-Rock-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Turtle-Rock-2020/Turtle-Rock-2020-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -2062,7 +2121,10 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2021/Joshua-Tree-March-2021/Joshua-Tree-March-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Joshua-Tree-March-2021/Joshua-Tree-March-2021-Title.JPG",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         },
         {
           "title": "New Years @ Jtree",
@@ -2072,8 +2134,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Joshua-Tree-New-Year-2021/Joshua-Tree-New-Year-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Joshua-Tree-Dec-2021/Joshua-Tree-New-Year-HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -2100,7 +2168,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Pinnacles-June-2020/Pinnacles-June-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Pinnacles/Pinnacles-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         },
         {
           "title": "Pinnacles 2020 Pt.2",
@@ -2110,8 +2181,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2019-2020/Pinnacles-pt2-2020/Pinnacles-pt2-2020-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2019-2020/Pinnacles-pt2/Pinnacles-pt2-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -2254,7 +2331,10 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Jan-Whistler-2026/Jan-Whistler-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jan-Whistler-2026.jpeg",
-          "excerpt": "Noah does a birthday ski trip every year, and this year was no different. It was full of friends, food, drinks, and enjoying one of Noah's favorite sports. This was the first time "
+          "excerpt": "Noah does a birthday ski trip every year, and this year was no different. It was full of friends, food, drinks, and enjoying one of Noah's favorite sports. This was the first time ",
+          "activities": [
+            "ski"
+          ]
         },
         {
           "title": "Summer in Whistler",
@@ -2264,8 +2344,17 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Aug-Whistler-2026/Aug-Whistler-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Aug-Whistler-2026.jpeg",
-          "excerpt": "About a month after Danny and Sabrina got married, the two of them, along with Noah and me, headed up to Whistler for a wonderful summer weekend in the mountains. We golfed at the "
+          "excerpt": "About a month after Danny and Sabrina got married, the two of them, along with Noah and me, headed up to Whistler for a wonderful summer weekend in the mountains. We golfed at the ",
+          "activities": [
+            "climb",
+            "golf"
+          ]
         }
+      ],
+      "activities": [
+        "ski",
+        "climb",
+        "golf"
       ]
     },
     {
@@ -2320,8 +2409,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2025/Denver-A-Basin-May-2025/Denver-A-Basin-May-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/May-Denver-A-Basin-2025.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         }
+      ],
+      "activities": [
+        "ski"
       ]
     },
     {
@@ -2379,13 +2474,13 @@
       ]
     },
     {
-      "id": "sydney",
-      "name": "Sydney, Australia",
-      "region": "Australia",
-      "country": "Australia",
-      "iso": "AU",
-      "lat": -33.8688,
-      "lng": 151.2093,
+      "id": "auckland",
+      "name": "Auckland, New Zealand",
+      "region": "New Zealand",
+      "country": "New Zealand",
+      "iso": "NZ",
+      "lat": -36.8485,
+      "lng": 174.7633,
       "types": [
         "friends"
       ],
@@ -2393,13 +2488,13 @@
       "years": [],
       "trips": [
         {
-          "title": "Australia 2013",
+          "title": "New Zealand 2012 & 2014",
           "year": "",
-          "dateRange": "Summer 2013",
+          "dateRange": "Summer of 2012 & 2014",
           "people": "CDM Water Polo Team",
           "type": "friends",
-          "href": "Travel-Pages-Sub/HighSchool/Australia/Australia-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/High-School/Australia/Australia-8.png",
+          "href": "Travel-Pages-Sub/HighSchool/New-Zealand/New-Zealand-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/High-School/New Zealand/New-Zealand-2014-HP.JPG",
           "excerpt": ""
         }
       ]
@@ -2586,8 +2681,14 @@
           "type": "family",
           "href": "Travel-Pages-Sub/College-J&S/Brian-Head-2018/Brian-Head-2018-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/Brian-Head-2018/Brian-Head-2018-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         }
+      ],
+      "activities": [
+        "ski"
       ]
     },
     {
@@ -2673,6 +2774,34 @@
       ]
     },
     {
+      "id": "cappadocia",
+      "name": "Cappadocia, Turkey",
+      "region": "Turkey",
+      "country": "Turkey",
+      "iso": "TR",
+      "lat": 38.643,
+      "lng": 34.829,
+      "types": [
+        "solo"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2023"
+      ],
+      "trips": [
+        {
+          "title": "Greece & Turkey",
+          "year": "2023",
+          "dateRange": "Oct 23rd-Nov 7th 2023",
+          "people": "",
+          "type": "solo",
+          "href": "Travel-Pages/20s/20s-2023.html",
+          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "castle-rock",
       "name": "Castle Rock, California",
       "region": "California",
@@ -2696,8 +2825,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Castle-Rock-Feb-2021/Castle-Rock-Feb-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Castle-Rock-Feb-2021/Castle-Rock-Feb-2021-HP.JPG",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -2783,6 +2918,34 @@
       ]
     },
     {
+      "id": "kerry",
+      "name": "County Kerry, Ireland",
+      "region": "Ireland",
+      "country": "Ireland",
+      "iso": "IE",
+      "lat": 52.0599,
+      "lng": -9.5044,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2025"
+      ],
+      "trips": [
+        {
+          "title": "Ireland",
+          "year": "2025",
+          "dateRange": "Jul 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "dallas",
       "name": "Dallas, Texas",
       "region": "Texas",
@@ -2804,6 +2967,34 @@
           "type": "work",
           "href": "Travel-Pages-Sub/College-J&S/O4U-Mrkt-2017/O4U-Mrkt-2017-1.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/O4U-Marketing-2017/Pepsico-HP.jpeg",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin, Ireland",
+      "region": "Ireland",
+      "country": "Ireland",
+      "iso": "IE",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2025"
+      ],
+      "trips": [
+        {
+          "title": "Ireland",
+          "year": "2025",
+          "dateRange": "Jul 2025",
+          "people": "Friends",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
+          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
           "excerpt": ""
         }
       ]
@@ -2996,8 +3187,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2022/Croatia-Sept-2022/Croatia-Sept-2022-HP.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "scuba"
+          ]
         }
+      ],
+      "activities": [
+        "scuba"
       ]
     },
     {
@@ -3057,13 +3254,13 @@
       ]
     },
     {
-      "id": "cappadocia",
-      "name": "Cappadocia, Turkey",
-      "region": "Turkey",
-      "country": "Turkey",
-      "iso": "TR",
-      "lat": 38.643,
-      "lng": 34.829,
+      "id": "kalymnos",
+      "name": "Kalymnos, Greece",
+      "region": "Greece",
+      "country": "Greece",
+      "iso": "GR",
+      "lat": 36.955,
+      "lng": 26.983,
       "types": [
         "solo"
       ],
@@ -3080,6 +3277,38 @@
           "type": "solo",
           "href": "Travel-Pages/20s/20s-2023.html",
           "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
+        }
+      ],
+      "activities": [
+        "climb"
+      ]
+    },
+    {
+      "id": "kaohsiung",
+      "name": "Kaohsiung, Taiwan",
+      "region": "Taiwan",
+      "country": "Taiwan",
+      "iso": "TW",
+      "lat": 22.6273,
+      "lng": 120.3014,
+      "types": [
+        "family"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Japan/Taiwan/Thailand",
+          "year": "",
+          "dateRange": "Jun 19th-Jul 18th, 2019",
+          "people": "Noah, Dad, Davis",
+          "type": "family",
+          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
+          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
         }
       ]
@@ -3108,60 +3337,6 @@
           "type": "solo",
           "href": "Travel-Pages/20s/20s-2023.html",
           "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "kalymnos",
-      "name": "Kalymnos, Greece",
-      "region": "Greece",
-      "country": "Greece",
-      "iso": "GR",
-      "lat": 36.955,
-      "lng": 26.983,
-      "types": [
-        "solo"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2023"
-      ],
-      "trips": [
-        {
-          "title": "Greece & Turkey",
-          "year": "2023",
-          "dateRange": "Oct 23rd-Nov 7th 2023",
-          "people": "",
-          "type": "solo",
-          "href": "Travel-Pages/20s/20s-2023.html",
-          "thumb": "assets/images/gallary/20s/2023/Greece-Turkey-Nov-6-2023.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "kaohsiung",
-      "name": "Kaohsiung, Taiwan",
-      "region": "Taiwan",
-      "country": "Taiwan",
-      "iso": "TW",
-      "lat": 22.6273,
-      "lng": 120.3014,
-      "types": [
-        "family"
-      ],
-      "tripCount": 1,
-      "years": [],
-      "trips": [
-        {
-          "title": "Japan/Taiwan/Thailand",
-          "year": "",
-          "dateRange": "Jun 19th-Jul 18th, 2019",
-          "people": "Noah, Dad, Davis",
-          "type": "family",
-          "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
-          "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
           "excerpt": ""
         }
       ]
@@ -3270,8 +3445,14 @@
           "type": "family",
           "href": "Travel-Pages-Sub/20s/2021/Malibu-Creek-March-2021/Malibu-Creek-March-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Malibu-Creek-Mar-2021/Malibu-Creek-Mar-2021-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -3298,8 +3479,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "scuba"
+          ]
         }
+      ],
+      "activities": [
+        "scuba"
       ]
     },
     {
@@ -3327,6 +3514,34 @@
           "href": "Travel-Pages-Sub/20s/2026/Jan-CREFC-Miami-2026/Jan-CREFC-Miami-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Jan-CREFC-Miami-2026.jpeg",
           "excerpt": "This was my first CREFC in Miami, and it was a jam packed few days of back to back meetings, networking, and events. We got to go to the infamous Joe's Stone Crab with the team, wh"
+        }
+      ]
+    },
+    {
+      "id": "modena",
+      "name": "Modena, Italy",
+      "region": "Emilia-Romagna",
+      "country": "Italy",
+      "iso": "IT",
+      "lat": 44.6471,
+      "lng": 10.9252,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2026"
+      ],
+      "trips": [
+        {
+          "title": "Italy & Malta 2026",
+          "year": "2026",
+          "dateRange": "June 18th-27th, 2026",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
+          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
+          "excerpt": ""
         }
       ]
     },
@@ -3411,32 +3626,6 @@
       ]
     },
     {
-      "id": "auckland",
-      "name": "Auckland, New Zealand",
-      "region": "New Zealand",
-      "country": "New Zealand",
-      "iso": "NZ",
-      "lat": -36.8485,
-      "lng": 174.7633,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [],
-      "trips": [
-        {
-          "title": "New Zealand 2012 & 2014",
-          "year": "",
-          "dateRange": "Summer of 2012 & 2014",
-          "people": "CDM Water Polo Team",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/HighSchool/New-Zealand/New-Zealand-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/High-School/New Zealand/New-Zealand-2014-HP.JPG",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
       "id": "newport",
       "name": "Newport Beach, California",
       "region": "California",
@@ -3486,8 +3675,14 @@
           "type": "friends",
           "href": "Travel-Pages/20s/20s-2024.html",
           "thumb": "",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
         }
+      ],
+      "activities": [
+        "ski"
       ]
     },
     {
@@ -3704,8 +3899,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2021/Playa-del-Carmen-July-2021/Playa-del-Carmen-July-2021-1.html",
           "thumb": "assets/images/Travel-Pages-Images/20s/2021/Playa-del-Carmen-MX-2021/Playa-del-Carmen-2021-HP.jpg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "scuba"
+          ]
         }
+      ],
+      "activities": [
+        "scuba"
       ]
     },
     {
@@ -3758,8 +3959,14 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/College-J&S/japan-taiwan-thailand/japan-taiwan-thailand.html",
           "thumb": "assets/images/Travel-Pages-Images/College-J&S/japan-taiwan-thailand/elephants.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "climb"
+          ]
         }
+      ],
+      "activities": [
+        "climb"
       ]
     },
     {
@@ -3873,6 +4080,34 @@
       ]
     },
     {
+      "id": "sapporo",
+      "name": "Sapporo, Japan",
+      "region": "Hokkaido",
+      "country": "Japan",
+      "iso": "JP",
+      "lat": 43.0618,
+      "lng": 141.3545,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2024"
+      ],
+      "trips": [
+        {
+          "title": "Niseko, Japan",
+          "year": "2024",
+          "dateRange": "Jan 5th-13th 2024",
+          "people": "",
+          "type": "friends",
+          "href": "Travel-Pages/20s/20s-2024.html",
+          "thumb": "",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
       "id": "shanghai",
       "name": "Shanghai, China",
       "region": "Shanghai",
@@ -3950,6 +4185,38 @@
           "type": "friends",
           "href": "Travel-Pages-Sub/20s/2025/Steamboat-Feb-2025/Steamboat-Feb-2025-1.html",
           "thumb": "assets/images/gallary/20s/2025/Feb-Steamboat-2025.jpeg",
+          "excerpt": "",
+          "activities": [
+            "ski"
+          ]
+        }
+      ],
+      "activities": [
+        "ski"
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney, Australia",
+      "region": "Australia",
+      "country": "Australia",
+      "iso": "AU",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [],
+      "trips": [
+        {
+          "title": "Australia 2013",
+          "year": "",
+          "dateRange": "Summer 2013",
+          "people": "CDM Water Polo Team",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/HighSchool/Australia/Australia-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/High-School/Australia/Australia-8.png",
           "excerpt": ""
         }
       ]
@@ -4009,146 +4276,6 @@
       ]
     },
     {
-      "id": "yosemite",
-      "name": "Yosemite, California",
-      "region": "California",
-      "country": "United States",
-      "iso": "US",
-      "lat": 37.8651,
-      "lng": -119.5383,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2022"
-      ],
-      "trips": [
-        {
-          "title": "Yosemite EC's Bday 2022",
-          "year": "2022",
-          "dateRange": "Jun 25th-27th 2022",
-          "people": "ES Besties & Co.",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-1.html",
-          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-HP.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "dublin",
-      "name": "Dublin, Ireland",
-      "region": "Ireland",
-      "country": "Ireland",
-      "iso": "IE",
-      "lat": 53.3498,
-      "lng": -6.2603,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2025"
-      ],
-      "trips": [
-        {
-          "title": "Ireland",
-          "year": "2025",
-          "dateRange": "Jul 2025",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
-          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "kerry",
-      "name": "County Kerry, Ireland",
-      "region": "Ireland",
-      "country": "Ireland",
-      "iso": "IE",
-      "lat": 52.0599,
-      "lng": -9.5044,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2025"
-      ],
-      "trips": [
-        {
-          "title": "Ireland",
-          "year": "2025",
-          "dateRange": "Jul 2025",
-          "people": "Friends",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2025/Ireland-Jul-2025/Ireland-Jul-2025-1.html",
-          "thumb": "assets/images/gallary/20s/2025/July-Ireland-2025.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "modena",
-      "name": "Modena, Italy",
-      "region": "Emilia-Romagna",
-      "country": "Italy",
-      "iso": "IT",
-      "lat": 44.6471,
-      "lng": 10.9252,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2026"
-      ],
-      "trips": [
-        {
-          "title": "Italy & Malta 2026",
-          "year": "2026",
-          "dateRange": "June 18th-27th, 2026",
-          "people": "",
-          "type": "friends",
-          "href": "Travel-Pages-Sub/20s/2026/Jun-Italy-and-Malta-2026/Jun-Italy-and-Malta-2026-1.html",
-          "thumb": "assets/images/gallary/20s/2026/Jun-Italy-and-Malta-2026.jpeg",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
-      "id": "sapporo",
-      "name": "Sapporo, Japan",
-      "region": "Hokkaido",
-      "country": "Japan",
-      "iso": "JP",
-      "lat": 43.0618,
-      "lng": 141.3545,
-      "types": [
-        "friends"
-      ],
-      "tripCount": 1,
-      "years": [
-        "2024"
-      ],
-      "trips": [
-        {
-          "title": "Niseko, Japan",
-          "year": "2024",
-          "dateRange": "Jan 5th-13th 2024",
-          "people": "",
-          "type": "friends",
-          "href": "Travel-Pages/20s/20s-2024.html",
-          "thumb": "",
-          "excerpt": ""
-        }
-      ]
-    },
-    {
       "id": "vancouver",
       "name": "Vancouver, British Columbia",
       "region": "British Columbia",
@@ -4173,6 +4300,34 @@
           "href": "Travel-Pages-Sub/20s/2026/Aug-Whistler-2026/Aug-Whistler-2026-1.html",
           "thumb": "assets/images/gallary/20s/2026/Aug-Whistler-2026.jpeg",
           "excerpt": "About a month after Danny and Sabrina got married, the two of them, along with Noah and me, headed up to Whistler for a wonderful summer weekend in the mountains. We golfed at the "
+        }
+      ]
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite, California",
+      "region": "California",
+      "country": "United States",
+      "iso": "US",
+      "lat": 37.8651,
+      "lng": -119.5383,
+      "types": [
+        "friends"
+      ],
+      "tripCount": 1,
+      "years": [
+        "2022"
+      ],
+      "trips": [
+        {
+          "title": "Yosemite EC's Bday 2022",
+          "year": "2022",
+          "dateRange": "Jun 25th-27th 2022",
+          "people": "ES Besties & Co.",
+          "type": "friends",
+          "href": "Travel-Pages-Sub/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-1.html",
+          "thumb": "assets/images/Travel-Pages-Images/20s/2022/Yosemite-Jun-2022/Yosemite-Jun-2022-HP.jpeg",
+          "excerpt": ""
         }
       ]
     }

@@ -14,17 +14,27 @@
         countryFilter: '',
         regionFilter: '',
         typeFilter: '',
+        activityFilter: '',
         sheet: 'peek'
     };
 
+    function tripHasActivity(trip) {
+        if (!state.activityFilter) return true;
+        return (trip.activities || []).indexOf(state.activityFilter) !== -1;
+    }
+
+    function tripMatchesFilters(trip) {
+        if (state.typeFilter && trip.type !== state.typeFilter) return false;
+        return tripHasActivity(trip);
+    }
+
     function placeMatchesType(place) {
-        if (!state.typeFilter) return true;
-        return place.trips.some(function (trip) { return trip.type === state.typeFilter; });
+        return place.trips.some(tripMatchesFilters);
     }
 
     function tripsForPlace(place) {
-        if (!state.typeFilter) return place.trips;
-        return place.trips.filter(function (trip) { return trip.type === state.typeFilter; });
+        if (!state.typeFilter && !state.activityFilter) return place.trips;
+        return place.trips.filter(tripMatchesFilters);
     }
 
     function visiblePlaces() {
@@ -130,17 +140,33 @@
     }
 
     function renderStats() {
-        var places = state.data.places;
+        var source = state.activityFilter ? visiblePlaces() : state.data.places;
         var trips = {};
         var countries = {};
-        places.forEach(function (place) {
+        source.forEach(function (place) {
             countries[place.iso] = true;
-            place.trips.forEach(function (trip) { trips[trip.href + "|" + trip.title + "|" + trip.dateRange] = true; });
+            tripsForPlace(place).forEach(function (trip) {
+                trips[trip.href + '|' + trip.title + '|' + trip.dateRange] = true;
+            });
         });
-        document.getElementById('explore-stats').textContent =
-            Object.keys(countries).length + ' countries · ' +
-            places.length + ' places · ' +
-            Object.keys(trips).length + ' memories';
+        if (state.activityFilter) {
+            document.getElementById('explore-stats').textContent =
+                source.length + ' places · ' +
+                Object.keys(trips).length + ' memories';
+        } else {
+            document.getElementById('explore-stats').textContent =
+                Object.keys(countries).length + ' countries · ' +
+                source.length + ' places · ' +
+                Object.keys(trips).length + ' memories';
+        }
+    }
+
+    function renderActivityLens() {
+        Array.prototype.forEach.call(document.querySelectorAll('#explore-activity-lens [data-activity]'), function (button) {
+            var on = button.getAttribute('data-activity') === state.activityFilter;
+            button.classList.toggle('is-active', on);
+            button.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
     }
 
     function typeListLabel() {
@@ -158,8 +184,7 @@
         });
     }
 
-    function setTypeFilter(type) {
-        state.typeFilter = type || '';
+    function applyFilters() {
         if (state.activeId) {
             var place = placeById(state.activeId);
             if (place && placeMatchesType(place)) {
@@ -180,6 +205,16 @@
             state.regionFilter = '';
         }
         refresh();
+    }
+
+    function setTypeFilter(type) {
+        state.typeFilter = type || '';
+        applyFilters();
+    }
+
+    function setActivityFilter(activity) {
+        state.activityFilter = activity || '';
+        applyFilters();
     }
 
     function tripKey(trip) {
@@ -264,7 +299,7 @@
         var places = placesInMapView();
         var entries = listEntries(places);
         var sig = places.map(function (place) { return place.id; }).join('|') +
-            '|' + state.typeFilter + '|' + state.countryFilter + '|' + state.regionFilter;
+            '|' + state.typeFilter + '|' + state.activityFilter + '|' + state.countryFilter + '|' + state.regionFilter;
         if (label) {
             label.textContent = typeListLabel();
             label.hidden = !state.typeFilter;
@@ -433,7 +468,7 @@
         var counts = { family: 0, friends: 0, work: 0, solo: 0 };
         var best = '';
         if (state.typeFilter) return state.typeFilter;
-        place.trips.forEach(function (trip) {
+        tripsForPlace(place).forEach(function (trip) {
             if (counts.hasOwnProperty(trip.type)) counts[trip.type] += 1;
         });
         TYPE_PRIORITY.forEach(function (type) {
@@ -604,6 +639,7 @@
     function refresh() {
         renderStats();
         renderTypeChips();
+        renderActivityLens();
         renderList();
         refreshMarkers();
         restyleRegions();
@@ -882,10 +918,17 @@
                 setTypeFilter(type);
             });
         });
+        Array.prototype.forEach.call(document.querySelectorAll('#explore-activity-lens [data-activity]'), function (button) {
+            button.addEventListener('click', function () {
+                var activity = button.getAttribute('data-activity') || '';
+                if (activity && activity === state.activityFilter) activity = '';
+                setActivityFilter(activity);
+            });
+        });
     }
 
     Promise.all([
-        fetch('assets/data/explore-places.json?v=15').then(function (res) { return res.json(); }),
+        fetch('assets/data/explore-places.json?v=16').then(function (res) { return res.json(); }),
         fetch('assets/data/map-regions.geojson?v=3').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];
