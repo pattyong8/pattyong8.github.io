@@ -182,11 +182,87 @@
         refresh();
     }
 
+    function tripKey(trip) {
+        return (trip.href || '') + '|' + (trip.title || '');
+    }
+
+    function cityShortName(place) {
+        return String(place.name || '').split(',')[0].trim() || place.name;
+    }
+
+    function majorityCountry(places) {
+        var counts = {};
+        var best = places[0];
+        places.forEach(function (place) {
+            var key = place.iso || place.country;
+            if (!counts[key]) counts[key] = { place: place, n: 0 };
+            counts[key].n += 1;
+            if (counts[key].n > counts[best.iso || best.country].n) best = place;
+        });
+        return best;
+    }
+
+    // Cities that exist on the map only because they share one trip become
+    // a single list row. Pins stay. Cities with more than one memory stay.
+    function listEntries(places) {
+        var byTrip = {};
+        var used = {};
+        var entries = [];
+
+        places.forEach(function (place) {
+            var trips = tripsForPlace(place);
+            var key;
+            if (trips.length !== 1) return;
+            key = tripKey(trips[0]);
+            if (!byTrip[key]) byTrip[key] = { trip: trips[0], places: [] };
+            byTrip[key].places.push(place);
+        });
+
+        places.forEach(function (place) {
+            var trips = tripsForPlace(place);
+            var group;
+            var host;
+            if (used[place.id]) return;
+            if (trips.length === 1) {
+                group = byTrip[tripKey(trips[0])];
+                if (group && group.places.length > 1) {
+                    group.places.forEach(function (item) { used[item.id] = true; });
+                    group.places.sort(function (a, b) {
+                        return cityShortName(a).localeCompare(cityShortName(b));
+                    });
+                    host = majorityCountry(group.places);
+                    entries.push({
+                        kind: 'trip',
+                        trip: group.trip,
+                        places: group.places,
+                        country: host.country,
+                        iso: host.iso,
+                        sort: 1,
+                        name: group.trip.title
+                    });
+                    return;
+                }
+            }
+            used[place.id] = true;
+            entries.push({
+                kind: 'place',
+                place: place,
+                country: place.country,
+                iso: place.iso,
+                sort: trips.length,
+                name: place.name
+            });
+        });
+
+        return entries;
+    }
+
     function renderList() {
         var list = document.getElementById('explore-place-list');
         var label = document.getElementById('explore-list-label');
         var available = visiblePlaces();
         var places = placesInMapView();
+        var entries = listEntries(places);
         var sig = places.map(function (place) { return place.id; }).join('|') +
             '|' + state.typeFilter + '|' + state.countryFilter + '|' + state.regionFilter;
         if (label) {
@@ -203,11 +279,11 @@
         }
 
         var groups = {};
-        places.forEach(function (place) {
-            var key = place.iso || place.country;
-            if (!groups[key]) groups[key] = { name: place.country, iso: place.iso, places: [], trips: 0 };
-            groups[key].places.push(place);
-            groups[key].trips += tripsForPlace(place).length;
+        entries.forEach(function (entry) {
+            var key = entry.iso || entry.country;
+            if (!groups[key]) groups[key] = { name: entry.country, iso: entry.iso, entries: [], trips: 0 };
+            groups[key].entries.push(entry);
+            groups[key].trips += entry.sort;
         });
 
         var order = Object.keys(groups).sort(function (a, b) {
@@ -221,19 +297,28 @@
 
         order.forEach(function (key) {
             var group = groups[key];
-            group.places.sort(function (a, b) {
-                return tripsForPlace(b).length - tripsForPlace(a).length || a.name.localeCompare(b.name);
+            group.entries.sort(function (a, b) {
+                return b.sort - a.sort || a.name.localeCompare(b.name);
             });
             html += '<section class="explore-country-group">';
             html += '<button type="button" class="explore-country-label" data-iso="' + escapeHtml(group.iso) + '">' +
                 escapeHtml(group.name) + '</button>';
-            html += group.places.map(function (place) {
-                var thumb = coverFor(place);
-                var count = tripsForPlace(place).length;
-                return '<button class="explore-place-row" data-place="' + place.id + '">' +
+            html += group.entries.map(function (entry) {
+                var thumb;
+                var cities;
+                if (entry.kind === 'trip') {
+                    thumb = entry.trip.thumb || coverFor(entry.places[0]);
+                    cities = entry.places.map(cityShortName).join(' \u00b7 ');
+                    return '<button class="explore-place-row" data-trip-href="' + escapeHtml(entry.trip.href) + '">' +
+                        (thumb ? '<img class="explore-thumb" src="' + thumb + '" alt="">' : '<span class="explore-thumb"></span>') +
+                        '<span class="explore-place-copy"><strong>' + escapeHtml(entry.trip.title) + '</strong>' +
+                        '<span>' + escapeHtml(cities) + '</span></span></button>';
+                }
+                thumb = coverFor(entry.place);
+                return '<button class="explore-place-row" data-place="' + entry.place.id + '">' +
                     (thumb ? '<img class="explore-thumb" src="' + thumb + '" alt="">' : '<span class="explore-thumb"></span>') +
-                    '<span class="explore-place-copy"><strong>' + escapeHtml(place.name) + '</strong>' +
-                    '<span>' + tripCountLabel(count) + '</span></span></button>';
+                    '<span class="explore-place-copy"><strong>' + escapeHtml(entry.place.name) + '</strong>' +
+                    '<span>' + tripCountLabel(entry.sort) + '</span></span></button>';
             }).join('');
             html += '</section>';
         });
@@ -255,6 +340,11 @@
         Array.prototype.forEach.call(list.querySelectorAll('[data-place]'), function (row) {
             row.addEventListener('click', function () {
                 selectPlace(row.getAttribute('data-place'), true);
+            });
+        });
+        Array.prototype.forEach.call(list.querySelectorAll('[data-trip-href]'), function (row) {
+            row.addEventListener('click', function () {
+                window.location.href = row.getAttribute('data-trip-href');
             });
         });
     }
