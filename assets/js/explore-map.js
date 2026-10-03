@@ -35,6 +35,16 @@
         });
     }
 
+    function placesInMapView() {
+        var places = visiblePlaces();
+        if (!state.map) return places;
+        var bounds = state.map.getBounds();
+        if (!bounds || !bounds.isValid()) return places;
+        return places.filter(function (place) {
+            return place.lat != null && place.lng != null && bounds.contains([place.lat, place.lng]);
+        });
+    }
+
     function tripCountLabel(n) {
         return n === 1 ? '1 memory' : n + ' memories';
     }
@@ -175,13 +185,20 @@
     function renderList() {
         var list = document.getElementById('explore-place-list');
         var label = document.getElementById('explore-list-label');
-        var places = visiblePlaces();
+        var available = visiblePlaces();
+        var places = placesInMapView();
+        var sig = places.map(function (place) { return place.id; }).join('|') +
+            '|' + state.typeFilter + '|' + state.countryFilter + '|' + state.regionFilter;
         if (label) {
             label.textContent = typeListLabel();
             label.hidden = !state.typeFilter;
         }
+        if (list.getAttribute('data-sig') === sig) return;
+        list.setAttribute('data-sig', sig);
         if (!places.length) {
-            list.innerHTML = '<p class="explore-lede">No destinations in that group yet.</p>';
+            list.innerHTML = available.length
+                ? '<p class="explore-lede">No destinations in view.</p>'
+                : '<p class="explore-lede">No destinations in that group yet.</p>';
             return;
         }
 
@@ -670,6 +687,11 @@
             state.markers[place.id] = marker;
         });
         state.cluster.addLayers(Object.keys(state.markers).map(function (id) { return state.markers[id]; }));
+
+        state.map.on('moveend', function () {
+            if (!state.data) return;
+            renderList();
+        });
 
         fitToVisible();
         setTimeout(function () { fitToVisible(); }, 300);
