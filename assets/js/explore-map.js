@@ -521,13 +521,29 @@
         return bounds;
     }
 
+    function placeBounds() {
+        return L.latLngBounds(visiblePlaces().map(function (place) { return [place.lat, place.lng]; }));
+    }
+
+    // Opening view should match the old frame. Canada's arctic islands are
+    // still filled, but they must not pull empty ocean into the top of the map.
+    function worldFitBounds() {
+        var bounds = null;
+        if (state.regionLayer) {
+            state.regionLayer.eachLayer(function (layer) {
+                var props = layer.feature && layer.feature.properties;
+                if (!props || props.iso === 'CA' || !placesForFeature(props).length || !layer.getBounds) return;
+                var lb = layer.getBounds();
+                bounds = bounds ? bounds.extend(lb) : L.latLngBounds(lb.getSouthWest(), lb.getNorthEast());
+            });
+        }
+        return bounds || placeBounds();
+    }
+
     function fitToVisible(animate) {
         var places = visiblePlaces();
         if (!places.length) return;
-        var bounds = layerBoundsForSelection()
-            || (state.countryFilter
-                ? L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))
-                : (state.regionLayer ? state.regionLayer.getBounds() : L.latLngBounds(places.map(function (place) { return [place.lat, place.lng]; }))));
+        var bounds = layerBoundsForSelection() || (state.countryFilter ? placeBounds() : worldFitBounds());
         state.map.fitBounds(bounds, Object.assign({ maxZoom: state.countryFilter ? 5 : 2, animate: !!animate, duration: 0.6 }, mapPadding()));
         if (state.regionLayer) state.regionLayer.bringToFront();
         state.map.invalidateSize();
