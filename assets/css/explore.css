@@ -99,7 +99,7 @@ body.explore-body {
 	letter-spacing: -0.02em;
 	color: var(--ink);
 	text-transform: none;
-	margin: 0 0 var(--s-3);
+	margin: 0 0 var(--s-2);
 }
 
 .explore-lede {
@@ -118,44 +118,30 @@ body.explore-body {
 	margin: 0 0 var(--s-5);
 }
 
-.explore-select {
-	position: relative;
+.explore-country-group + .explore-country-group {
+	margin-top: var(--s-5);
+}
+
+.explore-country-label {
 	display: block;
-	margin-bottom: var(--s-5);
-}
-
-.explore-select::after {
-	content: '';
-	position: absolute;
-	right: 18px;
-	top: 50%;
-	width: 7px;
-	height: 7px;
-	margin-top: -6px;
-	border-right: 1.5px solid var(--ink-soft);
-	border-bottom: 1.5px solid var(--ink-soft);
-	transform: rotate(45deg);
-	pointer-events: none;
-}
-
-.explore-select select {
 	width: 100%;
-	min-height: 46px;
-	padding: 0 40px 0 var(--s-4);
-	border: 1px solid var(--line-strong);
-	border-radius: var(--r-md);
-	background: var(--surface);
-	color: var(--ink);
+	margin: 0 0 var(--s-2);
+	padding: 0;
+	border: 0;
+	background: none;
+	text-align: left;
+	color: var(--muted);
 	font-family: var(--font-sans);
-	font-size: var(--fs-ui);
-	-webkit-appearance: none;
-	appearance: none;
-	transition: border-color var(--t-fast) var(--ease);
+	font-size: var(--fs-small);
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
-.explore-select select:hover,
-.explore-select select:focus {
-	border-color: var(--sea);
+.explore-country-label:hover,
+.explore-country-label:focus-visible {
+	color: var(--sea);
 	outline: 0;
 }
 
@@ -643,7 +629,6 @@ body.explore-body {
 		overflow: hidden;
 	}
 
-	.explore-panel[data-sheet="peek"] .explore-select,
 	.explore-panel[data-sheet="peek"] #explore-list-view,
 	.explore-panel[data-sheet="peek"] #explore-detail-view {
 		visibility: hidden;
@@ -718,20 +703,14 @@ body.explore-body {
 		padding-right: var(--s-5);
 	}
 
-	.explore-select {
-		order: 2;
-		margin-bottom: var(--s-4);
-	}
-
-	.explore-select select {
-		min-height: 48px;
-		height: 48px;
-		font-size: 16px;
-	}
-
 	#explore-list-view,
 	#explore-detail-view {
-		order: 3;
+		order: 2;
+	}
+
+	.explore-country-label {
+		min-height: 36px;
+		padding-top: var(--s-2);
 	}
 
 	.explore-place-row,

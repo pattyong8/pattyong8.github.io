@@ -133,56 +133,6 @@
             Object.keys(trips).length + ' memories';
     }
 
-    function renderDestinationSelect() {
-        var select = document.getElementById('explore-destination');
-        var groups = {};
-        var html = '<option value="">All places</option>';
-        var current = '';
-
-        if (!select.getAttribute('data-built')) {
-            state.data.places.forEach(function (place) {
-                if (!groups[place.iso]) {
-                    groups[place.iso] = { name: place.country, places: [] };
-                }
-                groups[place.iso].places.push(place);
-            });
-
-            Object.keys(groups).sort(function (a, b) {
-                return groups[a].name.localeCompare(groups[b].name);
-            }).forEach(function (iso) {
-                var group = groups[iso];
-                var regions = [];
-                var seenRegion = {};
-                html += '<optgroup label="' + escapeHtml(group.name) + '">';
-                html += '<option value="country:' + iso + '">All of ' + escapeHtml(group.name) + '</option>';
-                if (ADMIN1[iso]) {
-                    group.places.forEach(function (place) {
-                        if (place.region && !seenRegion[place.region]) {
-                            seenRegion[place.region] = true;
-                            regions.push(place.region);
-                        }
-                    });
-                    regions.sort(function (a, b) { return a.localeCompare(b); }).forEach(function (region) {
-                        html += '<option value="region:' + iso + ':' + region + '">' + escapeHtml(region) + '</option>';
-                    });
-                }
-                group.places.sort(function (a, b) {
-                    return a.name.localeCompare(b.name);
-                }).forEach(function (place) {
-                    html += '<option value="place:' + place.id + '">' + escapeHtml(place.name) + '</option>';
-                });
-                html += '</optgroup>';
-            });
-            select.innerHTML = html;
-            select.setAttribute('data-built', 'true');
-        }
-
-        if (state.activeId) current = 'place:' + state.activeId;
-        else if (state.regionFilter) current = 'region:' + state.countryFilter + ':' + state.regionFilter;
-        else if (state.countryFilter) current = 'country:' + state.countryFilter;
-        select.value = current;
-    }
-
     function typeListLabel() {
         if (state.typeFilter === 'family') return 'Family destinations';
         if (state.typeFilter === 'friends') return 'Friends destinations';
@@ -226,19 +176,65 @@
         var list = document.getElementById('explore-place-list');
         var label = document.getElementById('explore-list-label');
         var places = visiblePlaces();
-        if (label) label.textContent = typeListLabel();
+        if (label) {
+            label.textContent = typeListLabel();
+            label.hidden = !state.typeFilter;
+        }
         if (!places.length) {
             list.innerHTML = '<p class="explore-lede">No destinations in that group yet.</p>';
             return;
         }
-        list.innerHTML = places.map(function (place) {
-            var thumb = coverFor(place);
-            var count = tripsForPlace(place).length;
-            return '<button class="explore-place-row" data-place="' + place.id + '">' +
-                (thumb ? '<img class="explore-thumb" src="' + thumb + '" alt="">' : '<span class="explore-thumb"></span>') +
-                '<span class="explore-place-copy"><strong>' + escapeHtml(place.name) + '</strong>' +
-                '<span>' + tripCountLabel(count) + ' · ' + escapeHtml(place.country) + '</span></span></button>';
-        }).join('');
+
+        var groups = {};
+        places.forEach(function (place) {
+            var key = place.iso || place.country;
+            if (!groups[key]) groups[key] = { name: place.country, iso: place.iso, places: [], trips: 0 };
+            groups[key].places.push(place);
+            groups[key].trips += tripsForPlace(place).length;
+        });
+
+        var order = Object.keys(groups).sort(function (a, b) {
+            return groups[b].trips - groups[a].trips || groups[a].name.localeCompare(groups[b].name);
+        });
+
+        var html = '';
+        if (state.countryFilter) {
+            html += '<button class="explore-back" id="explore-list-back" type="button">All places</button>';
+        }
+
+        order.forEach(function (key) {
+            var group = groups[key];
+            group.places.sort(function (a, b) {
+                return tripsForPlace(b).length - tripsForPlace(a).length || a.name.localeCompare(b.name);
+            });
+            html += '<section class="explore-country-group">';
+            html += '<button type="button" class="explore-country-label" data-iso="' + escapeHtml(group.iso) + '">' +
+                escapeHtml(group.name) + '</button>';
+            html += group.places.map(function (place) {
+                var thumb = coverFor(place);
+                var count = tripsForPlace(place).length;
+                return '<button class="explore-place-row" data-place="' + place.id + '">' +
+                    (thumb ? '<img class="explore-thumb" src="' + thumb + '" alt="">' : '<span class="explore-thumb"></span>') +
+                    '<span class="explore-place-copy"><strong>' + escapeHtml(place.name) + '</strong>' +
+                    '<span>' + tripCountLabel(count) + '</span></span></button>';
+            }).join('');
+            html += '</section>';
+        });
+
+        list.innerHTML = html;
+
+        var back = document.getElementById('explore-list-back');
+        if (back) {
+            back.addEventListener('click', function () {
+                clearPlace();
+                fitToVisible(true);
+            });
+        }
+        Array.prototype.forEach.call(list.querySelectorAll('.explore-country-label[data-iso]'), function (button) {
+            button.addEventListener('click', function () {
+                selectCountry(button.getAttribute('data-iso'), true);
+            });
+        });
         Array.prototype.forEach.call(list.querySelectorAll('[data-place]'), function (row) {
             row.addEventListener('click', function () {
                 selectPlace(row.getAttribute('data-place'), true);
@@ -501,7 +497,6 @@
     function refresh() {
         renderStats();
         renderTypeChips();
-        renderDestinationSelect();
         renderList();
         refreshMarkers();
         restyleRegions();
@@ -766,26 +761,6 @@
             var old = button.querySelector('svg');
             if (!type || !TYPE_ICONS[type]) return;
             if (old) old.outerHTML = '<span class="explore-chip-dot is-' + type + '">' + iconSvg(type, 13) + '</span>';
-        });
-        document.getElementById('explore-destination').addEventListener('change', function (event) {
-            var value = event.target.value;
-            if (!value) {
-                clearPlace();
-                fitToVisible();
-                return;
-            }
-            if (value.indexOf('place:') === 0) {
-                selectPlace(value.slice(6), true);
-                return;
-            }
-            if (value.indexOf('region:') === 0) {
-                var parts = value.split(':');
-                selectRegion(parts[1], parts.slice(2).join(':'), true);
-                return;
-            }
-            if (value.indexOf('country:') === 0) {
-                selectCountry(value.slice(8), true);
-            }
         });
         bindSheet();
         Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
