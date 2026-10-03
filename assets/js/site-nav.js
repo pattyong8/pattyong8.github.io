@@ -154,12 +154,26 @@
         injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=23');
     }
 
+    function ensureHomeLink(toggle, root) {
+        var home;
+        if (!toggle || toggle.querySelector('[data-nav="home"]')) return;
+        home = document.createElement('a');
+        home.setAttribute('data-nav', 'home');
+        home.href = root + '/index.html';
+        home.textContent = 'Home';
+        toggle.insertBefore(home, toggle.firstChild);
+    }
+
     function paintHeader() {
         var header = document.getElementById('header');
         var root;
+        var toggle;
         if (!header) return;
-        if (header.querySelector('header.scrapbook-shell') && !header.querySelector('.header-area, .logo')) return;
         root = siteRoot(location.pathname);
+        if (header.querySelector('header.scrapbook-shell') && !header.querySelector('.header-area, .logo')) {
+            ensureHomeLink(header.querySelector('.scrapbook-toggle'), root);
+            return;
+        }
         header.innerHTML =
             '<header class="scrapbook-shell" role="banner">' +
                 '<div class="scrapbook-shell-inner">' +

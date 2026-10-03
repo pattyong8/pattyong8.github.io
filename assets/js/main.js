@@ -19,7 +19,7 @@
         root = path.replace(/\/index\.html$/i, '');
     }
     var nav = document.createElement('script');
-    nav.src = root + '/assets/js/site-nav.js?v=25';
+    nav.src = root + '/assets/js/site-nav.js?v=26';
     document.head.appendChild(nav);
 })();
 
