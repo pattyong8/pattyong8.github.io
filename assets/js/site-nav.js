@@ -6,7 +6,7 @@
     var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=23';
     var LIST_CSS = '/assets/css/scrapbook-list.css?v=21';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=7';
-    var TRIP_CSS = '/assets/css/travel-trip.css?v=24';
+    var TRIP_CSS = '/assets/css/travel-trip.css?v=27';
 
     var SECTION_PAGES = {
         'College-J&S': 'Travel-Pages/college/college-J-Sen.html',
@@ -152,7 +152,7 @@
 
     function injectTripCss() {
         if (!/\/Travel-Pages-Sub\//.test(location.pathname)) return;
-        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=24');
+        injectLink(siteRoot(location.pathname) + TRIP_CSS, 'travel-trip.css?v=27');
     }
 
     function ensureHomeLink(toggle, root) {
@@ -256,8 +256,11 @@
             if (hero && title && !hero.getAttribute('alt')) {
                 hero.setAttribute('alt', title);
             }
-            Array.prototype.forEach.call(document.querySelectorAll('img[alt="portfolio image"]'), function (img) {
-                img.setAttribute('alt', title ? title + ' photo' : 'Travel photo');
+            Array.prototype.forEach.call(document.querySelectorAll('.travel-photo-card img, img[alt="portfolio image"]'), function (img) {
+                img.classList.add('travel-photo');
+                if (img.getAttribute('alt') === 'portfolio image') {
+                    img.setAttribute('alt', title ? title + ' photo' : 'Travel photo');
+                }
             });
             lead = document.querySelector('.entry__content .lead, .lead.drop-cap, .entry__content p');
             summary = lead ? lead.textContent.replace(/\s+/g, ' ').trim().slice(0, 160) : '';
