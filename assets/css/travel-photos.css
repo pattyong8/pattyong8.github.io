@@ -1,0 +1,22 @@
+/*
+ * In-page travel photos. Loaded from the trip HTML itself so cached
+ * travel-trip.css cannot leave these pictures square.
+ */
+.travel-photo-row {
+	gap: 12px;
+}
+
+.travel-photo-card {
+	overflow: hidden;
+	border-radius: 22px;
+}
+
+body.scrapbook-trip .travel-photo-card img,
+body.scrapbook-trip .entry__content img,
+body.scrapbook-trip .entry__related img {
+	border-radius: 22px !important;
+}
+
+body.scrapbook-trip .entry__post-thumb img {
+	border-radius: 0 !important;
+}

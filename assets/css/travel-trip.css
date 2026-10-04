@@ -7,7 +7,7 @@
 
 body.scrapbook-trip {
 	--photo-gap: 12px;
-	--r-photo: 10px;
+	--r-photo: 22px;
 	--column: 880px;
 }
 
@@ -543,7 +543,7 @@ body.scrapbook-trip .comment-respond input[type="submit"]:hover {
 @media (max-width: 767px) {
 	body.scrapbook-trip {
 		--photo-gap: 8px;
-		--r-photo: 12px;
+		--r-photo: 22px;
 	}
 
 	body.scrapbook-trip main.content__page {

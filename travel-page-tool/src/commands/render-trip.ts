@@ -179,6 +179,7 @@ export function renderTripHtml(manifest: TripManifest): string {
 	<link rel="stylesheet" href="${depth}assets/css/style.css?v=header-spacing" />
 	<link rel="stylesheet" href="${depth}assets/css/responsive.css" />
 	<link rel="stylesheet" href="${depth}assets/css/travel-trip.css" />
+	<link rel="stylesheet" href="${depth}assets/css/travel-photos.css?v=1" />
 	<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 </head>
