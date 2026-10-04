@@ -119,10 +119,11 @@
     }
 
     // Snap heights for the mobile bottom sheet, in pixels.
+    // Peek is stats + one horizontal chip row above the dock.
     function sheetHeights() {
         var shellH = panelEl().parentNode.getBoundingClientRect().height;
         var dock = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--dock-height')) || 76;
-        return { peek: 186 + dock, half: Math.round(shellH * 0.52), full: Math.round(shellH - 8) };
+        return { peek: 130 + dock, half: Math.round(shellH * 0.52), full: Math.round(shellH - 8) };
     }
 
     function setSheet(name) {
@@ -144,10 +145,36 @@
         return { paddingTopLeft: [blockedLeft() + 16, 48], paddingBottomRight: [48, 48] };
     }
 
-    // World frame at zoom 2, sitting in the open map beside the list.
-    // Focus is the Atlantic so the US, Europe, and Asia are all visible.
+    // Desktop keeps the zoom-2 Atlantic frame. Phones fit the full world into
+    // the open strip above the sheet (fractional zoom; desktop stays snapped).
     var WORLD_ZOOM = 2;
     var WORLD_FOCUS = [20, 0];
+
+    function worldZoom() {
+        if (!isMobile()) return WORLD_ZOOM;
+        if (!state.map) return 0.75;
+        var size = state.map.getSize();
+        var sheet = sheetHeights().peek;
+        var availW = Math.max(200, size.x - 24);
+        var availH = Math.max(160, size.y - sheet - 56);
+        // World pixel size at zoom z is 256 * 2^z. Prefer width fit, then height.
+        var zW = Math.log(availW / 256) / Math.LN2;
+        var zH = Math.log(availH / 256) / Math.LN2;
+        var z = Math.min(zW, zH);
+        if (!isFinite(z)) z = 0.75;
+        return Math.max(0.5, Math.min(1.25, Math.round(z * 4) / 4));
+    }
+
+    function applyMinZoom() {
+        if (!state.map) return;
+        if (isMobile()) {
+            state.map.setMinZoom(0.5);
+            state.map.options.zoomSnap = 0.25;
+        } else {
+            state.map.setMinZoom(WORLD_ZOOM);
+            state.map.options.zoomSnap = 1;
+        }
+    }
 
     function blockedLeft() {
         if (isMobile() || !state.map) return 0;
@@ -158,10 +185,21 @@
         return Math.max(0, panelRect.right - mapRect.left);
     }
 
+    // Shift the camera so the focus sits in the open map: beside the desktop
+    // list, or above the mobile sheet.
     function centerInOpenMap(latlng, zoom) {
-        var shift = blockedLeft() / 2;
-        if (!shift || !state.map) return L.latLng(latlng);
+        if (!state.map) return L.latLng(latlng);
         var pt = state.map.project(latlng, zoom);
+        if (isMobile()) {
+            var size = state.map.getSize();
+            var sheet = sheetHeights()[state.sheet] || 0;
+            var openMidY = Math.max(48, (size.y - sheet) / 2);
+            var shiftY = size.y / 2 - openMidY;
+            if (shiftY > 0) pt = L.point(pt.x, pt.y + shiftY);
+            return state.map.unproject(pt, zoom);
+        }
+        var shift = blockedLeft() / 2;
+        if (!shift) return L.latLng(latlng);
         return state.map.unproject(L.point(pt.x - shift, pt.y), zoom);
     }
 
@@ -169,6 +207,9 @@
 
     function hideCanvasVoid() {
         if (!state.map || tuckingVoid) return;
+        // On phones the sheet already crops the frame. Tucking the arctic
+        // void would slide the world view back under the sheet.
+        if (isMobile() && !state.countryFilter && state.map.getZoom() <= WORLD_ZOOM + 0.01) return;
         var top = state.map.getPixelBounds().min.y;
         if (top >= 0) return;
         tuckingVoid = true;
@@ -178,13 +219,17 @@
 
     function showWorld(animate) {
         if (!state.map) return;
-        var center = centerInOpenMap(WORLD_FOCUS, WORLD_ZOOM);
+        if (isMobile()) setSheet('peek');
+        applyMinZoom();
+        state.map.invalidateSize();
+        var zoom = worldZoom();
+        var center = centerInOpenMap(WORLD_FOCUS, zoom);
         if (animate) {
             state.map.once('moveend', hideCanvasVoid);
-            state.map.flyTo(center, WORLD_ZOOM, { duration: 0.55 });
+            state.map.flyTo(center, zoom, { duration: 0.55 });
             return;
         }
-        state.map.setView(center, WORLD_ZOOM, { animate: false });
+        state.map.setView(center, zoom, { animate: false });
         hideCanvasVoid();
     }
 
@@ -239,8 +284,8 @@
         var latFrac = Math.abs(mercatorY(south) - mercatorY(north));
         if (latFrac < 0.04) latFrac = 0.04;
         var zoomLat = Math.log(availH / (latFrac * 256)) / Math.LN2;
-        var zoom = Math.max(WORLD_ZOOM, Math.min(5, Math.floor(Math.min(zoomLng, zoomLat))));
-        if (!isFinite(zoom)) zoom = WORLD_ZOOM;
+        var zoom = Math.max(worldZoom(), Math.min(5, Math.floor(Math.min(zoomLng, zoomLat))));
+        if (!isFinite(zoom)) zoom = worldZoom();
 
         var center = centerInOpenMap([midLat, midLng], zoom);
         function settle() {
@@ -910,15 +955,17 @@
 
     function initMap(data, geo) {
         state.map = L.map('explore-map', {
-            minZoom: 2,
+            minZoom: isMobile() ? 0.5 : WORLD_ZOOM,
             maxZoom: 8,
+            zoomSnap: isMobile() ? 0.25 : 1,
             worldCopyJump: false,
             zoomControl: false,
             attributionControl: true
-        }).setView([20, -20], WORLD_ZOOM);
+        }).setView([20, -20], isMobile() ? 0.75 : WORLD_ZOOM);
         state.map.attributionControl.setPrefix('');
         if (isMobile()) state.map.attributionControl.setPosition('topleft');
         state.map.attributionControl.addAttribution('Boundaries &copy; Natural Earth');
+        applyMinZoom();
 
         var controls = L.control({ position: 'bottomright' });
         controls.onAdd = function () {
@@ -939,6 +986,7 @@
                 if (act === 'out') state.map.zoomOut();
                 if (act === 'reset') {
                     clearPlace();
+                    if (isMobile()) setSheet('peek');
                     fitToVisible(true);
                 }
             });
@@ -1004,7 +1052,9 @@
     }
 
     function cycleSheet() {
-        setSheet(state.sheet === 'peek' ? 'half' : (state.sheet === 'full' ? 'half' : 'peek'));
+        if (state.sheet === 'peek') setSheet('half');
+        else if (state.sheet === 'half') setSheet('full');
+        else setSheet('peek');
     }
 
     function bindSheet() {
@@ -1074,11 +1124,15 @@
         });
 
         window.addEventListener('resize', function () {
+            applyMinZoom();
             if (!isMobile()) {
                 panel.style.height = '';
                 panel.removeAttribute('data-sheet');
             } else if (!panel.getAttribute('data-sheet')) {
                 setSheet(state.sheet);
+            }
+            if (state.map && !currentFilter() && !state.activeId && !state.countryFilter) {
+                showWorld(false);
             }
         });
     }

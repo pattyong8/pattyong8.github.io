@@ -562,7 +562,8 @@ body.explore-body {
 
 @media (max-width: 767px) {
 	.explore-panel {
-		--sheet-peek: calc(186px + var(--dock-height) + var(--safe-bottom));
+		/* Stats + one horizontal chip row above the dock. */
+		--sheet-peek: calc(130px + var(--dock-height) + var(--safe-bottom));
 		top: auto;
 		left: 0;
 		right: 0;
@@ -656,15 +657,23 @@ body.explore-body {
 		font-size: var(--fs-small);
 	}
 
+	/* One scrolling chip row keeps peek short and the map open. */
 	.explore-tag-row {
 		order: 1;
-		flex-wrap: wrap;
-		overflow: visible;
-		margin: 0 0 var(--s-4);
-		padding: 0;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: none;
+		margin: 0 calc(var(--page-gutter) * -1) var(--s-4);
+		padding: 0 var(--page-gutter);
+	}
+
+	.explore-tag-row::-webkit-scrollbar {
+		display: none;
 	}
 
 	.explore-tag-row button {
+		flex: 0 0 auto;
 		min-height: 40px;
 		padding: 0 12px;
 	}
