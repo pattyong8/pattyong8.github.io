@@ -426,6 +426,8 @@ const TRIP_ACTIVITIES = [
 
   { slug: 'Playa-del-Carmen-July-2021', activities: ['scuba'] },
   { slug: 'Croatia-Sept-2022', activities: ['scuba'], places: ['hvar'] },
+  { title: 'Cabo, Mexico', year: '2024', dateRange: 'Oct 2024', activities: ['scuba'] },
+  { slug: 'Philippines-Jan-2024', activities: ['scuba'] },
   { slug: 'Jun-Italy-and-Malta-2026', activities: ['scuba'], places: ['malta'] },
 
   { slug: 'Holcomb-Valley-19', activities: ['climb'] },

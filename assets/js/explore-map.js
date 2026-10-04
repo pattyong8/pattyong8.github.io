@@ -18,6 +18,23 @@
         sheet: 'peek'
     };
 
+    var ACTIVITY_TAGS = { ski: 1, scuba: 1, climb: 1, golf: 1 };
+    var TYPE_TAGS = { family: 1, friends: 1, work: 1, solo: 1 };
+    var FILTER_LABEL = {
+        family: 'Family destinations',
+        friends: 'Friends destinations',
+        work: 'Work destinations',
+        solo: 'Solo destinations',
+        ski: 'Ski destinations',
+        scuba: 'Scuba destinations',
+        climb: 'Climb destinations',
+        golf: 'Golf destinations'
+    };
+
+    function currentFilter() {
+        return state.activityFilter || state.typeFilter || '';
+    }
+
     function tripHasActivity(trip) {
         if (!state.activityFilter) return true;
         return (trip.activities || []).indexOf(state.activityFilter) !== -1;
@@ -105,7 +122,7 @@
     function sheetHeights() {
         var shellH = panelEl().parentNode.getBoundingClientRect().height;
         var dock = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--dock-height')) || 76;
-        return { peek: 132 + dock, half: Math.round(shellH * 0.52), full: Math.round(shellH - 8) };
+        return { peek: 186 + dock, half: Math.round(shellH * 0.52), full: Math.round(shellH - 8) };
     }
 
     function setSheet(name) {
@@ -124,7 +141,138 @@
         if (isMobile()) {
             return { paddingTopLeft: [16, 64], paddingBottomRight: [16, sheetHeights()[state.sheet] + 16] };
         }
-        return { paddingTopLeft: [440, 80], paddingBottomRight: [48, 48] };
+        return { paddingTopLeft: [blockedLeft() + 16, 48], paddingBottomRight: [48, 48] };
+    }
+
+    // World frame at zoom 2, sitting in the open map beside the list.
+    // Focus is the Atlantic so the US, Europe, and Asia are all visible.
+    var WORLD_ZOOM = 2;
+    var WORLD_FOCUS = [20, 0];
+
+    function blockedLeft() {
+        if (isMobile() || !state.map) return 0;
+        var panel = panelEl();
+        if (!panel) return 0;
+        var mapRect = state.map.getContainer().getBoundingClientRect();
+        var panelRect = panel.getBoundingClientRect();
+        return Math.max(0, panelRect.right - mapRect.left);
+    }
+
+    function centerInOpenMap(latlng, zoom) {
+        var shift = blockedLeft() / 2;
+        if (!shift || !state.map) return L.latLng(latlng);
+        var pt = state.map.project(latlng, zoom);
+        return state.map.unproject(L.point(pt.x - shift, pt.y), zoom);
+    }
+
+    var tuckingVoid = false;
+
+    function hideCanvasVoid() {
+        if (!state.map || tuckingVoid) return;
+        var top = state.map.getPixelBounds().min.y;
+        if (top >= 0) return;
+        tuckingVoid = true;
+        state.map.panBy([0, top], { animate: false });
+        tuckingVoid = false;
+    }
+
+    function showWorld(animate) {
+        if (!state.map) return;
+        var center = centerInOpenMap(WORLD_FOCUS, WORLD_ZOOM);
+        if (animate) {
+            state.map.once('moveend', hideCanvasVoid);
+            state.map.flyTo(center, WORLD_ZOOM, { duration: 0.55 });
+            return;
+        }
+        state.map.setView(center, WORLD_ZOOM, { animate: false });
+        hideCanvasVoid();
+    }
+
+    function mercatorY(lat) {
+        var s = Math.sin(lat * Math.PI / 180);
+        return 0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI);
+    }
+
+    // Frame every place in the open map. Wrapped groups (US + Japan)
+    // use the shorter arc and flyTo, not Leaflet flyToBounds.
+    function fitPlaces(places, animate) {
+        if (!places.length || !state.map) return;
+        if (places.length === 1) {
+            flyToPlace(places[0]);
+            return;
+        }
+        var ext = placeExtent(places);
+        if (!ext) {
+            showWorld(!!animate);
+            return;
+        }
+
+        var south = ext.south;
+        var north = Math.min(ext.north, 60);
+        var west = ext.west;
+        var east = ext.east;
+        var lngSpan = east - west;
+        if (lngSpan <= 0) lngSpan += 360;
+        lngSpan = Math.max(lngSpan, 14);
+        // US + Japan and similar groups need the world frame so every
+        // pin stays on screen. Leaflet cannot flyToBounds across 180.
+        if (east > 180 || lngSpan > 150) {
+            showWorld(!!animate);
+            return;
+        }
+
+        var padLng = lngSpan * 0.18;
+        west -= padLng;
+        east += padLng;
+        lngSpan = east - west;
+
+        var midLat = (south + north) / 2;
+        var midLng = (west + east) / 2;
+        while (midLng > 180) midLng -= 360;
+        while (midLng < -180) midLng += 360;
+
+        var pad = mapPadding();
+        var size = state.map.getSize();
+        var availW = Math.max(160, size.x - pad.paddingTopLeft[0] - pad.paddingBottomRight[0]);
+        var availH = Math.max(160, size.y - pad.paddingTopLeft[1] - pad.paddingBottomRight[1]);
+        var zoomLng = Math.log(availW * 360 / (lngSpan * 256)) / Math.LN2;
+        var latFrac = Math.abs(mercatorY(south) - mercatorY(north));
+        if (latFrac < 0.04) latFrac = 0.04;
+        var zoomLat = Math.log(availH / (latFrac * 256)) / Math.LN2;
+        var zoom = Math.max(WORLD_ZOOM, Math.min(5, Math.floor(Math.min(zoomLng, zoomLat))));
+        if (!isFinite(zoom)) zoom = WORLD_ZOOM;
+
+        var center = centerInOpenMap([midLat, midLng], zoom);
+        function settle() {
+            hideCanvasVoid();
+            nudgePlacesIntoView(places);
+        }
+        if (animate) {
+            state.map.flyTo(center, zoom, { duration: 0.55 });
+            setTimeout(settle, 650);
+            return;
+        }
+        state.map.setView(center, zoom, { animate: false });
+        settle();
+    }
+
+    function nudgePlacesIntoView(places) {
+        if (!state.map || isMobile()) return;
+        var size = state.map.getSize();
+        var left = blockedLeft() + 28;
+        var right = size.x - 28;
+        var minX = Infinity;
+        var maxX = -Infinity;
+        places.forEach(function (place) {
+            var pt = state.map.latLngToContainerPoint([place.lat, place.lng]);
+            if (pt.x < minX) minX = pt.x;
+            if (pt.x > maxX) maxX = pt.x;
+        });
+        if (!isFinite(maxX)) return;
+        var dx = 0;
+        if (maxX > right) dx -= maxX - right;
+        if (minX + dx < left) dx += left - (minX + dx);
+        if (Math.abs(dx) > 2) state.map.panBy([dx, 0], { animate: false });
     }
 
     // Keep a pin clear of the sheet after a tap on the map.
@@ -140,7 +288,7 @@
     }
 
     function renderStats() {
-        var source = state.activityFilter ? visiblePlaces() : state.data.places;
+        var source = currentFilter() ? visiblePlaces() : state.data.places;
         var trips = {};
         var countries = {};
         source.forEach(function (place) {
@@ -149,7 +297,7 @@
                 trips[trip.href + '|' + trip.title + '|' + trip.dateRange] = true;
             });
         });
-        if (state.activityFilter) {
+        if (currentFilter()) {
             document.getElementById('explore-stats').textContent =
                 source.length + ' places · ' +
                 Object.keys(trips).length + ' memories';
@@ -161,24 +309,14 @@
         }
     }
 
-    function renderActivityLens() {
-        Array.prototype.forEach.call(document.querySelectorAll('#explore-activity-lens [data-activity]'), function (button) {
-            var on = button.getAttribute('data-activity') === state.activityFilter;
-            button.classList.toggle('is-active', on);
-            button.setAttribute('aria-pressed', on ? 'true' : 'false');
-        });
-    }
-
     function typeListLabel() {
-        if (state.typeFilter === 'family') return 'Family destinations';
-        if (state.typeFilter === 'friends') return 'Friends destinations';
-        if (state.typeFilter === 'work') return 'Work destinations';
-        return 'Destinations';
+        return FILTER_LABEL[currentFilter()] || 'Destinations';
     }
 
-    function renderTypeChips() {
-        Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
-            var on = button.getAttribute('data-type') === state.typeFilter;
+    function renderTagChips() {
+        var current = currentFilter();
+        Array.prototype.forEach.call(document.querySelectorAll('.explore-tag-row [data-filter]'), function (button) {
+            var on = button.getAttribute('data-filter') === current;
             button.classList.toggle('is-active', on);
             button.setAttribute('aria-pressed', on ? 'true' : 'false');
         });
@@ -207,14 +345,36 @@
         refresh();
     }
 
-    function setTypeFilter(type) {
-        state.typeFilter = type || '';
+    function setFilter(value) {
+        value = value || '';
+        if (ACTIVITY_TAGS[value]) {
+            state.activityFilter = value;
+            state.typeFilter = '';
+        } else if (TYPE_TAGS[value]) {
+            state.typeFilter = value;
+            state.activityFilter = '';
+        } else {
+            state.typeFilter = '';
+            state.activityFilter = '';
+        }
+        var hadPlace = !!state.activeId || !!currentHash();
+        state.activeId = null;
+        state.countryFilter = '';
+        state.regionFilter = '';
         applyFilters();
+        if (hadPlace) setHash('', 'push');
+        fitToFilter();
     }
 
-    function setActivityFilter(activity) {
-        state.activityFilter = activity || '';
-        applyFilters();
+    function fitToFilter() {
+        var places = visiblePlaces();
+        if (!places.length || !state.map) return;
+        state.map.invalidateSize();
+        if (!currentFilter()) {
+            showWorld(true);
+            return;
+        }
+        flyToGroup(places);
     }
 
     function tripKey(trip) {
@@ -302,7 +462,7 @@
             '|' + state.typeFilter + '|' + state.activityFilter + '|' + state.countryFilter + '|' + state.regionFilter;
         if (label) {
             label.textContent = typeListLabel();
-            label.hidden = !state.typeFilter;
+            label.hidden = !currentFilter();
         }
         if (list.getAttribute('data-sig') === sig) return;
         list.setAttribute('data-sig', sig);
@@ -445,47 +605,14 @@
         if (!keepSheet) openSheet();
     }
 
-    var TYPE_ICONS = {
-        family: '<path fill="currentColor" d="M12 3 2.5 11.4h2.8V20.5h4.9v-6.1h3.6v6.1h4.9v-9.1h2.8L12 3z"/>',
-        friends: '<circle cx="6" cy="7.4" r="3.5" fill="currentColor"/>' +
-            '<path fill="currentColor" d="M0.8 20.6c0-3.9 2.3-6.5 5.2-6.5s5.2 2.6 5.2 6.5z"/>' +
-            '<circle cx="18" cy="7.4" r="3.5" fill="currentColor"/>' +
-            '<path fill="currentColor" d="M12.8 20.6c0-3.9 2.3-6.5 5.2-6.5s5.2 2.6 5.2 6.5z"/>',
-        work: '<path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8.6 7V5.2c0-.9.7-1.7 1.7-1.7h3.4c1 0 1.7.8 1.7 1.7V7"/>' +
-            '<path fill="currentColor" fill-rule="evenodd" d="M4.9 6.5h14.2c1.3 0 2.4 1.1 2.4 2.4v9.2c0 1.3-1.1 2.4-2.4 2.4H4.9c-1.3 0-2.4-1.1-2.4-2.4V8.9c0-1.3 1.1-2.4 2.4-2.4zM2.5 11.5v1.5h19v-1.5z"/>' +
-            '<rect x="10.2" y="10.4" width="3.6" height="4.2" rx="0.9" fill="currentColor"/>',
-        solo: '<circle cx="12" cy="7" r="4.2" fill="currentColor"/><path fill="currentColor" d="M3.8 21c0-4.6 3.6-7.4 8.2-7.4s8.2 2.8 8.2 7.4z"/>',
-        other: '<circle cx="12" cy="12" r="4" fill="currentColor"/>'
-    };
-
-    function iconSvg(type, size) {
-        return '<svg viewBox="0 0 24 24" width="' + size + '" height="' + size + '" aria-hidden="true">' + TYPE_ICONS[type] + '</svg>';
-    }
-
-    var TYPE_PRIORITY = ['family', 'friends', 'work', 'solo'];
-
-    function markerType(place) {
-        var counts = { family: 0, friends: 0, work: 0, solo: 0 };
-        var best = '';
-        if (state.typeFilter) return state.typeFilter;
-        tripsForPlace(place).forEach(function (trip) {
-            if (counts.hasOwnProperty(trip.type)) counts[trip.type] += 1;
-        });
-        TYPE_PRIORITY.forEach(function (type) {
-            if (counts[type] && (!best || counts[type] > counts[best])) best = type;
-        });
-        return best || 'other';
-    }
-
     function markerIcon(place, active) {
-        var type = markerType(place);
-        var size = active ? 40 : 30;
+        var size = active ? 40 : 28;
         return L.divIcon({
             className: 'explore-marker-wrap',
             iconSize: [size, size],
             iconAnchor: [size / 2, size / 2],
-            html: '<div class="explore-marker is-' + type + (active ? ' is-active' : '') + '">' +
-                iconSvg(type, active ? 22 : 16) +
+            html: '<div class="explore-marker' + (active ? ' is-active' : '') + '">' +
+                '<span class="explore-marker-core"></span>' +
                 (active ? '<span class="explore-marker-label">' + escapeHtml(place.name) + '</span>' : '') +
                 '</div>'
         });
@@ -501,7 +628,7 @@
             var show = !!visible[id];
             var has = state.cluster.hasLayer(marker);
             var active = id === state.activeId;
-            var sig = markerType(placeById(id)) + (active ? '!' : '');
+            var sig = active ? '!' : '.';
             if (show && !has) add.push(marker);
             if (!show && has) remove.push(marker);
             if (marker._sig !== sig) {
@@ -552,15 +679,7 @@
     }
 
     function flyToGroup(places) {
-        if (!places.length) return;
-        if (places.length === 1) {
-            flyToPlace(places[0]);
-            return;
-        }
-        var bounds = L.latLngBounds(places.map(function (place) {
-            return [place.lat, place.lng];
-        }));
-        state.map.flyToBounds(bounds, Object.assign({ maxZoom: 5, duration: 0.55 }, mapPadding()));
+        fitPlaces(places, true);
     }
 
     function currentHash() {
@@ -638,8 +757,7 @@
 
     function refresh() {
         renderStats();
-        renderTypeChips();
-        renderActivityLens();
+        renderTagChips();
         renderList();
         refreshMarkers();
         restyleRegions();
@@ -648,7 +766,7 @@
 
     function layerBoundsForSelection() {
         var bounds = null;
-        if (!state.regionLayer || !state.countryFilter || ADMIN1[state.countryFilter]) return bounds;
+        if (!state.regionLayer || !state.countryFilter || ADMIN1[state.countryFilter] || state.countryFilter === 'CA') return bounds;
         state.regionLayer.eachLayer(function (layer) {
             var props = layer.feature && layer.feature.properties;
             if (!props || props.iso !== state.countryFilter) return;
@@ -660,7 +778,57 @@
     }
 
     function placeBounds() {
-        return L.latLngBounds(visiblePlaces().map(function (place) { return [place.lat, place.lng]; }));
+        return tightPlaceBounds(visiblePlaces());
+    }
+
+    // Shorter-arc box. east may be > 180 when the group crosses the
+    // Pacific (US + Japan). Do not send that through Leaflet bounds.
+    function placeExtent(places) {
+        var south = Infinity;
+        var north = -Infinity;
+        var lngs = [];
+        places.forEach(function (place) {
+            if (place.lat == null || place.lng == null) return;
+            if (place.lat < south) south = place.lat;
+            if (place.lat > north) north = place.lat;
+            lngs.push(place.lng);
+        });
+        if (!lngs.length) return null;
+        lngs.sort(function (a, b) { return a - b; });
+        var maxGap = (lngs[0] + 360) - lngs[lngs.length - 1];
+        var gapAfter = lngs.length - 1;
+        var wrapIsLargest = true;
+        for (var i = 0; i < lngs.length - 1; i++) {
+            var gap = lngs[i + 1] - lngs[i];
+            if (gap > maxGap) {
+                maxGap = gap;
+                gapAfter = i;
+                wrapIsLargest = false;
+            }
+        }
+        return {
+            south: south,
+            north: north,
+            west: wrapIsLargest ? lngs[0] : lngs[gapAfter + 1],
+            east: wrapIsLargest ? lngs[lngs.length - 1] : lngs[gapAfter] + 360
+        };
+    }
+
+    function tightPlaceBounds(places) {
+        var ext = placeExtent(places);
+        if (!ext) return null;
+        return L.latLngBounds([[ext.south, ext.west], [ext.north, ext.east]]);
+    }
+
+    // Wide longitude spans take the long way around the globe and pull
+    // empty Arctic canvas into frame. Those go back to the world camera.
+    function overviewBounds(places) {
+        var tight = tightPlaceBounds(places);
+        if (!tight || !tight.isValid()) return null;
+        var west = tight.getWest();
+        var east = tight.getEast();
+        if (east > 180 || west < -180 || Math.abs(east - west) > 180) return null;
+        return tight;
     }
 
     // Opening view should match the old frame. Canada's arctic islands are
@@ -681,8 +849,16 @@
     function fitToVisible(animate) {
         var places = visiblePlaces();
         if (!places.length) return;
-        var bounds = layerBoundsForSelection() || (state.countryFilter ? placeBounds() : worldFitBounds());
-        state.map.fitBounds(bounds, Object.assign({ maxZoom: state.countryFilter ? 5 : 2, animate: !!animate, duration: 0.6 }, mapPadding()));
+        if (!state.countryFilter) {
+            showWorld(!!animate);
+            return;
+        }
+        var bounds = layerBoundsForSelection() || placeBounds();
+        if (!bounds || !bounds.isValid()) {
+            showWorld(!!animate);
+            return;
+        }
+        state.map.fitBounds(bounds, Object.assign({ maxZoom: 5, animate: !!animate, duration: 0.6 }, mapPadding()));
         if (state.regionLayer) state.regionLayer.bringToFront();
         state.map.invalidateSize();
     }
@@ -734,12 +910,12 @@
 
     function initMap(data, geo) {
         state.map = L.map('explore-map', {
-            minZoom: 1,
+            minZoom: 2,
             maxZoom: 8,
             worldCopyJump: false,
             zoomControl: false,
             attributionControl: true
-        }).setView([20, -20], 2);
+        }).setView([20, -20], WORLD_ZOOM);
         state.map.attributionControl.setPrefix('');
         if (isMobile()) state.map.attributionControl.setPosition('topleft');
         state.map.attributionControl.addAttribution('Boundaries &copy; Natural Earth');
@@ -800,7 +976,7 @@
                 keyboard: true,
                 title: place.name
             });
-            marker._sig = markerType(place);
+            marker._sig = '.';
             marker.on('click', function () { selectPlace(place.id, false, true); });
             if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
                 marker.bindTooltip(function () { return tipHtml(place); }, {
@@ -815,8 +991,12 @@
         state.cluster.addLayers(Object.keys(state.markers).map(function (id) { return state.markers[id]; }));
 
         state.map.on('moveend', function () {
+            hideCanvasVoid();
             if (!state.data) return;
             renderList();
+        });
+        state.map.on('resize', function () {
+            if (!currentFilter() && !state.activeId && !state.countryFilter) showWorld(false);
         });
 
         fitToVisible();
@@ -904,31 +1084,18 @@
     }
 
     function bindUi() {
-        Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
-            var type = button.getAttribute('data-type');
-            var old = button.querySelector('svg');
-            if (!type || !TYPE_ICONS[type]) return;
-            if (old) old.outerHTML = '<span class="explore-chip-dot is-' + type + '">' + iconSvg(type, 13) + '</span>';
-        });
         bindSheet();
-        Array.prototype.forEach.call(document.querySelectorAll('.explore-type-row [data-type]'), function (button) {
+        Array.prototype.forEach.call(document.querySelectorAll('.explore-tag-row [data-filter]'), function (button) {
             button.addEventListener('click', function () {
-                var type = button.getAttribute('data-type') || '';
-                if (type && type === state.typeFilter) type = '';
-                setTypeFilter(type);
-            });
-        });
-        Array.prototype.forEach.call(document.querySelectorAll('#explore-activity-lens [data-activity]'), function (button) {
-            button.addEventListener('click', function () {
-                var activity = button.getAttribute('data-activity') || '';
-                if (activity && activity === state.activityFilter) activity = '';
-                setActivityFilter(activity);
+                var value = button.getAttribute('data-filter') || '';
+                if (value && value === currentFilter()) value = '';
+                setFilter(value);
             });
         });
     }
 
     Promise.all([
-        fetch('assets/data/explore-places.json?v=16').then(function (res) { return res.json(); }),
+        fetch('assets/data/explore-places.json?v=18').then(function (res) { return res.json(); }),
         fetch('assets/data/map-regions.geojson?v=3').then(function (res) { return res.json(); })
     ]).then(function (results) {
         state.data = results[0];

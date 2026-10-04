@@ -41,12 +41,12 @@ body.explore-body {
 	position: absolute;
 	inset: 0;
 	z-index: 1;
-	background: #e8e4dc;
+	background: var(--surface);
 	font-family: var(--font-sans);
 }
 
 .leaflet-container {
-	background: #e8e4dc;
+	background: var(--surface);
 	font-family: var(--font-sans);
 }
 
@@ -72,6 +72,12 @@ body.explore-body {
 	z-index: 10;
 	color: var(--ink);
 	pointer-events: none;
+}
+
+@media (max-width: 1280px) {
+	.explore-panel {
+		width: min(320px, calc(100vw - 48px));
+	}
 }
 
 .explore-panel-inner {
@@ -118,46 +124,6 @@ body.explore-body {
 	margin: 0 0 var(--s-5);
 }
 
-/* Activity lens: caption words, not a second chip row. */
-.explore-activity-lens {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin: 0 0 var(--s-2);
-	font-family: var(--font-sans);
-	font-size: var(--fs-small);
-	letter-spacing: 0.03em;
-	color: var(--muted);
-}
-
-.explore-activity-lens button {
-	border: 0;
-	background: none;
-	padding: 0;
-	color: inherit;
-	font: inherit;
-	letter-spacing: inherit;
-	line-height: 1.5;
-	cursor: pointer;
-}
-
-.explore-activity-lens button + button::before {
-	content: '\00b7';
-	margin: 0 0.55em;
-	color: var(--muted);
-	pointer-events: none;
-}
-
-.explore-activity-lens button:hover,
-.explore-activity-lens button:focus-visible {
-	color: var(--ink);
-	outline: 0;
-}
-
-.explore-activity-lens button.is-active {
-	color: var(--sea);
-}
-
 .explore-country-group + .explore-country-group {
 	margin-top: var(--s-5);
 }
@@ -185,21 +151,20 @@ body.explore-body {
 	outline: 0;
 }
 
-/* Who I went with: filter and legend in one. */
-.explore-type-row {
+/* One wrapping word menu. People on the first line, activities on the next. */
+.explore-tag-row {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--s-2);
+	gap: 6px;
 	margin: 0 0 var(--s-5);
 }
 
-.explore-type-row button {
+.explore-tag-row button {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	gap: var(--s-2);
-	min-height: 40px;
-	padding: 0 var(--s-4) 0 var(--s-3);
+	min-height: 34px;
+	padding: 0 12px;
 	border-radius: var(--r-pill);
 	border: 1px solid var(--line-strong);
 	background: var(--surface);
@@ -210,47 +175,22 @@ body.explore-body {
 	line-height: 1.3;
 	text-transform: none;
 	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	caret-color: transparent;
 	transition: background var(--t-fast) var(--ease), color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease);
 }
 
-.explore-type-row button[data-type=""] {
-	padding-left: var(--s-4);
-}
-
-.explore-type-row button:hover {
+.explore-tag-row button:hover {
 	background: var(--sea-mist);
 	color: var(--ink);
 }
 
-.explore-type-row button.is-active,
-.explore-type-row button.is-active:hover {
+.explore-tag-row button.is-active,
+.explore-tag-row button.is-active:hover {
 	background: var(--sea-deep);
 	border-color: var(--sea-deep);
 	color: var(--paper);
-}
-
-.explore-chip-dot {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 22px;
-	height: 22px;
-	border-radius: 50%;
-	color: #fff;
-	flex: none;
-}
-
-.explore-chip-dot svg {
-	display: block;
-}
-
-.explore-chip-dot.is-family { background: var(--type-family); }
-.explore-chip-dot.is-friends { background: var(--type-friends); }
-.explore-chip-dot.is-work { background: var(--type-work); }
-.explore-chip-dot.is-solo { background: var(--type-solo); }
-
-.explore-type-row button.is-active .explore-chip-dot {
-	box-shadow: 0 0 0 1.5px rgba(245, 242, 236, 0.85);
 }
 
 .explore-list-label,
@@ -436,8 +376,8 @@ body.explore-body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #8a9694;
-	color: #fff;
+	background: var(--sea-deep);
+	color: var(--paper);
 	border: 2.5px solid var(--surface);
 	box-sizing: border-box;
 	box-shadow: 0 1px 2px rgba(26, 42, 44, 0.25), 0 4px 12px rgba(26, 42, 44, 0.22);
@@ -445,18 +385,16 @@ body.explore-body {
 	cursor: pointer;
 }
 
-.explore-marker svg {
-	display: block;
+.explore-marker-core {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: rgba(251, 249, 245, 0.92);
 }
 
 .explore-marker-wrap:hover .explore-marker {
 	transform: scale(1.14);
 }
-
-.explore-marker.is-family { background: var(--type-family); }
-.explore-marker.is-friends { background: var(--type-friends); }
-.explore-marker.is-work { background: var(--type-work); }
-.explore-marker.is-solo { background: var(--type-solo); }
 
 .explore-marker.is-active {
 	border-width: 3px;
@@ -624,7 +562,7 @@ body.explore-body {
 
 @media (max-width: 767px) {
 	.explore-panel {
-		--sheet-peek: calc(132px + var(--dock-height) + var(--safe-bottom));
+		--sheet-peek: calc(186px + var(--dock-height) + var(--safe-bottom));
 		top: auto;
 		left: 0;
 		right: 0;
@@ -712,44 +650,23 @@ body.explore-body {
 		display: block;
 	}
 
-	.explore-activity-lens,
 	.explore-caption {
 		order: 0;
 		margin: 0 0 var(--s-3);
 		font-size: var(--fs-small);
 	}
 
-	.explore-activity-lens {
-		margin-bottom: var(--s-1);
-	}
-
-	.explore-activity-lens button {
-		min-height: 32px;
-	}
-
-	.explore-type-row {
+	.explore-tag-row {
 		order: 1;
-		flex-wrap: nowrap;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-		scrollbar-width: none;
-		margin: 0 calc(var(--page-gutter) * -1) var(--s-4);
-		padding: 0 var(--page-gutter);
+		flex-wrap: wrap;
+		overflow: visible;
+		margin: 0 0 var(--s-4);
+		padding: 0;
 	}
 
-	.explore-type-row::-webkit-scrollbar {
-		display: none;
-	}
-
-	.explore-type-row button {
-		flex: 0 0 auto;
-		min-height: 44px;
-		padding: 0 var(--s-4) 0 var(--s-3);
-	}
-
-	.explore-type-row button[data-type=""] {
-		padding-left: var(--s-5);
-		padding-right: var(--s-5);
+	.explore-tag-row button {
+		min-height: 40px;
+		padding: 0 12px;
 	}
 
 	#explore-list-view,
@@ -794,8 +711,7 @@ body.explore-body {
 	}
 
 	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-caption,
-	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-activity-lens,
-	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-type-row {
+	.explore-panel[data-sheet="peek"][data-has-place="true"] .explore-tag-row {
 		display: none;
 	}
 

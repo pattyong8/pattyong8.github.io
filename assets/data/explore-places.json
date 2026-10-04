@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:40:18.738Z",
+  "generatedAt": "2026-10-04T05:50:32.781Z",
   "totals": {
     "places": 94,
     "trips": 217,
@@ -2715,8 +2715,14 @@
           "type": "friends",
           "href": "Travel-Pages/20s/20s-2024.html",
           "thumb": "assets/images/gallary/20s/2024/Oct-Cabo-2024.jpeg",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "scuba"
+          ]
         }
+      ],
+      "activities": [
+        "scuba"
       ]
     },
     {
@@ -2859,8 +2865,14 @@
           "type": "family",
           "href": "Travel-Pages/20s/20s-2024.html",
           "thumb": "",
-          "excerpt": ""
+          "excerpt": "",
+          "activities": [
+            "scuba"
+          ]
         }
+      ],
+      "activities": [
+        "scuba"
       ]
     },
     {

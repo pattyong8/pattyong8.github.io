@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-	<link rel="stylesheet" href="assets/css/explore.css?v=24" />
+	<link rel="stylesheet" href="assets/css/explore.css?v=35" />
 	<link rel="stylesheet" href="assets/css/scrapbook-shell.css?v=23" />
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -47,33 +47,18 @@
 				<div class="explore-preview" id="explore-preview"></div>
 				<div class="explore-kicker">By place</div>
 				<h1>Where I've been</h1>
-				<p class="explore-activity-lens" id="explore-activity-lens" role="group" aria-label="Activities">
-					<button type="button" data-activity="" class="is-active" aria-pressed="true">All</button>
-					<button type="button" data-activity="ski" aria-pressed="false">Ski</button>
-					<button type="button" data-activity="scuba" aria-pressed="false">Scuba</button>
-					<button type="button" data-activity="climb" aria-pressed="false">Climb</button>
-					<button type="button" data-activity="golf" aria-pressed="false">Golf</button>
-				</p>
 				<p class="explore-caption" id="explore-stats"></p>
 
-				<div class="explore-type-row" role="group" aria-label="Who I went with">
-					<button type="button" class="is-active" data-type="" aria-pressed="true">All</button>
-					<button type="button" data-type="family" aria-pressed="false">
-						<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 2.1 1.8 7.2V14h4.4V9.4h3.6V14h4.4V7.2L8 2.1z"/></svg>
-						Family
-					</button>
-					<button type="button" data-type="friends" aria-pressed="false">
-						<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M6 7.1a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4zm5.3.5a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8zM2.1 13.6c.3-2.2 2-3.5 3.9-3.5s3.6 1.3 3.9 3.5H2.1zm7.5 0c.2-1.3.7-2.3 1.5-2.9.8.3 1.6.5 2.5.5 1.3 0 2.3-.5 2.5 1.6v.8H9.6z"/></svg>
-						Friends
-					</button>
-					<button type="button" data-type="work" aria-pressed="false">
-						<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M6 3.2h4V5h3.1c1 0 1.8.8 1.8 1.8v6.1c0 1-.8 1.8-1.8 1.8H3.1c-1 0-1.8-.8-1.8-1.8V6.8C1.3 5.8 2.1 5 3.1 5H6V3.2C6 2.5 6.5 2 7.2 2h1.6C9.5 2 10 2.5 10 3.2V5H6V3.2z"/></svg>
-						Work
-					</button>
-					<button type="button" data-type="solo" aria-pressed="false">
-						<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="5" r="2.8" fill="currentColor"/><path fill="currentColor" d="M2.6 14c0-3 2.4-4.8 5.4-4.8s5.4 1.8 5.4 4.8z"/></svg>
-						Solo
-					</button>
+				<div class="explore-tag-row" role="group" aria-label="Filter places">
+					<button type="button" class="is-active" data-filter="" aria-pressed="true">All</button>
+					<button type="button" data-filter="family" aria-pressed="false">Family</button>
+					<button type="button" data-filter="friends" aria-pressed="false">Friends</button>
+					<button type="button" data-filter="work" aria-pressed="false">Work</button>
+					<button type="button" data-filter="solo" aria-pressed="false">Solo</button>
+					<button type="button" data-filter="ski" aria-pressed="false">Ski</button>
+					<button type="button" data-filter="scuba" aria-pressed="false">Scuba</button>
+					<button type="button" data-filter="climb" aria-pressed="false">Climb</button>
+					<button type="button" data-filter="golf" aria-pressed="false">Golf</button>
 				</div>
 
 				<div id="explore-list-view">
@@ -89,6 +74,6 @@
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 	<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/explore-map.js?v=58"></script>
+	<script src="assets/js/explore-map.js?v=81"></script>
 </body>
 </html>
