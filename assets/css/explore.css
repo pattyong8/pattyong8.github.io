@@ -151,12 +151,25 @@ body.explore-body {
 	outline: 0;
 }
 
-/* One wrapping word menu. People on the first line, activities on the next. */
+/* Two locked rows: people, then activities. Never share a line. */
 .explore-tag-row {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: stretch;
 	gap: 6px;
 	margin: 0 0 var(--s-5);
+}
+
+.explore-tag-group {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 6px;
+}
+
+.explore-tag-group button {
+	flex: 1 1 0;
+	min-width: 0;
+	box-sizing: border-box;
 }
 
 .explore-tag-row button {
@@ -657,25 +670,18 @@ body.explore-body {
 		font-size: var(--fs-small);
 	}
 
-	/* One scrolling chip row keeps peek short and the map open. */
 	.explore-tag-row {
 		order: 1;
+		flex-direction: column;
 		flex-wrap: nowrap;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
-		scrollbar-width: none;
-		margin: 0 calc(var(--page-gutter) * -1) var(--s-4);
-		padding: 0 var(--page-gutter);
-	}
-
-	.explore-tag-row::-webkit-scrollbar {
-		display: none;
+		overflow: visible;
+		margin: 0 0 var(--s-4);
+		padding: 0;
 	}
 
 	.explore-tag-row button {
-		flex: 0 0 auto;
 		min-height: 40px;
-		padding: 0 12px;
+		padding: 0 10px;
 	}
 
 	#explore-list-view,

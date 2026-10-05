@@ -14,11 +14,18 @@ export interface TripPhoto {
   bytes?: number;
 }
 
+export interface TripBlock {
+  photoIds: string[];
+  prose: string;
+}
+
 export interface TripSection {
   id: string;
   title: string;
   photoIds: string[];
   prose: string;
+  /** Photo groups with prose after each group, so a day can read as photos then words then photos. */
+  blocks?: TripBlock[];
 }
 
 export interface TripPage {
@@ -37,6 +44,13 @@ export interface TripManifest {
   location: string;
   people: string;
   introParagraph: string;
+  /** Optional clickable location map, same pattern as older trip pages. */
+  map?: {
+    url: string;
+    image: string;
+    title?: string;
+    caption?: string;
+  };
   /** Image filename prefix, e.g. Italy-Malta-2026 */
   tripPrefix: string;
   /** Absolute or repo-relative path to optimized photo directory */

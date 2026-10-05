@@ -33,6 +33,7 @@ var __importStar = (this && this.__importStar) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.renderMapHtml = renderMapHtml;
 exports.renderIntroHtml = renderIntroHtml;
 exports.renderSectionHtml = renderSectionHtml;
 exports.renderTripHtml = renderTripHtml;
@@ -56,6 +57,30 @@ function proseToParagraphs(prose) {
         .map((p) => p.trim())
         .filter(Boolean);
 }
+function renderMapHtml(manifest, imagePrefixUrl) {
+    const map = manifest.map;
+    if (!map || !map.url || !map.image)
+        return '';
+    const title = map.title || manifest.location || manifest.title;
+    const caption = map.caption || manifest.location || '';
+    const cacheBust = manifest.cacheBust || '';
+    const bustQ = cacheBust ? `?v=${cacheBust}` : '';
+    const photosRoot = imagePrefixUrl.replace(/\/[^/]+-$/, '/');
+    const src = `${photosRoot}${map.image}${bustQ}`;
+    return `			<div class="entry__related travel-trip-map">
+				<h3 class="h2">Locations <span>(click the picture for a map)</span></h3>
+				<ul class="related">
+					<li class="related__item_half">
+						<a href="${escapeHtml(map.url)}" class="related__link" target="_blank" rel="noopener">
+							<h5 class="related__post-title">${escapeHtml(title)}</h5>
+							<img src="${src}" alt="${escapeHtml(title + ' trip map')}"/>
+						</a>
+						${caption ? `<h6 class="related__post-title">${escapeHtml(caption)}</h6>` : ''}
+					</li>
+				</ul>
+			</div>
+`;
+}
 function renderIntroHtml(introParagraph) {
     if (!introParagraph.trim()) {
         return `				<p class="lead drop-cap">\n					[INTRO_PARAGRAPH]\n				</p>\n`;
@@ -76,20 +101,34 @@ function photoById(manifest, id) {
  * float photos left, put ALL section paragraphs inside the wrap before clear:both
  * so short first paragraphs don't leave a blank column beside tall leftovers.
  */
-function renderSectionHtml(section, manifest, imagePrefixUrl) {
-    const photos = section.photoIds
+/** A leftover 1–2 only belongs at the end of a day, sharing the last words. */
+function normalizeDayChunks(chunks) {
+    if (chunks.length < 2)
+        return chunks;
+    const last = chunks[chunks.length - 1];
+    const prev = chunks[chunks.length - 2];
+    if (last.photoIds.length > 0 && last.photoIds.length < 3 && prev.photoIds.length === 3) {
+        return [
+            ...chunks.slice(0, -2),
+            {
+                photoIds: [...prev.photoIds, ...last.photoIds],
+                prose: [prev.prose, last.prose].filter((p) => String(p || '').trim()).join('\n\n'),
+            },
+        ];
+    }
+    return chunks;
+}
+function renderPhotoProseChunk(photoIds, prose, manifest, imagePrefixUrl) {
+    const photos = photoIds
         .map((id) => photoById(manifest, id))
         .filter((p) => !!p);
-    const paragraphs = proseToParagraphs(section.prose);
+    const paragraphs = proseToParagraphs(prose);
     const n = photos.length;
     const fullCount = Math.floor(n / 3) * 3;
     const leftovers = photos.slice(fullCount);
     const fullRows = photos.slice(0, fullCount);
     const cacheBust = manifest.cacheBust || '';
-    let html = `			<div class="entry__related">\n`;
-    if (section.title) {
-        html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
-    }
+    let html = '';
     for (let i = 0; i < fullRows.length; i += 3) {
         const row = fullRows.slice(i, i + 3);
         html += `			<div class="travel-photo-row">\n`;
@@ -117,6 +156,19 @@ function renderSectionHtml(section, manifest, imagePrefixUrl) {
         for (const para of paragraphs) {
             html += `			<p style="${P_STYLE}">${escapeHtml(para)}</p>\n`;
         }
+    }
+    return html;
+}
+function renderSectionHtml(section, manifest, imagePrefixUrl) {
+    const chunks = normalizeDayChunks(section.blocks && section.blocks.length > 0
+        ? section.blocks
+        : [{ photoIds: section.photoIds, prose: section.prose }]);
+    let html = `			<div class="entry__related">\n`;
+    if (section.title) {
+        html += `			<h2>${escapeHtml(section.title)}</h2>\n`;
+    }
+    for (const chunk of chunks) {
+        html += renderPhotoProseChunk(chunk.photoIds, chunk.prose, manifest, imagePrefixUrl);
     }
     html += `			</div>\n\n`;
     return html;
@@ -158,6 +210,7 @@ function renderTripHtml(manifest) {
             ]
             : [];
     const intro = renderIntroHtml(manifest.introParagraph);
+    const mapBlock = renderMapHtml(manifest, imagePrefixUrl);
     let body = '';
     for (const sec of sections) {
         body += renderSectionHtml(sec, manifest, imagePrefixUrl);
@@ -188,6 +241,7 @@ function renderTripHtml(manifest) {
 	<link rel="stylesheet" href="${depth}assets/css/style.css?v=header-spacing" />
 	<link rel="stylesheet" href="${depth}assets/css/responsive.css" />
 	<link rel="stylesheet" href="${depth}assets/css/travel-trip.css" />
+	<link rel="stylesheet" href="${depth}assets/css/travel-photos.css?v=3" />
 	<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 </head>
@@ -231,6 +285,7 @@ $(function(){
 				<div class="entry__content">
 
 ${intro}
+${mapBlock}
 ${body}
 				</div> <!-- end entry content -->
 
@@ -279,28 +334,17 @@ function commentsPartial() {
 				<div class="column large-12 comment-respond">
 					<div id="respond">
 						<h3 class="h2">Add Comment <span>Help me create memories from your perspective!</span></h3>
-						<form name="submit-to-google-sheet" id="contactForm" method="post" action="" autocomplete="off" onSubmit="alert('Thank you! I will make sure to add your comment soon! :)')">
+						<form name="submit-to-google-sheet" id="contactForm" method="post" action="" autocomplete="off">
 							<fieldset>
 								<div class="form-field">
-									<input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text">
+									<input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text" required>
 								</div>
 								<div class="message form-field">
-									<textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+									<textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" required></textarea>
 								</div>
 								<input name="submit" id="submit-form" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
 							</fieldset>
 						</form>
-					</div>
-					<script>
-					  const scriptURL = 'https://script.google.com/macros/s/AKfycbzPL6GTai2ZzBSdKywBP16xMo2ywD1mI95okaAHEv3rXfK6Zj7Txw4uCBzu7x0XPyAQ/exec'
-					  const form = document.forms['submit-to-google-sheet']
-					  form.addEventListener('submit', e => {
-					    e.preventDefault()
-					    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-					      .then(response => console.log('Success!', response))
-					      .catch(error => console.error('Error!', error.message))
-					  })
-					</script>
 				</div>
 
 			</div> <!-- end comments-wrap -->

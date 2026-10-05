@@ -87,7 +87,11 @@ function validateTrip(projectRoot, manifestPath) {
             errors.push(`Missing seq ${i} in contiguous range`);
     }
     for (const section of manifest.sections) {
-        for (const id of section.photoIds) {
+        const ids = [
+            ...section.photoIds,
+            ...(section.blocks || []).flatMap((block) => block.photoIds),
+        ];
+        for (const id of ids) {
             if (!manifest.photos.some((p) => p.id === id)) {
                 errors.push(`Section "${section.title}" references unknown photo id ${id}`);
             }

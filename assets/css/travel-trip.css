@@ -257,6 +257,52 @@ body.scrapbook-trip .entry__related .related img {
 	border-radius: var(--r-photo);
 }
 
+body.scrapbook-trip .entry__related ul.related {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	gap: var(--photo-gap);
+	margin: 0 0 var(--s-6) !important;
+	padding: 0;
+	list-style: none;
+}
+
+body.scrapbook-trip .entry__related ul.related > li {
+	float: none !important;
+	width: min(520px, 100%) !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none;
+}
+
+body.scrapbook-trip .entry__related ul.related .related__link {
+	display: block !important;
+}
+
+body.scrapbook-trip .entry__related ul.related img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: var(--r-photo);
+}
+
+body.scrapbook-trip .entry__related ul.related h5,
+body.scrapbook-trip .entry__related ul.related h6 {
+	margin: 0 !important;
+	text-align: center !important;
+	line-height: 1.3;
+}
+
+body.scrapbook-trip .entry__related ul.related h5 {
+	margin-bottom: 8px !important;
+}
+
+body.scrapbook-trip .entry__related ul.related h6 {
+	margin-top: 8px !important;
+}
+
 /* Photographs ---------------------------------------------------- */
 
 body.scrapbook-trip img.travel-photo,
@@ -307,8 +353,18 @@ body.scrapbook-trip .travel-photo-card img {
  * Clearing after only the first paragraph recreates the blank column bug.
  */
 .travel-leftover-wrap {
+	display: flow-root;
 	width: 100%;
 	box-sizing: border-box;
+	margin: 0;
+}
+
+.travel-leftover-wrap [style*="clear:both"] {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
 }
 
 .travel-leftover-photos {
@@ -413,8 +469,35 @@ body.scrapbook-trip .comment__time {
 	color: var(--muted);
 }
 
+body.scrapbook-trip .commentlist {
+	margin: 0 0 var(--s-6);
+	padding: 0;
+}
+
+body.scrapbook-trip .commentlist > .comment {
+	padding: var(--s-4) 0;
+	padding-left: 0;
+	border-bottom: 1px solid var(--line);
+}
+
+body.scrapbook-trip .comment__text p {
+	margin: var(--s-2) 0 0;
+	font-family: var(--font-serif);
+	font-size: var(--fs-body);
+	line-height: 1.6;
+	color: var(--ink);
+	text-indent: 0 !important;
+}
+
 body.scrapbook-trip .comments-wrap .comment-respond {
-	display: none;
+	display: block;
+}
+
+body.scrapbook-trip .comment-respond .trip-comment-status {
+	margin: var(--s-3) 0 0;
+	font-family: var(--font-sans);
+	font-size: var(--fs-small);
+	color: var(--muted);
 }
 
 body.scrapbook-trip .comment-respond form {

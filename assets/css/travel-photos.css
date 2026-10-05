@@ -20,3 +20,40 @@ body.scrapbook-trip .entry__related img {
 body.scrapbook-trip .entry__post-thumb img {
 	border-radius: 0 !important;
 }
+
+body.scrapbook-trip .travel-leftover-wrap {
+	display: flow-root;
+	margin: 0;
+}
+
+body.scrapbook-trip .travel-leftover-wrap [style*="clear:both"] {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+body.scrapbook-trip .entry__related ul.related {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 0 24px !important;
+	padding: 0;
+	list-style: none;
+}
+
+body.scrapbook-trip .entry__related ul.related > li {
+	float: none !important;
+	width: min(520px, 100%) !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+body.scrapbook-trip .entry__related ul.related img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 22px !important;
+}

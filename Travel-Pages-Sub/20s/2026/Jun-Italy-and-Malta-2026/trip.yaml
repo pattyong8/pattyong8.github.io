@@ -5,9 +5,19 @@ section: 20s
 year: '2026'
 dateRange: June 18th-27th, 2026
 startDate: '2026-06-18'
-location: ''
-people: ''
-introParagraph: ''
+location: Florence, Bologna, Modena, Malta, and Paris
+people: Parth and the Bergmans
+introParagraph: >-
+  Parth invited me to be his plus one to Freddie Bergman's wedding, which was the perfect
+  excuse for a trip to Europe. I had never been to Italy or Malta before, so we turned the
+  wedding into a much bigger adventure. We danced, ate lots of pasta, explored some
+  incredible new places, and I even got to dive at one of the best wreck diving
+  destinations in the world.
+map:
+  url: https://www.google.com/maps/d/viewer?mid=1lLVoR5xElF_mhaWGKiPjmKc-oux_NSo&usp=sharing
+  image: Jun-Italy-and-Malta-2026-Map.jpeg
+  title: Italy, Malta, and Paris
+  caption: Florence, Bologna, Modena, Malta, and Paris
 tripPrefix: Jun-Italy-and-Malta-2026
 photosDir: assets/images/Travel-Pages-Images/20s/2026/Jun-Italy-and-Malta-2026
 coverSource: _incoming/Cover.jpeg
@@ -1386,8 +1396,8 @@ photos:
     flags: []
     bytes: 430074
 sections:
-  - id: all-photos
-    title: Photos
+  - id: day-one-malta
+    title: "Day One: Malta"
     photoIds:
       - p001
       - p002
@@ -1397,6 +1407,41 @@ sections:
       - p006
       - p007
       - p008
+    prose: ''
+    blocks:
+      - photoIds:
+          - p001
+          - p002
+          - p003
+        prose: >-
+          Parth and I flew over separately because I wanted two extra days in Malta before he
+          arrived. Leaving on Wednesday felt manageable with work, while Parth preferred to leave
+          on Friday. I also found a great deal using the new Chase Sapphire Reserve benefits and
+          got basically $500 off a two night stay at an IHG property right by the water, with
+          great amenities, wonderful service, and around $100 in dining credits that we made sure
+          to use. After arriving I walked around the area and stopped by the scuba shop where I
+          would be diving the next morning, mostly just to check in, say hi, and make sure
+          everything was ready.
+      - photoIds:
+          - p004
+          - p005
+          - p006
+          - p007
+          - p008
+        prose: >-
+          The rest of the day was exactly what I wanted from arriving early. I spent time around
+          the hotel, relaxed by the pool, read some books on my phone, and enjoyed being in Malta
+          by myself. I honestly could not remember the last time I had traveled to a new country
+          alone and stayed somewhere really nice with almost nothing I needed to do.
+
+          That evening I had dinner on the rooftop of the hotel, ordered sushi, and watched the
+          sun go down over the water. Pictures 4 through 8 really capture how peaceful that first
+          evening was. Between all of the traveling, diving, and activities that would come later,
+          it was really nice to have some time completely to myself and just enjoy being somewhere
+          new.
+  - id: day-two-diving
+    title: "Day Two: Diving and Malta Nightlife"
+    photoIds:
       - p009
       - p010
       - p011
@@ -1404,6 +1449,50 @@ sections:
       - p013
       - p014
       - p015
+    prose: ''
+    blocks:
+      - photoIds:
+          - p009
+          - p010
+          - p011
+        prose: >-
+          The next morning was the beginning of my scuba diving. I was working toward my advanced
+          scuba certification, which required five different dives over the next couple of days.
+          Picture 9 overlooks the area where many of the boats were parked near the scuba center,
+          around the Hilton and Marriott hotels. My first dives were more focused on learning than
+          sightseeing. We stayed around the nearby reef and worked on things like buoyancy and
+          underwater navigation, nothing too crazy, but important skills to practice before some
+          of the more exciting dives later in the trip.
+      - photoIds:
+          - p012
+          - p013
+          - p014
+          - p015
+        prose: >-
+          After diving I went to a nearby Maltese restaurant for lunch and had one of my favorite
+          meals of the trip. I learned that rabbit is a traditional food in Malta, with a history
+          tied to the island and periods when people relied heavily on locally available animals
+          for food. There is also a lot of Italian influence in Maltese cuisine, so there were
+          plenty of rich stews, tomatoes, and familiar Mediterranean flavors. The rabbit was
+          spectacular, genuinely one of the best rabbit dishes I have ever had. The guy working
+          there noticed that I was taking a bunch of photos and notes about the food, so he
+          started explaining the dishes, ingredients, and how everything was prepared, and even
+          brought me a small sample of a pork stew they had, which had a similar base to the
+          rabbit and was also delicious. Picture 13 was the dessert that came at the end of the
+          meal and gave me another chance to try something local. The entire lunch ended up being
+          such a great introduction to Maltese food, and I felt incredibly well taken care of.
+
+          That night I ended up meeting a guy from a dating app who had grown up in Malta, and he
+          offered to show me around some of the nightlife. We bounced around a few clubs and bars
+          in the area. I cannot exactly say I was immersing myself in authentic Maltese culture
+          because we were mostly surrounded by European tourists, especially Parisians. Apparently
+          Malta is a major party destination for them. The drinking age was also 16, and you could
+          definitely tell that the crowd skewed young. I felt a little out of place, but it was
+          still really fun to experience, and I immediately decided that I needed to bring Parth
+          back once he arrived.
+  - id: day-three-parth
+    title: "Day Three: Parth Arrives"
+    photoIds:
       - p016
       - p017
       - p018
@@ -1418,6 +1507,60 @@ sections:
       - p027
       - p028
       - p029
+    prose: ''
+    blocks:
+      - photoIds:
+          - p016
+          - p017
+          - p018
+        prose: >-
+          Parth arrived pretty early the next morning, around 8 a.m., and basically went straight
+          to bed. While he slept I headed back up to the rooftop restaurant for lunch and had
+          another fish dish with mushrooms and fries. Nothing too crazy, but it was nice to grab
+          some food before spending most of the afternoon by the pool. The weather in Malta was
+          perfect, and I was very happy doing basically nothing for a few hours. At one point
+          there was a guy in the pool playing by himself with a miniature soccer ball. I was
+          getting a little bored, so I asked if he wanted to toss it back and forth. He was
+          totally down, and we ended up talking for a while about where he was traveling from, who
+          he was traveling with, and even American football. Just a random interaction, but one of
+          those small travel memories that I really enjoyed.
+      - photoIds:
+          - p019
+          - p020
+          - p021
+        prose: >-
+          Eventually I headed back to the room, where Parth was still sleeping. He finally got up,
+          and we decided it was time to actually explore together. We started with dinner back on
+          the rooftop, sharing some sushi before ordering our own mains. I got the salmon, and
+          then we headed out to walk around Malta for the night.
+      - photoIds:
+          - p022
+          - p023
+          - p024
+        prose: >-
+          I showed Parth the crazy nightlife area I had explored the night before. There were
+          plenty of supercars driving around, which Parth obviously enjoyed, and the World Cup was
+          happening, so seemingly everywhere we walked had the game playing. We kept walking
+          toward the first bar I had visited the previous night, although we never quite made it
+          all the way there. Instead we stopped at an Irish pub nearby, grabbed a beer, and spent
+          some time catching up.
+      - photoIds:
+          - p025
+          - p026
+          - p027
+          - p028
+          - p029
+        prose: >-
+          Eventually we made our way back toward the main clubbing area. Pictures 24 through 28
+          capture us bouncing around a few of the bars. Most of them were free to enter, so we
+          just wandered around, listened to music, people watched, and enjoyed the chaos.
+
+          Naturally we ended the night with pizza. Picture 29 was from a place literally called
+          Famous Pizza, which we thought was hilarious and felt like the appropriate way to finish
+          our first real night together in Malta.
+  - id: day-four-blue-lagoon
+    title: "Day Four: Blue Lagoon, Gozo, and the Wine Festival"
+    photoIds:
       - p030
       - p031
       - p032
@@ -1453,6 +1596,132 @@ sections:
       - p062
       - p063
       - p064
+    prose: ''
+    blocks:
+      - photoIds:
+          - p030
+          - p031
+          - p032
+        prose: >-
+          The night before, Parth and I had booked a cruise that would take us out to the Blue
+          Lagoon, which was one of Quinn's biggest recommendations for Malta, as well as Gozo. The
+          water was absolutely beautiful, and as soon as we set sail you could tell it was going
+          to be a great day for photos and swimming in some of the bluest water I had seen in
+          years. You could also immediately tell what kind of vibe the boat was going for. They
+          offered this pineapple cocktail package that was something like 20 euros for five
+          drinks, which was ridiculously cheap, so Parth and I immediately bought one to share.
+          Ironically our first drink was just orange juice, but we eventually made our way through
+          plenty of Aperol Spritzes.
+      - photoIds:
+          - p033
+          - p034
+          - p035
+        prose: >-
+          By Picture 34 we had made it to the Blue Lagoon. The boat itself was pretty large but
+          surprisingly empty, so we had tons of room. It had a slide into the water and a second
+          level you could jump from, both of which I obviously took advantage of.
+      - photoIds:
+          - p036
+          - p037
+          - p038
+        prose: >-
+          After swimming around the boat for a while, Parth and I decided to explore the island.
+          We had chosen the itinerary that split our time between the Blue Lagoon and Gozo rather
+          than spending four hours at the lagoon. Our first idea was to swim all the way across to
+          the main area where everyone else was hanging out, but we quickly realized it was much
+          farther than it looked. Halfway through our attempt, a boat started trying to dock in
+          the little cove we were swimming through, and we suddenly had to sprint out of the way.
+          Eventually we got out and tried to walk over barefoot, only to get turned around because
+          we needed our island passes and actual shoes. We went all the way back to the boat,
+          grabbed everything, checked ourselves in as guests, and finally made it over.
+      - photoIds:
+          - p039
+          - p040
+          - p041
+        prose: >-
+          Once we reached the main Blue Lagoon area, we spent some time floating around in the
+          water. I had brought my phone and was reluctant to just leave it sitting on shore, but a
+          woman sitting near one of the public tents offered to watch my phone and shoes for us.
+          It was incredibly kind of her, and everything was perfectly fine when we got back. I
+          also really wanted to swim across to another island nearby, but there were lifeguards
+          everywhere making sure people stayed within the designated swimming area. I remember
+          thinking they were unbelievably fast swimmers before eventually realizing they were
+          wearing fins, which made a lot more sense.
+      - photoIds:
+          - p042
+          - p043
+          - p044
+        prose: >-
+          From the Blue Lagoon we headed over to Gozo, a smaller island north of Malta filled with
+          historic buildings and beautiful old towns. After getting off the boat, Parth and I
+          walked toward the main part of town and stumbled across a recreation of Bethlehem, which
+          was something I had never seen before. It was a really cool depiction of what the town
+          may have looked like historically, and a few cats had apparently decided to move in.
+          Naturally we took a bunch of pictures and immediately sent them to Quinn. When we
+          reached town we were surprised by how nice some of the public facilities were. They even
+          had a bike pump track, which seemed completely random on this small island north of
+          Malta, although apparently there is a decent biking culture there.
+      - photoIds:
+          - p045
+          - p046
+          - p047
+        prose: >-
+          We explored for a bit before stopping at one of the main restaurants for lunch. We
+          ordered seafood risotto and pizza to share, and I got half a rabbit. It was a ridiculous
+          amount of food. The seafood risotto was fantastic, and the rabbit was also really good,
+          although surprisingly a little dry in places. Picture 47 was the large church we had
+          been able to see from far away. We wanted to get a closer look, so we walked over,
+          although we never actually went inside. Afterward we headed back down toward the water
+          and waited for our boat to pick us up.
+      - photoIds:
+          - p048
+          - p049
+          - p050
+        prose: >-
+          Once we got back to the hotel we spent some time relaxing by the pool. While sitting
+          there I started looking for something we could do that night and remembered seeing a
+          poster for the Malta International Wine Festival on my way in from the airport.
+      - photoIds:
+          - p051
+          - p052
+          - p053
+        prose: >-
+          It turned out that night was the final night of the festival, so we decided to go, and
+          it was a great decision. Admission even came with a wine glass, and the festival itself
+          was much bigger and more fun than we expected, with tons of food options, live music,
+          and different areas to explore.
+      - photoIds:
+          - p054
+          - p055
+          - p056
+        prose: >-
+          At one point we started talking with one of the owners or distributors behind one of the
+          wine labels. He began walking us through different wines and letting us taste all kinds
+          of varieties, and eventually he just started giving us bottles. By the end we somehow
+          had the equivalent of almost four bottles of wine between all of the partially filled
+          bottles he had handed us, including some pretty nice ones.
+      - photoIds:
+          - p057
+          - p058
+          - p059
+        prose: >-
+          Needless to say, we drank a lot of wine. We also made friends with a few girls sitting
+          across from us who had watched this entire situation unfold and understandably thought
+          it was hilarious that we kept getting free wine.
+      - photoIds:
+          - p060
+          - p061
+          - p062
+          - p063
+          - p064
+        prose: >-
+          For food we tried a truffle tortellini, paella, and a handful of other things. The live
+          music was also unexpectedly hilarious because they were playing full on American rock
+          and sing along songs, which was about the last thing I expected to hear at a Maltese
+          wine festival. It ended up being one of the most unexpectedly fun nights of the trip.
+  - id: day-five-valletta
+    title: "Day Five: Valletta and Off to Bologna"
+    photoIds:
       - p065
       - p066
       - p067
@@ -1460,6 +1729,51 @@ sections:
       - p069
       - p070
       - p071
+    prose: ''
+    blocks:
+      - photoIds:
+          - p065
+          - p066
+          - p067
+        prose: >-
+          The next day we had a flight later in the afternoon, but we still had enough time to
+          explore Valletta before leaving Malta. Valletta was gorgeous. The entire city felt like
+          it had been built around a fortress, with beautiful old stone architecture, narrow
+          streets, very little car traffic, and water surrounding everything. We did not have a
+          ton of time, but we wandered through the city, explored the streets, and grabbed some
+          gelato. The World Cup was still going on, and there was a giant inflatable soccer ball
+          near the entrance to the city. It was pretty hot, but we walked all the way toward the
+          end of Valletta before eventually turning around. On the way back we randomly discovered
+          what looked like a secret underground entrance. It led through this really cool hallway
+          toward some kind of underground theater experience. We did not have time to actually do
+          it, but the entrance itself, shown in Picture 65, was worth checking out. Picture 66 was
+          my gelato, which I initially thought was something special and local until Parth later
+          informed me that it was actually from a chain you can find in Los Angeles. Picture 67
+          was my attempt at a very mature photo where I stood behind part of a fountain and tried
+          to make it look like I was peeing into it. The perspective did not really work, but the
+          attempt was there.
+      - photoIds:
+          - p068
+          - p069
+          - p070
+          - p071
+        prose: >-
+          Parth had a call later that day, and our flight to Bologna ended up getting delayed by a
+          little more than six hours. We had originally planned to have about half a day in
+          Bologna, but that obviously did not happen. The upside was that we got some extra time
+          in Malta. I grabbed a Greek meal while we waited, and eventually we made our way to the
+          airport and finally headed to Italy. By the time we got to Bologna it was pretty late.
+          Pictures 70 and 71 were from when we finally checked into our Airbnb. The place was a
+          little strange but also really cool. It felt like a combination of an art gallery and
+          someone's local home, with tons of space and artwork everywhere. There was an older man
+          who seemed to live in an adjoining part of the property, and there was literally a door
+          from our place that led toward his room, although I think he had his own separate
+          entrance. It was quirky but a really good deal. Parth let me take the bedroom while he
+          took the pullout couch, and somehow the Airbnb also had a SpongeBob pillowcase, which I
+          obviously had to point out to him.
+  - id: day-six-car-mecca
+    title: "Day Six: The Car Mecca"
+    photoIds:
       - p072
       - p073
       - p074
@@ -1510,6 +1824,179 @@ sections:
       - p119
       - p120
       - p121
+    prose: ''
+    blocks:
+      - photoIds:
+          - p072
+          - p073
+          - p074
+        prose: >-
+          The next morning we started with pastries to fuel up for what was basically Parth's
+          pilgrimage through the Italian car world. We grabbed a mushroom focaccia toast and a
+          croissant filled with cream in Picture 74.
+      - photoIds:
+          - p075
+          - p076
+          - p077
+        prose: >-
+          Picture 75 was a fruit tart, and then we headed to pick up our rental car and made one
+          slight mistake. Apparently you need your passport to rent a car in Italy, and neither of
+          us had brought ours, so we had to bike all the way back to the Airbnb, grab them, and
+          then bike back to the rental agency. It only set us back about an hour, but it was a
+          pretty silly way to start the day. Ironically we did not even need the international
+          driver's license we had prepared. Parth was obviously the driver. This was his car
+          mecca, so it only felt appropriate. As we drove through this part of Italy we kept
+          joking that it basically looked like Napa, with open green fields, vineyards or at least
+          fields that looked like vineyards, and beautiful countryside everywhere.
+      - photoIds:
+          - p078
+          - p079
+          - p080
+        prose: >-
+          Our first major stop was Lamborghini. I was nowhere near as knowledgeable about the cars
+          as Parth, but it was honestly just as fun watching him get excited about everything. He
+          seemed to know every car we saw, including the model, the details, and sometimes even
+          exactly how many existed.
+      - photoIds:
+          - p081
+          - p082
+          - p083
+        prose: >-
+          Some were incredibly rare, including cars where only one had ever been made. I happily
+          walked around looking at everything with basically the same amount of wonder, even if I
+          had no idea what I was actually looking at half the time.
+      - photoIds:
+          - p084
+          - p085
+          - p086
+        prose: >-
+          Picture 85 was after we left the factory. There were a few Lamborghinis parked outside a
+          nearby cafe that seemed to belong to regular visitors, which was fun because we could
+          get right up next to cars that were actually being driven around.
+
+          Next was Pagani. The museum was much smaller, and I had not realized how few Pagani
+          models there actually were.
+      - photoIds:
+          - p087
+          - p088
+          - p089
+        prose: >-
+          Some of the cars were absolutely wild, including one with doors that opened upward
+          instead of outward. While Parth continued looking at the cars, I found a drawing table
+          where you could try sketching some of the Pagani designs.
+      - photoIds:
+          - p090
+          - p091
+          - p092
+        prose: >-
+          I thought I might make something cool enough to take home as a souvenir, but my drawing
+          was pretty terrible, so it stayed there. On our way out there was a visitor book where
+          people could leave messages, and we signed ours Sweet Peats, the name Quinn had coined
+          for us earlier that year.
+
+          Ferrari was the main event, and this was truly Parth's mecca. We got incredibly lucky
+          almost immediately. As we arrived we saw an F80 pull into the Ferrari factory after
+          apparently being out for a test drive.
+      - photoIds:
+          - p093
+          - p094
+          - p095
+        prose: >-
+          I had absolutely no idea what I was looking at. Parth very much did. Seeing an F80
+          actually driving back into the Ferrari factory was apparently a pretty incredible sight,
+          and even without understanding how special it was, I knew from Parth's reaction that we
+          had gotten lucky.
+
+          We eventually made our way into the museum, which was probably five or even ten times
+          larger than the other museums we had visited that day. For obvious reasons, Ferrari is
+          Ferrari.
+      - photoIds:
+          - p096
+          - p097
+          - p098
+        prose: >-
+          We walked through room after room of cars.
+
+          On our way out we found a couple of interactive experiences. One was a photo opportunity
+          inside a Ferrari, and the other was a full F1 racing simulator.
+      - photoIds:
+          - p099
+          - p100
+          - p101
+        prose: >-
+          There was absolutely no way Parth was leaving Ferrari without doing the simulator. The
+          entire seat and car body moved as he turned, and he had a full F1 steering wheel covered
+          in buttons and controls.
+      - photoIds:
+          - p102
+          - p103
+          - p104
+        prose: >-
+          At first it looked incredibly difficult to control, but Parth slowly figured it out, and
+          by the end, according to him at least, he was taking the turns like a pro. I took plenty
+          of pictures.
+      - photoIds:
+          - p105
+          - p106
+          - p107
+        prose: >-
+          Before driving back to Bologna we stopped in Modena for dinner and explored the city for
+          a bit. We randomly found an anime store filled with manga and all kinds of other
+          superhero and Harry Potter stuff, which naturally meant taking pictures and sending them
+          to Quinn. Then we sat down at a local restaurant and ordered a bunch of pasta. I tried
+          the tortellini in broth that Modena is known for, and it was okay.
+      - photoIds:
+          - p108
+          - p109
+          - p110
+        prose: >-
+          The Bolognese, however, was fantastic, and Parth ordered a white sauce mushroom pasta
+          that was also incredible. Overall it was a really good meal and a very appropriate way
+          to end our car tour through this part of Italy. And because I apparently could not go
+          more than a few hours anywhere in Europe without getting ice cream, I obviously got some
+          on the way back.
+
+          Once we got back to Bologna, Parth needed to work for a while. Since I knew we would
+          barely have any time to see the city the next day, I decided to head out by myself and
+          explore.
+      - photoIds:
+          - p111
+          - p112
+          - p113
+        prose: >-
+          I did not even realize Bologna had canals until I started walking around. Pictures 110
+          through 115 were from me wandering through the city and discovering them.
+      - photoIds:
+          - p114
+          - p115
+          - p116
+        prose: >-
+          There is even a famous little window, shown in Picture 113, where you can look out over
+          one of the canals.
+
+          Eventually I stumbled into Bologna's main square, and this ended up being one of my
+          favorite random memories from the trip. The city was running a summer movie series and
+          had basically converted the entire square into an enormous outdoor movie theater. There
+          must have been more than 500 people sitting there watching an old black and white
+          American movie. I had absolutely no idea this was happening. I had just walked into it.
+          The movie had only recently started, so I decided to sit down and watch.
+      - photoIds:
+          - p117
+          - p118
+          - p119
+          - p120
+          - p121
+        prose: >-
+          I ended up staying for most of it, and it was actually pretty good. More than anything,
+          it was just incredibly cool to randomly find myself sitting in the middle of Bologna
+          with hundreds of people watching an old American movie projected onto a giant screen in
+          the middle of this beautiful historic square. It was exactly the kind of spontaneous
+          travel experience that you could never really plan. Eventually I headed back to the
+          Airbnb, where I found Parth hanging out on the bed waiting for me. Picture 121 was the
+          end of a very long but very fun day.
+  - id: day-seven-florence
+    title: "Day Seven: Florence"
+    photoIds:
       - p122
       - p123
       - p124
@@ -1547,6 +2034,159 @@ sections:
       - p156
       - p157
       - p158
+    prose: ''
+    blocks:
+      - photoIds:
+          - p122
+          - p123
+          - p124
+        prose: >-
+          The next morning we headed to the train station to make our way from Bologna to
+          Florence. The train itself was incredibly easy, although we quickly learned that Italian
+          trains were not exactly the most punctual, and we ended up waiting around the station
+          for a while before ours finally arrived. Eventually we got on, and the actual ride to
+          Florence was pretty quick, only around an hour or two. When we arrived we had another
+          logistical problem to figure out. Our Airbnb was not actually in Florence because we had
+          chosen somewhere closer to Freddie's wedding venue, and we obviously did not want to
+          carry our luggage around the city all day. Around Picture 123 we found this random self
+          service luggage storage place where we could lock everything up and leave it for the
+          day.
+      - photoIds:
+          - p125
+          - p126
+          - p127
+        prose: >-
+          With that taken care of, the first thing I did in Florence was, very thematically for
+          this trip, get gelato. It turned out to be one of the highest rated gelato shops in
+          Florence, which was exactly why I had taken a picture of it in the first place, and it
+          lived up to the ratings. We spent the next couple of hours wandering around Florence
+          before deciding we needed lunch.
+      - photoIds:
+          - p128
+          - p129
+          - p130
+        prose: >-
+          Liam is obsessed with All'Antico Vinaio, so obviously I had to try the original while we
+          were actually in Florence, and Parth was very interested too. The location we found was
+          so popular that it basically had three separate entrances to handle all of the people.
+          The sandwiches were just as good as they are in the United States, if not better.
+      - photoIds:
+          - p131
+          - p132
+          - p133
+        prose: >-
+          One of my favorite little memories from lunch was trading sandwiches back and forth so
+          we could try both. At one point he asked which one I liked better. I told him I did not
+          have a preference.
+      - photoIds:
+          - p134
+          - p135
+          - p136
+        prose: >-
+          He gave me the one I liked better anyway, which is Picture 135. Apparently he could read
+          my mind. That's how you know you've been friends for a while.
+
+          After lunch we walked past the Duomo, and Parth needed to take an investor call that was
+          going to last an hour or two. I left him at a Starbucks with free WiFi and decided to
+          wander around Florence by myself. Earlier that day we had noticed that one of the main
+          squares was completely blocked off with bleachers on every side, and we assumed there
+          might be a play or some kind of performance happening later.
+      - photoIds:
+          - p137
+          - p138
+          - p139
+        prose: >-
+          As I walked around, though, I started noticing people everywhere dressed in blue, green,
+          and red. It turned out we had randomly arrived in Florence during a centuries old local
+          tradition called Calcio Storico. It was basically this insane combination of medieval
+          football, rugby, and MMA, and that day was the final.
+      - photoIds:
+          - p140
+          - p141
+          - p142
+        prose: >-
+          I immediately became obsessed with figuring out how to get inside.
+
+          The event was completely sold out, and tickets were going for more than 100 euros. I
+          started asking people around the entrances if anyone would sell me theirs, and
+          unsurprisingly nobody wanted to give up their ticket. So I tried one last strategy. I
+          found a random piece of paper that looked vaguely like a ticket, shoved myself into the
+          middle of a crowd entering the stadium, and walked in with everyone as they filed
+          through the entrance. Somehow nobody checked my ticket, and suddenly I was inside. It
+          ended up being one of the coolest travel experiences I have ever randomly stumbled into.
+      - photoIds:
+          - p143
+          - p144
+          - p145
+        prose: >-
+          I was surrounded by local Italians and people from all over Europe who were completely
+          invested in the match. Everyone had chants. People were waving flags and setting off
+          flares. I happened to be sitting with supporters of the blue team, who were apparently
+          the favorites. Picture 144 shows the blue flares going off around the stands, and
+          Picture 145 shows this enormous banner that stretched across basically the entire
+          bleacher section. Before the match even started there was an opening ceremony that
+          lasted at least half an hour.
+      - photoIds:
+          - p146
+          - p147
+          - p148
+        prose: >-
+          Everyone came out wearing traditional clothing that looked straight out of medieval
+          Florence, with drums, processions, costumes, and all kinds of ceremony surrounding the
+          game. Then they started playing, and it was chaos. I had almost no idea what the rules
+          were and did not bother asking anyone, but that did not really matter. I stayed for what
+          I think was roughly the first half just taking everything in.
+
+          Eventually Parth finished his investor call, so I left and met him in another square
+          nearby. Apparently, while walking over, he had passed restaurants showing the match and
+          was wondering what the heck everyone was watching, while I had somehow snuck into the
+          actual game. When I found him, Parth was already halfway through an Aperol Spritz and
+          had discovered a bar selling them for four euros, so we took full advantage.
+      - photoIds:
+          - p149
+          - p150
+          - p151
+        prose: >-
+          I had several Aperol Spritzes while we hung around the square and Parth finished up some
+          work. By Picture 149 we had moved over to a nearby park where we sat around with our
+          drinks, snacked on a few things, and figured out what we wanted to do for dinner.
+
+          Eventually we started walking back toward the main part of Florence. Along the way we
+          stumbled onto a bridge where seemingly everyone had gathered for sunset. It was
+          beautiful.
+      - photoIds:
+          - p152
+          - p153
+          - p154
+        prose: >-
+          The sky had turned pink over the city, with the water below us and Florence stretching
+          out in every direction. It was one of those moments where there was not really anything
+          to do other than stand there and enjoy where we were.
+
+          For dinner we ended up choosing a fairly random restaurant because we wanted to find
+          somewhere with good cacio e pepe, and it turned out to be an incredible choice. Pictures
+          154 through 156 were our meal. The mushroom risotto was to die for, the burrata was
+          incredible, and the cacio e pepe was great. Another fantastic meal in a trip that was
+          becoming mostly pasta, gelato, and Aperol Spritzes. By the time we finished it was late
+          and we still needed to get all the way out to our Airbnb near the wedding venue. We
+          grabbed our luggage and headed toward the train station because there were basically no
+          Ubers and that was where we could find taxis.
+      - photoIds:
+          - p155
+          - p156
+          - p157
+          - p158
+        prose: >-
+          Unfortunately about 30 other people had the exact same idea. It was already past
+          midnight, the taxi line was enormous, and maybe one car was showing up every five
+          minutes. We waited for almost an hour. There technically was an Uber option, but it was
+          something ridiculous like 200 euros. When we finally got into a taxi, I do not think
+          either of us had ever been happier to see one. The drive was long enough that walking
+          was never going to be an option, and eventually we finally made it out to where we were
+          staying.
+  - id: freddies-wedding
+    title: "Day Eight: Freddie's Wedding"
+    photoIds:
       - p159
       - p160
       - p161
@@ -1568,6 +2208,96 @@ sections:
       - p177
       - p178
       - p179
+    prose: ''
+    blocks:
+      - photoIds:
+          - p159
+          - p160
+          - p161
+        prose: >-
+          The next morning was wedding day. I started with the complimentary breakfast overlooking
+          the countryside around Florence, and it was gorgeous. I also realized that we were
+          basically in the middle of Tuscany, which somehow I had not really processed when
+          planning the trip. In retrospect I wish I had planned some kind of wine tasting or food
+          experience out in the countryside that morning, but no worries. Just another reason to
+          come back. After breakfast I went back to see Parth, who had some work to finish, so I
+          headed down to the pool instead. I was literally the only person there. I grabbed a
+          lounger in the shade, swam around, and spent the morning relaxing. That actually became
+          a recurring theme of the trip. Between Malta and Tuscany, there was a lot of time spent
+          around pools and in the ocean, which I am always happy about.
+      - photoIds:
+          - p162
+          - p163
+          - p164
+        prose: >-
+          Eventually it was time to get ready. Parth and I put on our tuxes and called a cab to
+          the wedding venue, which was essentially a castle tucked into the hills. Neither of us
+          really knew how large Freddie's wedding was going to be, and when we arrived we realized
+          it was incredibly intimate, probably fewer than 30 people. We said hi to Goose and
+          Augustina, met more of the family and friends, and settled in for the ceremony. The
+          ceremony itself was simple and beautiful. Their vows were wonderful, and it was really
+          special getting to be there for Freddie's big day.
+      - photoIds:
+          - p165
+          - p166
+          - p167
+        prose: >-
+          Also, what an honor to somehow be the plus one at a wedding with fewer than 30 people.
+          After the ceremony the drinks started flowing, and one of the options was, naturally, an
+          Aperol Spritz. Given that an Aperol Spritz is basically my favorite drink, I had quite a
+          few. Pictures 163 through 165 were basically an entire photoshoot of me holding one,
+          which was obviously necessary. If I was going to be at a wedding in Tuscany drinking
+          Aperol Spritzes, I needed photographic evidence.
+      - photoIds:
+          - p168
+          - p169
+          - p170
+        prose: >-
+          Eventually we made our way up to dinner. The table was set at the very top of the castle
+          overlooking the Tuscan countryside, and Picture 168 really captured the view. The meal
+          itself was fantastic, and because a few people had canceled, there were plenty of extra
+          servings to go around. The first course was duck breast, which was great. Picture 170
+          was the cacio e pepe, perfectly al dente and incredibly creamy. Then came the steak in
+          Picture 171, which was probably my favorite, with a great sauce, spinach, and plenty of
+          extra pieces of steak by the end.
+      - photoIds:
+          - p171
+          - p172
+          - p173
+        prose: >-
+          One funny part of dinner was the seating arrangement. Freddie and the Bergmans were all
+          on one side of the table, while Freddie's wife and her family were on the other, and
+          somehow Parth and I ended up all the way at the far end on her family's side. It
+          actually worked out perfectly because I sat near the father of the bride and learned
+          that he worked in construction and real estate. We really hit it off and ended up
+          talking about getting together again in New York. I even told him that the next time I
+          had tickets to a game, I would invite him.
+      - photoIds:
+          - p174
+          - p175
+          - p176
+        prose: >-
+          After dinner the party started. It may have been an intimate wedding, but there was
+          still a dance floor, plenty of music, and obviously plenty more drinks. At one point I
+          asked the bartender to make me his favorite cocktail that he had invented himself
+          because he told me how much he loved making drinks. He made this Aperol and mezcal
+          cocktail that was fantastic, and I proceeded to order many more. Picture 174 was us
+          recreating an old childhood photo of Parth, Gustav, and Freddie, which was such a fun
+          little moment. Later in the night Parth and I started roaming around the castle to see
+          what else was there.
+      - photoIds:
+          - p177
+          - p178
+          - p179
+        prose: >-
+          Pictures 176 through 178 were from us exploring. The property was enormous and such a
+          ridiculous place to have a wedding. We did learn that there was no air conditioning and
+          plenty of mosquitoes, so staying in an actual castle apparently had its tradeoffs. By
+          Picture 179 the night was winding down. Gustav and Augustino were kind enough to drive
+          us back, and we all headed home together after such a fun wedding night.
+  - id: day-nine-florence
+    title: "Day Nine: Back to Florence"
+    photoIds:
       - p180
       - p181
       - p182
@@ -1579,6 +2309,62 @@ sections:
       - p188
       - p189
       - p190
+    prose: ''
+    blocks:
+      - photoIds:
+          - p180
+          - p181
+          - p182
+        prose: >-
+          The next morning we met up with Goose and Augustino and headed back to the castle to say
+          goodbye to everyone. The group was planning to spend the day hanging around the pool,
+          but Parth and I wanted one more real day in Florence. Before leaving we played some
+          cards, ate some ice cream, and spent a little more time with the bride, groom, and
+          everyone else from the wedding. Eventually we said our goodbyes and caught a ride with
+          Gustav and Augustino, who needed to head to the airport anyway.
+      - photoIds:
+          - p183
+          - p184
+          - p185
+        prose: >-
+          From the airport we were able to take the train into Florence and check into our
+          accommodation for the night, and wow, it was one of the coolest rooms we had stayed in.
+          It was not actually an Airbnb, just some random hotel style booking we had found online,
+          but the bedroom was spacious and modern, and the bathroom had a full two person
+          whirlpool and its own sauna. Somehow it was also one of the cheapest accommodations we
+          found in Florence. We dropped off our stuff and relaxed for a while, and we even went
+          back and got All'Antico Vinaio again because the sandwiches had been so good the first
+          time.
+      - photoIds:
+          - p186
+          - p187
+          - p188
+          - p189
+          - p190
+        prose: >-
+          Parth eventually needed to work, which gave me the perfect excuse to fully take
+          advantage of the room. I used the sauna and whirlpool and basically turned the bathroom
+          into a steam room. At one point Parth needed to use the bathroom, walked in, immediately
+          walked back out, and told me he literally could not use it because I had made the room
+          so hot. Worth it. Since it was our final night in Italy, we eventually headed back out.
+          Parth remembered a few places he had visited in Florence with Jeremy and Elliot,
+          including a hilltop viewpoint overlooking the city. We took electric bikes most of the
+          way there and then walked up the final little hill.
+
+          The view was incredible. You could see practically all of Florence stretched out below
+          us as the sun went down. We were not really in the mood to drink after the wedding, so
+          we grabbed a couple of nonalcoholic drinks and just sat there enjoying the sunset. It
+          was such a simple way to spend our last evening in Italy, but one of the prettiest. For
+          dinner Parth remembered a restaurant he had loved on his previous trip, tucked down a
+          small side street and much more local than many of the restaurants we had passed in the
+          busier parts of Florence. Almost everything was fantastic. The large tortellini and
+          ravioli were to die for. The one miss was the gnocchi. We had not realized it came in a
+          beetroot sauce, and the beet flavor was just way too strong for me. It was not creamy or
+          acidic enough to balance it out. It just tasted very, very beet. Still, two incredible
+          pastas out of three was a pretty good way to end our time in Italy.
+  - id: day-ten-paris
+    title: "Day Ten: One More Day in Paris"
+    photoIds:
       - p191
       - p192
       - p193
@@ -1586,10 +2372,58 @@ sections:
       - p195
       - p196
     prose: ''
+    blocks:
+      - photoIds:
+          - p191
+          - p192
+          - p193
+        prose: >-
+          On our way home, Parth and I had the option of taking a long layover in Paris, somewhere
+          around 12 to 18 hours, so obviously we took it. We had both been to Paris before, so
+          there was no pressure to run around checking off tourist attractions. We could just
+          spend the day eating, walking around, and revisiting a city we already knew. We started
+          with brunch in one of the LGBTQ neighborhoods at a restaurant covered in umbrellas. I
+          ordered avocado toast with salmon, which sounded great but ended up being surprisingly
+          disappointing. The salmon tasted way too fishy, so I ate about half and gave up.
+      - photoIds:
+          - p194
+          - p195
+          - p196
+        prose: >-
+          My mom and Doug had also been in Paris not long before us and had told me about a bakery
+          they loved that had a Taiwanese owner. Pictures 194 and 195 were from our visit there.
+          Parth was nice enough to trek across the city with me to check it out, and it was
+          definitely worth the stop. Paris was also brutally hot that day, and we spent a good
+          portion of our walking route ducking into random stores just for air conditioning. Not
+          every place had it, because Paris, but thankfully enough of the retail stores did. Then
+          came easily my most important stop of the day, Chez Janou. I had gone there during our
+          2024 Olympics trip and still remembered the duck breast as one of my favorite dishes of
+          all time, and there was no way I was going to have a long layover in Paris and not go
+          back. It was every bit as good as I remembered. The duck breast was massive and
+          perfectly cooked, with incredibly crispy skin. The potatoes were unbelievable, and the
+          red wine sauce was so good that the entire dish still ranks as one of my favorites
+          anywhere. Parth did not even really need to eat, but he was willing to come all the way
+          over with me and hang out while I sat at the bar basically just to eat this one specific
+          duck dish. It sounds like a small thing, but it was genuinely one of those moments that
+          reminded me how caring our friendship is. And that was the end of the trip. What started
+          as Parth inviting me to be his plus one to Freddie's wedding somehow turned into Malta,
+          scuba diving, the Blue Lagoon, Gozo, a wine festival, Bologna, Lamborghini, Pagani,
+          Ferrari, Modena, Calcio Storico, Tuscany, a castle wedding, and one final day eating our
+          way through Paris. Always love going to Europe, and I am very glad we managed to turn an
+          Italy trip for Freddie's wedding into a Malta and Paris trip too.
 pages:
   - file: Jun-Italy-and-Malta-2026-1.html
     sectionIds:
-      - all-photos
+      - day-one-malta
+      - day-two-diving
+      - day-three-parth
+      - day-four-blue-lagoon
+      - day-five-valletta
+      - day-six-car-mecca
+      - day-seven-florence
+      - freddies-wedding
+      - day-nine-florence
+      - day-ten-paris
 skippedVideos: []
 processReport:
   processedAt: '2026-09-12T22:03:10.050Z'

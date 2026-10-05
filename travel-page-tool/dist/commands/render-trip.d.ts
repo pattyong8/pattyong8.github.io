@@ -1,10 +1,6 @@
 import { TripManifest, TripSection } from '../manifest';
+export declare function renderMapHtml(manifest: TripManifest, imagePrefixUrl: string): string;
 export declare function renderIntroHtml(introParagraph: string): string;
-/**
- * Chile reading flow for leftover 1–2 photos:
- * float photos left, put ALL section paragraphs inside the wrap before clear:both
- * so short first paragraphs don't leave a blank column beside tall leftovers.
- */
 export declare function renderSectionHtml(section: TripSection, manifest: TripManifest, imagePrefixUrl: string): string;
 export declare function renderTripHtml(manifest: TripManifest): string;
 export declare function upsertYearCard(projectRoot: string, manifest: TripManifest): void;

@@ -6,8 +6,9 @@
     var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=23';
     var LIST_CSS = '/assets/css/scrapbook-list.css?v=21';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=7';
-    var TRIP_CSS = '/assets/css/travel-trip.css?v=28';
-    var PHOTO_CSS = '/assets/css/travel-photos.css?v=1';
+    var TRIP_CSS = '/assets/css/travel-trip.css?v=31';
+    var PHOTO_CSS = '/assets/css/travel-photos.css?v=3';
+    var COMMENT_JS = '/assets/js/trip-comments.js?v=1';
 
     var SECTION_PAGES = {
         'College-J&S': 'Travel-Pages/college/college-J-Sen.html',
@@ -154,8 +155,9 @@
     function injectTripCss() {
         if (!/\/Travel-Pages-Sub\//.test(location.pathname)) return;
         var root = siteRoot(location.pathname);
-        injectLink(root + TRIP_CSS, 'travel-trip.css?v=28');
-        injectLink(root + PHOTO_CSS, 'travel-photos.css?v=1');
+        injectLink(root + TRIP_CSS, 'travel-trip.css?v=31');
+        injectLink(root + PHOTO_CSS, 'travel-photos.css?v=3');
+        injectScript(root + COMMENT_JS, 'trip-comments.js?v=1');
     }
 
     function ensureHomeLink(toggle, root) {
