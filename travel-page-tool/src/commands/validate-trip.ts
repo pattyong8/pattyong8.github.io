@@ -91,7 +91,8 @@ export function validateTrip(projectRoot: string, manifestPath: string): Validat
     warnings.push(`Trip HTML not rendered yet: ${htmlPath}`);
   } else {
     const html = fs.readFileSync(htmlPath, 'utf-8');
-    if (!html.includes('comments-wrap')) errors.push('Trip HTML missing comments-wrap');
+    if (html.includes('comments-wrap')) errors.push('Trip HTML still has comments-wrap');
+    if (!html.includes('scrapbook-end')) errors.push('Trip HTML missing scrapbook-end');
     if (!html.includes('</article>')) errors.push('Trip HTML missing </article> (nesting risk)');
     if (hasLeftoverBlankColumn(html)) {
       errors.push(LEFTOVER_BLANK_COLUMN_MSG);

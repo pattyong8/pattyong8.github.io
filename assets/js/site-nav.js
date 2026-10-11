@@ -3,10 +3,10 @@
     'use strict';
 
     var DEFAULT_LIST = 'Travel-Pages/20s/20s-2026.html';
-    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=23';
+    var SHELL_CSS = '/assets/css/scrapbook-shell.css?v=25';
     var LIST_CSS = '/assets/css/scrapbook-list.css?v=21';
     var LIST_JS = '/assets/js/scrapbook-list.js?v=7';
-    var TRIP_CSS = '/assets/css/travel-trip.css?v=31';
+    var TRIP_CSS = '/assets/css/travel-trip.css?v=32';
     var PHOTO_CSS = '/assets/css/travel-photos.css?v=3';
     var COMMENT_JS = '/assets/js/trip-comments.js?v=1';
 
@@ -98,7 +98,7 @@
         var link;
         for (i = 0; i < existing.length; i++) {
             linkHref = existing[i].getAttribute('href') || '';
-            if (linkHref.indexOf('scrapbook-shell.css?v=23') !== -1) {
+            if (linkHref.indexOf('scrapbook-shell.css?v=25') !== -1) {
                 existing[i].setAttribute('data-scrapbook-shell', 'true');
                 hasCurrent = true;
             } else if (existing[i].parentNode) {
@@ -155,7 +155,7 @@
     function injectTripCss() {
         if (!/\/Travel-Pages-Sub\//.test(location.pathname)) return;
         var root = siteRoot(location.pathname);
-        injectLink(root + TRIP_CSS, 'travel-trip.css?v=31');
+        injectLink(root + TRIP_CSS, 'travel-trip.css?v=32');
         injectLink(root + PHOTO_CSS, 'travel-photos.css?v=3');
         injectScript(root + COMMENT_JS, 'trip-comments.js?v=1');
     }

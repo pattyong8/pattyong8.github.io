@@ -103,8 +103,10 @@ function validateTrip(projectRoot, manifestPath) {
     }
     else {
         const html = fs.readFileSync(htmlPath, 'utf-8');
-        if (!html.includes('comments-wrap'))
-            errors.push('Trip HTML missing comments-wrap');
+        if (html.includes('comments-wrap'))
+            errors.push('Trip HTML still has comments-wrap');
+        if (!html.includes('scrapbook-end'))
+            errors.push('Trip HTML missing scrapbook-end');
         if (!html.includes('</article>'))
             errors.push('Trip HTML missing </article> (nesting risk)');
         if ((0, layout_guards_1.hasLeftoverBlankColumn)(html)) {

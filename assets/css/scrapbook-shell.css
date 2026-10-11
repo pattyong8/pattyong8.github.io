@@ -684,6 +684,39 @@ header.scrapbook-shell a.scrapbook-logo span,
 	max-width: none;
 }
 
+.scrapbook-bucket {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px 28px;
+	margin: 0 0 var(--s-4);
+	padding: 0;
+}
+
+.scrapbook-bucket li {
+	position: relative;
+	margin: 0;
+	padding: 0 0 0 22px;
+	font-family: var(--font-sans);
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.45;
+	color: var(--ink);
+}
+
+.scrapbook-bucket li::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0.28em;
+	width: 12px;
+	height: 12px;
+	box-sizing: border-box;
+	border: 1.5px solid var(--sea-deep);
+	border-radius: 2px;
+	background: var(--surface);
+}
+
 .scrapbook-end {
 	max-width: var(--page-max);
 	margin: 0 auto;
@@ -750,6 +783,16 @@ header.scrapbook-shell a.scrapbook-logo span,
 	}
 
 	.scrapbook-story {
+		grid-template-columns: 1fr;
+	}
+
+	.scrapbook-bucket {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 520px) {
+	.scrapbook-bucket {
 		grid-template-columns: 1fr;
 	}
 }

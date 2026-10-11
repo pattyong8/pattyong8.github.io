@@ -7,7 +7,11 @@ dateRange: Feb 2025
 startDate: '2025-01-20'
 location: Madison Square Garden
 people: Friends
-introParagraph: ''
+introParagraph: >-
+  This was the first year I got some great perks at Olive Tree, including seats just 10 rows
+  behind the hoop at Madison Square Garden to watch the Knicks. Boy, was this fun! It was great to
+  bring Parth, who is also a huge basketball fan. We got to watch KAT warm up up close and even
+  caught the game with Ezra and Gabby, although their seats were much further back than ours!
 tripPrefix: Knicks-vs-Hawks-Feb-2025
 photosDir: assets/images/Travel-Pages-Images/20s/2025/Knicks-vs-Hawks-Feb-2025
 coverSource: _incoming/Cover.jpeg

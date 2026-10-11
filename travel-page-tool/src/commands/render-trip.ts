@@ -291,8 +291,6 @@ ${mapBlock}
 ${body}
 				</div> <!-- end entry content -->
 
-${commentsPartial()}
-
 			</article>
 
 		</main>
@@ -300,6 +298,8 @@ ${commentsPartial()}
 	</div> <!-- end s-content -->
 
 </section>
+
+${pageEndMark()}
 
 <div id="footer"></div>
 
@@ -309,49 +309,10 @@ ${commentsPartial()}
 `;
 }
 
-function commentsPartial(): string {
-  return `			<div class="comments-wrap">
-
-				<div id="comments" class="column large-12">
-
-					<h3 class="h2">Comments</h3>
-
-					<ol class="commentlist">
-						<li class="thread-alt depth-1 comment">
-							<div class="comment__content">
-								<div class="comment__info">
-									<div class="comment__author">Nothing yet!</div>
-									<div class="comment__meta">
-										<div class="comment__time">:)</div>
-									</div>
-								</div>
-								<div class="comment__text">
-								<p>Coming Soon</p>
-								</div>
-							</div>
-						</li>
-					</ol>
-
-				</div>
-
-				<div class="column large-12 comment-respond">
-					<div id="respond">
-						<h3 class="h2">Add Comment <span>Help me create memories from your perspective!</span></h3>
-						<form name="submit-to-google-sheet" id="contactForm" method="post" action="" autocomplete="off">
-							<fieldset>
-								<div class="form-field">
-									<input name="cName" id="cName" class="full-width" placeholder="Your Name" value="" type="text" required>
-								</div>
-								<div class="message form-field">
-									<textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" required></textarea>
-								</div>
-								<input name="submit" id="submit-form" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
-							</fieldset>
-						</form>
-				</div>
-
-			</div> <!-- end comments-wrap -->
-`;
+function pageEndMark(): string {
+  return `<footer class="scrapbook-end" role="contentinfo">
+	<p>ONGtheroad</p>
+</footer>`;
 }
 
 export function upsertYearCard(

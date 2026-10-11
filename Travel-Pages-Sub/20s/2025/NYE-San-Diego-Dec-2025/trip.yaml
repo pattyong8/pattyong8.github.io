@@ -6,8 +6,13 @@ year: '2025'
 dateRange: Dec 31st 2025
 startDate: '2025-12-31'
 location: San Diego, California
-people: Friends
-introParagraph: ''
+people: Cal Friends
+introParagraph: >-
+  For the past couple of years, we had a tradition of renting an Airbnb in San Diego with the New
+  York crew for New Year's Eve. That did not happen this year, but instead, I got to celebrate with
+  some of my Cal friends from college. Jack could not make it, but we got to catch up with Rishi,
+  who had recently moved to San Diego, and spend New Year's Eve with the rest of the fellas. A great
+  way to ring in the new year!
 tripPrefix: NYE-San-Diego-Dec-2025
 photosDir: assets/images/Travel-Pages-Images/20s/2025/NYE-San-Diego-Dec-2025
 coverSource: _incoming/Cover.jpeg
@@ -26,7 +31,7 @@ photos:
     sourceFile: IMG_0937.jpeg
     exif: '2025-12-31T23:33:20.000Z'
     flags: []
-    bytes: 363842
+    bytes: 535984
   - id: p003
     seq: 3
     file: NYE-San-Diego-Dec-2025-3.jpeg
@@ -44,35 +49,61 @@ photos:
   - id: p005
     seq: 5
     file: NYE-San-Diego-Dec-2025-5.jpeg
-    sourceFile: IMG_0942.jpeg
-    exif: '2026-01-01T00:21:51.000Z'
-    flags: []
-    bytes: 374568
-  - id: p006
-    seq: 6
-    file: NYE-San-Diego-Dec-2025-6.jpeg
     sourceFile: IMG_0943.jpeg
     exif: '2026-01-01T01:51:36.000Z'
     flags: []
     bytes: 568825
-  - id: p007
-    seq: 7
-    file: NYE-San-Diego-Dec-2025-7.jpeg
-    sourceFile: IMG_0946.JPG
-    exif: '2026-01-01T05:03:51.000Z'
-    flags: []
-    bytes: 233346
-  - id: p008
-    seq: 8
-    file: NYE-San-Diego-Dec-2025-8.jpeg
+  - id: p006
+    seq: 6
+    file: NYE-San-Diego-Dec-2025-6.jpeg
     sourceFile: IMG_0955.jpeg
     exif: '2026-01-01T18:15:43.000Z'
     flags: []
     bytes: 323328
-sections: []
+sections:
+  - id: trip
+    title: ''
+    photoIds:
+      - p001
+      - p002
+      - p003
+      - p004
+      - p005
+      - p006
+    prose: ''
+    blocks:
+      - photoIds:
+          - p001
+          - p002
+          - p003
+        prose: >-
+          Matt and I had gone back and forth on whether to stay in Southern California for New
+          Year's Eve or head back to our respective cities. In the end, we decided to stick around
+          and carpooled down to San Diego together. We kicked off the trip at a brewery, enjoyed a
+          few beers, and then met up with Rishi for dinner.
+
+
+          Rishi had recently moved down from San Francisco, and he took us to a restaurant he had
+          been wanting to bring his family to. It was great to catch up over some good food.
+      - photoIds:
+          - p004
+          - p005
+          - p006
+        prose: >-
+          After dinner, we stopped by Rishi's place for another drink before heading to Connor's.
+          Funny enough, Connor was not even there when we arrived. Instead, we were greeted by Ryan,
+          Quinn, Jared, Harry, Sam, Emily, and a few other friends. We spent the night playing
+          drinking games, catching up, and having a great time ringing in the new year.
+
+
+          The next morning, Matt, Connor, Rishi, and I decided to hit the gym for a little recovery
+          session. Rishi was hilarious, jumping around like nothing had happened the night before
+          and doing some of the highest box jumps I had ever seen. A fun way to recover after a long
+          night and wrap up another great New Year's trip.
 pages:
   - file: NYE-San-Diego-Dec-2025-1.html
-    sectionIds: []
+    sectionIds:
+      - trip
 skippedVideos: []
 processReport:
   processedAt: '2026-09-26T22:27:08.374Z'
@@ -80,3 +111,4 @@ processReport:
   needsPlacement: []
   possibleDuplicates: []
 gallaryThumb: assets/images/gallary/20s/2025/Dec-NYE-San-Diego-2025.jpeg
+cacheBust: '1791602900000'

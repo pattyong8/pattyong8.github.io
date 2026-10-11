@@ -51,7 +51,8 @@ body.scrapbook-trip .entry__post-thumb {
 body.scrapbook-trip .entry__post-thumb img {
 	display: block;
 	width: 100%;
-	aspect-ratio: 16 / 9;
+	/* Desktop only. A little shorter than 16:9. Phones reset this below. */
+	aspect-ratio: 2.2 / 1;
 	max-height: min(72vh, 660px);
 	object-fit: cover;
 	object-position: center 40%;
